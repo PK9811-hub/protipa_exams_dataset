@@ -1,0 +1,5 @@
+Description
+The image displays a pie chart titled "Ποσοστά ψήφων" (Percentages of votes). It illustrates the distribution of votes among three candidates, labeled A, B, and Γ.\nBlue Sector (A): Represents the largest portion.\nOrange Sector (B): Represents the second-largest portion.\nGrey Sector (Γ): Represents the smallest portion.
+
+Transcription
+Title: Ποσοστά ψήφων\nData Segments:\nA: 40%\nB: 35%\nΓ: 25%

@@ -1,0 +1,5 @@
+Description
+The image displays a pie chart (circular diagram) divided into four sectors, each representing a different sport preference. The sectors are distinguished by different black-and-white patterns:\nFootball: Diagonal stripes.\nBasketball: Vertical stripes.\nOther Sport: Cross-hatching (grid pattern).\nVolleyball: Dotted pattern.\nLabels outside the circle indicate the sport and, for some, the corresponding percentage.
+
+Transcription
+45% ποδόσφαιρο (football/soccer)\n30% μπάσκετ (basketball)\nβόλεϊ (volleyball)\nάλλο άθλημα (other sport)

@@ -1,0 +1,5 @@
+Description
+The image illustrates a math problem using two balanced weighing scales.\nLeft Scale: On the left pan, there is a large box containing a mix of items. On the right pan, there is a single large weight. The scale is balanced, indicating the total weight of the box's contents equals the weight.\nRight Scale: This scale compares the two types of items separately. The left pan holds a box with one type of item. The right pan holds a box with the other type of item *plus* a small weight. The scale is balanced, showing a relationship between the weights of the two items.
+
+Transcription
+Left Scale:\nBox Label: πατάτες και κρεμμύδια (potatoes and onions)\nWeight: 28κιλά (28 kg)\nRight Scale:\nLeft Pan Box: κρεμμύδια (onions)\nRight Pan Box: πατάτες (potatoes)\nRight Pan Weight: 4κιλά (4 kg)

@@ -1,0 +1,2 @@
+Description
+The image displays a segment of a horizontal number line with three points marked.\nLeft Point: Labeled with the fraction $\frac{\alpha}{\beta}$.\nMiddle Point: Labeled with the fraction $\frac{7}{9}$.\nRight Point: Labeled with the fraction $\frac{10}{9}$.\nThe distance between the left point and the middle point appears visually larger than the distance between the middle point and the right point.

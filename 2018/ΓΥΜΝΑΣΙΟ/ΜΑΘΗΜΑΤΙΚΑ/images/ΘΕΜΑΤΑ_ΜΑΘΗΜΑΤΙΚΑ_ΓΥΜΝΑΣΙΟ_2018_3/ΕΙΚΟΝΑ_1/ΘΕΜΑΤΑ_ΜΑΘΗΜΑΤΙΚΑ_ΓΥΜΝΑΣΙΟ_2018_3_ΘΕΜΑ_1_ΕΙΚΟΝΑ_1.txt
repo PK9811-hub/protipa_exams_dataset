@@ -1,0 +1,2 @@
+Description
+The image shows a large square grid divided into smaller squares, creating a checkerboard-like pattern.\nDimensions: The grid is $5$ squares wide and $5$ squares high.\nPattern: It alternates between white and black regions.\nThere are 9 distinct white squares clearly visible, arranged in a $3 \times 3$ formation separated by black bands.\nThe black area forms a connected grid (like a lattice) separating the white squares.

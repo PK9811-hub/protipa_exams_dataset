@@ -1,0 +1,351 @@
+[
+  {
+    "id": "26",
+    "question": "Σήμερα είναι 18 Μαΐου. Σε 15 ημέρες πόσο του μήνα θα είναι;",
+    "input": "",
+    "choices": [
+      "A. 2",
+      "B. 4",
+      "Γ. 1",
+      "Δ. 33"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "27",
+    "question": "Ο Γιώργος και ο Κώστας έχουν το ίδιο ποσό χρημάτων ο καθένας. Πόσα ευρώ πρέπει να δώσει ο Γιώργος στον Κώστα για να έχει ο Γιώργος 30 ευρώ λιγότερα από τον Κώστα;",
+    "input": "",
+    "choices": [
+      "A. 10 €",
+      "B. 15 €",
+      "Γ. 20 €",
+      "Δ. 30 €"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "28",
+    "question": "Ποιος είναι ο μέσος όρος των αριθμών 2021, 2022, 2023, 2024, 2025;",
+    "input": "",
+    "choices": [
+      "A. 2022",
+      "B. 2022,5",
+      "Γ. 2023",
+      "Δ. 2023,5"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "29",
+    "question": "Σε μία κατασκήνωση πήγαν 25 παιδιά. Από αυτά τα παιδιά τα κορίτσια ήταν το 40%. Πόσα ήταν τα αγόρια στην κατασκήνωση;",
+    "input": "",
+    "choices": [
+      "Α. 150",
+      "B. 125",
+      "Γ. 100",
+      "Δ. 175"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "30",
+    "question": "Ποια είναι η τιμή της παράστασης $(\\frac{9}{2}-2^{2}):\\frac{1}{4}$",
+    "input": "",
+    "choices": [
+      "A. 2",
+      "B. $\\frac{1}{2}$",
+      "Γ. $\\frac{1}{8}$",
+      "Δ. 10"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "31",
+    "question": "Στην αριθμογραμμή του διπλανού σχήματος, ο αριθμός α απέχει το ίδιο από το 0 και το 5. Επίσης οι αριθμοί α και χ απέχουν το ίδιο από το 5. Ποιος είναι ο αριθμός  χ  ;",
+    "input": "The image displays a horizontal number line with four specific points marked by black dots. The points are arranged sequentially from left to right and are labeled as follows:\n0\n$\\alpha$ (alpha)\n5\nx",
+    "choices": [
+      "A. 2,5",
+      "B. 3",
+      "Γ. 7,5",
+      "Δ. 6"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2024/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2024_ΘΕΜΑ_31_ΕΙΚΟΝΑ_1.png",
+        "description": "The image displays a horizontal number line with four specific points marked by black dots. The points are arranged sequentially from left to right and are labeled as follows:\n0\n$\\alpha$ (alpha)\n5\nx",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "32",
+    "question": "Σε ένα κουτί έχω χρωματιστά μπαλάκια και τα $\\frac{2}{5}$ από αυτά είναι πράσινα. Αν τα μπαλάκια στο κουτί που δεν είναι πράσινα είναι 60, πόσα είναι τα πράσινα μπαλάκια;",
+    "input": "",
+    "choices": [
+      "A. 36",
+      "B. 40",
+      "Γ. 24",
+      "Δ. 90"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "33",
+    "question": "Η Μαρία, ξεκινώντας από την πόρτα του σπιτιού της περπάτησε 50 μέτρα βόρεια, 30 μέτρα ανατολικά και 20 μέτρα νότια και έφτασε μπροστά στην πόρτα του σχολείου. Στη συνέχεια, από την πόρτα του σχολείου περπάτησε 30 μέτρα δυτικά. Για να επιστρέψει στο σπίτι της πόσο ακόμα χρειάζεται να περπατήσει;",
+    "input": "",
+    "choices": [
+      "Α. 50 μέτρα νότια",
+      "Β. 30 μέτρα νότια",
+      "Γ. 20 μέτρα νότια",
+      "Δ. 50 μέτρα βόρεια και 20 μέτρα νότια"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "34",
+    "question": "Ποιον αριθμό πρέπει να προσθέσουμε στο κλάσμα $\\frac{5}{7}$ για να πάρουμε το κλάσμα $\\frac{22}{21}$ ;",
+    "input": "",
+    "choices": [
+      "A. $\\frac{1}{4}$",
+      "B. $\\frac{2}{5}$",
+      "Γ. $\\frac{1}{3}$",
+      "Δ. $\\frac{5}{7}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "35",
+    "question": "Ένας τριψήφιος αριθμός έχει 9 δεκάδες. Αν αυξήσω τον αριθμό κατά 3 μονάδες ο αριθμός των εκατοντάδων του είναι 7, ενώ αν τον αυξήσω κατά 4 μονάδες ο αριθμός των εκατοντάδων του είναι 8. Ποιος είναι ο τριψήφιος αριθμός;",
+    "input": "",
+    "choices": [
+      "Α. 797",
+      "Β. 796",
+      "Γ. 896",
+      "Δ. 799"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "36",
+    "question": "Στον πίνακα φαίνεται το πρόγραμμα των ωρών της $A^{\\prime}$ γυμνασίου, κάθε Πέμπτη. Ο Μιχάλης την $6^{η}$ ώρα κοίταξε το ρολόι του και έμεναν 20 λεπτά για να σχολάσει. Θυμάται ότι πριν 2 ώρες και 50 λεπτά, στο διάλειμμα, είχε αγοράσει ένα κουλούρι από το κυλικείο. Αν θυμάται καλά, σε ποιο διάλειμμα είχε αγοράσει το κουλούρι;",
+    "input": "Πίνακας με το ωρολόγιο πρόγραμμα:\n1η: 8:15-9:00\n2η: 9:10-9:55\n3η: 10:10-10:55\n4η: 11:05-11:45\n5η: 11:50-12:30\n6η: 12:35-13:15\nΔιαλείμματα: 9:00-9:10, 9:55-10:10, 10:55-11:50, 11:45-11:50, 12:30-12:35",
+    "choices": [
+      "Α. Μεταξύ 1ης και 2ης ώρας",
+      "Β. Μεταξύ 2ης και 3ης ώρας",
+      "Γ. Μεταξύ 3ης και 4ης ώρας",
+      "Δ. Δεν θυμάται καλά, γιατί πριν 2 ώρες και 5 λεπτά ήταν ώρα μαθήματος"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "37",
+    "question": "Ποιο κλάσμα είναι πιο κοντά στον αριθμό 0,9;",
+    "input": "",
+    "choices": [
+      "A. $\\frac{4}{5}$",
+      "B. $\\frac{7}{10}$",
+      "Γ. $\\frac{11}{10}$",
+      "Δ. $\\frac{19}{20}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "38",
+    "question": "Ένα μπουκάλι είναι γεμάτο με νερό κατά τα $\\frac{9}{12}$. Γεμίζω 2 ίδια ποτήρια με νερό από το μπουκάλι και τώρα το μπουκάλι είναι γεμάτο με νερό κατά το $\\frac{1}{12}$ Με πόσα ποτήρια νερό γεμίζει το μπουκάλι, αν είναι άδειο;",
+    "input": "",
+    "choices": [
+      "A. 6",
+      "B. 3",
+      "Γ. 2",
+      "Δ. 4"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "39",
+    "question": "Ποιος αριθμός μεταξύ 20 και 35 λείπει από το μοτίβο: 2, 5, 9, 14, 20, ..., 35, 44, 54, 65;",
+    "input": "",
+    "choices": [
+      "A. 26",
+      "B. 27",
+      "Γ. 28",
+      "Δ. 29"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "40",
+    "question": "Στο διπλανό σχήμα έχουμε σχεδιάσει ένα τετράγωνο με πλευρά 20 εκ. και στο εσωτερικό του σχεδιάσαμε δυο ημικύκλια με διάμετρο την πλευρά του τετραγώνου. Ποιο είναι το εμβαδόν του μαύρου χωρίου; (να χρησιμοποιήσετε ότι $\\pi=3,14$)",
+    "input": "The image displays a geometric diagram enclosed within a square.\nShapes: The square contains two semicircles drawn inside it.\nThe left semicircle has its diameter aligned with the left vertical side of the square.\nThe right semicircle has its diameter aligned with the right vertical side of the square.\nThe two semicircles meet tangentially at the center of the square.\nShading: The area between the two semicircles, located at the top and bottom central parts of the square, is shaded black. This forms an hourglass-like shape. The areas inside the semicircles are white.",
+    "choices": [
+      "Α. 314 τ.εκ.",
+      "Β. 274,4 τ.εκ.",
+      "Γ. 125,6 τ. εκ.",
+      "Δ. 86 τ. εκ."
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2024/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2024_ΘΕΜΑ_40_ΕΙΚΟΝΑ_2.png",
+        "description": "The image displays a geometric diagram enclosed within a square.\nShapes: The square contains two semicircles drawn inside it.\nThe left semicircle has its diameter aligned with the left vertical side of the square.\nThe right semicircle has its diameter aligned with the right vertical side of the square.\nThe two semicircles meet tangentially at the center of the square.\nShading: The area between the two semicircles, located at the top and bottom central parts of the square, is shaded black. This forms an hourglass-like shape. The areas inside the semicircles are white.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "41",
+    "question": "Έχουμε δύο ράβδους με μήκη 160 εκ. και 96 εκ. και θέλουμε να τις κόψουμε σε ίσα κομμάτια ώστε το μήκος κάθε κομματιού της μιας να είναι ίσο με το μήκος κάθε κομματιού της άλλης. Ποιο είναι το μεγαλύτερο δυνατό μήκος που μπορεί να έχει ένα τέτοιο κομμάτι;",
+    "input": "Απεικόνιση δύο ράβδων με μήκη **160 εκ** και **96 εκ**.",
+    "choices": [
+      "Α. 16 εκ.",
+      "Β. 24 εκ.",
+      "Γ. 32 εκ.",
+      "Δ. 36 εκ."
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "42",
+    "question": "Μπορούμε να αγοράσουμε δοχεία 18 λίτρων με κόστος 2,5€ το ένα και δοχεία 12 λίτρων με κόστος 1,70€ το ένα. Ποιο είναι το μικρότερο δυνατό κόστος για να συσκευάσουμε 300 λίτρα λάδι αγοράζοντας κάποια από τα παραπάνω δοχεία;",
+    "input": "",
+    "choices": [
+      "A. 40 €",
+      "Β. 41,7 €",
+      "Γ. 42 €",
+      "Δ. 42,5 €"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "43",
+    "question": "Μια τυρόπιττα κι ένας καφές κοστίζουν 3,50 €, ένας καφές κι ένα μπουκαλάκι νερό κοστίζουν 2 €, μια τυρόπιτα κι ένα μπουκαλάκι νερό κοστίζουν 2,10 €. Πόσο θα πληρώσουμε αν αγοράσουμε έναν καφέ, μια τυρόπιτα κι ένα μπουκαλάκι νερό μαζί;",
+    "input": "",
+    "choices": [
+      "A. 3,30 €",
+      "B. 3,50 €",
+      "Γ. 3,60 €",
+      "Δ. 3,80 €"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "44",
+    "question": "Τρεις αεροπορικές εταιρείες Α, Β και Γ για το δρομολόγιο Αθήνα – Θεσσαλονίκη – Αθήνα χρεώνουν 200€. Όμως έχουν τις εξής προσφορές: Η Α δίνει πακέτο 4 εισιτήρια στην τιμή των 780€ και ένα 5ο δωρεάν, η Β δίνει πακέτο 3 εισιτήρια στην τιμή των 600€ και ένα 4ο δωρεάν ενώ η Γ δίνει στην αρχική τιμή έκπτωση 25% στο 2ο εισιτήριο και 30% στο 3ο εφόσον αγοράσουμε 3 εισιτήρια μαζί. Ποια ή ποιες εταιρείες έχουν την πιο οικονομική προσφορά για να κάνουμε 6 ταξίδια Αθήνα – Θεσσαλονίκη – Αθήνα;",
+    "input": "",
+    "choices": [
+      "Α. μόνο η Α",
+      "Β. μόνο η Β",
+      "Γ. η Α και η Γ",
+      "Δ. όλες έχουν το ίδιο κόστος"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "45",
+    "question": "Ο εργάτης Α χτίζει μια μάντρα σε 12 ημέρες, ενώ ο εργάτης Β χτίζει την ίδια μάντρα σε 8 ημέρες. Αν ο εργάτης Α εργαστεί 3 ημέρες για να χτίσει τη μάντρα, πόσες ημέρες πρέπει να εργαστεί στην συνέχεια ο εργάτης Β, για να την τελειώσει;",
+    "input": "",
+    "choices": [
+      "A. 7",
+      "B. 5",
+      "Γ. 6",
+      "Δ. 9"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "46",
+    "question": "Ο Κώστας και ο Γιάννης βρίσκονται στις δύο άκρες ενός μονοπατιού και ξεκινούν να περπατάνε ο ένας προς τον άλλο. Όταν ο Κώστας έχει διανύσει τα $\\frac{3}{5}$ του μονοπατιού η απόστασή τους είναι ίση με το $\\frac{1}{2}$ του μονοπατιού. Τι μέρος του μονοπατιού έχει διανύσει ο Γιάννης;",
+    "input": "Απεικόνιση δύο ατόμων, του **Κώστα** και του **Γιάννη**, στις άκρες ενός μονοπατιού.",
+    "choices": [
+      "A. $\\frac{9}{10}$",
+      "B. $\\frac{3}{5}$",
+      "Γ. $\\frac{2}{5}$",
+      "Δ. $\\frac{1}{2}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "47",
+    "question": "Τρεις τυρόπιτες και δύο χυμοί κοστίζουν όσο δύο σπανακόπιτες και τρεις χυμοί. Αν ο κάθε χυμός είναι 20 λεπτά φτηνότερος από την κάθε τυρόπιτα, τότε η σπανακόπιτα είναι από την τυρόπιτα:",
+    "input": "",
+    "choices": [
+      "Α. 20 λεπτά ακριβότερη",
+      "Β. 20 λεπτά φτηνότερη",
+      "Γ. 10 λεπτά ακριβότερη",
+      "Δ. 10 λεπτά φτηνότερη"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "48",
+    "question": "Σε ένα ταξίδι καταναλώσαμε το $\\frac{1}{4}$ της βενζίνης που χωράει η δεξαμενή του αυτοκινήτου μας, όταν είναι γεμάτη. Αν πριν το ταξίδι η δεξαμενή είχε 45 λίτρα βενζίνης και μετά το ταξίδι ήταν γεμάτη η μισή δεξαμενή, πόσα λίτρα βενζίνης χωράει συνολικά η δεξαμενή του αυτοκινήτου μας;",
+    "input": "",
+    "choices": [
+      "Α. 90",
+      "B. 45",
+      "Γ. 60",
+      "Δ. δεν μπορούμε να υπολογίσουμε"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "49",
+    "question": "Όλα τα παιδιά ενός Δημοτικού Σχολείου πήραν από ένα χυμό. Στο διάγραμμα φαίνονται τα ποσοστά των παιδιών ανά γεύση χυμού. Μήλο πήραν τα διπλάσια παιδιά από όσα πήραν βύσσινο. Αχλάδι πήραν τα μισά από όσα πήραν βύσσινο. Πορτοκάλι πήραν 15% περισσότερα παιδιά από αυτά που πήραν ροδάκινο. Τι ποσοστό των παιδιών πήρε χυμό βύσσινο;",
+    "input": "The image displays a vertical bar chart (histogram) without specific labels for the x-axis categories.\nY-axis (Vertical): Represents a numerical scale ranging from 0 to 45, with increments of 5. Horizontal grid lines indicate these values.\nData Bars: There are five black vertical bars of varying heights.\nBar 1: Reaches the height of 25.\nBar 2: Reaches the height of 20.\nBar 3: Reaches the height of 40 (the tallest bar).\nBar 4: Reaches the height of 10.\nBar 5: Reaches the height of 5.",
+    "choices": [
+      "A. 20%",
+      "B. 10%",
+      "Γ. 5%",
+      "Δ. 25%"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2024/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2024_ΘΕΜΑ_49_ΕΙΚΟΝΑ_3.png",
+        "description": "The image displays a vertical bar chart (histogram) without specific labels for the x-axis categories.\nY-axis (Vertical): Represents a numerical scale ranging from 0 to 45, with increments of 5. Horizontal grid lines indicate these values.\nData Bars: There are five black vertical bars of varying heights.\nBar 1: Reaches the height of 25.\nBar 2: Reaches the height of 20.\nBar 3: Reaches the height of 40 (the tallest bar).\nBar 4: Reaches the height of 10.\nBar 5: Reaches the height of 5.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "50",
+    "question": "Αν η απόσταση από το λιμάνι της Καρπάθου έως το λιμάνι της Νισύρου είναι περίπου 123 χιλιόμετρα ποια είναι, στρογγυλοποιημένη στη δεκάδα, η απόσταση από το λιμάνι της Νισύρου έως το λιμάνι της Αστυπάλαιας; (οι θέσεις των λιμανιών είναι σημειωμένες με λευκές κουκίδες)",
+    "input": "The image displays a map of the Dodecanese islands overlaid with a square grid.\nIslands shown: Parts of Kos (ΚΩΣ), Nisyros (ΝΙΣΥΡΟΣ), Tilos (ΤΗΛΟΣ), Astypalaia (ΑΣΤΥΠΑΛΑΙΑ), Karpathos (ΚΑΡΠΑΘΟΣ), and Kasos (ΚΑΣΟΣ).\nPorts: White dots mark the locations of ports on three specific islands:\nKarpathos (ΚΑΡΠΑΘΟΣ): A white dot is located on the southern part of the island.\nNisyros (ΝΙΣΥΡΟΣ): A white dot is located on the island.\nAstypalaia (ΑΣΤΥΠΑΛΑΙΑ): A white dot is located on the island.\nGrid Coordinates:\nKarpathos Port: Located approximately at the intersection of a vertical and horizontal grid line.\nNisyros Port: Located 4 grid units North of the Karpathos port line.\nAstypalaia Port: Located 3 grid units West of the Nisyros port line.",
+    "choices": [
+      "Α. 80χλμ",
+      "Β. 70χλμ",
+      "Γ. 60χλμ",
+      "Δ. 50χλμ"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2024/ΕΙΚΟΝΑ_4/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2024_ΘΕΜΑ_50_ΕΙΚΟΝΑ_4.png",
+        "description": "The image displays a map of the Dodecanese islands overlaid with a square grid.\nIslands shown: Parts of Kos (ΚΩΣ), Nisyros (ΝΙΣΥΡΟΣ), Tilos (ΤΗΛΟΣ), Astypalaia (ΑΣΤΥΠΑΛΑΙΑ), Karpathos (ΚΑΡΠΑΘΟΣ), and Kasos (ΚΑΣΟΣ).\nPorts: White dots mark the locations of ports on three specific islands:\nKarpathos (ΚΑΡΠΑΘΟΣ): A white dot is located on the southern part of the island.\nNisyros (ΝΙΣΥΡΟΣ): A white dot is located on the island.\nAstypalaia (ΑΣΤΥΠΑΛΑΙΑ): A white dot is located on the island.\nGrid Coordinates:\nKarpathos Port: Located approximately at the intersection of a vertical and horizontal grid line.\nNisyros Port: Located 4 grid units North of the Karpathos port line.\nAstypalaia Port: Located 3 grid units West of the Nisyros port line.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  }
+]

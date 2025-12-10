@@ -1,0 +1,5 @@
+Description
+The image is a vertical bar chart titled "Ενασχόληση στον ελεύθερο χρόνο" (Free time activities).\nY-axis: Represents the number of children (frequency), with a scale labeled 0, 10, 20, 30, 40.\nX-axis: Lists four different activities.\nData Bars: There are four blue bars showing the popularity of each activity.
+
+Transcription
+Chart Data:\nηλεκτρονικά παιχνίδια (electronic games): 30\nπαιχνίδι με φίλους (playing with friends): 20\nμουσική (music): 20\nλογοτεχνία (literature): 10

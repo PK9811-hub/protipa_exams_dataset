@@ -1,0 +1,5 @@
+Description
+The image displays a data table titled with columns "Άθλημα" (Sport) and "Πλήθος μαθητών" (Number of students).\nRow 1:\nΒόλεϊ (Volleyball) - 48 students\nRow 2:\nΜπάσκετ (Basketball) - 93 students\nRow 3:\nΠοδόσφαιρο (Football/Soccer) - No number is provided (blank cell).\nRow 4:\nΆλλο (Other) - 51 students\nRow 5:\nΣύνολο (Total) - 300 students
+
+Transcription
+Table Data:\nΒόλεϊ: 48\nΜπάσκετ: 93\nΠοδόσφαιρο: (blank)\nΆλλο: 51\nΣύνολο: 300

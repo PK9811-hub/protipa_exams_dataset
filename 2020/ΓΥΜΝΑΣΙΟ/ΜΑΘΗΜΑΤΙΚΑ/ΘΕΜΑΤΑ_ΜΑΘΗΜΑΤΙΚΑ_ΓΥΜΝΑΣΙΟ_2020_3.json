@@ -1,0 +1,363 @@
+[
+  {
+    "id": "26",
+    "question": "Ποια είναι η τιμή της αριθμητικής παράστασης: $20:\\frac{1}{2}-20-2:0,2+2\\cdot2^{2}+2=$",
+    "input": "",
+    "choices": [
+      "A. 2",
+      "B. 0,2",
+      "Γ. 20",
+      "Δ. 40"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "27",
+    "question": "Ποιος αριθμός είναι τριπλάσιος του αριθμού που αντιστοιχεί στο σημείο Α του παρακάτω τμήματος της αριθμογραμμής;",
+    "input": "The image displays a horizontal number line marked with regularly spaced vertical tick marks.\nScale: The integers 1 and 2 are explicitly labeled below the line.\nSubdivisions: The distance between the numbers 1 and 2 is divided into 10 equal intervals (spaces).\nPoint A: The letter A is positioned above a specific tick mark located to the left of the number 1. Specifically, point A is located exactly one interval before the number 1.",
+    "choices": [
+      "A. 3",
+      "B. 2,7",
+      "Γ. 0,3",
+      "Δ. 0,9"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2020_3/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2020_3_ΘΕΜΑ_27_ΕΙΚΟΝΑ_1.png",
+        "description": "The image displays a horizontal number line marked with regularly spaced vertical tick marks.\nScale: The integers 1 and 2 are explicitly labeled below the line.\nSubdivisions: The distance between the numbers 1 and 2 is divided into 10 equal intervals (spaces).\nPoint A: The letter A is positioned above a specific tick mark located to the left of the number 1. Specifically, point A is located exactly one interval before the number 1.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "28",
+    "question": "Ο Παναγιώτης είναι 7 χρόνια μεγαλύτερος από την Αφροδίτη. Η Αφροδίτη είναι 7 χρόνια μικρότερη από την Ευαγγελία. Αν ο Παναγιώτης είναι 33 ετών, πόσων ετών είναι η Ευαγγελία;",
+    "input": "",
+    "choices": [
+      "Α. 19",
+      "Β. 33",
+      "Γ. 40",
+      "Δ. 47"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "29",
+    "question": "Η Μαρία θέλει να καλέσει τους φίλους και τις φίλες της στο σπίτι για παιχνίδι. Θα μαζευτούν από 2 μέχρι το πολύ 5 παιδιά. Πόσες το λιγότερο καραμέλες πρέπει να αγοράσει ώστε σε κάθε περίπτωση να τις μοιραστούν δίκαια και να μην περισσέψει καμιά;",
+    "input": "",
+    "choices": [
+      "Α. 10",
+      "Β. 15",
+      "Γ. 60",
+      "Δ. 120"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "30",
+    "question": "Παρατήρησε τις παρακάτω ζυγαριές που ισορροπούν. Πόσο ζυγίζουν τα κρεμμύδια;",
+    "input": "The image illustrates a math problem using two balanced weighing scales.\nLeft Scale: On the left pan, there is a large box containing a mix of items. On the right pan, there is a single large weight. The scale is balanced, indicating the total weight of the box's contents equals the weight.\nRight Scale: This scale compares the two types of items separately. The left pan holds a box with one type of item. The right pan holds a box with the other type of item *plus* a small weight. The scale is balanced, showing a relationship between the weights of the two items.",
+    "choices": [
+      "Α. 14 κιλά",
+      "Β. 16 κιλά",
+      "Γ. 32 κιλά",
+      "Δ. 24 κιλά"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2020_3/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2020_3_ΘΕΜΑ_30_ΕΙΚΟΝΑ_2.png",
+        "description": "The image illustrates a math problem using two balanced weighing scales.\nLeft Scale: On the left pan, there is a large box containing a mix of items. On the right pan, there is a single large weight. The scale is balanced, indicating the total weight of the box's contents equals the weight.\nRight Scale: This scale compares the two types of items separately. The left pan holds a box with one type of item. The right pan holds a box with the other type of item *plus* a small weight. The scale is balanced, showing a relationship between the weights of the two items.",
+        "transcription": "Left Scale:\nBox Label: πατάτες και κρεμμύδια (potatoes and onions)\nWeight: 28κιλά (28 kg)\nRight Scale:\nLeft Pan Box: κρεμμύδια (onions)\nRight Pan Box: πατάτες (potatoes)\nRight Pan Weight: 4κιλά (4 kg)"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "31",
+    "question": "Σε ένα κιβώτιο υπήρχαν 60 μήλα. Οι μαθητές και οι μαθήτριες μιας Στ τάξης στο πλαίσιο ενός προγράμματος υγιεινής διατροφής πήραν από 3 μήλα ο καθένας. Στο τέλος έμειναν 6 μήλα στο κιβώτιο. Ποια από τις παρακάτω εξισώσεις θα χρησιμοποιήσεις για να βρεις πόσοι ήταν οι μαθητές και οι μαθήτριες αυτής της τάξης;",
+    "input": "",
+    "choices": [
+      "A. $60:x=3$",
+      "Β. $3.x-6=60$",
+      "Γ. $(60-6): x=3$",
+      "Δ. $66:x=3$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "32",
+    "question": "Η Αριάδνη έκανε 25 βολές στο χθεσινό παιχνίδι μπάσκετ και πέτυχε πόντους στις 19 από αυτές. Τι ποσοστό στα % των βολών της ήταν άστοχες;",
+    "input": "",
+    "choices": [
+      "A. 6%",
+      "Β. 19%",
+      "Γ. 24%",
+      "Δ. 76%"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "33",
+    "question": "Ο Στέλιος φτιάχνει 2 μερίδες από την αγαπημένη του φρουτοσαλάτα χρησιμοποιώντας $\\frac{3}{4}$ του κιλού μήλα. Πόσα γραμμάρια μήλα πρέπει να χρησιμοποιήσει για να φτιάξει μια μερίδα από την αγαπημένη του φρουτοσαλάτα;",
+    "input": "",
+    "choices": [
+      "Α. 250 γραμμάρια",
+      "Β. 345 γραμμάρια",
+      "Γ. 375 γραμμάρια",
+      "Δ. 750 γραμμάρια"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "34",
+    "question": "Το παρακάτω ραβδόγραμμα δείχνει τον αριθμό των απαντήσεων των παιδιών ενός Δημοτικού Σχολείου σε μια έρευνα που έγινε με θέμα την αγαπημένη ενασχόλησή τους στον ελεύθερο χρόνο τους. Τι ποσοστό των παιδιών απάντησαν ότι η αγαπημένη τους ενασχόληση είναι η μουσική;",
+    "input": "The image is a vertical bar chart titled \"Ενασχόληση στον ελεύθερο χρόνο\" (Free time activities).\nY-axis: Represents the number of children (frequency), with a scale labeled 0, 10, 20, 30, 40.\nX-axis: Lists four different activities.\nData Bars: There are four blue bars showing the popularity of each activity.",
+    "choices": [
+      "Α. 10%",
+      "B. 25%",
+      "Γ. 20%",
+      "Δ. 80%"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2020_3/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2020_3_ΘΕΜΑ_34_ΕΙΚΟΝΑ_3.png",
+        "description": "The image is a vertical bar chart titled \"Ενασχόληση στον ελεύθερο χρόνο\" (Free time activities).\nY-axis: Represents the number of children (frequency), with a scale labeled 0, 10, 20, 30, 40.\nX-axis: Lists four different activities.\nData Bars: There are four blue bars showing the popularity of each activity.",
+        "transcription": "Chart Data:\nηλεκτρονικά παιχνίδια (electronic games): 30\nπαιχνίδι με φίλους (playing with friends): 20\nμουσική (music): 20\nλογοτεχνία (literature): 10"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "35",
+    "question": "Η Αφροδίτη είναι αθλήτρια ενόργανης γυμναστικής. Στους περσινούς πανελλήνιους αγώνες οι κριτές της έδωσαν στο άθλημα του άλματος τις παρακάτω βαθμολογίες. Ποιος κριτής της έδωσε βαθμολογία που διαφέρει περισσότερο από το μέσο όρο της βαθμολογίας της;\n1ος κριτής: 9\n2ος κριτής: 8,8\n3ος κριτής: 8,2\n4ος κριτής: 9,2",
+    "input": "",
+    "choices": [
+      "Α. 1ος κριτής",
+      "Β. 2ος κριτής",
+      "Γ. 3ος κριτής",
+      "Δ. 4ος κριτής"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "36",
+    "question": "Τα παιδιά της Στ τάξης ζήτησαν από το Διευθυντή του σχολείου τους, για να μην τραυματίζονται, να τοποθετήσει ελαστικό τάπητα στην αυλή κάτω από τον κήπο σχήματος τετραγώνου. Ο Διευθυντής τους ζήτησε να υπολογίσουν πόσο θα κοστίσει. Τους ενημέρωσε ότι η τιμή του τάπητα είναι 10 ευρώ το τ.μ. και τους έδωσε το παρακάτω σχεδιάγραμμα της αυλής. Πόσο θα κοστίσει ο τάπητας;",
+    "input": "The image displays a geometric diagram representing a yard and a garden.\nStructure: There is a large gray shaded area shaped roughly like a rectangle with a rectangular cutout in the top center. Inside this top-center cutout is a white square labeled \"κήπος\" (garden).\nDimensions:\nThe total width at the bottom is 12 μ. (meters).\nThe outer vertical height on both the far left and far right sides is 5 μ.\nThe top horizontal section of the gray area to the left of the garden is 3 μ.\nThe top horizontal section of the gray area to the right of the garden is 3 μ.\nThe vertical depth of the garden (the side adjacent to the gray area) is marked as 3 μ. on both the left and right sides of the garden.",
+    "choices": [
+      "Α. 240 ευρώ",
+      "Β. 420 ευρώ",
+      "Γ. 600 ευρώ",
+      "Δ. 960 ευρώ"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2020_3/ΕΙΚΟΝΑ_4/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2020_3_ΘΕΜΑ_36_ΕΙΚΟΝΑ_4.png",
+        "description": "The image displays a geometric diagram representing a yard and a garden.\nStructure: There is a large gray shaded area shaped roughly like a rectangle with a rectangular cutout in the top center. Inside this top-center cutout is a white square labeled \"κήπος\" (garden).\nDimensions:\nThe total width at the bottom is 12 μ. (meters).\nThe outer vertical height on both the far left and far right sides is 5 μ.\nThe top horizontal section of the gray area to the left of the garden is 3 μ.\nThe top horizontal section of the gray area to the right of the garden is 3 μ.\nThe vertical depth of the garden (the side adjacent to the gray area) is marked as 3 μ. on both the left and right sides of the garden.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "37",
+    "question": "Η γειτόνισσά μας έφτιαξε 5 κιλά μαρμελάδα πορτοκάλι και θέλει να την τοποθετήσει σε βαζάκια. Αν το κάθε βαζάκι χωράει $\\frac{2}{10}$ του κιλού μαρμελάδα, πόσα βαζάκια θα χρειαστεί;",
+    "input": "",
+    "choices": [
+      "Α. 25 βαζάκια",
+      "Β. 20 βαζάκια",
+      "Γ. 1 βαζάκι",
+      "Δ. 50 βαζάκια"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "38",
+    "question": "Οι μαθητές ενός σχολείου πέρυσι ήταν 300. Φέτος ο αριθμός τους αυξήθηκε κατά 8%. Πόσους μαθητές έχει φέτος το σχολείο;",
+    "input": "",
+    "choices": [
+      "Α. 320",
+      "Β. 324",
+      "Γ. 290",
+      "Δ. 342"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "39",
+    "question": "Σε μια εταιρεία 3 υπάλληλοι χρειάζονται 18 ημέρες για να ολοκληρώσουν μια εργασία. Σε πόσες ημέρες θα ολοκληρώσουν την εργασία αν εργαστούν 9 υπάλληλοι;",
+    "input": "",
+    "choices": [
+      "Α. σε 54 ημέρες",
+      "Β. σε 6 ημέρες",
+      "Γ. σε 27 ημέρες",
+      "Δ. σε 3 ημέρες"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "40",
+    "question": "Έξι φίλοι παράγγειλαν: 3 πίτσες που η καθεμιά κόστιζε 6 ευρώ, 6 μακαρονάδες που η καθεμιά κόστιζε 3,90 ευρώ και 6 χυμούς που κόστιζε ο καθένας 1,20 ευρώ. Πόσα χρήματα θα πληρώσει ο καθένας αν μοιραστούν τον λογαριασμό;",
+    "input": "",
+    "choices": [
+      "Α. 8,1 €",
+      "Β. 36 €",
+      "Γ. 6,9 €",
+      "Δ. 7 €"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "41",
+    "question": "Με $1\\frac{1}{2}$ λίτρα γάλα πόσα ποτήρια του $\\frac{1}{4}$ λίτρου γεμίζουμε;",
+    "input": "",
+    "choices": [
+      "Α. 4 ποτήρια",
+      "Β. 6 ποτήρια",
+      "Γ. $4\\frac{1}{4}$ ποτήρια",
+      "Δ. 5 ποτήρια"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "42",
+    "question": "Μερικά παιδιά έλαβαν μέρος σε έναν αγώνα δρόμου. Στο πρώτο δεκάλεπτο η Μαρία είχε διανύσει τα $\\frac{9}{10}$ της διαδρομής, ο Χρήστος τα $\\frac{7}{8}$, η Κατερίνα τα $\\frac{19}{20}$ και ο Πέτρος τα $\\frac{4}{5}$. Βάλε τα παιδιά στη σειρά ξεκινώντας από αυτό που διένυσε τη μεγαλύτερη απόσταση.",
+    "input": "",
+    "choices": [
+      "Α. Μαρία, Κατερίνα, Πέτρος, Χρήστος",
+      "Β. Πέτρος, Κατερίνα, Μαρία, Χρήστος",
+      "Γ. Κατερίνα, Μαρία, Πέτρος, Χρήστος",
+      "Δ. Κατερίνα, Μαρία, Χρήστος, Πέτρος"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "43",
+    "question": "Από τους 250 μαθητές ενός σχολείου το 40% μετακινείται με λεωφορείο, το 38% με αυτοκίνητο και οι υπόλοιποι με τα πόδια. Πόσα παιδιά έρχονται με τα πόδια στο σχολείο;",
+    "input": "",
+    "choices": [
+      "Α. 195",
+      "B. 25",
+      "Γ. 55",
+      "Δ. 95"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "44",
+    "question": "Το εμβαδόν ενός τετραγώνου είναι 81 τ.εκ. Ένα ορθογώνιο έχει την ίδια περίμετρο με το τετράγωνο. Το μήκος του ορθογωνίου είναι διπλάσιο από το πλάτος του. Πόσο είναι το εμβαδόν του ορθογωνίου;",
+    "input": "",
+    "choices": [
+      "Α. 36 τ.εκ.",
+      "Β. 6 τ.εκ.",
+      "Γ. 18 τ.εκ",
+      "Δ. 72 τ.εκ."
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "45",
+    "question": "Αν πολλαπλασιάσουμε έναν αριθμό με 10 θα πάρουμε γινόμενο 500. Ποιον αριθμό θα παίρναμε αν διαιρούσαμε τον αρχικό αριθμό με το 10;",
+    "input": "",
+    "choices": [
+      "A. 0,5",
+      "B. 5",
+      "Γ. 50",
+      "Δ. 500"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "46",
+    "question": "Σε ένα διαγώνισμα Αγγλικών οι υποψήφιοι έγραφαν με μαύρο ή μπλε στυλό. Το παρακάτω κυκλικό διάγραμμα δείχνει τι μέρος των υποψηφίων έγραφε με μπλε και τι μέρος έγραφε με μαύρο στυλό. Ποια από τις παρακάτω προτάσεις είναι σωστή;",
+    "input": "The image displays a pie chart (circular diagram) divided into two sectors representing the color of pens used.\nLight Blue Sector: Covers the majority of the circle (three-quarters) and is labeled \"Μπλε\" (Blue) with the percentage \"75%\".\nBlack Sector: Covers the remaining top-right quadrant (one-quarter) and is labeled \"Μαύρο\" (Black).",
+    "choices": [
+      "Α. Αν με μπλε στυλό έγραφαν 120 υποψήφιοι, τότε με μαύρο έγραφαν 30 υποψήφιοι.",
+      "Β. Αν με μπλε στυλό έγραφαν 120 υποψήφιοι, τότε με μαύρο έγραφαν 40 υποψήφιοι.",
+      "Γ. Οι υποψήφιοι που έγραφαν με μπλε στυλό ήταν 4 φορές περισσότεροι από τους υποψηφίους που έγραφαν με μαύρο στυλό.",
+      "Δ. Το $\\frac{1}{3}$ των υποψηφίων έγραφε με μαύρο στυλό."
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2020_3/ΕΙΚΟΝΑ_5/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2020_3_ΘΕΜΑ_46_ΕΙΚΟΝΑ_5.png",
+        "description": "The image displays a pie chart (circular diagram) divided into two sectors representing the color of pens used.\nLight Blue Sector: Covers the majority of the circle (three-quarters) and is labeled \"Μπλε\" (Blue) with the percentage \"75%\".\nBlack Sector: Covers the remaining top-right quadrant (one-quarter) and is labeled \"Μαύρο\" (Black).",
+        "transcription": "Chart Data:\nΜπλε (Blue): 75%\nΜαύρο (Black)"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "47",
+    "question": "Στο ορθογώνιο ΑΖΕΔ η πλευρά ΑΔ είναι 19 εκατοστά. Το τετράγωνο ΒΓΕΔ έχει εμβαδόν 49 τετραγωνικά εκατοστά. Πόσο είναι το εμβαδόν του γραμμοσκιασμένου ορθογωνίου ΑΖΓΒ;",
+    "input": "The image depicts a large rectangle labeled $AZ E \\Delta$ that is divided vertically into two smaller geometric shapes.\nLeft Section: A shaded rectangle with diagonal stripes, labeled $AZ \\Gamma B$.\nRight Section: A white (unshaded) square labeled $B \\Gamma E \\Delta$.\nVertices: The bottom-left corner is $A$, top-left is $Z$, top-middle is $\\Gamma$, top-right is $E$, bottom-right is $\\Delta$, and bottom-middle is $B$. The segment $AD$ forms the straight bottom line, and segment $ZE$ forms the straight top line.",
+    "choices": [
+      "Α. 98 τ.εκ.",
+      "Β. 121 τ.εκ.",
+      "Γ. 84 τ.εκ.",
+      "Δ. 42 τ.εκ."
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2020_3/ΕΙΚΟΝΑ_6/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2020_3_ΘΕΜΑ_47_ΕΙΚΟΝΑ_6.png",
+        "description": "The image depicts a large rectangle labeled $AZ E \\Delta$ that is divided vertically into two smaller geometric shapes.\nLeft Section: A shaded rectangle with diagonal stripes, labeled $AZ \\Gamma B$.\nRight Section: A white (unshaded) square labeled $B \\Gamma E \\Delta$.\nVertices: The bottom-left corner is $A$, top-left is $Z$, top-middle is $\\Gamma$, top-right is $E$, bottom-right is $\\Delta$, and bottom-middle is $B$. The segment $AD$ forms the straight bottom line, and segment $ZE$ forms the straight top line.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "48",
+    "question": "Η Χριστίνα και οι 3 φίλες της μοιράστηκαν μισή πίτσα σε ίσα κομμάτια. Τι μέρος της πίτσας πήρε η καθεμία;",
+    "input": "",
+    "choices": [
+      "A. $\\frac{1}{3}$",
+      "B. $\\frac{1}{4}$",
+      "Γ. $\\frac{1}{6}$",
+      "Δ. $\\frac{1}{8}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "49",
+    "question": "Τα παιδιά ενός τμήματος της A' Γυμνασίου σχηματίζουν μια σειρά στο προαύλιο του σχολείου. Το παιδί που βρίσκεται ακριβώς στη μέση είναι το δέκατο τέταρτο στη σειρά. Πόσα είναι τα παιδιά του τμήματος;",
+    "input": "",
+    "choices": [
+      "A. 27",
+      "B. 28",
+      "Γ. 29",
+      "Δ. 30"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "50",
+    "question": "Ποιο είναι το τελευταίο ψηφίο ενός διψήφιου περιττού (μονού) αριθμού, ο οποίος αν διαιρεθεί με το 5 αφήνει υπόλοιπο 4;",
+    "input": "",
+    "choices": [
+      "A. 4",
+      "B. 0",
+      "Γ. 5",
+      "Δ. 9"
+    ],
+    "images": [],
+    "mark": []
+  }
+]

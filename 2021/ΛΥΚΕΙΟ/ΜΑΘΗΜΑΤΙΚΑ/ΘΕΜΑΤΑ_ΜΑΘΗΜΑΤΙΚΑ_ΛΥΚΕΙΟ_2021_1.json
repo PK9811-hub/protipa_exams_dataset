@@ -1,0 +1,221 @@
+[
+  {
+    "id": "1",
+    "question": "Βάφουμε μόνο εξωτερικά τον διπλανό κύβο που αποτελείται από μικρότερους κύβους που είναι όλοι ίσοι μεταξύ τους, όπως φαίνεται στο σχήμα. Πόσοι από τους μικρούς κύβους θα έχουν βαμμένη μόνο μια έδρα;",
+    "input": "The image displays a large cube composed of numerous smaller, identical cubic units.\nDimensions: By counting the units along the edges, the structure is a $4 \times 4 \times 4$ cube.\nAppearance: The visible exterior faces of the cube are colored purple (magenta).\nStructure: White grid lines clearly separate the individual smaller cubes. Each visible face of the large cube is divided into a $4 \times 4$ grid, showing 16 small square faces per side.\nBackground: The cube sits on a horizontal plane marked with a black grid pattern, resembling a 3D coordinate system floor.",
+    "choices": [
+      "Α) 4",
+      "Β) 12",
+      "Γ) 16",
+      "Δ) 24"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_1/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_1_ΘΕΜΑ_1_ΕΙΚΟΝΑ_1.png",
+        "description": "The image displays a large cube composed of numerous smaller, identical cubic units.\nDimensions: By counting the units along the edges, the structure is a $4 \times 4 \times 4$ cube.\nAppearance: The visible exterior faces of the cube are colored purple (magenta).\nStructure: White grid lines clearly separate the individual smaller cubes. Each visible face of the large cube is divided into a $4 \times 4$ grid, showing 16 small square faces per side.\nBackground: The cube sits on a horizontal plane marked with a black grid pattern, resembling a 3D coordinate system floor.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "2",
+    "question": "Σε ορθογώνιο τρίγωνο ΑΒΓ η υποτείνουσα ΒΓ έχει μήκος 13cm. Το ΑΔ είναι ύψος και ΒΔ=9cm. Ποιο είναι το μήκος του ΑΔ;",
+    "input": "",
+    "choices": [
+      "A) 4cm",
+      "B) 5,5cm",
+      "Γ) 6cm",
+      "Δ) 6,5cm"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "3",
+    "question": "Δίνεται η εξίσωση $1453\\sqrt{1821}x^{2}+1204\\sqrt{2021}x-\\sqrt{1940}=0$. Ποια από τις επόμενες δηλώσεις είναι αληθής;",
+    "input": "",
+    "choices": [
+      "Α) Η εξίσωση έχει 2 άνισες λύσεις.",
+      "Β) Η εξίσωση έχει μία διπλή λύση.",
+      "Γ) Η εξίσωση είναι αδύνατη.",
+      "Δ) Δεν μπορούμε να αποφανθούμε ως προς το πλήθος των λύσεων της εξίσωσης αυτής."
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "4",
+    "question": "Παντοπώλης είχε ένα γεμάτο τσουβάλι με ρύζι. Την πρώτη μέρα που το άνοιξε πούλησε το $\\frac{1}{3}$, τη δεύτερη πούλησε το $\\frac{1}{4}$ από το ρύζι που του έμεινε, την τρίτη μέρα τα $\\frac{2}{3}$ από το ρύζι που του είχε μείνει και τελικά του έμειναν 3 κιλά. Πόσα κιλά ρύζι είχε το γεμάτο τσουβάλι;",
+    "input": "",
+    "choices": [
+      "A) 9",
+      "B) 12",
+      "Γ) 18",
+      "Δ) 21"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "5",
+    "question": "Σύμφωνα με το παραπάνω σχήμα, οι σωστές αντιστοιχίσεις μεταξύ της πρώτης και της δεύτερης στήλης που πίνακα είναι:\n1. ημω\n2. συνω\n3. εφω\n\nI. $3/4$\nII. $-3/4$\nIII. $3/5$\nIV. $-3/5$\nV. $\\frac{4}{3}$\nVI. $-4/3$\nVII. $4/5$\nVIII. $-4/5$",
+    "input": "The image displays a geometric diagram featuring a right-angled triangle labeled $\\Gamma A B$.\nTriangle Details:\nVertex $A$: Marks the right angle ($90^\\circ$), indicated by a small green square.\nSide $A\\Gamma$: The vertical leg with a length of 4.\nSide $AB$: The horizontal leg with a length of 3.\nExterior Angle: The base line segment $AB$ extends to the right. An obtuse angle labeled $\\omega$ (omega) is marked at vertex $B$, formed by the hypotenuse $\\Gamma B$ and the extension of the horizontal line.",
+    "choices": [
+      "A) 1-I, 2-III, 3-V",
+      "B) 1-VII, 2-IV, 3-VI",
+      "Γ) 1-VII, 2-III, 3-V",
+      "Δ) 1-VIII, 2-IV, 3-VI"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_1/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_1_ΘΕΜΑ_5_ΕΙΚΟΝΑ_2.png",
+        "description": "The image displays a geometric diagram featuring a right-angled triangle labeled $\\Gamma A B$.\nTriangle Details:\nVertex $A$: Marks the right angle ($90^\\circ$), indicated by a small green square.\nSide $A\\Gamma$: The vertical leg with a length of 4.\nSide $AB$: The horizontal leg with a length of 3.\nExterior Angle: The base line segment $AB$ extends to the right. An obtuse angle labeled $\\omega$ (omega) is marked at vertex $B$, formed by the hypotenuse $\\Gamma B$ and the extension of the horizontal line.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "6",
+    "question": "H $x^{3}+4x^{2}+4x>0$ επαληθεύεται:",
+    "input": "",
+    "choices": [
+      "Α) Για κάθε $x>0$",
+      "Β) Για κάθε $x\\ge0$",
+      "Γ) Μόνο για $x=2$",
+      "Δ) Για κάθε $x\\ne2$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "7",
+    "question": "Για ποιες τιμές των x και y ισχύει $2x^{2}+2xy-4x+y^{2}+4=0$;",
+    "input": "",
+    "choices": [
+      "A) $x=y=2$",
+      "Β) $x=2$ και $y=-2$",
+      "Γ) $x=-2$ και $y=2$",
+      "Δ) $x=y=-2$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "8",
+    "question": "Δίνεται η παράσταση $x-2\\sqrt{x}+1$. Ποια από τις επόμενες δηλώσεις είναι αληθής;",
+    "input": "",
+    "choices": [
+      "Α) Η τιμής της παράστασης είναι θετικός αριθμός για κάθε x.",
+      "Β) Η τιμής της παράστασης είναι θετικός αριθμός για κάθε θετικό αριθμό x.",
+      "Γ) Η τιμής της παράστασης είναι θετικός αριθμός για κάθε θετικό αριθμό x με $x\\ne1$.",
+      "Δ) Η τιμής της παράστασης είναι μη αρνητικός αριθμός για κάθε x."
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "9",
+    "question": "Στο διπλανό σχήμα, το ευθύγραμμα τμήμα ΑΕ έχει μήκος:",
+    "input": "The image depicts a geometric diagram featuring a large right-angled triangle labeled $AB\\Gamma$.\nTriangle $AB\\Gamma$:\nThe right angle is located at vertex $A$, indicated by a green square symbol.\nThe vertical side $AB$ has a length of $12$.\nThe hypotenuse $B\\Gamma$ has a total length of $20$, indicated by a double-headed arrow along the side.\nInternal Segment:\nA line segment $E\\Delta$ connects a point $E$ on the top side ($A\\Gamma$) to a point $\\Delta$ on the hypotenuse ($B\\Gamma$).\nThe segment $E\\Delta$ is perpendicular to the hypotenuse, as marked by a green right-angle symbol at point $\\Delta$.\nThe length of the segment $E\\Delta$ is labeled as $9$.",
+    "choices": [
+      "A) 1",
+      "B) 2",
+      "Γ) 3",
+      "Δ) 4"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_1/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_1_ΘΕΜΑ_9_ΕΙΚΟΝΑ_3.png",
+        "description": "The image depicts a geometric diagram featuring a large right-angled triangle labeled $AB\\Gamma$.\nTriangle $AB\\Gamma$:\nThe right angle is located at vertex $A$, indicated by a green square symbol.\nThe vertical side $AB$ has a length of $12$.\nThe hypotenuse $B\\Gamma$ has a total length of $20$, indicated by a double-headed arrow along the side.\nInternal Segment:\nA line segment $E\\Delta$ connects a point $E$ on the top side ($A\\Gamma$) to a point $\\Delta$ on the hypotenuse ($B\\Gamma$).\nThe segment $E\\Delta$ is perpendicular to the hypotenuse, as marked by a green right-angle symbol at point $\\Delta$.\nThe length of the segment $E\\Delta$ is labeled as $9$.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "10",
+    "question": "Το 40% του 30% του $\\frac{100\\alpha}{12}$ ισούται με:",
+    "input": "",
+    "choices": [
+      "A) $\\frac{\\alpha}{12}$",
+      "B) $\\frac{12}{\\alpha}$",
+      "Γ) $\\alpha$",
+      "Δ) $10\\alpha$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "11",
+    "question": "Ένα κομμάτι σύρμα 8 μέτρων κόβεται σε δυο άνισα κομμάτια. Με κάθε ένα, τώρα, από αυτά τα κομμάτια σύρμα σχηματίζουμε τετράγωνο πλαίσιο. Εάν θεωρήσουμε ότι το μήκος του ενός είναι $4+x$ με $0<x<4$, τότε το άθροισμα των εμβαδών των δυο τετραγώνων είναι:",
+    "input": "",
+    "choices": [
+      "A) 2",
+      "B) $2x^{2}+32$",
+      "Γ) $\\frac{1}{8}x^{2}+2$",
+      "Δ) $16-x^{2}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "12",
+    "question": "Στο ποδόσφαιρο κάθε ομάδα παίρνει 3 βαθμούς στη νίκη, ένα στην ισοπαλία και κανένα στην ήττα. Μια ομάδα που έλαβε μέρος στο τοπικό πρωτάθλημα τα δυο τελευταία χρόνια (με τον ίδιο αριθμό αγώνων κάθε χρόνο), σημείωσε ακριβώς τις ίδιες ήττες σε κάθε χρονιά, ενώ οι φετινές νίκες είναι όσες οι περσινές ισοπαλίες. Αν στις δυο αυτές χρονιές συγκέντρωσε τη μία φορά 41 βαθμούς και την άλλη 27, να βρείτε πόσες νίκες έκανε η ομάδα τη χρονιά που συγκέντρωσε 41 βαθμούς.",
+    "input": "",
+    "choices": [
+      "A) 12",
+      "B) 11",
+      "Γ) 8",
+      "Δ) 5"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "13",
+    "question": "Όταν ρίξουμε δυο συνηθισμένα ζάρια τι είναι λιγότερο πιθανό να συμβεί:",
+    "input": "",
+    "choices": [
+      "Α) Να έχουν και τα δυο την ίδια ένδειξη",
+      "Β) Να έχουν άθροισμα μικρότερο ή ίσο του 4",
+      "Γ) Να έχουν άθροισμα 7",
+      "Δ) Να έχουν άθροισμα 8."
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "14",
+    "question": "Στο παρακάτω γράφημα φαίνεται ο όγκος του πετρελαίου σε μια δεξαμενή σε συνάρτηση με το χρόνο. Ποια από τις επόμενες δηλώσεις είναι αληθής;",
+    "input": "The image displays a line graph plotted on a Cartesian coordinate system, illustrating the relationship between two variables.\nVertical Axis (Y-axis): Labeled \"Όγκος πετρελαίου\" (Volume of oil). It represents the amount of oil in the tank.\nHorizontal Axis (X-axis): Labeled \"Χρόνος\" (Time). It represents the passage of time.\nGraph Shape: The plot consists of two straight line segments:\n1.  First Segment: Starts from a point on the vertical axis above the origin (indicating an initial non-zero volume) and slopes upwards. This represents a period where the volume of oil is increasing at a constant rate.\n2.  Second Segment: Connects to the end of the first segment and slopes downwards. This represents a subsequent period where the volume of oil is decreasing.",
+    "choices": [
+      "Α) Η δεξαμενή άρχισε να γεμίζει στην αρχή με γρήγορο ρυθμό και μετά συνέχισε να γεμίζει με πιο αργό ρυθμό.",
+      "Β) Η δεξαμενή, που ήταν άδεια, άρχισε να γεμίζει και μετά να αδειάζει.",
+      "Γ) Η δεξαμενή στην αρχή γεμίζει και μετά αδειάζει.",
+      "Δ) Η δεξαμενή, που ήταν άδεια, άρχισε να γεμίζει στην αρχή με γρήγορο ρυθμό και μετά συνέχισε να γεμίζει με πιο αργό ρυθμό."
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_1/ΕΙΚΟΝΑ_4/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_1_ΘΕΜΑ_14_ΕΙΚΟΝΑ_4.png",
+        "description": "The image displays a line graph plotted on a Cartesian coordinate system, illustrating the relationship between two variables.\nVertical Axis (Y-axis): Labeled \"Όγκος πετρελαίου\" (Volume of oil). It represents the amount of oil in the tank.\nHorizontal Axis (X-axis): Labeled \"Χρόνος\" (Time). It represents the passage of time.\nGraph Shape: The plot consists of two straight line segments:\n1.  First Segment: Starts from a point on the vertical axis above the origin (indicating an initial non-zero volume) and slopes upwards. This represents a period where the volume of oil is increasing at a constant rate.\n2.  Second Segment: Connects to the end of the first segment and slopes downwards. This represents a subsequent period where the volume of oil is decreasing.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "15",
+    "question": "Κόβουμε ένα σχοινί σε δύο μέρη με λόγο $\\frac{2}{3}$. Το μεγάλο κομμάτι είναι:",
+    "input": "",
+    "choices": [
+      "Α) Τα $\\frac{2}{3}$ ολόκληρου του σχοινιού.",
+      "Β) Τα $\\frac{3}{2}$ ολόκληρου του σχοινιού.",
+      "Γ) Τα $\\frac{5}{3}$ ολόκληρου του σχοινιού.",
+      "Δ) Τα $\\frac{3}{5}$ ολόκληρου του σχοινιού."
+    ],
+    "images": [],
+    "mark": []
+  }
+]

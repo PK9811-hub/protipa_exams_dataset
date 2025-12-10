@@ -1,0 +1,2 @@
+Description
+The image illustrates a repeating geometric pattern (sequence) consisting of a horizontal row of shapes.\nThe Pattern Unit:\nThe core repeating unit consists of four distinct shapes in a specific order:\n1. First: A rectangle (longer horizontally).\n2. Second: A circle.\n3. Third: A triangle.\n4. Fourth: A square.\nThe Sequence:\nThe image shows this four-shape unit repeated twice in succession, followed by a third rectangle and three dots ($\dots$), indicating that the pattern continues indefinitely in the same order.

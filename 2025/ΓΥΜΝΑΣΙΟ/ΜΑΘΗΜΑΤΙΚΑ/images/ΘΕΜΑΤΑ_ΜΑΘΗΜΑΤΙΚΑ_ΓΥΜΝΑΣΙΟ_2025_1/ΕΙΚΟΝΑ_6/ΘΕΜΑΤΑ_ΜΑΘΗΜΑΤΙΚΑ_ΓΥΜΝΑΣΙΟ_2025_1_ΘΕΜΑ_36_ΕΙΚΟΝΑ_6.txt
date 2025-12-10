@@ -1,0 +1,2 @@
+Description
+The image displays a geometric diagram of a square labeled with Greek letters ABΓΔ.\nVertices:\nA: Bottom left corner.\nB: Top left corner.\nΓ (Gamma): Top right corner.\nΔ (Delta): Bottom right corner.\nKey Feature: A black arrow is positioned at vertex A. It points vertically upwards along the edge of the square, directed towards vertex B.

@@ -1,0 +1,2 @@
+Description
+The image depicts a large rectangle labeled $AZ E \Delta$ that is divided vertically into two smaller geometric shapes.\nLeft Section: A shaded rectangle with diagonal stripes, labeled $AZ \Gamma B$.\nRight Section: A white (unshaded) square labeled $B \Gamma E \Delta$.\nVertices: The bottom-left corner is $A$, top-left is $Z$, top-middle is $\Gamma$, top-right is $E$, bottom-right is $\Delta$, and bottom-middle is $B$. The segment $AD$ forms the straight bottom line, and segment $ZE$ forms the straight top line.

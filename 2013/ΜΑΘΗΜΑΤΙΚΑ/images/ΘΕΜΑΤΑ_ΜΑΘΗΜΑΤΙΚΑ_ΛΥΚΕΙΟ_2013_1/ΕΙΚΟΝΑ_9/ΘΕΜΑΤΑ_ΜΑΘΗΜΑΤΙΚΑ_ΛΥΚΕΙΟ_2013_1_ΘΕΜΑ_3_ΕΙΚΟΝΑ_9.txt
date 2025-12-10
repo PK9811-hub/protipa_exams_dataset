@@ -1,0 +1,5 @@
+Description
+The image displays a green-shaded, five-sided polygon ($\text{A}\text{B}\Gamma\Delta\text{E}$). A dashed vertical line $\text{Z}\Delta$ divides the shape. The accompanying text states the shape is composed of:\n1. A square ($\text{Z}\text{B}\Gamma\Delta$).\n2. A trapezoid ($\text{A}\text{Z}\Delta\text{E}$).\nKey Dimensions Labeled:\n$\text{A}\text{Z} = 8$.\n$\text{A}\text{E} = 2$.\n$\text{B}\Gamma = x$.\nThe fact that $\text{Z}\text{B}\Gamma\Delta$ is a square means that $\text{Z}\text{B} = \text{B}\Gamma = \Gamma\Delta = \text{Z}\Delta = x$. The full top side is $\text{A}\text{B} = \text{A}\text{Z} + \text{Z}\text{B} = 8 + x$.
+
+Transcription
+Image Content (Labels and Values)\n| Element | Label/Value |\n| :--- | :--- |\n| Vertices | $\text{A}, \text{B}, \Gamma, \Delta, \text{E}, \text{Z}$ |\n| Length $\text{A}\text{E}$ | $2$ |\n| Length $\text{A}\text{Z}$ | $8$ |\n| Length $\text{B}\Gamma$ | $x$ |\n| Full Top Length $\text{A}\text{B}$ | $8+x$ |

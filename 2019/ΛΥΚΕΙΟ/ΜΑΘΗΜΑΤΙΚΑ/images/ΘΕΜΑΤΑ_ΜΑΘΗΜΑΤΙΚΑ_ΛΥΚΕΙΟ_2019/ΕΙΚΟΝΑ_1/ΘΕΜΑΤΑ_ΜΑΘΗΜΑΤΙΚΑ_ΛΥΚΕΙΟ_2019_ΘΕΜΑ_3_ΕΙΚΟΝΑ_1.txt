@@ -1,0 +1,5 @@
+Description
+The image displays a scatter plot on a Cartesian coordinate system with a grid background.\nY-axis (Vertical): Labeled "απόσταση" (distance). The scale ranges from 0 to 9.\nX-axis (Horizontal): Labeled "χρόνος" (time). The scale ranges from 0 to 10.\nData Points: There are five blue points labeled A, B, Γ, Δ, and E, representing the performance of five different runners.
+
+Transcription
+Coordinates of the Runners (Time, Distance):\nRunner A: $(3, 3)$ -> Time = 3, Distance = 3\nRunner B: $(3, 6)$ -> Time = 3, Distance = 6\nRunner Γ: $(6, 9)$ -> Time = 6, Distance = 9\nRunner Δ: $(7, 2)$ -> Time = 7, Distance = 2\nRunner E: $(8, 5)$ -> Time = 8, Distance = 5

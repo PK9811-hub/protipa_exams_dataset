@@ -1,0 +1,280 @@
+[
+  {
+    "id": "1",
+    "question": "Ρώτησαν τον Αντώνη, τι ηλικία έχει ο αδερφός του και αυτός απάντησε: «Ο μοναδικός αδερφός του αδερφού μου σε 2 χρόνια θα είναι 14. Ο αδερφός μου γεννήθηκε όταν είχα τα πρώτα μου γενέθλια». Τι ηλικία έχει ο αδερφός του Αντώνη σήμερα;",
+    "input": "",
+    "choices": [
+      "A) 10",
+      "B) 11",
+      "Γ) 12",
+      "Δ) 13"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "2",
+    "question": "Ποιος είναι ο λόγος των φωνηέντων προς τα σύμφωνα στο ελληνικό αλφάβητο;",
+    "input": "",
+    "choices": [
+      "A) $\\frac{7}{24}$",
+      "B) $\\frac{17}{24}$",
+      "Γ) $\\frac{7}{17}$",
+      "Δ) $\\frac{17}{7}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "3",
+    "question": "Το 30% των μαθητών ενός σχολείου μαθαίνει Γερμανικά και τα υπόλοιπα παιδιά μαθαίνουν Γαλλικά. Αν τα παιδιά που μαθαίνουν Γαλλικά είναι 210, πόσοι μαθητές φοιτούν στο σχολείο αυτό;",
+    "input": "",
+    "choices": [
+      "A) 300",
+      "B) 90",
+      "Γ) 280",
+      "Δ) 240"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "4",
+    "question": "Σε ένα τρίγωνο ΑΒΓ η γωνία Α είναι $40^{\\circ}$. Τι είδους τρίγωνο είναι το ΑΒΓ ως προς τις γωνίες του;",
+    "input": "",
+    "choices": [
+      "Α) οξυγώνιο",
+      "Β) ορθογώνιο",
+      "Γ) αμβλυγώνιο",
+      "Δ) δεν ξέρουμε"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "5",
+    "question": "Στο διπλανό σχήμα όλες οι γωνίες είναι ορθές. Επίσης, $EI=30cm$, $JI=40cm$, $EM=8cm$ και $JK=10cm$. To εμβαδόν του JKLMEI είναι:",
+    "input": "The image displays a non-convex, L-shaped polygon (a hexagon) with vertices marked by blue dots.\nVertices: The visible labels for the vertices are E, M, L, K, and J. There is an unlabeled vertex at the bottom-left corner (which corresponds to point I based on the accompanying text).\nShape Structure:\nVertical Sides: A long side on the far left (connecting E to the bottom-left), a shorter side extending down from M to L, and a short side on the far right connecting K to J.\nHorizontal Sides: A short top side connecting E to M, a longer middle segment connecting L to K, and a long bottom base connecting J to the bottom-left corner.\nAngles: The geometry implies that all interior angles are right angles ($90^\\circ$).",
+    "choices": [
+      "A) $1200cm^{2}$",
+      "B) $520cm^{2}$",
+      "Γ) $560cm^{2}$",
+      "Δ) $640cm^{2}$"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2021_1/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2021_1_ΘΕΜΑ_5_ΕΙΚΟΝΑ_1.png",
+        "description": "The image displays a non-convex, L-shaped polygon (a hexagon) with vertices marked by blue dots.\nVertices: The visible labels for the vertices are E, M, L, K, and J. There is an unlabeled vertex at the bottom-left corner (which corresponds to point I based on the accompanying text).\nShape Structure:\nVertical Sides: A long side on the far left (connecting E to the bottom-left), a shorter side extending down from M to L, and a short side on the far right connecting K to J.\nHorizontal Sides: A short top side connecting E to M, a longer middle segment connecting L to K, and a long bottom base connecting J to the bottom-left corner.\nAngles: The geometry implies that all interior angles are right angles ($90^\\circ$).",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "6",
+    "question": "Ο μισθός μου είναι 800 ευρώ. Τα $\\frac{2}{5}$ των $\\frac{3}{4}$ του μισθού μου είναι:",
+    "input": "",
+    "choices": [
+      "Α) 240 ευρώ",
+      "Β) 920 ευρώ",
+      "Γ) 600 ευρώ",
+      "Δ) 320 ευρώ"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "7",
+    "question": "Ένας τετράγωνος κήπος έχει πλευρά μήκους 10 μέτρα. Το κόστος για την περίφραξη του κήπου είναι 2,3€ για κάθε μέτρο και το κόστος για τη φύτευση με γρασίδι είναι 2,5€ για κάθε τετραγωνικό μέτρο. Τότε το συνολικό κόστος σε ευρώ για την περίφραξη και τη φύτευση του κήπου με γρασίδι είναι",
+    "input": "",
+    "choices": [
+      "A) 330",
+      "B) 342",
+      "Γ) Μεγαλύτερο από 342",
+      "Δ) Λιγότερο από 330"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "8",
+    "question": "Ποιος αριθμός από τους παρακάτω είναι πιο κοντά στο 5;",
+    "input": "",
+    "choices": [
+      "A) 5,10",
+      "B) 4,0099",
+      "Γ) 4,99",
+      "Δ) 4,90"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "9",
+    "question": "Ποιον αριθμό θα βρω, αν το 5,94 -το πολλαπλασιάσω με το 10 -έπειτα, αφαιρέσω τον αριθμό 9 - και, τέλος, διαιρέσω τον αριθμό που θα βρω με το 0,1;",
+    "input": "",
+    "choices": [
+      "A) 50,4",
+      "B) 40,4",
+      "Γ) 404",
+      "Δ) 504"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "10",
+    "question": "Βρίσκω την τιμή του χ στην παρακάτω εξίσωση: $(4,2:0,1)-\\chi=5^{2}$",
+    "input": "",
+    "choices": [
+      "A) 17",
+      "B) 9,58",
+      "Γ) 42",
+      "Δ) 10,42"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "11",
+    "question": "Ποιος είναι ο αριθμός εκείνος, που, αν αφαιρέσω το 10 από το μισό του, προκύπτει διαφορά 16;",
+    "input": "",
+    "choices": [
+      "A) 21",
+      "B) 52",
+      "Γ) 13",
+      "Δ) 18"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "12",
+    "question": "Μια ομάδα 20 κατασκηνωτών έχει τρόφιμα για 15 ημέρες. Αν ο αριθμός των κατασκηνωτών αυξηθεί κατά 50%, πόσες ημέρες θα περάσουν με τα τρόφιμα που έχουν;",
+    "input": "",
+    "choices": [
+      "A) 22",
+      "B) 10",
+      "Γ) 7,5",
+      "Δ) 30"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "13",
+    "question": "Ένα συνεργείο από 18 εργάτες χρειάζεται 12 ημέρες για να τελειώσει ένα έργο. Πόσοι ακόμη εργάτες πρέπει να προστεθούν στο συνεργείο για να τελειώσει το έργο 3 ημέρες νωρίτερα;",
+    "input": "",
+    "choices": [
+      "A) 4",
+      "B) 8",
+      "Γ) 24",
+      "Δ) 6"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "14",
+    "question": "Η δασκάλα ζήτησε από τους μαθητές της να φτιάξουν μια κατασκευή οποιουδήποτε σχήματος που να έχει εμβαδό 72 $cm^{2}$. Ο Γιάννης και η Μαρία της κατασκεύασαν τα παρακάτω σχήματα. Κατάφερε κάποιος από τους δύο να φτιάξει σωστό σχήμα;",
+    "input": "The image displays two geometric constructions, labeled with the names of the students who created them.\nLeft Construction (Γιάννης - Giannis):\nThis figure forms a large right-angled triangle. It is composed of three smaller shapes:\nA \nsquare\n located at the bottom-right corner. The top side of this square is labeled \n$6 \text{ cm}$.\nA triangle placed on top of the square, labeled as an \n\"isosceles triangle\"\n ($ισοσκελές\\ τρίγωνο$).\nA triangle placed to the left of the square, also labeled as an \n\"isosceles triangle\".\nRight Construction (Μαρία - Maria):\nThis figure forms an isosceles trapezoid. It is composed of three shapes arranged horizontally:\nA central \nsquare\n.\nTwo triangles flanking the square on the left and right sides. Both are labeled as \n\"isosceles triangle\"\n ($ισοσκελές\\ τρίγωνο$).\nThe total length of the bottom base of the entire figure is labeled \n$18 \text{ cm}$.",
+    "choices": [
+      "Α) ο Γιάννης",
+      "Β) η Μαρία",
+      "Γ) κανένα από τους δύο",
+      "Δ) και οι δύο"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2021_1/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2021_1_ΘΕΜΑ_14_ΕΙΚΟΝΑ_2.png",
+        "description": "The image displays two geometric constructions, labeled with the names of the students who created them.\nLeft Construction (Γιάννης - Giannis):\nThis figure forms a large right-angled triangle. It is composed of three smaller shapes:\nA \nsquare\n located at the bottom-right corner. The top side of this square is labeled \n$6 \text{ cm}$.\nA triangle placed on top of the square, labeled as an \n\"isosceles triangle\"\n ($ισοσκελές\\ τρίγωνο$).\nA triangle placed to the left of the square, also labeled as an \n\"isosceles triangle\".\nRight Construction (Μαρία - Maria):\nThis figure forms an isosceles trapezoid. It is composed of three shapes arranged horizontally:\nA central \nsquare\n.\nTwo triangles flanking the square on the left and right sides. Both are labeled as \n\"isosceles triangle\"\n ($ισοσκελές\\ τρίγωνο$).\nThe total length of the bottom base of the entire figure is labeled \n$18 \text{ cm}$.",
+        "transcription": "Labels in Giannis's Figure:\nName:\n Γιάννης\nTop Triangle:\n ισοσκελές τρίγωνο\nLeft Triangle:\n ισοσκελές τρίγωνο\nSquare:\n τετράγωνο\nDimension:\n 6 cm\nLabels in Maria's Figure:\nName:\n Μαρία\nLeft Triangle:\n ισοσκελές τρίγωνο\nRight Triangle:\n ισοσκελές τρίγωνο\nCenter Square:\n τετράγωνο\nDimension:\n 18 cm"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "15",
+    "question": "Σε ένα επιτραπέζιο παιγνίδι ερωτήσεων ισχύει ο εξής κανόνας: σε κάθε σωστή απάντηση δίνονται δύο βαθμοί, ενώ σε κάθε λανθασμένη καταλογίζεται αφαίρεση ενός βαθμού. Σε έναν γύρο 10 ερωτήσεων του παιγνιδιού, ο Στέφανος απάντησε σε όλες τις ερωτήσεις και συνολικά συγκέντρωσε 14 βαθμούς. Σε πόσες ερωτήσεις ο Στέφανος έδωσε λανθασμένη απάντηση;",
+    "input": "",
+    "choices": [
+      "A) 4",
+      "B) 5",
+      "Γ) 8",
+      "Δ) 2"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "16",
+    "question": "Ένας πτηνοτρόφος που το Σαββατοκύριακο μάζεψε 480 αυγά θέλει να τα συσκευάσει είτε 6αδες είτε σε 8αδες είτε σε 10αδες. Κάθε συσκευασία για 6 αυγά κοστίζει 3c, για 8 αυγά κοστίζει 4c και για 10 αυγά κοστίζει 5c. Ποια είναι η πιο οικονομική επιλογή για τον πτηνοτρόφο;",
+    "input": "",
+    "choices": [
+      "Α) Να αγοράσει συσκευασίες για 6αδες.",
+      "Β) Να αγοράσεις συσκευασία για 8αδες.",
+      "Γ) Να αγοράσει συσκευασία για 10αδες.",
+      "Δ) Ό,τι συσκευασία και να αγοράσει θα πληρώσει τα ίδια."
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "17",
+    "question": "Ποιος αριθμός θεωρείτε ότι θα συμπληρώσει το μοτίβο 1, 9, 25, ..., 81.",
+    "input": "",
+    "choices": [
+      "A) 36",
+      "B) 41",
+      "Γ) 49",
+      "Δ) 64"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "18",
+    "question": "Στο διπλανό γράφημα βλέπουμε τα κύρια προϊόντα που παράγονται σε έναν αγροτικό νομό. Ποια από τις επόμενες τριάδες αποτελεί το 50% της παραγωγής;",
+    "input": "The image displays a circular pie chart (circle graph) divided into six sectors of varying sizes, radiating from a central blue dot. Each sector represents a category of agricultural products labeled in Greek.\nThe sectors are arranged clockwise as follows (starting roughly from the top-right):\nφρούτα (fruits) - A large sector.\nλάδι – λίπη (oil – fats) - A medium-sized sector.\nγαλακτοκομικά (dairy) - A medium-sized sector.\nκαπνά (tobacco) - A smaller sector.\nβαμβάκι (cotton) - A smaller sector.\nκρέας (meat) - A large sector.\nThe dividing lines between the sectors appear to create geometric relationships, with some lines potentially forming diameters across the circle (e.g., the line separating \"κρέας\" and \"φρούτα\" appears to align with the line separating \"καπνά\" and \"γαλακτοκομικά\", dividing the circle into two hemispheres).",
+    "choices": [
+      "Α) κρέας, βαμβάκι, καπνά.",
+      "Β) φρούτα, κρέας βαμβάκι.",
+      "Γ) κρέας, λάδι – λίπη, φρούτα",
+      "Δ) φρούτα, κρέας, γαλακτοκομικά."
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2021_1/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2021_1_ΘΕΜΑ_18_ΕΙΚΟΝΑ_3.png",
+        "description": "The image displays a circular pie chart (circle graph) divided into six sectors of varying sizes, radiating from a central blue dot. Each sector represents a category of agricultural products labeled in Greek.\nThe sectors are arranged clockwise as follows (starting roughly from the top-right):\nφρούτα (fruits) - A large sector.\nλάδι – λίπη (oil – fats) - A medium-sized sector.\nγαλακτοκομικά (dairy) - A medium-sized sector.\nκαπνά (tobacco) - A smaller sector.\nβαμβάκι (cotton) - A smaller sector.\nκρέας (meat) - A large sector.\nThe dividing lines between the sectors appear to create geometric relationships, with some lines potentially forming diameters across the circle (e.g., the line separating \"κρέας\" and \"φρούτα\" appears to align with the line separating \"καπνά\" and \"γαλακτοκομικά\", dividing the circle into two hemispheres).",
+        "transcription": "Labels in the Chart:\nφρούτα\nλάδι – λίπη\nγαλακτοκομικά\nκαπνά\nβαμβάκι\nκρέας"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "19",
+    "question": "Ο Κώστας στέκεται όρθιος στον κήπο του σπιτιού του. Κάνει 5 βήματα βόρεια, 7 βήματα ανατολικά, 8 βήματα νότια και 6 βήματα δυτικά και σταματάει. Πού βρίσκεται;",
+    "input": "",
+    "choices": [
+      "Α) 3 βήματα νοτιότερα και 1 βήμα ανατολικότερα από το σημείο που ξεκίνησε.",
+      "Β) 3 βήματα νοτιότερα και 1 βήμα δυτικότερα από το σημείο που ξεκίνησε.",
+      "Γ) 3 βήματα βορειότερα και 1 βήμα ανατολικότερα από το σημείο που ξεκίνησε.",
+      "Δ) 3 βήματα βορειότερα και 1 βήμα δυτικότερα από το σημείο που ξεκίνησε."
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "20",
+    "question": "Πήγαμε σε θερινό κινηματογράφο να παρακολουθήσουμε χωρίς διάλειμμα μια νέα ταινία που ο παραγωγός της γράφει ότι έχει διάρκεια 219 λεπτά. Η προβολή της ταινίας ξεκίνησε στις 8.54 μ.μ. Τι ώρα θα τελειώσει;",
+    "input": "",
+    "choices": [
+      "Α) 11.13 μ.μ.",
+      "Β) 12.13 π.μ. (μετά τα μεσάνυχτα)",
+      "Γ) 12.33 π.μ. (μετά τα μεσάνυχτα)",
+      "Δ) 1.03 π.μ. (μετά τα μεσάνυχτα)"
+    ],
+    "images": [],
+    "mark": []
+  }
+]

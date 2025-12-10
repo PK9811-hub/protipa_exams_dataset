@@ -1,0 +1,387 @@
+[
+  {
+    "id": "26",
+    "question": "Δίνονται οι ισότητες: (I) $\\frac{1}{3}=0,333...$ και (II) $1=0,999....$ όπου οι «τελίτσες» σημαίνουν ότι το αμέσως προηγούμενο ψηφίο επαναλαμβάνεται, χωρίς τέλος. Ποια από της παραπάνω ισότητες είναι αληθής;",
+    "input": "",
+    "choices": [
+      "Α. η (I)",
+      "Β. η (ΙΙ)",
+      "Γ. και οι δύο",
+      "Δ. καμία από τις δύο."
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "27",
+    "question": "Στο διπλανό σχήμα οι ευθείες $\\epsilon_{1}$, $\\epsilon_{2}$ και $\\epsilon_{3}$ είναι παράλληλες και τα τρίγωνα ΑΒΓ και ΑΔΕ έχουν περιμέτρους 15 cm και 36 cm, αντίστοιχα. Αν το μήκος του ΑΒ είναι 5 cm, ποιο είναι το μήκος του ΒΔ;",
+    "input": "The image displays a geometric diagram featuring three horizontal parallel lines labeled $\\varepsilon_1$, $\\varepsilon_2$, and $\\varepsilon_3$.\nVertex A: A point labeled A is located on the top line ($\\varepsilon_1$).\nTransversals: Two straight lines originate from point A and extend downwards, intersecting the other two parallel lines.\nIntersections:\nThe left line intersects $\\varepsilon_2$ at point B and $\\varepsilon_3$ at point $\\Delta$.\nThe right line intersects $\\varepsilon_2$ at point $\\Gamma$ and $\\varepsilon_3$ at point E.\nShapes: This arrangement creates two triangles sharing a common vertex A: the smaller triangle $AB\\Gamma$ and the larger triangle $A\\Delta E$.",
+    "choices": [
+      "A. 12 cm",
+      "B. 7 cm",
+      "Г. 10 ст",
+      "Δ. 9 cm"
+    ],
+    "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1_ΘΕΜΑ_27_ΕΙΚΟΝΑ_1.png",
+          "description": "The image displays a geometric diagram featuring three horizontal parallel lines labeled $\\varepsilon_1$, $\\varepsilon_2$, and $\\varepsilon_3$.\nVertex A: A point labeled A is located on the top line ($\\varepsilon_1$).\nTransversals: Two straight lines originate from point A and extend downwards, intersecting the other two parallel lines.\nIntersections:\nThe left line intersects $\\varepsilon_2$ at point B and $\\varepsilon_3$ at point $\\Delta$.\nThe right line intersects $\\varepsilon_2$ at point $\\Gamma$ and $\\varepsilon_3$ at point E.\nShapes: This arrangement creates two triangles sharing a common vertex A: the smaller triangle $AB\\Gamma$ and the larger triangle $A\\Delta E$.",
+          "transcription": []
+        }
+    ],
+    "mark": []
+  },
+  {
+    "id": "28",
+    "question": "Ποιος αριθμός ή ποιοι αριθμοί είναι λύσεις της εξίσωσης; $(x-2)^{2}+(x+3)^{2}=0$",
+    "input": "",
+    "choices": [
+      "Α. Κανένας, η εξίσωση είναι αδύνατη.",
+      "Β. $x=2$ ή $x=-3$",
+      "Γ. $x=2$ και $x=-3$",
+      "Δ. Έχει άπειρες λύσεις."
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "29",
+    "question": "Στα δύο σχήματα φαίνεται ο ίδιος κύκλος, με κέντρο το Κ, έχοντας άλλα γραμμοσκιασμένα μέρη σε κάθε σχήμα. Τα $K_{1}$ και $K_{2}$ είναι μέσα των ΒΚ και ΑΚ, αντίστοιχα. Τα γραμμοσκιασμένα μέρη είναι ημικύκλια. Αν οι γραμμοσκιασμένες επιφάνειες και στα δύο σχήματα μαζί, έχουν συνολικό εμβαδόν 6 $cm^{2}$ να βρείτε το εμβαδόν του κύκλου.",
+    "input": "The image displays two geometric diagrams involving circles.\nCommon Features: Both diagrams depict a circle with a vertical diameter labeled with endpoints $A$ (bottom) and $B$ (top). The center of the circle is labeled $K$. Points $K_1$ and $K_2$ are marked on the vertical diameter, appearing to be midpoints of the radii.\nLeft Diagram: Shows two shaded semicircles. One is formed on the right side of the upper radius ($BK$), and the other is formed on the left side of the lower radius ($AK$).\nRight Diagram: Shows a wavy chain of four smaller shaded semicircles along the vertical diameter. They alternate sides (left/right) along the segments $B K_1$, $K_1 K$, $K K_2$, and $K_2 A$.",
+    "choices": [
+      "A. $8~cm^{2}$",
+      "B. $3,64~cm^{2}$",
+      "Г. $18~cm^{2}$",
+      "Δ. $16~cm^{2}$"
+    ],
+    "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1_ΘΕΜΑ_29_ΕΙΚΟΝΑ_2.png",
+          "description": "The image displays two geometric diagrams involving circles.\nCommon Features: Both diagrams depict a circle with a vertical diameter labeled with endpoints $A$ (bottom) and $B$ (top). The center of the circle is labeled $K$. Points $K_1$ and $K_2$ are marked on the vertical diameter, appearing to be midpoints of the radii.\nLeft Diagram: Shows two shaded semicircles. One is formed on the right side of the upper radius ($BK$), and the other is formed on the left side of the lower radius ($AK$).\nRight Diagram: Shows a wavy chain of four smaller shaded semicircles along the vertical diameter. They alternate sides (left/right) along the segments $B K_1$, $K_1 K$, $K K_2$, and $K_2 A$.",
+          "transcription": []
+        }
+    ],
+    "mark": []
+  },
+  {
+    "id": "30",
+    "question": "15 διαδοχικοί φυσικοί αριθμοί έχουν άθροισμα 2430. Αν τους γράψουμε στη σειρά από τον μικρότερο στο μεγαλύτερο, ποιος θα είναι ο μεσαίος;",
+    "input": "",
+    "choices": [
+      "A. 160",
+      "Β. 161",
+      "Γ. 162",
+      "Δ. 163"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "31",
+    "question": "Το άθροισμα δύο θετικών αριθμών είναι 5πλάσιο της διαφοράς τους. Ποιος είναι ο λόγος του μεγαλύτερου αριθμού, από τους δύο, προς το μικρότερο;",
+    "input": "",
+    "choices": [
+      "A. $\\frac{5}{4}$",
+      "B. $\\frac{3}{2}$",
+      "Γ. $\\frac{9}{5}$",
+      "Δ. $\\frac{5}{2}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "32",
+    "question": "Στο σχήμα, ο κύκλος έχει κέντρο Ο και το τετράγωνο ΟΑΒΓ έχει την κορυφή του Β πάνω στον κύκλο. Εάν το εμβαδόν του κύκλου είναι 72π $cm^2$ το εμβαδόν του τετραγώνου είναι σε $cm^{2}$:",
+    "input": "The image displays a geometric diagram:\nShapes: A circle containing a square labeled $O A B \\Gamma$.\nVertices:\nPoint $O$ corresponds to the center of the circle and is also one vertex of the square.\nPoint $B$ is the vertex of the square opposite to $O$ and lies exactly on the circumference of the circle.\nPoints $A$ and $\\Gamma$ are the remaining vertices of the square, positioned inside the circle.\nGeometric Relationship: The diagonal of the square connecting $O$ to $B$ represents the radius of the circle.",
+    "choices": [
+      "A. 38",
+      "B. 48",
+      "Γ. 25",
+      "Δ. 36"
+    ],
+    "images": [
+       {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1_ΘΕΜΑ_32_ΕΙΚΟΝΑ_3.png",
+          "description": "The image displays a geometric diagram:\nShapes: A circle containing a square labeled $O A B \\Gamma$.\nVertices:\nPoint $O$ corresponds to the center of the circle and is also one vertex of the square.\nPoint $B$ is the vertex of the square opposite to $O$ and lies exactly on the circumference of the circle.\nPoints $A$ and $\\Gamma$ are the remaining vertices of the square, positioned inside the circle.\nGeometric Relationship: The diagonal of the square connecting $O$ to $B$ represents the radius of the circle.",
+          "transcription": []
+        }
+    ],
+    "mark": []
+  },
+  {
+    "id": "33",
+    "question": "Ένα τραπέζιο έχει βάση μικρή ίση με β, βάση μεγάλη ίση με Β και ύψος ίσο με υ. Αν η μικρή βάση διπλασιαστεί, τότε το εμβαδόν του τραπεζίου:",
+    "input": "",
+    "choices": [
+      "Α. Διπλασιάζεται",
+      "Β. Αυξάνεται κατά β",
+      "Γ. Αυξάνεται κατά $\\frac{\\beta\\cdot v}{2}$",
+      "Δ. Αυξάνεται κατά βου"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "34",
+    "question": "Αν $\\alpha=3^{20}$, $\\beta=5^{12}$, $\\gamma=2^{32}$ τότε:",
+    "input": "",
+    "choices": [
+      "Α. $\\alpha<\\beta<\\gamma$",
+      "Β. $\\beta<\\alpha<\\gamma$",
+      "Γ. $\\gamma<\\beta<\\alpha$",
+      "Δ. $\\alpha<\\gamma<\\beta$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "35",
+    "question": "Αν για τον πραγματικό αριθμό χ ισχύει $x^{3}=2$, τότε: $x^{8}+x^{6}+x^{5}+x^{4}-6x^{2}-2x-2=$",
+    "input": "",
+    "choices": [
+      "A. 0",
+      "B. 1",
+      "Γ. 2",
+      "Δ. 4"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "36",
+    "question": "Για δύο πραγματικούς αριθμούς x και y δίνεται ότι $(x-2)^{2}(y+3)>0$ Υποχρεωτικά, ισχύει ότι:",
+    "input": "",
+    "choices": [
+      "Α. το y είναι μεγαλύτερο του – 3 και το x είναι οποισδήποτε πραγματικός αριθμός",
+      "Β. οι $x-2$ και $y+3$ είναι ομόσημοι",
+      "Γ. το x είναι μεγαλύτερο του 2 και το y είναι μεγαλύτερο του – 3",
+      "Δ. το x δεν είναι ίσο με 2 και το y είναι μεγαλύτερο του -3"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "37",
+    "question": "Να βρείτε την τιμή της τεταγμένης του σημείου Α στο παρακάτω σχήμα: (το πλέγμα του σχήματος αποτελείται από ίσα τετράγωνα)",
+    "input": "The image displays a Cartesian coordinate system with a grid background.\nAxes: There is a horizontal x-axis and a vertical y-axis.\nPoints: Two points are plotted on the grid:\nPoint B: It is labeled with the coordinates $(6, 15)$. Visually, it sits on the intersection of the 2nd vertical grid line and the 3rd horizontal grid line from the origin.\nPoint A: It is labeled simply as \"A\". Visually, it sits on the intersection of the 5th vertical grid line and the 4th horizontal grid line from the origin.",
+    "choices": [
+      "A. 27",
+      "B. 9",
+      "Γ. 18",
+      "Δ. 6"
+    ],
+    "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1/ΕΙΚΟΝΑ_4/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1_ΘΕΜΑ_37_ΕΙΚΟΝΑ_4.png",
+          "description": "The image displays a Cartesian coordinate system with a grid background.\nAxes: There is a horizontal x-axis and a vertical y-axis.\nPoints: Two points are plotted on the grid:\nPoint B: It is labeled with the coordinates $(6, 15)$. Visually, it sits on the intersection of the 2nd vertical grid line and the 3rd horizontal grid line from the origin.\nPoint A: It is labeled simply as \"A\". Visually, it sits on the intersection of the 5th vertical grid line and the 4th horizontal grid line from the origin.",
+          "transcription": "Graph Labels:\nB(6, 15)\nA\nAxes: x, y"
+        }
+    ],
+    "mark": []
+  },
+  {
+    "id": "38",
+    "question": "Στο παρακάτω σχήμα φαίνονται δύο μεζούρες μέτρησης μήκους, με διαφορετικές μονάδες, την Α και τη Β. Οι μεζούρες είναι τοποθετημένες ώστε να μπορούν να συγκριθούν οι αντίστοιχες μονάδες Α και Β. Ένα κομμάτι ξύλο έχει μήκος 6 με μονάδα μέτρησης το Β. Πόσο μήκος έχει με μονάδα μέτρησης το Α;",
+    "input": "The image illustrates a comparison between two measuring scales (rulers) labeled Unit A and Unit B.\nTop Scale (Unit A): Labeled \"Μεζούρα μονάδας Α\". It is marked with integers 0, 1, and 2. Each unit interval (e.g., 0 to 1) is subdivided into 4 equal segments by smaller tick marks.\nBottom Scale (Unit B): Labeled \"Μεζούρα μονάδας Β\". It is marked with integers 0, 1, and 2. The unit size appears larger than Unit A.\nAlignment:\nA vertical double arrow indicates that the 0 mark on both scales is perfectly aligned.\nA second vertical double arrow connects the 2 mark on the Bottom Scale (Unit B) to a specific point on the Top Scale (Unit A). Visually, this point aligns with the 2.5 mark (two tick marks past the number 2) on Scale A.",
+    "choices": [
+      "A. 5,3",
+      "B. 7",
+      "Г. 6,5",
+      "Δ. 6,75"
+    ],
+    "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1/ΕΙΚΟΝΑ_5/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1_ΘΕΜΑ_38_ΕΙΚΟΝΑ_5.png",
+          "description": "The image illustrates a comparison between two measuring scales (rulers) labeled Unit A and Unit B.\nTop Scale (Unit A): Labeled \"Μεζούρα μονάδας Α\". It is marked with integers 0, 1, and 2. Each unit interval (e.g., 0 to 1) is subdivided into 4 equal segments by smaller tick marks.\nBottom Scale (Unit B): Labeled \"Μεζούρα μονάδας Β\". It is marked with integers 0, 1, and 2. The unit size appears larger than Unit A.\nAlignment:\nA vertical double arrow indicates that the 0 mark on both scales is perfectly aligned.\nA second vertical double arrow connects the 2 mark on the Bottom Scale (Unit B) to a specific point on the Top Scale (Unit A). Visually, this point aligns with the 2.5 mark (two tick marks past the number 2) on Scale A.",
+          "transcription": "Diagram Labels:\nΜεζούρα μονάδας Α\nΜεζούρα μονάδας Β"
+        }
+    ],
+    "mark": []
+  },
+  {
+    "id": "39",
+    "question": "Το κουτί σχήματος ορθογωνίου παραλληλεπιπέδου που φαίνεται στο σχήμα έχει μήκη ακμών 1, 2 και 3. Το μήκος της διαγωνίου του, ΑΘ είναι",
+    "input": "The image displays a wireframe diagram of a rectangular cuboid (rectangular parallelepiped) labeled with vertices A, B, Γ, Δ, E, Z, H, Θ.\nDimensions:\nThe width (segment $AB$) is marked as 1.\nThe length/depth (segment $B\\Gamma$) is marked as 2.\nThe height (segment $\\Gamma\\Theta$) is marked as 3.\nDiagonal: A solid black line connects opposite corners A (bottom-front-left) and Θ (top-back-right), representing the space diagonal. A question mark \"?\" is placed next to this diagonal line.",
+    "choices": [
+      "A. 4",
+      "B. $\\sqrt{14}$",
+      "Γ. 14",
+      "Δ. $\\sqrt{6}$"
+    ],
+    "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1/ΕΙΚΟΝΑ_6/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1_ΘΕΜΑ_39_ΕΙΚΟΝΑ_6.png",
+          "description": "The image displays a wireframe diagram of a rectangular cuboid (rectangular parallelepiped) labeled with vertices A, B, Γ, Δ, E, Z, H, Θ.\nDimensions:\nThe width (segment $AB$) is marked as 1.\nThe length/depth (segment $B\\Gamma$) is marked as 2.\nThe height (segment $\\Gamma\\Theta$) is marked as 3.\nDiagonal: A solid black line connects opposite corners A (bottom-front-left) and Θ (top-back-right), representing the space diagonal. A question mark \"?\" is placed next to this diagonal line.",
+          "transcription": []
+        }
+    ],
+    "mark": []
+  },
+  {
+    "id": "40",
+    "question": "Έχουμε ένα τετράγωνο πλευράς 8. Μεγαλώνουμε τις δύο απέναντι πλευρές του κατά μήκος $2x (0<x<8)$ και μικραίνουμε τις άλλες δύο απέναντι πλευρές του κατά μήκος x δημιουργώντας ένα ορθογώνιο παραλληλόγραμμο. Πόσο μεταβάλλεται το εμβαδόν του;",
+    "input": "",
+    "choices": [
+      "Α. Δεν μεταβάλλεται καθόλου",
+      "Β. Μεταβάλλεται κατά $8x-2x^{2}$",
+      "Γ. Μεταβάλλεται κατά $2x^{2}$",
+      "Δ. Μεταβάλλεται κατά x."
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "41",
+    "question": "Μία αίθουσα θεάτρου έχει 20 σειρές καθισμάτων. Η μπροστινή σειρά έχει 16 καθίσματα και σε κάθε σειρά τα καθίσματα αυξάνονται κατά 2. Σε μια παράσταση, παρατηρήσαμε ότι στην πρώτη σειρά υπήρχε ένα κενό κάθισμα και σε κάθε επόμενη σειρά τα κενά καθίσματα αυξάνονταν κατά 3 από την προηγούμενη. Η πρώτη σειρά από μπροστά που έχει μόνο κενές θέσεις είναι η:",
+    "input": "",
+    "choices": [
+      "Α. 14η",
+      "Β. 15η",
+      "Γ. 17η",
+      "Δ. 16η"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "42",
+    "question": "Η τιμή της παράστασης $\\frac{1}{123\\cdot127-125^{2}+3}$ είναι:",
+    "input": "",
+    "choices": [
+      "A. -1",
+      "B. $\\frac{1}{2}$",
+      "Γ. $\\frac{1}{127}$",
+      "Δ. $-\\frac{1}{125^{2}}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "43",
+    "question": "Η τιμή της παράστασης $\\frac{2020^{3}-2005^{3}-15^{3}}{2020\\cdot2005\\cdot3}$ είναι:",
+    "input": "",
+    "choices": [
+      "A. 3",
+      "B. 15",
+      "Γ. -1",
+      "Δ. 5"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "44",
+    "question": "Σε όσους πελάτες επισκέφτηκαν την τελευταία εβδομάδα, ένα βιβλιοπωλείο μιας πόλης της Ελλάδας έγινε το ερώτημα «πόσα βιβλία διαβάσατε από την αρχή του 2020 μέχρι σήμερα;» και καταγράφηκαν οι απαντήσεις τους. Τα αποτελέσματα % φαίνονται στο ραβδόγραμμα. Ποια από τις παρακάτω προτάσεις είναι σωστή;",
+    "input": "The image displays a vertical bar chart (histogram) illustrating survey results.\nY-axis (Vertical): Labeled \"Ποσοστό % όσων έδωσαν κάθε απάντηση\" (Percentage % of those who gave each answer). The axis has horizontal grid lines but no specific numerical labels are visible on the lines themselves.\nX-axis (Horizontal): Labeled \"Πλήθος βιβλίων που απάντησαν ότι διαβάζουν\" (Number of books they answered that they read). The categories are numbered 1, 2, 3, 4, 5.\nData Bars:\n1 book: Lowest bar.\n2 books: Medium height bar.\n3 books: Tallest bar (peak).\n4 books: Second tallest bar.\n5 books: Medium height bar (slightly lower than the '2 books' bar).",
+    "choices": [
+      "Α. Τουλάχιστον 3 βιβλία διάβασαν περισσότεροι από τους μισούς ερωτηθέντες.",
+      "Β. Ακριβώς 3 βιβλία, διάβασαν περισσότεροι από τους μισούς ερωτηθέντες.",
+      "Γ. 25% των πελατών των βιβλιοπωλείων της Ελλάδας διαβάζουν ακριβώς 3 βιβλία.",
+      "Δ. Οι περισσότεροι από τους μισούς ερωτηθέντες διάβασαν το πολύ 2 βιβλία."
+    ],
+    "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1/ΕΙΚΟΝΑ_7/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1_ΘΕΜΑ_44_ΕΙΚΟΝΑ_7.png",
+          "description": "The image displays a vertical bar chart (histogram) illustrating survey results.\nY-axis (Vertical): Labeled \"Ποσοστό % όσων έδωσαν κάθε απάντηση\" (Percentage % of those who gave each answer). The axis has horizontal grid lines but no specific numerical labels are visible on the lines themselves.\nX-axis (Horizontal): Labeled \"Πλήθος βιβλίων που απάντησαν ότι διαβάζουν\" (Number of books they answered that they read). The categories are numbered 1, 2, 3, 4, 5.\nData Bars:\n1 book: Lowest bar.\n2 books: Medium height bar.\n3 books: Tallest bar (peak).\n4 books: Second tallest bar.\n5 books: Medium height bar (slightly lower than the '2 books' bar).",
+          "transcription": []
+        }
+    ],
+    "mark": []
+  },
+  {
+    "id": "45",
+    "question": "Το διπλανό παραλληλόγραμμο έχει περίμετρο 44 cm και εμβαδό 56 $cm^{2}$. Το ημίτονο της γωνίας Α του παραλληλογράμμου είναι:",
+    "input": "The image displays a geometric diagram of a parallelogram labeled $A B \\Gamma \\Delta$.\nVertices: The corners are labeled $A$ (bottom-left), $B$ (bottom-right), $\\Gamma$ (top-right), and $\\Delta$ (top-left).\nSide Lengths:\nThe side $A\\Delta$ is labeled with the algebraic expression $3x + 2$.\nThe side $AB$ is labeled with the algebraic expression $5x + 4$.",
+    "choices": [
+      "A. $\\frac{\\sqrt{2}}{2}$",
+      "B. 1",
+      "Γ. $\\frac{\\sqrt{3}}{2}$",
+      "Δ. $\\frac{1}{2}$"
+    ],
+    "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1/ΕΙΚΟΝΑ_8/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1_ΘΕΜΑ_45_ΕΙΚΟΝΑ_8.png",
+          "description": "The image displays a geometric diagram of a parallelogram labeled $A B \\Gamma \\Delta$.\nVertices: The corners are labeled $A$ (bottom-left), $B$ (bottom-right), $\\Gamma$ (top-right), and $\\Delta$ (top-left).\nSide Lengths:\nThe side $A\\Delta$ is labeled with the algebraic expression $3x + 2$.\nThe side $AB$ is labeled with the algebraic expression $5x + 4$.",
+          "transcription": []
+        }
+    ],
+    "mark": []
+  },
+  {
+    "id": "46",
+    "question": "Το τρίγωνο ΑΒΓ στο παρακάτω σχήμα είναι ορθογώνιο στο Α $(A=90^{\\circ})$. ΑΔ είναι το ύψος του $(\\Delta=90^{\\circ})$ και $B=\\varphi$. Τα μήκη των πλευρών φαίνονται στο σχήμα. Ποια από τις παρακάτω σχέσεις είναι αληθής;",
+    "input": "The image displays a geometric diagram of a right-angled triangle labeled $AB\\Gamma$.\nVertices:\n$A$: The top vertex where the right angle ($90^\\circ$) is located, marked by a green square symbol.\n$B$: The bottom-left vertex. The angle here is labeled $\\varphi$ (phi) with a green arc.\n$\\Gamma$: The bottom-right vertex.\nInternal Line: A line segment $A\\Delta$ is drawn from vertex A perpendicular to the base $B\\Gamma$. This represents the altitude (height) of the triangle. The perpendicularity at point $\\Delta$ is marked with a green square symbol ($90^\\circ$).\nSide Lengths:\nThe side $AB$ is labeled with the length 3.\nThe side $A\\Gamma$ is labeled with the length 4.",
+    "choices": [
+      "A. $\\frac{3}{\\sigma\\upsilon\\nu\\varphi}=3\\cdot\\sigma\\upsilon\\nu\\varphi+4\\cdot\\eta\\mu\\varphi$",
+      "B. $\\frac{3}{\\eta\\mu\\varphi}=3\\cdot\\sigma\\upsilon\\nu\\varphi+4\\cdot\\eta\\mu\\varphi$",
+      "Γ. $\\frac{\\sigma\\upsilon\\nu\\varphi}{3}=3\\cdot\\sigma\\upsilon\\nu\\varphi+4\\cdot\\eta\\mu\\varphi$",
+      "Δ. $\\frac{\\eta\\mu\\varphi}{3}=3\\cdot\\sigma\\upsilon\\nu\\varphi+4\\cdot\\eta\\mu\\varphi$"
+    ],
+    "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1/ΕΙΚΟΝΑ_9/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1_ΘΕΜΑ_46_ΕΙΚΟΝΑ_9.png",
+          "description": "The image displays a geometric diagram of a right-angled triangle labeled $AB\\Gamma$.\nVertices:\n$A$: The top vertex where the right angle ($90^\\circ$) is located, marked by a green square symbol.\n$B$: The bottom-left vertex. The angle here is labeled $\\varphi$ (phi) with a green arc.\n$\\Gamma$: The bottom-right vertex.\nInternal Line: A line segment $A\\Delta$ is drawn from vertex A perpendicular to the base $B\\Gamma$. This represents the altitude (height) of the triangle. The perpendicularity at point $\\Delta$ is marked with a green square symbol ($90^\\circ$).\nSide Lengths:\nThe side $AB$ is labeled with the length 3.\nThe side $A\\Gamma$ is labeled with the length 4.",
+          "transcription": []
+        }
+    ],
+    "mark": []
+  },
+  {
+    "id": "47",
+    "question": "Θεωρούμε την ευθεία (ε): $x+y=1$, η οποία τέμνει τους άξονες στα σημεία Α και Β, όπως φαίνονται στο σχήμα. Θεωρούμε ακόμη και την παράλληλή της, την ευθεία (η): $x+y=\\alpha$, όπου $\\alpha>1$. Αν η ευθεία (η) τέμνει τους άξονες στα σημεία Γ και Δ, όπως φαίνονται στο σχήμα, ώστε το εμβαδόν του ισοσκελούς τραπεζίου ΑΒΓΔ να είναι ίσο με το εμβαδόν του τριγώνου ΟΑΒ, τότε το ΟΔ είναι:",
+    "input": "The image displays a Cartesian coordinate system with two parallel lines intersecting the axes.\nLine $(\\varepsilon)$:\nEquation: $x + y = 1$\nIntersects the x-axis at point $A$ and the y-axis at point $B$.\nLine $(\\eta)$:\nEquation: $x + y = \\alpha$\nIntersects the x-axis at point $\\Delta$ and the y-axis at point $\\Gamma$.\nIt is parallel to line $(\\varepsilon)$ and positioned further away from the origin $O$.\nPoints: The origin is marked as $O$. The points on the axes are $A, \\Delta$ (on the horizontal axis) and $B, \\Gamma$ (on the vertical axis).",
+    "choices": [
+      "A. 2",
+      "B. $\\sqrt{2}$",
+      "Γ. $\\frac{\\sqrt{2}}{2}$",
+      "Δ. 1"
+    ],
+    "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1/ΕΙΚΟΝΑ_10/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_1_ΘΕΜΑ_47_ΕΙΚΟΝΑ_10.png",
+          "description": "The image displays a Cartesian coordinate system with two parallel lines intersecting the axes.\nLine $(\\varepsilon)$:\nEquation: $x + y = 1$\nIntersects the x-axis at point $A$ and the y-axis at point $B$.\nLine $(\\eta)$:\nEquation: $x + y = \\alpha$\nIntersects the x-axis at point $\\Delta$ and the y-axis at point $\\Gamma$.\nIt is parallel to line $(\\varepsilon)$ and positioned further away from the origin $O$.\nPoints: The origin is marked as $O$. The points on the axes are $A, \\Delta$ (on the horizontal axis) and $B, \\Gamma$ (on the vertical axis).",
+          "transcription": []
+        }
+    ],
+    "mark": []
+  },
+  {
+    "id": "48",
+    "question": "Αν $\\frac{1}{x+1}+\\frac{2}{y+2}+\\frac{3}{z+3}=\\frac{3}{2}$, τότε $\\frac{x}{x+1}+\\frac{y}{y+2}+\\frac{z}{z+3}=$",
+    "input": "",
+    "choices": [
+      "A. 0",
+      "B. 1",
+      "Γ. 2",
+      "Δ. $\\frac{3}{2}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "49",
+    "question": "Αν οι αριθμοί α, β, $\\beta-\\alpha$ είναι όλοι θετικοί, ποιος από τους παρακάτω είναι ο μικρότερος;",
+    "input": "",
+    "choices": [
+      "A. $\\frac{\\alpha}{\\beta}$",
+      "B. $\\frac{\\alpha^{2}}{\\beta^{2}}$",
+      "Г. $\\frac{\\beta}{\\alpha}$",
+      "Δ. $\\sqrt{\\frac{\\alpha}{\\beta}}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "50",
+    "question": "Αν x και y είναι πραγματικοί αριθμοί με $-4\\le x\\le-2$ και $2\\le y\\le4$. Η μέγιστη δυνατή τιμή του $\\frac{x+y}{x}$ είναι:",
+    "input": "",
+    "choices": [
+      "A. $\\frac{1}{2}$",
+      "B. -1",
+      "Γ. 2",
+      "Δ. 0"
+    ],
+    "images": [],
+    "mark": []
+  }
+]

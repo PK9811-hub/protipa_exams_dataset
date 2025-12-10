@@ -1,0 +1,226 @@
+[
+    {
+      "id": "1",
+      "question": "Δίνεται ο τριψήφιος αριθμός $12X$. Η πιθανότητα να διαιρείται με το 3, είναι:",
+      "input": "",
+      "choices": [
+        "A. $\\frac{2}{5}$",
+        "B. $\\frac{1}{3}$",
+        "Γ. $\\frac{3}{10}$",
+        "Δ. $\\frac{1}{4}$",
+        "Ε. $\\frac{1}{5}$"
+      ],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Αν στο παρακάτω σχήμα η ευθεία (ε) είναι παράλληλη στην ΑΒ, τότε ο λόγος των εμβαδών των τριγώνων ΑΒΓ και ΑΒΔ είναι:",
+      "input": "The image displays a geometric diagram featuring two triangles, $AB\\Gamma$ and $AB\\Delta$.\nVertices: Points $A$ and $B$ form a horizontal base segment. Points $\\Gamma$ and $\\Delta$ lie on a straight line labeled $\\epsilon$ located above the segment $AB$.\nStructure:\nTriangle $AB\\Gamma$ connects the base $AB$ to point $\\Gamma$.\nTriangle $AB\\Delta$ connects the same base $AB$ to point $\\Delta$.\nRelationship: The text states that line $\\epsilon$ is parallel to line segment $AB$.",
+      "choices": [
+        "A. 2",
+        "B. 4",
+        "Γ. 1",
+        "Δ. $\\frac{1}{4}$",
+        "E. $\\frac{1}{2}$"
+      ],
+      "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2016_1/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2016_1_ΘΕΜΑ_2_ΕΙΚΟΝΑ_1.png",
+          "description": "The image displays a geometric diagram featuring two triangles, $AB\\Gamma$ and $AB\\Delta$.\nVertices: Points $A$ and $B$ form a horizontal base segment. Points $\\Gamma$ and $\\Delta$ lie on a straight line labeled $\\epsilon$ located above the segment $AB$.\nStructure:\nTriangle $AB\\Gamma$ connects the base $AB$ to point $\\Gamma$.\nTriangle $AB\\Delta$ connects the same base $AB$ to point $\\Delta$.\nRelationship: The text states that line $\\epsilon$ is parallel to line segment $AB$.",
+          "transcription": []
+        }
+      ],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Τα τρίγωνα $AB\\Gamma$ και ΑΔΕ είναι ισοσκελή και η γωνία Γ ισούται με $64^{circ}$ και η γωνία $\\Delta AE=32^{circ}$. Η γωνία x ισούται με:",
+      "input": "The image shows a geometry problem involving nested triangles.\nTriangles: A large triangle $AB\\Gamma$ ($ABC$) containing a smaller inner triangle $A\\Delta E$ ($ADE$).\nBase Line: Points $B$, $\\Delta$, $E$, and $\\Gamma$ are collinear.\nMarkings:\nSides $AB$ and $A\\Gamma$ have double tick marks, indicating $AB = A\\Gamma$ (Triangle $AB\\Gamma$ is isosceles).\nSides $A\\Delta$ and $AE$ have single tick marks, indicating $A\\Delta = AE$ (Triangle $A\\Delta E$ is isosceles).\nAngles:\nAngle $\\Gamma$ is labeled $64^{circ}$.\nAngle $\\Delta AE$ is labeled $32^{circ}$.\nAngle $BA\\Delta$ is labeled $x$.",
+      "choices": [
+        "A. $16^{circ}$",
+        "B. $10^{circ}$",
+        "Γ. $30^{circ}$",
+        "Δ. $20^{circ}$",
+        "Ε. $32^{circ}$"
+      ],
+      "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2016_1/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2016_1_ΘΕΜΑ_3_ΕΙΚΟΝΑ_2.png",
+          "description": "The image shows a geometry problem involving nested triangles.\nTriangles: A large triangle $AB\\Gamma$ ($ABC$) containing a smaller inner triangle $A\\Delta E$ ($ADE$).\nBase Line: Points $B$, $\\Delta$, $E$, and $\\Gamma$ are collinear.\nMarkings:\nSides $AB$ and $A\\Gamma$ have double tick marks, indicating $AB = A\\Gamma$ (Triangle $AB\\Gamma$ is isosceles).\nSides $A\\Delta$ and $AE$ have single tick marks, indicating $A\\Delta = AE$ (Triangle $A\\Delta E$ is isosceles).\nAngles:\nAngle $\\Gamma$ is labeled $64^{circ}$.\nAngle $\\Delta AE$ is labeled $32^{circ}$.\nAngle $BA\\Delta$ is labeled $x$.",
+          "transcription": []
+        }
+      ],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Ποια είναι η εξίσωση της ευθείας η οποία διέρχεται από το σημείο (– 5, 2) και είναι παράλληλη στον άξονα χ΄χ;",
+      "input": "",
+      "choices": [
+        "A. $y=-\\frac{2}{5}x$",
+        "B. $y=-5$",
+        "Γ. $y=2$",
+        "Δ. $x=-5$",
+        "E. $y=-\\frac{5}{2}x$"
+      ],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Η παράσταση $\\pi=4(5\\cdot\\frac{x^{2}}{x^{-1}})^{3}$ γράφεται ως:",
+      "input": "",
+      "choices": [
+        "A. $20x^{6}$",
+        "B. $20x^{9}$",
+        "Γ. $250x^{9}$",
+        "Δ. $500x^{6}$",
+        "E. $500x^{9}$"
+      ],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Ποια είναι η μεγαλύτερη τιμή που μπορεί να πάρει η παράσταση $\\pi=7-(x-6)^{2}$;",
+      "input": "",
+      "choices": [
+        "A. -6",
+        "B. 1",
+        "Γ. 6",
+        "Δ. 7",
+        "E. 9"
+      ],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Δίνονται οι παραστάσεις $A=\\frac{x^{2}-\\psi^{2}}{x^{2}+\\psi^{2}}$ και $B=\\frac{x-\\psi}{x+\\psi}$ με $x>\\psi>0$. Να επιλέξετε τη σχέση που ισχύει για τα Α, Β:",
+      "input": "",
+      "choices": [
+        "A. $A<2B$",
+        "B. $A>2B$",
+        "Γ. $A=2B$",
+        "Δ. $A<B$",
+        "E. $A\\Ge2B$"
+      ],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Οι λύσεις τις εξίσωσης $\\frac{x^{2}-x}{1-x}=1$ είναι:",
+      "input": "",
+      "choices": [
+        "A. 1",
+        "B. 2",
+        "Γ. +1",
+        "Δ. -1",
+        "E. 0"
+      ],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "9.1",
+      "question": "Τρείς παράλληλες ευθείες $\\epsilon_{1}$, $\\epsilon_{2}$, $\\epsilon_{3}$ διέρχονται από τις κορυφές Α, Β, Γ ενός τετραγώνου ΑΒΓΔ. Η απόσταση μεταξύ των $\\epsilon_{1}$, $\\epsilon_{2}$ είναι $AE=5$ cm και η απόσταση μεταξύ των $\\epsilon_{2}$, $\\epsilon_{3}$ είναι $BZ=7$ cm. \n\nΝα αποδείξετε ότι οι γωνίες $\\phi$ και $\\rho$ είναι ίσες",
+      "input": "The image displays a geometric problem featuring a square $AB\\Gamma\\Delta$ ($ABCD$) positioned between three parallel lines.\nParallel Lines: Three blue lines labeled $\\varepsilon_1, \\varepsilon_2, \\varepsilon_3$ run diagonally.\nSquare: A dark blue square $AB\\Gamma\\Delta$ has its vertices on these lines:\nVertex $A$ is on $\\varepsilon_1$.\nVertex $B$ is on $\\varepsilon_2$.\nVertex $\\Gamma$ is on $\\varepsilon_3$.\nMeasurements:\n$AE = 5 \\text{ cm}$: A perpendicular segment from $A$ to line $\\varepsilon_2$ (representing the distance between $\\varepsilon_1$ and $\\varepsilon_2$).\n$BZ = 7 \\text{ cm}$: A perpendicular segment from $B$ to line $\\varepsilon_3$ (representing the distance between $\\varepsilon_2$ and $\\varepsilon_3$).\nAngles: Several angles are marked with Greek letters ($\\phi, \\tau, \\rho, \\omega$) and green shading, indicating geometric relationships between the triangles formed.",
+      "choices": [],
+      "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟΥ_2016_1/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟΥ_2016_1_ΘΕΜΑ_9_ΕΙΚΟΝΑ_3.png",
+          "description": "The image displays a geometric problem featuring a square $AB\\Gamma\\Delta$ ($ABCD$) positioned between three parallel lines.\nParallel Lines: Three blue lines labeled $\\varepsilon_1, \\varepsilon_2, \\varepsilon_3$ run diagonally.\nSquare: A dark blue square $AB\\Gamma\\Delta$ has its vertices on these lines:\nVertex $A$ is on $\\varepsilon_1$.\nVertex $B$ is on $\\varepsilon_2$.\nVertex $\\Gamma$ is on $\\varepsilon_3$.\nMeasurements:\n$AE = 5 \\text{ cm}$: A perpendicular segment from $A$ to line $\\varepsilon_2$ (representing the distance between $\\varepsilon_1$ and $\\varepsilon_2$).\n$BZ = 7 \\text{ cm}$: A perpendicular segment from $B$ to line $\\varepsilon_3$ (representing the distance between $\\varepsilon_2$ and $\\varepsilon_3$).\nAngles: Several angles are marked with Greek letters ($\\phi, \\tau, \\rho, \\omega$) and green shading, indicating geometric relationships between the triangles formed.",
+          "transcription": []
+        }
+      ],
+      "mark": [
+        "Μονάδες 3"
+      ]
+    },
+    {
+      "id": "9.2",
+      "question": "Τρείς παράλληλες ευθείες $\\epsilon_{1}$, $\\epsilon_{2}$, $\\epsilon_{3}$ διέρχονται από τις κορυφές Α, Β, Γ ενός τετραγώνου ΑΒΓΔ. Η απόσταση μεταξύ των $\\epsilon_{1}$, $\\epsilon_{2}$ είναι $AE=5$ cm και η απόσταση μεταξύ των $\\epsilon_{2}$, $\\epsilon_{3}$ είναι $BZ=7$ cm. \n\nΝα αποδείξετε ότι τα τρίγωνα ΑΒΕ και ΒΓΖ είναι ίσα",
+      "input": "The image displays a geometric problem featuring a square $AB\\Gamma\\Delta$ ($ABCD$) positioned between three parallel lines.\nParallel Lines: Three blue lines labeled $\\varepsilon_1, \\varepsilon_2, \\varepsilon_3$ run diagonally.\nSquare: A dark blue square $AB\\Gamma\\Delta$ has its vertices on these lines:\nVertex $A$ is on $\\varepsilon_1$.\nVertex $B$ is on $\\varepsilon_2$.\nVertex $\\Gamma$ is on $\\varepsilon_3$.\nMeasurements:\n$AE = 5 \\text{ cm}$: A perpendicular segment from $A$ to line $\\varepsilon_2$ (representing the distance between $\\varepsilon_1$ and $\\varepsilon_2$).\n$BZ = 7 \\text{ cm}$: A perpendicular segment from $B$ to line $\\varepsilon_3$ (representing the distance between $\\varepsilon_2$ and $\\varepsilon_3$).\nAngles: Several angles are marked with Greek letters ($\\phi, \\tau, \\rho, \\omega$) and green shading, indicating geometric relationships between the triangles formed.",
+      "choices": [],
+      "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟΥ_2016_1/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟΥ_2016_1_ΘΕΜΑ_9_ΕΙΚΟΝΑ_3.png",
+          "description": "The image displays a geometric problem featuring a square $AB\\Gamma\\Delta$ ($ABCD$) positioned between three parallel lines.\nParallel Lines: Three blue lines labeled $\\varepsilon_1, \\varepsilon_2, \\varepsilon_3$ run diagonally.\nSquare: A dark blue square $AB\\Gamma\\Delta$ has its vertices on these lines:\nVertex $A$ is on $\\varepsilon_1$.\nVertex $B$ is on $\\varepsilon_2$.\nVertex $\\Gamma$ is on $\\varepsilon_3$.\nMeasurements:\n$AE = 5 \\text{ cm}$: A perpendicular segment from $A$ to line $\\varepsilon_2$ (representing the distance between $\\varepsilon_1$ and $\\varepsilon_2$).\n$BZ = 7 \\text{ cm}$: A perpendicular segment from $B$ to line $\\varepsilon_3$ (representing the distance between $\\varepsilon_2$ and $\\varepsilon_3$).\nAngles: Several angles are marked with Greek letters ($\\phi, \\tau, \\rho, \\omega$) and green shading, indicating geometric relationships between the triangles formed.",
+          "transcription": []
+        }
+      ],
+      "mark": [
+        "Μονάδες 2"
+      ]
+    },
+    {
+      "id": "9.3",
+      "question": "Τρείς παράλληλες ευθείες $\\epsilon_{1}$, $\\epsilon_{2}$, $\\epsilon_{3}$ διέρχονται από τις κορυφές Α, Β, Γ ενός τετραγώνου ΑΒΓΔ. Η απόσταση μεταξύ των $\\epsilon_{1}$, $\\epsilon_{2}$ είναι $AE=5$ cm και η απόσταση μεταξύ των $\\epsilon_{2}$, $\\epsilon_{3}$ είναι $BZ=7$ cm. \n\nΝα βρείτε το μήκος του $\\Gamma\\text{Z}$",
+      "input": "The image displays a geometric problem featuring a square $AB\\Gamma\\Delta$ ($ABCD$) positioned between three parallel lines.\nParallel Lines: Three blue lines labeled $\\varepsilon_1, \\varepsilon_2, \\varepsilon_3$ run diagonally.\nSquare: A dark blue square $AB\\Gamma\\Delta$ has its vertices on these lines:\nVertex $A$ is on $\\varepsilon_1$.\nVertex $B$ is on $\\varepsilon_2$.\nVertex $\\Gamma$ is on $\\varepsilon_3$.\nMeasurements:\n$AE = 5 \\text{ cm}$: A perpendicular segment from $A$ to line $\\varepsilon_2$ (representing the distance between $\\varepsilon_1$ and $\\varepsilon_2$).\n$BZ = 7 \\text{ cm}$: A perpendicular segment from $B$ to line $\\varepsilon_3$ (representing the distance between $\\varepsilon_2$ and $\\varepsilon_3$).\nAngles: Several angles are marked with Greek letters ($\\phi, \\tau, \\rho, \\omega$) and green shading, indicating geometric relationships between the triangles formed.",
+      "choices": [],
+      "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟΥ_2016_1/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟΥ_2016_1_ΘΕΜΑ_9_ΕΙΚΟΝΑ_3.png",
+          "description": "The image displays a geometric problem featuring a square $AB\\Gamma\\Delta$ ($ABCD$) positioned between three parallel lines.\nParallel Lines: Three blue lines labeled $\\varepsilon_1, \\varepsilon_2, \\varepsilon_3$ run diagonally.\nSquare: A dark blue square $AB\\Gamma\\Delta$ has its vertices on these lines:\nVertex $A$ is on $\\varepsilon_1$.\nVertex $B$ is on $\\varepsilon_2$.\nVertex $\\Gamma$ is on $\\varepsilon_3$.\nMeasurements:\n$AE = 5 \\text{ cm}$: A perpendicular segment from $A$ to line $\\varepsilon_2$ (representing the distance between $\\varepsilon_1$ and $\\varepsilon_2$).\n$BZ = 7 \\text{ cm}$: A perpendicular segment from $B$ to line $\\varepsilon_3$ (representing the distance between $\\varepsilon_2$ and $\\varepsilon_3$).\nAngles: Several angles are marked with Greek letters ($\\phi, \\tau, \\rho, \\omega$) and green shading, indicating geometric relationships between the triangles formed.",
+          "transcription": []
+        }
+      ],
+      "mark": [
+        "Μονάδες 2"
+      ]
+    },
+    {
+      "id": "9.4",
+      "question": "Τρείς παράλληλες ευθείες $\\epsilon_{1}$, $\\epsilon_{2}$, $\\epsilon_{3}$ διέρχονται από τις κορυφές Α, Β, Γ ενός τετραγώνου ΑΒΓΔ. Η απόσταση μεταξύ των $\\epsilon_{1}$, $\\epsilon_{2}$ είναι $AE=5$ cm και η απόσταση μεταξύ των $\\epsilon_{2}$, $\\epsilon_{3}$ είναι $BZ=7$ cm. \n\nΝα υπολογίσετε το εμβαδόν του τετραγώνου ΑΒΓΔ",
+      "input": "The image displays a geometric problem featuring a square $AB\\Gamma\\Delta$ ($ABCD$) positioned between three parallel lines.\nParallel Lines: Three blue lines labeled $\\varepsilon_1, \\varepsilon_2, \\varepsilon_3$ run diagonally.\nSquare: A dark blue square $AB\\Gamma\\Delta$ has its vertices on these lines:\nVertex $A$ is on $\\varepsilon_1$.\nVertex $B$ is on $\\varepsilon_2$.\nVertex $\\Gamma$ is on $\\varepsilon_3$.\nMeasurements:\n$AE = 5 \\text{ cm}$: A perpendicular segment from $A$ to line $\\varepsilon_2$ (representing the distance between $\\varepsilon_1$ and $\\varepsilon_2$).\n$BZ = 7 \\text{ cm}$: A perpendicular segment from $B$ to line $\\varepsilon_3$ (representing the distance between $\\varepsilon_2$ and $\\varepsilon_3$).\nAngles: Several angles are marked with Greek letters ($\\phi, \\tau, \\rho, \\omega$) and green shading, indicating geometric relationships between the triangles formed.",
+      "choices": [],
+      "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟΥ_2016_1/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟΥ_2016_1_ΘΕΜΑ_9_ΕΙΚΟΝΑ_3.png",
+          "description": "The image displays a geometric problem featuring a square $AB\\Gamma\\Delta$ ($ABCD$) positioned between three parallel lines.\nParallel Lines: Three blue lines labeled $\\varepsilon_1, \\varepsilon_2, \\varepsilon_3$ run diagonally.\nSquare: A dark blue square $AB\\Gamma\\Delta$ has its vertices on these lines:\nVertex $A$ is on $\\varepsilon_1$.\nVertex $B$ is on $\\varepsilon_2$.\nVertex $\\Gamma$ is on $\\varepsilon_3$.\nMeasurements:\n$AE = 5 \\text{ cm}$: A perpendicular segment from $A$ to line $\\varepsilon_2$ (representing the distance between $\\varepsilon_1$ and $\\varepsilon_2$).\n$BZ = 7 \\text{ cm}$: A perpendicular segment from $B$ to line $\\varepsilon_3$ (representing the distance between $\\varepsilon_2$ and $\\varepsilon_3$).\nAngles: Several angles are marked with Greek letters ($\\phi, \\tau, \\rho, \\omega$) and green shading, indicating geometric relationships between the triangles formed.",
+          "transcription": []
+        }
+      ],
+      "mark": [
+        "Μονάδες 3"
+      ]
+    },
+    {
+      "id": "10.1",
+      "question": "Ένας αθλητής, κατά τη διάρκεια της προπόνησής του, όταν κολυμπάει ελεύθερο, διανύει 120 μέτρα σε ένα λεπτό, ενώ όταν κολυμπάει πρόσθιο, διανύει 90 μέτρα σε ένα λεπτό. Υποθέτουμε ότι ο αθλητής έχει σταθερή ταχύτητα στο ελεύθερο και σταθερή ταχύτητα στο πρόσθιο στυλ. \n\nΝα βρείτε την ταχύτητα του αθλητή στο ελεύθερο και την ταχύτητά του στο πρόσθιο σε m/sec.",
+      "input": "",
+      "choices": [],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "10.2",
+      "question": "Ένας αθλητής, κατά τη διάρκεια της προπόνησής του, όταν κολυμπάει ελεύθερο, διανύει 120 μέτρα σε ένα λεπτό, ενώ όταν κολυμπάει πρόσθιο, διανύει 90 μέτρα σε ένα λεπτό. Υποθέτουμε ότι ο αθλητής έχει σταθερή ταχύτητα στο ελεύθερο και σταθερή ταχύτητα στο πρόσθιο στυλ.\n\nΟ αθλητής, κατά τη διάρκεια της προπόνησης, κολύμπησε 300 μέτρα κάνοντας αρχικά ελεύθερο, για x sec, και μετά πρόσθιο, για y sec.\nα. Να γράψετε μια γραμμική εξίσωση η οποία να συνδέει τους χρόνους x και y.\nβ. Αν ο αθλητής κάλυψε αυτά τα 300 μέτρα σε 3 λεπτά, να υπολογίσετε τους αντίστοιχους χρόνους που κολύμπησε ελεύθερο και πρόσθιο και, στη συνέχεια, τις αποστάσεις που κάλυψε με κάθε στυλ.",
+      "input": "",
+      "choices": [],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    }
+]

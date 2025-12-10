@@ -1,0 +1,2 @@
+Description
+The image displays a horizontal number line marked with regularly spaced vertical tick marks.\nScale: The integers 1 and 2 are explicitly labeled below the line.\nSubdivisions: The distance between the numbers 1 and 2 is divided into 10 equal intervals (spaces).\nPoint A: The letter A is positioned above a specific tick mark located to the left of the number 1. Specifically, point A is located exactly one interval before the number 1.

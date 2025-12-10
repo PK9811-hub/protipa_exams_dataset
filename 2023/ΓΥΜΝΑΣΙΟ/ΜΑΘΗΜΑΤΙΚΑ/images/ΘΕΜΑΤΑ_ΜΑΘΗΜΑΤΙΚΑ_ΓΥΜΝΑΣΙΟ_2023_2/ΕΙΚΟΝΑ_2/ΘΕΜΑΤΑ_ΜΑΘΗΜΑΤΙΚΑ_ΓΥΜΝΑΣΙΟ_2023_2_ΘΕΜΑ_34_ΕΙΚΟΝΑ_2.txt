@@ -1,0 +1,2 @@
+Description
+The image displays a segment of a horizontal number line with three specific points marked by black dots.\nLeft Point: Labeled with the Greek letter $\alpha$ (alpha).\nMiddle Point: Labeled with the fraction $\frac{5}{3}$.\nRight Point: Labeled with the fraction $\frac{9}{4}$.

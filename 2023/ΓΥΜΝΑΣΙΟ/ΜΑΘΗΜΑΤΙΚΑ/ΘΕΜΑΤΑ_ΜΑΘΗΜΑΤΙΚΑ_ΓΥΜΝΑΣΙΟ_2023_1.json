@@ -1,0 +1,176 @@
+[
+  {
+    "id": "1",
+    "question": "Στον παρακάτω πίνακα συγκεντρώθηκαν οι δηλώσεις προτίμησης των μαθητών της Γ΄ Λυκείου για την 5μερη εκδρομή τους. Ποια από τις παρακάτω προτάσεις είναι σωστή;",
+    "input": "The image displays a vertical bar chart titled \"Προτιμήσεις μαθητών για 5μερη εκδρομή\" (Student preferences for a 5-day trip).\nY-axis (Vertical): Labeled \"μαθητές\" (students), representing the number of votes. The scale ranges from 0 to 16 in increments of 2.\nX-axis (Horizontal): Labeled \"προορισμός\" (destination), listing five different locations.\nData Bars: There are five blue vertical bars, each corresponding to a specific destination and showing the number of students who chose it.",
+    "choices": [
+      "α. Σαράντα μαθητές δήλωσαν πού θέλουν να πάνε εκδρομή.",
+      "β. Είκοσι μαθητές δήλωσαν ότι θέλουν να πάνε σε νησί.",
+      "γ. Το 15% των μαθητών θέλει να πάει στη Θεσσαλονίκη",
+      "δ. Είκοσι τρεις μαθητές δήλωσαν ότι δε θέλουν να πάνε σε νησί."
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2023_1/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2023_1_ΘΕΜΑ_1_ΕΙΚΟΝΑ_1.png",
+        "description": "The image displays a vertical bar chart titled \"Προτιμήσεις μαθητών για 5μερη εκδρομή\" (Student preferences for a 5-day trip).\nY-axis (Vertical): Labeled \"μαθητές\" (students), representing the number of votes. The scale ranges from 0 to 16 in increments of 2.\nX-axis (Horizontal): Labeled \"προορισμός\" (destination), listing five different locations.\nData Bars: There are five blue vertical bars, each corresponding to a specific destination and showing the number of students who chose it.",
+        "transcription": "Title: Προτιμήσεις μαθητών για 5μερη εκδρομή\nData Points (Destination: Number of Students):\nΚρήτη (Crete): 12\nΚέρκυρα (Corfu): 7\nΡόδο (Rhodes): 8\nΘεσσαλονίκη (Thessaloniki): 15\nΚαλαμάτα (Kalamata): 8"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "2",
+    "question": "Η Άννα θα προπονείται κάθε μέρα 1 ώρα και 18 λεπτά από Δευτέρα έως Παρασκευή, το Σάββατο θα προπονείται 2,5 ώρες, και την Κυριακή θα ξεκουράζεται. Αν ξεκινήσει το πρόγραμμα της προπόνησης τη Δευτέρα 1η Μαΐου πόσο χρόνο θα έχει προπονηθεί έως και την τελευταία μέρα του Ιουνίου;",
+    "input": "",
+    "choices": [
+      "α. 78 ώρες και 30 λεπτά",
+      "β. 77 ώρες και 12 λεπτά",
+      "γ. 76 ώρες",
+      "δ. 73 ώρες και 10 λεπτά"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "3",
+    "question": "Αν κάθε τετραγωνάκι έχει εμβαδόν 2 τότε το πολύγωνο που έχουμε σχεδιάσει έχει εμβαδόν",
+    "input": "The image displays an irregular polygon drawn on a square grid background.\nGrid: The background consists of a regular grid of light grey lines forming unit squares.\nPolygon: The shape is outlined in black, and its vertices align perfectly with the grid intersections.\nGeometric Features (by counting grid units):\nTop Right: A diagonal line slopes down from the highest point, spanning 3 grid units horizontally and 3 grid units vertically.\nRight Side: A vertical line segment going down 3 units.\nBottom: A horizontal line segment going left 3 units.\nBottom Left: A diagonal line slopes up, spanning 2 units horizontally and 2 units vertically.\nFar Left: A rectangular \"arm\" protrudes to the left, 2 units wide and 1 unit high.\nMiddle Vertical: A vertical line segment goes up 3 units, connecting the \"arm\" back to the highest point.",
+    "choices": [
+      "α. 18",
+      "β. 18,5",
+      "γ. 36",
+      "δ. 37"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2023_1/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2023_1_ΘΕΜΑ_3_ΕΙΚΟΝΑ_2.png",
+        "description": "The image displays an irregular polygon drawn on a square grid background.\nGrid: The background consists of a regular grid of light grey lines forming unit squares.\nPolygon: The shape is outlined in black, and its vertices align perfectly with the grid intersections.\nGeometric Features (by counting grid units):\nTop Right: A diagonal line slopes down from the highest point, spanning 3 grid units horizontally and 3 grid units vertically.\nRight Side: A vertical line segment going down 3 units.\nBottom: A horizontal line segment going left 3 units.\nBottom Left: A diagonal line slopes up, spanning 2 units horizontally and 2 units vertically.\nFar Left: A rectangular \"arm\" protrudes to the left, 2 units wide and 1 unit high.\nMiddle Vertical: A vertical line segment goes up 3 units, connecting the \"arm\" back to the highest point.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "4",
+    "question": "Σε τρία ίσα τετράγωνα έχουμε σχεδιάσει στο εσωτερικό τους με διαβήτη τα επόμενα συμμετρικά σχήματα και τα έχουμε βάψει με μαύρη μπογιά. Για την ποσότητα της μπογιάς που χρησιμοποιήσαμε ποιο από τα παρακάτω είναι λάθος;",
+    "input": "The image displays three square frames, labeled Σχήμα Α (Shape A), Σχήμα Β (Shape B), and Σχήμα Γ (Shape C), each containing a different geometric pattern created by black and white regions.\nΣχήμα Α (Left): A square containing a central black four-pointed star shape. This shape is formed by four white quarter-circles located at the four corners of the square.\nΣχήμα Β (Middle): A square containing two large white semicircles. One semicircle has its diameter on the top edge of the square, and the other has its diameter on the bottom edge. The semicircles touch at the center of the square. The remaining space on the left and right sides is shaded black.\nΣχήμα Γ (Right): A square containing a large white circle inscribed within it (touching the midpoints of all four sides). The four corner regions outside the circle are shaded black.",
+    "choices": [
+      "α. Για το σχήμα Α χρειάστηκε περισσότερη μπογιά από ότι για το Γ",
+      "β. Για τα σχήματα Β και Γ χρειάστηκε η ίδια ποσότητα μπογιάς",
+      "γ. Για τα σχήματα Α και Β χρειάστηκε η ίδια ποσότητα μπογιάς",
+      "δ. Όλα τα σχήματα χρειάστηκαν την ίδια ποσότητα μπογιάς"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2023_1/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2023_1_ΘΕΜΑ_4_ΕΙΚΟΝΑ_3.png",
+        "description": "The image displays three square frames, labeled Σχήμα Α (Shape A), Σχήμα Β (Shape B), and Σχήμα Γ (Shape C), each containing a different geometric pattern created by black and white regions.\nΣχήμα Α (Left): A square containing a central black four-pointed star shape. This shape is formed by four white quarter-circles located at the four corners of the square.\nΣχήμα Β (Middle): A square containing two large white semicircles. One semicircle has its diameter on the top edge of the square, and the other has its diameter on the bottom edge. The semicircles touch at the center of the square. The remaining space on the left and right sides is shaded black.\nΣχήμα Γ (Right): A square containing a large white circle inscribed within it (touching the midpoints of all four sides). The four corner regions outside the circle are shaded black.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "5",
+    "question": "Σε ένα δοχείο περιέχονται 250 γραμμάρια νερό με οινόπνευμα ανακατεμένα σε αναλογία 60% οινόπνευμα και 40% νερό. Τι πρέπει να κάνω ώστε στο δοχείο να περιέχεται ίση ποσότητα νερού και οινοπνεύματος;",
+    "input": "",
+    "choices": [
+      "α. Να προσθέσω στο δοχείο 25 γραμμάρια νερό.",
+      "β. Να αφαιρέσω από το δοχείο 25 γραμμάρια οινόπνευμα.",
+      "γ. Να προσθέσω στο δοχείο 50 γραμμάρια νερό.",
+      "δ. Να αφαιρέσω από το δοχείο 20 γραμμάρια οινόπνευμα."
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "6",
+    "question": "Οι 6 εργαζόμενες ολοκληρώνουν ένα έργο σε 16 ημέρες. Πόσες εργαζόμενες θα τελειώσουν το ίδιο έργο σε 4 ημέρες;",
+    "input": "",
+    "choices": [
+      "α. 16",
+      "β. 26",
+      "γ. 24",
+      "δ. 32"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "7",
+    "question": "Τα $\\frac{2}{6}$ των ατόμων που παρακολούθησαν μια σχολική γιορτή ήταν γονείς, το $\\frac{1}{4}$ παππούδες και γιαγιάδες και τα υπόλοιπα παιδιά. Αν παρακολούθησαν τη γιορτή 180 άτομα, πόσα ήταν τα παιδιά;",
+    "input": "",
+    "choices": [
+      "α. 54",
+      "β. 75",
+      "γ. 105",
+      "δ. 108"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "8",
+    "question": "Ένα πλοίο κινείται με ταχύτητα 2,4 ναυτικά μίλια την ώρα. Για να διανύσει μια απόσταση 3,6 ναυτικών μιλίων θα χρειαστεί:",
+    "input": "",
+    "choices": [
+      "α. 100 λεπτά",
+      "β. 240 λεπτά",
+      "γ. 90 λεπτά",
+      "δ. 2 ώρες"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "9",
+    "question": "Ποιος από τους παρακάτω δεκαδικούς αριθμούς είναι πιο κοντά στο κλάσμα $\\frac{5}{3};$",
+    "input": "",
+    "choices": [
+      "α. 1,66",
+      "β. 1,667",
+      "γ. 1,67",
+      "δ. 1,7"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "10",
+    "question": "Αν τον αριθμό κ τον πολλαπλασιάσουμε επί 5, κατόπιν στο γινόμενο προσθέσουμε τη μονάδα και το άθροισμα το διαιρέσουμε δια δυο θα προκύψει ο αριθμός",
+    "input": "",
+    "choices": [
+      "α. $(5\\cdot k+1): 2$",
+      "β. $5\\cdot k+1:2$",
+      "γ. $5\\cdot(\\kappa+1):2$",
+      "δ. $(5\\cdot\\kappa):2+1$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "11",
+    "question": "Οι αριθμοί που όταν διαιρούνται με το 3 ή με το 5 αφήνουν υπόλοιπο 1 έχουν την ιδιότητα:",
+    "input": "",
+    "choices": [
+      "α. είναι πολλαπλάσια του 15",
+      "β. όταν διαιρούνται με το 15 αφήνουν υπόλοιπο 1",
+      "γ. όταν διαιρούνται με το 15 αφήνουν υπόλοιπο 2",
+      "δ. είναι πολλαπλάσια του 8."
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "12",
+    "question": "Η παράσταση 4 + 3 - 1,5 – 5 - 1,6 είναι ίση με",
+    "input": "",
+    "choices": [
+      "α. 2,5",
+      "β. 4",
+      "γ. 0,5",
+      "δ. 5,6"
+    ],
+    "images": [],
+    "mark": []
+  }
+]

@@ -1,0 +1,5 @@
+Description
+The image shows two pie charts. Chart $\text{A}$ represents a distribution with $47\%$, $13\%$, $10\%$, $18\%$, and $12\%$ sectors. Chart $\text{B}$ represents a distribution with $46\%$, $12\%$, $5\%$, $7\%$, and $30\%$ sectors.\nThe Orange sector in both charts represents the percentage of mobile phones belonging to the company “SSA”:\nCity A (Chart A): $12\%$\nCity B (Chart B): $30\%$\nThe exercise provides the total number of phones in each city: $78,450$ in City $\text{A}$ and $31,380$ in City $\text{B}$. 
+
+Transcription
+Image Content (Percentages for SSA)\n| Chart | City | Total Phones (from context) | SSA Percentage (Orange Sector) |\n| :---: | :---: | :---: | :---: |\n| A | $\text{A}$ | $78,450$ | $12\%$ |\n| B | $\text{B}$ | $31,380$ | $30\%$ |

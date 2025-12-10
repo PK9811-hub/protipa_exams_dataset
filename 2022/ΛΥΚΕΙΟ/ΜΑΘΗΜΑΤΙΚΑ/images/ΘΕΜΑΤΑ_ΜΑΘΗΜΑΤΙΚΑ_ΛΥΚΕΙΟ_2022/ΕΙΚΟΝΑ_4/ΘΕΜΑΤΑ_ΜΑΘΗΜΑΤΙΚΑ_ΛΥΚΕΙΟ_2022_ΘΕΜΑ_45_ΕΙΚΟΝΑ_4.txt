@@ -1,0 +1,2 @@
+Description
+The image displays a vertical bar chart (histogram) illustrating survey results.\nY-axis (Vertical): Represents a numerical scale ranging from 0 to 45, marked in increments of 5. It shows percentages.\nX-axis (Horizontal): Lists five categories labeled 1, 2, 3, 4, 5.\nData Bars:\nCategory 1: The bar reaches the height of 5.\nCategory 2: The bar reaches the height of 20.\nCategory 3: The bar reaches the height of 40 (the tallest bar).\nCategory 4: The bar reaches the height of 25.\nCategory 5: The bar reaches the height of 10.

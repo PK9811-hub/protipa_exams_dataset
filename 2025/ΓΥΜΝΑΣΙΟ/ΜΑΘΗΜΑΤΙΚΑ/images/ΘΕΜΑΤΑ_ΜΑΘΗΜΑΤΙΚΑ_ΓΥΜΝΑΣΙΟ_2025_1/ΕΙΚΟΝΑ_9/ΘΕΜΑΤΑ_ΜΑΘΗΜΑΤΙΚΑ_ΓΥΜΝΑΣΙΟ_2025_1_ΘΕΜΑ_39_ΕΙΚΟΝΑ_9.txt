@@ -1,0 +1,2 @@
+Description
+The image displays a 2D grid map with two specific points labeled A and B, representing starting locations.\nPoint A: Located in the upper right section of the grid. An arrow originates from point A and points horizontally to the left.\nPoint B: Located in the lower central section of the grid. An arrow originates from point B and points diagonally upwards and to the left (northwest direction).\nGrid: The background consists of a standard square grid used for coordinate positioning or measuring distance.

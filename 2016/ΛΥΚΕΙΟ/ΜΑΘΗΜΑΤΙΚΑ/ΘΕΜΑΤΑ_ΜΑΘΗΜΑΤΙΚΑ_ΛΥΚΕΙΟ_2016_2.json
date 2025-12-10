@@ -1,0 +1,194 @@
+[
+  {
+    "id": "1",
+    "question": "Ο Νίκος στα διαγωνίσματα των Μαθηματικών έχει πάρει τις εξής βαθμολογίες: 12, 19, 13, 18, 16. Πόσο πρέπει να πάρει στο $6^{\\circ}$ διαγώνισμα για να βγάλει μέσο όρο 16;",
+    "input": "",
+    "choices": [
+      "A. 14",
+      "B. 15",
+      "Γ. 16",
+      "Δ. 17",
+      "E. 18"
+    ],
+    "images": [],
+    "mark": [
+      "Μονάδες 5"
+    ]
+  },
+  {
+    "id": "2",
+    "question": "Σε ένα ορθογώνιο τρίγωνο ΑΒΓ $(\\hat{A}=90^{\\circ})$ είναι $AB=5$ και $B\\Gamma=13$ Αν ΑΔ είναι το ύψος του τριγώνου, τότε το μήκος του $\\Delta B$ είναι:",
+    "input": "",
+    "choices": [
+      "Α. $25/13$",
+      "B. $13/25$",
+      "Γ. $5/13$",
+      "Δ. $13/5$",
+      "E. 3"
+    ],
+    "images": [],
+    "mark": [
+      "Μονάδες 5"
+    ]
+  },
+  {
+    "id": "3",
+    "question": "Για το τρίγωνο ΑΒΓ η τιμή της παράστασης $\\Pi=\\frac{\\sigma uvB\\cdot\\eta\\mu\\Gamma}{\\epsilon\\phi\\Gamma}$ είναι:",
+    "input": "The image displays a right-angled triangle $AB\\Gamma$.\nVertices:\n$A$: The vertex with the right angle ($90^{circ}$).\n$B$ and $\\Gamma$: The vertices of the acute angles.\nSides:\n$a$ (alpha): The hypotenuse (opposite the right angle $A$).\n$\beta$ (beta): The vertical leg (opposite angle $B$, adjacent to angle $\\Gamma$).\n$\\gamma$ (gamma): The horizontal leg (opposite angle $\\Gamma$, adjacent to angle $B$).",
+    "choices": [
+      "A. 1",
+      "B. 0",
+      "$\\Gamma.\\frac{\\alpha^{2}}{\\beta\\cdot\\gamma}$",
+      "Δ. $\\frac{\\beta\\cdot\\gamma}{a^{2}}$",
+      "E. $\\frac{\\gamma^{3}}{a^{2}\\beta}$"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2016_2/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2016_2_ΘΕΜΑ_3_ΕΙΚΟΝΑ_1.png",
+        "description": "The image displays a right-angled triangle $AB\\Gamma$.\nVertices:\n$A$: The vertex with the right angle ($90^{circ}$).\n$B$ and $\\Gamma$: The vertices of the acute angles.\nSides:\n$a$ (alpha): The hypotenuse (opposite the right angle $A$).\n$\beta$ (beta): The vertical leg (opposite angle $B$, adjacent to angle $\\Gamma$).\n$\\gamma$ (gamma): The horizontal leg (opposite angle $\\Gamma$, adjacent to angle $B$).",
+        "transcription": []
+      }
+    ],
+    "mark": [
+      "Μονάδες 5"
+    ]
+  },
+  {
+    "id": "4",
+    "question": "Ποιά από τις παρακάτω εξισώσεις επαληθεύεται από όλα τα ζεύγη (x, y) του πίνακα:\n\nx | y\n--|--\n1 | $3\\frac{1}{3}$\n2 | $2\\frac{2}{3}$\n3 | 2",
+    "input": "",
+    "choices": [
+      "A. $x-3y=6$",
+      "B. $3y-x=6$",
+      "Γ. $2x+3y=12$",
+      "Δ. $2y+2x=12$",
+      "E. $y=\\frac{2}{9}x^{2}$"
+    ],
+    "images": [],
+    "mark": [
+      "Μονάδες 5"
+    ]
+  },
+  {
+    "id": "5",
+    "question": "Η παράσταση $\\Pi=\\sqrt{2016+2015\\cdot2016}$ είναι ίση με:",
+    "input": "",
+    "choices": [
+      "A. 2016",
+      "B. 2017",
+      "$\\Gamma.\\sqrt{2016\\cdot2015}$",
+      "$\\Delta.2015^{2}$",
+      "Ε. $2016^{2}$"
+    ],
+    "images": [],
+    "mark": [
+      "Μονάδες 5"
+    ]
+  },
+  {
+    "id": "6",
+    "question": "Δίνονται οι αριθμοί $A=2016$ και $B=2015.$ \n1. Να αφαιρέσετε από τον πρώτο τον διπλάσιο του δεύτερου.\n2. Να προσθέσετε στον πρώτο τον διπλάσιο του δεύτερου.\n3. Να πολλαπλασιάσετε μεταξύ τους, τους δύο αριθμούς που βρήκατε στα 1, 2.\n4. Στο προηγούμενο αποτέλεσμα να προσθέσετε το τριπλάσιο του τετραγώνου του Β.\n5. Να διαιρέσετε το προηγούμενο αποτέλεσμα με το άθροισμα των Α και Β.\nΟ αριθμός που προέκυψε είναι:",
+    "input": "",
+    "choices": [
+      "A. 1",
+      "B. 201620001",
+      "Γ. 6042,5",
+      "Δ. 0",
+      "Ε. 2016"
+    ],
+    "images": [],
+    "mark": [
+      "Μονάδες 5"
+    ]
+  },
+  {
+    "id": "7",
+    "question": "Αν για τους θετικούς πραγματικούς αριθμούς χ, y ισχύει ότι $xy=x-y$ να βρεθεί ποια από τις επόμενες τιμές είναι τιμή της παράστασης: $\\Pi=\\frac{x}{y}+\\frac{y}{x}-xy$",
+    "input": "",
+    "choices": [
+      "A.-1",
+      "B.-2",
+      "Γ. 2",
+      "$\\Delta.-1/2$",
+      "Ε. $1/2$"
+    ],
+    "images": [],
+    "mark": [
+      "Μονάδες 5"
+    ]
+  },
+  {
+    "id": "8",
+    "question": "Αν α και β είναι δύο αριθμοί μεγαλύτεροι του 1, ποιο από τα παρακάτω κλάσματα παριστά τον μεγαλύτερο αριθμό;",
+    "input": "",
+    "choices": [
+      "A. $\\frac{\\alpha}{\\beta-1}$",
+      "B. $\\frac{\\alpha}{\\beta+1}$",
+      "Γ. $\\frac{2\\alpha}{2\\beta-1}$",
+      "Δ. $\\frac{2\\alpha}{2\\beta+1}$",
+      "Ε. $\\frac{3\\alpha}{3\\beta+1}$"
+    ],
+    "images": [],
+    "mark": [
+      "Μονάδες 5"
+    ]
+  },
+  {
+    "id": "9.1",
+    "question": "Μία βάρκα ξεκινάει από το λιμάνι Α, κινείται ανατολικά για 7 km μέχρι το σημείο Β, στη συνέχεια κινείται βόρεια για 9 km μέχρι το σημείο Γ, μετά πάλι ανατολικά για 8 km μέχρι το σημείο $\\Delta$ και τέλος 11 km βόρεια μέχρι το λιμάνι Ε. Την επομένη, επιστρέφει από το Ε στο Α κινούμενη ευθύγραμμα. \nΝα υπολογίσετε την απόσταση ΕΑ των δύο λιμανιών.",
+    "input": "The image displays a diagram of a path consisting of four line segments, representing movement on a map with cardinal directions.\\nSegment $AB$: Horizontal line moving East, length $7$km. There is a right angle marker at point $B$.\\nSegment $B\\Gamma$: Vertical line moving North, length $9$km.\\nSegment $\\Gamma\\Delta$: Horizontal line moving East, length $8$km. There is a right angle marker at point $\\Delta$.\\nSegment $\\Delta E$: Vertical line moving North, length $11$km.",
+    "choices": [],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟΥ_2016_2/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟΥ_2016_2_ΘΕΜΑ_9_ΕΙΚΟΝΑ_2.png",
+        "description": "The image displays a diagram of a path consisting of four line segments, representing movement on a map with cardinal directions.\\nSegment $AB$: Horizontal line moving East, length $7$km. There is a right angle marker at point $B$.\\nSegment $B\\Gamma$: Vertical line moving North, length $9$km.\\nSegment $\\Gamma\\Delta$: Horizontal line moving East, length $8$km. There is a right angle marker at point $\\Delta$.\\nSegment $\\Delta E$: Vertical line moving North, length $11$km.",
+        "transcription": []
+      }
+    ],
+    "mark": [
+      "Μονάδες 5"
+    ]
+  },
+  {
+    "id": "9.2",
+    "question": "Μία βάρκα ξεκινάει από το λιμάνι Α, κινείται ανατολικά για 7 km μέχρι το σημείο Β, στη συνέχεια κινείται βόρεια για 9 km μέχρι το σημείο Γ, μετά πάλι ανατολικά για 8 km μέχρι το σημείο $\\Delta$ και τέλος 11 km βόρεια μέχρι το λιμάνι Ε. Την επομένη, επιστρέφει από το Ε στο Α κινούμενη ευθύγραμμα. \nΝα εξετάσετε αν, κατά την επιστροφή από το Ε στο Α, κινούμενη σε ευθεία γραμμή, η βάρκα θα περάσει από το σημείο Γ. (Δίνεται: $\\sqrt{185}\\approx13,6015$ και $\\sqrt{130}\\approx11,4018)$",
+    "input": "The image displays a diagram of a path consisting of four line segments, representing movement on a map with cardinal directions.\\nSegment $AB$: Horizontal line moving East, length $7$km. There is a right angle marker at point $B$.\\nSegment $B\\Gamma$: Vertical line moving North, length $9$km.\\nSegment $\\Gamma\\Delta$: Horizontal line moving East, length $8$km. There is a right angle marker at point $\\Delta$.\\nSegment $\\Delta E$: Vertical line moving North, length $11$km.",
+    "choices": [],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟΥ_2016_2/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟΥ_2016_2_ΘΕΜΑ_9_ΕΙΚΟΝΑ_2.png",
+        "description": "The image displays a diagram of a path consisting of four line segments, representing movement on a map with cardinal directions.\\nSegment $AB$: Horizontal line moving East, length $7$km. There is a right angle marker at point $B$.\\nSegment $B\\Gamma$: Vertical line moving North, length $9$km.\\nSegment $\\Gamma\\Delta$: Horizontal line moving East, length $8$km. There is a right angle marker at point $\\Delta$.\\nSegment $\\Delta E$: Vertical line moving North, length $11$km.",
+        "transcription": []
+      }
+    ],
+    "mark": [
+      "Μονάδες 5"
+    ]
+  },
+  {
+    "id": "10.1",
+    "question": "Ένα λεωφορείο και ένα αυτοκίνητο ξεκινάνε από την ίδια αφετηρία και κινούνται για 5 ώρες κατά μήκος της ίδιας διαδρομής. Το λεωφορείο κινείται με σταθερή ταχύτητα $60~km/h$, ενώ το αυτοκίνητο ξεκινάει 15 min μετά από το λεωφορείο και κινείται με σταθερή ταχύτητα $80~km/h$.\nΤο αυτοκίνητο θα προσπεράσει το λεωφορείο; Αν ναι, πόση ώρα μετά την εκκίνηση του λεωφορείου θα συμβεί αυτό;",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": [
+      "Μονάδες 3"
+    ]
+  },
+  {
+      "id": "10.2",
+      "question": "Ένα λεωφορείο και ένα αυτοκίνητο ξεκινάνε από την ίδια αφετηρία και κινούνται για 5 ώρες κατά μήκος της ίδιας διαδρομής. Το λεωφορείο κινείται με σταθερή ταχύτητα $60~km/h$, ενώ το αυτοκίνητο ξεκινάει 15 min μετά από το λεωφορείο και κινείται με σταθερή ταχύτητα $80~km/h$.\nΣτο παρακάτω σύστημα αξόνων έχει σχεδιαστεί ένα τμήμα των γραφικών παραστάσεων των δύο συναρτήσεων, που εκφράζουν την απόσταση x του κάθε οχήματος από την αφετηρία ως προς το χρόνο t (η απόσταση x είναι σε km, ο χρόνος t σε h και θεωρούμε ότι το λεωφορείο ξεκινάει τη χρονική στιγμή $t=0)$.\nα. Ποιά από τις ευθείες $\\epsilon_{1}$, $\\epsilon_{2}$ είναι η γραφική παράσταση που αντιστοιχεί στην κίνηση του λεωφορείου;\nβ. Να προσδιορίσετε τις συντεταγμένες των σημείων Β, Γ και Δ και να εξηγήσετε ποια πληροφορία για την κίνηση των δύο οχημάτων δίνει καθένα από τα ζεύγη συντεταγμένων αυτών των σημείων.",
+      "input": "The image displays a distance-time graph ($x-t$ graph) showing the motion of two vehicles.\nVertical Axis ($x$): Represents distance from the starting point ($\\sigma\\epsilon$ km).\nHorizontal Axis ($t$): Represents time ($\\sigma\\epsilon$ h).\nLine $\\epsilon_1$: A straight line starting from the origin $O(0,0)$ and passing through points $\\Delta$ and $\\Gamma$.\nLine $\\epsilon_2$: A straight line starting from point $B$ on the time axis ($t$-axis) and passing through point $\\Gamma$.\nPoints of Interest:\n$O$: The start of time ($t=0$).\n$B$: A specific time point on the horizontal axis.\n$\\Delta$: A point on line $\\epsilon_1$ directly above point $B$.\n$\\Gamma$: The intersection point of the two lines $\\epsilon_1$ and $\\epsilon_2$.",
+      "choices": [],
+      "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2016_2/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2016_2_ΘΕΜΑ_10_ΕΙΚΟΝΑ_3.png",
+          "description": "The image displays a distance-time graph ($x-t$ graph) showing the motion of two vehicles.\nVertical Axis ($x$): Represents distance from the starting point ($\\sigma\\epsilon$ km).\nHorizontal Axis ($t$): Represents time ($\\sigma\\epsilon$ h).\nLine $\\epsilon_1$: A straight line starting from the origin $O(0,0)$ and passing through points $\\Delta$ and $\\Gamma$.\nLine $\\epsilon_2$: A straight line starting from point $B$ on the time axis ($t$-axis) and passing through point $\\Gamma$.\nPoints of Interest:\n$O$: The start of time ($t=0$).\n$B$: A specific time point on the horizontal axis.\n$\\Delta$: A point on line $\\epsilon_1$ directly above point $B$.\n$\\Gamma$: The intersection point of the two lines $\\epsilon_1$ and $\\epsilon_2$.",
+          "transcription": []
+        }
+      ],
+      "mark": [
+        "Μονάδες 7"
+      ]
+    }
+]

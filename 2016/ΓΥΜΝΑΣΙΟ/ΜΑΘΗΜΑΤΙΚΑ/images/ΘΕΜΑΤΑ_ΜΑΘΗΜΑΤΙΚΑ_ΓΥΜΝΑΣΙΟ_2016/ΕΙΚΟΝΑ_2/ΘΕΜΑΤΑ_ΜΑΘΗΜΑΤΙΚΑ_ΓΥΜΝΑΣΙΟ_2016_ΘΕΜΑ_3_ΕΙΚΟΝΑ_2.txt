@@ -1,0 +1,2 @@
+Descrition
+The image shows a geometric diagram depicting a planetary system.\nA central large black dot labeled Π (Pi) represents a planet. It is surrounded by three concentric ellipses representing orbits. Three smaller black dots, labeled Γ (Gamma), Δ (Delta), and Ε (Epsilon), are positioned on the inner, middle, and outer orbits respectively.\nA dashed straight line originates from the center Π and passes through all three satellites (Γ, Δ, Ε), indicating they are currently in linear alignment.

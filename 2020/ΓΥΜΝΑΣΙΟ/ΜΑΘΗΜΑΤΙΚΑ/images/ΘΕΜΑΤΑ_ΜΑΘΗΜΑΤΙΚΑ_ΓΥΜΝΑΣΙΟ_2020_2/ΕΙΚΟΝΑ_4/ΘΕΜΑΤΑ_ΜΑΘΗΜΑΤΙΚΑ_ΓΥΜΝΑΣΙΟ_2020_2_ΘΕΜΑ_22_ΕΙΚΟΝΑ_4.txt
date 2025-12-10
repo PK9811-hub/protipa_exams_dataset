@@ -1,0 +1,5 @@
+Description
+The image illustrates a logic puzzle using two balanced scales to represent mathematical equations involving the weights of a duck and a chicken.\nFirst Balance (Left): On one side, a duck and a chicken are standing together. On the opposite side, there is a single weight labeled 8 kg. The scale is balanced, indicating that the sum of the duck's weight and the chicken's weight is equal to 8 kg.\nSecond Balance (Right): On one side, the duck stands next to a weight labeled 2 kg. On the opposite side, the chicken stands alone. This scale is also balanced, indicating that the weight of the duck plus 2 kg is equal to the weight of the chicken alone.
+
+Transcription
+Labels on weights:\n8 kg\n2 kg

@@ -1,0 +1,5 @@
+Description
+The image displays two schedules (likely for buses or trains) comparing travel options between Greek cities.\nLeft Table: Displays the schedule for the direct route Athens - Pyrgos (Αθήνα - Πύργος). It lists five departure times and their corresponding travel durations.\nRight Table: Displays a split schedule for an indirect route involving a transfer. It is divided into two sections:\nThe first section shows the route Athens - Patras (Αθήνα - Πάτρα).\nThe second section shows the connecting route Patras - Pyrgos (Πάτρα - Πύργος).\nThe bottom-right cell for the Patras-Pyrgos route is blacked out, indicating no connection for the last Athens-Patras departure.
+
+Transcription
+Πίνακας 1 (Αθήνα - Πύργος): 07:30 (3ώ 45λ), 08:30 (3ώ 50λ), 12:15 (3ώ 50λ), 14:00 (3ώ 50λ), 17:00 (3ώ 45λ). Πίνακας 2 (Αθήνα - Πάτρα - Πύργος): Αθήνα-Πάτρα 08:00 (2ώ 45λ), 09:30 (2ώ 50λ), 11:00 (2ώ 50λ), 13:30 (2ώ 50λ), 18:30 (2ώ 45λ). Πάτρα-Πύργος 07:00 (70λ), 10:30 (70λ), 14:15 (70λ), 21:00 (70λ).

@@ -1,0 +1,194 @@
+[
+    {
+      "id": "1",
+      "question": "Ποιος από τους αριθμούς Α, Β, Γ, Δ, Ε είναι λύση της εξίσωσης $\\sqrt{1 + \\sqrt{2 + \\sqrt{x}}} = 2$.",
+      "input": "",
+      "choices": [
+        "Α. το 1",
+        "Β. το 4",
+        "Γ. το 9",
+        "Δ. το 49",
+        "Ε. το 81"
+      ],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Πόσες φορές είναι γραμμένος ο αριθμός $2019^2$ κάτω από τη ρίζα, ώστε να είναι σωστή η παρακάτω ισότητα: $\\sqrt{2019^2 + 2019^2 + \\cdots + 2019^2} = 2019^{10}$",
+      "input": "",
+      "choices": [
+        "Α. $2019^3$",
+        "Β. 12",
+        "Γ. 4038",
+        "Δ. $2019^{18}$",
+        "Ε. $2019^9$"
+      ],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Το γράφημα δείχνει την απόσταση που έκαναν πέντε δρομείς και τον αντίστοιχο χρόνο που χρειάστηκε, τρέχοντας με σταθερή ταχύτητα ο καθένας από αυτούς. Ποιος από τους πέντε είναι πιο γρήγορος;",
+      "input": "The image displays a scatter plot on a Cartesian coordinate system with a grid background.\nY-axis (Vertical): Labeled \"απόσταση\" (distance). The scale ranges from 0 to 9.\nX-axis (Horizontal): Labeled \"χρόνος\" (time). The scale ranges from 0 to 10.\nData Points: There are five blue points labeled A, B, Γ, Δ, and E, representing the performance of five different runners.",
+      "choices": [
+        "Α. ο δρομέας Α",
+        "Β. ο δρομέας Β",
+        "Γ. ο δρομέας Γ",
+        "Δ. ο δρομέας Δ",
+        "Ε. ο δρομέας Ε"
+      ],
+      "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2019/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2019_ΘΕΜΑ_3_ΕΙΚΟΝΑ_1.png",
+          "description": "The image displays a scatter plot on a Cartesian coordinate system with a grid background.\nY-axis (Vertical): Labeled \"απόσταση\" (distance). The scale ranges from 0 to 9.\nX-axis (Horizontal): Labeled \"χρόνος\" (time). The scale ranges from 0 to 10.\nData Points: There are five blue points labeled A, B, Γ, Δ, and E, representing the performance of five different runners.",
+          "transcription": "Coordinates of the Runners (Time, Distance):\nRunner A: $(3, 3)$ -> Time = 3, Distance = 3\nRunner B: $(3, 6)$ -> Time = 3, Distance = 6\nRunner Γ: $(6, 9)$ -> Time = 6, Distance = 9\nRunner Δ: $(7, 2)$ -> Time = 7, Distance = 2\nRunner E: $(8, 5)$ -> Time = 8, Distance = 5"
+        }
+      ],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Αν το α επιλεγεί τυχαία από το σύνολο {3,4,5} και το β επιλεγεί τυχαία από το σύνολο {9,10,11}, τότε ποια είναι η πιθανότητα το γινόμενο $\\alpha \\cdot \\beta$ να διαιρείται με το 5;",
+      "input": "",
+      "choices": [
+        "Α. 2/9",
+        "Β. 5/9",
+        "Γ. 1/3",
+        "Δ. 1/2",
+        "Ε. 1/6"
+      ],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Αν $x^2 = x + 3$ τότε το $x^3$ ισούται με:",
+      "input": "",
+      "choices": [
+        "Α. $x^2 + 3$",
+        "Β. $x + 4$",
+        "Γ. $2x + 2$",
+        "Δ. $4x + 3$",
+        "Ε. $x^2 - 2$"
+      ],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Δίνεται η ευθεία (ε) με εξίσωση $x - y = -1$, η οποία τέμνει τον άξονα y΄y στο σημείο Α. Να βρείτε ποια από τις παρακάτω ευθείες δεν διέρχεται από το σημείο Α.",
+      "input": "The image displays a Cartesian coordinate system with a vertical $y$-axis and a horizontal $x$-axis intersecting at the origin $O$.\nThe Line: A straight line, labeled $(\\varepsilon)$, is plotted on the graph. It has a positive slope (rising from left to right).\nIntersection: The line intersects the vertical $y$-axis at a specific point labeled $A$.\nEquation: The mathematical equation defining the line is written next to it.",
+      "choices": [
+        "Α. $2y = \\sqrt{2}x + 2$",
+        "Β. $\\frac{1}{2}y = -x + \\frac{1}{2}$",
+        "Γ. $y - 2 = -2x$",
+        "Δ. $y = 1$",
+        "Ε. $y = \\sqrt{3}x + 1$"
+      ],
+      "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2019/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2019_ΘΕΜΑ_6_ΕΙΚΟΝΑ_2.png",
+          "description": "The image displays a Cartesian coordinate system with a vertical $y$-axis and a horizontal $x$-axis intersecting at the origin $O$.\nThe Line: A straight line, labeled $(\\varepsilon)$, is plotted on the graph. It has a positive slope (rising from left to right).\nIntersection: The line intersects the vertical $y$-axis at a specific point labeled $A$.\nEquation: The mathematical equation defining the line is written next to it.",
+          "transcription": "Labels in the graph:\nAxis: $x, y$\nOrigin: $O$\nPoint: $A$\nEquation: $(\\varepsilon) : x - y = -1$"
+        }
+      ],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Οι εννέα φυσικοί αριθμοί 1, 2, 3, …, 9 τοποθετούνται στο παρακάτω τετράγωνο, ένας σε κάθε μικρό τετραγωνάκι, ώστε σε κάθε γραμμή, σε κάθε στήλη και σε κάθε διαγώνιο του μεγάλου τετραγώνου, το άθροισμα των τριών αριθμών να είναι το ίδιο. Ποιος αριθμός πρέπει να τοποθετηθεί στο πάνω αριστερά τετραγωνάκι;",
+      "input": "The image displays a $3 \times 3$ grid (a square divided into 9 smaller squares). Three specific numbers are already filled in:\nTop Row: The number 3 is in the middle square.\nMiddle Row: The number 1 is in the rightmost square.\nBottom Row: The number 2 is in the leftmost square.\nEmpty Cells: The other 6 squares are blank.",
+      "choices": [
+        "Α. 5",
+        "Β. 9",
+        "Γ. 7",
+        "Δ. 4",
+        "Ε. 1"
+      ],
+      "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2019/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2019_ΘΕΜΑ_7_ΕΙΚΟΝΑ_3.png",
+          "description": "The image displays a $3 \times 3$ grid (a square divided into 9 smaller squares). Three specific numbers are already filled in:\nTop Row: The number 3 is in the middle square.\nMiddle Row: The number 1 is in the rightmost square.\nBottom Row: The number 2 is in the leftmost square.\nEmpty Cells: The other 6 squares are blank.",
+          "transcription": []
+        }
+      ],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Αν ισχύουν οι σχέσεις $\\frac{xy}{z} = 3$, $\\frac{zx}{y} = 2$, $\\frac{yz}{x} = 1$, τότε το $x^2 + y^2 + z^2$ ισούται με:",
+      "input": "",
+      "choices": [
+        "Α. 7",
+        "Β. 9",
+        "Γ. 11",
+        "Δ. 8",
+        "Ε. τίποτα από τα προηγούμενα"
+      ],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "9.1",
+      "question": "Η διαφορά των εμβαδών δύο τετραγώνων, με πλευρές ακεραίους αριθμούς, ισούται με 13. Να βρεθούν οι δύο πλευρές των τετραγώνων.",
+      "input": "",
+      "choices": [],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "9.2",
+      "question": "Το ΑΒΓΔ είναι ορθογώνιο με ΑΔ = 1. Αν ΑΕ = 2 και το γραμμοσκιασμένο ορθογώνιο ΕΒΓΖ είναι όμοιο με το ΑΒΓΔ, τότε να βρεθεί η πλευρά του ΕΒ. ",
+      "input": "The image displays a rectangle labeled $AB\\Gamma\\Delta$.\nDimensions: The vertical side $A\\Delta$ is marked with the length $1$. A segment on the top side, labeled $AE$, is marked with the length $2$.\nStructure: The large rectangle is divided vertically by a line segment $EZ$. This creates a white rectangle on the left ($A\\Delta ZE$) and a shaded rectangle with diagonal stripes on the right ($EB\\Gamma Z$).\nLabels: Vertices are $A, B, \\Gamma, \\Delta$ and the dividing points are $E, Z$.",
+      "choices": [],
+      "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟΥ_2019/ΕΙΚΟΝΑ_4/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟΥ_2019_ΘΕΜΑ_9_ΕΙΚΟΝΑ_4.png",
+          "description": "The image displays a rectangle labeled $AB\\Gamma\\Delta$.\nDimensions: The vertical side $A\\Delta$ is marked with the length $1$. A segment on the top side, labeled $AE$, is marked with the length $2$.\nStructure: The large rectangle is divided vertically by a line segment $EZ$. This creates a white rectangle on the left ($A\\Delta ZE$) and a shaded rectangle with diagonal stripes on the right ($EB\\Gamma Z$).\nLabels: Vertices are $A, B, \\Gamma, \\Delta$ and the dividing points are $E, Z$.",
+          "transcription": []
+        }
+      ],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "10.1",
+      "question": "Για κάθε ζεύγος πραγματικών αριθμών (α, β) ορίζουμε μία πράξη την οποία συμβολίζουμε με το *, έτσι ώστε το ζεύγος (α, β) να αντιστοιχίζεται στον αριθμό $\\alpha^2 - \\alpha\\beta + \\beta^2$. Δηλαδή: $\\alpha * \\beta = \\alpha^2 - \\alpha\\beta + \\beta^2$\nΝα βρείτε σε ποια περίπτωση η πράξη * και ο συνήθης πολλαπλασιασμός μεταξύ δύο αριθμών $\\alpha$ και $\\beta$ δίνουν το ίδιο αποτέλεσμα.",
+      "input": "",
+      "choices": [],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "10.2",
+      "question": "Για κάθε ζεύγος πραγματικών αριθμών (α, β) ορίζουμε μία πράξη την οποία συμβολίζουμε με το *, έτσι ώστε το ζεύγος (α, β) να αντιστοιχίζεται στον αριθμό $\\alpha^2 - \\alpha\\beta + \\beta^2$. Δηλαδή: $\\alpha * \\beta = \\alpha^2 - \\alpha\\beta + \\beta^2$\nΝα βρείτε τις τιμές των πραγματικών αριθμών x και y, αν ισχύουν ταυτόχρονα οι σχέσεις:\n$$\\begin{cases} x * 10 = 75 \\\\ x * y = 19 \\end{cases}$$",
+      "input": "",
+      "choices": [],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    }
+]

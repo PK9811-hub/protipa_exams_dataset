@@ -1,0 +1,2 @@
+Description
+The image displays a composite geometric shape consisting of a rectangle ($AB\Gamma E$) on the left and a right-angled triangle ($E\Gamma\Delta$) on the right.\nRectangle ($AB\Gamma E$): Defined by vertices $A, B, \Gamma, E$. The vertical side $AB$ is labeled with length 5, and the horizontal side $B\Gamma$ is labeled with length 8.\nTriangle ($E\Gamma\Delta$): Defined by vertices $E, \Gamma, \Delta$. It shares the vertical side $E\Gamma$ with the rectangle. The base extends from $\Gamma$ to $\Delta$.

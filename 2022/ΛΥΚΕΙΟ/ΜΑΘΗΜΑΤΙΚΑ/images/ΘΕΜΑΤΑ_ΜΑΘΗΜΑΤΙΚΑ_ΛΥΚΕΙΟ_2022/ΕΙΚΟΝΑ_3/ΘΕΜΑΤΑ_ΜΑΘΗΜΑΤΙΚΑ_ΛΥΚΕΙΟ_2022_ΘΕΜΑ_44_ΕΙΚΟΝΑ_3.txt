@@ -1,0 +1,2 @@
+Description
+The image displays a geometric diagram with two semicircles joined end-to-end along a straight horizontal line.\nLine Segment: The base is a straight line segment with endpoints $A$ (left) and $B$ (right). An intermediate point $M$ lies on this segment between $A$ and $B$.\nSemicircles:\nA smaller semicircle is drawn above the segment $AM$, with $AM$ as its diameter.\nA larger semicircle is drawn above the segment $MB$, with $MB$ as its diameter.\nThe two semicircles touch at point $M$.

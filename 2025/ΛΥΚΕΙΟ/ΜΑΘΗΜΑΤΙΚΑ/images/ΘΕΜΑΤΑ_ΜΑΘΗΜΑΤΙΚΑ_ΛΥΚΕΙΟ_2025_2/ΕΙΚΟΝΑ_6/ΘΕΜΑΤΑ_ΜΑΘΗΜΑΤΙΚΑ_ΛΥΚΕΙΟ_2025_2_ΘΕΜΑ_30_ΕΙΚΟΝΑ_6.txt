@@ -1,0 +1,5 @@
+Description
+The image displays two circular pie charts side-by-side, representing the statistical distribution of music preferences between two groups based on gender.\nLeft Chart: Labeled "Κορίτσια" (Girls). It is divided into three sectors with distinct fill patterns.\nRight Chart: Labeled "Αγόρια" (Boys). It is also divided into three sectors with distinct fill patterns.
+
+Transcription
+1. Left Chart: Girls (Κορίτσια)\nΈντεχνα (Art Music/Ballads):*\n40% (Represented by vertical stripes)\nRock:*\n30% (Represented by a diagonal cross-hatch pattern)\nK-pop:*\n30% (Represented by a dotted pattern)\n2. Right Chart: Boys (Αγόρια)\nΈντεχνα (Art Music/Ballads):*\n35% (Represented by vertical stripes)\nRock:*\n40% (Represented by a brick-like grid pattern)\nK-pop:*\n25% (Represented by a dotted pattern)

@@ -1,0 +1,5 @@
+Description
+The image shows a triangle $\text{A}\text{B}\Gamma$ where a large, irregular, elliptical shape, labeled $\gamma$ (representing the lake), lies partially within the triangle.\n1. Survey Triangle: The triangle $\text{A}\text{B}\Gamma$ provides the framework for calculation.\n2. Known Dimensions:\nSide $\text{B}\Gamma$ ($\alpha$): $10 \text{Km}$.\nSide $\text{A}\Gamma$ ($\beta$): $8 \text{Km}$.\nIncluded Angle ($\angle \Gamma$): $60^\circ$.\n3. Target Dimension: The distance across the lake, $\text{AB}$ (or $\gamma$), needs to be calculated using the given data. 
+
+Transcription
+Image Content (Labels and Values)\n| Element | Label/Value |\n| :--- | :--- |\n|Vertices | $\text{A}, \text{B}, \Gamma$ |\n|Side $\text{B}\Gamma$ | $\alpha = 10 \text{Km}$ |\n|Side $\text{A}\Gamma$ | $\beta = 8 \text{Km}$ |\n|Angle $\Gamma$ | $60^\circ$ |\n|Lake/Chord | Labeled $\gamma$ (implied side $\text{AB}$) |

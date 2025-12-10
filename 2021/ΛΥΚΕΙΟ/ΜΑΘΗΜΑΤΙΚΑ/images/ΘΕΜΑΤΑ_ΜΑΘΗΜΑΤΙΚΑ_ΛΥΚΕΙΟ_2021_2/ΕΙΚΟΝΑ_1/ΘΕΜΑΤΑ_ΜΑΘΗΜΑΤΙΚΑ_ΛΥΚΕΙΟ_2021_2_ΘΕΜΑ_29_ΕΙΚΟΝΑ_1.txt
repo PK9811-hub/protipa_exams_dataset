@@ -1,0 +1,5 @@
+Description
+The image displays a pie chart (circular diagram) illustrating the distribution of test scores.\nChart Sectors:\n0-10: This is the largest sector (half of the circle) labeled 50.0%.\n11-13: This sector is labeled 16.7%.\n14-17: This sector is labeled 12.5%.\n18-20: This sector is labeled 20.8%.\nLegend: A small legend on the right assigns colors to each score range:\n0-10 (Lightest Grey)\n11-13 (Medium Grey)\n14-17 (Light Grey/White)\n18-20 (Darkest Grey)
+
+Transcription
+Chart Data:\n0-10: 50.0%\n11-13: 16.7%\n14-17: 12.5%\n18-20: 20.8%

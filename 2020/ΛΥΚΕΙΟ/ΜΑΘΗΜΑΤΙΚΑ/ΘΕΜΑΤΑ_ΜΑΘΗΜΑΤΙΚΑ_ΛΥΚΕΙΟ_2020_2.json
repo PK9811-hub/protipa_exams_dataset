@@ -1,0 +1,195 @@
+[
+  {
+    "id": "1",
+    "question": "Η εξίσωση $2x^{2}+5x-3=0$",
+    "input": "",
+    "choices": [
+      "(A) δεν επαληθεύεται από κανέναν αριθμό",
+      "(B) επαληθεύεται από έναν μόνο αριθμό",
+      "(Γ) επαληθεύεται από δύο ακέραιους αριθμούς",
+      "(Δ) επαληθεύεται από δύο ρητούς αριθμούς"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "2",
+    "question": "Ποιος από τους αριθμούς (Α), (Β), (Γ), (Δ) είναι ρίζα της εξίσωσης: $\\sqrt{1+\\sqrt{2+\\sqrt{x}}}=2$;",
+    "input": "",
+    "choices": [
+      "(A) 4",
+      "(B) 9",
+      "(Γ) 49",
+      "(Δ) 81"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "3",
+    "question": "Ο Κώστας έχει 38€ και ο Γιάννης 14€. Αγόρασαν από ένα σουβλάκι ο καθένας, οπότε τα χρήματα που έχει τώρα ο Κώστας είναι τριπλάσια από τα χρήματα που έχει ο Γιάννης. Αν θέλουμε να βρούμε πόσο κοστίζει το σουβλάκι, ποια από τις παρακάτω εξισώσεις επιλύει το πρόβλημα αυτό;",
+    "input": "",
+    "choices": [
+      "(A) (38-x): $3=14-x$",
+      "(B) $14-x=3\\cdot(38-x)$",
+      "(Γ) $38+x=3\\cdot x+14$",
+      "(Δ) $38-x=3\\cdot14$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "4",
+    "question": "Δίδεται η αλγεβρική παράσταση $K=(x^{-2}-y^{-2})$ $(x^{-1}-y^{-1})$. Να επιλέξετε την αλγεβρική παράσταση Λ ώστε η ισότητα $K=\\Lambda$ να είναι ταυτότητα.",
+    "input": "",
+    "choices": [
+      "(A) $\\Lambda=x^{-1}-y^{-1}$",
+      "(B) $\\Lambda=x+y$",
+      "(Γ) $\\Lambda=x^{-2}+y^{-2}$",
+      "(Δ) $\\Lambda=x^{-1}+y^{-1}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "5",
+    "question": "Για να πάρουμε τον αριθμό $8^{8}$, σε ποια δύναμη πρέπει να υψώσουμε τον αριθμό $4^{4}$ ;",
+    "input": "",
+    "choices": [
+      "(A) 2",
+      "(B) 3",
+      "(Γ) 4",
+      "(Δ) 5"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "6",
+    "question": "Έχουμε ένα ορθογώνιο παραλληλεπίπεδο, μία πυραμίδα και έναν κύλινδρο, όλα με το ίδιο εμβαδόν βάσης και το ίδιο ύψος. Αν χ είναι ο όγκος του ορθογωνίου παραλληλεπιπέδου, y o όγκος της πυραμίδας και z ο όγκος του κυλίνδρου, τότε ποια από τις παρακάτω σχέσεις είναι ΛΑΘΟΣ;",
+    "input": "",
+    "choices": [
+      "(A) $x-9y+2z=0$",
+      "(B) $x-6y+z=0$",
+      "(Γ) $2x-3y-z=0$",
+      "(Δ) $x-y+3z=0$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "7",
+    "question": "Το γράφημα δείχνει την απόσταση που διένυσαν πέντε δρομείς και τον αντίστοιχο χρόνο που έκαναν, τρέχοντας με σταθερή ταχύτητα ο καθένας από αυτούς. Ποια από τις παρακάτω προτάσεις είναι ΣΩΣΤΗ;",
+    "input": "The image displays a scatter plot on a Cartesian coordinate system with a grid background.\nY-axis (Vertical): Labeled \"απόσταση\" (distance). The scale ranges from 0 to 9.\nX-axis (Horizontal): Labeled \"χρόνος\" (time). The scale ranges from 0 to 10.\nData Points: There are five blue points labeled $A, B, \\Gamma, \\Delta$, and $E$, representing the performance of five different runners.",
+    "choices": [
+      "(A) Ο δρομέας Γ είχε την μεγαλύτερη ταχύτητα από όλους και ο δρομέας Δ την μικρότερη.",
+      "(B) Ο δρομέας Β είχε την μεγαλύτερη ταχύτητα από όλους και ο δρομέας Δ την μικρότερη.",
+      "(Γ) Ο δρομέας Ε είχε την μεγαλύτερη ταχύτητα από όλους και οι δρομείς Α και Β την μικρότερη.",
+      "(Δ) Όλοι οι δρομείς είχαν την ίδια ταχύτητα."
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_2/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_2_ΘΕΜΑ_7_ΕΙΚΟΝΑ_1.png",
+        "description": "The image displays a scatter plot on a Cartesian coordinate system with a grid background.\nY-axis (Vertical): Labeled \"απόσταση\" (distance). The scale ranges from 0 to 9.\nX-axis (Horizontal): Labeled \"χρόνος\" (time). The scale ranges from 0 to 10.\nData Points: There are five blue points labeled $A, B, \\Gamma, \\Delta$, and $E$, representing the performance of five different runners.",
+        "transcription": "Coordinates of the Runners (Time, Distance):\nRunner A: $(3, 3)$ -> Time = 3, Distance = 3\nRunner B: $(3, 6)$ -> Time = 3, Distance = 6\nRunner $\\gamma$: $(6, 9)$ -> Time = 6, Distance = 9\nRunner $\\Delta$: $(7, 2)$ -> Time = 7, Distance = 2\nRunner E: $(8, 5)$ -> Time = 8, Distance = 5"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "8",
+    "question": "Στο διπλανό σχήμα το άθροισμα των γραμμοσκιασμένων γωνιών είναι ίσο με:",
+    "input": "The image displays a geometric figure consisting of two overlapping triangles.\nOrientation:\nOne triangle is positioned roughly vertically, pointing upwards.\nThe second triangle is positioned roughly horizontally, intersecting the first one.\nVertices & Angles: There are six vertices in total (three for each triangle).\nShaded Angles: Five of the interior angles are marked with grey circular arcs, indicating they are the angles of interest.\nIn the \"vertical\" triangle, the top angle and the bottom-right angle are shaded.\nIn the \"horizontal\" triangle, the left angle, the top-left angle, and the bottom-right angle are shaded.\nIntersection: The sides of the triangles cross each other, creating a quadrilateral shape in the center where they overlap.",
+    "choices": [
+      "(A) $180^{\\circ}$",
+      "(B) $270^{\\circ}$",
+      "(Γ) $360^{\\circ}$",
+      "(Δ) $450^{\\circ}$"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_2/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_2_ΘΕΜΑ_8_ΕΙΚΟΝΑ_2.png",
+        "description": "The image displays a geometric figure consisting of two overlapping triangles.\nOrientation:\nOne triangle is positioned roughly vertically, pointing upwards.\nThe second triangle is positioned roughly horizontally, intersecting the first one.\nVertices & Angles: There are six vertices in total (three for each triangle).\nShaded Angles: Five of the interior angles are marked with grey circular arcs, indicating they are the angles of interest.\nIn the \"vertical\" triangle, the top angle and the bottom-right angle are shaded.\nIn the \"horizontal\" triangle, the left angle, the top-left angle, and the bottom-right angle are shaded.\nIntersection: The sides of the triangles cross each other, creating a quadrilateral shape in the center where they overlap.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "9",
+    "question": "Σε ορθογώνιο τρίγωνο ΑΒΓ η υποτείνουσα ΒΓ είναι 10cm και η γωνία Β είναι $60^{\\circ}$. Το εμβαδόν του τριγώνου ΑΒΓ είναι ίσο με:",
+    "input": "",
+    "choices": [
+      "(A) $\\frac{5\\sqrt{3}}{2}cm^{2}$",
+      "(B) $\\frac{25\\sqrt{3}}{2}cm^{2}$",
+      "(Γ) $\\frac{5}{2}cm^{2}$",
+      "(Δ) $\\frac{25}{2}cm^{2}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "10",
+    "question": "Στο διπλανό σχήμα οι τρεις καμπύλες α, $\\beta,$ και γ δημιουργούνται από ημικύκλια. Ποια από τις ακόλουθες προτάσεις είναι ΣΩΣΤΗ;",
+    "input": "The image shows a geometric line segment with endpoints marked by black dots. Connecting these two endpoints are three distinct curved paths labeled $\\alpha$, $\beta$, and $\\gamma$.\nEach path creates an \"S\" shape and is composed of two semicircles joined together at the horizontal line:\nCurve $\\alpha$: Composed of a large semicircle arching upwards (above the line) followed by a small semicircle curving downwards (below the line).\nCurve $\beta$: Composed of a medium semicircle arching upwards followed by a medium semicircle curving downwards.\nCurve $\\gamma$: Composed of a small semicircle arching upwards followed by a large semicircle curving downwards.",
+    "choices": [
+      "(A) Το μήκος της καμπύλης α είναι μεγαλύτερο από το μήκος της καμπύλης β και το μήκος της καμπύλης γ.",
+      "(B) Το μήκος της καμπύλης β είναι μεγαλύτερο από το μήκος της καμπύλης α και το μήκος της καμπύλης γ.",
+      "(Γ) Το μήκος της καμπύλης γ είναι μεγαλύτερο από το μήκος της καμπύλης α και το μήκος της καμπύλης β.",
+      "(Δ) Και ο τρεις καμπύλες έχουν το ίδιο μήκος."
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_2/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_2_ΘΕΜΑ_10_ΕΙΚΟΝΑ_3.png",
+        "description": "The image shows a geometric line segment with endpoints marked by black dots. Connecting these two endpoints are three distinct curved paths labeled $\\alpha$, $\beta$, and $\\gamma$.\nEach path creates an \"S\" shape and is composed of two semicircles joined together at the horizontal line:\nCurve $\\alpha$: Composed of a large semicircle arching upwards (above the line) followed by a small semicircle curving downwards (below the line).\nCurve $\beta$: Composed of a medium semicircle arching upwards followed by a medium semicircle curving downwards.\nCurve $\\gamma$: Composed of a small semicircle arching upwards followed by a large semicircle curving downwards.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "11",
+    "question": "Αν η πλευρά ενός τετραγώνου αυξηθεί κατά 20%, τότε το εμβαδόν του θα αυξηθεί κατά:",
+    "input": "",
+    "choices": [
+      "(A) 20%",
+      "(B) 33%",
+      "(Γ) 40%",
+      "(Δ) 44%"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "12",
+    "question": "Ένας μαθητής ξεκίνησε το πρωί από το σπίτι του Μ και αφού ακολούθησε τη διαδρομή που φαίνεται στο διπλανό σχέδιο, έφτασε στο σχολείο Σ. Το μεσημέρι επέστρεψε σπίτι του από άλλο δρόμο προκειμένου να περάσει και από το σπίτι ενός φίλου του που βρισκόταν στο σημείο Φ. Αν η συνολική διαδρομή που έκανε ο μαθητής ήταν 640 m, ποια είναι η κλίμακα του σχεδίου;",
+    "input": "The image displays a geometric path drawn on a grid of squares.\nPoints: Three distinct points are marked with orange dots:\nPoint M: Located at the top-left corner of the main grid area.\nPoint $\\Sigma$: Located at the bottom-right corner of the shape.\nPoint $\\Phi$: Located at the bottom-left corner of the main grid area.\nGrid Structure: The shape is composed of several grid squares.\nThere is a main $3 \times 3$ square block (although the bottom middle square extends downwards and the right middle square extends outwards).\nSpecifically, the outline defines a polygon.\nPath Indicators: Arrows indicate direction along the perimeter.\nRed Arrows: Show a path starting from M, going Right along the top edge, Down the right side, Right again, and Down to reach $\\Sigma$.\nBlack Arrows: Show a return path from $\\Sigma$, going Left, Down into a small rectangular dip, Up, Left to $\\Phi$, and finally Up the left side back to M.\nScale: A label \"1 cm\" marks the length of one side of a grid square near point M.",
+    "choices": [
+      "(A) 1:4000",
+      "(B) 1:640",
+      "(Γ) 1:100",
+      "(Δ) 1:40"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_2/ΕΙΚΟΝΑ_4/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2020_2_ΘΕΜΑ_12_ΕΙΚΟΝΑ_4.png",
+        "description": "The image displays a geometric path drawn on a grid of squares.\nPoints: Three distinct points are marked with orange dots:\nPoint M: Located at the top-left corner of the main grid area.\nPoint $\\Sigma$: Located at the bottom-right corner of the shape.\nPoint $\\Phi$: Located at the bottom-left corner of the main grid area.\nGrid Structure: The shape is composed of several grid squares.\nThere is a main $3 \times 3$ square block (although the bottom middle square extends downwards and the right middle square extends outwards).\nSpecifically, the outline defines a polygon.\nPath Indicators: Arrows indicate direction along the perimeter.\nRed Arrows: Show a path starting from M, going Right along the top edge, Down the right side, Right again, and Down to reach $\\Sigma$.\nBlack Arrows: Show a return path from $\\Sigma$, going Left, Down into a small rectangular dip, Up, Left to $\\Phi$, and finally Up the left side back to M.\nScale: A label \"1 cm\" marks the length of one side of a grid square near point M.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "13",
+    "question": "Αν ο αριθμός α επιλεγεί τυχαία από το σύνολο {3,4,5} και ο αριθμός β επιλεγεί τυχαία από το σύνολο {9, 10, 11}, τότε ποια είναι η πιθανότητα το γινόμενο $\\alpha\\cdot\\beta$ να διαιρείται με το 5;",
+    "input": "",
+    "choices": [
+      "(A) $2/9$",
+      "(B) $5/9$",
+      "(Γ) $1/3$",
+      "(Δ) $1/2$"
+    ],
+    "images": [],
+    "mark": []
+  }
+]

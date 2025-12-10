@@ -1,0 +1,5 @@
+Description
+The image displays a composite geometric figure constructed from three squares of different sizes, labeled T1, T2, and T3.\nSquare T1: The largest square, located on the left side.\nSquare T2: A medium-sized square positioned at the bottom right, adjacent to T1. Its bottom edge aligns perfectly with the bottom edge of T1.\nSquare T3: The smallest square, positioned at the top right. It sits directly on top of T2 and is adjacent to the upper right side of T1. Its top edge aligns with the top edge of T1.\nThe arrangement creates a large rectangle-like shape with a "step" missing, or simply a large rectangle composed of these three subdivisions if we assume the overall outline forms a rectangle (implied by the alignment of top and bottom edges).
+
+Transcription
+Labels inside the shapes:\nT1\nT2\nT3

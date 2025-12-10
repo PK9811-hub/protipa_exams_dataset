@@ -1,0 +1,2 @@
+Description
+The image displays a composite geometric figure formed by a square and a triangle sharing a common vertical side.\nLeft Side: A square labeled $\Gamma\Delta EA$. Its vertices are $\Delta$ (top-left), $\Gamma$ (top-right), $A$ (bottom-right), and $E$ (bottom-left).\nRight Side: A right-angled triangle labeled $AB\Gamma$. It shares the vertical side $A\Gamma$ with the square and has a base extending to point $B$.\nAlignment: The bottom side of the square ($EA$) and the base of the triangle ($AB$) form a continuous straight horizontal line segment $EB$.

@@ -1,0 +1,5 @@
+Description
+The image displays the figure $\text{A}\text{B}\Gamma\Delta$.\n1. Main Shape: $\text{A}\text{B}\Gamma\Delta$ is a right trapezoid, defined by the right angles at $\text{A}$ and $\Delta$.\n2. Known Sides:\n$\text{A}\Delta = 30$.\n$\text{B}\Gamma = 50$.\n3. Key Right Triangles:\n$\triangle \text{A}\Delta\text{B}$ is a right triangle ($\angle \Delta = 90^\circ$).\n$\triangle \Delta\text{B}\Gamma$ is a right triangle ($\angle \text{B} = 90^\circ$).\n$\triangle \text{B}\text{H}\Gamma$ is a right triangle ($\angle \text{H} = 90^\circ$).\nThe diagram allows for the application of the Pythagorean theorem and metric relations in right triangles to find unknown lengths ($\text{B}\Delta$, $\Delta\text{H}$, $\text{H}\Gamma$, $\text{B}\text{H}$, and $\text{A}\text{B}$).
+
+Transcription
+Image Content (Labels and Values)\n| Element | Label/Value |\n| :--- | :--- |\n|Vertices | $\text{A}, \text{B}, \Gamma, \Delta, \text{H}$ |\n|Side $\text{A}\Delta$ | $30$ |\n|Side $\text{B}\Gamma$ | $50$ |\n|Known Right Angles | $\angle \text{A}, \angle \Delta, \angle \Delta\text{B}\Gamma, \angle \text{B}\text{H}\Gamma$ |

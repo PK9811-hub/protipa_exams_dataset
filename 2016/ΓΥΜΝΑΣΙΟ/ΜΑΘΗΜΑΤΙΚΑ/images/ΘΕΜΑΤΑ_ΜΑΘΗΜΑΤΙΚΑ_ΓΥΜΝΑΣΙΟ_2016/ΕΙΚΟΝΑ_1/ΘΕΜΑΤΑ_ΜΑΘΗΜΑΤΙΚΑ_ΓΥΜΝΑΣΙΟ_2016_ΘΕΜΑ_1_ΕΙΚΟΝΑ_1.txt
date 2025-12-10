@@ -1,0 +1,2 @@
+Description
+The image displays a bar chart titled "ΒΑΘΜΟΙ ΔΙΑΓΩΝΙΣΜΑΤΩΝ" (Test Grades).\nThe chart plots grades on the vertical Y-axis (ranging from 0 to 20 in increments of 2) against specific tests on the horizontal X-axis (labeled 1st to 5th).\nData points from the graph:\n1ο (1st Test): 14\n2ο (2nd Test): 18\n3ο (3rd Test): 15\n4ο (4th Test): 13\n5ο (5th Test): No bar is shown (value is unknown).

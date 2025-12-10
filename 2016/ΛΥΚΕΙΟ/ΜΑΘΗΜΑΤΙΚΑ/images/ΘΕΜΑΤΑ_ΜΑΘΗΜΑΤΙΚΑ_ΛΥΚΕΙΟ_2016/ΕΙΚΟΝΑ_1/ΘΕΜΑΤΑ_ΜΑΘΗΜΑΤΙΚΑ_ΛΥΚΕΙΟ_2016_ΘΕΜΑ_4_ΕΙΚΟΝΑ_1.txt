@@ -1,0 +1,2 @@
+Description
+The image depicts a Cartesian coordinate system with a specific point and angle.\nPoint B: A point labeled $B = (-12, 5)$ is plotted in the second quadrant.\nLine Segment: A straight line connects the origin $O(0,0)$ to point $B$.\nAngle $\omega$: An obtuse angle marked as $\omega$ (omega) starts from the positive semi-axis $Ox$ and ends at the line segment $OB$.\nAxes: The axes are marked with values: horizontal x-axis has $-5, -10$; vertical y-axis has $5, 10$.

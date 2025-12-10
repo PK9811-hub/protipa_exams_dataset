@@ -1,0 +1,381 @@
+[
+  {
+    "id": "26",
+    "question": "Το 25% του 20% του 10x είναι ίσο με:",
+    "input": "",
+    "choices": [
+      "A. 0,05",
+      "B. 0,5x",
+      "Γ. 10x",
+      "Δ. 4,5x"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "27",
+    "question": "Το άθροισμα δυο διαδοχικών άρτιων φυσικών είναι τριπλάσιο του μικρότερου από τους δυο. Ο μικρότερος από τους δυο αυτούς αριθμούς είναι:",
+    "input": "",
+    "choices": [
+      "A. 2",
+      "B. 4",
+      "Γ. 6",
+      "Δ. 8"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "28",
+    "question": "Ποια από τις παρακάτω παραστάσεις είναι ίση με την παράσταση $K=(x^{2}-y^{2})(x+y)^{2}$.",
+    "input": "",
+    "choices": [
+      "A. $x^{4}-2yx^{3}+2y^{3}x-y^{4}$",
+      "B. $x^{4}+2yx^{3}+y^{3}x-y^{4}$",
+      "Γ. $x^{4}-2yx^{3}-2y^{3}x+y^{4}$",
+      "Δ. $x^{4}+2yx^{3}-2y^{3}x-y^{4}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "29",
+    "question": "Τα αποτελέσματα ενός τεστ που δόθηκε στους μαθητές των Λυκείων ενός Δήμου φαίνονται στο διπλανό κυκλικό διάγραμμα. Αν γνωρίζουμε ότι οι μαθητές που έγραψαν από 14 έως 17 είναι 125, τότε όλοι οι μαθητές που απάντησαν στο τεστ είναι:",
+    "input": "The image displays a pie chart (circular diagram) illustrating the distribution of test scores.\nChart Sectors:\n0-10: This is the largest sector (half of the circle) labeled 50.0%.\n11-13: This sector is labeled 16.7%.\n14-17: This sector is labeled 12.5%.\n18-20: This sector is labeled 20.8%.\nLegend: A small legend on the right assigns colors to each score range:\n0-10 (Lightest Grey)\n11-13 (Medium Grey)\n14-17 (Light Grey/White)\n18-20 (Darkest Grey)",
+    "choices": [
+      "A. 500",
+      "B. 720",
+      "Γ. 900",
+      "Δ. 1.000"
+    ],
+    "images": [
+      {
+        "path": "images\\ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_2\\ΕΙΚΟΝΑ_1\\ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_2_ΘΕΜΑ_29_ΕΙΚΟΝΑ_1.png",
+        "description": "The image displays a pie chart (circular diagram) illustrating the distribution of test scores.\nChart Sectors:\n0-10: This is the largest sector (half of the circle) labeled 50.0%.\n11-13: This sector is labeled 16.7%.\n14-17: This sector is labeled 12.5%.\n18-20: This sector is labeled 20.8%.\nLegend: A small legend on the right assigns colors to each score range:\n0-10 (Lightest Grey)\n11-13 (Medium Grey)\n14-17 (Light Grey/White)\n18-20 (Darkest Grey)",
+        "transcription": "Chart Data:\n0-10: 50.0%\n11-13: 16.7%\n14-17: 12.5%\n18-20: 20.8%"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "30",
+    "question": "Αν $\\alpha+\\frac{2}{\\alpha}=3$ , τότε $\\alpha^{2}+\\frac{4}{\\alpha^{2}}=$",
+    "input": "",
+    "choices": [
+      "A. 3",
+      "B. 5",
+      "Γ. 7",
+      "Δ. 9"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "31",
+    "question": "Έστω φ οξεία γωνία της οποίας η εφαπτομένη είναι ίση με $\\frac{1}{3}$. Αν $K=\\frac{3\\eta\\mu\\varphi+2\\sigma\\upsilon\\nu\\varphi}{6\\eta\\mu\\varphi-\\sigma\\upsilon\\nu\\varphi}$ τότε Κ=",
+    "input": "",
+    "choices": [
+      "A. 1",
+      "B. 2",
+      "Γ. 3",
+      "Δ. 5"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "32",
+    "question": "Στο παρακάτω απόσπασμα από τετραγωνισμένο χαρτί, το ΑΒΓΔ είναι τετράγωνο πλευράς 4εκ. και τα μικρά τετράγωνα έχουν πλευρές ίσες με 1 εκ. Αν $\\varphi=A\\hat{E}Z$, $\\theta=\\Gamma HE,$ $\\omega=B\\hat{H}\\Gamma$ ισχύει:",
+    "input": "The image displays a geometric diagram on a square grid.\nMain Shape: A large square labeled $AB\\Gamma\\Gamma$ with a side length of 4 units (based on the grid).\nGrid: The large square is subdivided by grid lines into 16 smaller squares ($4 \times 4$ grid).\nInternal Points and Lines:\nPoint $Z$ lies on the left vertical side ($AB$), one unit down from the top corner $A$.\nPoint $E$ lies on the top horizontal side ($A\\Gamma$), one unit left from the top-right corner $\\Gamma$.\nPoint $H$ lies on the right vertical side ($\\Gamma\\Gamma$), one unit up from the bottom-right corner $\\Gamma$.\nLine segments connect these points to form an internal shape (likely a triangle or quadrilateral) defined by vertices $Z, E, H, B$.\nAngles: Three specific angles are marked and labeled with Greek letters:\n$\\varphi$ (phi): The angle $\\angle AEZ$ at vertex $E$.\n$\theta$ (theta): The angle $\\angle \\Gamma HE$ at vertex $H$.\n$\\omega$ (omega): The angle $\\angle B H \\Gamma$ at vertex $H$.",
+    "choices": [
+      "Α. $\\theta=\\omega$",
+      "Β. $\\phi+\\theta=90^{\\circ}$",
+      "Γ. $\\phi=\\omega$",
+      "Δ. $\\phi=\\theta$"
+    ],
+    "images": [
+      {
+        "path": "images\\ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_2\\ΕΙΚΟΝΑ_2\\ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_2_ΘΕΜΑ_32_ΕΙΚΟΝΑ_2.png",
+        "description": "The image displays a geometric diagram on a square grid.\nMain Shape: A large square labeled $AB\\Gamma\\Gamma$ with a side length of 4 units (based on the grid).\nGrid: The large square is subdivided by grid lines into 16 smaller squares ($4 \times 4$ grid).\nInternal Points and Lines:\nPoint $Z$ lies on the left vertical side ($AB$), one unit down from the top corner $A$.\nPoint $E$ lies on the top horizontal side ($A\\Gamma$), one unit left from the top-right corner $\\Gamma$.\nPoint $H$ lies on the right vertical side ($\\Gamma\\Gamma$), one unit up from the bottom-right corner $\\Gamma$.\nLine segments connect these points to form an internal shape (likely a triangle or quadrilateral) defined by vertices $Z, E, H, B$.\nAngles: Three specific angles are marked and labeled with Greek letters:\n$\\varphi$ (phi): The angle $\\angle AEZ$ at vertex $E$.\n$\theta$ (theta): The angle $\\angle \\Gamma HE$ at vertex $H$.\n$\\omega$ (omega): The angle $\\angle B H \\Gamma$ at vertex $H$.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "33",
+    "question": "Μια εταιρεία αθλητικών ειδών διεξήγαγε μια έρευνα σε ένα δείγμα 300 μαθητών σχετικά με το ποιο άθλημα προτιμούν. Τα αποτελέσματα φαίνονται στον παρακάτω πίνακα όπου δεν έχει περαστεί ο αριθμός των παιδιών που προτιμούν το ποδόσφαιρο. Το ποσοστό των παιδιών που προτιμούν το ποδόσφαιρο",
+    "input": "The image displays a data table titled with columns \"Άθλημα\" (Sport) and \"Πλήθος μαθητών\" (Number of students).\nRow 1:\nΒόλεϊ (Volleyball) - 48 students\nRow 2:\nΜπάσκετ (Basketball) - 93 students\nRow 3:\nΠοδόσφαιρο (Football/Soccer) - No number is provided (blank cell).\nRow 4:\nΆλλο (Other) - 51 students\nRow 5:\nΣύνολο (Total) - 300 students",
+    "choices": [
+      "Α. είναι 45%",
+      "Β. είναι 36%",
+      "Γ. είναι 30%",
+      "Δ. δεν μπορεί να προσδιοριστεί"
+    ],
+    "images": [
+      {
+        "path": "images\\ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_2\\ΕΙΚΟΝΑ_3\\ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_2_ΘΕΜΑ_33_ΕΙΚΟΝΑ_3.png",
+        "description": "The image displays a data table titled with columns \"Άθλημα\" (Sport) and \"Πλήθος μαθητών\" (Number of students).\nRow 1:\nΒόλεϊ (Volleyball) - 48 students\nRow 2:\nΜπάσκετ (Basketball) - 93 students\nRow 3:\nΠοδόσφαιρο (Football/Soccer) - No number is provided (blank cell).\nRow 4:\nΆλλο (Other) - 51 students\nRow 5:\nΣύνολο (Total) - 300 students",
+        "transcription": "Table Data:\nΒόλεϊ: 48\nΜπάσκετ: 93\nΠοδόσφαιρο: (blank)\nΆλλο: 51\nΣύνολο: 300"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "34",
+    "question": "Σε πρωτάθλημα συμμετέχουν 14 ομάδες που πρέπει να παίξουν όλες μεταξύ τους από 2 φορές. Πόσοι αγώνες θα γίνουν;",
+    "input": "",
+    "choices": [
+      "Α. 91",
+      "B. 98",
+      "Γ. 182",
+      "Δ. 196"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "35",
+    "question": "Η εξίσωση: $x^{2}+2x+\\alpha=0$ όπου α άγνωστος, έχει δύο διαφορετικές λύσεις εκ των οποίων η μια είναι η $x=0$. Τότε η άλλη λύση είναι η:",
+    "input": "",
+    "choices": [
+      "A. $x=2$",
+      "B. $x=-2$",
+      "Γ. $x=-\\alpha$",
+      "Δ. $x=\\alpha$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "36",
+    "question": "Στο διπλανό σχήμα το ΑΒΓΔ είναι τετράγωνο. Εσωτερικά του τετραγώνου υπάρχουν πέντε ορθογώνια παραλληλόγραμμα. Δίνονται οι πλευρές $AE=9$ εκ., $HB=10$ εκ., $\\Gamma M=12$ εκ., $K\\Gamma=11$ εκ. και $BK=3$ εκ. Το εμβαδόν Χ του ορθογώνιου παραλληλογράμμου ΘΖΛΙ είναι σε τ.εκ.",
+    "input": "The first image contains the text of a geometry problem numbered 036.\nThe second image displays a geometric diagram featuring a large square labeled $AB\\Gamma\\Gamma$.\nInternal Division: The square is subdivided into five smaller rectangles.\nCentral Rectangle: A shaded rectangle labeled X is positioned somewhat centrally. Its vertices are $\\Theta, I, \\Lambda, Z$.\nDimensions: Various segments along the perimeter and internal lines are labeled with their lengths:\n$AE = 9$ (Upper part of the left side)\n$HB = 10$ (Right part of the top side)\n$BK = 3$ (Upper part of the right side)\n$K\\Gamma = 11$ (Lower part of the right side, label '11' is placed alongside)\n$\\Gamma M = 12$ (Left part of the bottom side)\nVertices: The corners of the large square are $A$ (top-left), $B$ (top-right), $\\Gamma$ (bottom-right), and $\\Gamma$ (bottom-left). Other intersection points are labeled $H, I, K, \\Lambda, M, Z, E, \\Theta$.",
+    "choices": [
+      "A. 40",
+      "B. 48",
+      "Γ. 45",
+      "Δ. 50"
+    ],
+    "images": [
+      {
+        "path": "images\\ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_2\\ΕΙΚΟΝΑ_4\\ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_2_ΘΕΜΑ_36_ΕΙΚΟΝΑ_4.png",
+        "description": "The first image contains the text of a geometry problem numbered 036.\nThe second image displays a geometric diagram featuring a large square labeled $AB\\Gamma\\Gamma$.\nInternal Division: The square is subdivided into five smaller rectangles.\nCentral Rectangle: A shaded rectangle labeled X is positioned somewhat centrally. Its vertices are $\\Theta, I, \\Lambda, Z$.\nDimensions: Various segments along the perimeter and internal lines are labeled with their lengths:\n$AE = 9$ (Upper part of the left side)\n$HB = 10$ (Right part of the top side)\n$BK = 3$ (Upper part of the right side)\n$K\\Gamma = 11$ (Lower part of the right side, label '11' is placed alongside)\n$\\Gamma M = 12$ (Left part of the bottom side)\nVertices: The corners of the large square are $A$ (top-left), $B$ (top-right), $\\Gamma$ (bottom-right), and $\\Gamma$ (bottom-left). Other intersection points are labeled $H, I, K, \\Lambda, M, Z, E, \\Theta$.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "37",
+    "question": "Δίνονται οι αριθμοί $K=\\sqrt{3}+\\sqrt{3}$, $\\Lambda=2\\sqrt{3}- \\sqrt{3}$, $M=\\sqrt{12}$, $N=\\sqrt{3+3}$, $T=\\sqrt{27}-\\sqrt{3}$. Τότε ισχύει ότι",
+    "input": "",
+    "choices": [
+      "A. $K=M=T$",
+      "Β. $\\Lambda=M=N$",
+      "Γ. $M=N$",
+      "Δ. $K=\\Lambda$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "38",
+    "question": "Στο διπλανό σχήμα, η ακτίνα του κύκλου κέντρου Ο είναι 5 εκ. και το τμήμα ΒΑ είναι εφαπτόμενο στον κύκλο στο σημείο του Α. Το σημείο Β βρίσκεται στην προέκταση της διαμέτρου ΔΓ. Αν επιπλέον γνωρίζουμε ότι $\\hat{B}=30^{\\circ}$ τότε $B\\Gamma=$",
+    "input": "The image displays a geometric diagram involving a circle and an external point.\nCircle: Centered at point $O$ with a radius labeled $5$ (shown on the segment $O\\Gamma$).\nTangent Line: A vertical line segment $AB$ is tangent to the circle at point $A$. The angle $\\angle OAB$ is marked with a green square symbol, indicating a right angle ($90^\\circ$).\nSecant Line: A line originates from point $B$, passes through a point $\\Gamma$ on the circle, goes through the center $O$, and ends at point $\\Gamma$ on the opposite side of the circle.\nTriangle: The points $A, B, O$ form a right-angled triangle.\nAngle: The angle at vertex $B$ ($\\angle ABO$) is labeled $30^\\circ$.",
+    "choices": [
+      "Α. 4 εκ.",
+      "B. $\\frac{5}{2}$ εκ.",
+      "Γ. 5 εκ.",
+      "Δ. $5\\sqrt{2}$ εκ."
+    ],
+    "images": [
+      {
+        "path": "images\\ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_2\\ΕΙΚΟΝΑ_5\\ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_2_ΘΕΜΑ_38_ΕΙΚΟΝΑ_5.png",
+        "description": "The image displays a geometric diagram involving a circle and an external point.\nCircle: Centered at point $O$ with a radius labeled $5$ (shown on the segment $O\\Gamma$).\nTangent Line: A vertical line segment $AB$ is tangent to the circle at point $A$. The angle $\\angle OAB$ is marked with a green square symbol, indicating a right angle ($90^\\circ$).\nSecant Line: A line originates from point $B$, passes through a point $\\Gamma$ on the circle, goes through the center $O$, and ends at point $\\Gamma$ on the opposite side of the circle.\nTriangle: The points $A, B, O$ form a right-angled triangle.\nAngle: The angle at vertex $B$ ($\\angle ABO$) is labeled $30^\\circ$.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "39",
+    "question": "Αν $N=999.999$ πόσα ψηφία ίσα με 1 έχει ο αριθμός $N^{2}+2\\cdot10^{6}$;",
+    "input": "",
+    "choices": [
+      "A. 0",
+      "B. 1",
+      "Γ. 2",
+      "Δ. 8"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "40",
+    "question": "Έστω ο δειγματικός χώρος $\\Omega=\\{1,2,....,30\\}$ και τα ενδεχόμενά του $A=\\{x\\in\\Omega$, όπου x είναι πρώτος αριθμός} και $B=\\{x\\in\\Omega$, όπου x είναι περιττός αριθμός}. Το πλήθος των στοιχείων του γραμμοσκιασμένου συνόλου που φαίνεται στο διπλανό σχήμα είναι",
+    "input": "The image displays a Venn diagram set inside a rectangular boundary representing a sample space, labeled $\\Omega$.\nCircles: There are two overlapping circles labeled $A$ and $B$.\nShading: The area outside the two circles (the region belonging to $\\Omega$ but not to $A$ or $B$) is shaded with diagonal stripes. The interiors of circles $A$ and $B$, including their intersection, remain white (unshaded).",
+    "choices": [
+      "A. 11",
+      "B. 12",
+      "Γ. 13",
+      "Δ. 14"
+    ],
+    "images": [
+      {
+        "path": "images\\ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_2\\ΕΙΚΟΝΑ_6\\ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_2_ΘΕΜΑ_40_ΕΙΚΟΝΑ_6.png",
+        "description": "The image displays a Venn diagram set inside a rectangular boundary representing a sample space, labeled $\\Omega$.\nCircles: There are two overlapping circles labeled $A$ and $B$.\nShading: The area outside the two circles (the region belonging to $\\Omega$ but not to $A$ or $B$) is shaded with diagonal stripes. The interiors of circles $A$ and $B$, including their intersection, remain white (unshaded).",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "41",
+    "question": "Ποια είναι η διάμεσος των αριθμών: $\\sqrt{3}, 8$;",
+    "input": "",
+    "choices": [
+      "A. 8,5",
+      "B. 9",
+      "Γ. 10",
+      "Δ. 8"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "42",
+    "question": "Στο διπλανό σχήμα υπάρχουν πέντε τετράγωνα και δυο ορθογώνια τρίγωνα. Τα εμβαδά τριών τετραγώνων είναι 7, 33 και 46 όπως σημειώνεται στο σχήμα. Ποιο είναι το εμβαδόν του γραμμοσκιασμένου τετραγώνου; (τα σχήματα δεν είναι υπό κλίμακα).",
+    "input": "The image displays a composite geometric diagram.\nComponents: The diagram consists of five squares and two triangles.\nArrangement: The shapes are connected side-by-side, forming a chain-like structure. Specifically, they appear to be arranged to demonstrate the Pythagorean theorem multiple times.\n A small square (area 7) is attached to one leg of a right-angled triangle.\n A larger square (area 33) is attached to the other leg of the same triangle.\n The hypotenuse of this first triangle forms the side of a central square (unlabeled area).\n This central square shares another side with the leg of a second triangle.\n The hypotenuse of this second triangle is the side of the largest square (area 46).\n The other leg of the second triangle is the side of a small, shaded square (with diagonal stripes).\nLabels: The areas of three specific squares are given as numbers inside them: 7, 33, and 46.",
+    "choices": [
+      "A. 9",
+      "B. 8",
+      "Γ. 7",
+      "Δ. 6"
+    ],
+    "images": [
+      {
+        "path": "images\\ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_2\\ΕΙΚΟΝΑ_7\\ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_2_ΘΕΜΑ_42_ΕΙΚΟΝΑ_7.png",
+        "description": "The image displays a composite geometric diagram.\nComponents: The diagram consists of five squares and two triangles.\nArrangement: The shapes are connected side-by-side, forming a chain-like structure. Specifically, they appear to be arranged to demonstrate the Pythagorean theorem multiple times.\n A small square (area 7) is attached to one leg of a right-angled triangle.\n A larger square (area 33) is attached to the other leg of the same triangle.\n The hypotenuse of this first triangle forms the side of a central square (unlabeled area).\n This central square shares another side with the leg of a second triangle.\n The hypotenuse of this second triangle is the side of the largest square (area 46).\n The other leg of the second triangle is the side of a small, shaded square (with diagonal stripes).\nLabels: The areas of three specific squares are given as numbers inside them: 7, 33, and 46.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "43",
+    "question": "Στο παρακάτω σχήμα τα σημεία Α,Β,Γ,Δ βρίσκονται πάνω σε κύκλο κέντρου Ο. Έστω Ε το σημείο τομής των ΑΓ και ΒΔ. Η πλευρά AB είναι ίση με",
+    "input": "The image displays a geometric diagram featuring a circle with center $O$.\nPoints on Circle: Four points $A, B, \\Gamma, \\Gamma$ are marked on the circumference.\nIntersecting Chords: Two line segments (chords), $A\\Gamma$ and $B\\Gamma$, intersect inside the circle at a point labeled $E$.\nSegments and Lengths:\nSegment $AE$ is labeled with length 27.\nSegment $E\\Gamma$ is labeled with length 15.\nSegment $BE$ is labeled with length $x$.\nSegment $E\\Gamma$ is labeled with length $5x$.\nCenter: The center $O$ is marked but not directly connected to any of the chord endpoints in a way that defines radii in the problem context shown.",
+    "choices": [
+      "A. 3",
+      "B. $3\\sqrt{2}$",
+      "Γ. $4\\sqrt{2}$",
+      "Δ. 9"
+    ],
+    "images": [
+      {
+        "path": "images\\ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_2\\ΕΙΚΟΝΑ_8\\ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_2_ΘΕΜΑ_43_ΕΙΚΟΝΑ_8.png",
+        "description": "The image displays a geometric diagram featuring a circle with center $O$.\nPoints on Circle: Four points $A, B, \\Gamma, \\Gamma$ are marked on the circumference.\nIntersecting Chords: Two line segments (chords), $A\\Gamma$ and $B\\Gamma$, intersect inside the circle at a point labeled $E$.\nSegments and Lengths:\nSegment $AE$ is labeled with length 27.\nSegment $E\\Gamma$ is labeled with length 15.\nSegment $BE$ is labeled with length $x$.\nSegment $E\\Gamma$ is labeled with length $5x$.\nCenter: The center $O$ is marked but not directly connected to any of the chord endpoints in a way that defines radii in the problem context shown.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "44",
+    "question": "Αν στο τρίγωνο ΑΒΓ είναι $\\sigma\\upsilon\\nu\\Gamma=-\\frac{3}{5}$ τότε $\\epsilon\\varphi\\Gamma=$",
+    "input": "",
+    "choices": [
+      "A. $-\\frac{4}{3}$",
+      "B. $\\frac{4}{3}$",
+      "Γ. $-\\frac{3}{4}$",
+      "Δ. $\\frac{3}{4}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "45",
+    "question": "Οι παίκτριες μιας ομάδας μπάσκετ έχουν μέσο όρο ύψους 191 cm. Αποχωρούν δύο παίκτριες με ύψη 188 cm και 194 cm και έρχονται δύο νέες ύψους 190 cm και 192 cm. Ο νέος μέσος όρος ύψους της ομάδας είναι:",
+    "input": "",
+    "choices": [
+      "A. 191 cm",
+      "B. μεγαλύτερος από 191 cm",
+      "Γ. μικρότερος από 191 cm",
+      "Δ. δε γνωρίζουμε"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "46",
+    "question": "Θεωρούμε την παράσταση $A=\\sqrt{9-\\sqrt{8+\\sqrt{7-\\sqrt{6}}}}$. Για την παράσταση Α ισχύει",
+    "input": "",
+    "choices": [
+      "A. $0<A<1$",
+      "B. $1<A<2$",
+      "Γ. $3<A<4$",
+      "Δ. $2<A<3$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "47",
+    "question": "Για να πάρει ο Ορφέας βαθμό Α σε ένα τεστ Αγγλικών με 50 ερωτήσεις πρέπει να απαντήσει σωστά τουλάχιστον στο 80% των ερωτήσεων. Αν στις πρώτες 30 ερωτήσεις είχε 22 σωστές απαντήσεις πόσες απαντήσεις το πολύ μπορεί να απαντήσει λανθασμένα από τις υπόλοιπες για να πάρει Α στο τεστ;",
+    "input": "",
+    "choices": [
+      "A. 1",
+      "B. 2",
+      "Γ. 3",
+      "Δ. 4"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "48",
+    "question": "Έστω Μ το μέσο της πλευράς ΑΔ του παρακάτω τετραγώνου ΑΒΓΔ και Ε τυχαίο σημείο της πλευράς ΓΔ. Αν ισχύει $AB=1,$ τότε η διαφορά (ΑΕΒ)-(ΑΜΒ), όπου $(AEB)=\\epsilon\\mu\\beta\\alpha\\Gamma\\acute{o}v$ του τριγώνου ΑΕΒ και $(AMB)=\\epsilon\\mu\\beta\\alpha\\Gamma\\acute{o}v$ του τριγώνου ΑΜΒ, είναι ίση με:",
+    "input": "The image displays a geometric diagram featuring a square labeled $A B \\Gamma \\Gamma$ ($ABCD$).\nVertices: The corners of the square are labeled $A$ (top-left), $\\Gamma$ (top-right), $\\Gamma$ (bottom-right), and $B$ (bottom-left).\nPoint M: A point labeled $M$ lies on the top side $A\\Gamma$.\nPoint E: A point labeled $E$ lies on the right side $\\Gamma\\Gamma$.\nInternal Lines: Several line segments connect these points, forming triangles within the square:\nA line segment connects $A$ to $E$.\nA line segment connects $B$ to $M$.\nA line segment connects $B$ to $E$.\nThese lines create the triangles $AMB$ and $AEB$ mentioned in the problem text.",
+    "choices": [
+      "A. $\\frac{\\sqrt{2}}{2}$",
+      "B. $\\frac{1}{2}$",
+      "Γ. $\\frac{3}{4}$",
+      "Δ. $\\frac{1}{4}$"
+    ],
+    "images": [
+      {
+        "path": "images\\ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_2\\ΕΙΚΟΝΑ_9\\ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2021_2_ΘΕΜΑ_48_ΕΙΚΟΝΑ_9.png",
+        "description": "The image displays a geometric diagram featuring a square labeled $A B \\Gamma \\Gamma$ ($ABCD$).\nVertices: The corners of the square are labeled $A$ (top-left), $\\Gamma$ (top-right), $\\Gamma$ (bottom-right), and $B$ (bottom-left).\nPoint M: A point labeled $M$ lies on the top side $A\\Gamma$.\nPoint E: A point labeled $E$ lies on the right side $\\Gamma\\Gamma$.\nInternal Lines: Several line segments connect these points, forming triangles within the square:\nA line segment connects $A$ to $E$.\nA line segment connects $B$ to $M$.\nA line segment connects $B$ to $E$.\nThese lines create the triangles $AMB$ and $AEB$ mentioned in the problem text.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "49",
+    "question": "Αν $\\frac{x+y}{x-y}=3$ τότε: $\\frac{2x+y}{3y-x}=$",
+    "input": "",
+    "choices": [
+      "A. 5",
+      "B. $\\frac{2}{3}$",
+      "Γ. $\\frac{3}{2}$",
+      "Δ. 3"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "50",
+    "question": "Αν $x\\ne y$ και ισχύει $x^{2}=2x+y$, $y^{2}=2y+x,$ τότε $x^{2}+y^{2}=$",
+    "input": "",
+    "choices": [
+      "A. 4",
+      "B. 3",
+      "Γ. 2",
+      "Δ. 1"
+    ],
+    "images": [],
+    "mark": []
+  }
+]

@@ -1,0 +1,2 @@
+Description
+The image displays a Cartesian coordinate system with four straight lines plotted on it.\nTwo lines have a positive slope (going up from left to right).\nOne passes exactly through the origin $(0,0)$.\nThe other is parallel to the first and intersects the y-axis at $(0,1)$.\nTwo lines have a negative slope (going down from left to right).\nOne passes exactly through the origin $(0,0)$.\nThe other is parallel to the first and intersects the y-axis at $(0,-1)$.The x-axis and y-axis are marked with integers ($1, -1, -2$, etc.).

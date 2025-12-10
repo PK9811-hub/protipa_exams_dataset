@@ -1,0 +1,2 @@
+Description
+The image displays a pyramid-shaped structure built from four rows of small squares. The squares alternate between white and black colors.\nRow 1 (Top): Contains 1 white square.\nRow 2: Contains 3 squares (White - Black - White).\nRow 3: Contains 5 squares (White - Black - White - Black - White).\nRow 4 (Bottom): Contains 7 squares (White - Black - White - Black - White - Black - White).\nThe pattern illustrates the rule described in the text: every row begins and ends with a white square, and the total number of squares increases by 2 with each new row.

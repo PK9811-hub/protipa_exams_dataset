@@ -1,0 +1,5 @@
+Description
+The image displays a table showing the distribution of percentages for boys and girls across three different sports.\nColumns:\n\nΆθλημα (Sport):\n Lists the sport categories.\nΑγόρια (Boys):\n Represents the percentage of boys for each sport.\nΚορίτσια (Girls):\n Represents the percentage of girls for each sport.\nData Rows:\n\nRow 1 (Βόλεϊ - Volleyball):\n Boys 5.5%, Girls 29.5%.\nRow 2 (Ποδόσφαιρο - Football/Soccer):\n Boys 29.5%, Girls 6.5%.\nRow 3 (Μπάσκετ - Basketball):\n Boys 17%. The cell for Girls is empty.
+
+Transcription
+| Άθλημα | Αγόρια | Κορίτσια |\n| :--- | :---: | :---: |\n| \nΒόλεϊ\n | 5,5 % | 29,5 % |\n| \nΠοδόσφαιρο\n | 29,5 % | 6,5 % |\n| \nΜπάσκετ\n | 17 % | |

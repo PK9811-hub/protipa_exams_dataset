@@ -1,0 +1,2 @@
+Description
+The image shows a segment of a horizontal number line marked with vertical tick marks.\nLeft Label: The first tick mark on the left is labeled with the fraction $\frac{1}{12}$.\nRight Label: The fourth tick mark to the right is labeled with the fraction $\frac{1}{6}$.\nIntervals: There are 3 equal intervals (spaces) separating the fraction $\frac{1}{12}$ from $\frac{1}{6}$.\nArrow: A black arrow points vertically down to the first tick mark immediately to the right of $\frac{1}{12}$.

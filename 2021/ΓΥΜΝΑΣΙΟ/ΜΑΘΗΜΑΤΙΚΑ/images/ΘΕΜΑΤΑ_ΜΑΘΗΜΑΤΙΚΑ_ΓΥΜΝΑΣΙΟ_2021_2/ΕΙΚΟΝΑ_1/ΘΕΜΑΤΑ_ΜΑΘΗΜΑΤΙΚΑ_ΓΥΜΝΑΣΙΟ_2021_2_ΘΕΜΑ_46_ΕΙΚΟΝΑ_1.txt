@@ -1,0 +1,2 @@
+Description
+The image displays a line graph plotting "Απόσταση" (Distance) on the vertical Y-axis against "Χρόνος σε λεπτά" (Time in minutes) on the horizontal X-axis.\nGraph Path:\nStarts at the origin $(0,0)$.\nRises steadily in a straight line until the time mark 8.\nRemains perfectly flat (horizontal) from time mark 8 to 10, indicating no change in distance (a stop).\nRises steadily again from time mark 10 onwards.\nX-Axis Scale: The horizontal axis is marked with integers from 0 to 13.

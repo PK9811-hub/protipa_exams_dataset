@@ -1,0 +1,2 @@
+Description
+The image displays a geometric diagram featuring a right-angled triangle labeled $\Gamma A B$.\nTriangle Details:\nVertex $A$: Marks the right angle ($90^\circ$), indicated by a small green square.\nSide $A\Gamma$: The vertical leg with a length of 4.\nSide $AB$: The horizontal leg with a length of 3.\nExterior Angle: The base line segment $AB$ extends to the right. An obtuse angle labeled $\omega$ (omega) is marked at vertex $B$, formed by the hypotenuse $\Gamma B$ and the extension of the horizontal line.

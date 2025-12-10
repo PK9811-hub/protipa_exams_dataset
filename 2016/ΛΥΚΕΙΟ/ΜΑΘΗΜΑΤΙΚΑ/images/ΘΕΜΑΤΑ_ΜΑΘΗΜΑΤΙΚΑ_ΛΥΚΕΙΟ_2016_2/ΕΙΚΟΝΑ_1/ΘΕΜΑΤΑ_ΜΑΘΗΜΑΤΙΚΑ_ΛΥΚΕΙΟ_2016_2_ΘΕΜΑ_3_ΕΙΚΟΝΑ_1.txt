@@ -1,0 +1,2 @@
+Description
+The image displays a right-angled triangle $AB\Gamma$.\nVertices:\n$A$: The vertex with the right angle ($90^{\circ}$).\n$B$ and $\Gamma$: The vertices of the acute angles.\nSides:\n$a$ (alpha): The hypotenuse (opposite the right angle $A$).\n$\beta$ (beta): The vertical leg (opposite angle $B$, adjacent to angle $\Gamma$).\n$\gamma$ (gamma): The horizontal leg (opposite angle $\Gamma$, adjacent to angle $B$).

@@ -1,0 +1,5 @@
+Description
+The image displays a circular pie chart (circle graph) divided into six sectors of varying sizes, radiating from a central blue dot. Each sector represents a category of agricultural products labeled in Greek.\nThe sectors are arranged clockwise as follows (starting roughly from the top-right):\nφρούτα (fruits) - A large sector.\nλάδι – λίπη (oil – fats) - A medium-sized sector.\nγαλακτοκομικά (dairy) - A medium-sized sector.\nκαπνά (tobacco) - A smaller sector.\nβαμβάκι (cotton) - A smaller sector.\nκρέας (meat) - A large sector.\nThe dividing lines between the sectors appear to create geometric relationships, with some lines potentially forming diameters across the circle (e.g., the line separating "κρέας" and "φρούτα" appears to align with the line separating "καπνά" and "γαλακτοκομικά", dividing the circle into two hemispheres).
+
+Transcription
+Labels in the Chart:\nφρούτα\nλάδι – λίπη\nγαλακτοκομικά\nκαπνά\nβαμβάκι\nκρέας

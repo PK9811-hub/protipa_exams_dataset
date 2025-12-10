@@ -1,0 +1,703 @@
+[
+  {
+    "id": "1",
+    "question": "Το κυκλικό γράφημα δείχνει τον αριθμό και το είδος των μεταλλίων που κέρδισε η Ελλάδα στους θερινούς Ολυμπιακούς Αγώνες στην Αθήνα το 2004 (6 χρυσά, 6 αργυρά, 4 χάλκινα). Το ποσοστό των μεταλλίων που κέρδισε η Ελλάδα και δεν είναι χρυσά είναι το:",
+    "input": "The pie chart is divided into three sectors, representing the total number of medals won. The number and type of medal are labeled within or near each sector.\n1. Blue/Purple Sector (Top Right): Labeled \"6 χρυσά\" (6 gold).\n2. Light Blue/Cyan Sector (Top Left): Labeled \"6 αργυρά\" (6 silver).\n3. Yellow Sector (Bottom): Labeled \"4 χάλκινα\" (4 bronze).\nThe chart clearly shows the count for each type of medal, allowing for calculations of total medals and proportions.",
+    "choices": [
+      "α. 15%",
+      "β. 25%",
+      "γ. 60%",
+      "δ. 62,5%"
+    ],
+    "images": [
+      {
+      "path":"images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_1_ΕΙΚΟΝΑ_1.png",
+      "description": "The pie chart is divided into three sectors, representing the total number of medals won. The number and type of medal are labeled within or near each sector.\n1. Blue/Purple Sector (Top Right): Labeled \"6 χρυσά\" (6 gold).\n2. Light Blue/Cyan Sector (Top Left): Labeled \"6 αργυρά\" (6 silver).\n3. Yellow Sector (Bottom): Labeled \"4 χάλκινα\" (4 bronze).\nThe chart clearly shows the count for each type of medal, allowing for calculations of total medals and proportions.",
+      "transcription": "Image Content (Labels and Values)\n| Sector Color | Label (Greek) | Label (English Translation) | Count |\n| :---: | :---: | :---: | :---: |\n|Blue/Purple | $6$ χρυσά | $6$ gold | $6$ |\n|Light Blue | $6$ αργυρά | $6$ silver | $6$ |\n|Yellow | $4$ χάλκινα | $4$ bronze | $4$ |\n|Total Medals | (Calculated) | (Calculated) | $16$ |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "2",
+    "question": "Ο πίνακας παρουσιάζει το κόστος στάθμευσης αυτοκινήτου σε ένα parking.\n\n| Ώρες στάθμευσης | 1 | 2 | 3 | 4 |\n| :---: | :---: | :---: | :---: | :---: |\n| Κόστος στάθμευσης (σε ευρώ) | 25 | 30 | 35 | 40 |\n\nΤο γράφημα που αντιπροσωπεύει καλύτερα το συνολικό κόστος της στάθμευσης ως συνάρτηση του χρόνου είναι το:",
+    "input": "The image contains four separate graphs, each plotting the \"Total Cost (in Euros)\" ($\\Sigma\\upsilon\nu o\\lambda\\iota\\kappa\\acute{o}\\ \\kappa\\acute{o}\\Sigma\tau o\\varsigma\\ (\\epsilon\\upsilon\rho\\acute{\\omega})$) on the $y$-axis against the \"Parking Hours\" ($\text{Ώ}\rho\\epsilon\\varsigma\\ \\Sigma\tau\\acute{\\alpha}\theta\\mu\\epsilon\\upsilon\\Sigma\\eta\\varsigma$) on the $x$-axis.\n1. Graph $(\\alpha)$: A line segment starting near $(0, 1)$ and passing through approximately $(40, 4)$. The scale is very small on the $y$-axis (max $y=4$) and very wide on the $x$-axis (max $x=40$).\n2. Graph $(\beta)$: A line passing through the origin $(0, 0)$ and reaching approximately $(4, 160)$. This represents a proportional relationship.\n3. Graph $(\\gamma)$: A line starting at $y \\approx 20$ (the $y$-intercept) and rising to approximately $(4, 40)$. The $y$-axis scale runs from $0$ to $40$, and the $x$-axis scale runs from $0$ to $4$.\n4. Graph $(\\delta)$: A horizontal line at $y \\approx 23$. This represents a constant cost regardless of the parking hours.",
+    "choices": [
+      "α",
+      "β",
+      "γ",
+      "δ"
+    ],
+    "images": [
+      {
+      "path":"images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_1_ΕΙΚΟΝΑ_2.png",
+      "description": "The image contains four separate graphs, each plotting the \"Total Cost (in Euros)\" ($\\Sigma\\upsilon\nu o\\lambda\\iota\\kappa\\acute{o}\\ \\kappa\\acute{o}\\Sigma\tau o\\varsigma\\ (\\epsilon\\upsilon\rho\\acute{\\omega})$) on the $y$-axis against the \"Parking Hours\" ($\text{Ώ}\rho\\epsilon\\varsigma\\ \\Sigma\tau\\acute{\\alpha}\theta\\mu\\epsilon\\upsilon\\Sigma\\eta\\varsigma$) on the $x$-axis.\n1. Graph $(\\alpha)$: A line segment starting near $(0, 1)$ and passing through approximately $(40, 4)$. The scale is very small on the $y$-axis (max $y=4$) and very wide on the $x$-axis (max $x=40$).\n2. Graph $(\beta)$: A line passing through the origin $(0, 0)$ and reaching approximately $(4, 160)$. This represents a proportional relationship.\n3. Graph $(\\gamma)$: A line starting at $y \\approx 20$ (the $y$-intercept) and rising to approximately $(4, 40)$. The $y$-axis scale runs from $0$ to $40$, and the $x$-axis scale runs from $0$ to $4$.\n4. Graph $(\\delta)$: A horizontal line at $y \\approx 23$. This represents a constant cost regardless of the parking hours.",
+      "transcription": "Image Content (Table and Question)\nThe exercise is defined by a table and a question:\n| Element | Value/Label |\n| :--- | :--- |\n|Table Data (Hours $x$) | $1, 2, 3, 4$ |\n|Table Data (Cost $y$ in Euros) | $25, 30, 35, 40$ |\n|Question (Translated) | The graph that best represents the total cost of parking as a function of time is: |\nAnalysis of the Data Table\nThe relationship between $x$ (Hours) and $y$ (Cost) in the table is:\n$\text{Cost}(1) = 25$\n$\text{Cost}(2) = 30$ (Increase of $5$ from hour $1$ to $2$)\n$\text{Cost}(3) = 35$ (Increase of $5$ from hour $2$ to $3$)\n$\text{Cost}(4) = 40$ (Increase of $5$ from hour $3$ to $4$)"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "3",
+    "question": "Ποιος πίνακας τιμών αντιπροσωπεύει τον παρακάτω κανόνα:\n\n«πάρε ως αριθμό $\\gamma$ το άθροισμα ενός άλλου αριθμού $\\chi$ με το τετράγωνό του» ($\\gamma = \\chi + \\chi^2$)\n\n(a)\n\n| T | 0 | 1 | 2 | 3 | 4 | 5 |\n| :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n\n(b)\n\n| $\\overline{X}$ | 1 | 2 | 2 | 6 | 4 | 20 |\n\n(c)\n\n| X | 1 | 1 | 2 | 6 | 4 | 8 |\n\n(d)\n\n| | 1 | 2 | 2 | 4 | 4 | 8 |",
+    "input": "The image consists of four separate tables, each mapping a set of input values ($x$) to output values ($y$).\n1. Table $(\\alpha)$: Represents the points $(0, 1)$, $(2, 3)$, and $(4, 5)$.\n2. Table $(\beta)$: Represents the points $(1, 2)$, $(2, 6)$, and $(4, 20)$.\n3. Table $(\\gamma)$: Represents the points $(1, 1)$, $(2, 6)$, and $(4, 8)$.\n4. Table $(\\delta)$: Represents the points $(1, 2)$, $(2, 4)$, and $(4, 8)$.",
+    "choices": [
+      "α",
+      "β",
+      "γ",
+      "δ"
+    ],
+    "images": [
+      {
+      "path":"images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_1_ΕΙΚΟΝΑ_3.png",
+      "description": "The image consists of four separate tables, each mapping a set of input values ($x$) to output values ($y$).\n1. Table $(\\alpha)$: Represents the points $(0, 1)$, $(2, 3)$, and $(4, 5)$.\n2. Table $(\beta)$: Represents the points $(1, 2)$, $(2, 6)$, and $(4, 20)$.\n3. Table $(\\gamma)$: Represents the points $(1, 1)$, $(2, 6)$, and $(4, 8)$.\n4. Table $(\\delta)$: Represents the points $(1, 2)$, $(2, 4)$, and $(4, 8)$.",
+      "transcription": "Image Content (The Four Tables)\n| Table $(\\alpha)$ | Table $(\beta)$ | Table $(\\gamma)$ | Table $(\\delta)$ |\n| :---: | :---: | :---: | :---: |\n| $(0, 1)$ | $(1, 2)$ | $(1, 1)$ | $(1, 2)$ |\n| $(2, 3)$ | $(2, 6)$ | $(2, 6)$ | $(2, 4)$ |\n| $(4, 5)$ | $(4, 20)$ | $(4, 8)$ | $(4, 8)$ |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "4",
+    "question": "Στο διπλανό σχήμα (ορθογώνιο τρίγωνο με γωνία 56° και απέναντι κάθετη πλευρά 13 cm) η υποτείνουσα ισούται με:",
+    "input": "The image shows a triangle shaded gray.\n1. Triangle Type: A square symbol at the bottom right vertex indicates it is aright triangle (one angle is $90^\\circ$).\n2. Known Values:\nHeight/Opposite Side: The vertical side adjacent to the right angle is labeled$13 \text{ cm}$.\nAngle: The acute angle at the bottom left vertex is labeled$56^\\circ$.\nThe problem requires using trigonometry to find the length of the hypotenuse.",
+    "choices": [
+      "α. $13\\Sigma uv56^{0}$",
+      "β. $13\\eta\\mu56^{0}$",
+      "γ. $\\frac{13}{\\Sigma uv56^{0}}$",
+      "δ. $\\frac{13}{\\eta\\mu56^{0}}$"
+    ],
+    "images": [
+      {
+      "path":"images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_4/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_1_ΕΙΚΟΝΑ_4.png",
+      "description": "The image shows a triangle shaded gray.\n1. Triangle Type: A square symbol at the bottom right vertex indicates it is aright triangle (one angle is $90^\\circ$).\n2. Known Values:\nHeight/Opposite Side: The vertical side adjacent to the right angle is labeled$13 \text{ cm}$.\nAngle: The acute angle at the bottom left vertex is labeled$56^\\circ$.\nThe problem requires using trigonometry to find the length of the hypotenuse.",
+      "transcription": "Image Content (Labels and Values)\n| Element | Value/Label |\n| :--- | :--- |\n|Angle | $56^\\circ$ |\n|Side Length | $13 \text{ cm}$ (Opposite side to $56^\\circ$) |\n|Angle Type | Right angle ($90^\\circ$) |\n|Unknown to be Found | Hypotenuse ($\text{H}$) |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "5",
+    "question": "Να αποδείξετε την ταυτότητα: $(\\frac{\\alpha+\\beta}{2})^{2}+(\\frac{\\alpha-\\beta}{2})^{2}=\\frac{\\alpha^{2}+\\beta^{2}}{2}$",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "6",
+    "question": "Av $y+\\frac{1}{y}=3,$ να υπολογίσετε την αριθμητική τιμή της παράστασης $y^{2}+\\frac{1}{y^{2}}=$",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "7.1",
+    "question": "Να παραγοντοποιήσετε την παράσταση:\n$$6x^{5}-4x^{3}y-3x^{2}y^{3}+2y^{4}=$$",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "7.2",
+    "question": "Να παραγοντοποιήσετε την παράσταση:\n$$4x^{3}-20x^{2}+25x=$$",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "7.3",
+    "question": "Να παραγοντοποιήσετε την παράσταση:\n$$(1+\\alpha)^{2}-\\beta^{2}=$$",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "8.1",
+    "question": "Στο ισοσκελές τραπέζιο ΑΒΓΔ ισχύει $AB=4cm$, $\\lceil\\delta=12cm$ και οι γωνίες είναι $45^{\\circ}$ .\n\nΝα αποδείξετε ότι το ύψος του ΒΖ είναι 4 cm.",
+    "input": "The image shows a large trapezoidal shape ($\\delta \\dots \\Gamma$).\n1. Vertices and Segments: The outer base vertices are $\\delta$ and $\\Gamma$. The top vertices are $\\text{A}$ and $\\text{E}$. The trapezoid base is $\\delta\\Gamma$, and the top base is $\\text{A}\\text{E}$.\n2. Perpendiculars (Altitudes): Perpendicular segments are drawn from the top vertices $\\text{A}$ and $\\text{E}$ to the base $\\delta\\Gamma$. The feet of the perpendiculars are labeled $\\text{E}$ (under $\\text{A}$) and $\\text{Z}$ (under $\\text{E}$).Note: The labeling is confusing; the vertices of the figure are $\\text{A}$, $\\text{E}$, $\\Gamma$, $\\delta$, and the altitudes drop to points named $\\text{E}$ and $\\text{Z}$ on the base.\n3. Composition: The trapezoid is partitioned into a central rectangle ($\\text{A}\\text{E}\\text{Z}\\text{E}'$ if we use the top $\\text{A}\\text{E}$ and bottom $\\text{E}\\text{Z}$) and two flanking right-angled triangles ($\\delta\\text{E}\\text{A}$ and $\\Gamma\\text{Z}\\text{E}$). ",
+    "choices": [],
+    "images": [
+      {
+        "path":"images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_5/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_3_ΕΙΚΟΝΑ_5.png",
+        "description": "The image shows a large trapezoidal shape ($\\delta \\dots \\Gamma$).\n1. Vertices and Segments: The outer base vertices are $\\delta$ and $\\Gamma$. The top vertices are $\\text{A}$ and $\\text{E}$. The trapezoid base is $\\delta\\Gamma$, and the top base is $\\text{A}\\text{E}$.\n2. Perpendiculars (Altitudes): Perpendicular segments are drawn from the top vertices $\\text{A}$ and $\\text{E}$ to the base $\\delta\\Gamma$. The feet of the perpendiculars are labeled $\\text{E}$ (under $\\text{A}$) and $\\text{Z}$ (under $\\text{E}$).Note: The labeling is confusing; the vertices of the figure are $\\text{A}$, $\\text{E}$, $\\Gamma$, $\\delta$, and the altitudes drop to points named $\\text{E}$ and $\\text{Z}$ on the base.\n3. Composition: The trapezoid is partitioned into a central rectangle ($\\text{A}\\text{E}\\text{Z}\\text{E}'$ if we use the top $\\text{A}\\text{E}$ and bottom $\\text{E}\\text{Z}$) and two flanking right-angled triangles ($\\delta\\text{E}\\text{A}$ and $\\Gamma\\text{Z}\\text{E}$).",
+        "transcription": "Image Content (Labels and Markings)\\n| Element | Label/Marking | Meaning (Implied by Drawing) |\\n| :--- | :--- | :--- |\\n|Vertices (Top Base) | $\\text{A}, \\text{E}$ | The top, shorter base (likely $\\text{A}\\text{B}$ in the text). |\\n|Vertices (Bottom Base) | $\\delta, \\Gamma$ | The bottom, longer base (likely $\\Gamma\\delta$ in the text). |\\n|Altitude Feet | $\\text{E}, \\text{Z}$ (on base $\\delta\\Gamma$) | Feet of the altitudes dropped from $\\text{A}$ and $\\text{E}$ (the top base). |\\n|Angles | Right angle symbols at $\\text{E}$ and $\\text{Z}$ | $\\text{A}\\text{E} \\perp \\delta\\Gamma$ and $\\text{E}\\text{Z} \\perp \\delta\\Gamma$ (Altitudes). |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "8.2",
+    "question": "Στο ισοσκελές τραπέζιο ΑΒΓΔ ισχύει $AB=4cm$, $\\lceil\\delta=12cm$ και οι γωνίες είναι $45^{\\circ}$ .\n\nΝα υπολογίσετε το εμβαδόν του τραπεζίου ΑΒΓΔ.",
+    "input": "The image shows a large trapezoidal shape ($\\delta \\dots \\Gamma$).\n1. Vertices and Segments: The outer base vertices are $\\delta$ and $\\Gamma$. The top vertices are $\\text{A}$ and $\\text{E}$. The trapezoid base is $\\delta\\Gamma$, and the top base is $\\text{A}\\text{E}$.\n2. Perpendiculars (Altitudes): Perpendicular segments are drawn from the top vertices $\\text{A}$ and $\\text{E}$ to the base $\\delta\\Gamma$. The feet of the perpendiculars are labeled $\\text{E}$ (under $\\text{A}$) and $\\text{Z}$ (under $\\text{E}$).Note: The labeling is confusing; the vertices of the figure are $\\text{A}$, $\\text{E}$, $\\Gamma$, $\\delta$, and the altitudes drop to points named $\\text{E}$ and $\\text{Z}$ on the base.\n3. Composition: The trapezoid is partitioned into a central rectangle ($\\text{A}\\text{E}\\text{Z}\\text{E}'$ if we use the top $\\text{A}\\text{E}$ and bottom $\\text{E}\\text{Z}$) and two flanking right-angled triangles ($\\delta\\text{E}\\text{A}$ and $\\Gamma\\text{Z}\\text{E}$).",
+    "choices": [],
+    "images": [
+      {
+        "path":"images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_5/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_3_ΕΙΚΟΝΑ_5.png",
+        "description": "The image shows a large trapezoidal shape ($\\delta \\dots \\Gamma$).\n1. Vertices and Segments: The outer base vertices are $\\delta$ and $\\Gamma$. The top vertices are $\\text{A}$ and $\\text{E}$. The trapezoid base is $\\delta\\Gamma$, and the top base is $\\text{A}\\text{E}$.\n2. Perpendiculars (Altitudes): Perpendicular segments are drawn from the top vertices $\\text{A}$ and $\\text{E}$ to the base $\\delta\\Gamma$. The feet of the perpendiculars are labeled $\\text{E}$ (under $\\text{A}$) and $\\text{Z}$ (under $\\text{E}$).Note: The labeling is confusing; the vertices of the figure are $\\text{A}$, $\\text{E}$, $\\Gamma$, $\\delta$, and the altitudes drop to points named $\\text{E}$ and $\\text{Z}$ on the base.\n3. Composition: The trapezoid is partitioned into a central rectangle ($\\text{A}\\text{E}\\text{Z}\\text{E}'$ if we use the top $\\text{A}\\text{E}$ and bottom $\\text{E}\\text{Z}$) and two flanking right-angled triangles ($\\delta\\text{E}\\text{A}$ and $\\Gamma\\text{Z}\\text{E}$).",
+        "transcription": "Image Content (Labels and Markings)\\n| Element | Label/Marking | Meaning (Implied by Drawing) |\\n| :--- | :--- | :--- |\\n|Vertices (Top Base) | $\\text{A}, \\text{E}$ | The top, shorter base (likely $\\text{A}\\text{B}$ in the text). |\\n|Vertices (Bottom Base) | $\\delta, \\Gamma$ | The bottom, longer base (likely $\\Gamma\\delta$ in the text). |\\n|Altitude Feet | $\\text{E}, \\text{Z}$ (on base $\\delta\\Gamma$) | Feet of the altitudes dropped from $\\text{A}$ and $\\text{E}$ (the top base). |\\n|Angles | Right angle symbols at $\\text{E}$ and $\\text{Z}$ | $\\text{A}\\text{E} \\perp \\delta\\Gamma$ and $\\text{E}\\text{Z} \\perp \\delta\\Gamma$ (Altitudes). |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "9",
+    "question": "Οι λάμπες φωτισμού παλαιού τύπου (λάμπες πυρακτώσεως) κοστίζουν 0,5€ η μία και έχουν μέση διάρκεια ζωής 1200 ώρες.\n\nΟι λάμπες φωτισμού νέου τύπου (led) κοστίζουν 6€ η μία και έχουν μέση διάρκεια ζωής 50000 ώρες.\n\nΠοιου τύπου λάμπες θα προτιμήσετε από οικονομικής πλευράς; (Δικαιολογήστε την απάντησή σας)",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "1.1",
+    "question": "Να συμπληρώσετε την παρακάτω ταυτότητα, ώστε να εκφράζει μια αξιοσημείωτη ταυτότητα:\n$(\\alpha+\\beta)\\cdot(\\alpha^{2}-\\alpha\\beta+\\beta^{2})=$",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "1.2",
+    "question": "Να συμπληρώσετε την παρακάτω ταυτότητα, ώστε να εκφράζει μια αξιοσημείωτη ταυτότητα:\n$\\alpha^{3}+3\\alpha\\beta^{2}-3\\alpha^{2}\\beta-\\beta^{3}=$",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "1.3",
+    "question": "Να συμπληρώσετε την παρακάτω ταυτότητα, ώστε να εκφράζει μια αξιοσημείωτη ταυτότητα:\n$(\\alpha-B)^{2}=$",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "1.4",
+    "question": "Να συμπληρώσετε την παρακάτω ταυτότητα, ώστε να εκφράζει μια αξιοσημείωτη ταυτότητα:\n$(\\alpha+\\beta)(\\alpha-\\beta)=$",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "2.1",
+    "question": "Να χαρακτηρίσετε την παρακάτω ισότητα με (Σ) σωστό ή με (Λ) λάθος:\n$$(\\alpha+\\beta)\\cdot(\\beta-\\alpha)=\\alpha^{2}-\\beta^{2}$$",
+    "input": "",
+    "choices": [
+      "α. Σωστό", 
+      "β. Λάθος"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "2.2",
+    "question": "Να χαρακτηρίσετε την παρακάτω ισότητα με (Σ) σωστό ή με (Λ) λάθος:\n$$(\\alpha-\\beta)\\cdot(\\alpha^{2}+\\alpha\\beta+\\beta^{2})=\\alpha^{3}-\\beta^{3}$$",
+    "input": "",
+    "choices": [
+      "α. Σωστό",
+       "β. Λάθος"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "2.3",
+    "question": "Να χαρακτηρίσετε την παρακάτω ισότητα με (Σ) σωστό ή με (Λ) λάθος:\n$$\\alpha^{2}+\\beta^{2}=(\\alpha+\\beta)^{2}$$",
+    "input": "",
+    "choices": [
+      "α. Σωστό", 
+      "β. Λάθος"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "2.4",
+    "question": "Να χαρακτηρίσετε την παρακάτω ισότητα με (Σ) σωστό ή με (Λ) λάθος:\n$$(\\alpha+\\beta)^{3}=\\beta^{3}+\\alpha^{3}+3\\alpha\\beta(\\alpha+\\beta)$$",
+    "input": "",
+    "choices": [
+      "α. Σωστό", 
+      "β. Λάθος"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "2.5",
+    "question": "Να χαρακτηρίσετε την παρακάτω ισότητα με (Σ) σωστό ή με (Λ) λάθος:\n$$(-\\alpha-\\beta)^{a}=(\\alpha+\\beta)^{a}$$",
+    "input": "",
+    "choices": [
+      "α. Σωστό", 
+      "β. Λάθος"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "3.1",
+    "question": "Δίνονται τα τρίγωνα ΑΒΓ και ΕΔΖ.\nΝα δικαιολογήσετε γιατί είναι όμοια.",
+    "input": "The image contains two distinct figures labeled as triangles.\n1. Triangle $\\text{A}\\text{B}\\Gamma$ (Left): The vertices are $\\text{A}$, $\\text{B}$, $\\Gamma$. Angle $\\text{B}$ is marked with $\\omega$. Angle $\\text{A}$ is marked with $\\varphi$. Side $\\Gamma\\text{A}$ is $x+2$. Side $\\text{A}\\text{B}$ is $x-1$.\n2. Triangle $\\text{E}\\delta\\text{Z}$ (Right): The vertices are $\\text{A}$, $\\text{E}$, $\\text{Z}$ (Note: The vertices are labeled $\\text{A}$, $\\text{E}$, $\\text{Z}$ in the image despite the text naming it $\\text{E}\\delta\\text{Z}$). Angle $\\text{A}$ is marked with $\\omega$. Angle $\\text{E}$ is marked with $\\varphi$. Side $\\text{A}\\text{Z}$ is $3x-2$. Side $\\text{E}\\text{Z}$ is $3x+6$.\nThe two triangles visually suggest a correspondence between $\\angle\\text{B}$ ($\\omega$) and $\\angle\\text{A}$ ($\\omega$) of the second triangle, and $\\angle\\text{A}$ ($\\varphi$) and $\\angle\\text{E}$ ($\\varphi$) of the second triangle.",
+    "choices": [],
+    "images": [
+      {
+        "path":"images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_6/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_2_ΕΙΚΟΝΑ_6.png",
+        "description": "The image contains two distinct figures labeled as triangles.\n1. Triangle $\\text{A}\\text{B}\\Gamma$ (Left):\nSide $\\text{B}\\Gamma$ is not labeled with an expression, but is the side between angles $\\omega$ and $\\varphi$.\nSide $\\Gamma\\text{A}$ is labeled$x+2$.\nSide $\\text{A}\\text{B}$ is labeled$x-1$.\nAngle $\\text{B}$ is marked with the symbol$\\omega$.\nAngle $\\text{A}$ is marked with the symbol$\\varphi$.\n2. Triangle $\\text{E}\\delta\\text{Z}$ (Right):\n The vertices are $\\text{A}$, $\\text{E}$, and $\\text{Z}$ (Note: The vertices are labeled $\\text{A}$, $\\text{E}$, $\\text{Z}$, which is a common convention for the second triangle in Greek math problems, despite the exercise intro naming the triangle $\\text{E}\\delta\\text{Z}$. Based on the visual positions, the vertices are $\\text{A}$ (top), $\\text{E}$ (bottom left), $\\text{Z}$ (bottom right)).\nSide $\\text{A}\\text{Z}$ is labeled$3x-2$.\nSide $\\text{E}\\text{Z}$ is labeled$3x+6$.\nAngle $\\text{A}$ is marked with the symbol$\\omega$.\nAngle $\\text{E}$ is marked with the symbol$\\varphi$.",
+        "transcription": "Image Content (Labels and Expressions)\\n| Triangle | Angle | Expression/Symbol | Side | Expression/Symbol |\\n| :---: | :---: | :---: | :---: | :---: |\\n| $\\text{A}\\text{B}\\Gamma$ | $\\angle \\text{B}$ | $\\omega$ | $\\text{A}\\text{B}$ | $x-1$ |\\n| $\\text{A}\\text{B}\\Gamma$ | $\\angle \\text{A}$ | $\\varphi$ | $\\Gamma\\text{A}$ | $x+2$ |\\n| $\\text{A}\\text{B}\\Gamma$ | $\\angle \\Gamma$ | (unlabeled) | $\\text{B}\\Gamma$ | (unlabeled) |\\n| $\\text{A}\\text{E}\\text{Z}$ | $\\angle \\text{A}$ | $\\omega$ | $\\text{A}\\text{E}$ | (unlabeled) |\\n| $\\text{A}\\text{E}\\text{Z}$ | $\\angle \\text{E}$ | $\\varphi$ | $\\text{A}\\text{Z}$ | $3x-2$ |\\n| $\\text{A}\\text{E}\\text{Z}$ | $\\angle \\text{Z}$ | (unlabeled) | $\\text{E}\\text{Z}$ | $3x+6$ |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "3.2",
+    "question": "Δίνονται τα τρίγωνα ΑΒΓ και ΕΔΖ.\nΝα δείξετε ότι ο λόγος ομοιότητας του ΑΒΓ προς το $\\triangle EZ$ είναι: $\\lambda=\\frac{1}{3}$",
+    "input": "The image contains two distinct figures labeled as triangles.\n1. Triangle $\\text{A}\\text{B}\\Gamma$ (Left): The vertices are $\\text{A}$, $\\text{B}$, $\\Gamma$. Angle $\\text{B}$ is marked with $\\omega$. Angle $\\text{A}$ is marked with $\\varphi$. Side $\\Gamma\\text{A}$ is $x+2$. Side $\\text{A}\\text{B}$ is $x-1$.\n2. Triangle $\\text{E}\\delta\\text{Z}$ (Right): The vertices are $\\text{A}$, $\\text{E}$, $\\text{Z}$ (Note: The vertices are labeled $\\text{A}$, $\\text{E}$, $\\text{Z}$ in the image despite the text naming it $\\text{E}\\delta\\text{Z}$). Angle $\\text{A}$ is marked with $\\omega$. Angle $\\text{E}$ is marked with $\\varphi$. Side $\\text{A}\\text{Z}$ is $3x-2$. Side $\\text{E}\\text{Z}$ is $3x+6$.\nThe two triangles visually suggest a correspondence between $\\angle\\text{B}$ ($\\omega$) and $\\angle\\text{A}$ ($\\omega$) of the second triangle, and $\\angle\\text{A}$ ($\\varphi$) and $\\angle\\text{E}$ ($\\varphi$) of the second triangle.",
+    "choices": [],
+    "images": [
+      {
+        "path":"images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_6/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_2_ΕΙΚΟΝΑ_6.png",
+        "description": "The image contains two distinct figures labeled as triangles.\n1. Triangle $\\text{A}\\text{B}\\Gamma$ (Left):\nSide $\\text{B}\\Gamma$ is not labeled with an expression, but is the side between angles $\\omega$ and $\\varphi$.\nSide $\\Gamma\\text{A}$ is labeled$x+2$.\nSide $\\text{A}\\text{B}$ is labeled$x-1$.\nAngle $\\text{B}$ is marked with the symbol$\\omega$.\nAngle $\\text{A}$ is marked with the symbol$\\varphi$.\n2. Triangle $\\text{E}\\delta\\text{Z}$ (Right):\n The vertices are $\\text{A}$, $\\text{E}$, and $\\text{Z}$ (Note: The vertices are labeled $\\text{A}$, $\\text{E}$, $\\text{Z}$, which is a common convention for the second triangle in Greek math problems, despite the exercise intro naming the triangle $\\text{E}\\delta\\text{Z}$. Based on the visual positions, the vertices are $\\text{A}$ (top), $\\text{E}$ (bottom left), $\\text{Z}$ (bottom right)).\nSide $\\text{A}\\text{Z}$ is labeled$3x-2$.\nSide $\\text{E}\\text{Z}$ is labeled$3x+6$.\nAngle $\\text{A}$ is marked with the symbol$\\omega$.\nAngle $\\text{E}$ is marked with the symbol$\\varphi$.",
+        "transcription": "Image Content (Labels and Expressions)\\n| Triangle | Angle | Expression/Symbol | Side | Expression/Symbol |\\n| :---: | :---: | :---: | :---: | :---: |\\n| $\\text{A}\\text{B}\\Gamma$ | $\\angle \\text{B}$ | $\\omega$ | $\\text{A}\\text{B}$ | $x-1$ |\\n| $\\text{A}\\text{B}\\Gamma$ | $\\angle \\text{A}$ | $\\varphi$ | $\\Gamma\\text{A}$ | $x+2$ |\\n| $\\text{A}\\text{B}\\Gamma$ | $\\angle \\Gamma$ | (unlabeled) | $\\text{B}\\Gamma$ | (unlabeled) |\\n| $\\text{A}\\text{E}\\text{Z}$ | $\\angle \\text{A}$ | $\\omega$ | $\\text{A}\\text{E}$ | (unlabeled) |\\n| $\\text{A}\\text{E}\\text{Z}$ | $\\angle \\text{E}$ | $\\varphi$ | $\\text{A}\\text{Z}$ | $3x-2$ |\\n| $\\text{A}\\text{E}\\text{Z}$ | $\\angle \\text{Z}$ | (unlabeled) | $\\text{E}\\text{Z}$ | $3x+6$ |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "4",
+    "question": "Σε ένα τετράγωνο αυξάνουμε το μήκος κάθε μιας από τις δύο απέναντι πλευρές κατά 1cm και ελαττώνουμε το μήκος των άλλων δύο κατά 2 cm την κάθε μια.\nΤο εμβαδόν του νέου σχήματος που προκύπτει είναι 18 $cm^{2}$. Να βρεθεί το μήκος της πλευράς του τετραγώνου.",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "5.1",
+    "question": "Δύο εταιρείες ταξί έχουν τις ακόλουθες χρεώσεις:\n Η εταιρεία ταξί «Αθήνα» χρεώνει 1€ για τη σημαία και 0,5€ ανά km διανυόμενης διαδρομής.\n Η εταιρεία ταξί «Βιαστικός» (για να προσελκύσει πελάτες) δε χρεώνει σημαία, αλλά μόνο το κόστος διαδρομής, που είναι 0,6€ ανά km διανυόμενης διαδρομής.\nΠοιο διάγραμμα (1) ή (2) αντιστοιχεί στην κάθε εταιρεία;\n\n| Εταιρεία | Διάγραμμα |\n| :---: | :---: |\n| «Αθήνα» | |\n| «Βιαστικός» | |",
+    "input": "The graph plots the Cost (Κόστος $\\xi$) on the vertical ($y$) axis against the Distance (Μήκος $\\text{Km}$) on the horizontal ($x$) axis. Both axes are scaled, although specific numerical labels are partially obscured but implied by the grid lines.\n1. Line (1):\nStarts at the origin $(0, 0)$ (zero cost for zero distance).\nRepresents a proportional relationship (Cost = rate $\\times$ distance).\n2. Line (2):\nStarts above the origin, at a positive $y$-intercept (Initial Fee/Flag Fall).\nRepresents an affine linear relationship (Cost = fixed fee + rate $\\times$ distance).\n3. Intersection Point: The two lines intersect at a point where the costs are equal for the corresponding distance. A vertical dashed line is drawn from the intersection point to the $x$-axis, indicating the specific distance where the cost of the two services is identical. This distance appears to be around the 10th grid line tick mark on the $x$-axis.",
+    "choices": [],
+    "images": [
+      {
+        "path":"images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_7/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_4_ΕΙΚΟΝΑ_7.png",
+        "description": "The graph plots the Cost (Κόστος $\\xi$) on the vertical ($y$) axis against the Distance (Μήκος $\\text{Km}$) on the horizontal ($x$) axis. Both axes are scaled, although specific numerical labels are partially obscured but implied by the grid lines.\n1. Line (1):\nStarts at the origin $(0, 0)$ (zero cost for zero distance).\nRepresents a proportional relationship (Cost = rate $\\times$ distance).\n2. Line (2):\nStarts above the origin, at a positive $y$-intercept (Initial Fee/Flag Fall).\nRepresents an affine linear relationship (Cost = fixed fee + rate $\\times$ distance).\n3. Intersection Point: The two lines intersect at a point where the costs are equal for the corresponding distance. A vertical dashed line is drawn from the intersection point to the $x$-axis, indicating the specific distance where the cost of the two services is identical. This distance appears to be around the 10th grid line tick mark on the $x$-axis.",
+        "transcription": "Image Content (Labels and Lines)\n| Element | Label/Marking | Meaning |\n| :---: | :---: | :--- |\n| Y-axis | Κόστος διαδρομής ($\\xi$) | Cost of Route ($\\xi$) |\n| X-axis | Μήκος διαδρομής ($\\text{Km}$) | Distance of Route ($\\text{Km}$) |\n| Line (1) | (1) | The line representing one company's pricing. |\n| Line (2) | (2) | The line representing the second company's pricing. |\n| Intersection | Vertical dashed line | The distance at which the two costs are equal. |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "5.2",
+    "question": "Δύο εταιρείες ταξί έχουν τις ακόλουθες χρεώσεις:\n Η εταιρεία ταξί «Αθήνα» χρεώνει 1€ για τη σημαία και 0,5€ ανά km διανυόμενης διαδρομής.\n Η εταιρεία ταξί «Βιαστικός» (για να προσελκύσει πελάτες) δε χρεώνει σημαία, αλλά μόνο το κόστος διαδρομής, που είναι 0,6€ ανά km διανυόμενης διαδρομής.\nΠοια εταιρεία θα προτιμήσετε για μια διαδρομή 15 km; (Δικαιολογήστε την απάντησή σας).",
+    "input": "The graph plots the Cost (Κόστος $\\xi$) on the vertical ($y$) axis against the Distance (Μήκος $\\text{Km}$) on the horizontal ($x$) axis. Both axes are scaled, although specific numerical labels are partially obscured but implied by the grid lines.\n1. Line (1):\nStarts at the origin $(0, 0)$ (zero cost for zero distance).\nRepresents a proportional relationship (Cost = rate $\\times$ distance).\n2. Line (2):\nStarts above the origin, at a positive $y$-intercept (Initial Fee/Flag Fall).\nRepresents an affine linear relationship (Cost = fixed fee + rate $\\times$ distance).\n3. Intersection Point: The two lines intersect at a point where the costs are equal for the corresponding distance. A vertical dashed line is drawn from the intersection point to the $x$-axis, indicating the specific distance where the cost of the two services is identical. This distance appears to be around the 10th grid line tick mark on the $x$-axis.",
+    "choices": [],
+    "images": [
+      {
+        "path":"images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟΥ_2013_2/ΕΙΚΟΝΑ_7/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟΥ_2013_2_ΘΕΜΑ_4_ΕΙΚΟΝΑ_7.png",
+        "description": "The graph plots the Cost (Κόστος $\\xi$) on the vertical ($y$) axis against the Distance (Μήκος $\\text{Km}$) on the horizontal ($x$) axis. Both axes are scaled, although specific numerical labels are partially obscured but implied by the grid lines.\n1. Line (1):\nStarts at the origin $(0, 0)$ (zero cost for zero distance).\nRepresents a proportional relationship (Cost = rate $\\times$ distance).\n2. Line (2):\nStarts above the origin, at a positive $y$-intercept (Initial Fee/Flag Fall).\nRepresents an affine linear relationship (Cost = fixed fee + rate $\\times$ distance).\n3. Intersection Point: The two lines intersect at a point where the costs are equal for the corresponding distance. A vertical dashed line is drawn from the intersection point to the $x$-axis, indicating the specific distance where the cost of the two services is identical. This distance appears to be around the 10th grid line tick mark on the $x$-axis.",
+        "transcription": "Image Content (Labels and Lines)\n| Element | Label/Marking | Meaning |\n| :---: | :---: | :--- |\n| Y-axis | Κόστος διαδρομής ($\\xi$) | Cost of Route ($\\xi$) |\n| X-axis | Μήκος διαδρομής ($\\text{Km}$) | Distance of Route ($\\text{Km}$) |\n| Line (1) | (1) | The line representing one company's pricing. |\n| Line (2) | (2) | The line representing the second company's pricing. |\n| Intersection | Vertical dashed line | The distance at which the two costs are equal. |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "1.1",
+    "question": "Να χαρακτηρίσετε την παρακάτω πρόταση με (Σ) σωστό ή με (Λ) λάθος:\nΑν δυο τρίγωνα έχουν τις γωνίες τους ίσες, είναι ίσα",
+    "input": "",
+    "choices": [
+    "α. Σωστό", 
+    "β. Λάθος"
+  ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "1.2",
+    "question": "Να χαρακτηρίσετε την παρακάτω πρόταση με (Σ) σωστό ή με (Λ) λάθος:\nΑν δυο τρίγωνα έχουν τις πλευρές τους ίσες, είναι ίσα",
+    "input": "",
+    "choices": [
+    "α. Σωστό", 
+    "β. Λάθος"
+  ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "1.3",
+    "question": "Να χαρακτηρίσετε την παρακάτω πρόταση με (Σ) σωστό ή με (Λ) λάθος:\nΑν δυο τρίγωνα έχουν δυο πλευρές ίσες μία προς μία και μια γωνία ίση, τότε είναι ίσα",
+    "input": "",
+    "choices": [
+    "α. Σωστό", 
+    "β. Λάθος"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "1.4",
+    "question": "Να χαρακτηρίσετε την παρακάτω πρόταση με (Σ) σωστό ή με (Λ) λάθος:\nΑν δυο τρίγωνα έχουν δυο γωνίες ίσες μια προς μια, τότε θα έχουν και την τρίτη τους γωνία ίση",
+    "input": "",
+    "choices": [
+    "α. Σωστό", 
+    "β. Λάθος"
+  ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "1.5",
+    "question": "Να χαρακτηρίσετε την παρακάτω πρόταση με (Σ) σωστό ή με (Λ) λάθος:\nΣε όλα τα τρίγωνα απέναντι από ίσες πλευρές βρίσκονται ίσες γωνίες",
+    "input": "",
+    "choices": [
+    "α. Σωστό", 
+    "β. Λάθος"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "1.6",
+    "question": "Να χαρακτηρίσετε την παρακάτω πρόταση με (Σ) σωστό ή με (Λ) λάθος:\nΑν δυο τρίγωνα έχουν μια πλευρά ίση και δύο αντίστοιχες γωνίες ίσες, μια προς μία, τότε είναι ίσα.",
+    "input": "",
+    "choices": [
+    "α. Σωστό", 
+    "β. Λάθος"
+  ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "2",
+    "question": "Στο διπλανό σχήμα η ΑΓ είναι διάμετρος στον κύκλο και οι χορδές ΑΒ, ΑΔ είναι ίσες. Να δείξετε ότι $B\\Gamma=\\lceil\\delta$",
+    "input": "The image shows a circle with its center labeled $\text{O}$.\n1.  Vertices: Four points ($\text{A}$, $\text{B}$, $\\Gamma$, $\\delta$) lie on the circumference of the circle, forming an inscribed quadrilateral.\n2.  Segments:\nThe segment $\text{A}\\Gamma$ passes through the center $\text{O}$, indicating it is a diameter.\nThe chords $\text{A}\text{B}$ and $\text{A}\\delta$ are drawn.\nThe chords $\text{B}\\Gamma$ and $\\Gamma\\delta$ are also drawn (dashed lines).\n3.  Visual Representation: The diagram illustrates the geometric setup required to prove the equality of chords $\text{B}\\Gamma$ and $\\Gamma\\delta$ based on the given information.",
+    "choices": [],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_8/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_1_ΕΙΚΟΝΑ_8.png",
+        "description": "The image shows a circle with its center labeled $\text{O}$.\n1.  Vertices: Four points ($\text{A}$, $\text{B}$, $\\Gamma$, $\\delta$) lie on the circumference of the circle, forming an inscribed quadrilateral.\n2.  Segments:\nThe segment $\text{A}\\Gamma$ passes through the center $\text{O}$, indicating it is a diameter.\nThe chords $\text{A}\text{B}$ and $\text{A}\\delta$ are drawn.\nThe chords $\text{B}\\Gamma$ and $\\Gamma\\delta$ are also drawn (dashed lines).\n3.  Visual Representation: The diagram illustrates the geometric setup required to prove the equality of chords $\text{B}\\Gamma$ and $\\Gamma\\delta$ based on the given information.",
+        "transcription": "Image Content (Labels and Elements)\n| Element | Label | Property/Role |\n| :---: | :---: | :--- |\n| Center | $\text{O}$ | Center of the circle. |\n| Vertices | $\text{A}, \text{B}, \\Gamma, \\delta$ | Points on the circle (vertices of the inscribed quadrilateral). |\n| Segment $\text{A}\\Gamma$ | (Line passing through $\text{O}$) | Diameter of the circle. |\n| Chords $\text{A}\text{B}, \text{A}\\delta$ | (Solid lines) | Given as equal chords. |\n| Chords $\text{B}\\Gamma, \\Gamma\\delta$ | (Dashed lines) | Chords to be proven equal. |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "3.1",
+    "question": "Δίνονται οι παραστάσεις: $A=\\chi^{3}-2\\chi^{2}-\\chi+2$ και $B=3\\chi^{2}-6\\chi$\nΝα γίνουν γινόμενο πρώτων παραγόντων οι παραστάσεις Α και Β.",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "3.2",
+    "question": "Δίνονται οι παραστάσεις: $A=\\chi^{3}-2\\chi^{2}-\\chi+2$ και $B=3\\chi^{2}-6\\chi$\nΝα βρείτε για ποιες τιμές της μεταβλητής $\\chi$ έχει νόημα η παράσταση $\\frac{A}{B}$",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "3.3",
+    "question": "Δίνονται οι παραστάσεις: $A=\\chi^{3}-2\\chi^{2}-\\chi+2$ και $B=3\\chi^{2}-6\\chi$\nΝα λυθεί η εξίσωση $\\frac{A}{B}=\\frac{\\chi+1}{6}$",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "4.1",
+    "question": "Δύο μηχανικοί σχεδιάζουν την κατασκευή ενός υπογείου σταθμού METRO στη συμβολή των οδών Συγγρού και Λαγουμιτζή.\nΑν η ευθεία που αναπαριστά την οδό Συγγρού είναι η $y=x$ και η ευθεία που αναπαριστά την οδό Λαγουμιτζή είναι η $y=-x+13$ στο ορθοκανονικό σύστημα συντεταγμένων του σχήματος, να απαντήσετε την παρακάτω ερώτηση:\nΠοιες οι συντεταγμένες $\\chi$, $\\gamma$ του σημείου τομής Β των δυο οδών στον χάρτη;",
+    "input": "The image consists of three main elements:\n1. Background Map: A stylized map of a city area (likely Neos Kosmos in Athens, given the labels) showing street layouts.\n2. Coordinate System: A grid is placed over the map, defined by a horizontal axis labeled$\\text{X}'\\text{X}$ and a vertical axis labeled$\\text{Y}'\\text{Y}$. The origin appears to be at a point labeled$\\text{A}$ near the bottom left corner. Both axes have numbered tick marks.\n3. Two Lines: Two distinctred lines are drawn across the map and the coordinate system, representing the streets in the exercise.\nOne line passes through the origin/point $\\text{A}$ with a positive slope (likely $y=x$).\nThe second line has a negative slope (likely $y=-x+13$).\n4. Intersection: The two red lines intersect at a specific point on the map, which is labeled$\\text{B}$. This point is visibly close to the coordinates $(6.5, 6.5)$ on the grid, and is in the area labeled \"Νέος Κόσμος\" (Neos Kosmos).",
+    "choices": [],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_9/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_3_ΕΙΚΟΝΑ_9.png",
+        "description": "The image consists of three main elements:\n1. Background Map: A stylized map of a city area (likely Neos Kosmos in Athens, given the labels) showing street layouts.\n2. Coordinate System: A grid is placed over the map, defined by a horizontal axis labeled$\\text{X}'\\text{X}$ and a vertical axis labeled$\\text{Y}'\\text{Y}$. The origin appears to be at a point labeled$\\text{A}$ near the bottom left corner. Both axes have numbered tick marks.\n3. Two Lines: Two distinctred lines are drawn across the map and the coordinate system, representing the streets in the exercise.\nOne line passes through the origin/point $\\text{A}$ with a positive slope (likely $y=x$).\nThe second line has a negative slope (likely $y=-x+13$).\n4. Intersection: The two red lines intersect at a specific point on the map, which is labeled$\\text{B}$. This point is visibly close to the coordinates $(6.5, 6.5)$ on the grid, and is in the area labeled \"Νέος Κόσμος\" (Neos Kosmos).",
+        "transcription": "Image Content (Labels and Lines)\\n| Element | Label/Marking | Property/Role |\\n| :---: | :---: | :--- |\\n|Horizontal Axis | $\\text{X}'\\text{X}$ | The $x$-axis (Distance/Coordinate). |\\n|Vertical Axis | $\\text{Y}'\\text{Y}$ | The $y$-axis (Distance/Coordinate). |\\n|Origin/Point | $\\text{A}$ | Apparent origin of the coordinate system. |\\n|Intersection Point | $\\text{B}$ | The point where the two red lines (streets) intersect. |\\n|Lines | Two intersecting red lines | Representing the two streets: Syggrou and Lagoumitzi. |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "4.2",
+    "question": "Δύο μηχανικοί σχεδιάζουν την κατασκευή ενός υπογείου σταθμού METRO στη συμβολή των οδών Συγγρού και Λαγουμιτζή.\nΑν η ευθεία που αναπαριστά την οδό Συγγρού είναι η $y=x$ και η ευθεία που αναπαριστά την οδό Λαγουμιτζή είναι η $y=-x+13$ στο ορθοκανονικό σύστημα συντεταγμένων του σχήματος, να απαντήσετε την παρακάτω ερώτηση:\nΝα βρείτε τις συντεταγμένες του σημείου τομής της οδού Λαγουμιτζή με τον $\\chi^{\\prime}\\chi$ άξονα, καθώς και με τον $\\gamma^{\\prime}\\gamma$ άξονα.",
+    "input": "The image consists of three main elements:\n1. Background Map: A stylized map of a city area (likely Neos Kosmos in Athens, given the labels) showing street layouts.\n2. Coordinate System: A grid is placed over the map, defined by a horizontal axis labeled$\\text{X}'\\text{X}$ and a vertical axis labeled$\\text{Y}'\\text{Y}$. The origin appears to be at a point labeled$\\text{A}$ near the bottom left corner. Both axes have numbered tick marks.\n3. Two Lines: Two distinctred lines are drawn across the map and the coordinate system, representing the streets in the exercise.\nOne line passes through the origin/point $\\text{A}$ with a positive slope (likely $y=x$).\nThe second line has a negative slope (likely $y=-x+13$).\n4. Intersection: The two red lines intersect at a specific point on the map, which is labeled$\\text{B}$. This point is visibly close to the coordinates $(6.5, 6.5)$ on the grid, and is in the area labeled \"Νέος Κόσμος\" (Neos Kosmos).",
+    "choices": [],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_9/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_3_ΕΙΚΟΝΑ_9.png",
+        "description": "The image consists of three main elements:\n1. Background Map: A stylized map of a city area (likely Neos Kosmos in Athens, given the labels) showing street layouts.\n2. Coordinate System: A grid is placed over the map, defined by a horizontal axis labeled$\\text{X}'\\text{X}$ and a vertical axis labeled$\\text{Y}'\\text{Y}$. The origin appears to be at a point labeled$\\text{A}$ near the bottom left corner. Both axes have numbered tick marks.\n3. Two Lines: Two distinctred lines are drawn across the map and the coordinate system, representing the streets in the exercise.\nOne line passes through the origin/point $\\text{A}$ with a positive slope (likely $y=x$).\nThe second line has a negative slope (likely $y=-x+13$).\n4. Intersection: The two red lines intersect at a specific point on the map, which is labeled$\\text{B}$. This point is visibly close to the coordinates $(6.5, 6.5)$ on the grid, and is in the area labeled \"Νέος Κόσμος\" (Neos Kosmos).",
+        "transcription": "Image Content (Labels and Lines)\\n| Element | Label/Marking | Property/Role |\\n| :---: | :---: | :--- |\\n|Horizontal Axis | $\\text{X}'\\text{X}$ | The $x$-axis (Distance/Coordinate). |\\n|Vertical Axis | $\\text{Y}'\\text{Y}$ | The $y$-axis (Distance/Coordinate). |\\n|Origin/Point | $\\text{A}$ | Apparent origin of the coordinate system. |\\n|Intersection Point | $\\text{B}$ | The point where the two red lines (streets) intersect. |\\n|Lines | Two intersecting red lines | Representing the two streets: Syggrou and Lagoumitzi. |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "5",
+    "question": "Εάν κάποιος έχει εισόδημα 100.000 ευρώ, τι ποσοστό του εισοδήματος του θα πληρώσει σαν φόρο στο κράτος, αν η φορολογική κλίμακα είναι η παρακάτω: 15% για τα πρώτα 30.000 ευρώ του εισοδήματός του, 28% για τα επόμενα 30.000 ευρώ και 31% για τα πάνω από τα 60.000 ευρώ.",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "1",
+    "question": "Αφού λάβετε υπόψη σας τα δεδομένα στα παρακάτω σχήματα, να υπολογίσετε τις γωνίες: $\\alpha, \\beta, \\gamma$.",
+    "input": "The image displays two separate geometric figures used in a problem to calculate unknown angles $\\alpha$, $\beta$, and $\\gamma$.\n1. Figure for $\\alpha$ and $\beta$ (Left)\nDescription\nThis figure shows two triangles joined at vertex $\\Gamma$.\nTop Triangle ($\triangle \text{A}\text{B}\\Gamma$): It is a right-angled triangle at $\text{B}$. The tick marks indicate that the sides $\text{A}\text{B}$ and $\text{B}\\Gamma$ are equal ($\text{A}\text{B} = \text{B}\\Gamma$), meaning it is an isosceles right-angled triangle.\nBottom Triangle: One of its angles is given as $65^\\circ$.\nAngles: $\\alpha$ is shown as vertically opposite to the interior angle $\\angle \text{A}\\Gamma\text{B}$.\n2. Figure for $\\gamma$ (Right)\nDescription\nThis figure shows a quadrilateral $\text{A}\text{B}\\Gamma\\delta$ with a triangle $\\delta\\Gamma\text{E}$ attached to side $\\delta\\Gamma$.\nGiven: The double tick marks indicate that all sides are equal: $\text{A}\text{B} = \text{B}\\Gamma = \\Gamma\\delta = \\delta\text{A} = \\delta\text{E} = \text{E}\\Gamma$.\nProperties:\nThe quadrilateral $\text{A}\text{B}\\Gamma\\delta$ is a square. Therefore, $\\angle \text{B}\\Gamma\\delta = 90^\\circ$.\nThe triangle $\\delta\\Gamma\text{E}$ is an equilateral triangle. Therefore, $\\angle \\delta\\Gamma\text{E} = 60^\\circ$.\nUnknown Angle: $\\gamma$ is the angle $\\angle \text{B}\\Gamma\text{E}$, which is the sum of the adjacent angles $\\angle \text{B}\\Gamma\\delta$ and $\\angle \\delta\\Gamma\text{E}$.",
+    "choices": [],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_10/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_1_ΕΙΚΟΝΑ_10.png",
+        "description": "The image displays two separate geometric figures used in a problem to calculate unknown angles $\\alpha$, $\beta$, and $\\gamma$.\n1. Figure for $\\alpha$ and $\beta$ (Left)\nDescription\nThis figure shows two triangles joined at vertex $\\Gamma$.\nTop Triangle ($\triangle \text{A}\text{B}\\Gamma$): It is a right-angled triangle at $\text{B}$. The tick marks indicate that the sides $\text{A}\text{B}$ and $\text{B}\\Gamma$ are equal ($\text{A}\text{B} = \text{B}\\Gamma$), meaning it is an isosceles right-angled triangle.\nBottom Triangle: One of its angles is given as $65^\\circ$.\nAngles: $\\alpha$ is shown as vertically opposite to the interior angle $\\angle \text{A}\\Gamma\text{B}$.\n2. Figure for $\\gamma$ (Right)\nDescription\nThis figure shows a quadrilateral $\text{A}\text{B}\\Gamma\\delta$ with a triangle $\\delta\\Gamma\text{E}$ attached to side $\\delta\\Gamma$.\nGiven: The double tick marks indicate that all sides are equal: $\text{A}\text{B} = \text{B}\\Gamma = \\Gamma\\delta = \\delta\text{A} = \\delta\text{E} = \text{E}\\Gamma$.\nProperties:\nThe quadrilateral $\text{A}\text{B}\\Gamma\\delta$ is a square. Therefore, $\\angle \text{B}\\Gamma\\delta = 90^\\circ$.\nThe triangle $\\delta\\Gamma\text{E}$ is an equilateral triangle. Therefore, $\\angle \\delta\\Gamma\text{E} = 60^\\circ$.\nUnknown Angle: $\\gamma$ is the angle $\\angle \text{B}\\Gamma\text{E}$, which is the sum of the adjacent angles $\\angle \text{B}\\Gamma\\delta$ and $\\angle \\delta\\Gamma\text{E}$.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "2.1",
+    "question": "Να παραγοντοποιηθούν τα τριώνυμα: $x^{2}-3x+2$ και $x^{2}+x-2$.",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "2.2",
+    "question": "Να βρείτε τις τιμές της μεταβλητής $\\chi$ για τις οποίες δεν ορίζεται η εξίσωση:\n $\\frac{2x}{x^{2}-3x+2}=\\frac{1}{x-2}-\\frac{2}{x^{2}+x-2}.$",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "2.3",
+    "question": "Να λυθεί η παραπάνω εξίσωση:\n $\\frac{2x}{x^{2}-3x+2}=\\frac{1}{x-2}-\\frac{2}{x^{2}+x-2}.$",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "3.1",
+    "question": "Στο διπλανό διάγραμμα φαίνεται ο αριθμός των βιβλίων που διαβάστηκαν από τους μαθητές μιας συγκεκριμένης τάξης\nΠόσους μαθητές έχει η τάξη;",
+    "input": "The bar chart provides data on the reading habits of students:\n1. Horizontal Axis ($\\text{X}$-axis): Labeled $\\text{Αριθμός Βιβλίων}$ (Number of Books), ranging from 1 to 6.\n2. Vertical Axis ($\\text{Y}$-axis): Labeled $\\text{Αριθμός Μαθητών}$ (Number of Students), with a scale from 0 to 8.\n3. Data Points (Number of Students who read $x$ books):\n1 book: 1 student\n2 books: 3 students\n3 books: 5 students\n4 books: 7 students\n5 books: 4 students\n6 books: 4 students",
+    "choices": [],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_11/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_3_ΕΙΚΟΝΑ_11.png",
+        "description": "The bar chart provides data on the reading habits of students:\n1. Horizontal Axis ($\\text{X}$-axis): Labeled $\\text{Αριθμός Βιβλίων}$ (Number of Books), ranging from 1 to 6.\n2. Vertical Axis ($\\text{Y}$-axis): Labeled $\\text{Αριθμός Μαθητών}$ (Number of Students), with a scale from 0 to 8.\n3. Data Points (Number of Students who read $x$ books):\n1 book: 1 student\n2 books: 3 students\n3 books: 5 students\n4 books: 7 students\n5 books: 4 students\n6 books: 4 students",
+        "transcription": "Image Content (Data Table Derived from Chart)\n| Number of Books ($x_i$) | Number of Students ($f_i$) |\n| :---: | :---: |\n| 1 | 1 |\n| 2 | 3 |\n| 3 | 5 |\n| 4 | 7 |\n| 5 | 4 |\n| 6 | 4 |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "3.2",
+    "question": "Στο διπλανό διάγραμμα φαίνεται ο αριθμός των βιβλίων που διαβάστηκαν από τους μαθητές μιας συγκεκριμένης τάξης\nΠόσα βιβλία διάβασαν όλοι οι μαθητές;",
+    "input": "The bar chart provides data on the reading habits of students:\n1. Horizontal Axis ($\\text{X}$-axis): Labeled $\\text{Αριθμός Βιβλίων}$ (Number of Books), ranging from 1 to 6.\n2. Vertical Axis ($\\text{Y}$-axis): Labeled $\\text{Αριθμός Μαθητών}$ (Number of Students), with a scale from 0 to 8.\n3. Data Points (Number of Students who read $x$ books):\n1 book: 1 student\n2 books: 3 students\n3 books: 5 students\n4 books: 7 students\n5 books: 4 students\n6 books: 4 students",
+    "choices": [],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_11/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_3_ΕΙΚΟΝΑ_11.png",
+        "description": "The bar chart provides data on the reading habits of students:\n1. Horizontal Axis ($\\text{X}$-axis): Labeled $\\text{Αριθμός Βιβλίων}$ (Number of Books), ranging from 1 to 6.\n2. Vertical Axis ($\\text{Y}$-axis): Labeled $\\text{Αριθμός Μαθητών}$ (Number of Students), with a scale from 0 to 8.\n3. Data Points (Number of Students who read $x$ books):\n1 book: 1 student\n2 books: 3 students\n3 books: 5 students\n4 books: 7 students\n5 books: 4 students\n6 books: 4 students",
+        "transcription": "Image Content (Data Table Derived from Chart)\n| Number of Books ($x_i$) | Number of Students ($f_i$) |\n| :---: | :---: |\n| 1 | 1 |\n| 2 | 3 |\n| 3 | 5 |\n| 4 | 7 |\n| 5 | 4 |\n| 6 | 4 |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "3.3",
+    "question": "Στο διπλανό διάγραμμα φαίνεται ο αριθμός των βιβλίων που διαβάστηκαν από τους μαθητές μιας συγκεκριμένης τάξης\nΝα βρείτε τον μέσο όρο των βιβλίων που διαβάστηκαν από κάθε μαθητή της τάξης αυτής.",
+    "input": "The bar chart provides data on the reading habits of students:\n1. Horizontal Axis ($\\text{X}$-axis): Labeled $\\text{Αριθμός Βιβλίων}$ (Number of Books), ranging from 1 to 6.\n2. Vertical Axis ($\\text{Y}$-axis): Labeled $\\text{Αριθμός Μαθητών}$ (Number of Students), with a scale from 0 to 8.\n3. Data Points (Number of Students who read $x$ books):\n1 book: 1 student\n2 books: 3 students\n3 books: 5 students\n4 books: 7 students\n5 books: 4 students\n6 books: 4 students",
+    "choices": [],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_11/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_3_ΕΙΚΟΝΑ_11.png",
+        "description": "The bar chart provides data on the reading habits of students:\n1. Horizontal Axis ($\\text{X}$-axis): Labeled $\\text{Αριθμός Βιβλίων}$ (Number of Books), ranging from 1 to 6.\n2. Vertical Axis ($\\text{Y}$-axis): Labeled $\\text{Αριθμός Μαθητών}$ (Number of Students), with a scale from 0 to 8.\n3. Data Points (Number of Students who read $x$ books):\n1 book: 1 student\n2 books: 3 students\n3 books: 5 students\n4 books: 7 students\n5 books: 4 students\n6 books: 4 students",
+        "transcription": "Image Content (Data Table Derived from Chart)\n| Number of Books ($x_i$) | Number of Students ($f_i$) |\n| :---: | :---: |\n| 1 | 1 |\n| 2 | 3 |\n| 3 | 5 |\n| 4 | 7 |\n| 5 | 4 |\n| 6 | 4 |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "3.4",
+    "question": "Στο διπλανό διάγραμμα φαίνεται ο αριθμός των βιβλίων που διαβάστηκαν από τους μαθητές μιας συγκεκριμένης τάξης\nΣτο τέλος του χρόνου θα υπάρξει ένα λαχείο. Ο νικητής θα πάρει 15€ για κάθε βιβλίο που είχε\nδιαβάσει. Να βρείτε την πιθανότητα το βραβείο να μην ξεπεράσει τα 45€.",
+    "input": "The bar chart provides data on the reading habits of students:\n1. Horizontal Axis ($\\text{X}$-axis): Labeled $\\text{Αριθμός Βιβλίων}$ (Number of Books), ranging from 1 to 6.\n2. Vertical Axis ($\\text{Y}$-axis): Labeled $\\text{Αριθμός Μαθητών}$ (Number of Students), with a scale from 0 to 8.\n3. Data Points (Number of Students who read $x$ books):\n1 book: 1 student\n2 books: 3 students\n3 books: 5 students\n4 books: 7 students\n5 books: 4 students\n6 books: 4 students",
+    "choices": [],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_11/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_3_ΕΙΚΟΝΑ_11.png",
+        "description": "The bar chart provides data on the reading habits of students:\n1. Horizontal Axis ($\\text{X}$-axis): Labeled $\\text{Αριθμός Βιβλίων}$ (Number of Books), ranging from 1 to 6.\n2. Vertical Axis ($\\text{Y}$-axis): Labeled $\\text{Αριθμός Μαθητών}$ (Number of Students), with a scale from 0 to 8.\n3. Data Points (Number of Students who read $x$ books):\n1 book: 1 student\n2 books: 3 students\n3 books: 5 students\n4 books: 7 students\n5 books: 4 students\n6 books: 4 students",
+        "transcription": "Image Content (Data Table Derived from Chart)\n| Number of Books ($x_i$) | Number of Students ($f_i$) |\n| :---: | :---: |\n| 1 | 1 |\n| 2 | 3 |\n| 3 | 5 |\n| 4 | 7 |\n| 5 | 4 |\n| 6 | 4 |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "4.1",
+    "question": "Δίνεται η δευτεροβάθμια εξίσωση $x^{2} + 3x + 4\\Sigma uv^{2}\\omega = 0$ με $0^{\\circ} < \\omega < 180^{\\circ}$.\n\\Αν η μία λύση της εξίσωση είναι ο αριθμός $-2$, να βρεθεί η γωνία/οι γωνίες $\\omega$ και η άλλη λύση της εξίσωσης.",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "4.2",
+    "question": "Δίνεται η δευτεροβάθμια εξίσωση $x^{2} + 3x + 4\\Sigma uv^{2}\\omega = 0$ με $0^{\\circ} < \\omega < 180^{\\circ}$.\nΑν η εξίσωση έχει μία διπλή ρίζα, να βρεθούν οι άλλοι τριγωνομετρικοί αριθμοί της γωνίας $\\omega$.",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "1.1",
+    "question": "Να υπολογίσετε την τιμή της παρακάτω παράστασης (να δώσετε το αποτέλεσμα στην πιο απλή μορφή του):\n$$A=-\\frac{5}{7}+\\frac{2}{7}\\cdot(2-\\frac{1}{2})$$",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "1.2",
+    "question": "Να υπολογίσετε την τιμή της παρακάτω παράστασης (να δώσετε το αποτέλεσμα στην πιο απλή μορφή του):\n$$B=(\\Sqrt{5}+2)(\\Sqrt{5}-2)$$",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "1.3",
+    "question": "Να υπολογίσετε την τιμή της παρακάτω παράστασης (να δώσετε το αποτέλεσμα στην πιο απλή μορφή του):\n$$\\Gamma=\\Sqrt{200}-3\\Sqrt{2}-4\\Sqrt{18}$$",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "2",
+    "question": "Να παραγοντοποιήσετε την παράσταση $A=(x-3)(x+7)-(2x-7)(x-3)$",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "3",
+    "question": "Να λύσετε την εξίσωση $(x-3)(-x+14)=0$",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "4.1",
+    "question": "Η συνάρτηση $y=\\alpha x^{2}+\\beta x+6$ τέμνει τον άξονα χ΄χ στα σημεία $A(-1,0)$ και $B(3,0)$.\nΝα βρείτε τις τιμές των $\\alpha$ και $\\beta$.",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "4.2",
+    "question": "Η συνάρτηση $y=\\alpha x^{2}+\\beta x+6$ τέμνει τον άξονα χ΄χ στα σημεία $A(-1,0)$ και $B(3,0)$.\nΝα εξετάσετε αν η συνάρτηση παίρνει μέγιστη ή ελάχιστη τιμή, την οποία και να βρείτε.",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "4.3",
+    "question": "Η συνάρτηση $y=\\alpha x^{2}+\\beta x+6$ τέμνει τον άξονα χ΄χ στα σημεία $A(-1,0)$ και $B(3,0)$.\nΝα βρείτε τον άξονα συμμετρίας της γραφικής παράστασης της συνάρτησης.",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "5.1",
+    "question": "Σε ισοσκελές τρίγωνο $\\text{AB}\\Gamma$ $(\\text{AB}=\\text{A}\\Gamma)$ φέρνουμε τις διαμέσους $\\text{B}\\delta$ και $\\Gamma\\text{E}$ οι οποίες τέμνονται στο σημείο $\\text{K}$. Να αποδείξετε ότι το τρίγωνο $\\text{B}\\Gamma\\text{K}$ είναι ισοσκελές. ",
+    "input": "Triangle: The figure depicts a triangle $\\text{A}\\text{B}\\Gamma$.\nMedians: Two line segments, $\\text{B}\\delta$ and $\\Gamma\\text{E}$, are drawn inside the triangle, representing the medians originating from vertices $\\text{B}$ and $\\Gamma$.\n$\\text{B}\\delta$ connects vertex $\\text{B}$ to point $\\delta$ on side $\\text{A}\\Gamma$. Point $\\delta$ is the midpoint of $\\text{A}\\Gamma$.\n$\\Gamma\\text{E}$ connects vertex $\\Gamma$ to point $\\text{E}$ on side $\\text{A}\\text{B}$. Point $\\text{E}$ is the midpoint of $\\text{A}\\text{B}$.\nIntersection: The two medians $\\text{B}\\delta$ and $\\Gamma\\text{E}$ intersect at point $\\text{K}$. Point $\\text{K}$ is the centroid of the triangle.",
+    "choices": [],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_12/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_3_ΕΙΚΟΝΑ_12.png",
+        "description": "Triangle: The figure depicts a triangle $\\text{A}\\text{B}\\Gamma$.\nMedians: Two line segments, $\\text{B}\\delta$ and $\\Gamma\\text{E}$, are drawn inside the triangle, representing the medians originating from vertices $\\text{B}$ and $\\Gamma$.\n$\\text{B}\\delta$ connects vertex $\\text{B}$ to point $\\delta$ on side $\\text{A}\\Gamma$. Point $\\delta$ is the midpoint of $\\text{A}\\Gamma$.\n$\\Gamma\\text{E}$ connects vertex $\\Gamma$ to point $\\text{E}$ on side $\\text{A}\\text{B}$. Point $\\text{E}$ is the midpoint of $\\text{A}\\text{B}$.\nIntersection: The two medians $\\text{B}\\delta$ and $\\Gamma\\text{E}$ intersect at point $\\text{K}$. Point $\\text{K}$ is the centroid of the triangle.",
+        "transcription": "Image Content (Geometric Elements)\\n| Element | Notation | Role/Property |\\n| :---: | :---: | :--- |\\n| Triangle Vertices | $\\text{A}$, $\\text{B}$, $\\Gamma$ | Vertices of the isosceles triangle. |\\n| Medians | $\\text{B}\\delta$, $\\Gamma\\text{E}$ | Medians drawn from $\\text{B}$ and $\\Gamma$. |\\n| Midpoints | $\\text{E}$, $\\delta$ | $\\text{E}$ is the midpoint of $\\text{A}\\text{B}$; $\\delta$ is the midpoint of $\\text{A}\\Gamma$. |\\n| Intersection | $\\text{K}$ | The point of intersection (Centroid). |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "5.2",
+    "question": "Σε ισοσκελές τρίγωνο $\\text{AB}\\Gamma$ $(\\text{AB}=\\text{A}\\Gamma)$ φέρνουμε τις διαμέσους $\\text{B}\\delta$ και $\\Gamma\\text{E}$ οι οποίες τέμνονται στο σημείο $\\text{K}$. Να αποδείξετε ότι η $\\text{A}\\text{K}$ είναι μεσοκάθετος της $\\text{B}\\Gamma$. ",
+    "input": "Triangle: The figure depicts a triangle $\\text{A}\\text{B}\\Gamma$.\nMedians: Two line segments, $\\text{B}\\delta$ and $\\Gamma\\text{E}$, are drawn inside the triangle, representing the medians originating from vertices $\\text{B}$ and $\\Gamma$.\n$\\text{B}\\delta$ connects vertex $\\text{B}$ to point $\\delta$ on side $\\text{A}\\Gamma$. Point $\\delta$ is the midpoint of $\\text{A}\\Gamma$.\n$\\Gamma\\text{E}$ connects vertex $\\Gamma$ to point $\\text{E}$ on side $\\text{A}\\text{B}$. Point $\\text{E}$ is the midpoint of $\\text{A}\\text{B}$.\nIntersection: The two medians $\\text{B}\\delta$ and $\\Gamma\\text{E}$ intersect at point $\\text{K}$. Point $\\text{K}$ is the centroid of the triangle.",
+    "choices": [],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_12/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_3_ΕΙΚΟΝΑ_12.png",
+        "description": "Triangle: The figure depicts a triangle $\\text{A}\\text{B}\\Gamma$.\nMedians: Two line segments, $\\text{B}\\delta$ and $\\Gamma\\text{E}$, are drawn inside the triangle, representing the medians originating from vertices $\\text{B}$ and $\\Gamma$.\n$\\text{B}\\delta$ connects vertex $\\text{B}$ to point $\\delta$ on side $\\text{A}\\Gamma$. Point $\\delta$ is the midpoint of $\\text{A}\\Gamma$.\n$\\Gamma\\text{E}$ connects vertex $\\Gamma$ to point $\\text{E}$ on side $\\text{A}\\text{B}$. Point $\\text{E}$ is the midpoint of $\\text{A}\\text{B}$.\nIntersection: The two medians $\\text{B}\\delta$ and $\\Gamma\\text{E}$ intersect at point $\\text{K}$. Point $\\text{K}$ is the centroid of the triangle.",
+        "transcription": "Image Content (Geometric Elements)\\n| Element | Notation | Role/Property |\\n| :---: | :---: | :--- |\\n| Triangle Vertices | $\\text{A}$, $\\text{B}$, $\\Gamma$ | Vertices of the isosceles triangle. |\\n| Medians | $\\text{B}\\delta$, $\\Gamma\\text{E}$ | Medians drawn from $\\text{B}$ and $\\Gamma$. |\\n| Midpoints | $\\text{E}$, $\\delta$ | $\\text{E}$ is the midpoint of $\\text{A}\\text{B}$; $\\delta$ is the midpoint of $\\text{A}\\Gamma$. |\\n| Intersection | $\\text{K}$ | The point of intersection (Centroid). |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "5.3",
+    "question": "Σε ισοσκελές τρίγωνο $\\text{AB}\\Gamma$ $(\\text{AB}=\\text{A}\\Gamma)$ φέρνουμε τις διαμέσους $\\text{B}\\delta$ και $\\Gamma\\text{E}$ οι οποίες τέμνονται στο σημείο $\\text{K}$. Να αποδείξετε ότι $\\text{K}\\text{E}=\\text{K}\\delta$. ",
+    "input": "Triangle: The figure depicts a triangle $\\text{A}\\text{B}\\Gamma$.\nMedians: Two line segments, $\\text{B}\\delta$ and $\\Gamma\\text{E}$, are drawn inside the triangle, representing the medians originating from vertices $\\text{B}$ and $\\Gamma$.\n$\\text{B}\\delta$ connects vertex $\\text{B}$ to point $\\delta$ on side $\\text{A}\\Gamma$. Point $\\delta$ is the midpoint of $\\text{A}\\Gamma$.\n$\\Gamma\\text{E}$ connects vertex $\\Gamma$ to point $\\text{E}$ on side $\\text{A}\\text{B}$. Point $\\text{E}$ is the midpoint of $\\text{A}\\text{B}$.\nIntersection: The two medians $\\text{B}\\delta$ and $\\Gamma\\text{E}$ intersect at point $\\text{K}$. Point $\\text{K}$ is the centroid of the triangle.",
+    "choices": [],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_12/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_3_ΕΙΚΟΝΑ_12.png",
+        "description": "Triangle: The figure depicts a triangle $\\text{A}\\text{B}\\Gamma$.\nMedians: Two line segments, $\\text{B}\\delta$ and $\\Gamma\\text{E}$, are drawn inside the triangle, representing the medians originating from vertices $\\text{B}$ and $\\Gamma$.\n$\\text{B}\\delta$ connects vertex $\\text{B}$ to point $\\delta$ on side $\\text{A}\\Gamma$. Point $\\delta$ is the midpoint of $\\text{A}\\Gamma$.\n$\\Gamma\\text{E}$ connects vertex $\\Gamma$ to point $\\text{E}$ on side $\\text{A}\\text{B}$. Point $\\text{E}$ is the midpoint of $\\text{A}\\text{B}$.\nIntersection: The two medians $\\text{B}\\delta$ and $\\Gamma\\text{E}$ intersect at point $\\text{K}$. Point $\\text{K}$ is the centroid of the triangle.",
+        "transcription": "Image Content (Geometric Elements)\\n| Element | Notation | Role/Property |\\n| :---: | :---: | :--- |\\n| Triangle Vertices | $\\text{A}$, $\\text{B}$, $\\Gamma$ | Vertices of the isosceles triangle. |\\n| Medians | $\\text{B}\\delta$, $\\Gamma\\text{E}$ | Medians drawn from $\\text{B}$ and $\\Gamma$. |\\n| Midpoints | $\\text{E}$, $\\delta$ | $\\text{E}$ is the midpoint of $\\text{A}\\text{B}$; $\\delta$ is the midpoint of $\\text{A}\\Gamma$. |\\n| Intersection | $\\text{K}$ | The point of intersection (Centroid). |"
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "6.1",
+    "question": "Στο συγκοινωνιακό κόμβο του σχήματος η απόσταση του σημείου $\\text{O}$ από το σημείο $\\text{A}$ του δρόμου είναι ίση με $\\rho$ και η απόσταση του σημείου $\\text{O}$ από το σημείο $\\text{B}$ είναι ίση με $\\text{R}$.\nΑν το τμήμα $\\text{A}\\text{B}$ είναι εφαπτόμενο του κύκλου με κέντρο το $\\text{O}$ και ακτίνα την $\\text{o}\\\text{A}$, να εξετάσετε το είδος του τριγώνου $\\text{o}\\\text{A}\\text{B}$.",
+    "input": "Context: The image shows a road with cars (represented as small black triangles) on a curve, next to an ornamental median or park.\nGeometric Elements:\nCenter of the Curve ($\\text{O}$): A point $\\text{O}$ is marked as the center of the circular arc (or curves) that define the road's edge.\nPoints on the Road ($\\text{A}, \\text{B}$): Points $\\text{A}$ and $\\text{B}$ are marked on the edge of the road or an adjacent line.\nRadius $R$: The line segment connecting $\\text{O}$ to $\\text{B}$ is labeled $R$. This represents the outer radius of the curve.\nDistance $\\rho$ (rho): The line segment connecting $\\text{O}$ to $\\text{A}$ is labeled $\\rho$. This represents the inner radius of the curve.\nVertical Distance $X$: The distance between point $\\text{A}$ and point $\\text{B}$ along the straight line connecting $\\text{A}$ and $\\text{B}$ is labeled $X$. [Image of Circular arc with center O, radii R and rho, and chord X]\nRight Angle: The lines segment $\\text{o}\\text{A}$ and the line segment connecting $\\text{A}$ and $\\text{B}$ appear to form a right angle, suggesting $\\text{o}\\text{A}$ is perpendicular to the line passing through $\\text{A}$ and $\\text{B}$. This forms a right-angled triangle $\\triangle \\text{o}\\text{A}\\text{B}$.",
+    "choices": [],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_13/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_4_ΕΙΚΟΝΑ_13.png",
+        "description": "Context: The image shows a road with cars (represented as small black triangles) on a curve, next to an ornamental median or park.\nGeometric Elements:\nCenter of the Curve ($\\text{O}$): A point $\\text{O}$ is marked as the center of the circular arc (or curves) that define the road's edge.\nPoints on the Road ($\\text{A}, \\text{B}$): Points $\\text{A}$ and $\\text{B}$ are marked on the edge of the road or an adjacent line.\nRadius $R$: The line segment connecting $\\text{O}$ to $\\text{B}$ is labeled $R$. This represents the outer radius of the curve.\nDistance $\\rho$ (rho): The line segment connecting $\\text{O}$ to $\\text{A}$ is labeled $\\rho$. This represents the inner radius of the curve.\nVertical Distance $X$: The distance between point $\\text{A}$ and point $\\text{B}$ along the straight line connecting $\\text{A}$ and $\\text{B}$ is labeled $X$.\nRight Angle: The lines segment $\\text{o}\\text{A}$ and the line segment connecting $\\text{A}$ and $\\text{B}$ appear to form a right angle, suggesting $\\text{o}\\text{A}$ is perpendicular to the line passing through $\\text{A}$ and $\\text{B}$. This forms a right-angled triangle $\\triangle \\text{o}\\text{A}\\text{B}$.",
+        "transcription":[]
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "6.2",
+    "question": "Στο συγκοινωνιακό κόμβο του σχήματος η απόσταση του σημείου $\\text{O}$ από το σημείο $\\text{A}$ του δρόμου είναι ίση με $\\rho$ και η απόσταση του σημείου $\\text{O}$ από το σημείο $\\text{B}$ είναι ίση με $\\text{R}$.\nΝα αποδείξετε ότι η απόσταση x είναι ίση με $x^{2}=\\alpha(\\text{R}+\\rho)$ όπου $\\alpha=\\text{R}-\\rho$.",
+    "input": "Context: The image shows a road with cars (represented as small black triangles) on a curve, next to an ornamental median or park.\nGeometric Elements:\nCenter of the Curve ($\\text{O}$): A point $\\text{O}$ is marked as the center of the circular arc (or curves) that define the road's edge.\nPoints on the Road ($\\text{A}, \\text{B}$): Points $\\text{A}$ and $\\text{B}$ are marked on the edge of the road or an adjacent line.\nRadius $R$: The line segment connecting $\\text{O}$ to $\\text{B}$ is labeled $R$. This represents the outer radius of the curve.\nDistance $\\rho$ (rho): The line segment connecting $\\text{O}$ to $\\text{A}$ is labeled $\\rho$. This represents the inner radius of the curve.\nVertical Distance $X$: The distance between point $\\text{A}$ and point $\\text{B}$ along the straight line connecting $\\text{A}$ and $\\text{B}$ is labeled $X$.\nRight Angle: The lines segment $\\text{o}\\text{A}$ and the line segment connecting $\\text{A}$ and $\\text{B}$ appear to form a right angle, suggesting $\\text{o}\\text{A}$ is perpendicular to the line passing through $\\text{A}$ and $\\text{B}$. This forms a right-angled triangle $\\triangle \\text{o}\\text{A}\\text{B}$.",
+    "choices": [],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_13/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_4_ΕΙΚΟΝΑ_13.png",
+        "description": "Context: The image shows a road with cars (represented as small black triangles) on a curve, next to an ornamental median or park.\nGeometric Elements:\nCenter of the Curve ($\\text{O}$): A point $\\text{O}$ is marked as the center of the circular arc (or curves) that define the road's edge.\nPoints on the Road ($\\text{A}, \\text{B}$): Points $\\text{A}$ and $\\text{B}$ are marked on the edge of the road or an adjacent line.\nRadius $R$: The line segment connecting $\\text{O}$ to $\\text{B}$ is labeled $R$. This represents the outer radius of the curve.\nDistance $\\rho$ (rho): The line segment connecting $\\text{O}$ to $\\text{A}$ is labeled $\\rho$. This represents the inner radius of the curve.\nVertical Distance $X$: The distance between point $\\text{A}$ and point $\\text{B}$ along the straight line connecting $\\text{A}$ and $\\text{B}$ is labeled $X$.\nRight Angle: The lines segment $\\text{o}\\text{A}$ and the line segment connecting $\\text{A}$ and $\\text{B}$ appear to form a right angle, suggesting $\\text{o}\\text{A}$ is perpendicular to the line passing through $\\text{A}$ and $\\text{B}$. This forms a right-angled triangle $\\triangle \\text{o}\\text{A}\\text{B}$.",
+        "transcription":[]
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "6.3",
+    "question": "Στο συγκοινωνιακό κόμβο του σχήματος η απόσταση του σημείου $\\text{O}$ από το σημείο $\\text{A}$ του δρόμου είναι ίση με $\\rho$ και η απόσταση του σημείου $\\text{O}$ από το σημείο $\\text{B}$ είναι ίση με $\\text{R}$.\nΝα υπολογίσετε την απόσταση , αν γνωρίζετε ότι $\\text{R}=50m$ και $\\alpha=5\\text{ m}$.",
+    "input": "Context: The image shows a road with cars (represented as small black triangles) on a curve, next to an ornamental median or park.\nGeometric Elements:\nCenter of the Curve ($\\text{O}$): A point $\\text{O}$ is marked as the center of the circular arc (or curves) that define the road's edge.\nPoints on the Road ($\\text{A}, \\text{B}$): Points $\\text{A}$ and $\\text{B}$ are marked on the edge of the road or an adjacent line.\nRadius $R$: The line segment connecting $\\text{O}$ to $\\text{B}$ is labeled $R$. This represents the outer radius of the curve.\nDistance $\\rho$ (rho): The line segment connecting $\\text{O}$ to $\\text{A}$ is labeled $\\rho$. This represents the inner radius of the curve.\nVertical Distance $X$: The distance between point $\\text{A}$ and point $\\text{B}$ along the straight line connecting $\\text{A}$ and $\\text{B}$ is labeled $X$.\nRight Angle: The lines segment $\\text{o}\\text{A}$ and the line segment connecting $\\text{A}$ and $\\text{B}$ appear to form a right angle, suggesting $\\text{o}\\text{A}$ is perpendicular to the line passing through $\\text{A}$ and $\\text{B}$. This forms a right-angled triangle $\\triangle \\text{o}\\text{A}\\text{B}$.",
+    "choices": [],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2/ΕΙΚΟΝΑ_13/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_2_ΘΕΜΑ_4_ΕΙΚΟΝΑ_13.png",
+        "description": "Context: The image shows a road with cars (represented as small black triangles) on a curve, next to an ornamental median or park.\nGeometric Elements:\nCenter of the Curve ($\\text{O}$): A point $\\text{O}$ is marked as the center of the circular arc (or curves) that define the road's edge.\nPoints on the Road ($\\text{A}, \\text{B}$): Points $\\text{A}$ and $\\text{B}$ are marked on the edge of the road or an adjacent line.\nRadius $R$: The line segment connecting $\\text{O}$ to $\\text{B}$ is labeled $R$. This represents the outer radius of the curve.\nDistance $\\rho$ (rho): The line segment connecting $\\text{O}$ to $\\text{A}$ is labeled $\\rho$. This represents the inner radius of the curve.\nVertical Distance $X$: The distance between point $\\text{A}$ and point $\\text{B}$ along the straight line connecting $\\text{A}$ and $\\text{B}$ is labeled $X$.\nRight Angle: The lines segment $\\text{o}\\text{A}$ and the line segment connecting $\\text{A}$ and $\\text{B}$ appear to form a right angle, suggesting $\\text{o}\\text{A}$ is perpendicular to the line passing through $\\text{A}$ and $\\text{B}$. This forms a right-angled triangle $\\triangle \\text{o}\\text{A}\\text{B}$.",
+        "transcription":[]
+      }
+    ],
+    "mark": []
+  }
+]

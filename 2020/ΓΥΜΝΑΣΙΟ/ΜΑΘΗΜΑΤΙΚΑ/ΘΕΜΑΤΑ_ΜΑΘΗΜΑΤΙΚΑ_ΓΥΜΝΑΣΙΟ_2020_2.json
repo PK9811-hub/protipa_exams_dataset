@@ -316,7 +316,7 @@
   },
   {
     "id": "23",
-    "question": "Το διπλανό τρίγωνο ΑΒΓ είναι ορθογώνιο με ορθή γωνία την Α και το ΑΔ είναι το ύψος που αντιστοιχεί στην πλευρά ΒΓ. Αν ΑΒ = 8 εκ., $A\\Gamma=6$ εκ. και $B\\Gamma=10$ εκ, τότε το ύψος ΑΔ του τριγώνου σε εκατοστά είναι ίσο με:",
+    "question": "Το διπλανό τρίγωνο ΑΒΓ είναι ορθογώνιο με ορθή γωνία την Α, ενώ το ΑΔ αποτελεί το ύψος του τριγώνου προς την πλευρά ΒΓ. Αν ΑΒ = 8 εκ., $A\\Gamma=6$ εκ. και $B\\Gamma=10$ εκ, τότε το ύψος ΑΔ του τριγώνου σε εκατοστά είναι ίσο με:",
     "input": "The image shows a right-angled triangle labeled $AB\\Gamma$ ($ABC$).\nVertices: The vertices are $A$ (bottom-left), $B$ (top-left), and $\\Gamma$ (bottom-right).\nRight Angle: There is a square symbol at vertex $A$, indicating that angle $\\angle BA\\Gamma$ is $90^\\circ$.\nAltitude: A line segment $A\\Delta$ is drawn from the right angle vertex $A$ perpendicular to the hypotenuse $B\\Gamma$. A small square symbol at point $\\Delta$ indicates this perpendicularity ($90^\\circ$).\nDimensions:\nSide $AB$ (height) is labeled 8.\nSide $A\\Gamma$ (base) is labeled 6.\nHypotenuse $B\\Gamma$ is labeled 10.\n(Note: The label \"10\" is placed near the midpoint of the hypotenuse, and \"6\" is below the base).",
     "choices": [
       "A. 4",

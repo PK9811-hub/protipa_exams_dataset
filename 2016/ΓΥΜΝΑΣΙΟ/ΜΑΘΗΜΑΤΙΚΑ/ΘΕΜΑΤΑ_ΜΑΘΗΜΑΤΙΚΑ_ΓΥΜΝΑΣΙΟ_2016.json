@@ -4,11 +4,11 @@
   "question": "Στο παρακάτω ραβδόγραμμα παρουσιάζονται οι βαθμοί ενός μαθητή στα τέσσερα από τα πέντε διαγωνίσματα Μαθηματικών. Αν ο μέσος όρος των βαθμών του στα πέντε διαγωνίσματα είναι 16, πόσο έγραψε ο μαθητής στο 5ο διαγώνισμα;",
   "input": "The image displays a bar chart titled \"ΒΑΘΜΟΙ ΔΙΑΓΩΝΙΣΜΑΤΩΝ\" (Test Grades).\nThe chart plots grades on the vertical Y-axis (ranging from 0 to 20 in increments of 2) against specific tests on the horizontal X-axis (labeled 1st to 5th).\nData points from the graph:\n1ο (1st Test): 14\n2ο (2nd Test): 18\n3ο (3rd Test): 15\n4ο (4th Test): 13\n5ο (5th Test): No bar is shown (value is unknown).",
   "choices": [
-    "(A) 16",
-    "(B) 17",
-    "(Γ) 18",
-    "(Δ) 19",
-    "(E) 20"
+    "Α. 16",
+    "Β. 17",
+    "Γ. 18",
+    "Δ. 19",
+    "Ε. 20"
   ],
   "images": [
     {
@@ -24,11 +24,11 @@
   "question": "Ποιο από τα παρακάτω κλάσματα είναι το μεγαλύτερο;",
   "input": "",
   "choices": [
-    "(A) $$\\frac{2}{3}$$",
-    "(B) $$\\frac{19}{20}$$",
-    "(Γ) $$\\frac{6}{7}$$",
-    "(Δ) $$\\frac{24}{25}$$",
-    "(E) $$\\frac{7}{8}$$"
+    "Α. $$\\frac{2}{3}$$",
+    "Β. $$\\frac{19}{20}$$",
+    "Γ. $$\\frac{6}{7}$$",
+    "Δ. $$\\frac{24}{25}$$",
+    "Ε. $$\\frac{7}{8}$$"
   ],
   "images": [],
   "mark": ["Μονάδες 5"]
@@ -38,11 +38,11 @@
   "question": "Ο πλανήτης Π έχει 3 δορυφόρους. Ο δορυφόρος Γ κάνει μια πλήρη περιστροφή γύρω από τον πλανήτη σε 3 ημέρες, ο Δ σε 4 ημέρες και ο Ε σε 5 ημέρες. Πριν από 2 ημέρες οι δορυφόροι βρέθηκαν στη θέση που φαίνεται στο παραπάνω σχέδιο. Μετά από πόσες ημέρες θα βρεθούν και πάλι στην ίδια θέση;",
   "input": "The image shows a geometric diagram depicting a planetary system.\nA central large black dot labeled Π (Pi) represents a planet. It is surrounded by three concentric ellipses representing orbits. Three smaller black dots, labeled Γ (Gamma), Δ (Delta), and Ε (Epsilon), are positioned on the inner, middle, and outer orbits respectively.\nA dashed straight line originates from the center Π and passes through all three satellites (Γ, Δ, Ε), indicating they are currently in linear alignment.",
   "choices": [
-    "(A) 10",
-    "(B) 12",
-    "(Γ) 25",
-    "(Δ) 58",
-    "(E) 60"
+    "Α. 10",
+    "Β. 12",
+    "Γ. 25",
+    "Δ. 58",
+    "Ε. 60"
   ],
   "images": [
     {
@@ -58,11 +58,11 @@
   "question": "Η Μαρία με τα χρήματα που είχε αγόρασε ένα παντελόνι και μια μπλούζα. Για το παντελόνι έδωσε τα $$\\frac{8}{20}$$ των χρημάτων της και για την μπλούζα τα $$\\frac{4}{15}$$ των χρημάτων της. Της έμειναν 40€. Πόσα χρήματα είχε;",
   "input": "",
   "choices": [
-    "(A) 60 €",
-    "(B) 100€",
-    "(Γ) 120 €",
-    "(Δ) 140 €",
-    "(E) 160 €"
+    "Α. 60 €",
+    "Β. 100€",
+    "Γ. 120 €",
+    "Δ. 140 €",
+    "Ε. 160 €"
   ],
   "images": [],
   "mark": ["Μονάδες 5"]
@@ -72,11 +72,11 @@
   "question": "Γύρω από ένα τετράγωνο σιντριβάνι ο κυρ Αλέκος τοποθετεί τετράγωνα πλακάκια όπως στα παρακάτω σχήματα.\n* Γύρω από τετράγωνο σιντριβάνι με πλευρά 1 μ. τοποθετεί 8 τετράγωνα πλακάκια πλευράς 1 μ.\n* Γύρω από τετράγωνο σιντριβάνι με πλευρά 2 μ. τοποθετεί 12 τετράγωνα πλακάκια πλευράς 1 μ.\n* Γύρω από τετράγωνο σιντριβάνι με πλευρά 3 μ. τοποθετεί 16 τετράγωνα πλακάκια πλευράς 1 μ.\nΠόσα τετράγωνα πλακάκια πλευράς 1 μ. θα τοποθετήσει γύρω από τετράγωνο σιντριβάνι με πλευρά 12 μ.;",
   "input": "The image displays three diagrams illustrating a geometric sequence of square patterns.\nLeft: A central $1 \\Times 1$ white square representing a fountain, surrounded by a border of 8 light blue square tiles.\nMiddle: A central $2 \\Times 2$ white square representing a fountain, surrounded by a border of 12 light blue square tiles.\nRight: A central $3 \\Times 3$ white square representing a fountain, surrounded by a border of 16 light blue square tiles.\nThe diagrams visually represent the growth pattern described in the text, showing how the number of tiles increases as the size of the central square increases.",
   "choices": [
-    "(A) 24",
-    "(B) 36",
-    "(Γ) 40",
-    "(Δ) 48",
-    "(Ε) 52"
+    "Α. 24",
+    "Β. 36",
+    "Γ. 40",
+    "Δ. 48",
+    "Ε. 52"
   ],
   "images": [
     {
@@ -92,11 +92,11 @@
   "question": "Ποιο ευθύγραμμο τμήμα θα χωρίσει την επιφάνεια ΑΒΓΔ σε 2 μέρη με ίδιο εμβαδόν;",
   "input": "The image displays a geometric problem involving a trapezoid $ΑΒΓΔ$ drawn on a grid.\nShape: A right-angled trapezoid $ΑΒΓΔ$ (gray shaded area).\nVertices:\nTop Base ($AB$): The top horizontal line segment. Along this line, points are marked at regular grid intervals: $A, E, Z, H, \\Theta, I, K, B$.\nBottom Base ($\\Delta\\Gamma$): The bottom horizontal line segment with points $\\Delta, \\Sigma, \\Gamma$.\nHeight ($A\\Delta$): The vertical side on the left connecting the top and bottom bases.\nGrid Dimensions (by counting squares):\nHeight $A\\Delta = 3$ units.\nBottom Base $\\Delta\\Gamma = 3$ units.\nTop Base $AB = 7$ units (There are 7 intervals from $A$ to $B$).",
   "choices": [
-    "(Α) ΣΖ",
-    "(Β) ΣΗ",
-    "(Γ) ΣΘ",
-    "(Δ) ΣΙ",
-    "(Ε) ΣΚ"
+    "Α. ΣΖ",
+    "Β. ΣΗ",
+    "Γ. ΣΘ",
+    "Δ. ΣΙ",
+    "Ε. ΣΚ"
   ],
   "images": [
     {
@@ -109,14 +109,14 @@
   },
   {
   "id": "7",
-  "question": "Στην αριθμογραμμή ο αριθμός 1 αντιστοιχεί στο σημείο:",
+  "question": "Στην αριθμογραμμή, ο αριθμός 1 βρίσκεται στο σημείο:",
   "input": "The image shows a number line starting at 0 on the left and marking a point labeled $\frac{5}{4}$ on the far right.Between $0$ and $\frac{5}{4}$, the line is divided into equal intervals by tick marks. Several specific points are labeled with Greek letters:\nA\nB\nΓ\nΔ\nE",
   "choices": [
-    "(A) A",
-    "(B) B",
-    "(Γ) Γ",
-    "(Δ) Δ",
-    "(E) E"
+    "Α. A",
+    "Β. B",
+    "Γ. Γ",
+    "Δ. Δ",
+    "Ε. E"
   ],
   "images": [
     {
@@ -132,11 +132,11 @@
   "question": "Πόσα μηδενικά έχει το αποτέλεσμα της πράξης: $$25 \\cdot 25 \\cdot 25 \\cdot 25 \\cdot 25 \\cdot 25 \\cdot 25 \\cdot 4 \\cdot 4 \\cdot 4 \\cdot 16 \\cdot 16$$",
   "input": "",
   "choices": [
-    "(A) 6",
-    "(B) 7",
-    "(Γ) 10",
-    "(Δ) 12",
-    "(E) 14"
+    "Α. 6",
+    "Β. 7",
+    "Γ. 10",
+    "Δ. 12",
+    "Ε. 14"
   ],
   "images": [],
   "mark": ["Μονάδες 5"]

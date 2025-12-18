@@ -245,7 +245,7 @@
   },
   {
     "id": "42",
-    "question": "Μεταξύ παιδιών ενός σχολείου έγινε μια έρευνα, για το άθλημα που προτιμούν περισσότερο. Οι απαντήσεις που δόθηκαν ήταν «ποδόσφαιρο», «τένις», «μπάσκετ» και «βόλεϊ». Τα περισσότερα παιδιά απάντησαν «ποδόσφαιρο», ενώ «μπάσκετ» απάντησαν αρκετά περισσότερα παιδιά από όσα απάντησαν «τένις». Τα αποτελέσματα φαίνονται στο κυκλικό διάγραμμα. Σε ποιο άθλημα αντιστοιχεί το μαύρο μέρος του διαγράμματος;",
+    "question": "Μεταξύ παιδιών ενός σχολείου έγινε μια έρευνα, για το άθλημα που προτιμούν περισσότερο. Οι απαντήσεις που δόθηκαν ήταν «ποδόσφαιρο», «τένις», «μπάσκετ» και «βόλεϊ». Τα περισσότερα παιδιά απάντησαν «ποδόσφαιρο», ενώ «μπάσκετ» απάντησαν αρκετά περισσότερα παιδιά από όσα απάντησαν «τένις». Τα αποτελέσματα φαίνονται στο κυκλικό διάγραμμα. Σε ποιο άθλημα ανταποκρίνεται το μαύρο μέρος του διαγράμματος;",
     "input": "The image displays a circular pie chart divided into sectors by lines radiating from the center.\nStructure:\nA vertical line (diameter) splits the circle into left and right halves.\nA horizontal line (radius) extends from the center to the left edge, dividing the left half into two equal quadrants (top-left and bottom-left).\nA diagonal line (radius) extends from the center into the upper-right quadrant.\nSectors and Shading:\nThe sector in the top-right, bounded by the top vertical line and the diagonal line, is shaded black. Visually, this sector appears to be an acute angle, likely around $45^\\circ$ (representing $\frac{1}{8}$ of the circle).\nThe other three sectors (top-left, bottom-left, and the large remaining portion on the right) are white.",
     "choices": [
       "Α. Τένις",
@@ -321,7 +321,7 @@
     "choices": [
       "A. $\\frac{1}{2}$",
       "B. $1$",
-      "Г. $\\frac{3}{8}$",
+      "Γ. $\\frac{3}{8}$",
       "Δ. $\\frac{1}{8}$"
     ],
     "images": [],

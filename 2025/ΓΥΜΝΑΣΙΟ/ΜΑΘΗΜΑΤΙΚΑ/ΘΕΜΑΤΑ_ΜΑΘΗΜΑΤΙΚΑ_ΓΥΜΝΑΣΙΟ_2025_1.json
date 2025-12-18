@@ -191,7 +191,7 @@
   },
   {
     "id": "32",
-    "question": "Το σχήμα της εικόνας αποτελείται από ίδιους σε μέγεθος κύβους και η πίσω όψη είναι ίδια με αυτή που φαίνεται. Επίσης, δεν υπάρχουν κενά, εσωτερικά. Από πόσους κύβους αποτελείται το σχήμα;",
+    "question": "Το σχήμα της εικόνας αποτελείται από ίδιους σε μέγεθος κύβους και η πίσω όψη είναι ίδια με αυτή που φαίνεται. Επίσης, το σχήμα είναι ενιαίο στο εσωτερικό του. Από πόσους κύβους αποτελείται το σχήμα;",
     "input": "The image displays a 3D stepped pyramid structure constructed from identical cubes. The structure has four distinct horizontal layers, each a different color and increasing in size from top to bottom.\nLayer Breakdown (Top to Bottom):\nLevel 1 (Top): A single Cyan cube (Dimensions: $1 \times 1$).\nLevel 2: Green cubes forming a square platform (Dimensions: $3 \times 3$).\nLevel 3: Grey cubes forming a square platform (Dimensions: $5 \times 5$).\nLevel 4 (Bottom): Red/Maroon cubes forming a square platform (Dimensions: $7 \times 7$).",
     "choices": [
       "A. 34",
@@ -327,7 +327,7 @@
   },
   {
     "id": "39",
-    "question": "Η Άννα και ο Βασίλης ξεκινούν το πρωί από τα σπίτια τους και περπατούν ευθύγραμμα μέχρι τη στάση του λεωφορείου. Στον διπλανό χάρτη φαίνεται το σπίτι της Άννας, Α, το σπίτι του Βασίλη, Β, και η κατεύθυνση που ακολουθούν αλλά δεν φαίνεται η στάση, Σ, όπου συναντιούνται. Αν κάθε τετραγωνάκι στο χάρτη έχει πλευρά που αντιστοιχεί σε 50 μέτρα, πόσα μέτρα πρέπει να περπατήσει η Άννα από το σπίτι της στο Α μέχρι τη στάση στο Σ;",
+    "question": "Η Άννα και ο Βασίλης ξεκινούν το πρωί από τα σπίτια τους και περπατούν ευθύγραμμα μέχρι τη στάση του λεωφορείου. Στον διπλανό χάρτη φαίνεται το σπίτι της Άννας, Α, το σπίτι του Βασίλη, Β, και η κατεύθυνση που ακολουθούν αλλά δεν φαίνεται η στάση, Σ, όπου συναντιούνται. Αν κάθε τετραγωνάκι στο χάρτη έχει πλευρά που ισούται με 50 μέτρα, πόσα μέτρα πρέπει να περπατήσει η Άννα από το σπίτι της στο Α μέχρι τη στάση στο Σ;",
     "input": "The image displays a 2D grid map with two specific points labeled A and B, representing starting locations.\nPoint A: Located in the upper right section of the grid. An arrow originates from point A and points horizontally to the left.\nPoint B: Located in the lower central section of the grid. An arrow originates from point B and points diagonally upwards and to the left (northwest direction).\nGrid: The background consists of a standard square grid used for coordinate positioning or measuring distance.",
     "choices": [
       "Α. 300μ",

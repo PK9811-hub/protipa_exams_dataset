@@ -97,7 +97,7 @@
     "choices": [
       "A. $2^{2}-8^{2}+18^{2}$",
       "B. $2^{2}+8^{2}+18^{2}$",
-      "г. $\\sqrt{8}^{4}$",
+      "Γ. $\\sqrt{8}^{4}$",
       "Δ. $\\sqrt{12}^{4}$"
     ],
     "images": [],
@@ -168,7 +168,7 @@
     "choices": [
       "A. 40.000km",
       "B. 25.600Km",
-      "Г. 20.000km",
+      "Γ. 20.000km",
       "Δ. 12.800km"
     ],
     "images": [],
@@ -348,7 +348,7 @@
   },
   {
     "id": "50",
-    "question": "Στο διπλανό σχήμα (αριστερά) φαίνεται μια ρόδα ποδηλάτου κυκλικού σχήματος με κέντρο Κ. Το Α είναι σημείο της ακτίνας της ρόδας. Η ρόδα περιστρέφεται πατώντας στο έδαφος. Στις παρακάτω γραφικές παραστάσεις, ο οριζόντιος άξονας του συστήματος συντεταγμένων αντιστοιχεί στην απόσταση του Α από το έδαφος και ο κατακόρυφος στην απόσταση του Α από το Κ. Ποια είναι η σωστή γραφική παράσταση;",
+    "question": "Στο διπλανό σχήμα (αριστερά) φαίνεται μια ρόδα ποδηλάτου κυκλικού σχήματος με κέντρο Κ. Το Α είναι σημείο της ακτίνας της ρόδας. Η ρόδα περιστρέφεται πατώντας στο έδαφος. Στις παρακάτω γραφικές παραστάσεις, ο οριζόντιος άξονας του συστήματος συντεταγμένων ανταποκρίνεται στην απόσταση του Α από το έδαφος και ο κατακόρυφος στην απόσταση του Α από το Κ. Ποια είναι η σωστή γραφική παράσταση;",
     "input": "Image 1: Circle\nThe first image displays a circle with a center labeled $K$.\nCross-hairs: Two intersecting lines pass through the center $K$, dividing the circle into four quadrants.\nPoint A: A point labeled $A$ is marked on one of these lines, specifically on the upper part of the vertical-ish line, approximately halfway between the center and the edge. A small circle (possibly indicating a moving object or a bead) is drawn around point $A$.\nImage 2: Graphs\nThe second image displays four Cartesian coordinate graphs labeled A, B, $\\Gamma$, and $\\Delta$.\nGraph A: Shows a horizontal line segment, indicating a constant value over time (or whatever variable the x-axis represents).\nGraph B: Shows a vertical line segment, indicating a single x-value for a range of y-values.\nGraph $\\Gamma$: Shows a sinusoidal wave (a wavy line going up and down repeatedly), indicating a periodic or oscillating value.\nGraph $\\Delta$: Shows a straight line segment with a positive slope, indicating a value that increases steadily at a constant rate.",
     "choices": [
       "A",

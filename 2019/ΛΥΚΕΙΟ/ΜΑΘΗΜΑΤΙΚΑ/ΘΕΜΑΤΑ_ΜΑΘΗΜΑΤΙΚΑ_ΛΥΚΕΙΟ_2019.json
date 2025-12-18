@@ -109,7 +109,7 @@
     },
     {
       "id": "7",
-      "question": "Οι εννέα φυσικοί αριθμοί 1, 2, 3, …, 9 τοποθετούνται στο παρακάτω τετράγωνο, ένας σε κάθε μικρό τετραγωνάκι, ώστε σε κάθε γραμμή, σε κάθε στήλη και σε κάθε διαγώνιο του μεγάλου τετραγώνου, το άθροισμα των τριών αριθμών να είναι το ίδιο. Ποιος αριθμός πρέπει να τοποθετηθεί στο πάνω αριστερά τετραγωνάκι;",
+      "question": "Οι εννέα φυσικοί αριθμοί 1, 2, 3, …, 9 τοποθετούνται στο παρακάτω τετράγωνο, ένας σε κάθε μικρό τετραγωνάκι, ώστε σε κάθε γραμμή, σε κάθε κολόνα και σε κάθε διαγώνιο του μεγάλου τετραγώνου, το άθροισμα των τριών αριθμών να είναι το ίδιο. Ποιος αριθμός πρέπει να τοποθετηθεί στο πάνω αριστερά τετραγωνάκι;",
       "input": "The image displays a $3 \times 3$ grid (a square divided into 9 smaller squares). Three specific numbers are already filled in:\nTop Row: The number 3 is in the middle square.\nMiddle Row: The number 1 is in the rightmost square.\nBottom Row: The number 2 is in the leftmost square.\nEmpty Cells: The other 6 squares are blank.",
       "choices": [
         "Α. 5",

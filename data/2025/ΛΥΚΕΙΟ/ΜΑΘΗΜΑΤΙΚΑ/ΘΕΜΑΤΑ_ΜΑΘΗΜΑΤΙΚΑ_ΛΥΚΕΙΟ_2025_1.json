@@ -322,12 +322,12 @@
     ],
     "images": [
         {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_1/ΕΙΚΟΝΑ_9/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_1_ΘΕΜΑ_38_ΕΙΚΟΝΑ_9α.png",
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_1/ΕΙΚΟΝΑ_9/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_1_ΘΕΜΑ_38_ΕΙΚΟΝΑ_9_α.png",
           "description": "Image 1\nThe image depicts the 2D side-view outlines of three different containers:\n1. Left Container: It has an hourglass shape. Both the base and the opening are wide, while the middle section narrows significantly (concave sides).\n2. Middle Container: It has the shape of an inverted truncated cone (like a bucket). The base is narrow, and the container widens linearly towards the top.\n3. Right Container: It has a rectangular shape (representing a cylinder). The width remains constant from the base to the top (vertical sides).",
           "transcription": []
         },
           {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_1/ΕΙΚΟΝΑ_9/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_1_ΘΕΜΑ_38_ΕΙΚΟΝΑ_9β.png",
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_1/ΕΙΚΟΝΑ_9/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_1_ΘΕΜΑ_38_ΕΙΚΟΝΑ_9_β.png",
           "description": "Image 2\nThe image displays four coordinate systems. In all of them, the horizontal axis represents \"Time\" (χρόνος) and the vertical axis represents \"Water Height\" (ύψος νερού). All curves start from the origin (O).\n1. Function f: A convex curve. Its slope gradually increases as time passes (the curve becomes steeper).\n2. Function g: A concave curve. Its slope gradually decreases as time passes (the curve becomes flatter).\n3. Function h: An \"S\" shaped (sigmoidal) curve. Initially, the slope increases (convex section), and subsequently, it decreases (concave section), indicating an inflection point.\n4. Function d: A straight line passing through the origin, indicating a constant slope (linear relationship).",
           "transcription": []
         }

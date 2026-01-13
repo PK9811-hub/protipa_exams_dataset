@@ -72,7 +72,7 @@
     "choices": [],
     "images": [
       {
-        "path":"images/ΘΕΜΑΤΙΚΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1_ΘΕΜΑ_3_ΕΙΚΟΝΑ_3.png",
+        "path":"images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1_ΘΕΜΑ_3_ΕΙΚΟΝΑ_3.png",
         "description": "The image shows a quadrilateral $\\text{A}\\text{B}\\Gamma\\Delta$ with the parallel sides $\\Delta\\Gamma$ and $\\text{AB}$, identified as a trapezoid.\n1. Vertices and Diagonal: The vertices are $\\text{A}, \\text{B}, \\Gamma, \\Delta$. The diagonal $\\text{A}\\Gamma$ divides the trapezoid into two triangles ($\\triangle \\text{A}\\text{B}\\Gamma$ and $\\triangle \\text{A}\\Delta\\Gamma$).\n2. Isosceles Triangles (as per markings/text): \n$\\triangle \\text{A}\\Delta\\Gamma$ is marked as isosceles ($\\Delta\\Gamma = \\text{A}\\Delta$) with double tick marks.\n$\\triangle \\text{A}\\text{B}\\Gamma$ is marked as isosceles ($\\text{AB} = \\text{A}\\Gamma$) with single tick marks.\n3. Angles: Several angles are labeled: $\\boldsymbol{\\omega}$ (omega) and $\\boldsymbol{\\theta}$ (theta), and numbers1 and2. Specifically:\n$\\angle \\text{A}\\text{B}\\Gamma = \\boldsymbol{\\omega}$\n$\\angle \\text{B}\\Gamma\\text{A} = \\boldsymbol{\\omega}$\n$\\angle \\Gamma\\text{A}\\text{B} = 2$ (and $\\boldsymbol{\\omega}$)\n$\\angle \\Delta\\text{A}\\Gamma = 1$\n$\\angle \\Delta\\Gamma\\text{A} = \\boldsymbol{\\theta}$",
         "transcription": "Image Content (Labels and Markings)\n| Element | Markings/Label |\n| :--- | :--- |\n|Vertices | $\\text{A}, \\text{B}, \\Gamma, \\Delta$ |\n|Equal Sides 1 | $\\Delta\\Gamma$ and $\\text{A}\\Delta$ (Double tick marks) |\n|Equal Sides 2 | $\\text{AB}$ and $\\text{A}\\Gamma$ (Single tick marks) |\n|Angle $\\text{A}\\text{B}\\Gamma$ | $\\boldsymbol{\\omega}$ |\n|Angle $\\text{B}\\Gamma\\text{A}$ | $\\boldsymbol{\\omega}$ |\n|Angle $\\Delta\\text{A}\\Gamma$ | $1$ |\n|Angle $\\Gamma\\text{A}\\text{B}$ | $2$ and $\\boldsymbol{\\omega}$ |\n|Angle $\\Delta\\Gamma\\text{A}$ | $\\boldsymbol{\\theta}$ |"
       }
@@ -86,7 +86,7 @@
     "choices": [],
     "images": [
       {
-        "path":"images/ΘΕΜΑΤΙΚΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1_ΘΕΜΑ_3_ΕΙΚΟΝΑ_3.png",
+        "path":"images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1_ΘΕΜΑ_3_ΕΙΚΟΝΑ_3.png",
         "description": "The image shows a quadrilateral $\\text{A}\\text{B}\\Gamma\\Delta$ with the parallel sides $\\Delta\\Gamma$ and $\\text{AB}$, identified as a trapezoid.\n1. Vertices and Diagonal: The vertices are $\\text{A}, \\text{B}, \\Gamma, \\Delta$. The diagonal $\\text{A}\\Gamma$ divides the trapezoid into two triangles ($\\triangle \\text{A}\\text{B}\\Gamma$ and $\\triangle \\text{A}\\Delta\\Gamma$).\n2. Isosceles Triangles (as per markings/text): \n$\\triangle \\text{A}\\Delta\\Gamma$ is marked as isosceles ($\\Delta\\Gamma = \\text{A}\\Delta$) with double tick marks.\n$\\triangle \\text{A}\\text{B}\\Gamma$ is marked as isosceles ($\\text{AB} = \\text{A}\\Gamma$) with single tick marks.\n3. Angles: Several angles are labeled: $\\boldsymbol{\\omega}$ (omega) and $\\boldsymbol{\\theta}$ (theta), and numbers1 and2. Specifically:\n$\\angle \\text{A}\\text{B}\\Gamma = \\boldsymbol{\\omega}$\n$\\angle \\text{B}\\Gamma\\text{A} = \\boldsymbol{\\omega}$\n$\\angle \\Gamma\\text{A}\\text{B} = 2$ (and $\\boldsymbol{\\omega}$)\n$\\angle \\Delta\\text{A}\\Gamma = 1$\n$\\angle \\Delta\\Gamma\\text{A} = \\boldsymbol{\\theta}$",
         "transcription": "Image Content (Labels and Markings)\n| Element | Markings/Label |\n| :--- | :--- |\n|Vertices | $\\text{A}, \\text{B}, \\Gamma, \\Delta$ |\n|Equal Sides 1 | $\\Delta\\Gamma$ and $\\text{A}\\Delta$ (Double tick marks) |\n|Equal Sides 2 | $\\text{AB}$ and $\\text{A}\\Gamma$ (Single tick marks) |\n|Angle $\\text{A}\\text{B}\\Gamma$ | $\\boldsymbol{\\omega}$ |\n|Angle $\\text{B}\\Gamma\\text{A}$ | $\\boldsymbol{\\omega}$ |\n|Angle $\\Delta\\text{A}\\Gamma$ | $1$ |\n|Angle $\\Gamma\\text{A}\\text{B}$ | $2$ and $\\boldsymbol{\\omega}$ |\n|Angle $\\Delta\\Gamma\\text{A}$ | $\\boldsymbol{\\theta}$ |"
       }
@@ -190,7 +190,7 @@
     "choices": [],
     "images": [
       {
-        "path":"images/ΘΕΜΑΤΙΚΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1/ΕΙΚΟΝΑ_5/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1_ΘΕΜΑ_3_ΕΙΚΟΝΑ_5.png",
+        "path":"images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1/ΕΙΚΟΝΑ_5/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1_ΘΕΜΑ_3_ΕΙΚΟΝΑ_5.png",
         "description": "The image shows a black-and-white line drawing of a solid figure resting on a flat surface. The solid is constructed from rectangular blocks and has a stepped, orL-like, shape. The dimensions of the different segments are given in terms of the variable $x$:\n1. Overall Shape: The solid consists of a horizontal lower section and a vertical upper section.\n2. Dimensions Labeled:\nTheheight of the far-left segment is $x$.\nThedepth (front-to-back dimension) of the far-left segment is $2x$.\nThewidth of the far-left segment is $x$.\nThetotal width along the bottom edge is $3x$.\nTheheight of the far-right vertical segment is $2x$.\nThewidth of the far-right vertical segment is $x$.\nThedepth (front-to-back dimension) of the far-right segment is $x$.\nThe drawing uses dashed lines to indicate hidden edges, giving it a clear 3D perspective.",
         "transcription": "Image Content (Dimensions in terms of $x$)\n| Dimension | Label/Value |\n| :--- | :--- |\n|Height (Left Block) | $x$ |\n|Depth (Left Block) | $2x$ |\n|Width (Left Block) | $x$ |\n|Total Base Width | $3x$ |\n|Height (Right Vertical Block) | $2x$ |\n|Width (Right Vertical Block) | $x$ |\n|Depth (Right Vertical Block) | $x$ |"
       }
@@ -232,7 +232,7 @@
     "choices": [],
     "images": [
       {
-        "path":"images/ΘΕΜΑΤΙΚΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1/ΕΙΚΟΝΑ_6/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1_ΘΕΜΑ_4_ΕΙΚΟΝΑ_6.png",
+        "path":"images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1/ΕΙΚΟΝΑ_6/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1_ΘΕΜΑ_4_ΕΙΚΟΝΑ_6.png",
         "description": "The image shows an $x$-$y$ graph with a grid background.\n1. Axes:\nThe vertical axis ($y$) is labeled $y$ ($\\epsilon\\upsilon\\rho\\acute{o}$) ($y$ (euros)).\nThe horizontal axis ($x$) is labeled $x$ ($\\acute{\\omega}\\rho\\epsilon\\varsigma$) ($x$ (hours)).\n2. \u00a0The Line ($\\gamma$): A single red straight line, labeled ($\\gamma$), is plotted.\n3. \u00a0Key Points: The line clearly intersects the $y$-axis at $y=5$ and appears to pass through the point $(40, 65)$.\nThe graph visualizes the cost ($\\gamma$) as a function of the rental hours ($x$) for \"Store ($\\gamma$)\" in the context of the math problem.",
         "transcription": "Image Content (Labels and Observable Data Points)\n| Element | Label/Value |\n| :--- | :--- |\n| Vertical Axis | $y$ ($\\epsilon\\upsilon\\rho\\acute{o}$) |\n| Horizontal Axis | $x$ ($\\acute{\\omega}\\rho\\epsilon\\varsigma$) |\n| Line Identifier | $(\\gamma)$ |\n| Y-Intercept (Cost for 0 hours) | $5$ |\n| Data Point (e.g., at $x=40$) | $y=65$ |"
       }
@@ -246,7 +246,7 @@
     "choices": [],
     "images": [
       {
-        "path":"images/ΘΕΜΑΤΙΚΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1/ΕΙΚΟΝΑ_6/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1_ΘΕΜΑ_4_ΕΙΚΟΝΑ_6.png",
+        "path":"images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1/ΕΙΚΟΝΑ_6/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1_ΘΕΜΑ_4_ΕΙΚΟΝΑ_6.png",
         "description": "The image shows an $x$-$y$ graph with a grid background.\n1. Axes:\nThe vertical axis ($y$) is labeled $y$ ($\\epsilon\\upsilon\\rho\\acute{o}$) ($y$ (euros)).\nThe horizontal axis ($x$) is labeled $x$ ($\\acute{\\omega}\\rho\\epsilon\\varsigma$) ($x$ (hours)).\n2. \u00a0The Line ($\\gamma$): A single red straight line, labeled ($\\gamma$), is plotted.\n3. \u00a0Key Points: The line clearly intersects the $y$-axis at $y=5$ and appears to pass through the point $(40, 65)$.\nThe graph visualizes the cost ($\\gamma$) as a function of the rental hours ($x$) for \"Store ($\\gamma$)\" in the context of the math problem.",
         "transcription": "Image Content (Labels and Observable Data Points)\n| Element | Label/Value |\n| :--- | :--- |\n| Vertical Axis | $y$ ($\\epsilon\\upsilon\\rho\\acute{o}$) |\n| Horizontal Axis | $x$ ($\\acute{\\omega}\\rho\\epsilon\\varsigma$) |\n| Line Identifier | $(\\gamma)$ |\n| Y-Intercept (Cost for 0 hours) | $5$ |\n| Data Point (e.g., at $x=40$) | $y=65$ |"
       }
@@ -290,7 +290,7 @@
     "choices": [],
     "images": [
       {
-        "path":"ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1/ΕΙΚΟΝΑ_8/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1_ΘΕΜΑ_2_ΕΙΚΟΝΑ_8.png",
+        "path":"images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1/ΕΙΚΟΝΑ_8/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1_ΘΕΜΑ_2_ΕΙΚΟΝΑ_8.png",
         "description": "The image shows a triangle $\\text{A}\\text{B}\\Gamma$ where a large, irregular, elliptical shape, labeled $\\gamma$ (representing the lake), lies partially within the triangle.\n1. Survey Triangle: The triangle $\\text{A}\\text{B}\\Gamma$ provides the framework for calculation.\n2. Known Dimensions:\nSide $\\text{B}\\Gamma$ ($\\alpha$): $10 \\text{Km}$.\nSide $\\text{A}\\Gamma$ ($\\beta$): $8 \\text{Km}$.\nIncluded Angle ($\\angle \\Gamma$): $60^\\circ$.\n3. Target Dimension: The distance across the lake, $\\text{AB}$ (or $\\gamma$), needs to be calculated using the given data.",
         "transcription": "Image Content (Labels and Values)\n| Element | Label/Value |\n| :--- | :--- |\n|Vertices | $\\text{A}, \\text{B}, \\Gamma$ |\n|Side $\\text{B}\\Gamma$ | $\\alpha = 10 \\text{Km}$ |\n|Side $\\text{A}\\Gamma$ | $\\beta = 8 \\text{Km}$ |\n|Angle $\\Gamma$ | $60^\\circ$ |\n|Lake/Chord | Labeled $\\gamma$ (implied side $\\text{AB}$) |"
       }
@@ -304,7 +304,7 @@
     "choices": [],
     "images": [
       {
-        "path":"ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1/ΕΙΚΟΝΑ_8/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1_ΘΕΜΑ_2_ΕΙΚΟΝΑ_8.png",
+        "path":"images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1/ΕΙΚΟΝΑ_8/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2013_1_ΘΕΜΑ_2_ΕΙΚΟΝΑ_8.png",
         "description": "The image shows a triangle $\\text{A}\\text{B}\\Gamma$ where a large, irregular, elliptical shape, labeled $\\gamma$ (representing the lake), lies partially within the triangle.\n1. Survey Triangle: The triangle $\\text{A}\\text{B}\\Gamma$ provides the framework for calculation.\n2. Known Dimensions:\nSide $\\text{B}\\Gamma$ ($\\alpha$): $10 \\text{Km}$.\nSide $\\text{A}\\Gamma$ ($\\beta$): $8 \\text{Km}$.\nIncluded Angle ($\\angle \\Gamma$): $60^\\circ$.\n3. Target Dimension: The distance across the lake, $\\text{AB}$ (or $\\gamma$), needs to be calculated using the given data.",
         "transcription": "Image Content (Labels and Values)\n| Element | Label/Value |\n| :--- | :--- |\n|Vertices | $\\text{A}, \\text{B}, \\Gamma$ |\n|Side $\\text{B}\\Gamma$ | $\\alpha = 10 \\text{Km}$ |\n|Side $\\text{A}\\Gamma$ | $\\beta = 8 \\text{Km}$ |\n|Angle $\\Gamma$ | $60^\\circ$ |\n|Lake/Chord | Labeled $\\gamma$ (implied side $\\text{AB}$) |"
       }

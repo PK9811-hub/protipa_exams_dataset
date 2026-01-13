@@ -12,7 +12,7 @@
       ],
       "images": [
         {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019_1/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019_1_ΘΕΜΑ_1_ΕΙΚΟΝΑ_1.png",
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019_ΘΕΜΑ_1_ΕΙΚΟΝΑ_1.png",
           "description": "The image displays a 3D rectangular solid (prism) constructed from four identical cubes. The cubes are arranged in a square formation ($2 \times 2$), creating a shape that is two units high, two units wide, and one unit deep. The visible surfaces (front, top, and left side) show the dividing lines where the individual cubes meet.",
           "transcription": []
         }
@@ -34,7 +34,7 @@
       ],
       "images": [
         {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019_1/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019_1_ΘΕΜΑ_2_ΕΙΚΟΝΑ_2.png",
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019_ΘΕΜΑ_2_ΕΙΚΟΝΑ_2.png",
           "description": "The image displays a 3D rectangular solid (prism) constructed from four identical cubes. The cubes are arranged in a square formation ($2 \times 2$), creating a shape that is two units high, two units wide, and one unit deep. The visible surfaces (front, top, and left side) show the dividing lines where the individual cubes meet.",
           "transcription": []
         }
@@ -56,7 +56,7 @@
       ],
       "images": [
         {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019_1/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019_1_ΘΕΜΑ_3_ΕΙΚΟΝΑ_3.png",
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019_ΘΕΜΑ_3_ΕΙΚΟΝΑ_3.png",
           "description": "The image displays a symmetric, cross-shaped geometric figure (resembling a \"plus\" sign).\nComposition: As stated in the problem, the shape is constructed from five identical squares.\nArrangement: Imagine one central square, with four other squares attached to each of its four sides (top, bottom, left, and right).\nPerimeter: The outer boundary of the shape is formed by the exposed sides of the four outer squares.",
           "transcription": []
         }
@@ -78,7 +78,7 @@
       ],
       "images": [
         {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019_1/ΕΙΚΟΝΑ_4/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019_1_ΘΕΜΑ_4_ΕΙΚΟΝΑ_4.png",
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019/ΕΙΚΟΝΑ_4/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019_ΘΕΜΑ_4_ΕΙΚΟΝΑ_4.png",
           "description": "The image is a vertical bar chart visualizing fuel consumption data over three summer months.\nTitle: \"ΚΑΤΑΝΑΛΩΣΗ ΚΑΥΣΙΜΟΥ ΣΕ ΛΙΤΡΑ\" (Fuel Consumption in Liters).\nY-Axis (Vertical): Represents the volume in liters. The scale starts at 740 and goes up to 940 in increments of 20 (740, 760, 780, etc.).\nX-Axis (Horizontal): Lists three months: ΙΟΥΝΙΟΣ (June), ΙΟΥΛΙΟΣ (July), and ΑΥΓΟΥΣΤΟΣ (August).\nData Bars:\nJune (ΙΟΥΝΙΟΣ): The blue bar reaches the line for 800.\nJuly (ΙΟΥΛΙΟΣ): The blue bar reaches the line for 860.\nAugust (ΑΥΓΟΥΣΤΟΣ): The blue bar reaches the line for 920.",
           "transcription": "Chart Data Points:\nΙΟΥΝΙΟΣ: 800\nΙΟΥΛΙΟΣ: 860\nΑΥΓΟΥΣΤΟΣ: 920"
         }
@@ -116,7 +116,7 @@
       ],
       "images": [
         {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019_1/ΕΙΚΟΝΑ_5/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019_1_ΘΕΜΑ_6_ΕΙΚΟΝΑ_5.png",
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019/ΕΙΚΟΝΑ_5/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΓΥΜΝΑΣΙΟ_2019_ΘΕΜΑ_6_ΕΙΚΟΝΑ_5.png",
           "description": "The image shows a segment of a horizontal number line marked with vertical tick marks.\nLeft Label: The first tick mark on the left is labeled with the fraction $\frac{1}{12}$.\nRight Label: The fourth tick mark to the right is labeled with the fraction $\frac{1}{6}$.\nIntervals: There are 3 equal intervals (spaces) separating the fraction $\frac{1}{12}$ from $\frac{1}{6}$.\nArrow: A black arrow points vertically down to the first tick mark immediately to the right of $\frac{1}{12}$.",
           "transcription": []
         }

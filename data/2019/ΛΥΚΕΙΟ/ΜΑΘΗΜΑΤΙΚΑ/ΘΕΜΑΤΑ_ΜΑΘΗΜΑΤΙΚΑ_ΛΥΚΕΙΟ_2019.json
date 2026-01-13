@@ -162,7 +162,7 @@
       "choices": [],
       "images": [
         {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟΥ_2019/ΕΙΚΟΝΑ_4/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟΥ_2019_ΘΕΜΑ_9_ΕΙΚΟΝΑ_4.png",
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2019/ΕΙΚΟΝΑ_4/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2019_ΘΕΜΑ_9_ΕΙΚΟΝΑ_4.png",
           "description": "The image displays a rectangle labeled $AB\\Gamma\\Delta$.\nDimensions: The vertical side $A\\Delta$ is marked with the length $1$. A segment on the top side, labeled $AE$, is marked with the length $2$.\nStructure: The large rectangle is divided vertically by a line segment $EZ$. This creates a white rectangle on the left ($A\\Delta ZE$) and a shaded rectangle with diagonal stripes on the right ($EB\\Gamma Z$).\nLabels: Vertices are $A, B, \\Gamma, \\Delta$ and the dividing points are $E, Z$.",
           "transcription": []
         }
@@ -173,7 +173,7 @@
     },
     {
       "id": "10.1",
-      "question": "Για κάθε ζεύγος πραγματικών αριθμών (α, β) ορίζουμε μία πράξη την οποία συμβολίζουμε με το *, έτσι ώστε το ζεύγος (α, β) να αντιστοιχίζεται στον αριθμό $\\alpha^2 - \\alpha\\beta + \\beta^2$. Δηλαδή: $\\alpha * \\beta = \\alpha^2 - \\alpha\\beta + \\beta^2$\nΝα βρείτε σε ποια περίπτωση η πράξη * και ο συνήθης πολλαπλασιασμός μεταξύ δύο αριθμών $\\alpha$ και $\\beta$ δίνουν το ίδιο αποτέλεσμα.",
+      "question": "Για κάθε ζεύγος πραγματικών αριθμών (α, β) ορίζουμε μία πράξη την οποία συμβολίζουμε με το *, έτσι ώστε το ζεύγος (α, β) να αναλογεί στον αριθμό $\\alpha^2 - \\alpha\\beta + \\beta^2$. Δηλαδή: $\\alpha * \\beta = \\alpha^2 - \\alpha\\beta + \\beta^2$\nΝα βρείτε σε ποια περίπτωση η πράξη * και ο συνήθης πολλαπλασιασμός μεταξύ δύο αριθμών $\\alpha$ και $\\beta$ δίνουν το ίδιο αποτέλεσμα.",
       "input": "",
       "choices": [],
       "images": [],
@@ -183,7 +183,7 @@
     },
     {
       "id": "10.2",
-      "question": "Για κάθε ζεύγος πραγματικών αριθμών (α, β) ορίζουμε μία πράξη την οποία συμβολίζουμε με το *, έτσι ώστε το ζεύγος (α, β) να αντιστοιχίζεται στον αριθμό $\\alpha^2 - \\alpha\\beta + \\beta^2$. Δηλαδή: $\\alpha * \\beta = \\alpha^2 - \\alpha\\beta + \\beta^2$\nΝα βρείτε τις τιμές των πραγματικών αριθμών x και y, αν ισχύουν ταυτόχρονα οι σχέσεις:\n$$\\begin{cases} x * 10 = 75 \\\\ x * y = 19 \\end{cases}$$",
+      "question": "Για κάθε ζεύγος πραγματικών αριθμών (α, β) ορίζουμε μία πράξη την οποία συμβολίζουμε με το *, έτσι ώστε το ζεύγος (α, β) να αναλογεί στον αριθμό $\\alpha^2 - \\alpha\\beta + \\beta^2$. Δηλαδή: $\\alpha * \\beta = \\alpha^2 - \\alpha\\beta + \\beta^2$\nΝα βρείτε τις τιμές των πραγματικών αριθμών x και y, αν ισχύουν ταυτόχρονα οι σχέσεις:\n$$\\begin{cases} x * 10 = 75 \\\\ x * y = 19 \\end{cases}$$",
       "input": "",
       "choices": [],
       "images": [],

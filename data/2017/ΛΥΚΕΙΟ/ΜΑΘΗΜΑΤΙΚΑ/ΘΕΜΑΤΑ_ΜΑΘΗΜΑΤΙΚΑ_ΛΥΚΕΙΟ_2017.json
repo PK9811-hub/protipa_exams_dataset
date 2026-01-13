@@ -76,7 +76,7 @@
       ],
       "images": [
         {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2017_1/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2017_ΘΕΜΑ_5_ΕΙΚΟΝΑ_1.png",
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2017/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2017_ΘΕΜΑ_5_ΕΙΚΟΝΑ_1.png",
           "description": "The image shows a geometric line segment with endpoints marked by black dots. Connecting these two endpoints are three distinct curved paths labeled $\\alpha$, $\beta$, and $\\gamma$.Each path creates an \"S\" shape and is composed of two semicircles joined together:\nOne semicircle curves upwards (above the line).\nThe other semicircle curves downwards (below the line).\nCurve $\\alpha$: Has a large upper semicircle and a small lower semicircle.\nCurve $\beta$: Has a medium upper semicircle and a medium lower semicircle.\nCurve $\\gamma$: Has a small upper semicircle and a large lower semicircle.",
           "transcription": []
         }
@@ -114,7 +114,7 @@
       ],
       "images": [
         {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2017_1/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2017_ΘΕΜΑ_7_ΕΙΚΟΝΑ_2.png",
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2017/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2017_ΘΕΜΑ_7_ΕΙΚΟΝΑ_2.png",
           "description": "The image displays a Cartesian coordinate system (with vertical and horizontal axes marked by arrows). Five different straight lines are plotted on this graph, labeled $\\varepsilon_1$ through $\\varepsilon_5$:\nLine $\\varepsilon_1$: A horizontal line parallel to the horizontal axis.\nLine $\\varepsilon_2$: A line with a negative slope (going down) that intersects the vertical axis above the origin.\nLine $\\varepsilon_3$: A line with a positive slope (going up) that intersects the vertical axis above the origin.\nLine $\\varepsilon_4$: A steep line with a positive slope that passes exactly through the origin of the axes (point $0,0$).\nLine $\\varepsilon_5$: A line with a positive slope that intersects the horizontal axis to the right of the origin.",
           "transcription": []
         }

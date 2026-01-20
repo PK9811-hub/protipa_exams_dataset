@@ -8,30 +8,97 @@ from datasets import load_dataset, concatenate_datasets
 
 logger = logging.getLogger(__name__)
 
-def filter_dataset(dataset):
+def filter_dataset(dataset, mode = 'closed'):
     """
-    Filters the dataset for specific subjects and exercise types.
+    Filters the dataset based on the mode ('closed' or 'open').
+    
+    Args:
+        dataset: The raw dataset list.
+        mode (str): 'closed' for MC/TF/Matching, 'open' for Open/Fill-in-gaps.
     """
     filtered = []
     
-    subjects = ['ΓΛΩΣΣΑ', 'ΜΑΘΗΜΑΤΙΚΑ', 'ΦΥΣΙΚΗ', 'ΘΡΗΣΚΕΥΤΙΚΑ']
-    target_types = ['Multiple Choice', 'True/False', 'Fill-in-the-gaps', 'Matching'] 
+    subjects = ['modern greek', 'mathematics', 'physics', 'religious studies']
     
-    for item in dataset:
-        subj = item.get('subject')
-        q_type = item.get('question_type')
-        exercise_type = item.get('exercise_type')
-        choices = item.get('choices')
+    # Ορίζουμε τι ψάχνουμε ανάλογα με το mode
+    if mode == 'closed':
+        target_ex_types = ['multiple choice', 'true/false', 'matching']
+        target_q_types = ['closed']
+    elif mode == 'open':
+        target_ex_types = ['fill-in-the-gaps', 'open'] 
+        target_q_types = ['open']
+    else:
+        raise ValueError("Mode must be 'closed' or 'open'")
 
-        if (subj in subjects and 
-            q_type == 'Closed' and                      
-            exercise_type in target_types and
-            choices is not None and         
-            len(choices) > 1):              
+    print(f"🔍 Filtering for mode: {mode.upper()}...")
+
+    for item in dataset:
+        subj = str(item.get('subject', '')).lower().strip()
+        q_type_raw = str(item.get('question_type', '')).lower().strip()
+        ex_type_raw = str(item.get('exercise_type', '')).lower().strip()
+        
+        choices = item.get('choices', [])
+        if isinstance(choices, str):
+            try:
+                choices = ast.literal_eval(choices)
+            except:
+                choices = []
+        if choices is None: choices = []
+
+        if subj not in subjects:
+            continue
+
+        if mode == 'closed':
             
-            filtered.append(item)
+            is_valid_type = (q_type_raw == 'closed')
+            has_choices = (len(choices) > 1)
             
+            if is_valid_type and has_choices:
+                filtered.append(item)
+
+        elif mode == 'open':
+            
+            is_open = (q_type_raw == 'open')
+            
+            is_fill_in = ('fill' in ex_type_raw)
+            
+            if is_open or (is_fill_in and not choices):
+                filtered.append(item)
+
+    print(f"✅ Found {len(filtered)} items for mode '{mode}'.")
     return filtered
+    
+    #filtered = []
+    
+    #subjects = ['modern greek', 'mathematics', 'physics', 'religious studies']
+    #target_types = ['multiple choice', 'true/false', 'fill-in-the-gaps', 'matching'] 
+    
+    #for item in dataset:
+        # 1. Καθαρισμός δεδομένων (lower + strip) για να αποφύγουμε λάθη κεφαλαίων/κενών
+        #subj = str(item.get('subject', '')).lower().strip()
+        #q_type = str(item.get('question_type', '')).lower().strip()
+        #exercise_type = str(item.get('exercise_type', '')).lower().strip()
+        
+        # 2. Ασφαλής ανάγνωση των Choices (αν είναι string το κάνουμε list)
+        #choices = item.get('choices', [])
+        
+        #if isinstance(choices, str):
+            #try:
+                #choices = ast.literal_eval(choices)
+            #except:
+                #choices = [] 
+                
+        #if choices is None:
+            #choices = []
+
+        #if (subj in subjects and 
+            #q_type == 'closed' and                      
+            #exercise_type in target_types and
+            #len(choices) > 1):              
+            
+            #filtered.append(item)
+            
+    #return filtered
 
 def load_protipa_dataset(repo_id="PennyK98/protipa_exams_dataset", split=None):
     """

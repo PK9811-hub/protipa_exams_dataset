@@ -31,5 +31,6 @@ metric_list:
   metric: chrf
 num_fewshot: 0
 output_type: generate_until
+process_results: !!python/name:protipa_exams_dataset.data_loader.process_results_open ''
 task: greek_protipa_exams_open
 test_split: train

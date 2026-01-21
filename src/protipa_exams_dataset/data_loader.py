@@ -68,37 +68,6 @@ def filter_dataset(dataset, mode = 'closed'):
     print(f"✅ Found {len(filtered)} items for mode '{mode}'.")
     return filtered
     
-    #filtered = []
-    
-    #subjects = ['modern greek', 'mathematics', 'physics', 'religious studies']
-    #target_types = ['multiple choice', 'true/false', 'fill-in-the-gaps', 'matching'] 
-    
-    #for item in dataset:
-        # 1. Καθαρισμός δεδομένων (lower + strip) για να αποφύγουμε λάθη κεφαλαίων/κενών
-        #subj = str(item.get('subject', '')).lower().strip()
-        #q_type = str(item.get('question_type', '')).lower().strip()
-        #exercise_type = str(item.get('exercise_type', '')).lower().strip()
-        
-        # 2. Ασφαλής ανάγνωση των Choices (αν είναι string το κάνουμε list)
-        #choices = item.get('choices', [])
-        
-        #if isinstance(choices, str):
-            #try:
-                #choices = ast.literal_eval(choices)
-            #except:
-                #choices = [] 
-                
-        #if choices is None:
-            #choices = []
-
-        #if (subj in subjects and 
-            #q_type == 'closed' and                      
-            #exercise_type in target_types and
-            #len(choices) > 1):              
-            
-            #filtered.append(item)
-            
-    #return filtered
 
 def load_protipa_dataset(repo_id="PennyK98/protipa_exams_dataset", split=None):
     """
@@ -257,3 +226,23 @@ def clean_dataset_paths(df):
         df.loc[:, 'source_file'] = df['source_file'].apply(get_basename)
         
     return df
+
+def process_results_open(doc, results):
+    """
+    Προετοιμάζει τα δεδομένα για τις μετρικές BLEU/ChrF στα Open-Ended tasks.
+    Τοποθετεί το Ground Truth μέσα σε λίστα [] (list of lists) γιατί έτσι 
+    απαιτούν οι βιβλιοθήκες 'sacrebleu'/'evaluate' για να μην βγάλουν 0.0.
+    """
+    # Η απάντηση που έδωσε το μοντέλο (String)
+    # Το lm-eval επιστρέφει λίστα, παίρνουμε το πρώτο στοιχείο
+    completion = results[0]
+    
+    # Η σωστή απάντηση (String) από το dataset
+    target = doc["answer"]
+    
+    # Επιστρέφουμε ένα λεξικό που αντιστοιχεί κάθε μετρική 
+    # στη μορφή: (prediction, reference)
+    return {
+        "bleu": (completion, [target]),  
+        "chrf": (completion, [target])
+    }

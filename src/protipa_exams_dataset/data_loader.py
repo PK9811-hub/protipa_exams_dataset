@@ -21,7 +21,7 @@ def filter_dataset(dataset, mode = 'closed'):
     """
     filtered = []
     
-    subjects = ['modern greek', 'mathematics', 'physics', 'religious studies']
+    subjects = ['greek_language', 'mathematics', 'physics', 'religious studies']
     
     # Ορίζουμε τι ψάχνουμε ανάλογα με το mode
     if mode == 'closed':

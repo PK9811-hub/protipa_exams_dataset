@@ -7,7 +7,7 @@ from pathlib import Path
 import ast
 import random
 from datasets import Dataset
-from huggingface_hub import create_repo, repo_exists
+from huggingface_hub import create_repo, repo_exists, HfApi
 from dotenv import load_dotenv, find_dotenv
 
 # Initialize dotenv
@@ -181,11 +181,50 @@ def transform_matching_question(row, seed=42):
     row['answer_index'] = correct_index
     return row
 
+def apply_structural_tags(row):
+    """Adds format_type, dependency_type, and input_context_type based on row essence."""
+    # 1. format_type
+    et = row.get('exercise_type')
+    ft_map = {
+        'multiple choice': 'multiple_choice',
+        'true/false': 'true_false',
+        'matching': 'matching_transformed',
+        'fill-in-the-gaps': 'fill_in_the_gaps',
+        'open': 'open_ended'
+    }
+    row['format_type'] = ft_map.get(et, 'open_ended')
+
+    # 2. dependency_type
+    image = row.get('image')
+    subj = str(row.get('subject', '')).lower()
+    inp = str(row.get('input', ''))
+    
+    if image:
+        row['dependency_type'] = 'visual_asset'
+    elif any(kw in inp for kw in ['Πίνακας', 'Πρόγραμμα', 'Πίνακα']):
+        row['dependency_type'] = 'table_structured'
+    elif (subj in ['greek_language', 'religious studies', 'γλωσσα', 'θρησκευτικα']) and len(inp) > 200:
+        row['dependency_type'] = 'text_passage'
+    else:
+        row['dependency_type'] = 'stand_alone'
+
+    # 3. input_context_type
+    if not inp or inp.strip() == "":
+        row['input_context_type'] = 'none'
+    elif subj in ['mathematics', 'μαθηματικα', 'physics', 'φυσικη']:
+        row['input_context_type'] = 'problem_description'
+    elif subj in ['greek_language', 'γλωσσα']:
+        row['input_context_type'] = 'reading_text'
+    else:
+        row['input_context_type'] = 'mixed_markup'
+    
+    return row
+
 # --- CORE LOGIC ---
 
-def consolidate(subset=None):
+def consolidate(subset=None, extended=False):
     """Stages A, B, and C: Data consolidation and processing."""
-    print(f"🚀 Starting consolidation... {'[Subset: ' + subset + ']' if subset else '[Full Dataset]'}")
+    print(f"🚀 Starting consolidation {'[Extended]' if extended else ''}... {'[Subset: ' + subset + ']' if subset else '[Full Dataset]'}")
     all_data = []
     data_root = Path("data")
     
@@ -222,13 +261,14 @@ def consolidate(subset=None):
                     id_counter[label_id] = 1
                     suffix = ""
                 
-                bn = jf.replace("ΘΕΜΑΤΑ_", "").replace(".json", "").lower()
-                mapping = {"γλωσσα_γυμνασιο": "greeklang_gym", "γλωσσα_λυκειο": "greeklang_lyc",
-                           "μαθηματικα_γυμνασιο": "math_gym", "μαθηματικα_λυκειο": "math_lyc",
-                           "θρησκευτικα_γυμνασιο": "relig_gym", "θρησκευτικα_λυκειο": "relig_lyc",
-                           "φυσικη_γυμνασιο": "phys_gym"}
-                for k, v in mapping.items(): bn = bn.replace(k, v)
-                unique_id = f"{bn}_{label_id}{suffix}"
+                # Construct clean ID components
+                subj_id_map = {"ΓΛΩΣΣΑ": "greek_language", "ΜΑΘΗΜΑΤΙΚΑ": "math", "ΘΡΗΣΚΕΥΤΙΚΑ": "relig", "ΦΥΣΙΚΗ": "phys"}
+                lvl_id_map = {"ΓΥΜΝΑΣΙΟ": "gym", "ΛΥΚΕΙΟ": "lyc"}
+                
+                subj_part = subj_id_map.get(subject, subject.lower())
+                lvl_part = lvl_id_map.get(level, level.lower())
+                
+                unique_id = f"{subj_part}_{lvl_part}_{year}_{series}_{label_id}{suffix}"
 
                 ans_list = answers_pool.get(label_id, [])
                 idx = ans_tracker.get(label_id, 0)
@@ -256,10 +296,10 @@ def consolidate(subset=None):
                 ex_type = detect_exercise_type(q_text, q_choices)
                 
                 row = {
-                    "unique_id": unique_id,
+                    "id": unique_id,
                     "subject": subject,
                     "school_level": level,
-                    "year": int(year),
+                    "year": str(year),
                     "series": series,
                     "label_id": label_id,
                     "question": q_text,
@@ -278,6 +318,9 @@ def consolidate(subset=None):
                 
                 if ex_type == 'matching':
                     row = transform_matching_question(row)
+                
+                if extended:
+                    row = apply_structural_tags(row)
                     
                 all_data.append(row)
 
@@ -288,13 +331,16 @@ def consolidate(subset=None):
     df = pd.DataFrame(all_data)
     
     # Normalization & Labeling (Stage B/C)
-    subject_map = {"ΓΛΩΣΣΑ": "modern greek", "ΜΑΘΗΜΑΤΙΚΑ": "mathematics", "ΘΡΗΣΚΕΥΤΙΚΑ": "religious studies", "ΦΥΣΙΚΗ": "physics"}
+    subject_map = {"ΓΛΩΣΣΑ": "greek_language", "ΜΑΘΗΜΑΤΙΚΑ": "mathematics", "ΘΡΗΣΚΕΥΤΙΚΑ": "religious studies", "ΦΥΣΙΚΗ": "physics"}
     level_map = {"ΓΥΜΝΑΣΙΟ": "gymnasium", "ΛΥΚΕΙΟ": "lyceum"}
     df['subject'] = df['subject'].replace(subject_map)
     df['school_level'] = df['school_level'].replace(level_map)
     
     # Organize columns
-    fixed_cols = ['unique_id', 'subject', 'school_level', 'year', 'series', 'label_id']
+    fixed_cols = ['id', 'subject', 'school_level', 'year', 'series', 'label_id']
+    if extended:
+        fixed_cols += ['format_type', 'dependency_type', 'input_context_type']
+        
     df = df[fixed_cols + [c for c in df.columns if c not in fixed_cols]]
     
     # Ensure image lists are stringified consistently for Excel comparison if needed
@@ -312,11 +358,11 @@ def compare(current_df, reference_file):
     print(f"🔍 Comparing with {reference_file}...")
     ref_df = pd.read_excel(reference_file)
     
-    # Merge on unique_id
+    # Merge on id
     merged = pd.merge(
         current_df, 
         ref_df, 
-        on='unique_id', 
+        on='id', 
         suffixes=('_cur', '_ref'), 
         how='outer', 
         indicator=True
@@ -332,9 +378,9 @@ def compare(current_df, reference_file):
     print(f"   - Only in Reference: {len(only_ref)}")
     
     if not only_cur.empty:
-        print(f"⚠️ IDs in current but missing in reference (first 5): {only_cur['unique_id'].head().tolist()}")
+        print(f"⚠️ IDs in current but missing in reference (first 5): {only_cur['id'].head().tolist()}")
     if not only_ref.empty:
-        print(f"⚠️ IDs in reference but missing in current (first 5): {only_ref['unique_id'].head().tolist()}")
+        print(f"⚠️ IDs in reference but missing in current (first 5): {only_ref['id'].head().tolist()}")
 
     # Compare values for rows that exist in both
     cols_to_check = ['subject', 'school_level', 'year', 'answer', 'exercise_type']
@@ -349,7 +395,7 @@ def compare(current_df, reference_file):
         mismatch = (both[col_cur].astype(str).str.strip() != both[col_ref].astype(str).str.strip())
         if mismatch.any():
             print(f"❌ Mismatch in column '{col}': {mismatch.sum()} differences.")
-            print(both[mismatch][['unique_id', col_cur, col_ref]].head())
+            print(both[mismatch][['id', col_cur, col_ref]].head())
         else:
             print(f"✅ Column '{col}' matches perfectly.")
 
@@ -358,6 +404,7 @@ def push_to_hub(df):
     repo_id = os.getenv("HF_REPO_ID")
     token = os.getenv("HF_TOKEN")
     is_private = os.getenv("HF_PRIVATE_REPO", "True").lower() == "true"
+    gated_setting = os.getenv("HF_GATED_REPO", "False").lower() # False, True, or 'manual'
     
     if not repo_id:
         print("❌ Error: HF_REPO_ID not found in .env")
@@ -366,17 +413,34 @@ def push_to_hub(df):
     if not token:
         print("⚠️ Warning: HF_TOKEN not found in .env. Pushing to a private or restricted repo might fail.")
     
-    print(f"📤 Preparing to push to Hugging Face Hub: {repo_id} (Private: {is_private})")
+    print(f"📤 Preparing to push to Hugging Face Hub: {repo_id} (Private: {is_private}, Gated: {gated_setting})")
     
     try:
         if not repo_exists(repo_id=repo_id, token=token, repo_type="dataset"):
             print(f"🔨 Repository does not exist. Creating {repo_id}...")
             create_repo(repo_id=repo_id, token=token, private=is_private, repo_type="dataset")
             print(f"✅ Created repository: {repo_id}")
+            
+        # Handle Gating
+        if gated_setting in ["true", "manual"]:
+            print(f"🔒 Setting repository gating to: {gated_setting}...")
+            api = HfApi()
+            # If 'true' in .env, we map to True (auto-accept). If 'manual', we keep 'manual'.
+            val = True if gated_setting == "true" else "manual"
+            api.update_repo_settings(repo_id=repo_id, gated=val, token=token, repo_type="dataset")
+            print(f"✅ Gating applied.")
+
     except Exception as e:
-        print(f"⚠️ Error checking/creating repository: {e}")
+        print(f"⚠️ Error during repo setup/gating: {e}")
 
     print(f"📊 Pushing {len(df)} rows...")
+    
+    # Force string type for year and series to prevent numeric formatting on HF
+    if 'year' in df.columns:
+        df['year'] = df['year'].astype(str)
+    if 'series' in df.columns:
+        df['series'] = df['series'].astype(str)
+        
     dataset = Dataset.from_pandas(df)
     
     try:
@@ -396,6 +460,11 @@ def main():
     con_parser.add_argument("--subset", type=str, help="Subset path (e.g., '2025/ΓΥΜΝΑΣΙΟ')")
     con_parser.add_argument("--output", type=str, default="protipa_exams_dataset.xlsx", help="Output filename")
 
+    # Consolidate New command
+    con_new_parser = subparsers.add_parser("consolidate_new", help="Stages A-C with Structural Tagging")
+    con_new_parser.add_argument("--subset", type=str, help="Subset path")
+    con_new_parser.add_argument("--output", type=str, default="protipa_exams_dataset_new.xlsx", help="Output filename")
+
     # Compare command
     comp_parser = subparsers.add_parser("compare", help="Compare current data with reference")
     comp_parser.add_argument("--reference", type=str, required=True, help="Reference Excel file")
@@ -409,6 +478,18 @@ def main():
 
     if args.command == "consolidate":
         df = consolidate(args.subset)
+        if not df.empty:
+            # Clean illegal characters for Excel
+            def clean_illegal(val):
+                if isinstance(val, str):
+                    return "".join(c for c in val if c.isprintable() or c in "\n\r\t")
+                return val
+            df = df.map(clean_illegal)
+            df.to_excel(args.output, index=False)
+            print(f"💾 Saved to {args.output}")
+
+    elif args.command == "consolidate_new":
+        df = consolidate(args.subset, extended=True)
         if not df.empty:
             # Clean illegal characters for Excel
             def clean_illegal(val):

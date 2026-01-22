@@ -5,6 +5,9 @@ import logging
 import os
 import pandas as pd
 from datasets import load_dataset, concatenate_datasets
+from dotenv import load_dotenv, find_dotenv
+
+load_dotenv(find_dotenv())
 
 logger = logging.getLogger(__name__)
 
@@ -69,10 +72,13 @@ def filter_dataset(dataset, mode = 'closed'):
     return filtered
     
 
-def load_protipa_dataset(repo_id="PennyK98/protipa_exams_dataset", split=None):
+def load_protipa_dataset(repo_id=None, split=None):
     """
     Loads and concatenates train and test splits if split is not specified.
     """
+    if repo_id is None:
+        repo_id = os.getenv("HF_REPO_ID", "PK9811-hub/protipa_exams_dataset")
+    
     logger.info(f"Loading dataset from Hugging Face: {repo_id}")
     dataset_dict = load_dataset(repo_id)
     

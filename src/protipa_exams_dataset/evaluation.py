@@ -1,6 +1,7 @@
 import os
 import traceback
 import lm_eval
+import logging
 from lm_eval.models.openai_completions import OpenAIChatCompletion
 from lm_eval.tasks import ConfigurableTask
 from dotenv import load_dotenv, find_dotenv

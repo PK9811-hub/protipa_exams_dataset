@@ -246,3 +246,17 @@ def process_results_open(doc, results):
         "bleu": (completion, [target]),  
         "chrf": (completion, [target])
     }
+
+def process_results_bypass(doc, results):
+    """
+    Απλή συνάρτηση που επιστρέφει τα δεδομένα για exact_match.
+    Σκοπός: Να αποφύγουμε το crash του BLEU στο lm-eval.
+    Οι πραγματικές μετρικές (BLEU/ChrF) θα υπολογιστούν μετά, στα RQ cells.
+    """
+    completion = results[0]
+    target = doc["answer"]
+    
+    # Επιστρέφουμε 'exact_match' που είναι native και δεν κρασάρει με tuples
+    return {
+        "exact_match": (completion, target)
+    }

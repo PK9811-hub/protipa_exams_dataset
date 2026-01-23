@@ -4,7 +4,7 @@
 
 The GR-ProtipaExams project introduces a comprehensive, structured dataset, called “GR-ProtipaExams”, derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Protipa and Peiramatika Schools) in Greece. This dataset spans the years 2013 to 2025 and covers core secondary education subjects.
 
-The primary goal is to provide a standardized resource for educational research, quantitative statistical analysis, and, particularly, for training, finetuning, and evaluating Large Language Models (LLMs) on complex, multi-subject assessment tasks in the Greek language.
+The primary goal of this repository is to establish a rigorous, standardized benchmark for the **evaluation of Large Language Models (LLMs)** on complex, multi-subject assessment tasks in the Greek language. Additionally, it serves as a high-quality resource for educational research and quantitative statistical analysis.
 
 ---
 

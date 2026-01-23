@@ -2,7 +2,9 @@
 
 **Overview**
 
-The GR-ProtipaExams project introduces a comprehensive, structured dataset, called “GR-ProtipaExams”, derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Protipa and Peiramatika Schools) in Greece. Spanning from 2013 to 2025, the dataset provides a rich diversity of:
+The GR-ProtipaExams project introduces a comprehensive, structured dataset, called “GR-ProtipaExams”, derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Πρότυπα και Πειραματικά Σχολεία) in Greece.
+
+Spanning from 2013 to 2025, the dataset provides a rich diversity of:
 
 *   **Subjects**: Core curriculum coverage including Greek Language, Mathematics, Physics, and Religious Studies.
 *   **Educational Levels**: Questions targeted at both Gymnasium and Lyceum entrance requirements.
@@ -10,6 +12,11 @@ The GR-ProtipaExams project introduces a comprehensive, structured dataset, call
 *   **Modalities**: Native support for **multimodal evaluation**, featuring high-fidelity images/diagrams, textual transcriptions, and structural references (tables and passages).
 
 The primary goal of this repository is to establish a rigorous, standardized benchmark for the **evaluation of Large Language Models (LLMs)** on complex, multi-subject assessment tasks in the Greek language. Additionally, it serves as a high-quality resource for educational research and quantitative statistical analysis.
+
+ The source material was obtained from the official portal of the **Governing Body of Model and Experimental Schools** ([https://depps.minedu.gov.gr/](https://depps.minedu.gov.gr/)).
+
+> [!IMPORTANT]
+> **Disclaimer**: While the source material is official, any errors, omissions, or formatting issues within this structured dataset are the result of the processing and transformation pipeline and are **not related** to the original source or the Ministry of Education.
 
 ---
 

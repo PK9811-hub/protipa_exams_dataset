@@ -14,36 +14,47 @@ The primary goal of this repository is to establish a rigorous, standardized ben
  The source material was obtained from the official portal of the **Governing Body of Model and Experimental Schools** ([https://depps.minedu.gov.gr/](https://depps.minedu.gov.gr/)).
 
 > [!IMPORTANT]
-> **Disclaimer**: While the source material is official, any errors, omissions, or formatting issues within this structured dataset are the result of the processing and transformation pipeline and are **not related** to the original source or the Ministry of Education.
+> **Disclaimer**: While every effort has been made to ensure the accuracy and completeness of this structured dataset, any errors, omissions, or formatting issues are the result of the processing and transformation pipeline and are **not related** to the original source or the Ministry of Education.
 
 ---
 
-The dataset is available on Hugging Face at [https://huggingface.co/ilsp/GR-ProtipaExams](https://huggingface.co/ilsp/[PLACEHOLDER]).
+The dataset is available on Hugging Face at [https://huggingface.co/ilsp/GR-ProtipaExams](https://huggingface.co/ilsp/GR-ProtipaExams).
+
+If you make use of this dataset, please consider citing it as follows:
+
+```bibtex
+@misc{ilsp-gr-protipa-exams,
+    author = {Kyriazi, Penny and Prokopidis, Prokopis},
+    title = {GR-ProtipaExams},
+    howpublished = {\url{https://huggingface.co/ilsp/GR-ProtipaExams}},
+    year = {2025}
+}
+```
 
 ## 🚀 Hugging Face Benchmark Schema
 
-This is the primary public version of the dataset, optimized for machine learning evaluation and high-speed browsing. It follows a **Narrative Flow** to provide immediate context for researchers.
+This is the primary public version of the dataset, optimized for machine learning evaluation and high-speed browsing. 
 
 ### **Dataset Columns**
 
 | Column | Description |
 |--------|-------------|
-| **id** | Standardized unique identifier for the row entry (breadcrumb format). |
-| **subject** | The academic subject (e.g., `greek_language`, `mathematics`, `physics`, `religious studies`). |
-| **format** | **(Structural)** Interaction format: `multiple_choice`, `true_false`, `matching`, `fill_in_the_gaps`, `open_ended`. |
-| **reference** | **(Structural)** Contextual requirement/addenda: `passage`, `multimodal`, `table`, `none`. |
-| **question** | The introductory text/core task. |
-| **input** | Supplementary text (passages, diagram descriptions). |
+| **id** | Unique identifier. |
+| **subject** | Academic subject (including `greek_language`, `mathematics`, `physics`, `religious studies`). |
+| **format** | `multiple_choice`, `true_false`, `matching`, `fill_in_the_gaps`, `open_ended`. |
+| **reference** | Additional reference inputs: (text) `passage`, `multimodal`, `table`, `none`. |
+| **question** | The core question. |
+| **input** | Supplementary text (passages, diagram and image presentations). |
 | **images** | **(Visual)** The actual image asset(s) rendered as pixel data. |
 | **choices** | Candidate answers for closed-ended questions. |
 | **answer_text** | The processed, validated answer/solution (string). |
-| **answer_index** | The numeric mapping of the answer (for programmatic evaluation). |
+| **answer_index** | The numeric mapping of the answer for closed-ended questions. |
 | **image_description** | Detailed textual proxy for visual content. |
 | **image_transcription** | OCR/Text extraction from within the visual assets. |
-| **points** | Assigned point value for the question (numeric). |
+| **points** | Assigned point value for the question (numeric). May be missing in the source. |
 | **year** | The year of the exam. |
 | **admission_level** | The target education level: `gymnasium` or `lyceum`. |
-| **exam_set** | The ID of the exam batch/paper (e.g., 1, 2). |
+| **exam_set** | The ID of the exam batch/paper (e.g., 1, 2) |
 | **q_id** | The specific ID/number of the question within its set. |
 
 ### **Usage (Hugging Face)**
@@ -52,7 +63,7 @@ This is the primary public version of the dataset, optimized for machine learnin
 from datasets import load_dataset
 
 # Load the benchmark test split
-dataset = load_dataset("PK9811/gr-protipa-exams", split="test")
+dataset = load_dataset("ilsp/GR-ProtipaExams", split="test")
 
 # Access multimodal content
 sample = dataset[0]
@@ -104,25 +115,11 @@ While the public benchmark is polished for evaluation, the internal artifacts co
 
 ---
 
-## 🏗️ Schema Evolution & Rationale
-
-We introduced the **Structural Duo** to shift the dataset from a simple "data dump" to a **diagnostic benchmark**.
-
-### **The Structural Duo**
-
-1. **`format`** (The Interaction Model): Defines *how* the model must interact with the answer space (e.g., `matching` vs `multiple_choice`).
-2. **`reference`** (The Data Requirement): Identifies *which* additional asset type (addenda) is required. This allows for pinpointing failure points: Is it a reading error (`passage`) or a vision error (`multimodal`)?
-
-### **Deterministic Heuristics**
-Instead of black-box AI tagging, we use consistent, rule-based heuristics:
-- `len(input) > 200` $\rightarrow$ triggers **`passage`**.
-- Subject mapping + Regex $\rightarrow$ triggers **`format`**.
-
----
-
 ## 🛠️ Getting Started (Developer)
 
 1. **Install**: `uv sync`
 2. **Configure**: Set `HF_TOKEN` and `HF_REPO_ID` in your `.env`.
 3. **Consolidate**: `uv run scripts/manage.py consolidate_new --extended`
 4. **Push**: `uv run scripts/manage.py push --extended --with-images`
+
+

@@ -40,11 +40,11 @@
       "Δ. $44\\pi cm^{2}$"
     ],
     "images": [
-        {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_23_ΕΙΚΟΝΑ_1.png",
-          "description": "The image displays a geometry problem involving a large circle with a horizontal diameter labeled AB.\nGeometric Construction:\nDiameter: The segment AB is the diameter of the large outer circle.\nPoint Γ: A point Γ lies on the diameter, dividing it into two segments:\nSegment AΓ with a labeled length of 2.\nSegment ΓB with a labeled length of 6.\nSemicircles: Two smaller white semicircles are inscribed within the large circle:\n1.  A semicircle with diameter AΓ, positioned below the line AB.\n 2.  A semicircle with diameter ΓB, positioned above the line AB.\nShaded Region: The area of the large circle is shaded grey, excluding the two smaller white semicircles described above.",
-          "transcription": []
-        }
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_23_ΕΙΚΟΝΑ_1.png",
+        "description": "The image displays a geometry problem involving a large circle with a horizontal diameter labeled AB.\nGeometric Construction:\nDiameter: The segment AB is the diameter of the large outer circle.\nPoint Γ: A point Γ lies on the diameter, dividing it into two segments:\nSegment AΓ with a labeled length of 2.\nSegment ΓB with a labeled length of 6.\nSemicircles: Two smaller white semicircles are inscribed within the large circle:\n1.  A semicircle with diameter AΓ, positioned below the line AB.\n 2.  A semicircle with diameter ΓB, positioned above the line AB.\nShaded Region: The area of the large circle is shaded grey, excluding the two smaller white semicircles described above.",
+        "transcription": []
+      }
     ],
     "mark": [
       "Μονάδες 2"
@@ -76,11 +76,11 @@
       "Δ. $\\frac{3\\varphi}{2}=\\hat{\\omega}$"
     ],
     "images": [
-        {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_25_ΕΙΚΟΝΑ_2.png",
-          "description": "The image displays a geometric diagram featuring a triangle labeled ΑΒΓ.\nGeometric Elements:\nTriangle: The primary figure is a triangle with vertices A (top), B (bottom left), and Γ (bottom right).\nDashed Line: A vertical dashed line segment extends from vertex A down to a point M on the base ΒΓ.\nPerpendicular Segment: A solid line segment connects point M to a point E on the side ΑΓ. A square symbol at point E indicates that the segment ME is perpendicular to the side ΑΓ ($90^\\circ$ angle).\nLabeled Angles:\nAngle φ: The angle at the top vertex A is marked with double green arcs and labeled with the Greek letter φ (phi).\nAngle ω: The angle formed at point M between the segment ME and the base segment MΓ (angle $\\angle \\Gamma ME$) is marked with a single arc and labeled with the Greek letter ω (omega).",
-          "transcription": []
-        }
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_25_ΕΙΚΟΝΑ_2.png",
+        "description": "The image displays a geometric diagram featuring a triangle labeled ΑΒΓ.\nGeometric Elements:\nTriangle: The primary figure is a triangle with vertices A (top), B (bottom left), and Γ (bottom right).\nDashed Line: A vertical dashed line segment extends from vertex A down to a point M on the base ΒΓ.\nPerpendicular Segment: A solid line segment connects point M to a point E on the side ΑΓ. A square symbol at point E indicates that the segment ME is perpendicular to the side ΑΓ ($90^\\circ$ angle).\nLabeled Angles:\nAngle φ: The angle at the top vertex A is marked with double green arcs and labeled with the Greek letter φ (phi).\nAngle ω: The angle formed at point M between the segment ME and the base segment MΓ (angle $\\angle \\Gamma ME$) is marked with a single arc and labeled with the Greek letter ω (omega).",
+        "transcription": []
+      }
     ],
     "mark": [
       "Μονάδες 2"
@@ -97,11 +97,11 @@
       "Δ. $E_{2}=\\frac{3E_{1}}{2}$"
     ],
     "images": [
-        {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_26_ΕΙΚΟΝΑ_3.png",
-          "description": "The image displays a geometric diagram plotted on a Cartesian coordinate system (x and y axes).\nPoints and Coordinates:\nPoint O: The origin $(0,0)$.\nPoint A: Located on the positive x-axis with coordinates $(\\kappa, 0)$. A right-angle symbol indicates that the segment $AM$ is perpendicular to the x-axis.\nPoint B: Located on the positive y-axis with coordinates $(0, 2\\lambda)$.\nPoint M: Located in the first quadrant with coordinates $(\\kappa, \\lambda)$.\nGeometric Figures & Lines:\nQuadrilateral OAMB: A shaded polygon is formed by connecting the points in the order $O \rightarrow A \rightarrow M \rightarrow B \rightarrow O$.\nThis divides into two shaded triangles: Triangle OAM and Triangle OBM.\nSegment AM: A vertical line connecting A to M.\nSegment OM: A straight line connecting the origin O to M.\nSegment BM: A straight line connecting B to M.\nSegment AB: A thin line segment connects B directly to A, intersecting the segment OM.\nVisual Observations:\nThe height of point B ($2\\lambda$) is visually twice the height of point M ($\\lambda$).\nThe x-coordinate of M is the same as A ($\\kappa$), aligning them vertically.\nThe entire region bounded by the quadrilateral OAMB is shaded in light grey.",
-          "transcription": []
-        }
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_26_ΕΙΚΟΝΑ_3.png",
+        "description": "The image displays a geometric diagram plotted on a Cartesian coordinate system (x and y axes).\nPoints and Coordinates:\nPoint O: The origin $(0,0)$.\nPoint A: Located on the positive x-axis with coordinates $(\\kappa, 0)$. A right-angle symbol indicates that the segment $AM$ is perpendicular to the x-axis.\nPoint B: Located on the positive y-axis with coordinates $(0, 2\\lambda)$.\nPoint M: Located in the first quadrant with coordinates $(\\kappa, \\lambda)$.\nGeometric Figures & Lines:\nQuadrilateral OAMB: A shaded polygon is formed by connecting the points in the order $O \rightarrow A \rightarrow M \rightarrow B \rightarrow O$.\nThis divides into two shaded triangles: Triangle OAM and Triangle OBM.\nSegment AM: A vertical line connecting A to M.\nSegment OM: A straight line connecting the origin O to M.\nSegment BM: A straight line connecting B to M.\nSegment AB: A thin line segment connects B directly to A, intersecting the segment OM.\nVisual Observations:\nThe height of point B ($2\\lambda$) is visually twice the height of point M ($\\lambda$).\nThe x-coordinate of M is the same as A ($\\kappa$), aligning them vertically.\nThe entire region bounded by the quadrilateral OAMB is shaded in light grey.",
+        "transcription": []
+      }
     ],
     "mark": [
       "Μονάδες 2"
@@ -118,11 +118,11 @@
       "Δ. $y=-\\frac{3}{2}x+2\\sqrt{3}$"
     ],
     "images": [
-        {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_4/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_27_ΕΙΚΟΝΑ_4.png",
-          "description": "The image displays a geometric diagram plotted on a Cartesian coordinate system.\nVisual Elements:\nAxes: A horizontal x-axis and a vertical y-axis intersecting at the origin O.\nLine ε: A straight line labeled with the Greek letter ε (epsilon) is drawn. It has a negative slope and intersects both the positive y-axis and the positive x-axis, forming a right-angled triangle with the coordinate axes in the first quadrant.\nAngle ω: An angle labeled ω (omega) is marked at the intersection of the line ε and the x-axis. A green arc indicates that ω is the acute interior angle formed between the horizontal x-axis and the line.",
-          "transcription": []
-        }
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_4/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_27_ΕΙΚΟΝΑ_4.png",
+        "description": "The image displays a geometric diagram plotted on a Cartesian coordinate system.\nVisual Elements:\nAxes: A horizontal x-axis and a vertical y-axis intersecting at the origin O.\nLine ε: A straight line labeled with the Greek letter ε (epsilon) is drawn. It has a negative slope and intersects both the positive y-axis and the positive x-axis, forming a right-angled triangle with the coordinate axes in the first quadrant.\nAngle ω: An angle labeled ω (omega) is marked at the intersection of the line ε and the x-axis. A green arc indicates that ω is the acute interior angle formed between the horizontal x-axis and the line.",
+        "transcription": []
+      }
     ],
     "mark": [
       "Μονάδες 2"
@@ -154,11 +154,11 @@
       "Δ. $\\frac{100}{7}cm$"
     ],
     "images": [
-        {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_5/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_29_ΕΙΚΟΝΑ_5.png",
-          "description": "The image displays a geometric diagram of a quadrilateral, specifically a rhombus, labeled with vertices A, B, Γ, and Δ.\nGeometric Elements:\nShape: A diamond-shaped quadrilateral with vertices positioned as follows: A (left), B (top), Γ (right), and Δ (bottom).\nDiagonal: A vertical line segment connects vertex B to vertex Δ. It is explicitly labeled with the length 20.\nSide: The upper-left side connecting A to B is labeled with the letter $\\alpha$.\nAngle: The angle formed between the side AB and the diagonal BΔ (angle $\\angle AB\\Delta$) is marked with an arc and labeled with the Greek letter $\\phi$ (phi).",
-          "transcription": []
-        }
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_5/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_29_ΕΙΚΟΝΑ_5.png",
+        "description": "The image displays a geometric diagram of a quadrilateral, specifically a rhombus, labeled with vertices A, B, Γ, and Δ.\nGeometric Elements:\nShape: A diamond-shaped quadrilateral with vertices positioned as follows: A (left), B (top), Γ (right), and Δ (bottom).\nDiagonal: A vertical line segment connects vertex B to vertex Δ. It is explicitly labeled with the length 20.\nSide: The upper-left side connecting A to B is labeled with the letter $\\alpha$.\nAngle: The angle formed between the side AB and the diagonal BΔ (angle $\\angle AB\\Delta$) is marked with an arc and labeled with the Greek letter $\\phi$ (phi).",
+        "transcription": []
+      }
     ],
     "mark": [
       "Μονάδες 2"
@@ -175,11 +175,11 @@
       "Δ. $27,5\\%$"
     ],
     "images": [
-        {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_6/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_30_ΕΙΚΟΝΑ_6.png",
-          "description": "The image displays two circular pie charts side-by-side, representing the statistical distribution of music preferences between two groups based on gender.\nLeft Chart: Labeled \"Κορίτσια\" (Girls). It is divided into three sectors with distinct fill patterns.\nRight Chart: Labeled \"Αγόρια\" (Boys). It is also divided into three sectors with distinct fill patterns.",
-          "transcription": "1. Left Chart: Girls (Κορίτσια)\nΈντεχνα (Art Music/Ballads):*\n40% (Represented by vertical stripes)\nRock:*\n30% (Represented by a diagonal cross-hatch pattern)\nK-pop:*\n30% (Represented by a dotted pattern)\n2. Right Chart: Boys (Αγόρια)\nΈντεχνα (Art Music/Ballads):*\n35% (Represented by vertical stripes)\nRock:*\n40% (Represented by a brick-like grid pattern)\nK-pop:*\n25% (Represented by a dotted pattern)"
-        }
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_6/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_30_ΕΙΚΟΝΑ_6.png",
+        "description": "The image displays two circular pie charts side-by-side, representing the statistical distribution of music preferences between two groups based on gender.\nLeft Chart: Labeled \"Κορίτσια\" (Girls). It is divided into three sectors with distinct fill patterns.\nRight Chart: Labeled \"Αγόρια\" (Boys). It is also divided into three sectors with distinct fill patterns.",
+        "transcription": "1. Left Chart: Girls (Κορίτσια)\nΈντεχνα (Art Music/Ballads):*\n40% (Represented by vertical stripes)\nRock:*\n30% (Represented by a diagonal cross-hatch pattern)\nK-pop:*\n30% (Represented by a dotted pattern)\n2. Right Chart: Boys (Αγόρια)\nΈντεχνα (Art Music/Ballads):*\n35% (Represented by vertical stripes)\nRock:*\n40% (Represented by a brick-like grid pattern)\nK-pop:*\n25% (Represented by a dotted pattern)"
+      }
     ],
     "mark": [
       "Μονάδες 2"
@@ -197,11 +197,11 @@
       "Ε. $x=11$"
     ],
     "images": [
-        {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_7/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_31_ΕΙΚΟΝΑ_7.png",
-          "description": "The image displays a rectangular geometric diagram resembling a flag, labeled with vertices A (top left), B (bottom left), Γ (bottom right), and Δ (top right).\nVisual Composition:\nPattern: A large white cross is positioned within the rectangle, dividing the background into four smaller shaded (grey) rectangles at the corners.\nDimensions: The cross is formed by a horizontal strip and a vertical strip intersecting perpendicularly. The width of these strips is constant and explicitly labeled as \n$x$ at four positions along the perimeter:\nOn the left side AB.\nOn the top side AΔ.\nOn the right side ΔΓ.\nOn the bottom side BΓ.",
-          "transcription": []
-        }
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_7/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_31_ΕΙΚΟΝΑ_7.png",
+        "description": "The image displays a rectangular geometric diagram resembling a flag, labeled with vertices A (top left), B (bottom left), Γ (bottom right), and Δ (top right).\nVisual Composition:\nPattern: A large white cross is positioned within the rectangle, dividing the background into four smaller shaded (grey) rectangles at the corners.\nDimensions: The cross is formed by a horizontal strip and a vertical strip intersecting perpendicularly. The width of these strips is constant and explicitly labeled as \n$x$ at four positions along the perimeter:\nOn the left side AB.\nOn the top side AΔ.\nOn the right side ΔΓ.\nOn the bottom side BΓ.",
+        "transcription": []
+      }
     ],
     "mark": [
       "Μονάδες 3"
@@ -210,7 +210,6 @@
   {
     "id": "32",
     "question": "Παρακάτω διαβάζετε ένα πρόγραμμα που εκτελεί κάποιες εντολές. Βήμα 1: Θέσε $x=1$, $y=2$. Βήμα 2: Αν $Y<10$ εκτέλεσε τα βήματα 3 έως 6, αλλιώς πήγαινε στο βήμα 7. Βήμα 3: Θέσε $z=x+y$. Βήμα 4: Δώσε στο $x$ την τιμή του $y$. Βήμα 5: Δώσε στο $y$ την τιμή του $z$. Βήμα 6: Γύρισε στο Βήμα 2. Βήμα 7: Τύπωσε το $y$. Ποια τιμή θα τυπώθει, όταν ολοκληρωθεί η εκτέλεση του προγράμματος;",
-    "input": "Πρόγραμμα αλγορίθμου (βρόχος) με μεταβλητές $x, y, z$.",
     "choices": [
       "A. 8",
       "B. 11",
@@ -235,11 +234,11 @@
       "Ε. $E>21$"
     ],
     "images": [
-        {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_8/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_33_ΕΙΚΟΝΑ_8.png",
-          "description": "The image displays a simple geometric diagram of a right-angled triangle with vertices labeled A, B, and Γ.\nGeometric Features:\nVertices:\nA: Located at the bottom-left corner.\nB: Located at the top-left corner.\nΓ (Gamma): Located at the bottom-right corner.\nRight Angle: A small shaded square symbol is placed at vertex A, explicitly indicating that the angle $\\angle BA\\Gamma$ is $90^\\circ$ (a right angle).\nSides:\nAB: A vertical side (leg) perpendicular to the base.\nAΓ: A horizontal side (base).\nBΓ: The diagonal side (hypotenuse) connecting vertices B and Γ.",
-          "transcription": []
-        }
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_8/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_33_ΕΙΚΟΝΑ_8.png",
+        "description": "The image displays a simple geometric diagram of a right-angled triangle with vertices labeled A, B, and Γ.\nGeometric Features:\nVertices:\nA: Located at the bottom-left corner.\nB: Located at the top-left corner.\nΓ (Gamma): Located at the bottom-right corner.\nRight Angle: A small shaded square symbol is placed at vertex A, explicitly indicating that the angle $\\angle BA\\Gamma$ is $90^\\circ$ (a right angle).\nSides:\nAB: A vertical side (leg) perpendicular to the base.\nAΓ: A horizontal side (base).\nBΓ: The diagonal side (hypotenuse) connecting vertices B and Γ.",
+        "transcription": []
+      }
     ],
     "mark": [
       "Μονάδες 3"
@@ -257,11 +256,11 @@
       "E. $120 lt$"
     ],
     "images": [
-        {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_9/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_34_ΕΙΚΟΝΑ_9.png",
-          "description": "The image displays a line graph plotted on a Cartesian coordinate system, showing three distinct linear functions labeled A, B, and Γ.\nAxes:\nVertical Axis (y-axis): Labeled with the text \"lt\" at the top, along with the numerical value 100. This indicates the starting value for all three lines.\nHorizontal Axis (x-axis): Labeled \"ώρες\" (hours). It marks three specific time points: 8, 16, and 20.\nData Lines:\nThree straight lines originate from the same point on the vertical axis $(0, 100)$ and descend to intersect the horizontal axis at different points:\nLine A: The steepest line, connecting $(0, 100)$ to the point $(8, 0)$.\nLine B: The middle line, connecting $(0, 100)$ to the point $(16, 0)$.\nLine Γ: The least steep line, connecting $(0, 100)$ to the point $(20, 0)$.",
-          "transcription": []
-        }
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_9/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_34_ΕΙΚΟΝΑ_9.png",
+        "description": "The image displays a line graph plotted on a Cartesian coordinate system, showing three distinct linear functions labeled A, B, and Γ.\nAxes:\nVertical Axis (y-axis): Labeled with the text \"lt\" at the top, along with the numerical value 100. This indicates the starting value for all three lines.\nHorizontal Axis (x-axis): Labeled \"ώρες\" (hours). It marks three specific time points: 8, 16, and 20.\nData Lines:\nThree straight lines originate from the same point on the vertical axis $(0, 100)$ and descend to intersect the horizontal axis at different points:\nLine A: The steepest line, connecting $(0, 100)$ to the point $(8, 0)$.\nLine B: The middle line, connecting $(0, 100)$ to the point $(16, 0)$.\nLine Γ: The least steep line, connecting $(0, 100)$ to the point $(20, 0)$.",
+        "transcription": []
+      }
     ],
     "mark": [
       "Μονάδες 3"
@@ -279,11 +278,11 @@
       "Ε. $(\\frac{\\alpha}{\\beta})^{3}$"
     ],
     "images": [
-        {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_10/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_35_ΕΙΚΟΝΑ_10.png",
-          "description": "The image displays two geometric diagrams side-by-side, each depicting a cylinder with a vertical axis of rotation. They are labeled \"κύλινδρος 1\" (Cylinder 1) and \"κύλινδρος 2\" (Cylinder 2).\n1. Cylinder 1 (Left):\nGeometric Setup: A rectangle is formed by the central axis and the outer surface.\nVertices:\nA: Located at the center of the bottom base (on the axis).\nB: Located at the center of the top base (on the axis).\nΓ (Gamma): Located on the circumference of the top base.\nΔ (Delta): Located on the circumference of the bottom base.\nDimensions:\nThe radius (segment $B\\Gamma$) is labeled $\\alpha$.\nThe height (segment $\\Gamma\\Delta$) is labeled $\beta$.\n2. Cylinder 2 (Right):\nGeometric Setup: A similar rectangle is shown, but with swapped dimensions.\nVertices:\nB: Located at the center of the bottom base (on the axis).\nΓ (Gamma): Located at the center of the top base (on the axis).\nA: Located on the circumference of the bottom base.\nΔ (Delta): Located on the circumference of the top base.\nDimensions:\nThe radius (segment $\\Gamma\\Delta$) is labeled $\beta$.\nThe height (segment $A\\Delta$) is labeled $\\alpha$.",
-          "transcription": []
-        }
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_10/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_35_ΕΙΚΟΝΑ_10.png",
+        "description": "The image displays two geometric diagrams side-by-side, each depicting a cylinder with a vertical axis of rotation. They are labeled \"κύλινδρος 1\" (Cylinder 1) and \"κύλινδρος 2\" (Cylinder 2).\n1. Cylinder 1 (Left):\nGeometric Setup: A rectangle is formed by the central axis and the outer surface.\nVertices:\nA: Located at the center of the bottom base (on the axis).\nB: Located at the center of the top base (on the axis).\nΓ (Gamma): Located on the circumference of the top base.\nΔ (Delta): Located on the circumference of the bottom base.\nDimensions:\nThe radius (segment $B\\Gamma$) is labeled $\\alpha$.\nThe height (segment $\\Gamma\\Delta$) is labeled $\beta$.\n2. Cylinder 2 (Right):\nGeometric Setup: A similar rectangle is shown, but with swapped dimensions.\nVertices:\nB: Located at the center of the bottom base (on the axis).\nΓ (Gamma): Located at the center of the top base (on the axis).\nA: Located on the circumference of the bottom base.\nΔ (Delta): Located on the circumference of the top base.\nDimensions:\nThe radius (segment $\\Gamma\\Delta$) is labeled $\beta$.\nThe height (segment $A\\Delta$) is labeled $\\alpha$.",
+        "transcription": []
+      }
     ],
     "mark": [
       "Μονάδες 3"
@@ -365,11 +364,11 @@
       "Ε. δεν υπάρχουν επαρκείς πληροφορίες για να απαντηθεί η ερώτηση"
     ],
     "images": [
-        {
-          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_11/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_40_ΕΙΚΟΝΑ_11.png",
-          "description": "The image displays a logic puzzle setup consisting of four rectangular boxes arranged horizontally. Each box is labeled with a Greek letter (A, B, Γ, Δ) and contains a text statement regarding the location of a \"gift\" (δώρο).",
-          "transcription": "| Box Label | Original Text (Greek) | English Translation |\n| :--- | :--- | :--- |\n| **Κουτί Α** (Box A) | Είμαι άδειο | I am empty |\n| **Κουτί Β** (Box B) | Έχω το δώρο | I have the gift |\n| **Κουτί Γ** (Box C) | Το κουτί Β είναι άδειο | Box B is empty |\n| **Κουτί Δ** (Box D) | Το δώρο είναι στο κουτί Γ | The gift is in box C (Gamma) |"
-        }
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2/ΕΙΚΟΝΑ_11/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_2_ΘΕΜΑ_40_ΕΙΚΟΝΑ_11.png",
+        "description": "The image displays a logic puzzle setup consisting of four rectangular boxes arranged horizontally. Each box is labeled with a Greek letter (A, B, Γ, Δ) and contains a text statement regarding the location of a \"gift\" (δώρο).",
+        "transcription": "| Box Label | Original Text (Greek) | English Translation |\n| :--- | :--- | :--- |\n| **Κουτί Α** (Box A) | Είμαι άδειο | I am empty |\n| **Κουτί Β** (Box B) | Έχω το δώρο | I have the gift |\n| **Κουτί Γ** (Box C) | Το κουτί Β είναι άδειο | Box B is empty |\n| **Κουτί Δ** (Box D) | Το δώρο είναι στο κουτί Γ | The gift is in box C (Gamma) |"
+      }
     ],
     "mark": [
       "Μονάδες 3"

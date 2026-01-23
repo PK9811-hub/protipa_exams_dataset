@@ -6,7 +6,7 @@ import argparse
 from pathlib import Path
 import ast
 import random
-from datasets import Dataset
+from datasets import Dataset, Image, Features, Sequence
 from huggingface_hub import create_repo, repo_exists, HfApi
 from dotenv import load_dotenv, find_dotenv
 
@@ -106,9 +106,21 @@ def parse_image_txt(txt_path):
         return description, transcription
     except: return None, None
 
-def transform_matching_question(row, seed=42):
-    """Derived from dataset_creation/utils.py"""
-    if row.get('exercise_type') != 'matching': return row
+def extract_points(text):
+    """Extracts numeric value from strings like 'Μονάδες 2.5' or 'Μονάδες 10'."""
+    if not text: return None
+    # Regular expression to find integers or floats
+    match = re.search(r"(\d+(?:\.\d+)?)", str(text))
+    if match:
+        try:
+            return float(match.group(1))
+        except ValueError:
+            return None
+    return None
+
+def transform_matching_to_mc(row, seed=42):
+    """Tries to transform matching questions into Multiple Choice distractors."""
+    if row.get('old_exercise_type') != 'matching': return row
     choices = row['choices'] if isinstance(row['choices'], list) else []
     
     pat_upper = r'^[Α-ΩA-Z]\.'       
@@ -143,7 +155,7 @@ def transform_matching_question(row, seed=42):
     new_text += "Στήλη Α:\n" + "\n".join([str(x) for x in list_1]) + "\n\n"
     new_text += "Στήλη Β:\n" + "\n".join([str(x) for x in list_2])
 
-    correct_pairs_list = row['answer'] 
+    correct_pairs_list = row['answer_text'] 
     if not isinstance(correct_pairs_list, list) or not correct_pairs_list: return row
 
     parsed_pairs = []
@@ -177,47 +189,94 @@ def transform_matching_question(row, seed=42):
 
     row['question'] = new_text
     row['choices'] = final_options
-    row['answer'] = correct_index
+    row['answer_text'] = correct_index
     row['answer_index'] = correct_index
     return row
 
+def transform_matching_to_text(row):
+    """
+    Standardizes matching questions by moving choices into the question text
+    and converting the answer list into a clean string.
+    """
+    choices = row.get('choices', [])
+    if not choices:
+        return row
+
+    # 1. Format choices as a clean list and append to the question text
+    choices_str = "\n".join([str(c) for c in choices])
+    row['question'] = f"{row['question']}\n\n{choices_str}"
+
+    # 2. Clear choices to signal it is no longer a fixed-option selection task
+    row['choices'] = []
+
+    # 3. Convert the answer to a clean, comma-separated string
+    ans = row.get('answer_text')
+    if isinstance(ans, str) and ans.strip().startswith('['):
+        try:
+            parsed = ast.literal_eval(ans)
+            if isinstance(parsed, list):
+                ans = parsed
+        except:
+            pass
+            
+    if isinstance(ans, list):
+        row['answer_text'] = ", ".join([str(x) for x in ans])
+    elif ans is None:
+        row['answer_text'] = ""
+    else:
+        row['answer_text'] = str(ans)
+
+    # 4. Set answer_index to None to indicate it requires text-based evaluation
+    row['answer_index'] = None
+    
+    return row
+
+def transform_matching_question(row):
+    """
+    Orchestrator: Tries to transform matching to MC first.
+    Falls back to text-based flattening if MC transformation is not possible.
+    """
+    # 1. Try MC transformation
+    row = transform_matching_to_mc(row)
+    
+    # 2. Check if it's still in the 'complex' state (choices are still a list of more than 4 items, 
+    # or it didn't get an answer_index)
+    # The MC transformation sets choices to exactly 4 items and answer_index to an int.
+    if isinstance(row.get('choices'), list) and len(row.get('choices')) > 4:
+        row = transform_matching_to_text(row)
+    elif row.get('answer_index') is None and row.get('old_exercise_type') == 'matching':
+        # Handles cases where it wasn't a standard 2-column match
+        row = transform_matching_to_text(row)
+        
+    return row
+
 def apply_structural_tags(row):
-    """Adds format_type, dependency_type, and input_context_type based on row essence."""
-    # 1. format_type
-    et = row.get('exercise_type')
+    """Adds format and reference based on row essence."""
+    # 1. format
+    et = row.get('old_exercise_type')
     ft_map = {
         'multiple choice': 'multiple_choice',
         'true/false': 'true_false',
-        'matching': 'matching_transformed',
+        'matching': 'matching',
         'fill-in-the-gaps': 'fill_in_the_gaps',
         'open': 'open_ended'
     }
-    row['format_type'] = ft_map.get(et, 'open_ended')
+    row['format'] = ft_map.get(et, 'open_ended')
 
-    # 2. dependency_type
-    image = row.get('image')
+    # 2. reference
+    image_urls = row.get('image_urls')
     subj = str(row.get('subject', '')).lower()
     inp = str(row.get('input', ''))
     
-    if image:
-        row['dependency_type'] = 'visual_asset'
+    if image_urls:
+        row['reference'] = 'multimodal'
     elif any(kw in inp for kw in ['Πίνακας', 'Πρόγραμμα', 'Πίνακα']):
-        row['dependency_type'] = 'table_structured'
+        row['reference'] = 'table'
     elif (subj in ['greek_language', 'religious studies', 'γλωσσα', 'θρησκευτικα']) and len(inp) > 200:
-        row['dependency_type'] = 'text_passage'
+        row['reference'] = 'passage'
     else:
-        row['dependency_type'] = 'stand_alone'
+        row['reference'] = 'none'
 
-    # 3. input_context_type
-    if not inp or inp.strip() == "":
-        row['input_context_type'] = 'none'
-    elif subj in ['mathematics', 'μαθηματικα', 'physics', 'φυσικη']:
-        row['input_context_type'] = 'problem_description'
-    elif subj in ['greek_language', 'γλωσσα']:
-        row['input_context_type'] = 'reading_text'
-    else:
-        row['input_context_type'] = 'mixed_markup'
-    
     return row
 
 # --- CORE LOGIC ---
@@ -237,7 +296,7 @@ def consolidate(subset=None, extended=False):
             
         json_files = [f for f in files if f.startswith("ΘΕΜΑΤΑ_") and f.endswith(".json")]
         for jf in json_files:
-            subject, level, year, series = parse_filename_metadata(jf)
+            subject, level, year, exam_set = parse_filename_metadata(jf)
             if not year: continue
             
             json_path = os.path.join(root, jf)
@@ -248,17 +307,17 @@ def consolidate(subset=None, extended=False):
             
             answers_pool = parse_markdown_answers(md_path)
             ans_tracker = {}
-            id_counter = {} # Added for unique ID suffixing
+            q_id_counter = {} # Added for unique ID suffixing
             
             for item in questions:
-                label_id = str(item.get("id"))
+                q_id = str(item.get("id"))
                 
                 # Handle unique_id suffixing immediately
-                if label_id in id_counter:
-                    id_counter[label_id] += 1
-                    suffix = f"_{id_counter[label_id]}"
+                if q_id in q_id_counter:
+                    q_id_counter[q_id] += 1
+                    suffix = f"_{q_id_counter[q_id]}"
                 else:
-                    id_counter[label_id] = 1
+                    q_id_counter[q_id] = 1
                     suffix = ""
                 
                 # Construct clean ID components
@@ -268,12 +327,12 @@ def consolidate(subset=None, extended=False):
                 subj_part = subj_id_map.get(subject, subject.lower())
                 lvl_part = lvl_id_map.get(level, level.lower())
                 
-                unique_id = f"{subj_part}_{lvl_part}_{year}_{series}_{label_id}{suffix}"
+                unique_id = f"{subj_part}_{lvl_part}_{year}_{exam_set}_{q_id}{suffix}"
 
-                ans_list = answers_pool.get(label_id, [])
-                idx = ans_tracker.get(label_id, 0)
+                ans_list = answers_pool.get(q_id, [])
+                idx = ans_tracker.get(q_id, 0)
                 answer = ans_list[idx] if idx < len(ans_list) else None
-                ans_tracker[label_id] = idx + 1
+                ans_tracker[q_id] = idx + 1
                 
                 q_text = item.get("question", "")
                 q_choices = item.get("choices", [])
@@ -281,6 +340,7 @@ def consolidate(subset=None, extended=False):
                 # Image processing
                 is_multimodal = "no"
                 img_basenames = []
+                img_full_paths = []
                 desc_list = []
                 trans_list = []
                 for img_obj in item.get("images", []):
@@ -288,6 +348,7 @@ def consolidate(subset=None, extended=False):
                     rel_path = img_obj.get("path", "")
                     img_abs = os.path.normpath(os.path.join(root, rel_path))
                     img_basenames.append(os.path.basename(img_abs))
+                    img_full_paths.append(img_abs)
                     txt_path = os.path.splitext(img_abs)[0] + ".txt"
                     desc, trans = parse_image_txt(txt_path)
                     if desc: desc_list.append(desc)
@@ -295,25 +356,28 @@ def consolidate(subset=None, extended=False):
 
                 ex_type = detect_exercise_type(q_text, q_choices)
                 
+                raw_mark = ", ".join(item.get("mark", [])) if isinstance(item.get("mark"), list) else item.get("mark")
+                
                 row = {
                     "id": unique_id,
                     "subject": subject,
-                    "school_level": level,
+                    "admission_level": level,
                     "year": str(year),
-                    "series": series,
-                    "label_id": label_id,
+                    "exam_set": exam_set,
+                    "q_id": q_id,
                     "question": q_text,
                     "input": item.get("input", ""),
                     "choices": q_choices,
-                    "answer": answer,
+                    "answer_text": answer,
                     "answer_index": find_answer_index(q_choices, answer) if ex_type != 'matching' else None,
                     "multimodality": is_multimodal,
-                    "image": img_basenames if img_basenames else None,
+                    "image_urls": img_basenames if img_basenames else None,
+                    "image_paths": img_full_paths if img_full_paths else [],
                     "image_description": " | ".join(desc_list) if desc_list else None,
                     "image_transcription": " | ".join(trans_list) if trans_list else None,
-                    "mark": ", ".join(item.get("mark", [])) if isinstance(item.get("mark"), list) else item.get("mark"),
+                    "points": extract_points(raw_mark),
                     "question_type": "closed" if ex_type != 'open' else 'open',
-                    "exercise_type": ex_type
+                    "old_exercise_type": ex_type
                 }
                 
                 if ex_type == 'matching':
@@ -330,18 +394,25 @@ def consolidate(subset=None, extended=False):
 
     df = pd.DataFrame(all_data)
     
-    # Normalization & Labeling (Stage B/C)
     subject_map = {"ΓΛΩΣΣΑ": "greek_language", "ΜΑΘΗΜΑΤΙΚΑ": "mathematics", "ΘΡΗΣΚΕΥΤΙΚΑ": "religious studies", "ΦΥΣΙΚΗ": "physics"}
     level_map = {"ΓΥΜΝΑΣΙΟ": "gymnasium", "ΛΥΚΕΙΟ": "lyceum"}
     df['subject'] = df['subject'].replace(subject_map)
-    df['school_level'] = df['school_level'].replace(level_map)
+    df['admission_level'] = df['admission_level'].replace(level_map)
     
-    # Organize columns
-    fixed_cols = ['id', 'subject', 'school_level', 'year', 'series', 'label_id']
+    # Organize columns into a narrative flow
+    fixed_cols = ['id', 'subject']
     if extended:
-        fixed_cols += ['format_type', 'dependency_type', 'input_context_type']
-        
+        fixed_cols += ['format', 'reference']
+    
+    fixed_cols += ['question', 'input', 'image_paths', 'image_urls', 'choices', 'answer_text', 'answer_index', 'image_description', 'image_transcription', 'points', 'year', 'admission_level', 'exam_set', 'q_id']
+    
+    # Filter out columns that might not exist yet (e.g. if extended is False)
+    fixed_cols = [c for c in fixed_cols if c in df.columns]
     df = df[fixed_cols + [c for c in df.columns if c not in fixed_cols]]
+    
+    # Hide internal/legacy columns from the exported dataset
+    cols_to_hide = ['multimodality', 'question_type', 'old_exercise_type']
+    df = df.drop(columns=[c for c in cols_to_hide if c in df.columns])
     
     # Ensure image lists are stringified consistently for Excel comparison if needed
     # but for internal DF we keep them as lists.
@@ -383,7 +454,7 @@ def compare(current_df, reference_file):
         print(f"⚠️ IDs in reference but missing in current (first 5): {only_ref['id'].head().tolist()}")
 
     # Compare values for rows that exist in both
-    cols_to_check = ['subject', 'school_level', 'year', 'answer', 'exercise_type']
+    cols_to_check = ['subject', 'school_level', 'year', 'answer_text', 'exercise_type']
     for col in cols_to_check:
         col_cur = f"{col}_cur"
         col_ref = f"{col}_ref"
@@ -399,7 +470,7 @@ def compare(current_df, reference_file):
         else:
             print(f"✅ Column '{col}' matches perfectly.")
 
-def push_to_hub(df):
+def push_to_hub(df, with_images=False):
     """Stage D: Push the processed dataset to Hugging Face."""
     repo_id = os.getenv("HF_REPO_ID")
     token = os.getenv("HF_TOKEN")
@@ -438,14 +509,29 @@ def push_to_hub(df):
     # Force string type for year and series to prevent numeric formatting on HF
     if 'year' in df.columns:
         df['year'] = df['year'].astype(str)
-    if 'series' in df.columns:
-        df['series'] = df['series'].astype(str)
+    if 'exam_set' in df.columns:
+        df['exam_set'] = df['exam_set'].astype(str)
+    if 'q_id' in df.columns:
+        df['q_id'] = df['q_id'].astype(str)
         
     dataset = Dataset.from_pandas(df)
     
+    # Hide filename pointers from the final HF benchmark
+    if 'image_urls' in dataset.column_names:
+        dataset = dataset.remove_columns(["image_urls"])
+    
+    if with_images and 'image_paths' in df.columns:
+        print("🖼️ Casting image_paths to Image features...")
+        dataset = dataset.cast_column("image_paths", Sequence(Image()))
+        # Rename to the standard 'images' for the Hub
+        dataset = dataset.rename_column("image_paths", "images")
+    elif 'image_paths' in df.columns:
+        # If not pushing images, drop the absolute path column for privacy/cleanliness
+        dataset = dataset.remove_columns(["image_paths"])
+
     try:
-        dataset.push_to_hub(repo_id, token=token, private=is_private)
-        print(f"✅ Successfully pushed to Hub.")
+        dataset.push_to_hub(repo_id, token=token, private=is_private, split="test")
+        print(f"✅ Successfully pushed to Hub (as 'test' split).")
     except Exception as e:
         print(f"❌ Failed to push to Hub: {e}")
 
@@ -473,6 +559,9 @@ def main():
     # Push command
     push_parser = subparsers.add_parser("push", help="Stage D: Push to Hugging Face Hub")
     push_parser.add_argument("--file", type=str, help="Existing Excel file to push (optional)")
+    push_parser.add_argument("--subset", type=str, help="Subset path to push (ignored if --file is used)")
+    push_parser.add_argument("--extended", action="store_true", help="Use structural schema and preserve list types")
+    push_parser.add_argument("--with-images", action="store_true", help="Embed actual image data (pixels) into the push")
 
     args = parser.parse_args()
 
@@ -485,7 +574,14 @@ def main():
                     return "".join(c for c in val if c.isprintable() or c in "\n\r\t")
                 return val
             df = df.map(clean_illegal)
-            df.to_excel(args.output, index=False)
+            # Drop absolute paths for Excel export
+            if 'image_paths' in df.columns:
+                df = df.drop(columns=['image_paths'])
+            
+            with pd.ExcelWriter(args.output, engine='openpyxl') as writer:
+                df.to_excel(writer, index=False, sheet_name='Dataset')
+                worksheet = writer.sheets['Dataset']
+                worksheet.auto_filter.ref = worksheet.dimensions
             print(f"💾 Saved to {args.output}")
 
     elif args.command == "consolidate_new":
@@ -497,7 +593,14 @@ def main():
                     return "".join(c for c in val if c.isprintable() or c in "\n\r\t")
                 return val
             df = df.map(clean_illegal)
-            df.to_excel(args.output, index=False)
+            # Drop absolute paths for Excel export
+            if 'image_paths' in df.columns:
+                df = df.drop(columns=['image_paths'])
+            
+            with pd.ExcelWriter(args.output, engine='openpyxl') as writer:
+                df.to_excel(writer, index=False, sheet_name='Dataset')
+                worksheet = writer.sheets['Dataset']
+                worksheet.auto_filter.ref = worksheet.dimensions
             print(f"💾 Saved to {args.output}")
 
     elif args.command == "compare":
@@ -508,11 +611,20 @@ def main():
     elif args.command == "push":
         if args.file:
             df = pd.read_excel(args.file)
+            # If we load from Excel, we must manually safly-eval list strings back to lists
+            for col in ['choices', 'image_urls']:
+                if col in df.columns:
+                    def safe_eval(val):
+                        try: 
+                            if isinstance(val, str) and val.startswith('['): return ast.literal_eval(val)
+                            return val
+                        except: return val
+                    df[col] = df[col].apply(safe_eval)
         else:
-            df = consolidate() # Push full dataset by default
+            df = consolidate(subset=args.subset, extended=args.extended)
         
         if not df.empty:
-            push_to_hub(df)
+            push_to_hub(df, with_images=args.with_images)
     else:
         parser.print_help()
 

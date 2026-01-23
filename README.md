@@ -31,36 +31,38 @@ The full source code repository used to generate this dataset is located here:
 
 1. **Data Structure and Keys**
    
-| File / Directory | Description |
-|------------------|-------------|
-| **id** | Unique identifier for each question–answer entry (e.g., `MATH_2023_HS_Q05`). |
+| Key | Description |
+|-----|-------------|
+| **id** | Structural breadcrumb identifier `{subject}_{level}_{year}_{exam_set}_{q_id}` (e.g., `math_gym_2023_1_5`). |
 | **question** | The introductory text and the core task of the exercise, including any necessary formulas or equations encoded in $\text{LaTeX}$. |
 | **input** | Supplementary text provided with the exercise, such as literary passages (for Greek Language) or detailed descriptions of diagrams/images. |
 | **choices** | The candidate answers provided for closed-ended question types. |
 | **images** | A list of objects containing the file path, detailed description, and transcription of any accompanying images or diagrams (multi-modal components). |
-| **mark** | The assigned score/mark for each correct entry. |
+| **points** | The assigned score/points for the item (numeric). |
 
 
 2. **Dataframe Columns (Excel/CSV)**
 
-| File / Directory | Description |
-|------------------|-------------|
-| **unique_id** | Unique identifier for the row entry (autoincremented index for the dataframe). |
-| **subject** | The academic subject of the exam (e.g., Greek Language, Math, Physics, Religious Studies). |
-| **school_level** | The education level (middle school or high school). |
-| **series** | Refers to the original question numbering from the JSON file (e.g., 1.1, 1.2, etc.). |
-| **label_id** | The original ID of the question grouping as it appeared in the raw exam files (e.g., 1, 2, 3). |
-| **question** | The introductory text and the core task of the exercise, including LaTeX. |
+| Column | Description |
+|--------|-------------|
+| **id** | Standardized unique identifier for the row entry (breadcrumb format). |
+| **subject** | The academic subject (e.g., `greek_language`, `mathematics`, `physics`, `religious studies`). |
+| **format** | (New) Interaction format: `multiple_choice`, `true_false`, `matching`, `fill_in_the_gaps`, `open_ended`. |
+| **reference** | (New) Contextual requirement/addenda: `passage`, `multimodal`, `table`, `none`. |
+| **question** | The introductory text/core task. |
 | **input** | Supplementary text (passages, diagram descriptions). |
-| **choices** | The candidate answers provided for closed-ended questions. |
-| **answer** | The final, validated answer/solution. |
-| **multimodality** | Indicates the presence of associated diagrams or images (yes/no). |
-| **image_path** | Local file path to the image file used in the question. |
-| **image_link** | External link/URL associated with the image. |
-| **mark** | The assigned score/mark for the entry. |
-| **question_type** | The general structure: Open or Closed ended. |
-| **exercise_type** | The specific format: multiple-choice, true/false, fill-in-the-gaps, or matching. |
-| **source_file** | The name of the original file/document from which the question was extracted. |
+| **images** | The actual image asset(s) (Hugging Face only). |
+| **choices** | Candidate answers for closed-ended questions. |
+| **answer_text** | The processed, validated answer/solution (string). |
+| **answer_index** | The numeric mapping of the answer (for programmatic evaluation). |
+| **image_description** | Textual proxy for visual content. |
+| **image_transcription** | OCR/Text extraction from within the visual assets. |
+| **image_urls** | Basemate pointers of the source image file(s) (Excel only). |
+| **points** | Assigned point value for the question (numeric). |
+| **year** | The year of the exam (stored as a string). |
+| **admission_level** | The target education level: `gymnasium` or `lyceum`. |
+| **exam_set** | The ID of the exam batch/paper (e.g., 1, 2). |
+| **q_id** | The specific ID/number of the question within its set. |
 
 
 
@@ -77,17 +79,17 @@ The full source code repository used to generate this dataset is located here:
 
 
 ⚠️ **Known Data Gaps and Missing Information**
-Due to the nature of the publicly available source files, the following gaps were identified and processed:
+Due to the nature of the publicly available source files, the following gaps were identified:
 
-• Missing Year: All exam files from 2015 were unavailable, resulting in a gap in the time series data.
+• **Missing Points**: The `points` column is only partially populated (~30% of rows). Scoring data is primarily present in older historical papers (2013-2019) and the latest 2025 papers. For the 2020-2024 period, point values are often missing in the source files.
 
-• Missing Solutions: Official solutions were not provided for:
+• **Missing Year**: All exam files from 2015 were unavailable, resulting in a gap in the time series data.
 
-Greek Language (High School, 2014)
+• **Missing Solutions**: Official solutions were not provided for:
+  - `greek_language` (Lyceum, 2014)
+  - `greek_language` and `mathematics` (Lyceum, 2018)
 
-Greek Language and Mathematics (High School, 2018)
-
-•  Writing Prompts: For the free-text writing component of the Greek Language exams, a separate file is provided containing only the prompts and grading guidelines, as official model answers do not exist.
+• **Writing Prompts**: For the free-text writing component of the `greek_language` exams, a separate file is provided containing only the prompts and grading guidelines, as official model answers do not exist.
 
 
 ## Project Structure
@@ -136,7 +138,8 @@ You can use the utility functions in your notebooks by importing them from their
 ```python
 from protipa_exams_dataset.data_loader import load_protipa_dataset, filter_dataset, apply_matching_processing, clean_dataset_paths
 
-dataset = load_protipa_dataset()
+# Load the test split (default for benchmarks)
+dataset = load_protipa_dataset(split='test') 
 df = dataset.to_pandas()
 
 # Process matching exercises to create distractors and shuffle
@@ -145,3 +148,44 @@ df_final = apply_matching_processing(df)
 # Clean paths to keep only filenames
 df_final = clean_dataset_paths(df_final)
 ```
+
+---
+
+## 🏗️ Schema Evolution & Rationale
+
+This section summarizes the architectural transition from the legacy "Extraction Schema" (found in the original Excel files) to the new "Structural Benchmark Schema."
+
+### **1. Key Property Transitions**
+
+| Feature | Legacy Schema (Old) | Structural Schema (New) | Rationale |
+| :--- | :--- | :--- | :--- |
+| **Primary Key** | `unique_id` | **`id`** | Standardized breadcrumb format `{subj}_{lvl}_{yr}_{set}_{q_id}` for perfect provenance tracing. |
+| **Multi-modal** | `multimodality` | **`reference`** | Transitions from a simple yes/no flag to a specific asset type (e.g., multimodal). |
+| **Numeric Data** | `year` (int) | **`year`** (string) | Prevents Excel/HF from displaying years as numbers (e.g., `2,024`). |
+| **Level Context** | `school_level` | **`admission_level`** | Clarifies that these are entrance exams *for* the level, not exams taken *at* that level. |
+| **Question ID** | `label_id` (float-like) | **`q_id`** (string) | Standardized naming and preserves original formatting (e.g., `1.1` stays `1.1`). |
+| **Exam Set** | `series` | **`exam_set`** | Renamed to better reflect that these are distinct batches/papers of the same exam year. |
+| **Subject Naming** | `modern greek` | **`greek_language`** | Aligns with standard academic NLP subject naming conventions. |
+| **Split Naming** | `train` | **`test`** | Signals that the data is an official assessment suite (benchmark), not for training. |
+| **Access Control** | None (Public) | **Gated Access** | Implements manual/auto approval via Hugging Face to protect data integrity. |
+
+### **2. The "Structural Duo" (New Columns)**
+
+We introduced two new structural columns to shift the dataset from a "data dump" to a **diagnostic benchmark**. These columns are derived using **Expert-Rule Heuristics** (regex + length + domain mapping).
+
+#### **A. `format`** (The Interaction Model)
+*   **From**: `exercise_type` (e.g., `multiple-choice`).
+*   **To**: `format` (standardized: `matching`, `fill_in_the_gaps`).
+*   **Rationale**: Defines *how* the model must interact with the answer space.
+    *   *Note on Matching*: While standard 2-column matching questions are ideally transformed into Multiple Choice distractors for easier evaluation, the 4 items currently in this dataset failed this transformation due to their complex (n-to-m) structure. These were resolved by moving the matchable items directly into the `question` field and providing the answer as a stringified list of pairs.
+
+#### **B. `reference`** (The Data Requirement)
+*   **Origin**: Newly generated via Heuristics.
+*   **Values**: `passage`, `multimodal`, `table`, `none`.
+*   **Rationale**: Identifies **which additional asset type** (addenda) the model must parse to succeed. This allows for fine-grained measurement of failure points (e.g., multimodal errors vs. reading comprehension errors).
+
+### **3. Why these Heuristics are used?**
+Instead of black-box AI tagging, we use **deterministic heuristics** (e.g., `len(input) > 200` triggers `passage`).
+*   **Consistency**: Every run generates the same metadata.
+*   **Transparency**: No "hidden" AI tagging; rules are based on the raw data essence.
+*   **Diagnostic Power**: Enables pinpointing if a model is "Reading-Heavy" vs "Logic-Heavy."

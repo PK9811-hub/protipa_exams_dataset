@@ -133,9 +133,55 @@ While the public benchmark is polished for evaluation, the internal artifacts co
 
 ## Getting Started (Developer)
 
-1. **Install**: `uv sync`
-2. **Configure**: Set `HF_TOKEN` and `HF_REPO_ID` in your `.env`.
-3. **Consolidate**: `uv run scripts/manage.py consolidate_new --extended`
-4. **Push**: `uv run scripts/manage.py push --extended --with-images`
+### **Prerequisites**
+
+*   **Environment**: Python 3.10+ (Recommended: use `uv` for dependency management).
+*   **API Tokens**: Create a `.env` file in the root directory with your Hugging Face credentials:
+    ```bash
+    HF_TOKEN=your_huggingface_write_token
+    HF_REPO_ID=ilsp/GR-ProtipaExams  # Or your target namespace
+    ```
+
+### **Management Commands**
+
+The repository includes a comprehensive management script `scripts/manage.py` to handle the data lifecycle.
+
+#### **1. Data Consolidation (Local)**
+Transforms raw JSON/Markdown files into a structured Excel master file.
+*   **Standard**: `uv run scripts/manage.py consolidate`
+*   **Extended (with Schema Tags)**: Adds `format` and `reference` columns based on linguistic markers.
+    ```bash
+    uv run scripts/manage.py consolidate_new --extended
+    ```
+
+#### **2. Data Validation**
+Before pushing to the Hub, verify that all multimodal assets (images) referenced in the JSON files exist on disk:
+```bash
+python scripts/check_images.py
+```
+
+#### **3. Pushing to Hugging Face Hub**
+Synchronizes the local dataset with the Hugging Face repository.
+*   **Text only**: `uv run scripts/manage.py push --extended`
+*   **Multimodal (Includes Images)**: Embeds the actual pixel data into the Parquet files.
+    ```bash
+    uv run scripts/manage.py push --extended --with-images
+    ```
+
+#### **4. Quality Control (Comparison)**
+Compare a newly generated consolidation against a reference Excel file to detect regressions:
+```bash
+uv run scripts/manage.py compare --reference path/to/previous_version.xlsx
+```
+
+---
+
+## Dataset Schema Details
+
+The implementation follows a **Stage-based processing** pipeline:
+*   **Stage A**: Parsing of raw exam metadata and question objects.
+*   **Stage B**: Multi-source answer resolution (mapping Markdown keys to JSON indices).
+*   **Stage C**: Structural transformation (e.g., converting Matching tasks to Multiple Choice or Flattened Text).
+*   **Stage D**: Serialization and Hub synchronization.
 
 

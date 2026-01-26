@@ -4,6 +4,7 @@ import ast
 import logging
 import os
 import pandas as pd
+import ast
 from datasets import load_dataset, concatenate_datasets
 from dotenv import load_dotenv, find_dotenv
 
@@ -11,62 +12,65 @@ load_dotenv(find_dotenv())
 
 logger = logging.getLogger(__name__)
 
-def filter_dataset(dataset, mode = 'closed'):
+def filter_dataset(dataset, mode='closed'):
     """
-    Filters the dataset based on the mode ('closed' or 'open').
-    
-    Args:
-        dataset: The raw dataset list.
-        mode (str): 'closed' for MC/TF/Matching, 'open' for Open/Fill-in-gaps.
+    Final cleaned version of filter_dataset.
+    Filters based on Subject and Format logic (Open vs Closed).
     """
     filtered = []
     
-    subjects = ['greek_language', 'mathematics', 'physics', 'religious studies']
+    valid_subjects = [
+        'greek_language', 'mathematics', 'physics', 'religious studies',
+        'ΓΛΩΣΣΑ', 'ΜΑΘΗΜΑΤΙΚΑ', 'ΦΥΣΙΚΗ', 'ΘΡΗΣΚΕΥΤΙΚΑ'
+    ]
     
-    # Ορίζουμε τι ψάχνουμε ανάλογα με το mode
-    if mode == 'closed':
-        target_ex_types = ['multiple choice', 'true/false', 'matching']
-        target_q_types = ['closed']
-    elif mode == 'open':
-        target_ex_types = ['fill-in-the-gaps', 'open'] 
-        target_q_types = ['open']
-    else:
-        raise ValueError("Mode must be 'closed' or 'open'")
-
     print(f"🔍 Filtering for mode: {mode.upper()}...")
 
     for item in dataset:
-        subj = str(item.get('subject', '')).lower().strip()
-        q_type_raw = str(item.get('question_type', '')).lower().strip()
-        ex_type_raw = str(item.get('exercise_type', '')).lower().strip()
+        # 1. Ανάκτηση δεδομένων
+        subj = str(item.get('subject', '')).strip()
+        fmt = str(item.get('format', '')).strip()
         
-        choices = item.get('choices', [])
-        if isinstance(choices, str):
+        # 2. Ασφαλής ανάκτηση choices
+        raw_choices = item.get('choices', [])
+        
+        if isinstance(raw_choices, list):
+            choices = raw_choices
+        elif isinstance(raw_choices, str):
             try:
-                choices = ast.literal_eval(choices)
+                choices = ast.literal_eval(raw_choices)
             except:
                 choices = []
+        else:
+            choices = []
+            
         if choices is None: choices = []
-
-        if subj not in subjects:
+        
+        # 3. Έλεγχος Μαθήματος
+        is_valid_subj = any(s.lower() == subj.lower() for s in valid_subjects)
+        if not is_valid_subj:
             continue
 
-        if mode == 'closed':
-            
-            is_valid_type = (q_type_raw == 'closed')
-            has_choices = (len(choices) > 1)
-            
-            if is_valid_type and has_choices:
-                filtered.append(item)
+        # 4. ΛΟΓΙΚΗ ΔΙΑΧΩΡΙΣΜΟΥ
+        has_choices = (len(choices) > 0)
+        should_keep = False
 
+        if mode == 'closed':
+            # Κλειστά formats + Fill-in με επιλογές
+            if fmt in ['multiple_choice', 'true_false', 'matching']:
+                should_keep = True
+            elif fmt == 'fill_in_the_gaps' and has_choices:
+                should_keep = True
+                
         elif mode == 'open':
-            
-            is_open = (q_type_raw == 'open')
-            
-            is_fill_in = ('fill' in ex_type_raw)
-            
-            if is_open or (is_fill_in and not choices):
-                filtered.append(item)
+            # Ανοιχτά formats + Fill-in χωρίς επιλογές
+            if fmt == 'open_ended':
+                should_keep = True
+            elif fmt == 'fill_in_the_gaps' and not has_choices:
+                should_keep = True
+
+        if should_keep:
+            filtered.append(item)
 
     print(f"✅ Found {len(filtered)} items for mode '{mode}'.")
     return filtered

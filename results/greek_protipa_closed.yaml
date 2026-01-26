@@ -1,0 +1,60 @@
+dataset_kwargs:
+  data_files: C:/Users/panag/Desktop/ΙΕΛ ΕΡΓΑΣΙΑ/Εξετάσεις_γλωσσομάθειας/Πρότυπα_Πειραματικά/results/full_dataset_for_eval_closed.json
+dataset_path: json
+doc_to_target: '{{ (answer_index | string).split('','')[0] }}'
+doc_to_text: '{% if input %}{{input}}
+
+  {% endif %}Ερώτηση: {{question}}
+
+  Επιλογές:
+
+  {% for choice in choices %}{{loop.index0}}. {{choice}}
+
+  {% endfor %}
+
+  ### ΟΔΗΓΙΑ ΜΟΡΦΟΠΟΙΗΣΗΣ (CRITICAL)
+
+  Πρέπει να παρέχεις ΜΟΝΟ τον αριθμό του δείκτη (index) της σωστής επιλογής (π.χ.
+  0, 1, 2, 3...).
+
+  ΠΡΟΣΟΧΗ: Ο αριθμός ''2'' που χρησιμοποιείται στα παραδείγματα παρακάτω είναι ΤΥΧΑΙΟΣ
+  και αφορά μόνο τη ΜΟΡΦΗ της απάντησης εδώ.
+
+  Η σωστή απάντηση εξαρτάται αποκλειστικά από την ερώτηση και μπορεί να είναι οποιοσδήποτε
+  αριθμός.
+
+  Μην επεξηγείς και μην γράφεις ολόκληρες προτάσεις.
+
+
+  Παραδείγματα Μορφής:
+
+  ❌ ΛΑΘΟΣ: "Η σωστή επιλογή είναι η 2."
+
+  ❌ ΛΑΘΟΣ: "(2)"
+
+  ✅ ΣΩΣΤΟ: 2 (ή 0 ή 1 ή 3... ανάλογα με τη σωστή επιλογή)
+
+
+  Απάντηση: '
+filter_list:
+- filter:
+  - function: regex
+    regex_pattern: (?<![0-9/])([0-9])(?![0-9/])
+  - function: take_first
+  name: strict-match
+generation_kwargs:
+  do_sample: false
+  max_gen_toks: 50
+  temperature: 0.0
+  until:
+  - '
+
+    '
+metric_list:
+- aggregation: mean
+  higher_is_better: true
+  metric: exact_match
+num_fewshot: 0
+output_type: generate_until
+task: greek_protipa_exams_closed
+test_split: train

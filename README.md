@@ -80,24 +80,34 @@ from datasets import load_dataset
 
 # Load the benchmark test split
 dataset = load_dataset("ilsp/GR-ProtipaExams", split="test")
+
+# Select a sample (e.g., index 1 which is usually Multiple Choice)
 sample = dataset[1]
 
 print(f"Question: {sample['question']}")
 print(f"Choices: {sample['choices']}")
-print(f"Answer: {sample['answer']}")
+
+# Check which answer field is populated: 'answer_index' (for closed) or 'answer_text' (for open)
+if sample.get('answer_index') is not None:
+    # Convert the integer index (0, 1, 2...) to a letter label (A, B, C...) for display purposes
+    labels = ['A', 'B', 'C', 'D', 'E']
+    idx = sample['answer_index']
+    print(f"Answer Index: {idx} (Label: {labels[idx]})")
+elif sample.get('answer_text'):
+    # For open-ended questions, print the text directly
+    print(f"Answer: {sample['answer_text']}")
 
 # ---------------------------------------------------------
 # Output Example:
 # 
 # Question: Ποιο από τα παρακάτω δεν ισχύει, σύμφωνα με το κείμενο;
 # Choices: [
-#     'Α. Υπάρχει μόνο μία επιλογή προκειμένου να αντιμετωπίσουμε το οικολογικό πρόβλημα.', 
-#     'Β. Οι σύγχρονοι άνθρωποι επιδιώκουν μανιωδώς την υλική ευημερία τους.', 
-#     'Γ. Η πλεονεξία των πολλών επιβαρύνει τους ανθρώπους που ζουν με μέτρο.', 
-#     "Δ. Μετά τον Β' Παγκόσμιο Πόλεμο, ο υπερκαταναλωτικός τρόπος ζωής εδραιώθηκε σε όλον τον κόσμο."
+#      'Υπάρχει μόνο μία επιλογή προκειμένου να αντιμετωπίσουμε το οικολογικό πρόβλημα.', 
+#      'Οι σύγχρονοι άνθρωποι επιδιώκουν μανιωδώς την υλική ευημερία τους.', 
+#      'Η πλεονεξία των πολλών επιβαρύνει τους ανθρώπους που ζουν με μέτρο.', 
+#      "Μετά τον Β' Παγκόσμιο Πόλεμο, ο υπερκαταναλωτικός τρόπος ζωής εδραιώθηκε σε όλον τον κόσμο."
 # ]
-# Answer: A
-# ---------------------------------------------------------
+# Answer Index: 0 (Label: A)
 ```
 
 ---

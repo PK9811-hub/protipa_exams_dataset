@@ -1,4 +1,24 @@
-📚 **GR-ProtipaExams Dataset: Structured Exam Questions (2013-2025)**
+---
+configs:
+- config_name: default
+  data_files:
+  - split: test
+    path: data/*.parquet
+license: cc-by-nc-4.0
+task_categories:
+- question-answering
+language:
+- el
+tags:
+- multimodal
+- education
+- exams
+- greek
+size_categories:
+- 1K<n<10K
+---
+
+**GR-ProtipaExams Dataset: Structured Exam Questions (2013-2025)**
 
 **Overview**
 
@@ -31,11 +51,7 @@ If you make use of this dataset, please consider citing it as follows:
 }
 ```
 
-## 🚀 Hugging Face Benchmark Schema
-
-This is the primary public version of the dataset, optimized for machine learning evaluation and high-speed browsing. 
-
-### **Dataset Columns**
+##  **Dataset Columns**
 
 | Column | Description |
 |--------|-------------|
@@ -74,7 +90,7 @@ if sample["reference"] == "multimodal":
 
 ---
 
-## 📁 Local Data Artifacts & Metadata
+## Local Data Artifacts & Metadata
 
 For researchers working locally or using the source repository, the data is available in several formats with additional internal metadata for traceability.
 
@@ -95,7 +111,7 @@ While the public benchmark is polished for evaluation, the internal artifacts co
 
 ---
 
-## 📊 Dataset Characteristics
+## Dataset Characteristics
 
 ### **1. Subject Coverage**
 
@@ -108,14 +124,14 @@ While the public benchmark is polished for evaluation, the internal artifacts co
 
 ### **2. Known Data Gaps**
 
-⚠️ **Note on Data Gaps**: Due to the nature of public records, some limitations apply:
+**Note on Data Gaps**: Due to the nature of public records, some limitations apply:
 - **Missing Points**: Point values are only populated in ~30% of rows (primarily 2013-2019 and 2025).
 - **Missing Year**: The year 2015 is currently missing as source files were publicly unavailable.
 - **Missing Solutions**: Lyceum papers for 2014 (Greek) and 2018 (Greek/Math) lack official solution keys.
 
 ---
 
-## 🛠️ Getting Started (Developer)
+## Getting Started (Developer)
 
 1. **Install**: `uv sync`
 2. **Configure**: Set `HF_TOKEN` and `HF_REPO_ID` in your `.env`.

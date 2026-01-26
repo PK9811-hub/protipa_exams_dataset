@@ -18,7 +18,7 @@
     {
       "id": "2",
       "question": "Αν στο παρακάτω σχήμα η ευθεία (ε) είναι παράλληλη στην ΑΒ, τότε ο λόγος των εμβαδών των τριγώνων ΑΒΓ και ΑΒΔ είναι:",
-      "input": "The image displays a geometric diagram featuring two triangles, $AB\\Gamma$ and $AB\\Delta$.\nVertices: Points $A$ and $B$ form a horizontal base segment. Points $\\Gamma$ and $\\Delta$ lie on a straight line labeled $\\epsilon$ located above the segment $AB$.\nStructure:\nTriangle $AB\\Gamma$ connects the base $AB$ to point $\\Gamma$.\nTriangle $AB\\Delta$ connects the same base $AB$ to point $\\Delta$.\nRelationship: The text states that line $\\epsilon$ is parallel to line segment $AB$.",
+      "input": "",
       "choices": [
         "A. 2",
         "B. 4",
@@ -40,7 +40,7 @@
     {
       "id": "3",
       "question": "Τα τρίγωνα $AB\\Gamma$ και ΑΔΕ είναι ισοσκελή και η γωνία Γ ισούται με $64^{circ}$ και η γωνία $\\Delta AE=32^{circ}$. Η γωνία x ισούται με:",
-      "input": "The image shows a geometry problem involving nested triangles.\nTriangles: A large triangle $AB\\Gamma$ ($ABC$) containing a smaller inner triangle $A\\Delta E$ ($ADE$).\nBase Line: Points $B$, $\\Delta$, $E$, and $\\Gamma$ are collinear.\nMarkings:\nSides $AB$ and $A\\Gamma$ have double tick marks, indicating $AB = A\\Gamma$ (Triangle $AB\\Gamma$ is isosceles).\nSides $A\\Delta$ and $AE$ have single tick marks, indicating $A\\Delta = AE$ (Triangle $A\\Delta E$ is isosceles).\nAngles:\nAngle $\\Gamma$ is labeled $64^{circ}$.\nAngle $\\Delta AE$ is labeled $32^{circ}$.\nAngle $BA\\Delta$ is labeled $x$.",
+      "input": "",
       "choices": [
         "A. $16^{circ}$",
         "B. $10^{circ}$",
@@ -142,7 +142,7 @@
     {
       "id": "9.1",
       "question": "Τρείς παράλληλες ευθείες $\\epsilon_{1}$, $\\epsilon_{2}$, $\\epsilon_{3}$ διέρχονται από τις κορυφές Α, Β, Γ ενός τετραγώνου ΑΒΓΔ. Η απόσταση μεταξύ των $\\epsilon_{1}$, $\\epsilon_{2}$ είναι $AE=5$ cm και η απόσταση μεταξύ των $\\epsilon_{2}$, $\\epsilon_{3}$ είναι $BZ=7$ cm. \n\nΝα αποδείξετε ότι οι γωνίες $\\phi$ και $\\rho$ είναι ίσες",
-      "input": "The image displays a geometric problem featuring a square $AB\\Gamma\\Delta$ ($ABCD$) positioned between three parallel lines.\nParallel Lines: Three blue lines labeled $\\varepsilon_1, \\varepsilon_2, \\varepsilon_3$ run diagonally.\nSquare: A dark blue square $AB\\Gamma\\Delta$ has its vertices on these lines:\nVertex $A$ is on $\\varepsilon_1$.\nVertex $B$ is on $\\varepsilon_2$.\nVertex $\\Gamma$ is on $\\varepsilon_3$.\nMeasurements:\n$AE = 5 \\text{ cm}$: A perpendicular segment from $A$ to line $\\varepsilon_2$ (representing the distance between $\\varepsilon_1$ and $\\varepsilon_2$).\n$BZ = 7 \\text{ cm}$: A perpendicular segment from $B$ to line $\\varepsilon_3$ (representing the distance between $\\varepsilon_2$ and $\\varepsilon_3$).\nAngles: Several angles are marked with Greek letters ($\\phi, \\tau, \\rho, \\omega$) and green shading, indicating geometric relationships between the triangles formed.",
+      "input": "",
       "choices": [],
       "images": [
         {
@@ -158,7 +158,7 @@
     {
       "id": "9.2",
       "question": "Τρείς παράλληλες ευθείες $\\epsilon_{1}$, $\\epsilon_{2}$, $\\epsilon_{3}$ διέρχονται από τις κορυφές Α, Β, Γ ενός τετραγώνου ΑΒΓΔ. Η απόσταση μεταξύ των $\\epsilon_{1}$, $\\epsilon_{2}$ είναι $AE=5$ cm και η απόσταση μεταξύ των $\\epsilon_{2}$, $\\epsilon_{3}$ είναι $BZ=7$ cm. \n\nΝα αποδείξετε ότι τα τρίγωνα ΑΒΕ και ΒΓΖ είναι ίσα",
-      "input": "The image displays a geometric problem featuring a square $AB\\Gamma\\Delta$ ($ABCD$) positioned between three parallel lines.\nParallel Lines: Three blue lines labeled $\\varepsilon_1, \\varepsilon_2, \\varepsilon_3$ run diagonally.\nSquare: A dark blue square $AB\\Gamma\\Delta$ has its vertices on these lines:\nVertex $A$ is on $\\varepsilon_1$.\nVertex $B$ is on $\\varepsilon_2$.\nVertex $\\Gamma$ is on $\\varepsilon_3$.\nMeasurements:\n$AE = 5 \\text{ cm}$: A perpendicular segment from $A$ to line $\\varepsilon_2$ (representing the distance between $\\varepsilon_1$ and $\\varepsilon_2$).\n$BZ = 7 \\text{ cm}$: A perpendicular segment from $B$ to line $\\varepsilon_3$ (representing the distance between $\\varepsilon_2$ and $\\varepsilon_3$).\nAngles: Several angles are marked with Greek letters ($\\phi, \\tau, \\rho, \\omega$) and green shading, indicating geometric relationships between the triangles formed.",
+      "input": "",
       "choices": [],
       "images": [
         {
@@ -174,7 +174,7 @@
     {
       "id": "9.3",
       "question": "Τρείς παράλληλες ευθείες $\\epsilon_{1}$, $\\epsilon_{2}$, $\\epsilon_{3}$ διέρχονται από τις κορυφές Α, Β, Γ ενός τετραγώνου ΑΒΓΔ. Η απόσταση μεταξύ των $\\epsilon_{1}$, $\\epsilon_{2}$ είναι $AE=5$ cm και η απόσταση μεταξύ των $\\epsilon_{2}$, $\\epsilon_{3}$ είναι $BZ=7$ cm. \n\nΝα βρείτε το μήκος του $\\Gamma\\text{Z}$",
-      "input": "The image displays a geometric problem featuring a square $AB\\Gamma\\Delta$ ($ABCD$) positioned between three parallel lines.\nParallel Lines: Three blue lines labeled $\\varepsilon_1, \\varepsilon_2, \\varepsilon_3$ run diagonally.\nSquare: A dark blue square $AB\\Gamma\\Delta$ has its vertices on these lines:\nVertex $A$ is on $\\varepsilon_1$.\nVertex $B$ is on $\\varepsilon_2$.\nVertex $\\Gamma$ is on $\\varepsilon_3$.\nMeasurements:\n$AE = 5 \\text{ cm}$: A perpendicular segment from $A$ to line $\\varepsilon_2$ (representing the distance between $\\varepsilon_1$ and $\\varepsilon_2$).\n$BZ = 7 \\text{ cm}$: A perpendicular segment from $B$ to line $\\varepsilon_3$ (representing the distance between $\\varepsilon_2$ and $\\varepsilon_3$).\nAngles: Several angles are marked with Greek letters ($\\phi, \\tau, \\rho, \\omega$) and green shading, indicating geometric relationships between the triangles formed.",
+      "input": "",
       "choices": [],
       "images": [
         {
@@ -190,7 +190,7 @@
     {
       "id": "9.4",
       "question": "Τρείς παράλληλες ευθείες $\\epsilon_{1}$, $\\epsilon_{2}$, $\\epsilon_{3}$ διέρχονται από τις κορυφές Α, Β, Γ ενός τετραγώνου ΑΒΓΔ. Η απόσταση μεταξύ των $\\epsilon_{1}$, $\\epsilon_{2}$ είναι $AE=5$ cm και η απόσταση μεταξύ των $\\epsilon_{2}$, $\\epsilon_{3}$ είναι $BZ=7$ cm. \n\nΝα υπολογίσετε το εμβαδόν του τετραγώνου ΑΒΓΔ",
-      "input": "The image displays a geometric problem featuring a square $AB\\Gamma\\Delta$ ($ABCD$) positioned between three parallel lines.\nParallel Lines: Three blue lines labeled $\\varepsilon_1, \\varepsilon_2, \\varepsilon_3$ run diagonally.\nSquare: A dark blue square $AB\\Gamma\\Delta$ has its vertices on these lines:\nVertex $A$ is on $\\varepsilon_1$.\nVertex $B$ is on $\\varepsilon_2$.\nVertex $\\Gamma$ is on $\\varepsilon_3$.\nMeasurements:\n$AE = 5 \\text{ cm}$: A perpendicular segment from $A$ to line $\\varepsilon_2$ (representing the distance between $\\varepsilon_1$ and $\\varepsilon_2$).\n$BZ = 7 \\text{ cm}$: A perpendicular segment from $B$ to line $\\varepsilon_3$ (representing the distance between $\\varepsilon_2$ and $\\varepsilon_3$).\nAngles: Several angles are marked with Greek letters ($\\phi, \\tau, \\rho, \\omega$) and green shading, indicating geometric relationships between the triangles formed.",
+      "input": "",
       "choices": [],
       "images": [
         {

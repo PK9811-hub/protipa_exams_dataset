@@ -1,0 +1,94 @@
+[
+  {
+    "id": "1",
+    "question": "Οι αριθμοί $3, 9, 27, 81, 243$ είναι όλοι της μορφής... με $\\nu$ θετικό ακέραιο.\\nΝα γράψετε στο τετράδιο των απαντήσεών σας την ορθή, κατά τη γνώμη σας, απάντηση.",
+    "input": "",
+    "choices": [
+      "α. $3^{\\nu}-3$",
+      "β. $3\\cdot3^{\\nu}$",
+      "γ. $3^{\\nu}$",
+      "δ. $3^{\\nu}+3$"
+    ],
+    "images": [],
+    "mark": ["Μονάδες 5"]
+  },
+  {
+    "id": "2",
+    "question": "Να υπολογίσετε την τιμή της παράστασης $K=\\frac{x^{2}-y^{2}}{x+y}$ όταν $x=1-\\sqrt{5}$ και $y=2+\\sqrt{5}$.",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": ["Μονάδες 5"]
+  },
+  {
+    "id": "3",
+    "question": "Υπάρχει πραγματικός αριθμός που να ικανοποιεί τη σχέση $x^{2}+25=0$; Δικαιολογήστε την απάντησή σας.",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": ["Μονάδες 5"]
+  },
+  {
+    "id": "1",
+    "question": "Στο διπλανό σχήμα η γωνία $x'\\text{O}x$ είναι ευθεία και η γωνία $y\\text{O}z$ είναι ορθή. Αν $\\sigma\\upsilon\nu\\omega=0,8$, τότε:\\nΝα γράψετε στο τετράδιο των απαντήσεών σας την ορθή, κατά τη γνώμη σας, απάντηση.",
+    "input": "",
+    "choices": [
+      "α. $\\varphi=30^{\\circ}$",
+      "β. $\\varphi=60^{\\circ}$",
+      "γ. $\\varphi=50^{\\circ}$",
+      "δ. $\\varphi=40^{\\circ}$"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2014_1/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2014_1_ΘΕΜΑ_2_ΕΙΚΟΝΑ_1.png",
+        "description": "The image is a geometric diagram illustrating angles on a straight line.\nLines and Angles: The diagram features a straight line $x'x$.\nVertex: The angles originate from a central point O on the line $x'x$.\nRays: Two rays, Oy and Oz, extend from O above the line $x'x$.\nAngle Notation: These rays divide the straight angle ($180^{\\circ}$) into three adjacent angles:\nThe angle $\\angle x'Oz$ is labeled with $\boldsymbol{\\omega}$.\nThe angle $\\angle zOy$ (or $\\angle yOz$) is marked with a square symbol, indicating it is a right angle ($90^{\\circ}$).\nThe angle $\\angle yOx$ is labeled with $\boldsymbol{\\varphi}$.",
+        "transcription": []
+      }
+    ],
+    "mark": ["Μονάδες 5"]
+  },
+  {
+    "id": "2.1",
+    "question": "Δίνεται το τρίγωνο $\\text{AB}\\Gamma$ με $\\text{AB}=2\\text{ cm}$ και $\\text{B}\\Gamma=5\\text{ cm}$, όπως φαίνεται στο σχήμα που ακολουθεί.\nΑν $\\hat{B}+\\hat{\\Gamma}=90^{\\circ}$, να βρεθεί η πλευρά $\\text{A}\\Gamma$ του τριγώνου.",
+    "input": "",
+    "choices": [],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2014_1/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2014_1_ΘΕΜΑ_2_ΕΙΚΟΝΑ_2.png",
+        "description": "The image is a geometric diagram of a triangle ($\\Delta \\text{AB}\\Gamma$) adjacent to a straight line ($x$), illustrating a geometry problem.\nTriangle: The primary figure is a triangle $\\text{AB}\\Gamma$.\nDimensions:\nSide $\\text{AB}$ is labeled with the length $2 \\text{ cm}$.\nSide $\\text{B}\\Gamma$ is shown lying on a straight line and is labeled with the length $5 \\text{ cm}$.\nStraight Line and Exterior Angle:\nSide $\\text{B}\\Gamma$ is collinear with a straight line extending to the right, labeled $x$.\nThe exterior angle at vertex $\\Gamma$, which is formed by side $\\text{A}\\Gamma$ and the line $x$, is labeled with the Greek letter $\\boldsymbol{\\varphi}$.",
+        "transcription": []
+      }
+    ],
+    "mark": ["Μονάδες 5"]
+  },
+  {
+    "id": "2.2",
+    "question": "Δίνεται το τρίγωνο $\\text{AB}\\Gamma$ με $\\text{AB}=2\\text{ cm}$ και $\\text{B}\\Gamma=5\\text{ cm}$, όπως φαίνεται στο σχήμα που ακολουθεί.\nΑν $\\Gamma\\chi$ είναι προέκταση της πλευράς $\\text{B}\\Gamma$ και $\\varphi=x\\hat{\\Gamma}\\text{A}$, να υπολογίσετε το ημίτονο και το συνημίτονο της γωνίας $\\varphi$. ",
+    "input": "",
+    "choices": [],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2014_1/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2014_1_ΘΕΜΑ_2_ΕΙΚΟΝΑ_2.png",
+        "description": "The image is a geometric diagram of a triangle ($\\Delta \\text{AB}\\Gamma$) adjacent to a straight line ($x$), illustrating a geometry problem.\nTriangle: The primary figure is a triangle $\\text{AB}\\Gamma$.\nDimensions:\nSide $\\text{AB}$ is labeled with the length $2 \\text{ cm}$.\nSide $\\text{B}\\Gamma$ is shown lying on a straight line and is labeled with the length $5 \\text{ cm}$.\nStraight Line and Exterior Angle:\nSide $\\text{B}\\Gamma$ is collinear with a straight line extending to the right, labeled $x$.\nThe exterior angle at vertex $\\Gamma$, which is formed by side $\\text{A}\\Gamma$ and the line $x$, is labeled with the Greek letter $\\boldsymbol{\\varphi}$.",
+        "transcription": []
+      }
+    ],
+    "mark": ["Μονάδες 5"]
+  },
+  {
+    "id": "3",
+    "question": "Μαθητές από την Γ΄ τάξη ενός Γυμνασίου θα διανυκτερεύσουν σε ξενώνα Περιβαλλοντικής Εκπαίδευσης. Αν οι μαθητές κοιμηθούν ανά δύο στα δωμάτια αυτού του ξενώνα, τότε ένας μαθητής δεν θα έχει δωμάτιο για να κοιμηθεί. Όμως, εάν οι μαθητές κοιμηθούν ανά τρεις στα δωμάτια, τότε δεν θα χρησιμοποιηθούν τέσσερα από τα δωμάτια του ξενώνα. Να βρείτε τον αριθμό των μαθητών και το πλήθος των δωματίων του ξενώνα.",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": ["Μονάδες 15"]
+  },
+  {
+    "id": "4",
+    "question": "Να υπολογίσετε το ποσοστό $(\\%)$ κατά το οποίο αυξάνεται το εμβαδόν ενός τετραγώνου, όταν η πλευρά του αυξηθεί κατά $20\\%$.",
+    "input": "",
+    "choices": [],
+    "images": [],
+    "mark": ["Μονάδες 15"]
+  }
+]

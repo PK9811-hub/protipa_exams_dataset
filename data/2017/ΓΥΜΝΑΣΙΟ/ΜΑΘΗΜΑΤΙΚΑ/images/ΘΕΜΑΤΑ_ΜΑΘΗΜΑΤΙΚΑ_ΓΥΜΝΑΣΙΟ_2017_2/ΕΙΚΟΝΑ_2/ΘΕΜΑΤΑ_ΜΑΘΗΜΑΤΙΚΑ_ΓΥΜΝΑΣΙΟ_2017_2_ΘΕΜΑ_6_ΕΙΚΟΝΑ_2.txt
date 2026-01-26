@@ -1,5 +1,2 @@
 Description
-The image displays a vertical bar chart visualizing statistical data regarding visitor numbers. The chart features blue vertical bars set against a white background with distinct horizontal black grid lines acting as a scale. The title is centered at the top in Greek. The vertical Y-axis indicates a numerical quantity (number of visitors), ranging from 0 to 900 in increments of 100. The horizontal X-axis displays specific time labels in Greek, covering a period from morning (π.μ) to afternoon (μ.μ).
-
-Transcription
-Title:\n Αριθμός επισκεπτών στο Μουσείο της Ακρόπολης \nY-Axis (Scale):\n 0, 100, 200, 300, 400, 500, 600, 700, 800, 900\nX-Axis (Data Points):\n\n9:00 π.μ:\n 300\n10:00 π.μ:\n 400\n11:00 π.μ:\n 400\n12:00 μ.μ:\n 600\n1:00 μ.μ:\n 700\n2:00 μ.μ:\n 800
+The image displays a geometric shape resembling a staircase or a right-angled triangle constructed from a grid of squares.\nStructure: The shape is formed by vertical columns of squares that decrease in height from left to right.\nColumn 1 (Left): 4 squares high.\nColumn 2: 3 squares high.\nColumn 3: 2 squares high.\nColumn 4 (Right): 1 square high.\nOutline: A diagonal line connects the top-left corner to the bottom-right corner, forming the hypotenuse of the triangle. The internal grid lines define the individual rectangular and square units.

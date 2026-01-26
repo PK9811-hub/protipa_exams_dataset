@@ -2,7 +2,7 @@
   {
     "id": "1",
     "question": "Στον παρακάτω πίνακα συγκεντρώθηκαν οι δηλώσεις προτίμησης των μαθητών της Γ΄ Λυκείου για την 5μερη εκδρομή τους. Ποια από τις παρακάτω προτάσεις είναι σωστή;",
-    "input": "The image displays a vertical bar chart titled \"Προτιμήσεις μαθητών για 5μερη εκδρομή\" (Student preferences for a 5-day trip).\nY-axis (Vertical): Labeled \"μαθητές\" (students), representing the number of votes. The scale ranges from 0 to 16 in increments of 2.\nX-axis (Horizontal): Labeled \"προορισμός\" (destination), listing five different locations.\nData Bars: There are five blue vertical bars, each corresponding to a specific destination and showing the number of students who chose it.",
+    "input": "",
     "choices": [
       "α. Σαράντα μαθητές δήλωσαν πού θέλουν να πάνε εκδρομή.",
       "β. Είκοσι μαθητές δήλωσαν ότι θέλουν να πάνε σε νησί.",
@@ -34,7 +34,7 @@
   {
     "id": "3",
     "question": "Αν κάθε τετραγωνάκι έχει εμβαδόν 2 τότε το πολύγωνο που έχουμε σχεδιάσει έχει εμβαδόν",
-    "input": "The image displays an irregular polygon drawn on a square grid background.\nGrid: The background consists of a regular grid of light grey lines forming unit squares.\nPolygon: The shape is outlined in black, and its vertices align perfectly with the grid intersections.\nGeometric Features (by counting grid units):\nTop Right: A diagonal line slopes down from the highest point, spanning 3 grid units horizontally and 3 grid units vertically.\nRight Side: A vertical line segment going down 3 units.\nBottom: A horizontal line segment going left 3 units.\nBottom Left: A diagonal line slopes up, spanning 2 units horizontally and 2 units vertically.\nFar Left: A rectangular \"arm\" protrudes to the left, 2 units wide and 1 unit high.\nMiddle Vertical: A vertical line segment goes up 3 units, connecting the \"arm\" back to the highest point.",
+    "input": "",
     "choices": [
       "α. 18",
       "β. 18,5",
@@ -53,7 +53,7 @@
   {
     "id": "4",
     "question": "Σε τρία ίσα τετράγωνα έχουμε σχεδιάσει στο εσωτερικό τους με διαβήτη τα επόμενα συμμετρικά σχήματα και τα έχουμε βάψει με μαύρη μπογιά. Για την ποσότητα της μπογιάς που χρησιμοποιήσαμε ποιο από τα παρακάτω είναι λάθος;",
-    "input": "The image displays three square frames, labeled Σχήμα Α (Shape A), Σχήμα Β (Shape B), and Σχήμα Γ (Shape C), each containing a different geometric pattern created by black and white regions.\nΣχήμα Α (Left): A square containing a central black four-pointed star shape. This shape is formed by four white quarter-circles located at the four corners of the square.\nΣχήμα Β (Middle): A square containing two large white semicircles. One semicircle has its diameter on the top edge of the square, and the other has its diameter on the bottom edge. The semicircles touch at the center of the square. The remaining space on the left and right sides is shaded black.\nΣχήμα Γ (Right): A square containing a large white circle inscribed within it (touching the midpoints of all four sides). The four corner regions outside the circle are shaded black.",
+    "input": "",
     "choices": [
       "α. Για το σχήμα Α χρειάστηκε περισσότερη μπογιά από ότι για το Γ",
       "β. Για τα σχήματα Β και Γ χρειάστηκε η ίδια ποσότητα μπογιάς",

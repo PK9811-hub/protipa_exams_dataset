@@ -106,7 +106,7 @@
   {
     "id": "9",
     "question": "Ένας κύβος έχει κατασκευαστεί από μικρότερα κυβάκια. Η μία όψη του φαίνεται παρακάτω. Από πόσα κυβάκια αποτελείται ο κύβος;",
-    "input": "The image displays a simple geometric pattern consisting of a large square divided into a grid.\nGrid Structure: It is a $3 \times 3$ grid, creating a total of 9 identical smaller squares arranged in three rows and three columns.\nColors: The squares are filled with a dark green color, and they are separated by thin white grid lines.",
+    "input": "",
     "choices": [
       "A. 9",
       "B. 18",
@@ -125,7 +125,7 @@
   {
     "id": "10",
     "question": "Στο παρακάτω σχεδιάγραμμα φαίνεται ένας χάρτης με οριζόντιες και κατακόρυφες γραμμές που σχηματίζουν τετράγωνα. Επίσης φαίνεται η διαδρομή που ακολουθώ για να πάω από το σπίτι στο σχολείο και από το σπίτι στο πάρκο. Η συνολική απόσταση πάνω στο χάρτη της διαδρομής από το σχολείο στο πάρκο, περνώντας από το σπίτι είναι 52,5 εκ. Αν ξέρεις ότι ο χάρτης έχει σχεδιαστεί με κλίμακα 1/12.000, τότε ποιο είναι το πραγματικό μήκος της διαδρομής από το σπίτι στο σχολείο;",
-    "input": "The image displays a grid map consisting of squares formed by horizontal and vertical lines. A thick black line traces a path connecting three specific points labeled in Greek:\nΣΠΙΤΙ (Home): A point located on the left side of the grid.\nΣΧΟΛΕΙΟ (School): A point located on the right side, at a higher level than the Home.\nΠΑΡΚΟ (Park): A point located on the right side, at a lower level than the Home.\nPath Details:\nPath from ΣΠΙΤΙ to ΣΧΟΛΕΙΟ: Starting from Home, the path goes 1 unit Up, 1 unit Right, 1 unit Up, 1 unit Right, 1 unit Down, and finally 2 units Right to reach the School.\nPath from ΣΠΙΤΙ to ΠΑΡΚΟ: Starting from Home, the path goes 1 unit Down, 1 unit Right, 1 unit Down, and finally 3 units Right to reach the Park.",
+    "input": "",
     "choices": [
       "Α. 3780 μέτρα",
       "Β. 31,5 μέτρα",
@@ -196,7 +196,7 @@
   {
     "id": "15",
     "question": "Στο παρακάτω ραβδόγραμμα φαίνονται οι απαντήσεις όλων των παιδιών ενός σχολείου που απάντησαν στην ερώτηση: «πόσα στυλό έχετε μαζί σας σήμερα στο σχολείο;». Ποιο από τα επόμενα συμπεράσματα είναι λάθος με βάση το ραβδόγραμμα;",
-    "input": "The image displays a vertical bar chart.\nY-axis (Vertical): Represents a numerical scale ranging from 0 to 25, with increments of 5. Horizontal grid lines mark these values.\nX-axis (Horizontal): Lists four categories labeled 1, 2, 3, and 4.\nData Values:\nCategory 1: The bar reaches the height of 10.\nCategory 2: The bar reaches the height of 15.\nCategory 3: The bar reaches the height of 20.\nCategory 4: The bar reaches the height of 10.",
+    "input": "",
     "choices": [
       "Α. απάντησαν 55 παιδιά",
       "Β. η απάντηση που έδωσαν τα περισσότερα παιδιά ήταν «3 στυλό»",

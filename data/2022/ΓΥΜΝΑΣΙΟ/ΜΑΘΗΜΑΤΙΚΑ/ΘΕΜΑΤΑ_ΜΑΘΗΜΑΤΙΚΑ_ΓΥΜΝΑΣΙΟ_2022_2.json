@@ -28,7 +28,7 @@
   {
     "id": "28",
     "question": "Ρωτήθηκαν οι μαθητές της A' Γυμνασίου ενός Πρότυπου Σχολείου της Αθήνας με ποιον τρόπο μετακινούνται από το σπίτι τους προς το σχολείο και οι απαντήσεις τους φαίνονται στο διπλανό πίνακα. Ποιο είναι περίπου το ποσοστό των μαθητών που δεν πηγαίνουν στο σχολείο πεζοί;",
-    "input": "The image displays a vertical bar chart illustrating the modes of transport students use to get to school.\nY-axis (Vertical): Labeled \"πλήθος μαθητών\" (number of students), with a numerical scale from 0 to 30.\nX-axis (Horizontal): Lists four transport categories:\nΠεζοί (Pedestrians/Walkers)\nΙΧ αυτοκίνητο (Private Car)\nΛεωφορείο (Bus)\nΜετρό (Metro)\nData Bars:\nΠεζοί: The bar represents 15 students.\nΙΧ αυτοκίνητο: The bar represents 18 students.\nΛεωφορείο: The bar represents 25 students.\nΜετρό: The bar represents 22 students.",
+    "input": "",
     "choices": [
       "A. 60%",
       "B. 70%",
@@ -47,7 +47,7 @@
   {
     "id": "29",
     "question": "Στην αριθμογραμμή το κλάσμα $\\frac{7}{9}$ απέχει από το $\\frac{\/alpha}{\\beta}$ διπλάσια απόσταση από όσο απέχει από το $\\frac{10}{9}.$ Πόσο απέχουν μεταξύ τους τα κλάσματα $\\frac{\/alpha}{\\beta}$ και $\\frac{10}{9};$",
-    "input": "The image displays a segment of a horizontal number line with three points marked.\nLeft Point: Labeled with the fraction $\frac{/alpha}{\beta}$.\nMiddle Point: Labeled with the fraction $\frac{7}{9}$.\nRight Point: Labeled with the fraction $\frac{10}{9}$.\nThe distance between the left point and the middle point appears visually larger than the distance between the middle point and the right point.",
+    "input": "",
     "choices": [
       "A. $\\frac{2}{3}$",
       "B. 1",
@@ -248,7 +248,7 @@
   {
     "id": "44",
     "question": "Το διπλανό σχήμα που μοιάζει με σταυρό αποτελείται από δύο τετράγωνα και τρία ορθογώνια. Τα σκιασμένα με διαγώνιες γραμμές μέρη του σχήματος είναι δύο τετράγωνα με εμβαδά 1 τ. εκ. και 4 τ. εκ. και 2 ορθογώνια με εμβαδά 2 τ. εκ. και 8 τ. εκ. Η περίμετρος του σχήματος είναι:",
-    "input": "The image displays a simple line drawing representing a burrow or tunnel.\nStructure: The burrow is a winding tube with two open ends. It curves back and forth in an 'S' shape.\nEntrances:\nEntrance A: Located at the top left, with an arrow pointing right into the tube. A small drawing of a rabbit is positioned here, facing into the tunnel.\nEntrance B: Located at the bottom right, with an arrow pointing up into the tube. Another small drawing of a rabbit is positioned here, facing into the tunnel.",
+    "input": "",
     "choices": [
       "Α. 24 εκ.",
       "Β. 15 εκ.",
@@ -267,7 +267,7 @@
   {
     "id": "45",
     "question": "Δύο λαγοί μπήκαν στο ίδιο λαγούμι από τα σημεία Α και Β αντίστοιχα και κινούνται με αντίθετη κατεύθυνση. Ο πρώτος λαγός διένυσε τα $\\frac{5}{8}$ του λαγουμιού και ο δεύτερος τα $\\frac{3}{4}$ του λαγουμιού. Ποιο κλάσμα δείχνει την απόσταση που χωρίζει τους δύο λαγούς;",
-    "input": "The image displays a geometric figure shaped like an asymmetric cross.\nComposition: It is formed by a horizontal rectangle intersected by a vertical rectangle.\nShading Patterns:\nDiagonal Stripes: Most of the horizontal arms (left and right) and the vertical arms (top and bottom) are filled with diagonal stripes.\nSolid Grey: The central intersection where the two rectangles overlap is filled with a solid grey color.\nStructure: The description implies the figure is composed of specific smaller geometric units (squares and rectangles) based on the shading and arrangement.",
+    "input": "",
     "choices": [
       "A. $\\frac{1}{8}$",
       "B. $\\frac{3}{8}$",
@@ -312,7 +312,7 @@
   {
     "id": "48",
     "question": "Το διπλανό σχεδιάγραμμα, που απεικονίζει μια πλατεία κι έναν κήπο, σχεδιάστηκε με κλίμακα 1:1.000. Η περίμετρος του κήπου στο σχεδιάγραμμα είναι 8 εκατοστά. Ποια είναι η πραγματική περίμετρος της πλατείας;",
-    "input": "The image displays a geometric diagram drawn on a square grid.\nTwo Shaded Regions:\nLeft Region: Labeled \"ΠΛΑΤΕΙΑ\" (Square/Plaza). It is an L-shaped polygon consisting of 5 grid squares (a $2 \times 3$ block with the top-right corner missing, or a vertical $2 \times 3$ block joined with a $1 \times 1$ block? No, looking closely, it is 2 squares wide and 3 squares high on the left column, plus 2 squares on the bottom row to the right. Let's count grid units: Left vertical edge is 3 units. Bottom horizontal edge is 4 units. It covers 5 grid squares total).\nRight Region: Labeled \"ΚΗΠΟΣ\" (Garden). It is a single square, occupying exactly one grid square ($1 \times 1$).\nGrid: The background consists of a regular grid of lines forming squares.",
+    "input": "",
     "choices": [
       "Α. 140 μέτρα",
       "Β. 280 μέτρα",
@@ -344,7 +344,7 @@
   {
     "id": "50",
     "question": "Για να πάμε από το Α στο Γ ακολουθούμε είτε τη διαδρομή 1: Α -> Δ -> Β -> Ζ -> Γ είτε τη διαδρομή 2: Α -> Ε -> Ζ -> Γ όπου γνωρίζουμε ότι το μονοπάτι ΔΕ είναι παράλληλο στο ΒΓ και το μονοπάτι ΕΖ είναι παράλληλο στο ΑΒ. Τότε είναι σωστό ότι:",
-    "input": "The image displays a geometric network diagram with points labeled $A, B, \\Gamma, \\Delta, E, Z$.\nPoints & Connections:\nPoint $A$ is connected to point $\\Delta$.\nPoint $\\Delta$ branches to $B$ (upwards) and $E$ (downwards).\nPoint $B$ connects to point $Z$.\nPoint $E$ connects to point $Z$.\nPoint $Z$ connects to point $\\Gamma$.\nPaths: The diagram illustrates two main paths from $A$ to $\\Gamma$ as described in the text:\nPath 1: $A \rightarrow \\Delta \rightarrow B \rightarrow Z \rightarrow \\Gamma$\nPath 2: $A \rightarrow \\Delta \rightarrow E \rightarrow Z \rightarrow \\Gamma$\nGeometric Shapes: The points $\\Delta, B, Z, E$ form a quadrilateral (specifically a parallelogram based on the problem description).",
+    "input": "",
     "choices": [
       "Α. η διαδρομή 1 είναι πάντα η συντομότερη.",
       "Β. η διαδρομή 2 είναι πάντα η συντομότερη.",

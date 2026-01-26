@@ -80,12 +80,17 @@ from datasets import load_dataset
 
 # Load the benchmark test split
 dataset = load_dataset("ilsp/GR-ProtipaExams", split="test")
+sample = dataset[1]
 
-# Access multimodal content
-sample = dataset[0]
-print(sample["question"])
-if sample["reference"] == "multimodal":
-    sample["images"][0].show()
+print(f"Question: {sample['question']}")
+print(f"Choices: {sample['choices']}")
+print(f"Answer: {sample['answer']}")
+
+**Output Example:**
+```text
+Question: Ποιο από τα παρακάτω δεν ισχύει, σύμφωνα με το κείμενο;
+Choices: ['Α. Υπάρχει μόνο μία επιλογή προκειμένου να αντιμετωπίσουμε το οικολογικό πρόβλημα.', 'Β. Οι σύγχρονοι άνθρωποι επιδιώκουν μανιωδώς την υλική ευημερία τους.', 'Γ. Η πλεονεξία των πολλών επιβαρύνει τους ανθρώπους που ζουν με μέτρο.', 'Δ. Μετά τον B' Παγκόσμιο Πόλεμο, ο υπερκαταναλωτικός τρόπος ζωής εδραιώθηκε σε όλον τον κόσμο.']
+Answer: A
 ```
 
 ---

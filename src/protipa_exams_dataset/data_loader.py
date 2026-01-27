@@ -97,24 +97,25 @@ def process_matching_row(row):
     Processes a single matching exercise row to create a list of answer options
     (shuffled versions of the matching) and identifying the correct index.
     """
-    answer_raw = row.get('answer')
+    answer_raw = row.get('answer_text')
     if not answer_raw:
-        return None
+        answer_raw = row.get('answer')
+        if not answer_raw:
+            return None
     
     try:
         # 1. Parse answer if it's a string
         if isinstance(answer_raw, str):
+            if '-' in answer_raw or ':' in answer_raw:
+                correct_list = [s.strip() for s in answer_raw.split(',')]
             # Try to handle common formats like '["A-1", "B-2"]' or "['A-1', 'B-2']"
-            try:
-                correct_list = json.loads(answer_raw.replace("'", '"'))
-            except:
+            else:
                 try:
-                    correct_list = ast.literal_eval(answer_raw)
+                    correct_list = json.loads(answer_raw.replace("'", '"'))
                 except:
-                    # Fallback if it's just a raw CSV string
-                    if '-' in answer_raw or ':' in answer_raw:
-                        correct_list = [s.strip() for s in answer_raw.split(',')]
-                    else:
+                    try:
+                        correct_list = ast.literal_eval(answer_raw)
+                    except:
                         return None
         else:
             correct_list = answer_raw
@@ -154,13 +155,16 @@ def process_matching_row(row):
             max_attempts -= 1
             
         # 4. Create the final list of options (a list of lists)
-        options = [correct_list] + distractors
+        raw_options = [correct_list] + distractors
         
         # 5. Shuffle the list of options
-        random.shuffle(options)
+        random.shuffle(raw_options)
+        
+        options = [", ".join(opt) for opt in raw_options]
         
         # 6. Find the new index of the correct answer
-        correct_index = options.index(correct_list)
+        correct_string = ", ".join(correct_list)
+        correct_index = options.index(correct_string)
         
         return pd.Series({
             'processed_choices': options,
@@ -189,9 +193,12 @@ def apply_matching_processing(df, target_ids=None):
             df.loc[:, col] = None
     
     # Determine which rows to process
-    rows_to_process = df
+    mask = df['format'].astype(str).str.contains('matching', case=False, na=False)
+    
     if target_ids is not None and 'unique_id' in df.columns:
-        rows_to_process = df[df['unique_id'].isin(target_ids)]
+        mask = mask & df[df['unique_id'].isin(target_ids)]
+    
+    rows_to_process = df[mask]
     
     if rows_to_process.empty:
         return df
@@ -207,8 +214,8 @@ def apply_matching_processing(df, target_ids=None):
                 # The index of updates matches the index of df
                 valid_indices = updates.index[valid_mask]
                 
-                df.loc[valid_indices, ['processed_choices', 'new_answer_index']] = updates.loc[valid_indices]
-                df.loc[valid_indices, 'answer'] = updates.loc[valid_indices, 'processed_choices']
+                #df.loc[valid_indices, ['processed_choices', 'new_answer_index']] = updates.loc[valid_indices]
+                df.loc[valid_indices, 'choices'] = updates.loc[valid_indices, 'processed_choices']
                 df.loc[valid_indices, 'answer_index'] = updates.loc[valid_indices, 'new_answer_index']
     except Exception as e:
         logger.error(f"Error in apply_matching_processing: {e}")

@@ -55,7 +55,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Το ΑΒΓΔ είναι ορθογώνιο με ΑΔ = 1. Αν ΑΕ = 2 και το γραμμοσκιασμένο ορθογώνιο ΕΒΓΖ είναι όμοιο με το ΑΒΓΔ, τότε να βρεθεί η πλευρά του ΕΒ. ",
-        "input":"The image displays a rectangle labeled $AB\\Gamma\\Delta$.\nDimensions: The vertical side $A\\Delta$ is marked with the length $1$. A segment on the top side, labeled $AE$, is marked with the length $2$.\nStructure: The large rectangle is divided vertically by a line segment $EZ$. This creates a white rectangle on the left ($A\\Delta ZE$) and a shaded rectangle with diagonal stripes on the right ($EB\\Gamma Z$).\nLabels: Vertices are $A, B, \\Gamma, \\Delta$ and the dividing points are $E, Z$.",
+        "input":"",
         "images":[
             null
         ],
@@ -400,7 +400,7 @@
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2018_3_7.1",
+        "id":"greek_language_gym_2018_2_7.1",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -419,13 +419,13 @@
         "points":null,
         "year":"2018",
         "admission_level":"gymnasium",
-        "exam_set":"3",
+        "exam_set":"2",
         "q_id":"7.1",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2018_3_7.2",
+        "id":"greek_language_gym_2018_2_7.2",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -444,13 +444,13 @@
         "points":null,
         "year":"2018",
         "admission_level":"gymnasium",
-        "exam_set":"3",
+        "exam_set":"2",
         "q_id":"7.2",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2018_3_7.3",
+        "id":"greek_language_gym_2018_2_7.3",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -469,13 +469,13 @@
         "points":null,
         "year":"2018",
         "admission_level":"gymnasium",
-        "exam_set":"3",
+        "exam_set":"2",
         "q_id":"7.3",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2018_3_7.4",
+        "id":"greek_language_gym_2018_2_7.4",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -494,13 +494,13 @@
         "points":null,
         "year":"2018",
         "admission_level":"gymnasium",
-        "exam_set":"3",
+        "exam_set":"2",
         "q_id":"7.4",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2018_3_7.5",
+        "id":"greek_language_gym_2018_2_7.5",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -519,13 +519,13 @@
         "points":null,
         "year":"2018",
         "admission_level":"gymnasium",
-        "exam_set":"3",
+        "exam_set":"2",
         "q_id":"7.5",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2018_4_7.1",
+        "id":"greek_language_gym_2018_3_7.1",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -544,13 +544,13 @@
         "points":null,
         "year":"2018",
         "admission_level":"gymnasium",
-        "exam_set":"4",
+        "exam_set":"3",
         "q_id":"7.1",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2018_4_7.2",
+        "id":"greek_language_gym_2018_3_7.2",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -569,13 +569,13 @@
         "points":null,
         "year":"2018",
         "admission_level":"gymnasium",
-        "exam_set":"4",
+        "exam_set":"3",
         "q_id":"7.2",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2018_4_7.3",
+        "id":"greek_language_gym_2018_3_7.3",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -594,13 +594,13 @@
         "points":null,
         "year":"2018",
         "admission_level":"gymnasium",
-        "exam_set":"4",
+        "exam_set":"3",
         "q_id":"7.3",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2018_4_7.4",
+        "id":"greek_language_gym_2018_3_7.4",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -619,13 +619,13 @@
         "points":null,
         "year":"2018",
         "admission_level":"gymnasium",
-        "exam_set":"4",
+        "exam_set":"3",
         "q_id":"7.4",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2018_4_7.5",
+        "id":"greek_language_gym_2018_3_7.5",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -644,13 +644,13 @@
         "points":null,
         "year":"2018",
         "admission_level":"gymnasium",
-        "exam_set":"4",
+        "exam_set":"3",
         "q_id":"7.5",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2018_4_7.6",
+        "id":"greek_language_gym_2018_3_7.6",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -669,7 +669,7 @@
         "points":null,
         "year":"2018",
         "admission_level":"gymnasium",
-        "exam_set":"4",
+        "exam_set":"3",
         "q_id":"7.6",
         "processed_choices":null,
         "new_answer_index":null
@@ -775,7 +775,7 @@
         "new_answer_index":null
     },
     {
-        "id":"math_gym_2018_3_9",
+        "id":"math_gym_2018_2_9",
         "subject":"mathematics",
         "format":"open_ended",
         "reference":"none",
@@ -794,13 +794,13 @@
         "points":null,
         "year":"2018",
         "admission_level":"gymnasium",
-        "exam_set":"3",
+        "exam_set":"2",
         "q_id":"9",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"math_gym_2018_3_10.1",
+        "id":"math_gym_2018_2_10.1",
         "subject":"mathematics",
         "format":"open_ended",
         "reference":"none",
@@ -819,13 +819,13 @@
         "points":5.0,
         "year":"2018",
         "admission_level":"gymnasium",
-        "exam_set":"3",
+        "exam_set":"2",
         "q_id":"10.1",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"math_gym_2018_3_10.2",
+        "id":"math_gym_2018_2_10.2",
         "subject":"mathematics",
         "format":"open_ended",
         "reference":"none",
@@ -844,13 +844,13 @@
         "points":5.0,
         "year":"2018",
         "admission_level":"gymnasium",
-        "exam_set":"3",
+        "exam_set":"2",
         "q_id":"10.2",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"math_gym_2018_4_9.1",
+        "id":"math_gym_2018_3_9.1",
         "subject":"mathematics",
         "format":"open_ended",
         "reference":"none",
@@ -869,13 +869,13 @@
         "points":5.0,
         "year":"2018",
         "admission_level":"gymnasium",
-        "exam_set":"4",
+        "exam_set":"3",
         "q_id":"9.1",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"math_gym_2018_4_9.2",
+        "id":"math_gym_2018_3_9.2",
         "subject":"mathematics",
         "format":"open_ended",
         "reference":"none",
@@ -894,13 +894,13 @@
         "points":5.0,
         "year":"2018",
         "admission_level":"gymnasium",
-        "exam_set":"4",
+        "exam_set":"3",
         "q_id":"9.2",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"math_gym_2018_4_10.1",
+        "id":"math_gym_2018_3_10.1",
         "subject":"mathematics",
         "format":"open_ended",
         "reference":"none",
@@ -919,13 +919,13 @@
         "points":5.0,
         "year":"2018",
         "admission_level":"gymnasium",
-        "exam_set":"4",
+        "exam_set":"3",
         "q_id":"10.1",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"math_gym_2018_4_10.2",
+        "id":"math_gym_2018_3_10.2",
         "subject":"mathematics",
         "format":"open_ended",
         "reference":"none",
@@ -944,7 +944,7 @@
         "points":5.0,
         "year":"2018",
         "admission_level":"gymnasium",
-        "exam_set":"4",
+        "exam_set":"3",
         "q_id":"10.2",
         "processed_choices":null,
         "new_answer_index":null
@@ -1425,7 +1425,7 @@
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2017_3_8.1",
+        "id":"greek_language_gym_2017_2_8.1",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -1444,13 +1444,13 @@
         "points":null,
         "year":"2017",
         "admission_level":"gymnasium",
-        "exam_set":"3",
+        "exam_set":"2",
         "q_id":"8.1",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2017_3_8.2",
+        "id":"greek_language_gym_2017_2_8.2",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -1469,13 +1469,13 @@
         "points":null,
         "year":"2017",
         "admission_level":"gymnasium",
-        "exam_set":"3",
+        "exam_set":"2",
         "q_id":"8.2",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2017_3_8.3",
+        "id":"greek_language_gym_2017_2_8.3",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -1494,13 +1494,13 @@
         "points":null,
         "year":"2017",
         "admission_level":"gymnasium",
-        "exam_set":"3",
+        "exam_set":"2",
         "q_id":"8.3",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2017_3_8.4",
+        "id":"greek_language_gym_2017_2_8.4",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -1519,13 +1519,13 @@
         "points":null,
         "year":"2017",
         "admission_level":"gymnasium",
-        "exam_set":"3",
+        "exam_set":"2",
         "q_id":"8.4",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2017_3_8.5",
+        "id":"greek_language_gym_2017_2_8.5",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -1544,13 +1544,13 @@
         "points":null,
         "year":"2017",
         "admission_level":"gymnasium",
-        "exam_set":"3",
+        "exam_set":"2",
         "q_id":"8.5",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2017_3_8.6",
+        "id":"greek_language_gym_2017_2_8.6",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -1569,13 +1569,13 @@
         "points":null,
         "year":"2017",
         "admission_level":"gymnasium",
-        "exam_set":"3",
+        "exam_set":"2",
         "q_id":"8.6",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2017_3_8.7",
+        "id":"greek_language_gym_2017_2_8.7",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -1594,13 +1594,13 @@
         "points":null,
         "year":"2017",
         "admission_level":"gymnasium",
-        "exam_set":"3",
+        "exam_set":"2",
         "q_id":"8.7",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2017_3_8.8",
+        "id":"greek_language_gym_2017_2_8.8",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -1619,13 +1619,13 @@
         "points":null,
         "year":"2017",
         "admission_level":"gymnasium",
-        "exam_set":"3",
+        "exam_set":"2",
         "q_id":"8.8",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2017_4_8.1",
+        "id":"greek_language_gym_2017_3_8.1",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -1644,13 +1644,13 @@
         "points":null,
         "year":"2017",
         "admission_level":"gymnasium",
-        "exam_set":"4",
+        "exam_set":"3",
         "q_id":"8.1",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2017_4_8.2",
+        "id":"greek_language_gym_2017_3_8.2",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -1669,13 +1669,13 @@
         "points":null,
         "year":"2017",
         "admission_level":"gymnasium",
-        "exam_set":"4",
+        "exam_set":"3",
         "q_id":"8.2",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2017_4_8.3",
+        "id":"greek_language_gym_2017_3_8.3",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -1694,13 +1694,13 @@
         "points":null,
         "year":"2017",
         "admission_level":"gymnasium",
-        "exam_set":"4",
+        "exam_set":"3",
         "q_id":"8.3",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_gym_2017_4_8.4",
+        "id":"greek_language_gym_2017_3_8.4",
         "subject":"greek_language",
         "format":"fill_in_the_gaps",
         "reference":"none",
@@ -1719,13 +1719,13 @@
         "points":null,
         "year":"2017",
         "admission_level":"gymnasium",
-        "exam_set":"4",
+        "exam_set":"3",
         "q_id":"8.4",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"math_gym_2017_2_9.1",
+        "id":"math_gym_2017_1_9.1",
         "subject":"mathematics",
         "format":"open_ended",
         "reference":"none",
@@ -1744,13 +1744,13 @@
         "points":5.0,
         "year":"2017",
         "admission_level":"gymnasium",
-        "exam_set":"2",
+        "exam_set":"1",
         "q_id":"9.1",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"math_gym_2017_2_9.2",
+        "id":"math_gym_2017_1_9.2",
         "subject":"mathematics",
         "format":"open_ended",
         "reference":"none",
@@ -1769,13 +1769,13 @@
         "points":5.0,
         "year":"2017",
         "admission_level":"gymnasium",
-        "exam_set":"2",
+        "exam_set":"1",
         "q_id":"9.2",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"math_gym_2017_2_10.1",
+        "id":"math_gym_2017_1_10.1",
         "subject":"mathematics",
         "format":"open_ended",
         "reference":"none",
@@ -1794,13 +1794,13 @@
         "points":5.0,
         "year":"2017",
         "admission_level":"gymnasium",
-        "exam_set":"2",
+        "exam_set":"1",
         "q_id":"10.1",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"math_gym_2017_2_10.2",
+        "id":"math_gym_2017_1_10.2",
         "subject":"mathematics",
         "format":"open_ended",
         "reference":"none",
@@ -1819,13 +1819,13 @@
         "points":5.0,
         "year":"2017",
         "admission_level":"gymnasium",
-        "exam_set":"2",
+        "exam_set":"1",
         "q_id":"10.2",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"math_gym_2017_3_9",
+        "id":"math_gym_2017_2_9",
         "subject":"mathematics",
         "format":"open_ended",
         "reference":"none",
@@ -1844,13 +1844,13 @@
         "points":null,
         "year":"2017",
         "admission_level":"gymnasium",
-        "exam_set":"3",
+        "exam_set":"2",
         "q_id":"9",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"math_gym_2017_3_10",
+        "id":"math_gym_2017_2_10",
         "subject":"mathematics",
         "format":"open_ended",
         "reference":"none",
@@ -1869,13 +1869,13 @@
         "points":null,
         "year":"2017",
         "admission_level":"gymnasium",
-        "exam_set":"3",
+        "exam_set":"2",
         "q_id":"10",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_lyc_2016_1_2",
+        "id":"greek_language_lyc_2016_0_2",
         "subject":"greek_language",
         "format":"open_ended",
         "reference":"passage",
@@ -1894,13 +1894,13 @@
         "points":10.0,
         "year":"2016",
         "admission_level":"lyceum",
-        "exam_set":"1",
+        "exam_set":"0",
         "q_id":"2",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_lyc_2016_1_3",
+        "id":"greek_language_lyc_2016_0_3",
         "subject":"greek_language",
         "format":"open_ended",
         "reference":"passage",
@@ -1919,13 +1919,13 @@
         "points":10.0,
         "year":"2016",
         "admission_level":"lyceum",
-        "exam_set":"1",
+        "exam_set":"0",
         "q_id":"3",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"greek_language_lyc_2016_1_4",
+        "id":"greek_language_lyc_2016_0_4",
         "subject":"greek_language",
         "format":"open_ended",
         "reference":"passage",
@@ -1944,7 +1944,7 @@
         "points":10.0,
         "year":"2016",
         "admission_level":"lyceum",
-        "exam_set":"1",
+        "exam_set":"0",
         "q_id":"4",
         "processed_choices":null,
         "new_answer_index":null
@@ -2400,7 +2400,7 @@
         "new_answer_index":null
     },
     {
-        "id":"math_lyc_2016_1_9.1",
+        "id":"math_lyc_2016_0_9.1",
         "subject":"mathematics",
         "format":"open_ended",
         "reference":"none",
@@ -2419,13 +2419,13 @@
         "points":5.0,
         "year":"2016",
         "admission_level":"lyceum",
-        "exam_set":"1",
+        "exam_set":"0",
         "q_id":"9.1",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"math_lyc_2016_1_9.2",
+        "id":"math_lyc_2016_0_9.2",
         "subject":"mathematics",
         "format":"open_ended",
         "reference":"none",
@@ -2444,18 +2444,18 @@
         "points":5.0,
         "year":"2016",
         "admission_level":"lyceum",
-        "exam_set":"1",
+        "exam_set":"0",
         "q_id":"9.2",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"math_lyc_2016_1_10.1",
+        "id":"math_lyc_2016_0_10.1",
         "subject":"mathematics",
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Δίνεται τετράγωνο ΑΒΓΔ. Με πλευρά την ΑΒ κατασκευάζουμε ισόπλευρο τρίγωνο ΕΑΒ εντός του τετραγώνου και ισόπλευρο τρίγωνο ΖΓΒ εκτός του τετραγώνου, όπως φαίνεται στο σχήμα. [Image of a square ABGD with an internal equilateral triangle EAB and an external equilateral triangle ZGB]\n\nΝα υπολογίσετε τις γωνίες του τριγώνου ΑΔΕ.",
-        "input":"The image illustrates a geometry problem involving a square and two triangles.\nCentral Shape: A square labeled $ΑΒΓΔ$.\nInside: An equilateral triangle $ΕΑΒ$ is constructed on side $AB$, pointing inwards. Vertex $E$ is inside the square.\nOutside: An equilateral triangle $ΖΓΒ$ (connecting points $Z, \\Gamma, B$) is constructed on side $B\\Gamma$, pointing outwards.\nLabels: The vertices are marked with Greek letters: $A$ (bottom-left), $B$ (bottom-right), $\\Gamma$ (top-right), $\\Delta$ (top-left), $E$ (center), $Z$ (far right).",
+        "input":"",
         "images":[
             null
         ],
@@ -2469,18 +2469,18 @@
         "points":3.0,
         "year":"2016",
         "admission_level":"lyceum",
-        "exam_set":"1",
+        "exam_set":"0",
         "q_id":"10.1",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"math_lyc_2016_1_10.2",
+        "id":"math_lyc_2016_0_10.2",
         "subject":"mathematics",
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Δίνεται τετράγωνο ΑΒΓΔ. Με πλευρά την ΑΒ κατασκευάζουμε ισόπλευρο τρίγωνο ΕΑΒ εντός του τετραγώνου και ισόπλευρο τρίγωνο ΖΓΒ εκτός του τετραγώνου, όπως φαίνεται στο σχήμα. \n\nΝα υπολογίσετε τις γωνίες του τριγώνου ΒΕΖ.",
-        "input":"The image illustrates a geometry problem involving a square and two triangles.\nCentral Shape: A square labeled $ΑΒΓΔ$.\nInside: An equilateral triangle $ΕΑΒ$ is constructed on side $AB$, pointing inwards. Vertex $E$ is inside the square.\nOutside: An equilateral triangle $ΖΓΒ$ (connecting points $Z, \\Gamma, B$) is constructed on side $B\\Gamma$, pointing outwards.\nLabels: The vertices are marked with Greek letters: $A$ (bottom-left), $B$ (bottom-right), $\\Gamma$ (top-right), $\\Delta$ (top-left), $E$ (center), $Z$ (far right).",
+        "input":"",
         "images":[
             null
         ],
@@ -2494,18 +2494,18 @@
         "points":4.0,
         "year":"2016",
         "admission_level":"lyceum",
-        "exam_set":"1",
+        "exam_set":"0",
         "q_id":"10.2",
         "processed_choices":null,
         "new_answer_index":null
     },
     {
-        "id":"math_lyc_2016_1_10.3",
+        "id":"math_lyc_2016_0_10.3",
         "subject":"mathematics",
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Δίνεται τετράγωνο ΑΒΓΔ. Με πλευρά την ΑΒ κατασκευάζουμε ισόπλευρο τρίγωνο ΕΑΒ εντός του τετραγώνου και ισόπλευρο τρίγωνο ΖΓΒ εκτός του τετραγώνου, όπως φαίνεται στο σχήμα. \n\nΤι είδους γωνία είναι η ΔΕΖ;",
-        "input":"The image illustrates a geometry problem involving a square and two triangles.\nCentral Shape: A square labeled $ΑΒΓΔ$.\nInside: An equilateral triangle $ΕΑΒ$ is constructed on side $AB$, pointing inwards. Vertex $E$ is inside the square.\nOutside: An equilateral triangle $ΖΓΒ$ (connecting points $Z, \\Gamma, B$) is constructed on side $B\\Gamma$, pointing outwards.\nLabels: The vertices are marked with Greek letters: $A$ (bottom-left), $B$ (bottom-right), $\\Gamma$ (top-right), $\\Delta$ (top-left), $E$ (center), $Z$ (far right).",
+        "input":"",
         "images":[
             null
         ],
@@ -2519,7 +2519,7 @@
         "points":3.0,
         "year":"2016",
         "admission_level":"lyceum",
-        "exam_set":"1",
+        "exam_set":"0",
         "q_id":"10.3",
         "processed_choices":null,
         "new_answer_index":null
@@ -2530,7 +2530,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Τρείς παράλληλες ευθείες $\\epsilon_{1}$, $\\epsilon_{2}$, $\\epsilon_{3}$ διέρχονται από τις κορυφές Α, Β, Γ ενός τετραγώνου ΑΒΓΔ. Η απόσταση μεταξύ των $\\epsilon_{1}$, $\\epsilon_{2}$ είναι $AE=5$ cm και η απόσταση μεταξύ των $\\epsilon_{2}$, $\\epsilon_{3}$ είναι $BZ=7$ cm. \n\nΝα αποδείξετε ότι οι γωνίες $\\phi$ και $\\rho$ είναι ίσες",
-        "input":"The image displays a geometric problem featuring a square $AB\\Gamma\\Delta$ ($ABCD$) positioned between three parallel lines.\nParallel Lines: Three blue lines labeled $\\varepsilon_1, \\varepsilon_2, \\varepsilon_3$ run diagonally.\nSquare: A dark blue square $AB\\Gamma\\Delta$ has its vertices on these lines:\nVertex $A$ is on $\\varepsilon_1$.\nVertex $B$ is on $\\varepsilon_2$.\nVertex $\\Gamma$ is on $\\varepsilon_3$.\nMeasurements:\n$AE = 5 \\text{ cm}$: A perpendicular segment from $A$ to line $\\varepsilon_2$ (representing the distance between $\\varepsilon_1$ and $\\varepsilon_2$).\n$BZ = 7 \\text{ cm}$: A perpendicular segment from $B$ to line $\\varepsilon_3$ (representing the distance between $\\varepsilon_2$ and $\\varepsilon_3$).\nAngles: Several angles are marked with Greek letters ($\\phi, \\tau, \\rho, \\omega$) and green shading, indicating geometric relationships between the triangles formed.",
+        "input":"",
         "images":[
             null
         ],
@@ -2555,7 +2555,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Τρείς παράλληλες ευθείες $\\epsilon_{1}$, $\\epsilon_{2}$, $\\epsilon_{3}$ διέρχονται από τις κορυφές Α, Β, Γ ενός τετραγώνου ΑΒΓΔ. Η απόσταση μεταξύ των $\\epsilon_{1}$, $\\epsilon_{2}$ είναι $AE=5$ cm και η απόσταση μεταξύ των $\\epsilon_{2}$, $\\epsilon_{3}$ είναι $BZ=7$ cm. \n\nΝα αποδείξετε ότι τα τρίγωνα ΑΒΕ και ΒΓΖ είναι ίσα",
-        "input":"The image displays a geometric problem featuring a square $AB\\Gamma\\Delta$ ($ABCD$) positioned between three parallel lines.\nParallel Lines: Three blue lines labeled $\\varepsilon_1, \\varepsilon_2, \\varepsilon_3$ run diagonally.\nSquare: A dark blue square $AB\\Gamma\\Delta$ has its vertices on these lines:\nVertex $A$ is on $\\varepsilon_1$.\nVertex $B$ is on $\\varepsilon_2$.\nVertex $\\Gamma$ is on $\\varepsilon_3$.\nMeasurements:\n$AE = 5 \\text{ cm}$: A perpendicular segment from $A$ to line $\\varepsilon_2$ (representing the distance between $\\varepsilon_1$ and $\\varepsilon_2$).\n$BZ = 7 \\text{ cm}$: A perpendicular segment from $B$ to line $\\varepsilon_3$ (representing the distance between $\\varepsilon_2$ and $\\varepsilon_3$).\nAngles: Several angles are marked with Greek letters ($\\phi, \\tau, \\rho, \\omega$) and green shading, indicating geometric relationships between the triangles formed.",
+        "input":"",
         "images":[
             null
         ],
@@ -2580,7 +2580,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Τρείς παράλληλες ευθείες $\\epsilon_{1}$, $\\epsilon_{2}$, $\\epsilon_{3}$ διέρχονται από τις κορυφές Α, Β, Γ ενός τετραγώνου ΑΒΓΔ. Η απόσταση μεταξύ των $\\epsilon_{1}$, $\\epsilon_{2}$ είναι $AE=5$ cm και η απόσταση μεταξύ των $\\epsilon_{2}$, $\\epsilon_{3}$ είναι $BZ=7$ cm. \n\nΝα βρείτε το μήκος του $\\Gamma\\text{Z}$",
-        "input":"The image displays a geometric problem featuring a square $AB\\Gamma\\Delta$ ($ABCD$) positioned between three parallel lines.\nParallel Lines: Three blue lines labeled $\\varepsilon_1, \\varepsilon_2, \\varepsilon_3$ run diagonally.\nSquare: A dark blue square $AB\\Gamma\\Delta$ has its vertices on these lines:\nVertex $A$ is on $\\varepsilon_1$.\nVertex $B$ is on $\\varepsilon_2$.\nVertex $\\Gamma$ is on $\\varepsilon_3$.\nMeasurements:\n$AE = 5 \\text{ cm}$: A perpendicular segment from $A$ to line $\\varepsilon_2$ (representing the distance between $\\varepsilon_1$ and $\\varepsilon_2$).\n$BZ = 7 \\text{ cm}$: A perpendicular segment from $B$ to line $\\varepsilon_3$ (representing the distance between $\\varepsilon_2$ and $\\varepsilon_3$).\nAngles: Several angles are marked with Greek letters ($\\phi, \\tau, \\rho, \\omega$) and green shading, indicating geometric relationships between the triangles formed.",
+        "input":"",
         "images":[
             null
         ],
@@ -2605,7 +2605,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Τρείς παράλληλες ευθείες $\\epsilon_{1}$, $\\epsilon_{2}$, $\\epsilon_{3}$ διέρχονται από τις κορυφές Α, Β, Γ ενός τετραγώνου ΑΒΓΔ. Η απόσταση μεταξύ των $\\epsilon_{1}$, $\\epsilon_{2}$ είναι $AE=5$ cm και η απόσταση μεταξύ των $\\epsilon_{2}$, $\\epsilon_{3}$ είναι $BZ=7$ cm. \n\nΝα υπολογίσετε το εμβαδόν του τετραγώνου ΑΒΓΔ",
-        "input":"The image displays a geometric problem featuring a square $AB\\Gamma\\Delta$ ($ABCD$) positioned between three parallel lines.\nParallel Lines: Three blue lines labeled $\\varepsilon_1, \\varepsilon_2, \\varepsilon_3$ run diagonally.\nSquare: A dark blue square $AB\\Gamma\\Delta$ has its vertices on these lines:\nVertex $A$ is on $\\varepsilon_1$.\nVertex $B$ is on $\\varepsilon_2$.\nVertex $\\Gamma$ is on $\\varepsilon_3$.\nMeasurements:\n$AE = 5 \\text{ cm}$: A perpendicular segment from $A$ to line $\\varepsilon_2$ (representing the distance between $\\varepsilon_1$ and $\\varepsilon_2$).\n$BZ = 7 \\text{ cm}$: A perpendicular segment from $B$ to line $\\varepsilon_3$ (representing the distance between $\\varepsilon_2$ and $\\varepsilon_3$).\nAngles: Several angles are marked with Greek letters ($\\phi, \\tau, \\rho, \\omega$) and green shading, indicating geometric relationships between the triangles formed.",
+        "input":"",
         "images":[
             null
         ],
@@ -2680,7 +2680,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Μία βάρκα ξεκινάει από το λιμάνι Α, κινείται ανατολικά για 7 km μέχρι το σημείο Β, στη συνέχεια κινείται βόρεια για 9 km μέχρι το σημείο Γ, μετά πάλι ανατολικά για 8 km μέχρι το σημείο $\\Delta$ και τέλος 11 km βόρεια μέχρι το λιμάνι Ε. Την επομένη, επιστρέφει από το Ε στο Α κινούμενη ευθύγραμμα. \nΝα υπολογίσετε την απόσταση ΕΑ των δύο λιμανιών.",
-        "input":"The image displays a diagram of a path consisting of four line segments, representing movement on a map with cardinal directions.\\nSegment $AB$: Horizontal line moving East, length $7$km. There is a right angle marker at point $B$.\\nSegment $B\\Gamma$: Vertical line moving North, length $9$km.\\nSegment $\\Gamma\\Delta$: Horizontal line moving East, length $8$km. There is a right angle marker at point $\\Delta$.\\nSegment $\\Delta E$: Vertical line moving North, length $11$km.",
+        "input":"",
         "images":[
             null
         ],
@@ -2705,7 +2705,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Μία βάρκα ξεκινάει από το λιμάνι Α, κινείται ανατολικά για 7 km μέχρι το σημείο Β, στη συνέχεια κινείται βόρεια για 9 km μέχρι το σημείο Γ, μετά πάλι ανατολικά για 8 km μέχρι το σημείο $\\Delta$ και τέλος 11 km βόρεια μέχρι το λιμάνι Ε. Την επομένη, επιστρέφει από το Ε στο Α κινούμενη ευθύγραμμα. \nΝα εξετάσετε αν, κατά την επιστροφή από το Ε στο Α, κινούμενη σε ευθεία γραμμή, η βάρκα θα περάσει από το σημείο Γ. (Δίνεται: $\\sqrt{185}\\approx13,6015$ και $\\sqrt{130}\\approx11,4018)$",
-        "input":"The image displays a diagram of a path consisting of four line segments, representing movement on a map with cardinal directions.\\nSegment $AB$: Horizontal line moving East, length $7$km. There is a right angle marker at point $B$.\\nSegment $B\\Gamma$: Vertical line moving North, length $9$km.\\nSegment $\\Gamma\\Delta$: Horizontal line moving East, length $8$km. There is a right angle marker at point $\\Delta$.\\nSegment $\\Delta E$: Vertical line moving North, length $11$km.",
+        "input":"",
         "images":[
             null
         ],
@@ -2755,7 +2755,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Ένα λεωφορείο και ένα αυτοκίνητο ξεκινάνε από την ίδια αφετηρία και κινούνται για 5 ώρες κατά μήκος της ίδιας διαδρομής. Το λεωφορείο κινείται με σταθερή ταχύτητα $60~km\/h$, ενώ το αυτοκίνητο ξεκινάει 15 min μετά από το λεωφορείο και κινείται με σταθερή ταχύτητα $80~km\/h$.\nΣτο παρακάτω σύστημα αξόνων έχει σχεδιαστεί ένα τμήμα των γραφικών παραστάσεων των δύο συναρτήσεων, που εκφράζουν την απόσταση x του κάθε οχήματος από την αφετηρία ως προς το χρόνο t (η απόσταση x είναι σε km, ο χρόνος t σε h και θεωρούμε ότι το λεωφορείο ξεκινάει τη χρονική στιγμή $t=0)$.\nα. Ποιά από τις ευθείες $\\epsilon_{1}$, $\\epsilon_{2}$ είναι η γραφική παράσταση που αντιπροσωπεύει την κίνηση του λεωφορείου;\nβ. Να προσδιορίσετε τις συντεταγμένες των σημείων Β, Γ και Δ και να εξηγήσετε ποια πληροφορία για την κίνηση των δύο οχημάτων δίνει καθένα από τα ζεύγη συντεταγμένων αυτών των σημείων.",
-        "input":"The image displays a distance-time graph ($x-t$ graph) showing the motion of two vehicles.\nVertical Axis ($x$): Represents distance from the starting point ($\\sigma\\epsilon$ km).\nHorizontal Axis ($t$): Represents time ($\\sigma\\epsilon$ h).\nLine $\\epsilon_1$: A straight line starting from the origin $O(0,0)$ and passing through points $\\Delta$ and $\\Gamma$.\nLine $\\epsilon_2$: A straight line starting from point $B$ on the time axis ($t$-axis) and passing through point $\\Gamma$.\nPoints of Interest:\n$O$: The start of time ($t=0$).\n$B$: A specific time point on the horizontal axis.\n$\\Delta$: A point on line $\\epsilon_1$ directly above point $B$.\n$\\Gamma$: The intersection point of the two lines $\\epsilon_1$ and $\\epsilon_2$.",
+        "input":"",
         "images":[
             null
         ],
@@ -3205,7 +3205,7 @@
         "format":"fill_in_the_gaps",
         "reference":"multimodal",
         "question":"Στο δωμάτιο που φαίνεται στη διπλανή εικόνα, κάποιος άνθρωπος θα προσπαθήσει να κοιμηθεί. Η θερμοκρασία του εξωτερικού περιβάλλοντος είναι μεγαλύτερη από τη θερμοκρασία του δωματίου. Τι προτείνεις να κάνει στα αντικείμενα που αναφέρονται παρακάτω, για να διατηρήσει τη θερμοκρασία του δωματίου και του σώματός του σε επιθυμητές τιμές; Δικαιολόγησε τις προτάσεις σου, αναφέροντας τον τρόπο με τον οποίο ρέει η θερμότητα σε κάθε περίπτωση και το πώς ο άνθρωπος θα εμποδίσει ή θα διευκολύνει τη ροή της.\n• Στα τζάμια του παραθύρου: Προτείνω να _____________________________________________________, για να _____________________________________________________.\n• Στα εξωτερικά στόρια του παραθύρου: Προτείνω να _________________________________, για να _____________________________________________________.\n• Στα χαλιά: Προτείνω να _____________________________________________________, για να _____________________________________________________\n• Στις κουβέρτες: Προτείνω να _______________________________________, για να ______________________________________________________________.\n• Στον ανεμιστήρα: Προτείνω να _____________________________________________________, για να ______________________________________________________________.",
-        "input":"The image is an illustration of a bedroom scene.\nSetting: It shows a simple bedroom with a single bed, a bedside table, and rugs on the floor.\nKey Objects:\nA bed with a pillow and blanket.\nAn open window facing the outside.\nA fan positioned near the floor in the corner.\nImplied Context: The scene outside the open window suggests a sunny, daytime environment with bright light rays coming in.",
+        "input":"",
         "images":[
             null
         ],
@@ -3230,7 +3230,7 @@
         "format":"fill_in_the_gaps",
         "reference":"multimodal",
         "question":"Πώς θα παρασκευάσεις, με μερικά από τα υλικά που φαίνονται στη διπλανή εικόνα, έναν δείκτη για να ξεχωρίζεις τα οξέα από τις βάσεις; Περίγραψε με λίγα λόγια τη διαδικασία της παρασκευής του. \nΤρίβω ______________________________________________________________. Αν με μερικές σταγόνες από ένα οξύ αλλάξει το χρώμα ενός δείκτη, τι μπορείς να κάνεις για να επαναφέρεις το αρχικό χρώμα του; ___________________________________________________________________________________________________. Πού οφείλεται η επαναφορά του χρώματος του δείκτη; ___________________________________________________________________________________________________________________.",
-        "input":"Materials Shown: The image contains a collection of items, including:\nA head of red cabbage (deep purple\/red vegetable).\nBottles containing clear liquid (possibly vinegar or alcohol) and yellow liquid (possibly cooking oil or dish soap).\nA can (metal container).\nA grater (metal kitchen tool).\nTwo glasses of purple liquid (likely red cabbage extract).\nSeveral pink plastic straws.\nImplied Context: The presence of red cabbage, which contains a natural $\text{pH}$ indicator (anthocyanin), strongly suggests the question is about acids and bases.",
+        "input":"",
         "images":[
             null
         ],
@@ -3355,7 +3355,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Παρατήρησε το κύκλωμα που έχει σχεδιασθεί με σύμβολα στην εικόνα 1. Με βάση το κύκλωμα της εικόνας 1, σχεδίασε στην εικόνα 2 τα καλώδια που λείπουν για να συνδεθεί η μπαταρία με τους διακόπτες $\\Delta1$ και $\\Delta2$, καθώς και με τα λαμπάκια $\\Lambda1$ και $\\Lambda2$. Ποιος διακόπτης πρέπει να είναι κλειστός και ποιος ανοιχτός για να είναι αναμμένο μόνο το λαμπάκι $\\Lambda2$;",
-        "input":"Schematic diagram (Image 1) of a series-parallel electrical circuit featuring a battery, two switches ($\\Delta 1$, $\\Delta 2$), and two light bulbs ($\\Lambda 1$, $\\Lambda 2$); and the corresponding physical components (Image 2) laid out and waiting for wiring.",
+        "input":"",
         "images":[
             null,
             null
@@ -3381,7 +3381,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Το αναμμένο λαμπάκι θα το χρειαστείς, αν πραγματοποιήσεις το παρακάτω πείραμα:\n• Σχεδιάζεις ένα λευκό βέλος σε ένα μαύρο χαρτόνι.\n• Στερεώνεις το χαρτόνι κατακόρυφα.\n• Φωτίζεις το χαρτόνι με το αναμμένο λαμπάκι.\n• Τοποθετείς μπροστά στο χαρτόνι ένα κουτί με μια μικρή τρύπα στη μια πλευρά, ένα μεγάλο άνοιγμα στην απέναντι πλευρά και, ενδιάμεσα στο εσωτερικό του κουτιού, ένα ρυζόχαρτο, όπως στην διπλανή εικόνα (εικόνα 3). Τι περιμένεις να δεις πάνω στο ρυζόχαρτο; Σχεδίασε στην εικόνα 3. Σε ποιο φαινόμενο οφείλεται η εικόνα στο ρυζόχαρτο;",
-        "input":"The image labeled \"εικόνα 3\" (Image 3), illustrates the experimental setup for a pinhole camera (Camera Obscura) demonstration.\nSetup: The image shows a dark, rectangular box viewed from the top-down perspective.\nBox Features:\nThe left side of the box appears to have a small hole (implied pinhole).\nThe right side has a large opening and is marked with an eye symbol, indicating the observer's position.\nInside the box, there is a vertical, lighter-colored partition (labeled in the text as *ρυζόχαρτο\n\/ rice paper), serving as a screen for image projection.\nExternal Object: To the far left, there is a separate piece of material with an arched\/rounded opening, which is related to the lighting setup described in the text (the \"white arrow on black cardboard\") but its exact role in the light path is unclear from the drawing alone.",
+        "input":"",
         "images":[
             null
         ],
@@ -3456,7 +3456,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Δίνεται το τρίγωνο $\\text{AB}\\Gamma$ με $\\text{AB}=2\\text{ cm}$ και $\\text{B}\\Gamma=5\\text{ cm}$, όπως φαίνεται στο σχήμα που ακολουθεί.\nΑν $\\hat{B}+\\hat{\\Gamma}=90^{\\circ}$, να βρεθεί η πλευρά $\\text{A}\\Gamma$ του τριγώνου.",
-        "input":"The image is a geometric diagram of a triangle ($\\Delta \\text{AB}\\Gamma$) adjacent to a straight line ($x$), illustrating a geometry problem.\nTriangle: The primary figure is a triangle $\\text{AB}\\Gamma$.\nDimensions:\nSide $\\text{AB}$ is labeled with the length $2 \\text{ cm}$.\nSide $\\text{B}\\Gamma$ is shown lying on a straight line and is labeled with the length $5 \\text{ cm}$.\nStraight Line and Exterior Angle:\nSide $\\text{B}\\Gamma$ is collinear with a straight line extending to the right, labeled $x$.\nThe exterior angle at vertex $\\Gamma$, which is formed by side $\\text{A}\\Gamma$ and the line $x$, is labeled with the Greek letter $\\boldsymbol{\\varphi}$.",
+        "input":"",
         "images":[
             null
         ],
@@ -3481,7 +3481,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Δίνεται το τρίγωνο $\\text{AB}\\Gamma$ με $\\text{AB}=2\\text{ cm}$ και $\\text{B}\\Gamma=5\\text{ cm}$, όπως φαίνεται στο σχήμα που ακολουθεί.\nΑν $\\Gamma\\chi$ είναι προέκταση της πλευράς $\\text{B}\\Gamma$ και $\\varphi=x\\hat{\\Gamma}\\text{A}$, να υπολογίσετε το ημίτονο και το συνημίτονο της γωνίας $\\varphi$. ",
-        "input":"The image is a geometric diagram of a triangle ($\\Delta \\text{AB}\\Gamma$) adjacent to a straight line ($x$), illustrating a geometry problem.\nTriangle: The primary figure is a triangle $\\text{AB}\\Gamma$.\nDimensions:\nSide $\\text{AB}$ is labeled with the length $2 \\text{ cm}$.\nSide $\\text{B}\\Gamma$ is shown lying on a straight line and is labeled with the length $5 \\text{ cm}$.\nStraight Line and Exterior Angle:\nSide $\\text{B}\\Gamma$ is collinear with a straight line extending to the right, labeled $x$.\nThe exterior angle at vertex $\\Gamma$, which is formed by side $\\text{A}\\Gamma$ and the line $x$, is labeled with the Greek letter $\\boldsymbol{\\varphi}$.",
+        "input":"",
         "images":[
             null
         ],
@@ -3556,7 +3556,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Το κείμενο 2 είναι η αφίσα της ευρωπαϊκής εκστρατείας κατά του σχολικού εκφοβισμού. Ποιο νομίζεις ότι είναι το θέμα της αφίσας και σε ποιους απευθύνεται το μήνυμα; Να αιτιολογήσεις την απάντησή σου .",
-        "input":"Κείμενο 2: The poster features a photograph of two people, with a focus on one individual crouching against a rough, light-colored brick or stone wall, covering their face with their hands and a yellow notebook in a defensive posture. This person is wearing a brown striped t-shirt, blue jeans, and light-colored shoes, with a bag slung over their shoulder. In the foreground, out of focus, a close-up of a clenched fist belonging to another person is visible in the lower left, strongly suggesting an imminent act of violence or aggression. The color scheme is dark and dramatic for the main text, with black, yellow, and blue used against the light background of the wall. The text is in Greek and English, promoting the campaign's message and helpline.",
+        "input":"",
         "images":[
             null
         ],
@@ -3631,7 +3631,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Πώς συνδέεται η φωτογραφία του κειμένου 3 με το γραπτό μέρος του κειμένου; Τι νομίζεις ότι προσθέτει σε αυτό;",
-        "input":"Κείμενο 3: Λίβανος ‐ Ένα κορίτσι και ένα αγόρι μελετούν στην Κατασκήνωση Εκπαίδευσης για την Ειρήνη \"Αμπάγιε\" στα βουνά νοτιο‐ανατολικά της Βηρυτού. \nΗ UNICEF δημιούργησε το πρόγραμμα Εκπαίδευσης για την Ειρήνη στο Λίβανο από το 1989. Μέχρι το 1996 (χρονιά που η UNICEF παρουσίασε για πρώτη φορά την αντιπολεμική της ατζέντα) περίπου το 75% όλων των παιδιών του Λιβάνου συμμετείχαν στο πρόγραμμα.\nThe image captures two people, likely children or adolescents, sitting outdoors against a stone or brick background. The focus is on a girl in the foreground. She has curly hair tied up, and is wearing a white t-shirt and a dark blue or black skirt or shorts with a yellow patterned border. She is actively writing or drawing on a small pad or object resting on her lap, holding a pen or pencil in her right hand. Sitting immediately behind her, with his back to the camera, is a boy wearing an identical white t-shirt. On the back of his shirt is a large blue graphic logo: a silhouette of two children (a boy and a girl profile) superimposed on a globe surrounded by an olive branch wreath. This logo is strongly associated with the United Nations Children's Fund (UNICEF). The lighting suggests a sunny day, and the overall setting appears to be a casual outdoor gathering or event.",
+        "input":"Κείμενο 3: Λίβανος ‐ Ένα κορίτσι και ένα αγόρι μελετούν στην Κατασκήνωση Εκπαίδευσης για την Ειρήνη \"Αμπάγιε\" στα βουνά νοτιο‐ανατολικά της Βηρυτού. \nΗ UNICEF δημιούργησε το πρόγραμμα Εκπαίδευσης για την Ειρήνη στο Λίβανο από το 1989. Μέχρι το 1996 (χρονιά που η UNICEF παρουσίασε για πρώτη φορά την αντιπολεμική της ατζέντα) περίπου το 75% όλων των παιδιών του Λιβάνου συμμετείχαν στο πρόγραμμα.",
         "images":[
             null
         ],
@@ -3706,7 +3706,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Να αποδώσεις με ένα σύντομο κείμενο τις πληροφορίες που αντλούμε από το κείμενο 1 (διάγραμμα).",
-        "input":"Κείμενο 1: The image is a pie chart, which is titled: \"Σχήμα 1: Η πρόσβαση στο Ίντερνετ από τους μαθητές \/ μαθήτριες\". The chart is divided into eight (8) segments, each representing a different method of access or level of knowledge\/interest in the Internet, expressed as a percentage. The largest segment (40%) relates to the statement \"Ναι, δική μου\" (Yes, my own). The segments are arranged in different shades of gray, with one segment (40%) being clearly exploded\/separated. The percentages range from 3% to 40%. The source, as stated in the external caption, is the research by Giannis Katerelos and Polydevkis Papadopoulos, titled “Δημιουργική και ασφαλής χρήση του Διαδικτύου από νέους και νέες έως 18 ετών” (Creative and safe use of the Internet by young people up to 18 years old) from the Institute of Audiovisual Media (IOM).",
+        "input":"",
         "images":[
             null
         ],
@@ -3806,7 +3806,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Το κείμενο 3 είναι η ιστοσελίδα του Εθνικού Κέντρου Βιβλίου (ΕΚΕΒΙ) για τους μικρούς αναγνώστες. Ποια χαρακτηριστικά της ιστοσελίδας επιβεβαιώνουν ότι απευθύνεται σε μικρούς αναγνώστες;",
-        "input":"The image shows a full desktop screenshot. TheMozilla Firefox browser window is open, displaying a webpage with the URLmikrosanagnostis.gr (Little Reader). The content of the webpage is a large graphic resembling a mind map centered on an open book. 1. Central Graphic: An open book is in the center. A cartoon boy, wearing a crown made of books and a number 10 t-shirt, is standing on the pages of the book, acting as a mascot or host. 2. Title: The title over the book pages is:ΜΙΚΡΟΣ ΑΝΑΓΝΩΣΤΗΣ (Little Reader). 3. Mind Map: Various thought bubbles or cloud shapes surround the central book, connected by faint lines, containing text in Greek, suggesting different activities or sections of the website. 4. Browser Details: The screenshot captures the Windows 7 or Vista environment, including the taskbar at the bottom showing running applications (Firefox, Windows Explorer, Word, etc.) and the date and time (6:54 PM, 14\/4\/2013).",
+        "input":"",
         "images":[
             null
         ],
@@ -3956,7 +3956,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Ποια στοιχεία των ηλεκτρονικών παιχνιδιών που παρουσιάζονται στα κείμενα 1 και 2 φαίνεται να προβάλλει το κείμενο 3 (εικόνα); Να αιτιολογήσεις με λίγα λόγια την άποψή σου.",
-        "input":"Κείμενο 1: Τα ηλεκτρονικά παιχνίδια έχουν μπει για τα καλά στη ζωή μας και μπορούν να προσφέρουν κάποια θετικά στοιχεία στα παιδιά: πάνω απ’ όλα ψυχαγωγία, γνώσεις και εξοικείωση με τη σύγχρονη τεχνολογία. \nΟι θετικές κριτικές αναφέρονται κυρίως στην ανάπτυξη των γνωστικών δεξιοτήτων, αλλά και στη δυνατότητα που προσφέρουν στα παιδιά να καλλιεργήσουν τη φαντασία τους. Οι αρνητικές κριτικές επισημαίνουν τον κίνδυνο αύξησης της επιθετικής συμπεριφοράς, καθώς και τον κίνδυνο εξάρτησης. Ενώ, λοιπόν, δεν αμφισβητείται η θετική επίδραση των ηλεκτρονικών παιχνιδιών στην ανάπτυξη του γνωστικού τομέα, οι γνώμες διχάζονται σε ό,τι αφορά την ανάπτυξη της φαντασίας και την ικανότητα διάκρισής της απ’ την πραγματικότητα. Οι υπερασπιστές των ηλεκτρονικών παιχνιδιών λένε ότι αυτά δίνουν την ευκαιρία στα παιδιά να αναλάβουν ένα πλήθος ρόλων και χαρακτήρων. Υποστηρίζουν ότι στη σύγχρονη κοινωνική πραγματικότητα οι ευκαιρίες που έχουν τα παιδιά να παίξουν ελεύθερο, εξερευνητικό παιχνίδι σε ανοιχτούς χώρους, περιορίζονται στο ελάχιστο, ενώ τα ηλεκτρονικά παιχνίδια τούς προσφέρουν τις περιπέτειες που δεν μπορούν αλλιώς να ζήσουν. Οι περιπέτειες που βιώνουν μέσα απ’ τα ηλεκτρονικά παιχνίδια, τους επιτρέπουν να πειραματιστούν, να αντιμετωπίσουν ποικίλους κινδύνους και τα συναισθήματα που τους συνοδεύουν: δηλαδή το φόβο, την αδυναμία και τη δύναμη, τη νίκη και την ήττα. Και όλα αυτά μέσα στο ασφαλές πλαίσιο του παιχνιδιού…\nΚείμενο 2: Yποκύψατε στην επιθυμία του παιδιού σας και του αγοράσατε μία κονσόλα ηλεκτρονικών παιχνιδιών και το παιχνίδι της προτίμησής του. \nΑν και δεν ασχοληθήκατε παρά μόνο με την αγορά του εξοπλισμού, μια μέρα σταθήκατε από περιέργεια μπροστά στην οθόνη και διαπιστώσατε με τρόμο ότι το παιδί σας χειρίζεται ένα ανθρωποειδές φορτωμένο με υπερσύγχρονα όπλα, που σπέρνει τον όλεθρο. Σε μία άλλη εξίσου «χαριτωμένη» εκδοχή, οδηγεί ανεξέλεγκτα ένα αυτοκίνητο στους δρόμους μιας μεγαλούπολης και σκοτώνει πεζούς. Mπορούν τα παιχνίδια αυτά να μεταμορφώσουν το Ενδεικτικά θέματα Γλώσσας για την εισαγωγή στα Πρότυπα Πειραματικά Λύκεια παιδί σας σε κακοποιό στοιχείο; Πόσες ώρες μπορεί να κάθεται μπροστά στην κονσόλα παίζοντας έστω πιο αθώα παιχνίδια;[] H πρώτη συμβουλή είναι να διατηρήσετε την ψυχραιμία σας. Το παιδί σας δεν είναι και δεν κινδυνεύει να μετατραπεί σ’ ένα αιμοσταγές τέρας ή σ’ ένα κοινωνικά αδέξιο άτομο. Φαίνεται άλλωστε ότι υπάρχουν δύο όψεις στην επίδραση των ηλεκτρονικών παιχνιδιών στα παιδιά. Οι ειδικοί επισημαίνουν ότι ο προσεκτικός αλλά όχι ασφυκτικός έλεγχος των γονέων μπορεί να αποτελέσει ασπίδα προστασίας ενάντια στην αρνητική επιρροή αυτών των παιχνιδιών.[] Εξάλλου, αν και το 50% των ηλεκτρονικών παιχνιδιών απαιτεί τη χρήση έντονης βίας, τα παιδιά δεν επιλέγουν μόνο βίαια παιχνίδια. Ενημερωθείτε για τα παιχνίδια που διατίθενται στο εμπόριο και θα διαπιστώσετε ότι υπάρχουν ελκυστικές επιλογές: παιχνίδια στρατηγικής με ιστορικό περιεχόμενο, προσομοιωτές (για το χειρισμό αεροπλάνων, τρένων κλπ.), παιχνίδια που βασίζονται στην επίλυση γρίφων ή στη δημιουργία εικονικών κατασκευών κ.ο.κ.. Πολλά από αυτά είναι εξαιρετικά δημοφιλή και ξεπερνούν σε πωλήσεις ακόμα και τα «αιματηρά» παιχνίδια.\nΚείμενο 3: The attached image is a photograph of a child interacting with a futuristic, illuminated computer interface, likely used for promotional or conceptual purposes related to technology and children. It is a digitally manipulated photograph taken in a dark setting. The primary subject is a young child looking intensely toward the viewer (or slightly to the right of the camera). The child's mouth is open, showing clenched teeth in an expression of concentration, excitement, or tension. Their face is partially illuminated by a strong yellow or neon green light source. The light source emanates from a transparent, holographic computer interface positioned in front of the child. This interface consists of various floating windows, lines of code, and a ghostly keyboard, all rendered in a bright, neon yellow\/green color scheme, suggesting a futuristic or sci-fi theme. Notably, one of the screens within the interface prominently features a graphic of the iconic villain Darth Vader from the *Star Wars* franchise, indicating that the content the child is interacting with is related to media or gaming. The strong, dramatic lighting and glow on the child's face enhance the futuristic atmosphere.",
+        "input":"Κείμενο 1: Τα ηλεκτρονικά παιχνίδια έχουν μπει για τα καλά στη ζωή μας και μπορούν να προσφέρουν κάποια θετικά στοιχεία στα παιδιά: πάνω απ’ όλα ψυχαγωγία, γνώσεις και εξοικείωση με τη σύγχρονη τεχνολογία. \nΟι θετικές κριτικές αναφέρονται κυρίως στην ανάπτυξη των γνωστικών δεξιοτήτων, αλλά και στη δυνατότητα που προσφέρουν στα παιδιά να καλλιεργήσουν τη φαντασία τους. Οι αρνητικές κριτικές επισημαίνουν τον κίνδυνο αύξησης της επιθετικής συμπεριφοράς, καθώς και τον κίνδυνο εξάρτησης. Ενώ, λοιπόν, δεν αμφισβητείται η θετική επίδραση των ηλεκτρονικών παιχνιδιών στην ανάπτυξη του γνωστικού τομέα, οι γνώμες διχάζονται σε ό,τι αφορά την ανάπτυξη της φαντασίας και την ικανότητα διάκρισής της απ’ την πραγματικότητα. Οι υπερασπιστές των ηλεκτρονικών παιχνιδιών λένε ότι αυτά δίνουν την ευκαιρία στα παιδιά να αναλάβουν ένα πλήθος ρόλων και χαρακτήρων. Υποστηρίζουν ότι στη σύγχρονη κοινωνική πραγματικότητα οι ευκαιρίες που έχουν τα παιδιά να παίξουν ελεύθερο, εξερευνητικό παιχνίδι σε ανοιχτούς χώρους, περιορίζονται στο ελάχιστο, ενώ τα ηλεκτρονικά παιχνίδια τούς προσφέρουν τις περιπέτειες που δεν μπορούν αλλιώς να ζήσουν. Οι περιπέτειες που βιώνουν μέσα απ’ τα ηλεκτρονικά παιχνίδια, τους επιτρέπουν να πειραματιστούν, να αντιμετωπίσουν ποικίλους κινδύνους και τα συναισθήματα που τους συνοδεύουν: δηλαδή το φόβο, την αδυναμία και τη δύναμη, τη νίκη και την ήττα. Και όλα αυτά μέσα στο ασφαλές πλαίσιο του παιχνιδιού…\nΚείμενο 2: Yποκύψατε στην επιθυμία του παιδιού σας και του αγοράσατε μία κονσόλα ηλεκτρονικών παιχνιδιών και το παιχνίδι της προτίμησής του. \nΑν και δεν ασχοληθήκατε παρά μόνο με την αγορά του εξοπλισμού, μια μέρα σταθήκατε από περιέργεια μπροστά στην οθόνη και διαπιστώσατε με τρόμο ότι το παιδί σας χειρίζεται ένα ανθρωποειδές φορτωμένο με υπερσύγχρονα όπλα, που σπέρνει τον όλεθρο. Σε μία άλλη εξίσου «χαριτωμένη» εκδοχή, οδηγεί ανεξέλεγκτα ένα αυτοκίνητο στους δρόμους μιας μεγαλούπολης και σκοτώνει πεζούς. Mπορούν τα παιχνίδια αυτά να μεταμορφώσουν το Ενδεικτικά θέματα Γλώσσας για την εισαγωγή στα Πρότυπα Πειραματικά Λύκεια παιδί σας σε κακοποιό στοιχείο; Πόσες ώρες μπορεί να κάθεται μπροστά στην κονσόλα παίζοντας έστω πιο αθώα παιχνίδια;[] H πρώτη συμβουλή είναι να διατηρήσετε την ψυχραιμία σας. Το παιδί σας δεν είναι και δεν κινδυνεύει να μετατραπεί σ’ ένα αιμοσταγές τέρας ή σ’ ένα κοινωνικά αδέξιο άτομο. Φαίνεται άλλωστε ότι υπάρχουν δύο όψεις στην επίδραση των ηλεκτρονικών παιχνιδιών στα παιδιά. Οι ειδικοί επισημαίνουν ότι ο προσεκτικός αλλά όχι ασφυκτικός έλεγχος των γονέων μπορεί να αποτελέσει ασπίδα προστασίας ενάντια στην αρνητική επιρροή αυτών των παιχνιδιών.[] Εξάλλου, αν και το 50% των ηλεκτρονικών παιχνιδιών απαιτεί τη χρήση έντονης βίας, τα παιδιά δεν επιλέγουν μόνο βίαια παιχνίδια. Ενημερωθείτε για τα παιχνίδια που διατίθενται στο εμπόριο και θα διαπιστώσετε ότι υπάρχουν ελκυστικές επιλογές: παιχνίδια στρατηγικής με ιστορικό περιεχόμενο, προσομοιωτές (για το χειρισμό αεροπλάνων, τρένων κλπ.), παιχνίδια που βασίζονται στην επίλυση γρίφων ή στη δημιουργία εικονικών κατασκευών κ.ο.κ.. Πολλά από αυτά είναι εξαιρετικά δημοφιλή και ξεπερνούν σε πωλήσεις ακόμα και τα «αιματηρά» παιχνίδια.",
         "images":[
             null
         ],
@@ -4106,7 +4106,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Να περιγράψεις τη γελοιογραφία του ΚΥΡ. Πρόσεξε ιδιαίτερα τον αριθμό των μαθημάτων κα τη γλώσσα που χρησιμοποιείται. Τι νομίζεις ότι θέλει να δείξει;",
-        "input":"Κείμενο 3: The cartoon is a simplified drawing featuring three main elements: 1. Teacher\/Authority Figure (Top): A stereotypically drawn authority figure (possibly a teacher or principal), depicted in a suit and tie with large glasses, is holding a pointer stick and speaking from a thought bubble. 2. Student (Left): A small, distraught-looking student stands tied up against a wall in the corner, wearing an expression of distress and exhaustion. 3. The \"Knowledge\" Machine (Right): A series of black, horizontal, cylindrical barrels or cannons, resembling a massive multi-barreled weapon, are aimed towards the viewer. Each barrel is labeled with a different academic subject or concept. Several figures, also drawn simply, are sitting or crouched behind this apparatus, presumably operating it. The apparatus is mounted on a tripod. The humor lies in the visual metaphor of the school year beginning (\"Η σχολική περίοδος άρχιζει! Πυρ!!!\" - The school period begins! Fire!!!) by literally firing an overwhelming barrage of dense, diverse information at the student.",
+        "input":"",
         "images":[
             null
         ],
@@ -4131,7 +4131,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Να εντοπίσεις τα σημεία στα οποία τα κείμενα 1, 2 και 3 φαίνεται ότι «συνομιλούν».",
-        "input":"Κείμενο 1: «Χρυσός» σχολικός ρεαλισμός. \nΚαθηγητές και μαθητές αποδίδουν τη σκληρή πραγματικότητα της τάξης. Το «Ανάμεσα στους τοίχους» του Λοράν Καντέ, που δικαίως τιμήθηκε με τον Χρυσό Φοίνικα στο φεστιβάλ των Καννών, διαδραματίζεται σε μια σχολική αίθουσα. Ανάμεσα στη μυθοπλασία και το ντοκιμαντέρ, η ταινία του Καντέ δεν μιλάει για ιστορίες εμπνευσμένων δασκάλων και πρόθυμων μαθητών. Φέρνει τον θεατή μπροστά σε μια δύσκολη και σκληρή πραγματικότητα, όπου η πλήξη από τη ρουτίνα και η δυσανεξία στην πειθαρχία διαδέχονται η μία την άλλη από την πλευρά των μαθητών. Απέναντί τους, οι καθηγητές, όσοι έχουν κουράγιο να συνεχίσουν, προσπαθούν να βρουν τρόπο επικοινωνίας με τα παιδιά. Όμως πολύ συχνά οι γλώσσες που μιλούν είναι πολύ διαφορετικές. Οι πάντες, καθηγητές και μαθητές, αντιμετωπίζουν διλήμματα σ' αυτό το σχολείο που βρίσκεται σε μια υποβαθμισμένη περιοχή του Παρισιού. Ο καθηγητής, που προσπαθεί να βρει τον τρόπο να κάνει τα παιδιά να μάθουν, αλλά δεν καταφέρνει πάντα να διατηρήσει την ψυχραιμία του από τη μια, οι μαθητές που φλέγονται να αμφισβητήσουν και συχνά πέφτουν στην αυθάδεια και την ανυπακοή από την άλλη. Όλοι προσπαθούν να κάνουν το σωστό και όλοι κάνουν λάθη, γιατί στην πραγματικότητα δεν υπάρχει μαγική συνταγή για τη γνώση, ειδικά όταν το περιβάλλον λειτουργεί αρνητικά.\nThe image is a vertical poster format dominated by a photograph of a classroom scene. Several students are seated at desks, looking forward. The focus is on two young people in the foreground, seated at a desk, with their hands raised, actively participating or asking a question. Above the photo, a colored banner or section features a row of four abstract human profile silhouettes filled with bright, swirling colors (yellow, red, green, blue), suggesting diversity, thought, or dynamic personality. The background of the classroom is a bright cyan or light blue wall. The overall aesthetic combines a realistic photograph with graphic text elements above.\nΚείμενο 2: Το Γυμνάσιο, το μοναδικό τότε, είχε πολλά προβλήματα στέγης και καθηγητών. \nΕκατό μαθητές σε κάθε τμήμα, τα βιβλία παλιά, κακογραμμένα και δανεικά από δεύτερο και τρίτο χέρι. Ήταν γραμμένα στην καθαρεύουσα, που έπρεπε να τη μάθουν, μαζί με τα αρχαία Ελληνικά, παιδιά που μόλις ήξεραν τη γλώσσα του χωριού τους. Τι να κάνουν οι άνθρωποι και τι παιδεία να προσφέρουν. Έφταναν από τα χωριά της επαρχίας φτωχά και φοβισμένα παιδάκια να δώσουν εισαγωγικές εξετάσεις για το Γυμνάσιο προφορικές και γραπτές. Δεν γνώριζαν κανένα. Μαζεύονταν στο προαύλιο, κούρνιαζαν κατάχλωμα σε μια γωνιά κατά χωριά. Τα είχαν χαμένα. Μεγάλη πόλη, μεγάλο σχολείο, άλλοι, «σπουδαίοι» δάσκαλοι. Ένας καλός μαθηματικός που είχε τη φήμη αυστηρού καθηγητή έμπαινε το πρωί στο προαύλιο με τις τσέπες γεμάτες καραμέλες. Τις μοίραζε στους μικρούς με πολλά χαμόγελα μήπως και ξεθαρρέψουν. Γιατί έξι ολόκληρα χρόνια, όσο κρατούσε η θητεία τους στο Γυμνάσιο, τα παιδιά στοιβάζονταν αρκετά μαζί σ’ ένα ενοικιασμένο δωμάτιο. Ζούσαν με τα τρόφιμα που έφταναν από το χωριό στο εβδομαδιάτικο παζάρι μέσα σ’ έναν τορβά. Μάθαιναν γράμματα με τη γκαζολάμπα. Μακριά από τα σπίτια τους ένιωθαν πολύ νωρίς «ακαδημαϊκοί πολίτες». Πολλά από αυτά τα παιδιά έγιναν αργότερα καλοί επιστήμονες, διακρίθηκαν σε πολλούς τομείς, δεν λέει όμως κανείς την αλήθεια, αν υποκρίνεται ότι νοσταλγεί το σχολείο και την εκπαίδευση εκείνης της εποχής. Θυμάται όμως τους καινούριους καλούς φίλους που έκανε, τις καινούριες συγκινήσεις που έζησε. Οι προσωπικές ανησυχίες, τα διαβάσματά μας, οι συζητήσεις και οι αναζητήσεις, το ελεύθερο πρόγραμμα, μας βοήθησαν να σταθούμε στα πόδια μας και να δούμε με περισσότερη αισιοδοξία το μέλλον μας μέσα στην αθλιότητα των συνθηκών εκείνης της εποχής.\nΚείμενο 3: The cartoon is a simplified drawing featuring three main elements: 1. Teacher\/Authority Figure (Top): A stereotypically drawn authority figure (possibly a teacher or principal), depicted in a suit and tie with large glasses, is holding a pointer stick and speaking from a thought bubble. 2. Student (Left): A small, distraught-looking student stands tied up against a wall in the corner, wearing an expression of distress and exhaustion. 3. The \"Knowledge\" Machine (Right): A series of black, horizontal, cylindrical barrels or cannons, resembling a massive multi-barreled weapon, are aimed towards the viewer. Each barrel is labeled with a different academic subject or concept. Several figures, also drawn simply, are sitting or crouched behind this apparatus, presumably operating it. The apparatus is mounted on a tripod. The humor lies in the visual metaphor of the school year beginning (\"Η σχολική περίοδος άρχιζει! Πυρ!!!\" - The school period begins! Fire!!!) by literally firing an overwhelming barrage of dense, diverse information at the student.",
+        "input":"Κείμενο 1: «Χρυσός» σχολικός ρεαλισμός. \nΚαθηγητές και μαθητές αποδίδουν τη σκληρή πραγματικότητα της τάξης. Το «Ανάμεσα στους τοίχους» του Λοράν Καντέ, που δικαίως τιμήθηκε με τον Χρυσό Φοίνικα στο φεστιβάλ των Καννών, διαδραματίζεται σε μια σχολική αίθουσα. Ανάμεσα στη μυθοπλασία και το ντοκιμαντέρ, η ταινία του Καντέ δεν μιλάει για ιστορίες εμπνευσμένων δασκάλων και πρόθυμων μαθητών. Φέρνει τον θεατή μπροστά σε μια δύσκολη και σκληρή πραγματικότητα, όπου η πλήξη από τη ρουτίνα και η δυσανεξία στην πειθαρχία διαδέχονται η μία την άλλη από την πλευρά των μαθητών. Απέναντί τους, οι καθηγητές, όσοι έχουν κουράγιο να συνεχίσουν, προσπαθούν να βρουν τρόπο επικοινωνίας με τα παιδιά. Όμως πολύ συχνά οι γλώσσες που μιλούν είναι πολύ διαφορετικές. Οι πάντες, καθηγητές και μαθητές, αντιμετωπίζουν διλήμματα σ' αυτό το σχολείο που βρίσκεται σε μια υποβαθμισμένη περιοχή του Παρισιού. Ο καθηγητής, που προσπαθεί να βρει τον τρόπο να κάνει τα παιδιά να μάθουν, αλλά δεν καταφέρνει πάντα να διατηρήσει την ψυχραιμία του από τη μια, οι μαθητές που φλέγονται να αμφισβητήσουν και συχνά πέφτουν στην αυθάδεια και την ανυπακοή από την άλλη. Όλοι προσπαθούν να κάνουν το σωστό και όλοι κάνουν λάθη, γιατί στην πραγματικότητα δεν υπάρχει μαγική συνταγή για τη γνώση, ειδικά όταν το περιβάλλον λειτουργεί αρνητικά.\nΚείμενο 2: Το Γυμνάσιο, το μοναδικό τότε, είχε πολλά προβλήματα στέγης και καθηγητών. \nΕκατό μαθητές σε κάθε τμήμα, τα βιβλία παλιά, κακογραμμένα και δανεικά από δεύτερο και τρίτο χέρι. Ήταν γραμμένα στην καθαρεύουσα, που έπρεπε να τη μάθουν, μαζί με τα αρχαία Ελληνικά, παιδιά που μόλις ήξεραν τη γλώσσα του χωριού τους. Τι να κάνουν οι άνθρωποι και τι παιδεία να προσφέρουν. Έφταναν από τα χωριά της επαρχίας φτωχά και φοβισμένα παιδάκια να δώσουν εισαγωγικές εξετάσεις για το Γυμνάσιο προφορικές και γραπτές. Δεν γνώριζαν κανένα. Μαζεύονταν στο προαύλιο, κούρνιαζαν κατάχλωμα σε μια γωνιά κατά χωριά. Τα είχαν χαμένα. Μεγάλη πόλη, μεγάλο σχολείο, άλλοι, «σπουδαίοι» δάσκαλοι. Ένας καλός μαθηματικός που είχε τη φήμη αυστηρού καθηγητή έμπαινε το πρωί στο προαύλιο με τις τσέπες γεμάτες καραμέλες. Τις μοίραζε στους μικρούς με πολλά χαμόγελα μήπως και ξεθαρρέψουν. Γιατί έξι ολόκληρα χρόνια, όσο κρατούσε η θητεία τους στο Γυμνάσιο, τα παιδιά στοιβάζονταν αρκετά μαζί σ’ ένα ενοικιασμένο δωμάτιο. Ζούσαν με τα τρόφιμα που έφταναν από το χωριό στο εβδομαδιάτικο παζάρι μέσα σ’ έναν τορβά. Μάθαιναν γράμματα με τη γκαζολάμπα. Μακριά από τα σπίτια τους ένιωθαν πολύ νωρίς «ακαδημαϊκοί πολίτες». Πολλά από αυτά τα παιδιά έγιναν αργότερα καλοί επιστήμονες, διακρίθηκαν σε πολλούς τομείς, δεν λέει όμως κανείς την αλήθεια, αν υποκρίνεται ότι νοσταλγεί το σχολείο και την εκπαίδευση εκείνης της εποχής. Θυμάται όμως τους καινούριους καλούς φίλους που έκανε, τις καινούριες συγκινήσεις που έζησε. Οι προσωπικές ανησυχίες, τα διαβάσματά μας, οι συζητήσεις και οι αναζητήσεις, το ελεύθερο πρόγραμμα, μας βοήθησαν να σταθούμε στα πόδια μας και να δούμε με περισσότερη αισιοδοξία το μέλλον μας μέσα στην αθλιότητα των συνθηκών εκείνης της εποχής.",
         "images":[
             null,
             null
@@ -4207,7 +4207,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Τι νομίζεις ότι σχολιάζει η γελοιογραφία (κείμενο 3); Με ποιο από τα δύο κείμενα (1 ή 2) έχει κάποια σχέση; Να γράψεις με συντομία την άποψή σου.",
-        "input":"Κείμενο 1: Πολύς κόσμος παρακολουθεί απελπισμένος τα τριγλυκερίδια και τη χοληστερίνη ν’ ανεβαίνουν και –τι ειρωνεία– δεν ξέρει τι να φάει για να το αντιμετωπίσει. \nΜε μια κουβέντα θα πω, να φάει ό,τι έτρωγε η γιαγιά του και όπως το έτρωγε. Δηλαδή, τα φαγητά που παλιότερα τα υπαγόρευε η ανέχεια η οικονομική και η περιορισμένη ελληνική παραγωγή. Μου φαίνεται απίστευτο να μην ξέρει κανείς τι να φάει αντί για κρέας, σε μια χώρα που η μαγειρική της παράδοση αποκλείει ρητά την κατανάλωση ζωικών προϊόντων το μισό σχεδόν χρόνο. Έτσι που αλλάξαμε άκριτα τις συνήθειές μας θα τρελάνουμε και τις καημένες τις γιαγιάδες. «Αν ήξερα πως θα ερχόσουν θα έφτιαχνα ένα φαΐ της προκοπής» μου είπε μια ογδοντάχρονη σε χωριό των Γρεβενών. Ξέρετε βέβαια τι εννοούσε να μαγειρέψει κρεατικά, ενώ την ίδια μέρα είχε μέσα στην κατσαρόλα της το δικό της γεύμα που ήταν λάπατα μαγειρευτά με κορόμηλα και τσάγαλα (τα χλωρά αμύγδαλα). Το είδα αυτό το φαγητό και τα έχασα. «Δεν είναι τίποτα», μου είπε η κυρία, «το έκανε η γιαγιά μου αλλά εμένα μου αρέσει και το συνεχίζω». Αυτό το αριστούργημα (το δοκίμασα και το «συνεχίζω» κι εγώ τώρα) το θεωρούσε τίποτε και νόμιζε πως το κοψίδι είναι πιο καθωσπρέπει. Αυτό είναι! Η ποικιλία κάνει το φαγητό λαχταριστό και χορταίνει την καρδιά. Και η απαγόρευση του κρέατος ηχεί δραματική, επειδή έχουμε ξεσυνηθίσει όλα τα υπέροχα φαγητά χωρίς αυτό. Ας ξαναδώσουμε λοιπόν σε κάθε φαγητό τη γεύση του στο τραπέζι μας και για την υγεία και για την ποικιλία που χρωματίζει ζωντανά την καθημερινότητα, για να διευρύνουμε το γαστρονομικό μας ορίζοντα, για να καλλιεργήσουμε τη γεύση μας και για να την εμπλουτίσουμε.\nΚείμενο 2: «Θα ήθελα ένα τσάι δικό σας, τυνησιακό, χωρίς ζάχαρη», παρήγγειλε ένα μέλος της δημοσιογραφικής αποστολής που επισκέφτηκε τις προηγούμενες μέρες την κοντινή, αλλά εντέλει άγνωστη Τυνησία, με τα πολλά κοινά και τα πολλά διαφορετικά πολιτισμικά στοιχεία. \nΗ συνάδελφος παρήγγειλε το τσάι σε καφέ του αεροδρομίου της Τύνιδας, απ’ όπου περνούν κάθε χρόνο εκατομμύρια τουρίστες. «Α, τυνησιακό τσάι, σκέτο, δεν υπάρχει. Αν θέλετε σκέτο, μπορείτε να πάρετε αγγλικό τσάι»! Γιατί μας έκανε ιδιαίτερη εντύπωση αυτή η μικρή λεπτομέρεια ενός πολύ πλούσιου σε εμπειρίες ταξιδιού; Γιατί κανείς παρατηρεί καλύτερα τον εαυτό του, όταν βλέπει πώς αντιδρά ο άλλος για το ίδιο θέμα. Γιατί σε έναν τόπο, όπως η Ελλάδα, με πολλά και ενδιαφέροντα ήθη, γαστριμαργικές επιλογές και πολιτισμικές παραδόσεις, στις τουριστικές περιοχές σερβίρουν αποκλειστικά και μόνο αγγλικό breakfast, ανοίγουν επιχειρήσεις που δεν διαφέρουν σε τίποτα από τις παμπ που έχουν στις πόλεις τους οι τουρίστες –ως προς το στυλ, τη διακόσμηση και το ύφος– με λίγα λόγια κάνουν ό,τι μπορούν για ν’ αλλάξουν τα χαρακτηριστικά του τόπου τους, τα οποία δελέασαν κάποτε τους πρώτους τουρίστες, για να γίνουν σιγά σιγά όλα αυτά τα μέρη –νησιά κυρίως– ταξιδιωτικοί προορισμοί και ν’ αρχίσει να αναπτύσσεται αυτό που αργότερα ονομάστηκε «βιομηχανία του τουρισμού». Ο νεαρός Τυνήσιος υπάλληλος υπερασπίστηκε τον τρόπο που πίνεται το τσάι στη χώρα του και δεν έκανε εκπτώσεις, ούτε καν σκέφτηκε να προσαρμόσει το προϊόν του στις επιθυμίες και τις προτιμήσεις των χιλιάδων καθημερινών πελατών του. Έτσι, σ’ ένα σύγχρονο και εξοπλισμένο σταθμό για ταξιδιώτες, ανάμεσα στην έρημο και την Τύνιδα, υπάρχει μια επιγραφή –στα ελληνικά–: «Αν θέλετε φραπέ, μπορείτε να μπείτε πίσω από τον πάγκο και τον φτιάξετε μόνοι σας»!\nΚείμενο 3: The image is a vertical cartoon, colored predominantly in shades of yellow and blue.The central figure is a young person, depicted with bright red hair and a light blue sweater, wearing an oversized, heavy dark blue coat or parka. The person's face is obscured, looking downwards, creating an impression of vulnerability or stress. The key element is the visual metaphor: strapped around the person's torso, visible where the coat is slightly open, are several thick objects resembling dynamite sticks. However, these \"dynamite sticks\" are clearly illustrated as large sausages or hot dogs tied together with string, suggesting a satirical comment on dietary pressures, overconsumption, or the heavy weight of food-related issues. The background is simple, showing a bright yellow\/white ceiling and a partial view of what looks like a counter or display area on the left. In the far background, blurred figures (possibly other patrons or staff) are visible, adding context to the scene as a public, possibly commercial, setting.\nAttribution\nThe bottom of the image includes the artist and source information.",
+        "input":"Κείμενο 1: Πολύς κόσμος παρακολουθεί απελπισμένος τα τριγλυκερίδια και τη χοληστερίνη ν’ ανεβαίνουν και –τι ειρωνεία– δεν ξέρει τι να φάει για να το αντιμετωπίσει. \nΜε μια κουβέντα θα πω, να φάει ό,τι έτρωγε η γιαγιά του και όπως το έτρωγε. Δηλαδή, τα φαγητά που παλιότερα τα υπαγόρευε η ανέχεια η οικονομική και η περιορισμένη ελληνική παραγωγή. Μου φαίνεται απίστευτο να μην ξέρει κανείς τι να φάει αντί για κρέας, σε μια χώρα που η μαγειρική της παράδοση αποκλείει ρητά την κατανάλωση ζωικών προϊόντων το μισό σχεδόν χρόνο. Έτσι που αλλάξαμε άκριτα τις συνήθειές μας θα τρελάνουμε και τις καημένες τις γιαγιάδες. «Αν ήξερα πως θα ερχόσουν θα έφτιαχνα ένα φαΐ της προκοπής» μου είπε μια ογδοντάχρονη σε χωριό των Γρεβενών. Ξέρετε βέβαια τι εννοούσε να μαγειρέψει κρεατικά, ενώ την ίδια μέρα είχε μέσα στην κατσαρόλα της το δικό της γεύμα που ήταν λάπατα μαγειρευτά με κορόμηλα και τσάγαλα (τα χλωρά αμύγδαλα). Το είδα αυτό το φαγητό και τα έχασα. «Δεν είναι τίποτα», μου είπε η κυρία, «το έκανε η γιαγιά μου αλλά εμένα μου αρέσει και το συνεχίζω». Αυτό το αριστούργημα (το δοκίμασα και το «συνεχίζω» κι εγώ τώρα) το θεωρούσε τίποτε και νόμιζε πως το κοψίδι είναι πιο καθωσπρέπει. Αυτό είναι! Η ποικιλία κάνει το φαγητό λαχταριστό και χορταίνει την καρδιά. Και η απαγόρευση του κρέατος ηχεί δραματική, επειδή έχουμε ξεσυνηθίσει όλα τα υπέροχα φαγητά χωρίς αυτό. Ας ξαναδώσουμε λοιπόν σε κάθε φαγητό τη γεύση του στο τραπέζι μας και για την υγεία και για την ποικιλία που χρωματίζει ζωντανά την καθημερινότητα, για να διευρύνουμε το γαστρονομικό μας ορίζοντα, για να καλλιεργήσουμε τη γεύση μας και για να την εμπλουτίσουμε.\nΚείμενο 2: «Θα ήθελα ένα τσάι δικό σας, τυνησιακό, χωρίς ζάχαρη», παρήγγειλε ένα μέλος της δημοσιογραφικής αποστολής που επισκέφτηκε τις προηγούμενες μέρες την κοντινή, αλλά εντέλει άγνωστη Τυνησία, με τα πολλά κοινά και τα πολλά διαφορετικά πολιτισμικά στοιχεία. \nΗ συνάδελφος παρήγγειλε το τσάι σε καφέ του αεροδρομίου της Τύνιδας, απ’ όπου περνούν κάθε χρόνο εκατομμύρια τουρίστες. «Α, τυνησιακό τσάι, σκέτο, δεν υπάρχει. Αν θέλετε σκέτο, μπορείτε να πάρετε αγγλικό τσάι»! Γιατί μας έκανε ιδιαίτερη εντύπωση αυτή η μικρή λεπτομέρεια ενός πολύ πλούσιου σε εμπειρίες ταξιδιού; Γιατί κανείς παρατηρεί καλύτερα τον εαυτό του, όταν βλέπει πώς αντιδρά ο άλλος για το ίδιο θέμα. Γιατί σε έναν τόπο, όπως η Ελλάδα, με πολλά και ενδιαφέροντα ήθη, γαστριμαργικές επιλογές και πολιτισμικές παραδόσεις, στις τουριστικές περιοχές σερβίρουν αποκλειστικά και μόνο αγγλικό breakfast, ανοίγουν επιχειρήσεις που δεν διαφέρουν σε τίποτα από τις παμπ που έχουν στις πόλεις τους οι τουρίστες –ως προς το στυλ, τη διακόσμηση και το ύφος– με λίγα λόγια κάνουν ό,τι μπορούν για ν’ αλλάξουν τα χαρακτηριστικά του τόπου τους, τα οποία δελέασαν κάποτε τους πρώτους τουρίστες, για να γίνουν σιγά σιγά όλα αυτά τα μέρη –νησιά κυρίως– ταξιδιωτικοί προορισμοί και ν’ αρχίσει να αναπτύσσεται αυτό που αργότερα ονομάστηκε «βιομηχανία του τουρισμού». Ο νεαρός Τυνήσιος υπάλληλος υπερασπίστηκε τον τρόπο που πίνεται το τσάι στη χώρα του και δεν έκανε εκπτώσεις, ούτε καν σκέφτηκε να προσαρμόσει το προϊόν του στις επιθυμίες και τις προτιμήσεις των χιλιάδων καθημερινών πελατών του. Έτσι, σ’ ένα σύγχρονο και εξοπλισμένο σταθμό για ταξιδιώτες, ανάμεσα στην έρημο και την Τύνιδα, υπάρχει μια επιγραφή –στα ελληνικά–: «Αν θέλετε φραπέ, μπορείτε να μπείτε πίσω από τον πάγκο και τον φτιάξετε μόνοι σας»!",
         "images":[
             null
         ],
@@ -4282,7 +4282,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Ποια χαρακτηριστικά του ελληνικού τοπίου προβάλλονται στη αφίσα (Κείμενο 3) της Γενικής Γραμματείας Τουρισμού το 1948; Ποια αντίληψη για το ελληνικό τοπίο φαίνεται να αναπαράγουν σε σχέση με όσα αναφέρονται στο κείμενο 1;",
-        "input":"Κείμενο 1: Στον ταξιδιώτη που για πρώτη φορά έρχεται στην Ελλάδα, τίποτα δεν κάνει τόση εντύπωση όσο τα γυμνά γκρίζα βουνά που απλώνονται σ’ όλη την απεραντοσύνη του ορίζοντα. Αλλά και οι περισσότεροι Έλληνες δεν έχουν καλύτερη εντύπωση για τον τόπο τους, που τον θεωρούν ξερό, άγονο και φτωχό. Η πραγματικότητα είναι όμως διαφορετική κι όποιος θελήσει να δει λίγο πιο προσεκτικά τα πράγματα, με έκπληξη θα μάθει πως το 1\/5 της επιφάνειας του ελλαδικού χώρου –ποσοστό όχι χαμηλότερο από αυτό που έχουν πολλές χώρες της Ευρώπης– είναι σκεπασμένο με δάση, αλλά, προπαντός, θ’ ανακαλύψει ότι η φαινομενικά φτωχή βλάστηση των βουνών και των λόφων, κρύβει μια από τις πλουσιότερες και πιο ενδιαφέρουσες χλωρίδες της ηπείρου μας. Πουθενά στην Ευρώπη οι συνθήκες δεν είναι τόσο ευνοϊκές για την ανάπτυξη μιας τόσο πλούσιας χλωρίδας. Αυτό οφείλεται στη γεωλογική ιστορία του τόπου, στις ιδιαίτερες κλιματολογικές συνθήκες και προ παντός στη γεωγραφική του διαμόρφωση και τοποθέτηση, που τον κάνει να έχει μια καταπληκτική ποικιλία φυτών από τη Μεσόγειο, την Ευρώπη, την Ασία και τη Βόρειο Αφρική. Σ’ αυτό πρέπει να προσθέσουμε και τον ατέλειωτο διαμελισμό, σε βουνά, χαράδρες, ποταμούς, λίμνες και νησιά, που το καθένα προσφέρει δικές του οικολογικές συνθήκες, ιδιαίτερα ευνοϊκές για την ανάπτυξη χωριστών φυτικών κοινωνιών. Μέσα σ’ αυτή την ποικιλία των βιοτόπων βρίσκονται τα εκπληκτικά αγριολούλουδα των χιονισμένων κορυφών, τα ανθεκτικά ξερόφυτα των βράχων, τα μυρωδάτα βότανα των λόφων, οι περικοκλάδες των δασών, κι όλα αυτά τα σπάνια και ενδημικά φυτά, που δίνουν στην ελληνική χλωρίδα τη μοναδικότητά της. Παρόλο που η βλάστηση υποβλήθηκε για χιλιάδες χρόνια στην καταστρεπτική επίδραση της ανθρώπινης παρουσίας, πάνω από 6000 είδη φυτών κατάφεραν να επιζήσουν μέχρι σήμερα, κάνοντας την Ελλάδα ένα από τα μέρη της Ευρώπης με την πλουσιότερη χλωρίδα.\nΚείμενο 3: The image is a stylized artwork, likely a painting or poster design, focusing on a Mediterranean seascape. The composition is divided into three horizontal bands: 1. Foreground (Bottom): The immediate foreground is dominated by the dark, undulating blue\/purple waves of the sea. Resting on the shore in the lower right corner is a small wooden boat (kaiki), painted a bright orange-red with a blue trim, tied up next to a pile of stones or objects.\n2. Midground (Center): A sharp horizontal line separates the water from the land. In the distance, a coastal town is depicted in white buildings clustered on a steep, brownish-pink hill. A small sailboat with white sails is visible on the deep blue water between the foreground and the town.\n3. Background (Top): The background is defined by a large, prominent, mauve or purplish mountain peak rising behind the coastal settlement. The sky above is a pale, washed-out yellow or cream color.\nThe artwork employs a simple, block-like style characteristic of early to mid-20th-century travel posters, using flat areas of color and clear outlines to convey atmosphere and location.",
+        "input":"Κείμενο 1: Στον ταξιδιώτη που για πρώτη φορά έρχεται στην Ελλάδα, τίποτα δεν κάνει τόση εντύπωση όσο τα γυμνά γκρίζα βουνά που απλώνονται σ’ όλη την απεραντοσύνη του ορίζοντα. Αλλά και οι περισσότεροι Έλληνες δεν έχουν καλύτερη εντύπωση για τον τόπο τους, που τον θεωρούν ξερό, άγονο και φτωχό. Η πραγματικότητα είναι όμως διαφορετική κι όποιος θελήσει να δει λίγο πιο προσεκτικά τα πράγματα, με έκπληξη θα μάθει πως το 1\/5 της επιφάνειας του ελλαδικού χώρου –ποσοστό όχι χαμηλότερο από αυτό που έχουν πολλές χώρες της Ευρώπης– είναι σκεπασμένο με δάση, αλλά, προπαντός, θ’ ανακαλύψει ότι η φαινομενικά φτωχή βλάστηση των βουνών και των λόφων, κρύβει μια από τις πλουσιότερες και πιο ενδιαφέρουσες χλωρίδες της ηπείρου μας. Πουθενά στην Ευρώπη οι συνθήκες δεν είναι τόσο ευνοϊκές για την ανάπτυξη μιας τόσο πλούσιας χλωρίδας. Αυτό οφείλεται στη γεωλογική ιστορία του τόπου, στις ιδιαίτερες κλιματολογικές συνθήκες και προ παντός στη γεωγραφική του διαμόρφωση και τοποθέτηση, που τον κάνει να έχει μια καταπληκτική ποικιλία φυτών από τη Μεσόγειο, την Ευρώπη, την Ασία και τη Βόρειο Αφρική. Σ’ αυτό πρέπει να προσθέσουμε και τον ατέλειωτο διαμελισμό, σε βουνά, χαράδρες, ποταμούς, λίμνες και νησιά, που το καθένα προσφέρει δικές του οικολογικές συνθήκες, ιδιαίτερα ευνοϊκές για την ανάπτυξη χωριστών φυτικών κοινωνιών. Μέσα σ’ αυτή την ποικιλία των βιοτόπων βρίσκονται τα εκπληκτικά αγριολούλουδα των χιονισμένων κορυφών, τα ανθεκτικά ξερόφυτα των βράχων, τα μυρωδάτα βότανα των λόφων, οι περικοκλάδες των δασών, κι όλα αυτά τα σπάνια και ενδημικά φυτά, που δίνουν στην ελληνική χλωρίδα τη μοναδικότητά της. Παρόλο που η βλάστηση υποβλήθηκε για χιλιάδες χρόνια στην καταστρεπτική επίδραση της ανθρώπινης παρουσίας, πάνω από 6000 είδη φυτών κατάφεραν να επιζήσουν μέχρι σήμερα, κάνοντας την Ελλάδα ένα από τα μέρη της Ευρώπης με την πλουσιότερη χλωρίδα.",
         "images":[
             null
         ],
@@ -4432,7 +4432,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Αριθμότοιχος: Αν κάθε αριθμός είναι ίσος με το άθροισμα των δύο αριθμών που βρίσκονται κάτω του, να συμπληρώσετε τον αριθμότοιχο.",
-        "input":"The attached image is a simple graphic illustration of a three-level number pyramid or arithmetic wall, used as a puzzle for a mathematical exercise. It displays a structure made of three rows of rectangular blocks, outlined in black and colored red\/orange, resembling a small brick pyramid.\n1. Level 3 (Top): One block is visible, containing a number.\n2. Level 2 (Middle): Two blocks are visible.\n3. Level 1 (Bottom): Three blocks are visible. Three blocks in the pyramid are labeled with yellow numbers\/values, while the remaining three blocks are empty, indicating the fields that need to be calculated and filled to complete the puzzle. The numbers provided use a comma ($,$) as the decimal separator, common in many European countries.",
+        "input":"",
         "images":[
             null
         ],
@@ -4507,7 +4507,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Δίνεται το σχέδιο ενός οικοπέδου.\n(α) Να βρείτε το εμβαδόν του αν οι διαστάσεις δίνονται σε μέτρα.\n\n(β) Ποια είναι η κλίμακα του σχεδίου αν το μήκος ΑΒ στο σχέδιο είναι 63 χιλιοστά.",
-        "input":"The image displays a green-shaded, irregular pentagon labeled $\\text{A}\\text{B}\\Gamma\\Delta\\text{E}$ overlaid on a grid of dashed blue squares. The purpose of the grid is to provide a visual framework, but the numerical values for the side lengths are explicitly given.\n1. Vertices: The vertices of the pentagon are labeled $\\text{A}, \\text{B}, \\Gamma, \\Delta, \\text{E}$.\n2. Right Angles: A small yellow square symbol clearly marks a right angle ($90^\\circ$) at vertex $\\text{A}$.\n3. Side Lengths (in units): Four of the five side lengths are given numerically, suggesting they are units of length for the plot of land:\nSide $\\text{AE}$: $16$\nSide $\\text{AB}$ (Top): $63$\nSide $\\text{B}\\Gamma$: $30$\nSide $\\text{E}\\Delta$: $63$\nSide $\\Gamma\\Delta$: $56$\nThe diagram is titled as a 'plan of a plot of land' in the accompanying exercise.",
+        "input":"",
         "images":[
             null
         ],
@@ -4532,7 +4532,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο διπλανό τραπέζιο ΑΒΓΔ $(\\Delta\\Gamma\/\/AB)$ δίνεται ότι $\\Delta\\hat{A}B=A\\hat{B}\\Gamma=\\hat{\\omega}$ και ότι τα τρίγωνα ΑΒΓ και ΔΑΓ είναι ισοσκελή με $AB=A\\Gamma$ και $\\Delta A=\\Delta\\Gamma$.\nΝα αποδείξετε ότι η $A\\Gamma$ είναι διχοτόμος της γωνίας $\\Delta\\hat{A}B$.",
-        "input":"The image shows a quadrilateral $\\text{A}\\text{B}\\Gamma\\Delta$ with the parallel sides $\\Delta\\Gamma$ and $\\text{AB}$, identified as a trapezoid.\n1. Vertices and Diagonal: The vertices are $\\text{A}, \\text{B}, \\Gamma, \\Delta$. The diagonal $\\text{A}\\Gamma$ divides the trapezoid into two triangles ($\\triangle \\text{A}\\text{B}\\Gamma$ and $\\triangle \\text{A}\\Delta\\Gamma$).\n2. Isosceles Triangles (as per markings\/text): \n$\\triangle \\text{A}\\Delta\\Gamma$ is marked as isosceles ($\\Delta\\Gamma = \\text{A}\\Delta$) with double tick marks.\n$\\triangle \\text{A}\\text{B}\\Gamma$ is marked as isosceles ($\\text{AB} = \\text{A}\\Gamma$) with single tick marks.\n3. Angles: Several angles are labeled: $\\boldsymbol{\\omega}$ (omega) and $\\boldsymbol{\\theta}$ (theta), and numbers1 and2. Specifically:\n$\\angle \\text{A}\\text{B}\\Gamma = \\boldsymbol{\\omega}$\n$\\angle \\text{B}\\Gamma\\text{A} = \\boldsymbol{\\omega}$\n$\\angle \\Gamma\\text{A}\\text{B} = 2$ (and $\\boldsymbol{\\omega}$)\n$\\angle \\Delta\\text{A}\\Gamma = 1$\n$\\angle \\Delta\\Gamma\\text{A} = \\boldsymbol{\\theta}$",
+        "input":"",
         "images":[
             null
         ],
@@ -4557,7 +4557,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο διπλανό τραπέζιο ΑΒΓΔ $(\\Delta\\Gamma\/\/AB)$ δίνεται ότι $\\Delta\\hat{A}B=A\\hat{B}\\Gamma=\\hat{\\omega}$ και ότι τα τρίγωνα ΑΒΓ και ΔΑΓ είναι ισοσκελή με $AB=A\\Gamma$ και $\\Delta A=\\Delta\\Gamma$.\nΝα αποδείξετε ότι $\\hat{\\Delta}_{1}=180^{0}-2\\hat{\\theta}$.",
-        "input":"The image shows a quadrilateral $\\text{A}\\text{B}\\Gamma\\Delta$ with the parallel sides $\\Delta\\Gamma$ and $\\text{AB}$, identified as a trapezoid.\n1. Vertices and Diagonal: The vertices are $\\text{A}, \\text{B}, \\Gamma, \\Delta$. The diagonal $\\text{A}\\Gamma$ divides the trapezoid into two triangles ($\\triangle \\text{A}\\text{B}\\Gamma$ and $\\triangle \\text{A}\\Delta\\Gamma$).\n2. Isosceles Triangles (as per markings\/text): \n$\\triangle \\text{A}\\Delta\\Gamma$ is marked as isosceles ($\\Delta\\Gamma = \\text{A}\\Delta$) with double tick marks.\n$\\triangle \\text{A}\\text{B}\\Gamma$ is marked as isosceles ($\\text{AB} = \\text{A}\\Gamma$) with single tick marks.\n3. Angles: Several angles are labeled: $\\boldsymbol{\\omega}$ (omega) and $\\boldsymbol{\\theta}$ (theta), and numbers1 and2. Specifically:\n$\\angle \\text{A}\\text{B}\\Gamma = \\boldsymbol{\\omega}$\n$\\angle \\text{B}\\Gamma\\text{A} = \\boldsymbol{\\omega}$\n$\\angle \\Gamma\\text{A}\\text{B} = 2$ (and $\\boldsymbol{\\omega}$)\n$\\angle \\Delta\\text{A}\\Gamma = 1$\n$\\angle \\Delta\\Gamma\\text{A} = \\boldsymbol{\\theta}$",
+        "input":"",
         "images":[
             null
         ],
@@ -4582,7 +4582,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο διπλανό τραπέζιο ΑΒΓΔ $(\\Delta\\Gamma\/\/AB)$ δίνεται ότι $\\Delta\\hat{A}B=A\\hat{B}\\Gamma=\\hat{\\omega}$ και ότι τα τρίγωνα ΑΒΓ και ΔΑΓ είναι ισοσκελή με $AB=A\\Gamma$ και $\\Delta A=\\Delta\\Gamma$.\nΝα αποδείξετε ότι $\\hat{\\omega}=72^{0}$.",
-        "input":"The image shows a quadrilateral $\\text{A}\\text{B}\\Gamma\\Delta$ with the parallel sides $\\Delta\\Gamma$ and $\\text{AB}$, identified as a trapezoid.\n1. Vertices and Diagonal: The vertices are $\\text{A}, \\text{B}, \\Gamma, \\Delta$. The diagonal $\\text{A}\\Gamma$ divides the trapezoid into two triangles ($\\triangle \\text{A}\\text{B}\\Gamma$ and $\\triangle \\text{A}\\Delta\\Gamma$).\n2. Isosceles Triangles (as per markings\/text): \n$\\triangle \\text{A}\\Delta\\Gamma$ is marked as isosceles ($\\Delta\\Gamma = \\text{A}\\Delta$) with double tick marks.\n$\\triangle \\text{A}\\text{B}\\Gamma$ is marked as isosceles ($\\text{AB} = \\text{A}\\Gamma$) with single tick marks.\n3. Angles: Several angles are labeled: $\\boldsymbol{\\omega}$ (omega) and $\\boldsymbol{\\theta}$ (theta), and numbers1 and2. Specifically:\n$\\angle \\text{A}\\text{B}\\Gamma = \\boldsymbol{\\omega}$\n$\\angle \\text{B}\\Gamma\\text{A} = \\boldsymbol{\\omega}$\n$\\angle \\Gamma\\text{A}\\text{B} = 2$ (and $\\boldsymbol{\\omega}$)\n$\\angle \\Delta\\text{A}\\Gamma = 1$\n$\\angle \\Delta\\Gamma\\text{A} = \\boldsymbol{\\theta}$",
+        "input":"",
         "images":[
             null
         ],
@@ -4732,7 +4732,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Δύο κύκλοι με κέντρα $K$ και $\\Lambda$ τέμνονται στα σημεία $A$ και $B$. Από το σημείο $A$ φέρνουμε τις διαμέτρους $A\\Gamma$ και $A\\Delta$, όπως φαίνεται στο ακόλουθο σχήμα.\n\n(α) Να φέρετε την $AB$. Να αποδείξετε ότι: $\\Gamma\\hat{BA}+A\\hat{B}\\Delta=180^{\\circ}.$\n\n(β) Να αποδείξετε ότι: $\\Gamma\\Delta=2K\\Lambda.$",
-        "input":"The image displays two circles of different sizes that intersect at two points, labeled $\\text{A}$ and $\\text{B}$.\n1. Circles and Centers:\nThe larger circle has its center labeled $\\text{K}$.\nThe smaller circle has its center labeled $\\Lambda$.\n2. Lines and Diameters:\nA line segment $\\text{A}\\Gamma$ passes through the center $\\text{K}$ of the larger circle, making it a diameter of the larger circle.\nA line segment $\\text{A}\\Delta$ passes through the center $\\Lambda$ of the smaller circle, making it a diameter of the smaller circle.\nThe points $\\Gamma$ and $\\Delta$ lie on the circumference of their respective circles.\nThe line segment $\\Gamma\\Delta$ connects the endpoints of the two diameters.\nThe diagram visually represents the setup described in the math problem: two intersecting circles, $\\text{A}\\Gamma$ as a diameter of the first, and $\\text{A}\\Delta$ as a diameter of the second.",
+        "input":"",
         "images":[
             null
         ],
@@ -4782,7 +4782,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Το παρακάτω στερεό έχει δημιουργηθεί από συγκόλληση ορθογωνίων παραλληλεπιπέδων.\n\nΝα χωρίσετε το στερεό σε τρία μέρη και να τα επανασυγκολήσετε έτσι ώστε να πάρετε ένα ορθογώνιο παραλληλεπίπεδο το οποίο να έχει τον ίδιο όγκο με το παραπάνω στερεό. Ποιες είναι οι διαστάσεις του;",
-        "input":"The image shows a black-and-white line drawing of a solid figure resting on a flat surface. The solid is constructed from rectangular blocks and has a stepped, orL-like, shape. The dimensions of the different segments are given in terms of the variable $x$:\n1. Overall Shape: The solid consists of a horizontal lower section and a vertical upper section.\n2. Dimensions Labeled:\nTheheight of the far-left segment is $x$.\nThedepth (front-to-back dimension) of the far-left segment is $2x$.\nThewidth of the far-left segment is $x$.\nThetotal width along the bottom edge is $3x$.\nTheheight of the far-right vertical segment is $2x$.\nThewidth of the far-right vertical segment is $x$.\nThedepth (front-to-back dimension) of the far-right segment is $x$.\nThe drawing uses dashed lines to indicate hidden edges, giving it a clear 3D perspective.",
+        "input":"",
         "images":[
             null
         ],
@@ -4807,7 +4807,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Το παρακάτω στερεό έχει δημιουργηθεί από συγκόλληση ορθογωνίων παραλληλεπιπέδων.\n\nΝα βρείτε το εμβαδόν της επιφάνειας του στερεού.",
-        "input":"The image shows a black-and-white line drawing of a solid figure resting on a flat surface. The solid is constructed from rectangular blocks and has a stepped, orL-like, shape. The dimensions of the different segments are given in terms of the variable $x$:\n1. Overall Shape: The solid consists of a horizontal lower section and a vertical upper section.\n2. Dimensions Labeled:\nTheheight of the far-left segment is $x$.\nThedepth (front-to-back dimension) of the far-left segment is $2x$.\nThewidth of the far-left segment is $x$.\nThetotal width along the bottom edge is $3x$.\nTheheight of the far-right vertical segment is $2x$.\nThewidth of the far-right vertical segment is $x$.\nThedepth (front-to-back dimension) of the far-right segment is $x$.\nThe drawing uses dashed lines to indicate hidden edges, giving it a clear 3D perspective.",
+        "input":"",
         "images":[
             null
         ],
@@ -4832,7 +4832,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Το παρακάτω στερεό έχει δημιουργηθεί από συγκόλληση ορθογωνίων παραλληλεπιπέδων.\n\nΝα βρείτε τον όγκο του.",
-        "input":"The image shows a black-and-white line drawing of a solid figure resting on a flat surface. The solid is constructed from rectangular blocks and has a stepped, orL-like, shape. The dimensions of the different segments are given in terms of the variable $x$:\n1. Overall Shape: The solid consists of a horizontal lower section and a vertical upper section.\n2. Dimensions Labeled:\nTheheight of the far-left segment is $x$.\nThedepth (front-to-back dimension) of the far-left segment is $2x$.\nThewidth of the far-left segment is $x$.\nThetotal width along the bottom edge is $3x$.\nTheheight of the far-right vertical segment is $2x$.\nThewidth of the far-right vertical segment is $x$.\nThedepth (front-to-back dimension) of the far-right segment is $x$.\nThe drawing uses dashed lines to indicate hidden edges, giving it a clear 3D perspective.",
+        "input":"",
         "images":[
             null
         ],
@@ -4857,7 +4857,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Η Ελένη κατά τη διάρκεια των διακοπών της θέλει να κάνει ποδηλασία. Εξετάζει από το διαδίκτυο τις $15$νθήμερες χρεώσεις από τρία καταστήματα ενοικίασης ποδηλάτων για να διαπιστώσει ποιο την συμφέρει να επιλέξει. Οι τρόποι χρέωσης των τριών καταστημάτων είναι οι εξής:\n\n**Κατάστημα (α):** Οι πελάτες πληρώνουν σύμφωνα με τον κανόνα που προκύπτει από τον παρακάτω πίνακα:\n\n$$\\begin{array}{|c|c|c|c|c|} \\hline \\text{Ώρες ενοικίασης} (x) & 0 & 1 & 2 & 3 \\\\ \\hline \\text{Χρέωση σε ευρώ} (\\gamma) & 15 & 15,5 & 16 & ... \\\\ \\hline \\end{array}$$\n\n**Κατάστημα (β):** Οι πελάτες πληρώνουν $35$ ευρώ και κάνουν ποδήλατο όσες ώρες του δεκαπενθημέρου επιθυμούν.\n\n**Κατάστημα (γ):** Οι πελάτες πληρώνουν σύμφωνα με την παρακάτω γραφική παράσταση. Στο ακόλουθο γράφημα η σχέση που συνδέει τις ώρες ποδηλασίας με το χρηματικό ποσό που πληρώνουν παριστάνεται με σημεία της ευθείας $(\\gamma)$.\n\nΕλένη δυσκολεύεται να επιλέξει γιατί οι χρεώσεις του κάθε καταστήματος γίνονται με διαφορετικό τρόπο. Μπορείτε να την βοηθήσετε να απαντήσει στα ακόλουθα ερωτήματα; Ποιος είναι ο τύπος που παρέχει άμεσα τη χρέωση $\\gamma$ σε ευρώ του καταστήματος $(\\alpha)$ για $x$ ώρες ενοικίασης; Να αιτιολογήσετε πώς βρήκατε τον τύπο.",
-        "input":"The image shows an $x$-$y$ graph with a grid background.\n1. Axes:\nThe vertical axis ($y$) is labeled $y$ ($\\epsilon\\upsilon\\rho\\acute{o}$) ($y$ (euros)).\nThe horizontal axis ($x$) is labeled $x$ ($\\acute{\\omega}\\rho\\epsilon\\varsigma$) ($x$ (hours)).\n2.  The Line ($\\gamma$): A single red straight line, labeled ($\\gamma$), is plotted.\n3.  Key Points: The line clearly intersects the $y$-axis at $y=5$ and appears to pass through the point $(40, 65)$.\nThe graph visualizes the cost ($\\gamma$) as a function of the rental hours ($x$) for \"Store ($\\gamma$)\" in the context of the math problem.",
+        "input":"",
         "images":[
             null
         ],
@@ -4882,7 +4882,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Η Ελένη κατά τη διάρκεια των διακοπών της θέλει να κάνει ποδηλασία. Εξετάζει από το διαδίκτυο τις $15$νθήμερες χρεώσεις από τρία καταστήματα ενοικίασης ποδηλάτων για να διαπιστώσει ποιο την συμφέρει να επιλέξει. Οι τρόποι χρέωσης των τριών καταστημάτων είναι οι εξής:\n\n**Κατάστημα (α):** Οι πελάτες πληρώνουν σύμφωνα με τον κανόνα που προκύπτει από τον παρακάτω πίνακα:\n\n$$\\begin{array}{|c|c|c|c|c|} \\hline \\text{Ώρες ενοικίασης} (x) & 0 & 1 & 2 & 3 \\\\ \\hline \\text{Χρέωση σε ευρώ} (\\gamma) & 15 & 15,5 & 16 & ... \\\\ \\hline \\end{array}$$\n\n**Κατάστημα (β):** Οι πελάτες πληρώνουν $35$ ευρώ και κάνουν ποδήλατο όσες ώρες του δεκαπενθημέρου επιθυμούν.\n\n**Κατάστημα (γ):** Οι πελάτες πληρώνουν σύμφωνα με την παρακάτω γραφική παράσταση. Στο ακόλουθο γράφημα η σχέση που συνδέει τις ώρες ποδηλασίας με το χρηματικό ποσό που πληρώνουν παριστάνεται με σημεία της ευθείας $(\\gamma)$.\n\nΕλένη δυσκολεύεται να επιλέξει γιατί οι χρεώσεις του κάθε καταστήματος γίνονται με διαφορετικό τρόπο. Μπορείτε να την βοηθήσετε να απαντήσει στα ακόλουθα ερωτήματα; Να σχεδιάσετε τις γραφικές παραστάσεις της σχέσης του $\\gamma$ ως προς το $x$ για τα καταστήματα $(\\alpha)$ και $(\\beta)$ στο ίδιο σύστημα αξόνων με την ευθεία $(\\gamma)$.",
-        "input":"The image shows an $x$-$y$ graph with a grid background.\n1. Axes:\nThe vertical axis ($y$) is labeled $y$ ($\\epsilon\\upsilon\\rho\\acute{o}$) ($y$ (euros)).\nThe horizontal axis ($x$) is labeled $x$ ($\\acute{\\omega}\\rho\\epsilon\\varsigma$) ($x$ (hours)).\n2.  The Line ($\\gamma$): A single red straight line, labeled ($\\gamma$), is plotted.\n3.  Key Points: The line clearly intersects the $y$-axis at $y=5$ and appears to pass through the point $(40, 65)$.\nThe graph visualizes the cost ($\\gamma$) as a function of the rental hours ($x$) for \"Store ($\\gamma$)\" in the context of the math problem.",
+        "input":"",
         "images":[
             null
         ],
@@ -4907,7 +4907,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Η Ελένη κατά τη διάρκεια των διακοπών της θέλει να κάνει ποδηλασία. Εξετάζει από το διαδίκτυο τις $15$νθήμερες χρεώσεις από τρία καταστήματα ενοικίασης ποδηλάτων για να διαπιστώσει ποιο την συμφέρει να επιλέξει. Οι τρόποι χρέωσης των τριών καταστημάτων είναι οι εξής:\n\n**Κατάστημα (α):** Οι πελάτες πληρώνουν σύμφωνα με τον κανόνα που προκύπτει από τον παρακάτω πίνακα:\n\n$$\\begin{array}{|c|c|c|c|c|} \\hline \\text{Ώρες ενοικίασης} (x) & 0 & 1 & 2 & 3 \\\\ \\hline \\text{Χρέωση σε ευρώ} (\\gamma) & 15 & 15,5 & 16 & ... \\\\ \\hline \\end{array}$$\n\n**Κατάστημα (β):** Οι πελάτες πληρώνουν $35$ ευρώ και κάνουν ποδήλατο όσες ώρες του δεκαπενθημέρου επιθυμούν.\n\n**Κατάστημα (γ):** Οι πελάτες πληρώνουν σύμφωνα με την παρακάτω γραφική παράσταση. Στο ακόλουθο γράφημα η σχέση που συνδέει τις ώρες ποδηλασίας με το χρηματικό ποσό που πληρώνουν παριστάνεται με σημεία της ευθείας $(\\gamma)$.\n\nΕλένη δυσκολεύεται να επιλέξει γιατί οι χρεώσεις του κάθε καταστήματος γίνονται με διαφορετικό τρόπο. Μπορείτε να την βοηθήσετε να απαντήσει στα ακόλουθα ερωτήματα; Πόσες ώρες ποδήλατο πρέπει να κάνει η Ελένη ώστε τα χρήματα που θα πληρώσει στα καταστήματα $(\\alpha)$ και $(\\gamma)$ να είναι ίδια. Να εξηγήσετε.",
-        "input":"The image shows an $x$-$y$ graph with a grid background.\n1. Axes:\nThe vertical axis ($y$) is labeled $y$ ($\\epsilon\\upsilon\\rho\\acute{o}$) ($y$ (euros)).\nThe horizontal axis ($x$) is labeled $x$ ($\\acute{\\omega}\\rho\\epsilon\\varsigma$) ($x$ (hours)).\n2.  The Line ($\\gamma$): A single red straight line, labeled ($\\gamma$), is plotted.\n3.  Key Points: The line clearly intersects the $y$-axis at $y=5$ and appears to pass through the point $(40, 65)$.\nThe graph visualizes the cost ($\\gamma$) as a function of the rental hours ($x$) for \"Store ($\\gamma$)\" in the context of the math problem.",
+        "input":"",
         "images":[
             null
         ],
@@ -4932,7 +4932,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Η Ελένη κατά τη διάρκεια των διακοπών της θέλει να κάνει ποδηλασία. Εξετάζει από το διαδίκτυο τις $15$νθήμερες χρεώσεις από τρία καταστήματα ενοικίασης ποδηλάτων για να διαπιστώσει ποιο την συμφέρει να επιλέξει. Οι τρόποι χρέωσης των τριών καταστημάτων είναι οι εξής:\n\n**Κατάστημα (α):** Οι πελάτες πληρώνουν σύμφωνα με τον κανόνα που προκύπτει από τον παρακάτω πίνακα:\n\n$$\\begin{array}{|c|c|c|c|c|} \\hline \\text{Ώρες ενοικίασης} (x) & 0 & 1 & 2 & 3 \\\\ \\hline \\text{Χρέωση σε ευρώ} (\\gamma) & 15 & 15,5 & 16 & ... \\\\ \\hline \\end{array}$$\n\n**Κατάστημα (β):** Οι πελάτες πληρώνουν $35$ ευρώ και κάνουν ποδήλατο όσες ώρες του δεκαπενθημέρου επιθυμούν.\n\n**Κατάστημα (γ):** Οι πελάτες πληρώνουν σύμφωνα με την παρακάτω γραφική παράσταση. Στο ακόλουθο γράφημα η σχέση που συνδέει τις ώρες ποδηλασίας με το χρηματικό ποσό που πληρώνουν παριστάνεται με σημεία της ευθείας $(\\gamma)$.\n\nΕλένη δυσκολεύεται να επιλέξει γιατί οι χρεώσεις του κάθε καταστήματος γίνονται με διαφορετικό τρόπο. Μπορείτε να την βοηθήσετε να απαντήσει στα ακόλουθα ερωτήματα; Πότε συμφέρει η κάθε επιλογή;",
-        "input":"The image shows an $x$-$y$ graph with a grid background.\n1. Axes:\nThe vertical axis ($y$) is labeled $y$ ($\\epsilon\\upsilon\\rho\\acute{o}$) ($y$ (euros)).\nThe horizontal axis ($x$) is labeled $x$ ($\\acute{\\omega}\\rho\\epsilon\\varsigma$) ($x$ (hours)).\n2.  The Line ($\\gamma$): A single red straight line, labeled ($\\gamma$), is plotted.\n3.  Key Points: The line clearly intersects the $y$-axis at $y=5$ and appears to pass through the point $(40, 65)$.\nThe graph visualizes the cost ($\\gamma$) as a function of the rental hours ($x$) for \"Store ($\\gamma$)\" in the context of the math problem.",
+        "input":"",
         "images":[
             null
         ],
@@ -4982,7 +4982,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Να βρείτε πόσες μοίρες είναι η γωνία $z\\hat{0}y$ του παρακάτω σχήματος:",
-        "input":"The image shows two straight lines, $y'z'$ and $yz$, intersecting at a central point $\\text{O}$. The four angles formed by the intersection are expressed algebraically in terms of $x$ and $y$:\n1. Top Angle ($\\angle y'Oz$): $3x - 40^\\circ$.\n2. Bottom Angle ($\\angle z'Oy$): $5x - 9y - 32^\\circ$.\n3. Left Angle ($\\angle y'Oz'$): $5y + 10^\\circ$.\n4. Right Angle ($\\angle zOy$): $-3x + 220^\\circ$.\nThe diagram represents a classic geometry problem involving vertically opposite and supplementary angles.",
+        "input":"",
         "images":[
             null
         ],
@@ -5032,7 +5032,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο ακόλουθο σχήμα βλέπουμε το σχέδιο μιας λίμνης και τις μετρήσεις που έκανε ο μηχανικός. Στο τρίγωνο $\\text{A}\\text{B}\\Gamma$ συμβολίζουμε ως εξής τα μήκη των πλευρών: $\\text{B}\\Gamma=\\alpha,$ $\\text{A}\\text{B}=\\gamma$ και $\\text{A}\\Gamma=\\beta.$ Δίνονται: $\\hat{\\Gamma}=60^{0}$, $\\alpha=10~\\text{Km}$ και $\\beta=8~\\text{Km}$.\n\nΝα βρείτε το μήκος της πλευράς $\\gamma$.",
-        "input":"The image shows a triangle $\\text{A}\\text{B}\\Gamma$ where a large, irregular, elliptical shape, labeled $\\gamma$ (representing the lake), lies partially within the triangle.\n1. Survey Triangle: The triangle $\\text{A}\\text{B}\\Gamma$ provides the framework for calculation.\n2. Known Dimensions:\nSide $\\text{B}\\Gamma$ ($\\alpha$): $10 \\text{Km}$.\nSide $\\text{A}\\Gamma$ ($\\beta$): $8 \\text{Km}$.\nIncluded Angle ($\\angle \\Gamma$): $60^\\circ$.\n3. Target Dimension: The distance across the lake, $\\text{AB}$ (or $\\gamma$), needs to be calculated using the given data.",
+        "input":"",
         "images":[
             null
         ],
@@ -5057,7 +5057,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο ακόλουθο σχήμα βλέπουμε το σχέδιο μιας λίμνης και τις μετρήσεις που έκανε ο μηχανικός. Στο τρίγωνο $\\text{A}\\text{B}\\Gamma$ συμβολίζουμε ως εξής τα μήκη των πλευρών: $\\text{B}\\Gamma=\\alpha,$ $\\text{A}\\text{B}=\\gamma$ και $\\text{A}\\Gamma=\\beta.$ Δίνονται: $\\hat{\\Gamma}=60^{0}$, $\\alpha=10~\\text{Km}$ και $\\beta=8~\\text{Km}$.\n\nΝα υπολογίσετε τις γωνίες $\\hat{B}$ και $\\hat{\\text{A}}$.",
-        "input":"The image shows a triangle $\\text{A}\\text{B}\\Gamma$ where a large, irregular, elliptical shape, labeled $\\gamma$ (representing the lake), lies partially within the triangle.\n1. Survey Triangle: The triangle $\\text{A}\\text{B}\\Gamma$ provides the framework for calculation.\n2. Known Dimensions:\nSide $\\text{B}\\Gamma$ ($\\alpha$): $10 \\text{Km}$.\nSide $\\text{A}\\Gamma$ ($\\beta$): $8 \\text{Km}$.\nIncluded Angle ($\\angle \\Gamma$): $60^\\circ$.\n3. Target Dimension: The distance across the lake, $\\text{AB}$ (or $\\gamma$), needs to be calculated using the given data.",
+        "input":"",
         "images":[
             null
         ],
@@ -5082,7 +5082,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο διπλανό σχήμα φαίνεται το τοπογραφικό διάγραμμα ενός κήπου με πλευρές $\\text{A}\\text{B}$, $\\text{B}\\Gamma$, $\\Gamma\\Delta$, $\\Delta\\text{E}$ και $\\text{E}\\text{A}$. Ο κήπος έχει εμβαδόν $104~m^{2}$ και αποτελείται από ένα τετράγωνο $\\text{Z}\\text{B}\\Gamma\\Delta$ και ένα τραπέζιο $\\text{A}\\text{Z}\\Delta\\text{E}$ με $\\text{A}\\text{Z}=8$ m και $\\text{A}\\text{E}=2m$.\n\nΑν συμβολίσουμε με $\\chi$ το μήκος της πλευράς $\\text{B}\\Gamma$ να γράψετε μια εξίσωση από την οποία μπορεί να βρεθεί ο άγνωστος $\\chi$.",
-        "input":"The image displays a green-shaded, five-sided polygon ($\text{A}\text{B}\\Gamma\\Delta\\text{E}$). A dashed vertical line $\text{Z}\\Delta$ divides the shape. The accompanying text states the shape is composed of:\n1. A square ($\text{Z}\text{B}\\Gamma\\Delta$).\n2. A trapezoid ($\text{A}\text{Z}\\Delta\\text{E}$).\nKey Dimensions Labeled:\n$\text{A}\text{Z} = 8$.\n$\text{A}\text{E} = 2$.\n$\text{B}\\Gamma = x$.\nThe fact that $\text{Z}\text{B}\\Gamma\\Delta$ is a square means that $\text{Z}\text{B} = \text{B}\\Gamma = \\Gamma\\Delta = \text{Z}\\Delta = x$. The full top side is $\text{A}\text{B} = \text{A}\text{Z} + \text{Z}\text{B} = 8 + x$.",
+        "input":"",
         "images":[
             null
         ],
@@ -5107,7 +5107,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο διπλανό σχήμα φαίνεται το τοπογραφικό διάγραμμα ενός κήπου με πλευρές $\\text{A}\\text{B}$, $\\text{B}\\Gamma$, $\\Gamma\\Delta$, $\\Delta\\text{E}$ και $\\text{E}\\text{A}$. Ο κήπος έχει εμβαδόν $104~m^{2}$ και αποτελείται από ένα τετράγωνο $\\text{Z}\\text{B}\\Gamma\\Delta$ και ένα τραπέζιο $\\text{A}\\text{Z}\\Delta\\text{E}$ με $\\text{A}\\text{Z}=8$ m και $\\text{A}\\text{E}=2m$.\n\nΝα λύσετε την εξίσωση. Ποιο είναι το μήκος της πλευράς $\\text{B}\\Gamma$; ",
-        "input":"The image displays a green-shaded, five-sided polygon ($\\text{A}\\text{B}\\Gamma\\Delta\\text{E}$). A dashed vertical line $\\text{Z}\\Delta$ divides the shape. The accompanying text states the shape is composed of:\n1. A square ($\\text{Z}\\text{B}\\Gamma\\Delta$).\n2. A trapezoid ($\\text{A}\\text{Z}\\Delta\\text{E}$).\nKey Dimensions Labeled:\n$\\text{A}\\text{Z} = 8$.\n$\\text{A}\\text{E} = 2$.\n$\\text{B}\\Gamma = x$.\nThe fact that $\\text{Z}\\text{B}\\Gamma\\Delta$ is a square means that $\\text{Z}\\text{B} = \\text{B}\\Gamma = \\Gamma\\Delta = \\text{Z}\\Delta = x$. The full top side is $\\text{A}\\text{B} = \\text{A}\\text{Z} + \\text{Z}\\text{B} = 8 + x$.",
+        "input":"",
         "images":[
             null
         ],
@@ -5132,7 +5132,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο διπλανό σχήμα φαίνεται το τοπογραφικό διάγραμμα ενός κήπου με πλευρές $\\text{A}\\text{B}$, $\\text{B}\\Gamma$, $\\Gamma\\Delta$, $\\Delta\\text{E}$ και $\\text{E}\\text{A}$. Ο κήπος έχει εμβαδόν $104~m^{2}$ και αποτελείται από ένα τετράγωνο $\\text{Z}\\text{B}\\Gamma\\Delta$ και ένα τραπέζιο $\\text{A}\\text{Z}\\Delta\\text{E}$ με $\\text{A}\\text{Z}=8$ m και $\\text{A}\\text{E}=2m$.\n\nΝα βρείτε το μήκος της πλευράς $\\Delta\\text{E}$;",
-        "input":"The image displays a green-shaded, five-sided polygon ($\\text{A}\\text{B}\\Gamma\\Delta\\text{E}$). A dashed vertical line $\\text{Z}\\Delta$ divides the shape. The accompanying text states the shape is composed of:\n1. A square ($\\text{Z}\\text{B}\\Gamma\\Delta$).\n2. A trapezoid ($\\text{A}\\text{Z}\\Delta\\text{E}$).\nKey Dimensions Labeled:\n$\\text{A}\\text{Z} = 8$.\n$\\text{A}\\text{E} = 2$.\n$\\text{B}\\Gamma = x$.\nThe fact that $\\text{Z}\\text{B}\\Gamma\\Delta$ is a square means that $\\text{Z}\\text{B} = \\text{B}\\Gamma = \\Gamma\\Delta = \\text{Z}\\Delta = x$. The full top side is $\\text{A}\\text{B} = \\text{A}\\text{Z} + \\text{Z}\\text{B} = 8 + x$.",
+        "input":"",
         "images":[
             null
         ],
@@ -5157,7 +5157,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Σε δύο πόλεις $\\text{A}$ και $\\text{B}$ ο συνολικός αριθμός των κινητών τηλεφώνων είναι αντίστοιχα $78.450$ και $31.380$. Στα παρακάτω κυκλικά διαγράμματα βλέπουμε το ποσοστό των κινητών από κάθε εταιρεία κατασκευής. Σε ποια από τις δύο πόλεις, $\\text{A}$ και $\\text{B}$, η εταιρεία \"SSA\" έχει περισσότερα κινητά; Να αιτιολογήσετε.",
-        "input":"The image shows two pie charts. Chart $\\text{A}$ represents a distribution with $47\\%$, $13\\%$, $10\\%$, $18\\%$, and $12\\%$ sectors. Chart $\\text{B}$ represents a distribution with $46\\%$, $12\\%$, $5\\%$, $7\\%$, and $30\\%$ sectors.\\nThe Orange sector in both charts represents the percentage of mobile phones belonging to the company “SSA”:\\nCity A (Chart A): $12\\%$\\nCity B (Chart B): $30\\%$\\nThe exercise provides the total number of phones in each city: $78,450$ in City $\\text{A}$ and $31,380$ in City $\\text{B}$.",
+        "input":"",
         "images":[
             null
         ],
@@ -5357,7 +5357,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Το διπλανό σχήμα δείχνει μια κανονική τετραγωνική πυραμίδα. Η πλευρά της βάσης είναι $8 \text{ cm}$ και το ύψος είναι $12 \text{ cm}$.\n\nΝα σημειώσετε στο τρίγωνο ΚΛΗ τις διαστάσεις που γνωρίζετε. Να υπολογίσετε το απόστημα ΚΛ.",
-        "input":"The image shows a pyramid with base $\\text{A}\\text{B}\\Gamma\\Delta$ and apex $\\text{K}$.\n1. Shape: It represents a right square pyramid, as confirmed by the exercise text.\n2. Dimensions:\nThe base side length ($\\text{A}\\text{B}$) is labeled $8 \\text{ cm}$.\nThe pyramid height ($\\text{K}\\text{H}$) is labeled $12 \\text{ cm}$.\n3. Additional Geometry: The diagram includes a shaded right triangle ($\\triangle \\text{K}\\Lambda\\text{H}$) where $\\text{H}$ is the center of the base, and $\\Lambda$ is a point on a base side. This triangle is typically used to find the slant height ($\\text{K}\\Lambda$) of the pyramid.",
+        "input":"",
         "images":[
             null
         ],
@@ -5382,7 +5382,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Το διπλανό σχήμα δείχνει μια κανονική τετραγωνική πυραμίδα. Η πλευρά της βάσης είναι $8 \text{ cm}$ και το ύψος είναι $12 \text{ cm}$.\n\nΝα υπολογίσετε το εμβαδόν του τριγώνου ΚΑΔ.",
-        "input":"The image shows a pyramid with base $\\text{A}\\text{B}\\Gamma\\Delta$ and apex $\\text{K}$.\n1. Shape: It represents a right square pyramid, as confirmed by the exercise text.\n2. Dimensions:\nThe base side length ($\\text{A}\\text{B}$) is labeled $8 \\text{ cm}$.\nThe pyramid height ($\\text{K}\\text{H}$) is labeled $12 \\text{ cm}$.\n3. Additional Geometry: The diagram includes a shaded right triangle ($\\triangle \\text{K}\\Lambda\\text{H}$) where $\\text{H}$ is the center of the base, and $\\Lambda$ is a point on a base side. This triangle is typically used to find the slant height ($\\text{K}\\Lambda$) of the pyramid.",
+        "input":"",
         "images":[
             null
         ],
@@ -5407,7 +5407,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Το διπλανό σχήμα δείχνει μια κανονική τετραγωνική πυραμίδα. Η πλευρά της βάσης είναι $8 \text{ cm}$ και το ύψος είναι $12 \text{ cm}$.\n\nΝα υπολογίσετε το εμβαδόν της ολικής επιφάνειας της πυραμίδας.\nΔίνονται: $E_{ολ}=E_{\\beta}+E_{\\pi}$, $E_{\\pi}=\\frac{1}{2}\\cdot(\\text{περίμετρος βάσης})\\cdot(\\text{απόστημα})$",
-        "input":"The image shows a pyramid with base $\\text{A}\\text{B}\\Gamma\\Delta$ and apex $\\text{K}$.\n1. Shape: It represents a right square pyramid, as confirmed by the exercise text.\n2. Dimensions:\nThe base side length ($\\text{A}\\text{B}$) is labeled $8 \\text{ cm}$.\nThe pyramid height ($\\text{K}\\text{H}$) is labeled $12 \\text{ cm}$.\n3. Additional Geometry: The diagram includes a shaded right triangle ($\\triangle \\text{K}\\Lambda\\text{H}$) where $\\text{H}$ is the center of the base, and $\\Lambda$ is a point on a base side. This triangle is typically used to find the slant height ($\\text{K}\\Lambda$) of the pyramid.",
+        "input":"",
         "images":[
             null
         ],
@@ -5432,7 +5432,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Τα παρακάτω διαγράμματα παρουσιάζουν το πλήθος των μαθητών δύο σχολείων σύμφωνα με το πλήθος των λογοτεχνικών βιβλίων που διάβασαν κατά τη διάρκεια μιας σχολικής χρονιάς.\n\nΛαμβάνοντας υπόψη τις βοηθητικές οριζόντιες διακεκομμένες γραμμές, να ορίσετε κατάλληλες μονάδες μέτρησης στους άξονες που να παριστάνουν το πλήθος των μαθητών σε κάθε περίπτωση. Να συμπληρώσετε πόσοι μαθητές κάθε σχολείου διάβασαν 1, 2, 3, 5, 6 και 7 βιβλία. Γιατί τα δύο διαγράμματα είναι ίδια;",
-        "input":"The image shows two charts: \"School A\" ($\\Sigma\\chi o\\lambda\\epsilon\\acute{\\iota}o\\ \text{A}$) on the left and \"School B\" ($\\Sigma\\chi o\\lambda\\epsilon\\acute{\\iota}o\\ \text{B}$) on the right.\n1. Axes: Both vertical axes represent the number of students ($\\pi\\lambda\\acute{\\eta}\theta o\\varsigma\\ \\mu\\alpha\theta\\eta\tau\\acute{\\omega}\nu$), and both horizontal axes represent the number of books read ($\\pi\\lambda\\acute{\\eta}\theta o\\varsigma\\ \beta\\iota\beta\\lambda\\acute{\\iota}\\omega\nu$), ranging from 1 to 7.\n2. Key Data:\nSchool A: The mode is 4 books, read by 28 students.\nSchool B: The mode is 4 books, read by 42 students.\nThe diagrams provide the raw frequency data needed for statistical analysis (e.g., calculating mean, median, standard deviation, or comparing student reading habits).",
+        "input":"",
         "images":[
             null
         ],
@@ -5457,7 +5457,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Τα παρακάτω διαγράμματα παρουσιάζουν το πλήθος των μαθητών δύο σχολείων σύμφωνα με το πλήθος των λογοτεχνικών βιβλίων που διάβασαν κατά τη διάρκεια μιας σχολικής χρονιάς.\n\nΠόσους μαθητές έχει το κάθε σχολείο και πόσα βιβλία διάβασαν όλοι οι μαθητές του; Να αιτιολογήσετε την απάντησή σας.",
-        "input":"The image shows two charts: \"School A\" ($\\Sigma\\chi o\\lambda\\epsilon\\acute{\\iota}o\\ \text{A}$) on the left and \"School B\" ($\\Sigma\\chi o\\lambda\\epsilon\\acute{\\iota}o\\ \text{B}$) on the right.\n1. Axes: Both vertical axes represent the number of students ($\\pi\\lambda\\acute{\\eta}\theta o\\varsigma\\ \\mu\\alpha\theta\\eta\tau\\acute{\\omega}\nu$), and both horizontal axes represent the number of books read ($\\pi\\lambda\\acute{\\eta}\theta o\\varsigma\\ \beta\\iota\beta\\lambda\\acute{\\iota}\\omega\nu$), ranging from 1 to 7.\n2. Key Data:\nSchool A: The mode is 4 books, read by 28 students.\nSchool B: The mode is 4 books, read by 42 students.\nThe diagrams provide the raw frequency data needed for statistical analysis (e.g., calculating mean, median, standard deviation, or comparing student reading habits).",
+        "input":"",
         "images":[
             null
         ],
@@ -5482,7 +5482,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Τα παρακάτω διαγράμματα παρουσιάζουν το πλήθος των μαθητών δύο σχολείων σύμφωνα με το πλήθος των λογοτεχνικών βιβλίων που διάβασαν κατά τη διάρκεια μιας σχολικής χρονιάς.\n\nΝα βρείτε το μέσο όρο των βιβλίων που διάβασαν οι μαθητές κάθε σχολείου. Τι παρατηρείτε; Υπάρχει διαφορά στα ποσοστά των μαθητών των δύο σχολείων που διάβασαν πάνω από 5 βιβλία;",
-        "input":"The image shows two charts: \"School A\" ($\\Sigma\\chi o\\lambda\\epsilon\\acute{\\iota}o\\ \text{A}$) on the left and \"School B\" ($\\Sigma\\chi o\\lambda\\epsilon\\acute{\\iota}o\\ \text{B}$) on the right.\n1. Axes: Both vertical axes represent the number of students ($\\pi\\lambda\\acute{\\eta}\theta o\\varsigma\\ \\mu\\alpha\theta\\eta\tau\\acute{\\omega}\nu$), and both horizontal axes represent the number of books read ($\\pi\\lambda\\acute{\\eta}\theta o\\varsigma\\ \beta\\iota\beta\\lambda\\acute{\\iota}\\omega\nu$), ranging from 1 to 7.\n2. Key Data:\nSchool A: The mode is 4 books, read by 28 students.\nSchool B: The mode is 4 books, read by 42 students.\nThe diagrams provide the raw frequency data needed for statistical analysis (e.g., calculating mean, median, standard deviation, or comparing student reading habits).",
+        "input":"",
         "images":[
             null
         ],
@@ -5557,7 +5557,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο ακόλουθο σχήμα το τετράπλευρο ΑΒΓΔ είναι ορθογώνιο παραλληλόγραμμο, τα τρίγωνα ΑΟΒ και ΟΔΓ είναι ισόπλευρα και η ΒΕ είναι κάθετη προς τη ΒΔ. \n\nΝα αποδείξετε ότι: $AEB=30^{\\circ}$",
-        "input":"The image shows a quadrilateral $\\text{A}\\text{B}\\Gamma\\Delta$ with its diagonals $\\text{A}\\Gamma$ and $\\text{B}\\Delta$ intersecting at point $\\text{O}$.\n1. Quadrilateral $\\text{A}\\text{B}\\Gamma\\Delta$: This shape is stated in the exercise text to be arectangle (ορθογώνιο παραλληλόγραμμο).\nRight angle symbols are placed at vertices $\\text{B}$ and $\\Delta$.\nTick marks indicate: $\\text{A}\\text{B} = \\Gamma\\Delta$ (single tick) and $\\text{A}\\Delta = \\text{B}\\Gamma$ (double tick).Note: The tick marks shown indicate $\\text{A}\\text{B} = \\text{A}\\Delta$ and $\\Gamma\\Delta = \\text{B}\\Gamma$, which would imply the shape is a square, not necessarily a rectangle, but the context states a rectangle.\n2. Diagonals: The diagonals $\\text{A}\\Gamma$ and $\\text{B}\\Delta$ intersect at $\\text{O}$. Tick marks suggest that the segments of the diagonals are equal, consistent with a rectangle: $\\text{A}\\text{O} = \\text{O}\\Gamma$ and $\\text{B}\\text{O} = \\text{O}\\Delta$ (all with double tick marks).\n3. External Geometry: Point $\\text{E}$ is an external point, forming the triangle $\\triangle \\text{E}\\text{A}\\text{B}$.\n4. Inconsistencies: The exercise text mentions that $\\triangle \\text{A}\\text{O}\\text{B}$ and $\\triangle \\text{O}\\Delta\\Gamma$ areequilateral and $\\text{B}\\text{E}$ isperpendicular to $\\text{B}\\Delta$.\nTheequilateral triangle claim is geometrically inconsistent with $\\text{O}$ being the intersection of the diagonals of a typical rectangle.\nThe image itselfdoes not label $\\triangle \\text{A}\\text{O}\\text{B}$ and $\\triangle \\text{O}\\Delta\\Gamma$ as equilateral (no $60^\\circ$ angles or additional tick marks on the sides $\\text{A}\\text{B}$ and $\\Gamma\\Delta$ relative to $\\text{A}\\text{O}$\/$\\text{B}\\text{O}$), and does not show $\\text{B}\\text{E} \\perp \\text{B}\\Delta$. This suggests the text describes a different configuration or is meant to *define* the figure, even if the drawing is slightly misleading or incomplete.",
+        "input":"",
         "images":[
             null
         ],
@@ -5582,7 +5582,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο ακόλουθο σχήμα το τετράπλευρο ΑΒΓΔ είναι ορθογώνιο παραλληλόγραμμο, τα τρίγωνα ΑΟΒ και ΟΔΓ είναι ισόπλευρα και η ΒΕ είναι κάθετη προς τη ΒΔ. \n\nΝα αποδείξετε ότι: $EB=B\\Gamma$",
-        "input":"The image shows a quadrilateral $\\text{A}\\text{B}\\Gamma\\Delta$ with its diagonals $\\text{A}\\Gamma$ and $\\text{B}\\Delta$ intersecting at point $\\text{O}$.\n1. Quadrilateral $\\text{A}\\text{B}\\Gamma\\Delta$: This shape is stated in the exercise text to be arectangle (ορθογώνιο παραλληλόγραμμο).\nRight angle symbols are placed at vertices $\\text{B}$ and $\\Delta$.\nTick marks indicate: $\\text{A}\\text{B} = \\Gamma\\Delta$ (single tick) and $\\text{A}\\Delta = \\text{B}\\Gamma$ (double tick).Note: The tick marks shown indicate $\\text{A}\\text{B} = \\text{A}\\Delta$ and $\\Gamma\\Delta = \\text{B}\\Gamma$, which would imply the shape is a square, not necessarily a rectangle, but the context states a rectangle.\n2. Diagonals: The diagonals $\\text{A}\\Gamma$ and $\\text{B}\\Delta$ intersect at $\\text{O}$. Tick marks suggest that the segments of the diagonals are equal, consistent with a rectangle: $\\text{A}\\text{O} = \\text{O}\\Gamma$ and $\\text{B}\\text{O} = \\text{O}\\Delta$ (all with double tick marks).\n3. External Geometry: Point $\\text{E}$ is an external point, forming the triangle $\\triangle \\text{E}\\text{A}\\text{B}$.\n4. Inconsistencies: The exercise text mentions that $\\triangle \\text{A}\\text{O}\\text{B}$ and $\\triangle \\text{O}\\Delta\\Gamma$ areequilateral and $\\text{B}\\text{E}$ isperpendicular to $\\text{B}\\Delta$.\nTheequilateral triangle claim is geometrically inconsistent with $\\text{O}$ being the intersection of the diagonals of a typical rectangle.\nThe image itselfdoes not label $\\triangle \\text{A}\\text{O}\\text{B}$ and $\\triangle \\text{O}\\Delta\\Gamma$ as equilateral (no $60^\\circ$ angles or additional tick marks on the sides $\\text{A}\\text{B}$ and $\\Gamma\\Delta$ relative to $\\text{A}\\text{O}$\/$\\text{B}\\text{O}$), and does not show $\\text{B}\\text{E} \\perp \\text{B}\\Delta$. This suggests the text describes a different configuration or is meant to *define* the figure, even if the drawing is slightly misleading or incomplete.",
+        "input":"",
         "images":[
             null
         ],
@@ -5607,7 +5607,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο ακόλουθο σχήμα το τετράπλευρο ΑΒΓΔ είναι ορθογώνιο παραλληλόγραμμο, τα τρίγωνα ΑΟΒ και ΟΔΓ είναι ισόπλευρα και η ΒΕ είναι κάθετη προς τη ΒΔ. \n\nΝα αποδείξετε ότι: $EA=AB$",
-        "input":"The image shows a quadrilateral $\\text{A}\\text{B}\\Gamma\\Delta$ with its diagonals $\\text{A}\\Gamma$ and $\\text{B}\\Delta$ intersecting at point $\\text{O}$.\n1. Quadrilateral $\\text{A}\\text{B}\\Gamma\\Delta$: This shape is stated in the exercise text to be arectangle (ορθογώνιο παραλληλόγραμμο).\nRight angle symbols are placed at vertices $\\text{B}$ and $\\Delta$.\nTick marks indicate: $\\text{A}\\text{B} = \\Gamma\\Delta$ (single tick) and $\\text{A}\\Delta = \\text{B}\\Gamma$ (double tick).Note: The tick marks shown indicate $\\text{A}\\text{B} = \\text{A}\\Delta$ and $\\Gamma\\Delta = \\text{B}\\Gamma$, which would imply the shape is a square, not necessarily a rectangle, but the context states a rectangle.\n2. Diagonals: The diagonals $\\text{A}\\Gamma$ and $\\text{B}\\Delta$ intersect at $\\text{O}$. Tick marks suggest that the segments of the diagonals are equal, consistent with a rectangle: $\\text{A}\\text{O} = \\text{O}\\Gamma$ and $\\text{B}\\text{O} = \\text{O}\\Delta$ (all with double tick marks).\n3. External Geometry: Point $\\text{E}$ is an external point, forming the triangle $\\triangle \\text{E}\\text{A}\\text{B}$.\n4. Inconsistencies: The exercise text mentions that $\\triangle \\text{A}\\text{O}\\text{B}$ and $\\triangle \\text{O}\\Delta\\Gamma$ areequilateral and $\\text{B}\\text{E}$ isperpendicular to $\\text{B}\\Delta$.\nTheequilateral triangle claim is geometrically inconsistent with $\\text{O}$ being the intersection of the diagonals of a typical rectangle.\nThe image itselfdoes not label $\\triangle \\text{A}\\text{O}\\text{B}$ and $\\triangle \\text{O}\\Delta\\Gamma$ as equilateral (no $60^\\circ$ angles or additional tick marks on the sides $\\text{A}\\text{B}$ and $\\Gamma\\Delta$ relative to $\\text{A}\\text{O}$\/$\\text{B}\\text{O}$), and does not show $\\text{B}\\text{E} \\perp \\text{B}\\Delta$. This suggests the text describes a different configuration or is meant to *define* the figure, even if the drawing is slightly misleading or incomplete.",
+        "input":"",
         "images":[
             null
         ],
@@ -5632,7 +5632,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Ένα τραπέζιο $\\text{A}\\text{B}\\Gamma\\Delta$ είναι ορθογώνιο με $\\hat{A}=\\hat{\\Delta}=90^{\\circ}$, $\\text{A}\\Delta=30$ m και $\\text{B}\\Gamma=50$ m. Επίσης ισχύει $\\text{B}\\Delta \\perp \\text{B}\\Gamma$. Φέρνουμε: $\\text{B}\\text{H} \\perp \\Delta\\Gamma$. \n\nΝα υπολογίσετε το ευθύγραμμο τμήμα $\\text{H}\\Gamma$.",
-        "input":"The image displays the figure $\\text{A}\\text{B}\\Gamma\\Delta$.\n1. Main Shape: $\\text{A}\\text{B}\\Gamma\\Delta$ is a right trapezoid, defined by the right angles at $\\text{A}$ and $\\Delta$.\n2. Known Sides:\n$\\text{A}\\Delta = 30$.\n$\\text{B}\\Gamma = 50$.\n3. Key Right Triangles:\n$\\triangle \\text{A}\\Delta\\text{B}$ is a right triangle ($\\angle \\Delta = 90^\\circ$).\n$\\triangle \\Delta\\text{B}\\Gamma$ is a right triangle ($\\angle \\text{B} = 90^\\circ$).\n$\\triangle \\text{B}\\text{H}\\Gamma$ is a right triangle ($\\angle \\text{H} = 90^\\circ$).\nThe diagram allows for the application of the Pythagorean theorem and metric relations in right triangles to find unknown lengths ($\\text{B}\\Delta$, $\\Delta\\text{H}$, $\\text{H}\\Gamma$, $\\text{B}\\text{H}$, and $\\text{A}\\text{B}$).",
+        "input":"",
         "images":[
             null
         ],
@@ -5657,7 +5657,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Ένα τραπέζιο $\\text{A}\\text{B}\\Gamma\\Delta$ είναι ορθογώνιο με $\\hat{A}=\\hat{\\Delta}=90^{\\circ}$, $\\text{A}\\Delta=30$ m και $\\text{B}\\Gamma=50$ m. Επίσης ισχύει $\\text{B}\\Delta \\perp \\text{B}\\Gamma$. Φέρνουμε: $\\text{B}\\text{H} \\perp \\Delta\\Gamma$. \n\nΝα βρείτε τη βάση $\\text{A}\\text{B}$ του τραπεζίου.",
-        "input":"The image displays the figure $\\text{A}\\text{B}\\Gamma\\Delta$.\n1. Main Shape: $\\text{A}\\text{B}\\Gamma\\Delta$ is a right trapezoid, defined by the right angles at $\\text{A}$ and $\\Delta$.\n2. Known Sides:\n$\\text{A}\\Delta = 30$.\n$\\text{B}\\Gamma = 50$.\n3. Key Right Triangles:\n$\\triangle \\text{A}\\Delta\\text{B}$ is a right triangle ($\\angle \\Delta = 90^\\circ$).\n$\\triangle \\Delta\\text{B}\\Gamma$ is a right triangle ($\\angle \\text{B} = 90^\\circ$).\n$\\triangle \\text{B}\\text{H}\\Gamma$ is a right triangle ($\\angle \\text{H} = 90^\\circ$).\nThe diagram allows for the application of the Pythagorean theorem and metric relations in right triangles to find unknown lengths ($\\text{B}\\Delta$, $\\Delta\\text{H}$, $\\text{H}\\Gamma$, $\\text{B}\\text{H}$, and $\\text{A}\\text{B}$).",
+        "input":"",
         "images":[
             null
         ],
@@ -5682,7 +5682,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Ένα τραπέζιο $\\text{A}\\text{B}\\Gamma\\Delta$ είναι ορθογώνιο με $\\hat{A}=\\hat{\\Delta}=90^{\\circ}$, $\\text{A}\\Delta=30$ m και $\\text{B}\\Gamma=50$ m. Επίσης ισχύει $\\text{B}\\Delta \\perp \\text{B}\\Gamma$. Φέρνουμε: $\\text{B}\\text{H} \\perp \\Delta\\Gamma$. \n\nΝα βρείτε το εμβαδόν του τραπεζίου.",
-        "input":"The image displays the figure $\\text{A}\\text{B}\\Gamma\\Delta$.\n1. Main Shape: $\\text{A}\\text{B}\\Gamma\\Delta$ is a right trapezoid, defined by the right angles at $\\text{A}$ and $\\Delta$.\n2. Known Sides:\n$\\text{A}\\Delta = 30$.\n$\\text{B}\\Gamma = 50$.\n3. Key Right Triangles:\n$\\triangle \\text{A}\\Delta\\text{B}$ is a right triangle ($\\angle \\Delta = 90^\\circ$).\n$\\triangle \\Delta\\text{B}\\Gamma$ is a right triangle ($\\angle \\text{B} = 90^\\circ$).\n$\\triangle \\text{B}\\text{H}\\Gamma$ is a right triangle ($\\angle \\text{H} = 90^\\circ$).\nThe diagram allows for the application of the Pythagorean theorem and metric relations in right triangles to find unknown lengths ($\\text{B}\\Delta$, $\\Delta\\text{H}$, $\\text{H}\\Gamma$, $\\text{B}\\text{H}$, and $\\text{A}\\text{B}$).",
+        "input":"",
         "images":[
             null
         ],
@@ -5882,7 +5882,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο ισοσκελές τραπέζιο ΑΒΓΔ ισχύει $AB=4cm$, $\\lceil\\delta=12cm$ και οι γωνίες είναι $45^{\\circ}$ .\n\nΝα αποδείξετε ότι το ύψος του ΒΖ είναι 4 cm.",
-        "input":"The image shows a large trapezoidal shape ($\\delta \\dots \\Gamma$).\n1. Vertices and Segments: The outer base vertices are $\\delta$ and $\\Gamma$. The top vertices are $\\text{A}$ and $\\text{E}$. The trapezoid base is $\\delta\\Gamma$, and the top base is $\\text{A}\\text{E}$.\n2. Perpendiculars (Altitudes): Perpendicular segments are drawn from the top vertices $\\text{A}$ and $\\text{E}$ to the base $\\delta\\Gamma$. The feet of the perpendiculars are labeled $\\text{E}$ (under $\\text{A}$) and $\\text{Z}$ (under $\\text{E}$).Note: The labeling is confusing; the vertices of the figure are $\\text{A}$, $\\text{E}$, $\\Gamma$, $\\delta$, and the altitudes drop to points named $\\text{E}$ and $\\text{Z}$ on the base.\n3. Composition: The trapezoid is partitioned into a central rectangle ($\\text{A}\\text{E}\\text{Z}\\text{E}'$ if we use the top $\\text{A}\\text{E}$ and bottom $\\text{E}\\text{Z}$) and two flanking right-angled triangles ($\\delta\\text{E}\\text{A}$ and $\\Gamma\\text{Z}\\text{E}$). ",
+        "input":"",
         "images":[
             null
         ],
@@ -5907,7 +5907,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο ισοσκελές τραπέζιο ΑΒΓΔ ισχύει $AB=4cm$, $\\lceil\\delta=12cm$ και οι γωνίες είναι $45^{\\circ}$ .\n\nΝα υπολογίσετε το εμβαδόν του τραπεζίου ΑΒΓΔ.",
-        "input":"The image shows a large trapezoidal shape ($\\delta \\dots \\Gamma$).\n1. Vertices and Segments: The outer base vertices are $\\delta$ and $\\Gamma$. The top vertices are $\\text{A}$ and $\\text{E}$. The trapezoid base is $\\delta\\Gamma$, and the top base is $\\text{A}\\text{E}$.\n2. Perpendiculars (Altitudes): Perpendicular segments are drawn from the top vertices $\\text{A}$ and $\\text{E}$ to the base $\\delta\\Gamma$. The feet of the perpendiculars are labeled $\\text{E}$ (under $\\text{A}$) and $\\text{Z}$ (under $\\text{E}$).Note: The labeling is confusing; the vertices of the figure are $\\text{A}$, $\\text{E}$, $\\Gamma$, $\\delta$, and the altitudes drop to points named $\\text{E}$ and $\\text{Z}$ on the base.\n3. Composition: The trapezoid is partitioned into a central rectangle ($\\text{A}\\text{E}\\text{Z}\\text{E}'$ if we use the top $\\text{A}\\text{E}$ and bottom $\\text{E}\\text{Z}$) and two flanking right-angled triangles ($\\delta\\text{E}\\text{A}$ and $\\Gamma\\text{Z}\\text{E}$).",
+        "input":"",
         "images":[
             null
         ],
@@ -6057,7 +6057,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Δίνονται τα τρίγωνα ΑΒΓ και ΕΔΖ.\nΝα δικαιολογήσετε γιατί είναι όμοια.",
-        "input":"The image contains two distinct figures labeled as triangles.\n1. Triangle $\\text{A}\\text{B}\\Gamma$ (Left): The vertices are $\\text{A}$, $\\text{B}$, $\\Gamma$. Angle $\\text{B}$ is marked with $\\omega$. Angle $\\text{A}$ is marked with $\\varphi$. Side $\\Gamma\\text{A}$ is $x+2$. Side $\\text{A}\\text{B}$ is $x-1$.\n2. Triangle $\\text{E}\\delta\\text{Z}$ (Right): The vertices are $\\text{A}$, $\\text{E}$, $\\text{Z}$ (Note: The vertices are labeled $\\text{A}$, $\\text{E}$, $\\text{Z}$ in the image despite the text naming it $\\text{E}\\delta\\text{Z}$). Angle $\\text{A}$ is marked with $\\omega$. Angle $\\text{E}$ is marked with $\\varphi$. Side $\\text{A}\\text{Z}$ is $3x-2$. Side $\\text{E}\\text{Z}$ is $3x+6$.\nThe two triangles visually suggest a correspondence between $\\angle\\text{B}$ ($\\omega$) and $\\angle\\text{A}$ ($\\omega$) of the second triangle, and $\\angle\\text{A}$ ($\\varphi$) and $\\angle\\text{E}$ ($\\varphi$) of the second triangle.",
+        "input":"",
         "images":[
             null
         ],
@@ -6082,7 +6082,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Δίνονται τα τρίγωνα ΑΒΓ και ΕΔΖ.\nΝα δείξετε ότι ο λόγος ομοιότητας του ΑΒΓ προς το $\\triangle EZ$ είναι: $\\lambda=\\frac{1}{3}$",
-        "input":"The image contains two distinct figures labeled as triangles.\n1. Triangle $\\text{A}\\text{B}\\Gamma$ (Left): The vertices are $\\text{A}$, $\\text{B}$, $\\Gamma$. Angle $\\text{B}$ is marked with $\\omega$. Angle $\\text{A}$ is marked with $\\varphi$. Side $\\Gamma\\text{A}$ is $x+2$. Side $\\text{A}\\text{B}$ is $x-1$.\n2. Triangle $\\text{E}\\delta\\text{Z}$ (Right): The vertices are $\\text{A}$, $\\text{E}$, $\\text{Z}$ (Note: The vertices are labeled $\\text{A}$, $\\text{E}$, $\\text{Z}$ in the image despite the text naming it $\\text{E}\\delta\\text{Z}$). Angle $\\text{A}$ is marked with $\\omega$. Angle $\\text{E}$ is marked with $\\varphi$. Side $\\text{A}\\text{Z}$ is $3x-2$. Side $\\text{E}\\text{Z}$ is $3x+6$.\nThe two triangles visually suggest a correspondence between $\\angle\\text{B}$ ($\\omega$) and $\\angle\\text{A}$ ($\\omega$) of the second triangle, and $\\angle\\text{A}$ ($\\varphi$) and $\\angle\\text{E}$ ($\\varphi$) of the second triangle.",
+        "input":"",
         "images":[
             null
         ],
@@ -6132,7 +6132,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Δύο εταιρείες ταξί έχουν τις ακόλουθες χρεώσεις:\n Η εταιρεία ταξί «Αθήνα» χρεώνει 1€ για τη σημαία και 0,5€ ανά km διανυόμενης διαδρομής.\n Η εταιρεία ταξί «Βιαστικός» (για να προσελκύσει πελάτες) δε χρεώνει σημαία, αλλά μόνο το κόστος διαδρομής, που είναι 0,6€ ανά km διανυόμενης διαδρομής.\nΠοιο διάγραμμα (1) ή (2) ταιριάζει στην κάθε εταιρεία;\n\n| Εταιρεία | Διάγραμμα |\n| :---: | :---: |\n| «Αθήνα» | |\n| «Βιαστικός» | |",
-        "input":"The graph plots the Cost (Κόστος $\\xi$) on the vertical ($y$) axis against the Distance (Μήκος $\\text{Km}$) on the horizontal ($x$) axis. Both axes are scaled, although specific numerical labels are partially obscured but implied by the grid lines.\n1. Line (1):\nStarts at the origin $(0, 0)$ (zero cost for zero distance).\nRepresents a proportional relationship (Cost = rate $\\times$ distance).\n2. Line (2):\nStarts above the origin, at a positive $y$-intercept (Initial Fee\/Flag Fall).\nRepresents an affine linear relationship (Cost = fixed fee + rate $\\times$ distance).\n3. Intersection Point: The two lines intersect at a point where the costs are equal for the corresponding distance. A vertical dashed line is drawn from the intersection point to the $x$-axis, indicating the specific distance where the cost of the two services is identical. This distance appears to be around the 10th grid line tick mark on the $x$-axis.",
+        "input":"",
         "images":[
             null
         ],
@@ -6157,7 +6157,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Δύο εταιρείες ταξί έχουν τις ακόλουθες χρεώσεις:\n Η εταιρεία ταξί «Αθήνα» χρεώνει 1€ για τη σημαία και 0,5€ ανά km διανυόμενης διαδρομής.\n Η εταιρεία ταξί «Βιαστικός» (για να προσελκύσει πελάτες) δε χρεώνει σημαία, αλλά μόνο το κόστος διαδρομής, που είναι 0,6€ ανά km διανυόμενης διαδρομής.\nΠοια εταιρεία θα προτιμήσετε για μια διαδρομή 15 km; (Δικαιολογήστε την απάντησή σας).",
-        "input":"The graph plots the Cost (Κόστος $\\xi$) on the vertical ($y$) axis against the Distance (Μήκος $\\text{Km}$) on the horizontal ($x$) axis. Both axes are scaled, although specific numerical labels are partially obscured but implied by the grid lines.\n1. Line (1):\nStarts at the origin $(0, 0)$ (zero cost for zero distance).\nRepresents a proportional relationship (Cost = rate $\\times$ distance).\n2. Line (2):\nStarts above the origin, at a positive $y$-intercept (Initial Fee\/Flag Fall).\nRepresents an affine linear relationship (Cost = fixed fee + rate $\\times$ distance).\n3. Intersection Point: The two lines intersect at a point where the costs are equal for the corresponding distance. A vertical dashed line is drawn from the intersection point to the $x$-axis, indicating the specific distance where the cost of the two services is identical. This distance appears to be around the 10th grid line tick mark on the $x$-axis.",
+        "input":"",
         "images":[
             null
         ],
@@ -6182,7 +6182,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο διπλανό σχήμα η ΑΓ είναι διάμετρος στον κύκλο και οι χορδές ΑΒ, ΑΔ είναι ίσες. Να δείξετε ότι $B\\Gamma=\\lceil\\delta$",
-        "input":"The image shows a circle with its center labeled $\text{O}$.\n1.  Vertices: Four points ($\text{A}$, $\text{B}$, $\\Gamma$, $\\delta$) lie on the circumference of the circle, forming an inscribed quadrilateral.\n2.  Segments:\nThe segment $\text{A}\\Gamma$ passes through the center $\text{O}$, indicating it is a diameter.\nThe chords $\text{A}\text{B}$ and $\text{A}\\delta$ are drawn.\nThe chords $\text{B}\\Gamma$ and $\\Gamma\\delta$ are also drawn (dashed lines).\n3.  Visual Representation: The diagram illustrates the geometric setup required to prove the equality of chords $\text{B}\\Gamma$ and $\\Gamma\\delta$ based on the given information.",
+        "input":"",
         "images":[
             null
         ],
@@ -6282,7 +6282,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Δύο μηχανικοί σχεδιάζουν την κατασκευή ενός υπογείου σταθμού METRO στη συμβολή των οδών Συγγρού και Λαγουμιτζή.\nΑν η ευθεία που αναπαριστά την οδό Συγγρού είναι η $y=x$ και η ευθεία που αναπαριστά την οδό Λαγουμιτζή είναι η $y=-x+13$ στο ορθοκανονικό σύστημα συντεταγμένων του σχήματος, να απαντήσετε την παρακάτω ερώτηση:\nΠοιες οι συντεταγμένες $\\chi$, $\\gamma$ του σημείου τομής Β των δυο οδών στον χάρτη;",
-        "input":"The image consists of three main elements:\n1. Background Map: A stylized map of a city area (likely Neos Kosmos in Athens, given the labels) showing street layouts.\n2. Coordinate System: A grid is placed over the map, defined by a horizontal axis labeled$\\text{X}'\\text{X}$ and a vertical axis labeled$\\text{Y}'\\text{Y}$. The origin appears to be at a point labeled$\\text{A}$ near the bottom left corner. Both axes have numbered tick marks.\n3. Two Lines: Two distinctred lines are drawn across the map and the coordinate system, representing the streets in the exercise.\nOne line passes through the origin\/point $\\text{A}$ with a positive slope (likely $y=x$).\nThe second line has a negative slope (likely $y=-x+13$).\n4. Intersection: The two red lines intersect at a specific point on the map, which is labeled$\\text{B}$. This point is visibly close to the coordinates $(6.5, 6.5)$ on the grid, and is in the area labeled \"Νέος Κόσμος\" (Neos Kosmos).",
+        "input":"",
         "images":[
             null
         ],
@@ -6307,7 +6307,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Δύο μηχανικοί σχεδιάζουν την κατασκευή ενός υπογείου σταθμού METRO στη συμβολή των οδών Συγγρού και Λαγουμιτζή.\nΑν η ευθεία που αναπαριστά την οδό Συγγρού είναι η $y=x$ και η ευθεία που αναπαριστά την οδό Λαγουμιτζή είναι η $y=-x+13$ στο ορθοκανονικό σύστημα συντεταγμένων του σχήματος, να απαντήσετε την παρακάτω ερώτηση:\nΝα βρείτε τις συντεταγμένες του σημείου τομής της οδού Λαγουμιτζή με τον $\\chi^{\\prime}\\chi$ άξονα, καθώς και με τον $\\gamma^{\\prime}\\gamma$ άξονα.",
-        "input":"The image consists of three main elements:\n1. Background Map: A stylized map of a city area (likely Neos Kosmos in Athens, given the labels) showing street layouts.\n2. Coordinate System: A grid is placed over the map, defined by a horizontal axis labeled$\\text{X}'\\text{X}$ and a vertical axis labeled$\\text{Y}'\\text{Y}$. The origin appears to be at a point labeled$\\text{A}$ near the bottom left corner. Both axes have numbered tick marks.\n3. Two Lines: Two distinctred lines are drawn across the map and the coordinate system, representing the streets in the exercise.\nOne line passes through the origin\/point $\\text{A}$ with a positive slope (likely $y=x$).\nThe second line has a negative slope (likely $y=-x+13$).\n4. Intersection: The two red lines intersect at a specific point on the map, which is labeled$\\text{B}$. This point is visibly close to the coordinates $(6.5, 6.5)$ on the grid, and is in the area labeled \"Νέος Κόσμος\" (Neos Kosmos).",
+        "input":"",
         "images":[
             null
         ],
@@ -6357,7 +6357,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Αφού λάβετε υπόψη σας τα δεδομένα στα παρακάτω σχήματα, να υπολογίσετε τις γωνίες: $\\alpha, \\beta, \\gamma$.",
-        "input":"The image displays two separate geometric figures used in a problem to calculate unknown angles $\\alpha$, $\beta$, and $\\gamma$.\n1. Figure for $\\alpha$ and $\beta$ (Left)\nDescription\nThis figure shows two triangles joined at vertex $\\Gamma$.\nTop Triangle ($\triangle \text{A}\text{B}\\Gamma$): It is a right-angled triangle at $\text{B}$. The tick marks indicate that the sides $\text{A}\text{B}$ and $\text{B}\\Gamma$ are equal ($\text{A}\text{B} = \text{B}\\Gamma$), meaning it is an isosceles right-angled triangle.\nBottom Triangle: One of its angles is given as $65^\\circ$.\nAngles: $\\alpha$ is shown as vertically opposite to the interior angle $\\angle \text{A}\\Gamma\text{B}$.\n2. Figure for $\\gamma$ (Right)\nDescription\nThis figure shows a quadrilateral $\text{A}\text{B}\\Gamma\\delta$ with a triangle $\\delta\\Gamma\text{E}$ attached to side $\\delta\\Gamma$.\nGiven: The double tick marks indicate that all sides are equal: $\text{A}\text{B} = \text{B}\\Gamma = \\Gamma\\delta = \\delta\text{A} = \\delta\text{E} = \text{E}\\Gamma$.\nProperties:\nThe quadrilateral $\text{A}\text{B}\\Gamma\\delta$ is a square. Therefore, $\\angle \text{B}\\Gamma\\delta = 90^\\circ$.\nThe triangle $\\delta\\Gamma\text{E}$ is an equilateral triangle. Therefore, $\\angle \\delta\\Gamma\text{E} = 60^\\circ$.\nUnknown Angle: $\\gamma$ is the angle $\\angle \text{B}\\Gamma\text{E}$, which is the sum of the adjacent angles $\\angle \text{B}\\Gamma\\delta$ and $\\angle \\delta\\Gamma\text{E}$.",
+        "input":"",
         "images":[
             null
         ],
@@ -6457,7 +6457,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο διπλανό διάγραμμα φαίνεται ο αριθμός των βιβλίων που διαβάστηκαν από τους μαθητές μιας συγκεκριμένης τάξης\nΠόσους μαθητές έχει η τάξη;",
-        "input":"The bar chart provides data on the reading habits of students:\n1. Horizontal Axis ($\\text{X}$-axis): Labeled $\\text{Αριθμός Βιβλίων}$ (Number of Books), ranging from 1 to 6.\n2. Vertical Axis ($\\text{Y}$-axis): Labeled $\\text{Αριθμός Μαθητών}$ (Number of Students), with a scale from 0 to 8.\n3. Data Points (Number of Students who read $x$ books):\n1 book: 1 student\n2 books: 3 students\n3 books: 5 students\n4 books: 7 students\n5 books: 4 students\n6 books: 4 students",
+        "input":"",
         "images":[
             null
         ],
@@ -6482,7 +6482,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο διπλανό διάγραμμα φαίνεται ο αριθμός των βιβλίων που διαβάστηκαν από τους μαθητές μιας συγκεκριμένης τάξης\nΠόσα βιβλία διάβασαν όλοι οι μαθητές;",
-        "input":"The bar chart provides data on the reading habits of students:\n1. Horizontal Axis ($\\text{X}$-axis): Labeled $\\text{Αριθμός Βιβλίων}$ (Number of Books), ranging from 1 to 6.\n2. Vertical Axis ($\\text{Y}$-axis): Labeled $\\text{Αριθμός Μαθητών}$ (Number of Students), with a scale from 0 to 8.\n3. Data Points (Number of Students who read $x$ books):\n1 book: 1 student\n2 books: 3 students\n3 books: 5 students\n4 books: 7 students\n5 books: 4 students\n6 books: 4 students",
+        "input":"",
         "images":[
             null
         ],
@@ -6507,7 +6507,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο διπλανό διάγραμμα φαίνεται ο αριθμός των βιβλίων που διαβάστηκαν από τους μαθητές μιας συγκεκριμένης τάξης\nΝα βρείτε τον μέσο όρο των βιβλίων που διαβάστηκαν από κάθε μαθητή της τάξης αυτής.",
-        "input":"The bar chart provides data on the reading habits of students:\n1. Horizontal Axis ($\\text{X}$-axis): Labeled $\\text{Αριθμός Βιβλίων}$ (Number of Books), ranging from 1 to 6.\n2. Vertical Axis ($\\text{Y}$-axis): Labeled $\\text{Αριθμός Μαθητών}$ (Number of Students), with a scale from 0 to 8.\n3. Data Points (Number of Students who read $x$ books):\n1 book: 1 student\n2 books: 3 students\n3 books: 5 students\n4 books: 7 students\n5 books: 4 students\n6 books: 4 students",
+        "input":"",
         "images":[
             null
         ],
@@ -6532,7 +6532,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο διπλανό διάγραμμα φαίνεται ο αριθμός των βιβλίων που διαβάστηκαν από τους μαθητές μιας συγκεκριμένης τάξης\nΣτο τέλος του χρόνου θα υπάρξει ένα λαχείο. Ο νικητής θα πάρει 15€ για κάθε βιβλίο που είχε\nδιαβάσει. Να βρείτε την πιθανότητα το βραβείο να μην ξεπεράσει τα 45€.",
-        "input":"The bar chart provides data on the reading habits of students:\n1. Horizontal Axis ($\\text{X}$-axis): Labeled $\\text{Αριθμός Βιβλίων}$ (Number of Books), ranging from 1 to 6.\n2. Vertical Axis ($\\text{Y}$-axis): Labeled $\\text{Αριθμός Μαθητών}$ (Number of Students), with a scale from 0 to 8.\n3. Data Points (Number of Students who read $x$ books):\n1 book: 1 student\n2 books: 3 students\n3 books: 5 students\n4 books: 7 students\n5 books: 4 students\n6 books: 4 students",
+        "input":"",
         "images":[
             null
         ],
@@ -6807,7 +6807,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Σε ισοσκελές τρίγωνο $\\text{AB}\\Gamma$ $(\\text{AB}=\\text{A}\\Gamma)$ φέρνουμε τις διαμέσους $\\text{B}\\delta$ και $\\Gamma\\text{E}$ οι οποίες τέμνονται στο σημείο $\\text{K}$. Να αποδείξετε ότι το τρίγωνο $\\text{B}\\Gamma\\text{K}$ είναι ισοσκελές. ",
-        "input":"Triangle: The figure depicts a triangle $\\text{A}\\text{B}\\Gamma$.\nMedians: Two line segments, $\\text{B}\\delta$ and $\\Gamma\\text{E}$, are drawn inside the triangle, representing the medians originating from vertices $\\text{B}$ and $\\Gamma$.\n$\\text{B}\\delta$ connects vertex $\\text{B}$ to point $\\delta$ on side $\\text{A}\\Gamma$. Point $\\delta$ is the midpoint of $\\text{A}\\Gamma$.\n$\\Gamma\\text{E}$ connects vertex $\\Gamma$ to point $\\text{E}$ on side $\\text{A}\\text{B}$. Point $\\text{E}$ is the midpoint of $\\text{A}\\text{B}$.\nIntersection: The two medians $\\text{B}\\delta$ and $\\Gamma\\text{E}$ intersect at point $\\text{K}$. Point $\\text{K}$ is the centroid of the triangle.",
+        "input":"",
         "images":[
             null
         ],
@@ -6832,7 +6832,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Σε ισοσκελές τρίγωνο $\\text{AB}\\Gamma$ $(\\text{AB}=\\text{A}\\Gamma)$ φέρνουμε τις διαμέσους $\\text{B}\\delta$ και $\\Gamma\\text{E}$ οι οποίες τέμνονται στο σημείο $\\text{K}$. Να αποδείξετε ότι η $\\text{A}\\text{K}$ είναι μεσοκάθετος της $\\text{B}\\Gamma$. ",
-        "input":"Triangle: The figure depicts a triangle $\\text{A}\\text{B}\\Gamma$.\nMedians: Two line segments, $\\text{B}\\delta$ and $\\Gamma\\text{E}$, are drawn inside the triangle, representing the medians originating from vertices $\\text{B}$ and $\\Gamma$.\n$\\text{B}\\delta$ connects vertex $\\text{B}$ to point $\\delta$ on side $\\text{A}\\Gamma$. Point $\\delta$ is the midpoint of $\\text{A}\\Gamma$.\n$\\Gamma\\text{E}$ connects vertex $\\Gamma$ to point $\\text{E}$ on side $\\text{A}\\text{B}$. Point $\\text{E}$ is the midpoint of $\\text{A}\\text{B}$.\nIntersection: The two medians $\\text{B}\\delta$ and $\\Gamma\\text{E}$ intersect at point $\\text{K}$. Point $\\text{K}$ is the centroid of the triangle.",
+        "input":"",
         "images":[
             null
         ],
@@ -6857,7 +6857,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Σε ισοσκελές τρίγωνο $\\text{AB}\\Gamma$ $(\\text{AB}=\\text{A}\\Gamma)$ φέρνουμε τις διαμέσους $\\text{B}\\delta$ και $\\Gamma\\text{E}$ οι οποίες τέμνονται στο σημείο $\\text{K}$. Να αποδείξετε ότι $\\text{K}\\text{E}=\\text{K}\\delta$. ",
-        "input":"Triangle: The figure depicts a triangle $\\text{A}\\text{B}\\Gamma$.\nMedians: Two line segments, $\\text{B}\\delta$ and $\\Gamma\\text{E}$, are drawn inside the triangle, representing the medians originating from vertices $\\text{B}$ and $\\Gamma$.\n$\\text{B}\\delta$ connects vertex $\\text{B}$ to point $\\delta$ on side $\\text{A}\\Gamma$. Point $\\delta$ is the midpoint of $\\text{A}\\Gamma$.\n$\\Gamma\\text{E}$ connects vertex $\\Gamma$ to point $\\text{E}$ on side $\\text{A}\\text{B}$. Point $\\text{E}$ is the midpoint of $\\text{A}\\text{B}$.\nIntersection: The two medians $\\text{B}\\delta$ and $\\Gamma\\text{E}$ intersect at point $\\text{K}$. Point $\\text{K}$ is the centroid of the triangle.",
+        "input":"",
         "images":[
             null
         ],
@@ -6882,7 +6882,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο συγκοινωνιακό κόμβο του σχήματος η απόσταση του σημείου $\\text{O}$ από το σημείο $\\text{A}$ του δρόμου είναι ίση με $\\rho$ και η απόσταση του σημείου $\\text{O}$ από το σημείο $\\text{B}$ είναι ίση με $\\text{R}$.\nΑν το τμήμα $\\text{A}\\text{B}$ είναι εφαπτόμενο του κύκλου με κέντρο το $\\text{O}$ και ακτίνα την $\\text{o}\\\text{A}$, να εξετάσετε το είδος του τριγώνου $\\text{o}\\\text{A}\\text{B}$.",
-        "input":"Context: The image shows a road with cars (represented as small black triangles) on a curve, next to an ornamental median or park.\nGeometric Elements:\nCenter of the Curve ($\\text{O}$): A point $\\text{O}$ is marked as the center of the circular arc (or curves) that define the road's edge.\nPoints on the Road ($\\text{A}, \\text{B}$): Points $\\text{A}$ and $\\text{B}$ are marked on the edge of the road or an adjacent line.\nRadius $R$: The line segment connecting $\\text{O}$ to $\\text{B}$ is labeled $R$. This represents the outer radius of the curve.\nDistance $\\rho$ (rho): The line segment connecting $\\text{O}$ to $\\text{A}$ is labeled $\\rho$. This represents the inner radius of the curve.\nVertical Distance $X$: The distance between point $\\text{A}$ and point $\\text{B}$ along the straight line connecting $\\text{A}$ and $\\text{B}$ is labeled $X$. [Image of Circular arc with center O, radii R and rho, and chord X]\nRight Angle: The lines segment $\\text{o}\\text{A}$ and the line segment connecting $\\text{A}$ and $\\text{B}$ appear to form a right angle, suggesting $\\text{o}\\text{A}$ is perpendicular to the line passing through $\\text{A}$ and $\\text{B}$. This forms a right-angled triangle $\\triangle \\text{o}\\text{A}\\text{B}$.",
+        "input":"",
         "images":[
             null
         ],
@@ -6907,7 +6907,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο συγκοινωνιακό κόμβο του σχήματος η απόσταση του σημείου $\\text{O}$ από το σημείο $\\text{A}$ του δρόμου είναι ίση με $\\rho$ και η απόσταση του σημείου $\\text{O}$ από το σημείο $\\text{B}$ είναι ίση με $\\text{R}$.\nΝα αποδείξετε ότι η απόσταση x είναι ίση με $x^{2}=\\alpha(\\text{R}+\\rho)$ όπου $\\alpha=\\text{R}-\\rho$.",
-        "input":"Context: The image shows a road with cars (represented as small black triangles) on a curve, next to an ornamental median or park.\nGeometric Elements:\nCenter of the Curve ($\\text{O}$): A point $\\text{O}$ is marked as the center of the circular arc (or curves) that define the road's edge.\nPoints on the Road ($\\text{A}, \\text{B}$): Points $\\text{A}$ and $\\text{B}$ are marked on the edge of the road or an adjacent line.\nRadius $R$: The line segment connecting $\\text{O}$ to $\\text{B}$ is labeled $R$. This represents the outer radius of the curve.\nDistance $\\rho$ (rho): The line segment connecting $\\text{O}$ to $\\text{A}$ is labeled $\\rho$. This represents the inner radius of the curve.\nVertical Distance $X$: The distance between point $\\text{A}$ and point $\\text{B}$ along the straight line connecting $\\text{A}$ and $\\text{B}$ is labeled $X$.\nRight Angle: The lines segment $\\text{o}\\text{A}$ and the line segment connecting $\\text{A}$ and $\\text{B}$ appear to form a right angle, suggesting $\\text{o}\\text{A}$ is perpendicular to the line passing through $\\text{A}$ and $\\text{B}$. This forms a right-angled triangle $\\triangle \\text{o}\\text{A}\\text{B}$.",
+        "input":"",
         "images":[
             null
         ],
@@ -6932,7 +6932,7 @@
         "format":"open_ended",
         "reference":"multimodal",
         "question":"Στο συγκοινωνιακό κόμβο του σχήματος η απόσταση του σημείου $\\text{O}$ από το σημείο $\\text{A}$ του δρόμου είναι ίση με $\\rho$ και η απόσταση του σημείου $\\text{O}$ από το σημείο $\\text{B}$ είναι ίση με $\\text{R}$.\nΝα υπολογίσετε την απόσταση , αν γνωρίζετε ότι $\\text{R}=50m$ και $\\alpha=5\\text{ m}$.",
-        "input":"Context: The image shows a road with cars (represented as small black triangles) on a curve, next to an ornamental median or park.\nGeometric Elements:\nCenter of the Curve ($\\text{O}$): A point $\\text{O}$ is marked as the center of the circular arc (or curves) that define the road's edge.\nPoints on the Road ($\\text{A}, \\text{B}$): Points $\\text{A}$ and $\\text{B}$ are marked on the edge of the road or an adjacent line.\nRadius $R$: The line segment connecting $\\text{O}$ to $\\text{B}$ is labeled $R$. This represents the outer radius of the curve.\nDistance $\\rho$ (rho): The line segment connecting $\\text{O}$ to $\\text{A}$ is labeled $\\rho$. This represents the inner radius of the curve.\nVertical Distance $X$: The distance between point $\\text{A}$ and point $\\text{B}$ along the straight line connecting $\\text{A}$ and $\\text{B}$ is labeled $X$.\nRight Angle: The lines segment $\\text{o}\\text{A}$ and the line segment connecting $\\text{A}$ and $\\text{B}$ appear to form a right angle, suggesting $\\text{o}\\text{A}$ is perpendicular to the line passing through $\\text{A}$ and $\\text{B}$. This forms a right-angled triangle $\\triangle \\text{o}\\text{A}\\text{B}$.",
+        "input":"",
         "images":[
             null
         ],

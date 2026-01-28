@@ -70,6 +70,17 @@ def filter_dataset(dataset, mode='closed'):
                 should_keep = True
 
         if should_keep:
+            if fmt == 'true_false':
+                ans_idx = item.get('answer_index')
+                if ans_idx is None or str(ans_idx).lower() == 'nan':
+            
+                    ans_text = str(item.get('answer_text', '') or item.get('answer', '')).lower()
+                    
+                    if 'σωστό' in ans_text or 'true' in ans_text:
+                        item['answer_index'] = 0
+                    elif 'λάθος' in ans_text or 'false' in ans_text:
+                        item['answer_index'] = 1
+            
             filtered.append(item)
 
     print(f"✅ Found {len(filtered)} items for mode '{mode}'.")

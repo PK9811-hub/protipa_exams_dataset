@@ -18,11 +18,11 @@ size_categories:
 - 1K<n<10K
 ---
 
-**GR-ProtipaExams Dataset: Structured Exam Questions (2013-2025)**
+**Greek Protipa Exams Dataset: Structured Exam Questions (2013-2025)**
 
 **Overview**
 
-The GR-ProtipaExams project introduces a comprehensive, structured dataset, called “GR-ProtipaExams”, derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Πρότυπα και Πειραματικά Σχολεία) in Greece. Spanning from 2013 to 2025, the dataset provides a rich diversity of:
+This project generates a comprehensive, structured dataset, called “Greek Protipa Exams”, derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Πρότυπα και Πειραματικά Σχολεία) in Greece. Spanning from 2013 to 2025, the dataset provides a rich diversity of:
 
 *   **Subjects**: Core curriculum coverage including Greek Language, Mathematics, Physics, and Religious Studies.
 *   **Educational Levels**: Questions targeted at both Gymnasium and Lyceum entrance requirements.
@@ -38,15 +38,15 @@ The primary goal of this repository is to establish a rigorous, standardized ben
 
 ---
 
-The dataset is available on Hugging Face at [https://huggingface.co/ilsp/GR-ProtipaExams](https://huggingface.co/ilsp/GR-ProtipaExams).
+The dataset is available on Hugging Face at [https://huggingface.co/ilsp/greek-protipa-exams](https://huggingface.co/ilsp/greek-protipa-exams).
 
 If you make use of this dataset, please consider citing it as follows:
 
 ```bibtex
-@misc{ilsp-gr-protipa-exams,
+@misc{ilsp-greek-protipa-exams,
     author = {Kyriazi, Penny and Prokopidis, Prokopis},
-    title = {GR-ProtipaExams},
-    howpublished = {\url{https://huggingface.co/ilsp/GR-ProtipaExams}},
+    title = {Greek Protipa Exams},
+    howpublished = {\url{https://huggingface.co/ilsp/greek-protipa-exams}},
     year = {2025}
 }
 ```
@@ -79,7 +79,7 @@ If you make use of this dataset, please consider citing it as follows:
 from datasets import load_dataset
 
 # Load the benchmark test split
-dataset = load_dataset("ilsp/GR-ProtipaExams", split="test")
+dataset = load_dataset("ilsp/greek-protipa-exams", split="test")
 
 # Select a sample (e.g., index 1 which is usually Multiple Choice)
 sample = dataset[1]
@@ -161,7 +161,7 @@ While the public benchmark is polished for evaluation, the internal artifacts co
 *   **API Tokens**: Create a `.env` file in the root directory with your Hugging Face credentials:
     ```bash
     HF_TOKEN=your_huggingface_write_token
-    HF_REPO_ID=ilsp/GR-ProtipaExams  # Or your target namespace
+    HF_REPO_ID=ilsp/greek-protipa-exams  # Or your target namespace
     ```
 
 ### **Management Commands**
@@ -173,7 +173,7 @@ Transforms raw JSON/Markdown files into a structured Excel master file.
 *   **Standard**: `uv run scripts/manage.py consolidate`
 *   **Extended (with Schema Tags)**: Adds `format` and `reference` columns based on linguistic markers.
     ```bash
-    uv run scripts/manage.py consolidate_new --extended
+    uv run scripts/manage.py consolidate --extended
     ```
 
 #### **2. Data Validation**
@@ -183,7 +183,10 @@ python scripts/check_images.py
 ```
 
 #### **3. Pushing to Hugging Face Hub**
-Synchronizes the local dataset with the Hugging Face repository.
+Synchronizes the local dataset with the Hugging Face repository. 
+
+**Note**: If you run `push` without the `--file` argument, the tool automatically rebuilds the dataset in-memory from the raw JSON/MD source files. This allows you to update the Hugging Face repository without creating or overwriting any local Excel files.
+
 *   **Text only**: `uv run scripts/manage.py push --extended`
 *   **Multimodal (Includes Images)**: Embeds the actual pixel data into the Parquet files.
     ```bash

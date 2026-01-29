@@ -33,21 +33,56 @@ def parse_markdown_answers(md_path):
     md_path = Path(md_path)
     if not md_path.exists():
         return answers_dict
+    
     with md_path.open("r", encoding="utf-8-sig") as f:
-        content = f.read()
-        lines = content.split('\n')
-        for line in lines:
-            line = line.strip()
-            if not line or line.startswith("---"): continue
-            match = re.match(r"^(\S+)\s+(.*)", line)
+        current_id = None
+        current_body = []
+        
+        for line in f:
+            line_raw = line.rstrip("\r\n")
+            stripped = line_raw.strip()
+            if not stripped or stripped.startswith("---"):
+                if current_id and stripped.startswith("---"):
+                     # If we hit a separator while accumulating, treat it as end of answer
+                     ans_text = "\n".join(current_body).strip()
+                     if (ans_text.startswith('"') and ans_text.endswith('"')) or (ans_text.startswith('"""') and ans_text.endswith('"""')):
+                         ans_text = ans_text.strip('"').strip()
+                     answers_dict.setdefault(current_id, []).append(ans_text)
+                     current_id = None
+                     current_body = []
+                continue
+            
+            # Check if line starts with an ID (e.g., "5.1", "4", "A1")
+            # Pattern: non-whitespace at start, then space, then content
+            match = re.match(r"^(\S+)\s+(.*)", line_raw)
+            
             if match:
-                q_id = match.group(1).strip()
-                ans_body = match.group(2).strip()
-                if len(ans_body) >= 2 and ans_body.startswith('"') and ans_body.endswith('"'):
-                    ans_body = ans_body[1:-1]
-                if q_id not in answers_dict:
-                    answers_dict[q_id] = []
-                answers_dict[q_id].append(ans_body)
+                # Save previous answer before starting new one
+                if current_id:
+                    ans_text = "\n".join(current_body).strip()
+                    # Strip wrapping quotes if they exist (backward compatibility/triple quotes)
+                    if ans_text.startswith('"""') and ans_text.endswith('"""'):
+                        ans_text = ans_text[3:-3].strip()
+                    elif ans_text.startswith('"') and ans_text.endswith('"'):
+                        ans_text = ans_text[1:-1].strip()
+                    answers_dict.setdefault(current_id, []).append(ans_text)
+                
+                current_id = match.group(1).strip()
+                current_body = [match.group(2).strip()]
+            else:
+                # Append to current active answer
+                if current_id:
+                    current_body.append(line_raw)
+        
+        # Save the very last one
+        if current_id:
+            ans_text = "\n".join(current_body).strip()
+            if ans_text.startswith('"""') and ans_text.endswith('"""'):
+                ans_text = ans_text[3:-3].strip()
+            elif ans_text.startswith('"') and ans_text.endswith('"'):
+                ans_text = ans_text[1:-1].strip()
+            answers_dict.setdefault(current_id, []).append(ans_text)
+            
     return answers_dict
 
 def detect_exercise_type(q_text, q_choices):
@@ -522,13 +557,10 @@ def main():
     parser = argparse.ArgumentParser(description="Protipa Exams Dataset Management Tool")
     subparsers = parser.add_subparsers(dest="command", help="Command to run")
 
-    con_parser = subparsers.add_parser("consolidate", help="Consolidate data")
-    con_parser.add_argument("--subset", type=str, help="Subset path")
-    con_parser.add_argument("--output", type=str, default="protipa_exams_dataset.xlsx", help="Output filename")
-
-    con_new_parser = subparsers.add_parser("consolidate_new", help="Stages A-C with Structural Tagging")
-    con_new_parser.add_argument("--subset", type=str, help="Subset path")
-    con_new_parser.add_argument("--output", type=str, default="protipa_exams_dataset_new.xlsx", help="Output filename")
+    con_parser = subparsers.add_parser("consolidate", help="Consolidate data into a structured Excel file")
+    con_parser.add_argument("--subset", type=str, help="Subset path filter")
+    con_parser.add_argument("--extended", action="store_true", help="Add structural schema tagging (format, reference)")
+    con_parser.add_argument("--output", type=str, help="Output Excel filename")
 
     comp_parser = subparsers.add_parser("compare", help="Compare current data with reference")
     comp_parser.add_argument("--reference", type=str, required=True, help="Reference Excel file")
@@ -548,19 +580,22 @@ def main():
             return "".join(c for c in val if c.isprintable() or c in "\n\r\t")
         return val
 
-    if args.command in ["consolidate", "consolidate_new"]:
-        extended = (args.command == "consolidate_new")
-        df = consolidate(args.subset, extended=extended)
+    if args.command == "consolidate":
+        df = consolidate(args.subset, extended=args.extended)
         if not df.empty:
             df = df.map(clean_illegal)
             if 'image_paths' in df.columns:
                 df = df.drop(columns=['image_paths'])
             
-            with pd.ExcelWriter(args.output, engine='openpyxl') as writer:
+            output_file = args.output
+            if not output_file:
+                output_file = "protipa_exams_dataset_new.xlsx" if args.extended else "protipa_exams_dataset.xlsx"
+            
+            with pd.ExcelWriter(output_file, engine='openpyxl') as writer:
                 df.to_excel(writer, index=False, sheet_name='Dataset')
                 worksheet = writer.sheets['Dataset']
                 worksheet.auto_filter.ref = worksheet.dimensions
-            print(f"💾 Saved to {args.output}")
+            print(f"💾 Saved to {output_file}")
 
     elif args.command == "compare":
         df = consolidate(args.subset)

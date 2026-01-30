@@ -95,7 +95,7 @@ else:
 
 ---
 
-## Local Data Artifacts & Metadata
+## Local Data
 
 For researchers working locally or using the source repository, the data is available in several formats with additional internal metadata for traceability.
 

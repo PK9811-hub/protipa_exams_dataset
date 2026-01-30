@@ -41,8 +41,15 @@ def parse_markdown_answers(md_path):
         for line in f:
             line_raw = line.rstrip("\r\n")
             stripped = line_raw.strip()
-            if not stripped or stripped.startswith("---"):
-                if current_id and stripped.startswith("---"):
+            
+            # Handle separators and empty lines
+            if not stripped:
+                if current_id:
+                    current_body.append("")
+                continue
+                
+            if stripped.startswith("---"):
+                if current_id:
                      # If we hit a separator while accumulating, treat it as end of answer
                      ans_text = "\n".join(current_body).strip()
                      if (ans_text.startswith('"') and ans_text.endswith('"')) or (ans_text.startswith('"""') and ans_text.endswith('"""')):
@@ -53,14 +60,17 @@ def parse_markdown_answers(md_path):
                 continue
             
             # Check if line starts with an ID (e.g., "5.1", "4", "A1")
-            # Pattern: non-whitespace at start, then space, then content
-            match = re.match(r"^(\S+)\s+(.*)", line_raw)
+            # We restrict this to:
+            # - Numbers (1, 10)
+            # - Dotted numbers (5.1, 1.2.3)
+            # - Latin/Greek Uppercase + optional digit (A, B, Γ, A1)
+            # We EXCLUDE lowercase bullets like α., β.
+            match = re.match(r"^(\d+(?:\.\d+)*|[A-ZΑ-Ω]\d?)\s+(.*)", line_raw)
             
             if match:
                 # Save previous answer before starting new one
                 if current_id:
                     ans_text = "\n".join(current_body).strip()
-                    # Strip wrapping quotes if they exist (backward compatibility/triple quotes)
                     if ans_text.startswith('"""') and ans_text.endswith('"""'):
                         ans_text = ans_text[3:-3].strip()
                     elif ans_text.startswith('"') and ans_text.endswith('"'):

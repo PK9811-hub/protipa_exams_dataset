@@ -520,3 +520,39 @@ def plot_points_by_level(df, show_plot=False):
         plt.close(fig)
         
     return fig, summary_stats
+
+def display_qa(df, sample_id):
+    """
+    Simpler version of print_sample that only shows Question and Answer 
+    with proper wrapping and LaTeX support.
+    """
+    if isinstance(sample_id, int):
+        row = df.iloc[sample_id]
+    else:
+        filtered = df[df['id'] == sample_id]
+        if filtered.empty:
+            print(f"Sample with ID {sample_id} not found.")
+            return
+        row = filtered.iloc[0]
+
+    import uuid
+    container_id = f"qa-container-{uuid.uuid4().hex[:8]}"
+    
+    # We use a simple HTML layout that mirrors your style preference
+    html_out = f"""
+    <div id="{container_id}" style="font-family: sans-serif; border: 1px solid #eee; border-radius: 8px; overflow: hidden; margin: 10px 0;">
+        <div style="background: #f8f9fa; padding: 10px 15px; border-bottom: 1px solid #eee; font-weight: bold; color: #555;">
+            {row['id']} ({row['subject']})
+        </div>
+        <div style="display: flex; border-bottom: 1px solid #eee;">
+            <div style="width: 120px; padding: 15px; background: #fcfcfc; font-weight: bold; color: #777;">Question</div>
+            <div style="flex: 1; padding: 15px; white-space: pre-wrap;">{_process_text(row['question'])}</div>
+        </div>
+        <div style="display: flex;">
+            <div style="width: 120px; padding: 15px; background: #fcfcfc; font-weight: bold; color: #777;">Answer</div>
+            <div style="flex: 1; padding: 15px; white-space: pre-wrap; color: #27ae60; font-weight: 500;">{_process_text(row['answer_text'])}</div>
+        </div>
+    </div>
+    {_get_mathjax_trigger(container_id)}
+    """
+    display(HTML(html_out))

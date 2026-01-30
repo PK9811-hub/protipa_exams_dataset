@@ -540,7 +540,11 @@ def push_to_hub(df, with_images=False):
     except Exception as e:
         print(f"⚠️ Error during repo setup: {e}")
 
-    # Force string types
+    # Force types
+    if 'answer_index' in df.columns:
+        # Use nullable Int64 to prevent float promotion when NaNs are present
+        df['answer_index'] = df['answer_index'].astype('Int64')
+        
     for col in ['year', 'exam_set', 'q_id']:
         if col in df.columns:
             df[col] = df[col].astype(str)

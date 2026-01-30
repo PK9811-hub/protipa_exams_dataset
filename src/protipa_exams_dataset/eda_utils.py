@@ -112,7 +112,7 @@ def _get_mathjax_trigger(container_id):
     </script>
     """
 
-def display_samples(df, n=3, prioritize_images=False):
+def display_samples(df, n=3, prioritize_images=False, truncate=None):
     """
     Selects n random samples and displays them as an HTML table with LaTeX support and embedded images.
     """
@@ -140,6 +140,16 @@ def display_samples(df, n=3, prioritize_images=False):
     # Create HTML table
     display_df = samples[available_cols].copy()
     
+    # If truncate is True, default to 100 characters
+    if truncate is True:
+        truncate = 100
+    
+    # Function to handle truncation
+    def _apply_trunc(text, length):
+        if length and isinstance(text, str) and len(text) > length:
+            return text[:length] + "..."
+        return text
+
     # Format answer_index as integer if it exists and is not null
     if 'answer_index' in display_df.columns:
         display_df['answer_index'] = display_df['answer_index'].apply(lambda x: int(x) if pd.notna(x) else "")
@@ -147,12 +157,12 @@ def display_samples(df, n=3, prioritize_images=False):
     # Process text columns
     for col in ['question', 'answer_text', 'input']:
         if col in display_df.columns:
-            display_df[col] = display_df[col].apply(lambda x: _process_text(x) if pd.notna(x) else "")
+            display_df[col] = display_df[col].apply(lambda x: _process_text(_apply_trunc(x, truncate)) if pd.notna(x) else "")
             
     # Format choices for table
     if 'choices' in display_df.columns:
         display_df['choices'] = display_df['choices'].apply(
-            lambda x: "<br>".join([f"• {_process_text(c)}" for c in x]) if isinstance(x, (list, np.ndarray)) and len(x) > 0 else ""
+            lambda x: "<br>".join([f"• {_process_text(_apply_trunc(c, truncate))}" for c in x]) if isinstance(x, (list, np.ndarray)) and len(x) > 0 else ""
         )
     
     html_out = display_df.to_html(escape=False, index=False, classes='dataframe styled-table')
@@ -297,7 +307,7 @@ def get_image_samples_df(df, n=5):
     
     return df_with_images.sample(min(n, len(df_with_images)))
 
-def display_multimodal_samples(df, n=3):
+def display_multimodal_samples(df, n=3, truncate=None):
     """
     Displays samples that contain images using the integrated table display.
     """
@@ -310,7 +320,7 @@ def display_multimodal_samples(df, n=3):
     print(f"Showing {len(samples)} samples with images:")
     # We pass the subset to display_samples but since display_samples itself samples,
     # we just pass all of them and set n to the count.
-    display_samples(samples, n=len(samples))
+    display_samples(samples, n=len(samples), truncate=truncate)
 
 def plot_subject_dist(df, show_plot=False):
     """

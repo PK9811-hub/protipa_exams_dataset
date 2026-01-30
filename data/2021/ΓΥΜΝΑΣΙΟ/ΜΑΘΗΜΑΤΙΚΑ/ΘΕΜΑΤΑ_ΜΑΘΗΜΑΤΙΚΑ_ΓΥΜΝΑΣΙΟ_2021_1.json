@@ -54,7 +54,7 @@
   {
     "id": "5",
     "question": "Στο διπλανό σχήμα όλες οι γωνίες είναι ορθές. Επίσης, $EI=30cm$, $JI=40cm$, $EM=8cm$ και $JK=10cm$. To εμβαδόν του JKLMEI είναι:",
-    "input": "The image displays a non-convex, L-shaped polygon (a hexagon) with vertices marked by blue dots.\nVertices: The visible labels for the vertices are E, M, L, K, and J. There is an unlabeled vertex at the bottom-left corner (which corresponds to point I based on the accompanying text).\nShape Structure:\nVertical Sides: A long side on the far left (connecting E to the bottom-left), a shorter side extending down from M to L, and a short side on the far right connecting K to J.\nHorizontal Sides: A short top side connecting E to M, a longer middle segment connecting L to K, and a long bottom base connecting J to the bottom-left corner.\nAngles: The geometry implies that all interior angles are right angles ($90^\\circ$).",
+    "input": "",
     "choices": [
       "A. $1200cm^{2}$",
       "B. $520cm^{2}$",
@@ -177,7 +177,7 @@
   {
     "id": "14",
     "question": "Η δασκάλα ζήτησε από τους μαθητές της να φτιάξουν μια κατασκευή οποιουδήποτε σχήματος που να έχει εμβαδό 72 $cm^{2}$. Ο Γιάννης και η Μαρία της κατασκεύασαν τα παρακάτω σχήματα. Κατάφερε κάποιος από τους δύο να φτιάξει σωστό σχήμα;",
-    "input": "The image displays two geometric constructions, labeled with the names of the students who created them.\nLeft Construction (Γιάννης - Giannis):\nThis figure forms a large right-angled triangle. It is composed of three smaller shapes:\nA \nsquare\n located at the bottom-right corner. The top side of this square is labeled \n$6 \text{ cm}$.\nA triangle placed on top of the square, labeled as an \n\"isosceles triangle\"\n ($ισοσκελές\\ τρίγωνο$).\nA triangle placed to the left of the square, also labeled as an \n\"isosceles triangle\".\nRight Construction (Μαρία - Maria):\nThis figure forms an isosceles trapezoid. It is composed of three shapes arranged horizontally:\nA central \nsquare\n.\nTwo triangles flanking the square on the left and right sides. Both are labeled as \n\"isosceles triangle\"\n ($ισοσκελές\\ τρίγωνο$).\nThe total length of the bottom base of the entire figure is labeled \n$18 \text{ cm}$.",
+    "input": "",
     "choices": [
       "Α. ο Γιάννης",
       "Β. η Μαρία",
@@ -235,7 +235,7 @@
   {
     "id": "18",
     "question": "Στο διπλανό γράφημα βλέπουμε τα κύρια προϊόντα που παράγονται σε έναν αγροτικό νομό. Ποια από τις επόμενες τριάδες αποτελεί το 50% της παραγωγής;",
-    "input": "The image displays a circular pie chart (circle graph) divided into six sectors of varying sizes, radiating from a central blue dot. Each sector represents a category of agricultural products labeled in Greek.\nThe sectors are arranged clockwise as follows (starting roughly from the top-right):\nφρούτα (fruits) - A large sector.\nλάδι – λίπη (oil – fats) - A medium-sized sector.\nγαλακτοκομικά (dairy) - A medium-sized sector.\nκαπνά (tobacco) - A smaller sector.\nβαμβάκι (cotton) - A smaller sector.\nκρέας (meat) - A large sector.\nThe dividing lines between the sectors appear to create geometric relationships, with some lines potentially forming diameters across the circle (e.g., the line separating \"κρέας\" and \"φρούτα\" appears to align with the line separating \"καπνά\" and \"γαλακτοκομικά\", dividing the circle into two hemispheres).",
+    "input": "",
     "choices": [
       "Α. κρέας, βαμβάκι, καπνά.",
       "Β. φρούτα, κρέας βαμβάκι.",

@@ -16,7 +16,7 @@
     {
       "id": "2",
       "question": "Το διπλανό ορθογώνιο παραλληλόγραμμο ΑΒΓΔ είναι φτιαγμένο από τέσσερα ίδια ορθογώνια παραλληλόγραμμα. Η περίμετρος του ΑΒΓΔ είναι 28 εκ. Το μήκος της πλευράς ΑΒ είναι ίσο με:",
-      "input": "The image shows a large rectangle labeled $ΑΒΓΔ$ ($ABCD$).\nComposition: It is subdivided into four smaller, identical rectangles.\nLayout:\nTop Section: Three of these smaller rectangles are arranged vertically, side-by-side.\nBottom Section: One smaller rectangle is placed horizontally, spanning the entire width of the three vertical rectangles above it.\nVertices: The corners are marked $\\Delta$ (top-left), $\\Gamma$ (top-right), $B$ (bottom-right), and $A$ (bottom-left).",
+      "input": "",
       "choices": [
         "Α. 2 εκ.",
         "Β. 6 εκ.",
@@ -92,7 +92,7 @@
     {
       "id": "7",
       "question": "Τα 400 παιδιά ενός δημοτικού σχολείου της Αθήνας συμμετείχαν σε μια έρευνα στην οποία δήλωσαν τις προτιμήσεις τους σε αθλήματα. Οι απαντήσεις που έδωσαν φαίνονται στο παρακάτω κυκλικό διάγραμμα, στο οποίο σβήστηκαν τα ποσοστά των προτιμήσεων τους σε βόλεϊ και της επιλογής τους «άλλο άθλημα». Αν γνωρίζουμε ότι οι μαθητές που δήλωσαν «άλλο άθλημα» είναι τριπλάσιοι από όσους δήλωσαν «βόλεϊ», τότε οι μαθητές που δήλωσαν «βόλεϊ» είναι:",
-      "input": "The image displays a pie chart (circular diagram) divided into four sectors, each representing a different sport preference. The sectors are distinguished by different black-and-white patterns:\nFootball: Diagonal stripes.\nBasketball: Vertical stripes.\nOther Sport: Cross-hatching (grid pattern).\nVolleyball: Dotted pattern.\nLabels outside the circle indicate the sport and, for some, the corresponding percentage.",
+      "input": "",
       "choices": [
         "Α. 25",
         "Β. 75",
@@ -112,7 +112,7 @@
     {
       "id": "8",
       "question": "Στον παρακάτω πίνακα απεικονίζονται διαδοχικά οι πράξεις που εμφανίζονται στην οθόνη ενός υπολογιστή τσέπης (κομπιουτεράκι) και το τελικό αποτέλεσμά τους. Ποιος ήταν ο αρχικός αριθμός;",
-      "input": "The image displays a vertical table representing a flowchart of mathematical operations.\nLeft Column: Labels the starting point as \"αρχικός αριθμός\" (initial number) and the ending point as \"αποτέλεσμα\" (result).\nRight Column: Shows a sequence of operations and placeholders (\"...\"). It ends with the final number 132.\nOperations shown: Addition of 20 ($+20$), Division by 5 ($:5$), and Multiplication by 3 ($\times 3$).",
+      "input": "",
       "choices": [
         "Α. 0",
         "Β. 20",

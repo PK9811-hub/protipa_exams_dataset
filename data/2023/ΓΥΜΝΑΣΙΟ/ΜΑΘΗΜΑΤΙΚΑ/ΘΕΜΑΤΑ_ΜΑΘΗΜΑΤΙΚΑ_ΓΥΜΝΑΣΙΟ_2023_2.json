@@ -28,7 +28,7 @@
   {
     "id": "28",
     "question": "Το γεωμετρικό σχήμα που βρίσκεται στην 51η θέση του παρακάτω μοτίβου είναι:",
-    "input": "The image illustrates a repeating geometric pattern (sequence) consisting of a horizontal row of shapes.\nThe Pattern Unit:\nThe core repeating unit consists of four distinct shapes in a specific order:\n1. First: A rectangle (longer horizontally).\n2. Second: A circle.\n3. Third: A triangle.\n4. Fourth: A square.\nThe Sequence:\nThe image shows this four-shape unit repeated twice in succession, followed by a third rectangle and three dots ($\\dots$), indicating that the pattern continues indefinitely in the same order.",
+    "input": "",
     "choices": [
       "Α. τρίγωνο",
       "Β. τετράγωνο",
@@ -112,7 +112,7 @@
   {
     "id": "34",
     "question": "Στην αριθμογραμμή ο αριθμός $\\frac{5}{3}$ είναι στο μέσο της απόστασης του αριθμού α από τον αριθμό $\\frac{9}{4}$. Τότε ο αριθμός α είναι:",
-    "input": "The image displays a segment of a horizontal number line with three specific points marked by black dots.\nLeft Point: Labeled with the Greek letter $\\alpha$ (alpha).\nMiddle Point: Labeled with the fraction $\frac{5}{3}$.\nRight Point: Labeled with the fraction $\frac{9}{4}$.",
+    "input": "",
     "choices": [
       "A. $\\frac{13}{12}$",
       "B. $\\frac{1}{12}$",
@@ -157,7 +157,7 @@
   {
     "id": "37",
     "question": "Ο Παναγιώτης βρίσκεται αρχικά στη θέση Ο, όπως φαίνεται στον χάρτη και θέλει να πάει στο σπίτι του. Ξεκινά να περπατά στην κατεύθυνση που δείχνει το βέλος για χίλια εξακόσια μέτρα. Μετά στρίβει $90^{\\circ}$ αριστερά και περπατάει για ακόμη τετρακόσια μέτρα μέχρι να ξαναστρίψει $90^{\\circ}$ αριστερά και να περπατήσει άλλο ένα χιλιόμετρο ώστε να φτάσει στο σπίτι του. Αν η απόσταση ΑΒ είναι οκτακόσια μέτρα σε ποια θέση είναι το σπίτι του Παναγιώτη;",
-    "input": "The image displays a set of points plotted on a square grid background.\nReference System:\nPoint O: Located on a grid intersection on the left, marking the origin.\nHorizontal Axis: An arrow extends horizontally to the right from point O.\nVertical Line: A distinct vertical line runs through the grid, located exactly 1 unit to the right of point O.\nPlotted Points (Coordinates relative to O):\nPoint A: Located 3 units to the right and 1 unit up.\nPoint B: Located 3 units to the right and 3 units down. (Point B is vertically aligned with Point A).\nPoint $\\Gamma$: Located 4 units to the right and 3 units up.",
+    "input": "",
     "choices": [
       "Α. στο Α",
       "Β. στο Β",
@@ -176,7 +176,7 @@
   {
     "id": "38",
     "question": "Αν κάθε τετραγωνάκι έχει εμβαδόν 1, τότε για το εμβαδόν Ε του μαύρου σχήματος ισχύει ότι",
-    "input": "The image displays a geometric shape on a grid background.\nShape: A solid, dark grey ellipse (oval).\nBackground: A regular square grid formed by intersecting vertical and horizontal lines.\nDimensions based on the grid:\nWidth (Major Axis): The ellipse spans exactly 8 grid units horizontally.\nHeight (Minor Axis): The ellipse spans exactly 4 grid units vertically.\nThis indicates the ellipse is inscribed within an invisible $8 \times 4$ rectangle on the grid.",
+    "input": "",
     "choices": [
       "Α. Ε<50",
       "Β. 50<Ε<52",
@@ -195,7 +195,7 @@
   {
     "id": "39",
     "question": "Θέλουμε να ταξιδέψουμε με λεωφορείο από την Αθήνα προς τον Πύργο και να φτάσουμε νωρίτερα από τις 3.30 μμ. Τα δρομολόγια φαίνονται στους παρακάτω πίνακες. Τι ώρα το αργότερο πρέπει να φύγουμε από την Αθήνα με το λεωφορείο, ώστε να φτάσουμε εγκαίρως στον Πύργο;",
-    "input": "The image displays two schedules (likely for buses or trains) comparing travel options between Greek cities.\nLeft Table: Displays the schedule for the direct route Athens - Pyrgos (Αθήνα - Πύργος). It lists five departure times and their corresponding travel durations.\nRight Table: Displays a split schedule for an indirect route involving a transfer. It is divided into two sections:\nThe first section shows the route Athens - Patras (Αθήνα - Πάτρα).\nThe second section shows the connecting route Patras - Pyrgos (Πάτρα - Πύργος).\nThe bottom-right cell for the Patras-Pyrgos route is blacked out, indicating no connection for the last Athens-Patras departure.",
+    "input": "",
     "choices": [
       "Α. 08:30",
       "Β. 09:30",
@@ -214,7 +214,7 @@
   {
     "id": "40",
     "question": "Για την κατασκευή μιας πλατείας σε σχήμα ορθογωνίου παραλληλογράμμου το δημοτικό συμβούλιο αποφάσισε ένα μέρος της να γίνει πεζόδρομος και το υπόλοιπο να φυτευτεί με γρασίδι. Προτάθηκαν τα τρία παρακάτω σχέδια όπου οι πεζόδρομοι, με λευκό χρώμα, έχουν όλοι το ίδιο πλάτος, ενώ με γκρι είναι η περιοχή που θα φυτευτεί με γρασίδι. Σε ποιο σχέδιο υπάρχει περισσότερο γρασίδι;",
-    "input": "The image displays three rectangular diagrams labeled 1ο σχέδιο (1st Design), 2ο σχέδιο (2nd Design), and 3ο σχέδιο (3rd Design). Each diagram represents a different arrangement of grey rectangular regions within a larger white rectangular frame.\n1st Design (Left): Contains a single large grey rectangle positioned in the bottom-right corner. This leaves a white L-shaped strip along the top and left sides of the frame.\n2nd Design (Middle): Contains four smaller grey rectangles, one in each corner of the frame. They are separated by a white cross-shaped space in the center.\n3rd Design (Right): Contains two grey rectangles positioned in the top-left and top-right corners. They are separated by a central vertical white stripe, and there is a horizontal white stripe along the entire bottom edge.",
+    "input": "",
     "choices": [
       "Α. το $1^{\\circ}$",
       "Β. το $2^{\\circ}$",
@@ -246,7 +246,7 @@
   {
     "id": "42",
     "question": "Μεταξύ παιδιών ενός σχολείου έγινε μια έρευνα, για το άθλημα που προτιμούν περισσότερο. Οι απαντήσεις που δόθηκαν ήταν «ποδόσφαιρο», «τένις», «μπάσκετ» και «βόλεϊ». Τα περισσότερα παιδιά απάντησαν «ποδόσφαιρο», ενώ «μπάσκετ» απάντησαν αρκετά περισσότερα παιδιά από όσα απάντησαν «τένις». Τα αποτελέσματα φαίνονται στο κυκλικό διάγραμμα. Σε ποιο άθλημα ανταποκρίνεται το μαύρο μέρος του διαγράμματος;",
-    "input": "The image displays a circular pie chart divided into sectors by lines radiating from the center.\nStructure:\nA vertical line (diameter) splits the circle into left and right halves.\nA horizontal line (radius) extends from the center to the left edge, dividing the left half into two equal quadrants (top-left and bottom-left).\nA diagonal line (radius) extends from the center into the upper-right quadrant.\nSectors and Shading:\nThe sector in the top-right, bounded by the top vertical line and the diagonal line, is shaded black. Visually, this sector appears to be an acute angle, likely around $45^\\circ$ (representing $\frac{1}{8}$ of the circle).\nThe other three sectors (top-left, bottom-left, and the large remaining portion on the right) are white.",
+    "input": "",
     "choices": [
       "Α. Τένις",
       "Β. Μπάσκετ",

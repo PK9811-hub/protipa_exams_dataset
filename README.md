@@ -1,147 +1,212 @@
-📚 **GR-ProtipaExams Dataset: Structured Exam Questions (2013-2025)**
+---
+configs:
+- config_name: default
+  data_files:
+  - split: test
+    path: data/*.parquet
+license: cc-by-nc-4.0
+task_categories:
+- question-answering
+language:
+- el
+tags:
+- multimodal
+- education
+- exams
+- greek
+size_categories:
+- 1K<n<10K
+---
+
+**Greek Protipa Exams Dataset: Structured Exam Questions (2013-2025)**
 
 **Overview**
 
+This project generates a comprehensive, structured dataset, called “Greek Protipa Exams”, derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Πρότυπα και Πειραματικά Σχολεία) in Greece. Spanning from 2013 to 2025, the dataset provides a rich diversity of:
 
-The GR-ProtipaExams project introduces a comprehensive, structured dataset, called “GR-ProtipaExams”, derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Protipa and Peiramatika Schools) in Greece. This dataset spans the years 2013 to 2025 and covers core secondary education subjects.
+*   **Subjects**: Core curriculum coverage including Greek Language, Mathematics, Physics, and Religious Studies.
+*   **Educational Levels**: Questions targeted at both Gymnasium and Lyceum entrance requirements.
+*   **Interaction Formats**: A variety of task types including Multiple Choice, True/False, Matching, Fill-in-the-Gaps, and Open-Ended questions.
+*   **Modalities**: Native support for **multimodal evaluation**, featuring high-fidelity images/diagrams, textual transcriptions, and structural references (tables and passages).
 
-The primary goal is to provide a standardized resource for educational research, quantitative statistical analysis, and, particularly, for training, finetuning, and evaluating Large Language Models (LLMs) on complex, multi-subject assessment tasks in the Greek language.
+The primary goal of this repository is to establish a rigorous, standardized benchmark for the **evaluation of Large Language Models (LLMs)** on complex, multi-subject assessment tasks in the Greek language. Additionally, it serves as a high-quality resource for educational research and quantitative statistical analysis.
 
+ The source material was obtained from the official portal of the **Governing Body of Model and Experimental Schools** ([https://depps.minedu.gov.gr/](https://depps.minedu.gov.gr/)).
 
-**Repository Contents**
+> [!IMPORTANT]
+> **Disclaimer**: While every effort has been made to ensure the accuracy and completeness of this structured dataset, any errors, omissions, or formatting issues are the result of the processing and transformation pipeline and are **not related** to the original source or the Ministry of Education.
 
-This repository is strictly dedicated to hosting the final, processed data artifacts:
+---
 
-• JSON files: Contain the structured format of individual questions and their complete metadata.
+The dataset is available on Hugging Face at [https://huggingface.co/ilsp/greek-protipa-exams](https://huggingface.co/ilsp/greek-protipa-exams).
 
-• MD files: Markdown versions of the correct answers/solutions, designed for easy viewing and LLM consumption.
+If you make use of this dataset, please consider citing it as follows:
 
-• Excel / CSV dataframe: A consolidated, analysis-ready tabular file for filtering, statistical tasks, and quick data exploration.
+```bibtex
+@misc{ilsp-greek-protipa-exams,
+    author = {Kyriazi, Penny and Prokopidis, Prokopis},
+    title = {Greek Protipa Exams},
+    howpublished = {\url{https://huggingface.co/ilsp/greek-protipa-exams}},
+    year = {2025}
+}
+```
 
+##  **Dataset Columns**
 
-🔗 **Source Code and Data Generation**
+| Column | Description |
+|--------|-------------|
+| **id** | Unique identifier. |
+| **subject** | Academic subject (including `greek_language`, `mathematics`, `physics`, `religious studies`). |
+| **format** | `multiple_choice`, `true_false`, `matching`, `fill_in_the_gaps`, `open_ended`. |
+| **reference** | Additional reference inputs: (text) `passage`, `multimodal`, `table`, `none`. |
+| **question** | The core question. |
+| **input** | Supplementary text (passages, diagram and image presentations). |
+| **images** | **(Visual)** The actual image asset(s) rendered as pixel data. |
+| **choices** | Candidate answers for closed-ended questions. |
+| **answer_text** | The processed, validated answer/solution (string). |
+| **answer_index** | The numeric mapping of the answer for closed-ended questions. |
+| **image_description** | Detailed textual proxy for visual content. |
+| **image_transcription** | OCR/Text extraction from within the visual assets. |
+| **points** | Assigned point value for the question (numeric). May be missing in the source. |
+| **year** | The year of the exam. |
+| **admission_level** | The target education level: `gymnasium` or `lyceum`. |
+| **exam_set** | The ID of the exam batch/paper (e.g., 1, 2) |
+| **q_id** | The specific ID/number of the question within its set. |
 
-The entire pipeline—from corpus gathering and cleaning to structuring, ID generation, and alignment—was implemented through dedicated scripts.
+### **Usage (Hugging Face)**
 
-The full source code repository used to generate this dataset is located here:
+```python
+from datasets import load_dataset
 
-[ https://github.com/PK9811-hub/dataset_creation ]
+# Load the benchmark test split
+dataset = load_dataset("ilsp/greek-protipa-exams", split="test")
 
+# Select a sample (e.g., index 1 which is usually Multiple Choice)
+sample = dataset[1]
 
+print(f"Question: {sample['question']}")
+print(f"Choices: {sample['choices']}")
 
-1. **Data Structure and Keys**
-   
-| File / Directory | Description |
-|------------------|-------------|
-| **id** | Unique identifier for each question–answer entry (e.g., `MATH_2023_HS_Q05`). |
-| **question** | The introductory text and the core task of the exercise, including any necessary formulas or equations encoded in $\text{LaTeX}$. |
-| **input** | Supplementary text provided with the exercise, such as literary passages (for Greek Language) or detailed descriptions of diagrams/images. |
-| **choices** | The candidate answers provided for closed-ended question types. |
-| **images** | A list of objects containing the file path, detailed description, and transcription of any accompanying images or diagrams (multi-modal components). |
-| **mark** | The assigned score/mark for each correct entry. |
+# Check which answer field is populated: 'answer_index' (for closed) or 'answer_text' (for open)
+if sample.get('answer_index') is not None:
+    # Convert the integer index (0, 1, 2...) to a letter label (A, B, C...) for display purposes
+    labels = ['A', 'B', 'C', 'D', 'E']
+    idx = sample['answer_index']
+    print(f"Answer Index: {idx} (Label: {labels[idx]})")
+elif sample.get('answer_text'):
+    # For open-ended questions, print the text directly
+    print(f"Answer: {sample['answer_text']}")
 
+# ---------------------------------------------------------
+# Output Example:
+# 
+# Question: Ποιο από τα παρακάτω δεν ισχύει, σύμφωνα με το κείμενο;
+# Choices: [
+#      'Υπάρχει μόνο μία επιλογή προκειμένου να αντιμετωπίσουμε το οικολογικό πρόβλημα.', 
+#      'Οι σύγχρονοι άνθρωποι επιδιώκουν μανιωδώς την υλική ευημερία τους.', 
+#      'Η πλεονεξία των πολλών επιβαρύνει τους ανθρώπους που ζουν με μέτρο.', 
+#      "Μετά τον Β' Παγκόσμιο Πόλεμο, ο υπερκαταναλωτικός τρόπος ζωής εδραιώθηκε σε όλον τον κόσμο."
+# ]
+# Answer Index: 0 (Label: A)
+```
 
-2. **Dataframe Columns (Excel/CSV)**
+---
 
-| File / Directory | Description |
-|------------------|-------------|
-| **unique_id** | Unique identifier for the row entry (autoincremented index for the dataframe). |
-| **subject** | The academic subject of the exam (e.g., Greek Language, Math, Physics, Religious Studies). |
-| **school_level** | The education level (middle school or high school). |
-| **series** | Refers to the original question numbering from the JSON file (e.g., 1.1, 1.2, etc.). |
-| **label_id** | The original ID of the question grouping as it appeared in the raw exam files (e.g., 1, 2, 3). |
-| **question** | The introductory text and the core task of the exercise, including LaTeX. |
-| **input** | Supplementary text (passages, diagram descriptions). |
-| **choices** | The candidate answers provided for closed-ended questions. |
-| **answer** | The final, validated answer/solution. |
-| **multimodality** | Indicates the presence of associated diagrams or images (yes/no). |
-| **image_path** | Local file path to the image file used in the question. |
-| **image_link** | External link/URL associated with the image. |
-| **mark** | The assigned score/mark for the entry. |
-| **question_type** | The general structure: Open or Closed ended. |
-| **exercise_type** | The specific format: multiple-choice, true/false, fill-in-the-gaps, or matching. |
-| **source_file** | The name of the original file/document from which the question was extracted. |
+## Local Data Artifacts & Metadata
 
+For researchers working locally or using the source repository, the data is available in several formats with additional internal metadata for traceability.
 
+### **Internal Metadata (Excel/JSON Only)**
 
-3. **Subject Coverage and Question Types**
+While the public benchmark is polished for evaluation, the internal artifacts contain pointers to facilitate local file management:
 
-| File / Directory     | Description |
-|----------------------|-------------|
-| **Greek Language**   | Covers all defined task types (MC, T/F, Gaps, Matching). |
-| **Mathematics**      | Primarily Open-ended tasks and Multiple-Choice. |
-| **Physics**          | Exclusively Open-ended questions. |
-| **Religious Studies**| Exclusively Closed-ended questions (Multiple-Choice). |
+| Key | Description |
+|-----|-------------|
+| **image_urls** | Basemate pointers of the source image file(s) (e.g., `math_2025_Q1.png`). Used to cross-reference with the `data/` folder. |
+| **q_id (Raw)** | Preserves original formatting from the source files (including float-like identifiers like `2.1`). |
 
+### **Repository Contents**
 
+- **JSON Files**: Individual question objects with full provenance metadata.
+- **MD Files**: Markdown versions of the correct answers designed for human review.
+- **Excel Master**: A consolidated file (`protipa_exams_dataset.xlsx`) containing the full dataset with AutoFilters and local path pointers.
 
+---
 
-⚠️ **Known Data Gaps and Missing Information**
-Due to the nature of the publicly available source files, the following gaps were identified and processed:
+## Dataset Characteristics
 
-• Missing Year: All exam files from 2015 were unavailable, resulting in a gap in the time series data.
+### **1. Subject Coverage**
 
-• Missing Solutions: Official solutions were not provided for:
+| Subject | Question Types | Domain Overview |
+|---------|----------------|-----------------|
+| **Greek Language** | MC, T/F, Gaps, Matching | Strong emphasis on reading comprehension and syntax. |
+| **Mathematics** | Open-ended, MC | Logic, geometry, and problem-solving. |
+| **Physics** | Open-ended | Scientific reasoning and numeric calculation. |
+| **Religious Studies**| Multiple-Choice | General knowledge and conceptual understanding. |
 
-Greek Language (High School, 2014)
+### **2. Known Data Gaps**
 
-Greek Language and Mathematics (High School, 2018)
+**Note on Data Gaps**: Due to the nature of public records, some limitations apply:
+- **Missing Points**: Point values are only populated in ~30% of rows (primarily 2013-2019 and 2025).
+- **Missing Year**: The year 2015 is currently missing as source files were publicly unavailable.
+- **Missing Solutions**: Lyceum papers for 2014 (Greek) and 2018 (Greek/Math) lack official solution keys.
 
-•  Writing Prompts: For the free-text writing component of the Greek Language exams, a separate file is provided containing only the prompts and grading guidelines, as official model answers do not exist.
+---
 
+## Getting Started (Developer)
 
-## Project Structure
+### **Prerequisites**
 
-- `data/`: Contains raw exam data (PDFs, DOCX, JSON, MD).
-- `notebooks/`: Jupyter notebooks for evaluation and analysis.
-- `src/protipa_exams_dataset/`: Main source code for data loading and evaluation logic.
-- `pyproject.toml`: Project configuration and dependencies.
-- `.env`: Environment variables (API keys, host URLs).
+*   **Environment**: Python 3.10+ (Recommended: use `uv` for dependency management).
+*   **API Tokens**: Create a `.env` file in the root directory with your Hugging Face credentials:
+    ```bash
+    HF_TOKEN=your_huggingface_write_token
+    HF_REPO_ID=ilsp/greek-protipa-exams  # Or your target namespace
+    ```
 
-## Getting Started
+### **Management Commands**
 
-1. Install dependencies:
-   ```bash
-   uv sync
-   ```
-2. Configure `.env`:
-   ```bash
-   LITELLM_HOST=your_host_url
-   LITELLM_ILSP_EVAL_API_KEY=your_api_key
-   ```
-3. Run evaluation notebooks in `notebooks/`.
+The repository includes a comprehensive management script `scripts/manage.py` to handle the data lifecycle.
 
-## Development / Editable Mode
+#### **1. Data Consolidation (Local)**
+Transforms raw JSON/Markdown files into a structured Excel master file.
+*   **Standard**: `uv run scripts/manage.py consolidate`
+*   **Extended (with Schema Tags)**: Adds `format` and `reference` columns based on linguistic markers.
+    ```bash
+    uv run scripts/manage.py consolidate --extended
+    ```
 
-To ensure that the package is installed in **editable mode** (so that changes to the files in `src/` are reflected immediately), use:
-
+#### **2. Data Validation**
+Before pushing to the Hub, verify that all multimodal assets (images) referenced in the JSON files exist on disk:
 ```bash
-uv pip install -e .
+python scripts/check_images.py
 ```
 
-When the project is installed in editable mode, you can combine it with **IPython autoreload** in your notebooks to develop source code and run experiments simultaneously:
+#### **3. Pushing to Hugging Face Hub**
+Synchronizes the local dataset with the Hugging Face repository. 
 
-```python
-%load_ext autoreload
-%autoreload 2
+**Note**: If you run `push` without the `--file` argument, the tool automatically rebuilds the dataset in-memory from the raw JSON/MD source files. This allows you to update the Hugging Face repository without creating or overwriting any local Excel files.
 
-from protipa_exams_dataset import load_protipa_dataset
-# Now any changes to data_loader.py will be automatically reloaded!
+*   **Text only**: `uv run scripts/manage.py push --extended`
+*   **Multimodal (Includes Images)**: Embeds the actual pixel data into the Parquet files.
+    ```bash
+    uv run scripts/manage.py push --extended --with-images
+    ```
+
+#### **4. Quality Control (Comparison)**
+Compare a newly generated consolidation against a reference Excel file to detect regressions:
+```bash
+uv run scripts/manage.py compare --reference path/to/previous_version.xlsx
 ```
 
-## Usage
+---
 
-You can use the utility functions in your notebooks by importing them from their respective modules:
+## Dataset Schema Details
 
-```python
-from protipa_exams_dataset.data_loader import load_protipa_dataset, filter_dataset, apply_matching_processing, clean_dataset_paths
+The implementation follows a **Stage-based processing** pipeline:
+*   **Stage A**: Parsing of raw exam metadata and question objects.
+*   **Stage B**: Multi-source answer resolution (mapping Markdown keys to JSON indices).
+*   **Stage C**: Structural transformation (e.g., converting Matching tasks to Multiple Choice or Flattened Text).
+*   **Stage D**: Serialization and Hub synchronization.
 
-dataset = load_protipa_dataset()
-df = dataset.to_pandas()
 
-# Process matching exercises to create distractors and shuffle
-df_final = apply_matching_processing(df)
-
-# Clean paths to keep only filenames
-df_final = clean_dataset_paths(df_final)
-```

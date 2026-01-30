@@ -1,23 +1,31 @@
-import logging
-import time
+import os
 import traceback
 import lm_eval
+import logging
 from lm_eval.models.openai_completions import OpenAIChatCompletion
 from lm_eval.tasks import ConfigurableTask
+from dotenv import load_dotenv, find_dotenv
+
+load_dotenv(find_dotenv())
 
 logger = logging.getLogger(__name__)
 
-def run_evaluation(model_name, api_base, task_dict, eval_limit=None):
+def run_evaluation(model_name, api_base=None, task_dict=None, eval_limit=None):
     """
     Runs evaluation for a specific model using lm_eval.
     """
     logger.info(f"Starting evaluation for model: {model_name}")
     try:
-        # Construct endpoint URL
-        chat_api_url = api_base
+        # Use provided api_base or fall back to environment variable
+        chat_api_url = api_base or os.getenv("OPENAI_BASE_URL")
+        
+        if not chat_api_url:
+            raise ValueError("No API base URL provided. Set OPENAI_BASE_URL in .env or pass it as an argument.")
+
         if not chat_api_url.endswith("/chat/completions"):
             chat_api_url = chat_api_url.rstrip("/") + "/chat/completions"
 
+        # Note: OpenAIChatCompletion automatically looks for OPENAI_API_KEY env var
         model = OpenAIChatCompletion(
             model=model_name,
             base_url=chat_api_url,

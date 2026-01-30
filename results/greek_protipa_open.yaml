@@ -1,7 +1,7 @@
 dataset_kwargs:
-  data_files: c:\Users\panag\Desktop\ΙΕΛ ΕΡΓΑΣΙΑ\Εξετάσεις_γλωσσομάθειας\Πρότυπα_Πειραματικά\results\full_dataset_for_eval_open.json
+  data_files: C:/Users/panag/Desktop/ΙΕΛ ΕΡΓΑΣΙΑ/Εξετάσεις_γλωσσομάθειας/Πρότυπα_Πειραματικά/results/full_dataset_for_eval_open.json
 dataset_path: json
-doc_to_target: '{{ answer }}'
+doc_to_target: '{{ answer_text }}'
 doc_to_text: 'Δίνεται η παρακάτω ερώτηση από σχολικές εξετάσεις.
 
   Αν είναι ερώτηση ανάπτυξης, δώσε μια ολοκληρωμένη και τεκμηριωμένη απάντηση.

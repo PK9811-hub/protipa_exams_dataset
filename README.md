@@ -1,114 +1,97 @@
----
-configs:
-- config_name: default
-  data_files:
-  - split: test
-    path: data/*.parquet
-license: cc-by-nc-4.0
-task_categories:
-- question-answering
-language:
-- el
-tags:
-- multimodal
-- education
-- exams
-- greek
-size_categories:
-- 1K<n<10K
----
+# Code to generate the Greek Protipa Exams Dataset
 
-**Greek Protipa Exams Dataset: Structured Exam Questions (2013-2025)**
+Greek Protipa Exams  (https://huggingface.co/datasets/ilsp/greek-protipa-exams/) is a dataset derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Πρότυπα και Πειραματικά Σχολεία) in Greece. 
 
-**Overview**
+Spanning from 2013 to 2025, the dataset includes questions with the following features:
 
-This project generates a comprehensive, structured dataset, called “Greek Protipa Exams”, derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Πρότυπα και Πειραματικά Σχολεία) in Greece. Spanning from 2013 to 2025, the dataset provides a rich diversity of:
+*   **Subjects**: Greek Language, Mathematics, Physics, and Religious Studies
+*   **Educational Levels**: Questions targeted at both Gymnasium (Γυμνάσιο) and Lyceum (Λύκειο) admission exams.
+*   **Formats**: Multiple Choice, True/False, Matching, Fill-in-the-Gaps, and Open-Ended questions.
+*   **Modalities**: Questions suitable for multimodal evaluation, featuring high-fidelity images/diagrams, LLM-genarated image descriptions, and OCR transcriptions.
 
-*   **Subjects**: Core curriculum coverage including Greek Language, Mathematics, Physics, and Religious Studies.
-*   **Educational Levels**: Questions targeted at both Gymnasium and Lyceum entrance requirements.
-*   **Interaction Formats**: A variety of task types including Multiple Choice, True/False, Matching, Fill-in-the-Gaps, and Open-Ended questions.
-*   **Modalities**: Native support for **multimodal evaluation**, featuring high-fidelity images/diagrams, textual transcriptions, and structural references (tables and passages).
+The benchmark can be used for the evaluation of LLMs on complex, multi-subject, multi-format questions in the Greek language. Additionally, it may be useful as a high-quality resource for quantitative educational research.
 
-The primary goal of this repository is to establish a rigorous, standardized benchmark for the **evaluation of Large Language Models (LLMs)** on complex, multi-subject assessment tasks in the Greek language. Additionally, it serves as a high-quality resource for educational research and quantitative statistical analysis.
+## Dataset Creation
 
- The source material was obtained from the official portal of the **Governing Body of Model and Experimental Schools** ([https://depps.minedu.gov.gr/](https://depps.minedu.gov.gr/)).
+The source material was extracted from the official portal of the **Governing Body of Model and Experimental Schools** ([https://depps.minedu.gov.gr/](https://depps.minedu.gov.gr/)). It was then converted into the current format via specialized processing pipelines by researchers at 
+[ILSP](https://www.ilsp.gr/)/[Athena Research Centre](https://www.athenarc.gr/).
 
-> [!IMPORTANT]
-> **Disclaimer**: While every effort has been made to ensure the accuracy and completeness of this structured dataset, any errors, omissions, or formatting issues are the result of the processing and transformation pipeline and are **not related** to the original source or the Ministry of Education.
+**Disclaimer**: While every effort has been made to ensure the accuracy and completeness of this structured dataset, any errors, omissions, or formatting issues are the result of the processing and transformation pipeline and are **not related** to the original source or the Ministry of Education.
 
----
+## Dataset Structure
 
-The dataset is available on Hugging Face at [https://huggingface.co/ilsp/greek-protipa-exams](https://huggingface.co/ilsp/greek-protipa-exams).
-
-If you make use of this dataset, please consider citing it as follows:
-
-```bibtex
-@misc{ilsp-greek-protipa-exams,
-    author = {Kyriazi, Penny and Prokopidis, Prokopis},
-    title = {Greek Protipa Exams},
-    howpublished = {\url{https://huggingface.co/ilsp/greek-protipa-exams}},
-    year = {2025}
-}
-```
-
-##  **Dataset Columns**
 
 | Column | Description |
 |--------|-------------|
 | **id** | Unique identifier. |
 | **subject** | Academic subject (including `greek_language`, `mathematics`, `physics`, `religious studies`). |
 | **format** | `multiple_choice`, `true_false`, `matching`, `fill_in_the_gaps`, `open_ended`. |
-| **reference** | Additional reference inputs: (text) `passage`, `multimodal`, `table`, `none`. |
+| **reference** | Additional reference inputs: `none`, (text) `passage`, `multimodal`, `table`. |
 | **question** | The core question. |
-| **input** | Supplementary text (passages, diagram and image presentations). |
-| **images** | **(Visual)** The actual image asset(s) rendered as pixel data. |
+| **input** | Passage. |
+| **images** | Visual asset(s) (diagrams, photos, geometrical figures). |
 | **choices** | Candidate answers for closed-ended questions. |
-| **answer_text** | The processed, validated answer/solution (string). |
-| **answer_index** | The numeric mapping of the answer for closed-ended questions. |
-| **image_description** | Detailed textual proxy for visual content. |
+| **answer_text** | The answer/solution (string). |
+| **answer_index** | The index of the correct answer for multiple choice questions. |
+| **image_description** | LLM-generated textual descriptions of visual assets. |
 | **image_transcription** | OCR/Text extraction from within the visual assets. |
-| **points** | Assigned point value for the question (numeric). May be missing in the source. |
+| **points** | Assigned point value for the question (numeric). May be null if missing in the source. |
 | **year** | The year of the exam. |
 | **admission_level** | The target education level: `gymnasium` or `lyceum`. |
 | **exam_set** | The ID of the exam batch/paper (e.g., 1, 2) |
 | **q_id** | The specific ID/number of the question within its set. |
 
-### **Usage (Hugging Face)**
+## Usage 
 
 ```python
-from datasets import load_dataset
+import random
 
-# Load the benchmark test split
-dataset = load_dataset("ilsp/greek-protipa-exams", split="test")
+# Load a random sample
+random_idx = random.randint(0, len(dataset) - 1)
+sample = dataset[random_idx]
 
-# Select a sample (e.g., index 1 which is usually Multiple Choice)
-sample = dataset[1]
+print(f"Sample Index: {random_idx} | ID: {sample['id']}")
+print(f"Question: {sample['question']}\n")
 
-print(f"Question: {sample['question']}")
-print(f"Choices: {sample['choices']}")
+# 1. Handle Multimodal Metadata (Descriptions & Transcriptions)
+if sample.get('image_description'):
+    print(f"🖼️  Image Description: {sample['image_description']}")
 
-# Check which answer field is populated: 'answer_index' (for closed) or 'answer_text' (for open)
-if sample.get('answer_index') is not None:
-    # Convert the integer index (0, 1, 2...) to a letter label (A, B, C...) for display purposes
-    labels = ['A', 'B', 'C', 'D', 'E']
-    idx = sample['answer_index']
-    print(f"Answer Index: {idx} (Label: {labels[idx]})")
-elif sample.get('answer_text'):
-    # For open-ended questions, print the text directly
-    print(f"Answer: {sample['answer_text']}")
+if sample.get('image_transcription'):
+    print(f"📝 Image Transcription: {sample['image_transcription']}")
+
+# 2. Handle Choices
+if sample.get('choices'):
+    print("\nChoices:")
+    correct_idx = sample.get('answer_index')
+    for i, choice in enumerate(sample['choices']):
+        marker = "[✅]" if i == correct_idx else "[  ]"
+        print(f"  {marker} {i}: {choice}")
+    print(f"\nCorrect Answer Index: {correct_idx}")
+else:
+    print(f"\nAnswer: {sample['answer_text']}")
 
 # ---------------------------------------------------------
 # Output Example:
+# Sample Index: 123 | ID: math_lyc_2022_1_37
+# Question: Στο σχήμα τα τετράγωνα του πλέγματος έχουν πλευρά μήκους 2 cm. Η περίμετρος του τριγώνου ΑΒΓ είναι ίση με:
 # 
-# Question: Ποιο από τα παρακάτω δεν ισχύει, σύμφωνα με το κείμενο;
-# Choices: [
-#      'Υπάρχει μόνο μία επιλογή προκειμένου να αντιμετωπίσουμε το οικολογικό πρόβλημα.', 
-#      'Οι σύγχρονοι άνθρωποι επιδιώκουν μανιωδώς την υλική ευημερία τους.', 
-#      'Η πλεονεξία των πολλών επιβαρύνει τους ανθρώπους που ζουν με μέτρο.', 
-#      "Μετά τον Β' Παγκόσμιο Πόλεμο, ο υπερκαταναλωτικός τρόπος ζωής εδραιώθηκε σε όλον τον κόσμο."
-# ]
-# Answer Index: 0 (Label: A)
+# 🖼️  Image Description: The image displays an isosceles triangle labeled $AB\Gamma$ drawn on a square grid.\nGrid: The background consists of a regular grid of squares.\nTriangle Vertices:\nVertex $A$ is at the top center.\nVertex $B$ is at the bottom left.\nVertex $\Gamma$ is at the bottom right.\nDimensions based on Grid Units:\nThe base $B\Gamma$ spans 4 horizontal grid units.\nThe height of the triangle (vertical distance from base $B\Gamma$ to vertex $A$) spans 4 vertical grid units.\nThe vertex $A$ is horizontally centered between $B$ and $\Gamma$ (2 units from $B$, 2 units from $\Gamma$).
+# 
+# Choices:
+#   [✅] 0: A. $4(\sqrt{5}+1)$ cm
+#   [  ] 1: B. 10 cm
+#   [  ] 2: Γ. 8 cm
+#   [  ] 3: Δ. $4\sqrt{3}$ cm
+# 
+# Correct Answer Index: 0
+# 
 ```
+
+## Known Data Gaps
+
+- **Missing Year**: The year 2015 is currently missing as source files were unavailable.
+- **Missing Points**: Point values are only available for ~30% of rows (primarily 2013-2019 and 2025).
 
 ---
 
@@ -116,26 +99,17 @@ elif sample.get('answer_text'):
 
 For researchers working locally or using the source repository, the data is available in several formats with additional internal metadata for traceability.
 
-### **Internal Metadata (Excel/JSON Only)**
-
-While the public benchmark is polished for evaluation, the internal artifacts contain pointers to facilitate local file management:
-
-| Key | Description |
-|-----|-------------|
-| **image_urls** | Basemate pointers of the source image file(s) (e.g., `math_2025_Q1.png`). Used to cross-reference with the `data/` folder. |
-| **q_id (Raw)** | Preserves original formatting from the source files (including float-like identifiers like `2.1`). |
-
-### **Repository Contents**
+### Repository Contents
 
 - **JSON Files**: Individual question objects with full provenance metadata.
 - **MD Files**: Markdown versions of the correct answers designed for human review.
-- **Excel Master**: A consolidated file (`protipa_exams_dataset.xlsx`) containing the full dataset with AutoFilters and local path pointers.
+- **Excel Master**: A consolidated file (`protipa_exams_dataset.xlsx`) can be creaed containing the full dataset with AutoFilters and local path pointers.
 
 ---
 
 ## Dataset Characteristics
 
-### **1. Subject Coverage**
+### 1. Subject Coverage
 
 | Subject | Question Types | Domain Overview |
 |---------|----------------|-----------------|
@@ -144,7 +118,7 @@ While the public benchmark is polished for evaluation, the internal artifacts co
 | **Physics** | Open-ended | Scientific reasoning and numeric calculation. |
 | **Religious Studies**| Multiple-Choice | General knowledge and conceptual understanding. |
 
-### **2. Known Data Gaps**
+### 2. Known Data Gaps
 
 **Note on Data Gaps**: Due to the nature of public records, some limitations apply:
 - **Missing Points**: Point values are only populated in ~30% of rows (primarily 2013-2019 and 2025).
@@ -153,9 +127,11 @@ While the public benchmark is polished for evaluation, the internal artifacts co
 
 ---
 
+
+
 ## Getting Started (Developer)
 
-### **Prerequisites**
+### Prerequisites
 
 *   **Environment**: Python 3.10+ (Recommended: use `uv` for dependency management).
 *   **API Tokens**: Create a `.env` file in the root directory with your Hugging Face credentials:
@@ -164,11 +140,11 @@ While the public benchmark is polished for evaluation, the internal artifacts co
     HF_REPO_ID=ilsp/greek-protipa-exams  # Or your target namespace
     ```
 
-### **Management Commands**
+### Management Commands
 
 The repository includes a comprehensive management script `scripts/manage.py` to handle the data lifecycle.
 
-#### **1. Data Consolidation (Local)**
+#### 1. Data Consolidation (Local)
 Transforms raw JSON/Markdown files into a structured Excel master file.
 *   **Standard**: `uv run scripts/manage.py consolidate`
 *   **Extended (with Schema Tags)**: Adds `format` and `reference` columns based on linguistic markers.
@@ -176,16 +152,14 @@ Transforms raw JSON/Markdown files into a structured Excel master file.
     uv run scripts/manage.py consolidate --extended
     ```
 
-#### **2. Data Validation**
+#### 2. Data Validation
 Before pushing to the Hub, verify that all multimodal assets (images) referenced in the JSON files exist on disk:
 ```bash
 python scripts/check_images.py
 ```
 
-#### **3. Pushing to Hugging Face Hub**
+#### 3. Pushing to Hugging Face Hub
 Synchronizes the local dataset with the Hugging Face repository. 
-
-**Note**: If you run `push` without the `--file` argument, the tool automatically rebuilds the dataset in-memory from the raw JSON/MD source files. This allows you to update the Hugging Face repository without creating or overwriting any local Excel files.
 
 *   **Text only**: `uv run scripts/manage.py push --extended`
 *   **Multimodal (Includes Images)**: Embeds the actual pixel data into the Parquet files.
@@ -193,20 +167,4 @@ Synchronizes the local dataset with the Hugging Face repository.
     uv run scripts/manage.py push --extended --with-images
     ```
 
-#### **4. Quality Control (Comparison)**
-Compare a newly generated consolidation against a reference Excel file to detect regressions:
-```bash
-uv run scripts/manage.py compare --reference path/to/previous_version.xlsx
-```
-
 ---
-
-## Dataset Schema Details
-
-The implementation follows a **Stage-based processing** pipeline:
-*   **Stage A**: Parsing of raw exam metadata and question objects.
-*   **Stage B**: Multi-source answer resolution (mapping Markdown keys to JSON indices).
-*   **Stage C**: Structural transformation (e.g., converting Matching tasks to Multiple Choice or Flattened Text).
-*   **Stage D**: Serialization and Hub synchronization.
-
-

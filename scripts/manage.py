@@ -52,8 +52,16 @@ def parse_markdown_answers(md_path):
                 if current_id:
                      # If we hit a separator while accumulating, treat it as end of answer
                      ans_text = "\n".join(current_body).strip()
-                     if (ans_text.startswith('"') and ans_text.endswith('"')) or (ans_text.startswith('"""') and ans_text.endswith('"""')):
-                         ans_text = ans_text.strip('"').strip()
+                     try:
+                         # Attempt to parse as Python literal to handle escapes (e.g., \\text -> \text)
+                         # This aligns behavior with JSON loading
+                         if (ans_text.startswith('"') and ans_text.endswith('"')) or (ans_text.startswith('"""') and ans_text.endswith('"""')):
+                             ans_text = ast.literal_eval(ans_text).strip()
+                     except (SyntaxError, ValueError):
+                         # Fallback to simple stripping if eval fails
+                         if (ans_text.startswith('"') and ans_text.endswith('"')) or (ans_text.startswith('"""') and ans_text.endswith('"""')):
+                             ans_text = ans_text.strip('"').strip()
+                             
                      answers_dict.setdefault(current_id, []).append(ans_text)
                      current_id = None
                      current_body = []
@@ -71,10 +79,17 @@ def parse_markdown_answers(md_path):
                 # Save previous answer before starting new one
                 if current_id:
                     ans_text = "\n".join(current_body).strip()
-                    if ans_text.startswith('"""') and ans_text.endswith('"""'):
-                        ans_text = ans_text[3:-3].strip()
-                    elif ans_text.startswith('"') and ans_text.endswith('"'):
-                        ans_text = ans_text[1:-1].strip()
+                    try:
+                        if ans_text.startswith('"""') and ans_text.endswith('"""'):
+                             ans_text = ast.literal_eval(ans_text).strip()
+                        elif ans_text.startswith('"') and ans_text.endswith('"'):
+                             ans_text = ast.literal_eval(ans_text).strip()
+                    except (SyntaxError, ValueError):
+                        if ans_text.startswith('"""') and ans_text.endswith('"""'):
+                            ans_text = ans_text[3:-3].strip()
+                        elif ans_text.startswith('"') and ans_text.endswith('"'):
+                            ans_text = ans_text[1:-1].strip()
+                            
                     answers_dict.setdefault(current_id, []).append(ans_text)
                 
                 current_id = match.group(1).strip()
@@ -87,10 +102,17 @@ def parse_markdown_answers(md_path):
         # Save the very last one
         if current_id:
             ans_text = "\n".join(current_body).strip()
-            if ans_text.startswith('"""') and ans_text.endswith('"""'):
-                ans_text = ans_text[3:-3].strip()
-            elif ans_text.startswith('"') and ans_text.endswith('"'):
-                ans_text = ans_text[1:-1].strip()
+            try:
+                if ans_text.startswith('"""') and ans_text.endswith('"""'):
+                    ans_text = ast.literal_eval(ans_text).strip()
+                elif ans_text.startswith('"') and ans_text.endswith('"'):
+                    ans_text = ast.literal_eval(ans_text).strip()
+            except (SyntaxError, ValueError):
+                if ans_text.startswith('"""') and ans_text.endswith('"""'):
+                    ans_text = ans_text[3:-3].strip()
+                elif ans_text.startswith('"') and ans_text.endswith('"'):
+                    ans_text = ans_text[1:-1].strip()
+
             answers_dict.setdefault(current_id, []).append(ans_text)
             
     return answers_dict

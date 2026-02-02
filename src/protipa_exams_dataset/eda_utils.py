@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 import matplotlib.pyplot as plt
 import io
 import numpy as np
@@ -35,8 +36,9 @@ def _process_text(text):
         return str(text)
     
     # Replace literal newlines and real newlines with <br>
-    # Start with most escaped to least escaped
-    text = text.replace('\\\\\\\\n', '<br>').replace('\\\\n', '<br>').replace('\\n', '<br>')
+    # Replace literal newlines only if NOT followed by ASCII letters (protects \neq, \nu, etc.)
+    text = re.sub(r'\\n(?![a-zA-Z])', '<br>', text)
+    # Handle real newlines
     text = text.replace('\r\n', '<br>').replace('\n', '<br>')
     
     return text

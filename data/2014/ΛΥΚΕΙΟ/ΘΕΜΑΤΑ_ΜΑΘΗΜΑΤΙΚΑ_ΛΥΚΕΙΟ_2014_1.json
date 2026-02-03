@@ -63,7 +63,7 @@
   },
   {
     "id": "2.2",
-    "question": "Δίνεται το τρίγωνο $\\text{AB}\\Gamma$ με $\\text{AB}=2\\text{ cm}$ και $\\text{B}\\Gamma=5\\text{ cm}$, όπως φαίνεται στο σχήμα που ακολουθεί.\nΑν $\\Gamma\\chi$ είναι προέκταση της πλευράς $\\text{B}\\Gamma$ και $\\varphi=x\\hat{\\Gamma}\\text{A}$, να υπολογίσετε το ημίτονο και το συνημίτονο της γωνίας $\\varphi$. ",
+    "question": "Δίνεται το ορθογώνιο τρίγωνο $\\text{AB}\\Gamma$ με $\\text{AB}=2\\text{ cm}$ και $\\text{B}\\Gamma=5\\text{ cm}$, όπως φαίνεται στο σχήμα που ακολουθεί.\nΑν $\\Gamma\\chi$ είναι προέκταση της πλευράς $\\text{B}\\Gamma$ και $\\varphi=x\\hat{\\Gamma}\\text{A}$, να υπολογίσετε το ημίτονο και το συνημίτονο της γωνίας $\\varphi$. ",
     "input": "",
     "choices": [],
     "images": [

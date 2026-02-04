@@ -1,5 +1,5 @@
 dataset_kwargs:
-  data_files: C:/Users/panag/Desktop/ΙΕΛ ΕΡΓΑΣΙΑ/Εξετάσεις_γλωσσομάθειας/Πρότυπα_Πειραματικά/results/full_dataset_for_eval_closed.json
+  data_files: C:/Users/panag/Desktop/ΙΕΛ ΕΡΓΑΣΙΑ/Εξετάσεις_γλωσσομάθειας/protipa-exams-dataset/results/full_dataset_for_eval_closed.json
 dataset_path: json
 doc_to_target: '{{ (answer_index | string).split('','')[0] }}'
 doc_to_text: '{% if input %}{{input}}

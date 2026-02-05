@@ -1,5 +1,5 @@
 dataset_kwargs:
-  data_files: C:/Users/panag/Desktop/ΙΕΛ ΕΡΓΑΣΙΑ/Εξετάσεις_γλωσσομάθειας/Πρότυπα_Πειραματικά/results/full_dataset_for_eval_open.json
+  data_files: C:/Users/panag/Desktop/ΙΕΛ ΕΡΓΑΣΙΑ/Εξετάσεις_γλωσσομάθειας/protipa-exams-dataset/results/full_dataset_for_eval_open.json
 dataset_path: json
 doc_to_target: '{{ answer_text }}'
 doc_to_text: 'Δίνεται η παρακάτω ερώτηση από σχολικές εξετάσεις.
@@ -25,7 +25,10 @@ generation_kwargs:
 metric_list:
 - aggregation: mean
   higher_is_better: true
-  metric: exact_match
+  metric: bleu
+- aggregation: mean
+  higher_is_better: true
+  metric: chrf
 num_fewshot: 0
 output_type: generate_until
 task: greek_protipa_exams_open

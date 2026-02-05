@@ -536,7 +536,7 @@ def plot_points_by_level(df, show_plot=False):
 def display_qa(df, sample_id):
     """
     Simpler version of print_sample that only shows Question and Answer 
-    with proper wrapping and LaTeX support.
+    with proper wrapping and LaTeX support. Now also shows Choices if available.
     """
     if isinstance(sample_id, int):
         row = df.iloc[sample_id]
@@ -550,6 +550,17 @@ def display_qa(df, sample_id):
     import uuid
     container_id = f"qa-container-{uuid.uuid4().hex[:8]}"
     
+    # Process choices if they exist
+    choices_html = ""
+    if 'choices' in row and isinstance(row['choices'], (list, np.ndarray)) and len(row['choices']) > 0:
+        choices_list = "".join([f"<div style='margin-bottom: 5px;'>• {_process_text(c)}</div>" for c in row['choices']])
+        choices_html = f"""
+        <div style="display: flex; border-bottom: 1px solid #eee;">
+            <div style="width: 120px; padding: 15px; background: #fcfcfc; font-weight: bold; color: #777;">Choices</div>
+            <div style="flex: 1; padding: 15px; white-space: pre-wrap;">{choices_list}</div>
+        </div>
+        """
+
     # We use a simple HTML layout that mirrors your style preference
     html_out = f"""
     <div id="{container_id}" style="font-family: sans-serif; border: 1px solid #eee; border-radius: 8px; overflow: hidden; margin: 10px 0;">
@@ -560,6 +571,7 @@ def display_qa(df, sample_id):
             <div style="width: 120px; padding: 15px; background: #fcfcfc; font-weight: bold; color: #777;">Question</div>
             <div style="flex: 1; padding: 15px; white-space: pre-wrap;">{_process_text(row['question'])}</div>
         </div>
+        {choices_html}
         <div style="display: flex;">
             <div style="width: 120px; padding: 15px; background: #fcfcfc; font-weight: bold; color: #777;">Answer</div>
             <div style="flex: 1; padding: 15px; white-space: pre-wrap; color: #27ae60; font-weight: 500;">{_process_text(row['answer_text'])}</div>
@@ -568,3 +580,90 @@ def display_qa(df, sample_id):
     {_get_mathjax_trigger(container_id)}
     """
     display(HTML(html_out))
+
+def print_source_files(df, sample_id=None, data_root="data"):
+    """
+    Given a sample ID (or a random one if None), identifies and prints the paths 
+    to the source JSON and Markdown files.
+    """
+    from pathlib import Path
+    import os
+    
+    # Smart path detection for notebooks
+    data_path = Path(data_root)
+    if not data_path.exists() and os.path.exists("../data"):
+        data_path = Path("../data")
+    
+    if sample_id is None:
+        sample = df.sample(1).iloc[0]
+    else:
+        filtered = df[df['id'] == sample_id]
+        if filtered.empty:
+            print(f"Sample with ID {sample_id} not found.")
+            return
+        sample = filtered.iloc[0]
+        
+    subject = str(sample.get('subject', ''))
+    level = str(sample.get('admission_level', ''))
+    year = str(sample.get('year', ''))
+    exam_set = str(sample.get('exam_set', ''))
+    sample_id_val = sample.get('id', '')
+    
+    # Reverse maps for Greek labeling
+    subj_map = {
+        "greek_language": "ΓΛΩΣΣΑ", 
+        "mathematics": "ΜΑΘΗΜΑΤΙΚΑ", 
+        "religious studies": "ΘΡΗΣΚΕΥΤΙΚΑ", 
+        "physics": "ΦΥΣΙΚΗ"
+    }
+    lvl_map = {
+        "gymnasium": "ΓΥΜΝΑΣΙΟ", 
+        "lyceum": "ΛΥΚΕΙΟ"
+    }
+    
+    # Normalize values for filename matching (handling Greek uppercase labels)
+    orig_subj = subj_map.get(subject, subject.upper())
+    orig_lvl = lvl_map.get(level, level.upper())
+    
+    # Filenames sometimes omit the set number if it is '1'
+    patterns = [
+        f"ΘΕΜΑΤΑ_{orig_subj}_{orig_lvl}_{year}_{exam_set}.json",
+        f"ΘΕΜΑΤΑ_{orig_subj}_{orig_lvl}_{year}.json" if exam_set == "1" else None
+    ]
+    patterns = [p for p in patterns if p]
+    
+    # Normalize patterns to handle potential encoding variations in rglob
+    print(f"🔍 Identifying source files for ID: {sample_id_val}")
+    print(f"📂 Searching in: {data_path.resolve()}")
+    print("-" * 50)
+    
+    found_any = False
+    
+    for pattern in patterns:
+        for json_file in data_path.rglob(pattern):
+            found_any = True
+            
+            # Calculate relative path for clicking
+            try:
+                rel_json = os.path.relpath(json_file.resolve(), os.getcwd())
+            except:
+                rel_json = str(json_file)
+
+            display(Markdown(f"✅ **Source JSON:** [{rel_json}]({rel_json})"))
+            
+            # Reconstruct MD name (ΑΠΑΝΤΗΣΕΙΣ_... instead of ΘΕΜΑΤΑ_...)
+            md_name = json_file.name.replace("ΘΕΜΑΤΑ_", "ΑΠΑΝΤΗΣΕΙΣ_").replace(".json", ".md")
+            md_path = json_file.parent / md_name
+            
+            if md_path.exists():
+                try:
+                    rel_md = os.path.relpath(md_path.resolve(), os.getcwd())
+                except:
+                    rel_md = str(md_path)
+                display(Markdown(f"✅ **Source MD:** &nbsp;&nbsp; [{rel_md}]({rel_md})"))
+            else:
+                print(f"⚠️  Source MD not found: {md_name}")
+            
+    if not found_any:
+        print(f"❌ No source files found for pattern(s): {', '.join(patterns)}")
+    print("-" * 50)

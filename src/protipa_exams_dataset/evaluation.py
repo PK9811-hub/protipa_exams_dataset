@@ -34,7 +34,7 @@ def run_evaluation(model_name, api_base=None, task_dict=None, eval_limit=None):
             max_retries=10,
             num_concurrent=1
         )
-
+    
         results = lm_eval.evaluate(
             lm=model,
             task_dict=task_dict,

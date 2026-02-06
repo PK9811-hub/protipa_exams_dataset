@@ -282,9 +282,12 @@ def process_results_bypass(doc, results):
     Οι πραγματικές μετρικές (BLEU/ChrF) θα υπολογιστούν μετά, στα RQ cells.
     """
     completion = results[0]
-    target = doc["answer"]
+    target = doc["answer_text"]
     
     # Επιστρέφουμε 'exact_match' που είναι native και δεν κρασάρει με tuples
+    #return {
+        #"exact_match": (completion, target)
+    #}
     return {
-        "exact_match": (completion, target)
+        "exact_match": 0.0 
     }

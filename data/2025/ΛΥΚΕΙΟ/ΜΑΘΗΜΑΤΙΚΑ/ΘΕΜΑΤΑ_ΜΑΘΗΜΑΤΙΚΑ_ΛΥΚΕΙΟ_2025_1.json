@@ -338,19 +338,19 @@
   },
   {
     "id": "39",
-    "question": "Για να υπολογίσουμε το ύψος $h$ του κτιρίου ΟΜ μετρήσαμε τη γωνία $\\overline{O\\Lambda M}=45^{\/circ}$ και την απόσταση $K\\Lambda=5m.$ Αν μετρήσουμε τη γωνία $O\\overline{KM}=\\omega$ ποιο είναι το ύψος του κτιρίου;",
+    "question": "Για να υπολογίσουμε το ύψος $h$ του κτιρίου ΟΜ μετρήσαμε τη γωνία $\\widehat{O\\Lambda M}=45^{\\circ}$ και την απόσταση $K\\Lambda=5m.$ Αν μετρήσουμε τη γωνία $\\widehat{OKM}=\\omega$ ποιο είναι το ύψος του κτιρίου;",
     "input": "",
     "choices": [
       "A. $h=\\frac{5\\cdot\\epsilon\\varphi\\omega}{\\epsilon\\varphi\\omega-1}$",
       "B. $h=\\frac{5\\cdot\\epsilon\\varphi\\omega}{\\epsilon\\varphi\\omega+1}$",
-      "Γ. $h=5\\cdot(\\epsilon\\varphi45^{\/circ}+\\epsilon\\varphi\\omega)$",
+      "Γ. $h=5\\cdot(\\epsilon\\varphi45^{\\circ}+\\epsilon\\varphi\\omega)$",
       "Δ. $h=\\frac{5(\\epsilon\\varphi\\omega+\\epsilon\\varphi45^{0})}{\\epsilon\\varphi\\omega-\\epsilon\\varphi45^{0}}$",
       "Ε. $h=\\frac{5(\\epsilon\\varphi\\omega-\\epsilon\\varphi45^{0})}{\\epsilon\\varphi\\omega+\\epsilon\\varphi45^{0}}$"
     ],
     "images": [
         {
           "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_1/ΕΙΚΟΝΑ_10/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_1_ΘΕΜΑ_39_ΕΙΚΟΝΑ_10.png",
-          "description": "The image displays a geometric diagram representing a trigonometry problem for calculating height.\nGeometric Elements:\nVertical Segment ($OM$): A vertical line segment on the right, with vertex $M$ at the top and base $O$ at the bottom. It represents the height of the building and is labeled $h$. There is a right-angle symbol ($90^/circ$) at the base $O$.\nHorizontal Line: A line representing the ground extending to the left from base $O$. Two points are marked on it: $K$ and $\\Lambda$.\nThe arrangement from left to right is: $\\Lambda$, $K$, $O$.\nTriangles and Angles:\nA large right-angled triangle $\\Lambda O M$ is formed. The angle at the base $\\Lambda$ (angle of elevation to vertex $M$) is given as $45^/circ$.\nA smaller right-angled triangle $K O M$ is formed. The angle at the base $K$ (angle of elevation to vertex $M$) is labeled $\\omega$.\nGiven Lengths:\nThe distance between points $\\Lambda$ and $K$ is labeled as $5\text{ m}$ ($\\Lambda K = 5$).",
+          "description": "The image displays a geometric diagram representing a trigonometry problem for calculating height.\nGeometric Elements:\nVertical Segment ($OM$): A vertical line segment on the right, with vertex $M$ at the top and base $O$ at the bottom. It represents the height of the building and is labeled $h$. There is a right-angle symbol ($90^\\circ$) at the base $O$.\nHorizontal Line: A line representing the ground extending to the left from base $O$. Two points are marked on it: $K$ and $\\Lambda$.\nThe arrangement from left to right is: $\\Lambda$, $K$, $O$.\nTriangles and Angles:\nA large right-angled triangle $\\Lambda O M$ is formed. The angle at the base $\\Lambda$ (angle of elevation to vertex $M$) is given as $45^\\circ$.\nA smaller right-angled triangle $K O M$ is formed. The angle at the base $K$ (angle of elevation to vertex $M$) is labeled $\\omega$.\nGiven Lengths:\nThe distance between points $\\Lambda$ and $K$ is labeled as $5\text{ m}$ ($\\Lambda K = 5$).",
           "transcription": []
         }
     ],

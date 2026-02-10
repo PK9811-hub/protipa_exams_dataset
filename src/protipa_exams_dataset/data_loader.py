@@ -92,7 +92,7 @@ def load_protipa_dataset(repo_id=None, split=None):
     Loads and concatenates train and test splits if split is not specified.
     """
     if repo_id is None:
-        repo_id = os.getenv("HF_REPO_ID", "PK9811-hub/protipa_exams_dataset")
+        repo_id = os.getenv("HF_REPO_ID")
     
     logger.info(f"Loading dataset from Hugging Face: {repo_id}")
     dataset_dict = load_dataset(repo_id)

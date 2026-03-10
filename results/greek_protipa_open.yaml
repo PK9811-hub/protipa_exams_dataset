@@ -1,5 +1,5 @@
 dataset_kwargs:
-  data_files: C:/Users/panag/Desktop/ΙΕΛ ΕΡΓΑΣΙΑ/Εξετάσεις_γλωσσομάθειας/protipa-exams-dataset/results/full_dataset_for_eval_open.json
+  data_files: results/full_dataset_for_eval_open.json
 dataset_path: json
 doc_to_target: '{{ answer_text }}'
 doc_to_text: 'Δίνεται η παρακάτω ερώτηση από σχολικές εξετάσεις.

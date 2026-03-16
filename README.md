@@ -1,6 +1,6 @@
 # Code to generate the Greek Protipa Exams Dataset
 
-Greek Protipa Exams  (https://huggingface.co/datasets/ilsp/greek-protipa-exams/) is a dataset derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Πρότυπα και Πειραματικά Σχολεία) in Greece. 
+GR-ProtipaExams ([Link withheld for double-blind review]) is a dataset derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Πρότυπα και Πειραματικά Σχολεία) in Greece. 
 
 Spanning from 2013 to 2025, the dataset includes questions with the following features:
 
@@ -13,8 +13,7 @@ The benchmark can be used for the evaluation of LLMs on complex, multi-subject, 
 
 ## Dataset Creation
 
-The source material was extracted from the official portal of the **Governing Body of Model and Experimental Schools** ([https://depps.minedu.gov.gr/](https://depps.minedu.gov.gr/)). It was then converted into the current format via specialized processing pipelines by researchers at 
-[ILSP](https://www.ilsp.gr/)/[Athena Research Centre](https://www.athenarc.gr/).
+The source material was extracted from the official portal of the **Governing Body of Model and Experimental Schools** ([https://depps.minedu.gov.gr/](https://depps.minedu.gov.gr/)). It was then converted into the current format via specialized processing pipelines by the authors.
 
 **Disclaimer**: While every effort has been made to ensure the accuracy and completeness of this structured dataset, any errors, omissions, or formatting issues are the result of the processing and transformation pipeline and are **not related** to the original source or the Ministry of Education.
 
@@ -137,7 +136,7 @@ For researchers working locally or using the source repository, the data is avai
 *   **API Tokens**: Create a `.env` file in the root directory with your Hugging Face credentials:
     ```bash
     HF_TOKEN=your_huggingface_write_token
-    HF_REPO_ID=ilsp/greek-protipa-exams  # Or your target namespace
+    HF_REPO_ID=your_username/greek-protipa-exams  # Your target namespace
     ```
 
 ### Management Commands

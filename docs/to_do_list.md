@@ -42,7 +42,7 @@
 
 | Περιγραφή Ενέργειας (Action Item) | Προτεινόμενη Λύση | Κατάσταση (Status) | Σχόλια / Σημειώσεις |
 | :--- | :--- | :---: | :--- |
-| Προσθήκη Ενότητας "Ethical Considerations" | Εισαγωγή νομικού αποποιητικού σύμφωνα με το Ευρωπαϊκό πλαίσιο: *"The original exam materials remain the intellectual property of the Greek Ministry of Education. The dataset is distributed strictly for non-commercial, academic research purposes under the European Union's Text and Data Mining (TDM) exception (Article 3 of the CDSM Directive). We do not claim ownership of the underlying texts."* | [ ] To Do | |
+| Προσθήκη Ενότητας "Ethical Considerations" | Εισαγωγή νομικού αποποιητικού σύμφωνα με το Ευρωπαϊκό πλαίσιο: *"The original exam materials remain the intellectual property of the Greek Ministry of Education. The dataset is distributed strictly for non-commercial, academic research purposes under the European Union's Text and Data Mining (TDM) exception (Article 3 of the CDSM Directive). We do not claim ownership of the underlying texts."* | [x] Done | |
 
 ---
 
@@ -52,7 +52,7 @@
 
 | Περιγραφή Ενέργειας (Action Item) | Προτεινόμενη Λύση | Κατάσταση (Status) | Σχόλια / Σημειώσεις |
 | :--- | :--- | :---: | :--- |
-| Διόρθωση Στοιχείων Μοντέλου KriKri | Διόρθωση της ονομασίας σε "Llama-KriKri-8B-Instruct" και προσθήκη της επίσημης βιβλιογραφικής αναφοράς (arXiv). | [ ] To Do | |
+| Διόρθωση Στοιχείων Μοντέλου KriKri | Διόρθωση της ονομασίας σε "Llama-KriKri-8B-Instruct" και προσθήκη της επίσημης βιβλιογραφικής αναφοράς (arXiv). | [x] Done | |
 | Έλεγχος Data Contamination | Επιλογή ελέγχου: (α) Διαχωρισμός απόδοσης προ-2023 έναντι 2024-2025 (Date cutoff), ή (β) Τεστ N-gram Overlap σε χαρακτηριστικές προτάσεις. | [ ] To Do | |
-| Προσθήκη Περιορισμών (Contamination / Preprocessing) | Σε περίπτωση αδυναμίας τεχνικού ελέγχου contamination, ρητή καταγραφή του ρίσκου στα Limitations, τονίζοντας τον τεράστιο όγκο preprocessing / alignment που απαιτήθηκε. | [ ] To Do | |
-| Διόρθωση Τυπογραφικών και Βιβλιογραφίας | Διόρθωση σφαλμάτων κειμένου (π.χ., "71.9%2") και ορθή μορφοποίηση των ανώνυμων αναφορών στο bibliography. | [ ] To Do | |
+| Προσθήκη Περιορισμών (Contamination / Preprocessing) | Σε περίπτωση αδυναμίας τεχνικού ελέγχου contamination, ρητή καταγραφή του ρίσκου στα Limitations, τονίζοντας τον τεράστιο όγκο preprocessing / alignment που απαιτήθηκε. | [x] Done | |
+| Διόρθωση Τυπογραφικών και Βιβλιογραφίας | Διόρθωση σφαλμάτων κειμένου (π.χ., "71.9%2") και ορθή μορφοποίηση των ανώνυμων αναφορών στο bibliography. | [x] Done | |

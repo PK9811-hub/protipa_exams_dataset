@@ -1,147 +1,169 @@
-📚 **GR-ProtipaExams Dataset: Structured Exam Questions (2013-2025)**
+# Code to generate the Greek Protipa Exams Dataset
 
-**Overview**
+GR-ProtipaExams ([Link withheld for double-blind review]) is a dataset derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Πρότυπα και Πειραματικά Σχολεία) in Greece. 
 
+Spanning from 2013 to 2025, the dataset includes questions with the following features:
 
-The GR-ProtipaExams project introduces a comprehensive, structured dataset, called “GR-ProtipaExams”, derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Protipa and Peiramatika Schools) in Greece. This dataset spans the years 2013 to 2025 and covers core secondary education subjects.
+*   **Subjects**: Greek Language, Mathematics, Physics, and Religious Studies
+*   **Educational Levels**: Questions targeted at both Gymnasium (Γυμνάσιο) and Lyceum (Λύκειο) admission exams.
+*   **Formats**: Multiple Choice, True/False, Matching, Fill-in-the-Gaps, and Open-Ended questions.
+*   **Modalities**: Questions suitable for multimodal evaluation, featuring high-fidelity images/diagrams, LLM-genarated image descriptions, and OCR transcriptions.
 
-The primary goal is to provide a standardized resource for educational research, quantitative statistical analysis, and, particularly, for training, finetuning, and evaluating Large Language Models (LLMs) on complex, multi-subject assessment tasks in the Greek language.
+The benchmark can be used for the evaluation of LLMs on complex, multi-subject, multi-format questions in the Greek language. Additionally, it may be useful as a high-quality resource for quantitative educational research.
 
+## Dataset Creation
 
-**Repository Contents**
+The source material was extracted from the official portal of the **Governing Body of Model and Experimental Schools** ([https://depps.minedu.gov.gr/](https://depps.minedu.gov.gr/)). It was then converted into the current format via specialized processing pipelines by the authors.
 
-This repository is strictly dedicated to hosting the final, processed data artifacts:
+**Disclaimer**: While every effort has been made to ensure the accuracy and completeness of this structured dataset, any errors, omissions, or formatting issues are the result of the processing and transformation pipeline and are **not related** to the original source or the Ministry of Education.
 
-• JSON files: Contain the structured format of individual questions and their complete metadata.
-
-• MD files: Markdown versions of the correct answers/solutions, designed for easy viewing and LLM consumption.
-
-• Excel / CSV dataframe: A consolidated, analysis-ready tabular file for filtering, statistical tasks, and quick data exploration.
-
-
-🔗 **Source Code and Data Generation**
-
-The entire pipeline—from corpus gathering and cleaning to structuring, ID generation, and alignment—was implemented through dedicated scripts.
-
-The full source code repository used to generate this dataset is located here:
-
-[ https://github.com/PK9811-hub/dataset_creation ]
+## Dataset Structure
 
 
+| Column | Description |
+|--------|-------------|
+| **id** | Unique identifier. |
+| **subject** | Academic subject (including `greek_language`, `mathematics`, `physics`, `religious studies`). |
+| **format** | `multiple_choice`, `true_false`, `matching`, `fill_in_the_gaps`, `open_ended`. |
+| **reference** | Additional reference inputs: `none`, (text) `passage`, `multimodal`, `table`. |
+| **question** | The core question. |
+| **input** | Passage. |
+| **images** | Visual asset(s) (diagrams, photos, geometrical figures). |
+| **choices** | Candidate answers for closed-ended questions. |
+| **answer_text** | The answer/solution (string). |
+| **answer_index** | The index of the correct answer for multiple choice questions. |
+| **image_description** | LLM-generated textual descriptions of visual assets. |
+| **image_transcription** | OCR/Text extraction from within the visual assets. |
+| **points** | Assigned point value for the question (numeric). May be null if missing in the source. |
+| **year** | The year of the exam. |
+| **admission_level** | The target education level: `gymnasium` or `lyceum`. |
+| **exam_set** | The ID of the exam batch/paper (e.g., 1, 2) |
+| **q_id** | The specific ID/number of the question within its set. |
 
-1. **Data Structure and Keys**
-   
-| File / Directory | Description |
-|------------------|-------------|
-| **id** | Unique identifier for each question–answer entry (e.g., `MATH_2023_HS_Q05`). |
-| **question** | The introductory text and the core task of the exercise, including any necessary formulas or equations encoded in $\text{LaTeX}$. |
-| **input** | Supplementary text provided with the exercise, such as literary passages (for Greek Language) or detailed descriptions of diagrams/images. |
-| **choices** | The candidate answers provided for closed-ended question types. |
-| **images** | A list of objects containing the file path, detailed description, and transcription of any accompanying images or diagrams (multi-modal components). |
-| **mark** | The assigned score/mark for each correct entry. |
+## Usage 
+
+```python
+import random
+
+# Load a random sample
+random_idx = random.randint(0, len(dataset) - 1)
+sample = dataset[random_idx]
+
+print(f"Sample Index: {random_idx} | ID: {sample['id']}")
+print(f"Question: {sample['question']}\n")
+
+# 1. Handle Multimodal Metadata (Descriptions & Transcriptions)
+if sample.get('image_description'):
+    print(f"🖼️  Image Description: {sample['image_description']}")
+
+if sample.get('image_transcription'):
+    print(f"📝 Image Transcription: {sample['image_transcription']}")
+
+# 2. Handle Choices
+if sample.get('choices'):
+    print("\nChoices:")
+    correct_idx = sample.get('answer_index')
+    for i, choice in enumerate(sample['choices']):
+        marker = "[✅]" if i == correct_idx else "[  ]"
+        print(f"  {marker} {i}: {choice}")
+    print(f"\nCorrect Answer Index: {correct_idx}")
+else:
+    print(f"\nAnswer: {sample['answer_text']}")
+
+# ---------------------------------------------------------
+# Output Example:
+# Sample Index: 123 | ID: math_lyc_2022_1_37
+# Question: Στο σχήμα τα τετράγωνα του πλέγματος έχουν πλευρά μήκους 2 cm. Η περίμετρος του τριγώνου ΑΒΓ είναι ίση με:
+# 
+# 🖼️  Image Description: The image displays an isosceles triangle labeled $AB\Gamma$ drawn on a square grid.\nGrid: The background consists of a regular grid of squares.\nTriangle Vertices:\nVertex $A$ is at the top center.\nVertex $B$ is at the bottom left.\nVertex $\Gamma$ is at the bottom right.\nDimensions based on Grid Units:\nThe base $B\Gamma$ spans 4 horizontal grid units.\nThe height of the triangle (vertical distance from base $B\Gamma$ to vertex $A$) spans 4 vertical grid units.\nThe vertex $A$ is horizontally centered between $B$ and $\Gamma$ (2 units from $B$, 2 units from $\Gamma$).
+# 
+# Choices:
+#   [✅] 0: A. $4(\sqrt{5}+1)$ cm
+#   [  ] 1: B. 10 cm
+#   [  ] 2: Γ. 8 cm
+#   [  ] 3: Δ. $4\sqrt{3}$ cm
+# 
+# Correct Answer Index: 0
+# 
+```
+
+## Known Data Gaps
+
+- **Missing Year**: The year 2015 is currently missing as source files were unavailable.
+- **Missing Points**: Point values are only available for ~30% of rows (primarily 2013-2019 and 2025).
+
+---
+
+## Local Data
+
+For researchers working locally or using the source repository, the data is available in several formats with additional internal metadata for traceability.
+
+### Repository Contents
+
+- **JSON Files**: Individual question objects with full provenance metadata.
+- **MD Files**: Markdown versions of the correct answers designed for human review.
+- **Excel Master**: A consolidated file (`protipa_exams_dataset.xlsx`) can be creaed containing the full dataset with AutoFilters and local path pointers.
+
+---
+
+## Dataset Characteristics
+
+### 1. Subject Coverage
+
+| Subject | Question Types | Domain Overview |
+|---------|----------------|-----------------|
+| **Greek Language** | MC, T/F, Gaps, Matching | Strong emphasis on reading comprehension and syntax. |
+| **Mathematics** | Open-ended, MC | Logic, geometry, and problem-solving. |
+| **Physics** | Open-ended | Scientific reasoning and numeric calculation. |
+| **Religious Studies**| Multiple-Choice | General knowledge and conceptual understanding. |
+
+### 2. Known Data Gaps
+
+**Note on Data Gaps**: Due to the nature of public records, some limitations apply:
+- **Missing Points**: Point values are only populated in ~30% of rows (primarily 2013-2019 and 2025).
+- **Missing Year**: The year 2015 is currently missing as source files were publicly unavailable.
+- **Missing Solutions**: Lyceum papers for 2014 (Greek) and 2018 (Greek/Math) lack official solution keys.
+
+---
 
 
-2. **Dataframe Columns (Excel/CSV)**
 
-| File / Directory | Description |
-|------------------|-------------|
-| **unique_id** | Unique identifier for the row entry (autoincremented index for the dataframe). |
-| **subject** | The academic subject of the exam (e.g., Greek Language, Math, Physics, Religious Studies). |
-| **school_level** | The education level (middle school or high school). |
-| **series** | Refers to the original question numbering from the JSON file (e.g., 1.1, 1.2, etc.). |
-| **label_id** | The original ID of the question grouping as it appeared in the raw exam files (e.g., 1, 2, 3). |
-| **question** | The introductory text and the core task of the exercise, including LaTeX. |
-| **input** | Supplementary text (passages, diagram descriptions). |
-| **choices** | The candidate answers provided for closed-ended questions. |
-| **answer** | The final, validated answer/solution. |
-| **multimodality** | Indicates the presence of associated diagrams or images (yes/no). |
-| **image_path** | Local file path to the image file used in the question. |
-| **image_link** | External link/URL associated with the image. |
-| **mark** | The assigned score/mark for the entry. |
-| **question_type** | The general structure: Open or Closed ended. |
-| **exercise_type** | The specific format: multiple-choice, true/false, fill-in-the-gaps, or matching. |
-| **source_file** | The name of the original file/document from which the question was extracted. |
+## Getting Started (Developer)
 
+### Prerequisites
 
+*   **Environment**: Python 3.10+ (Recommended: use `uv` for dependency management).
+*   **API Tokens**: Create a `.env` file in the root directory with your Hugging Face credentials:
+    ```bash
+    HF_TOKEN=your_huggingface_write_token
+    HF_REPO_ID=your_username/greek-protipa-exams  # Your target namespace
+    ```
 
-3. **Subject Coverage and Question Types**
+### Management Commands
 
-| File / Directory     | Description |
-|----------------------|-------------|
-| **Greek Language**   | Covers all defined task types (MC, T/F, Gaps, Matching). |
-| **Mathematics**      | Primarily Open-ended tasks and Multiple-Choice. |
-| **Physics**          | Exclusively Open-ended questions. |
-| **Religious Studies**| Exclusively Closed-ended questions (Multiple-Choice). |
+The repository includes a comprehensive management script `scripts/manage.py` to handle the data lifecycle.
 
+#### 1. Data Consolidation (Local)
+Transforms raw JSON/Markdown files into a structured Excel master file.
+*   **Standard**: `uv run scripts/manage.py consolidate`
+*   **Extended (with Schema Tags)**: Adds `format` and `reference` columns based on linguistic markers.
+    ```bash
+    uv run scripts/manage.py consolidate --extended
+    ```
 
-
-
-⚠️ **Known Data Gaps and Missing Information**
-Due to the nature of the publicly available source files, the following gaps were identified and processed:
-
-• Missing Year: All exam files from 2015 were unavailable, resulting in a gap in the time series data.
-
-• Missing Solutions: Official solutions were not provided for:
-
-Greek Language (High School, 2014)
-
-Greek Language and Mathematics (High School, 2018)
-
-•  Writing Prompts: For the free-text writing component of the Greek Language exams, a separate file is provided containing only the prompts and grading guidelines, as official model answers do not exist.
-
-
-## Project Structure
-
-- `data/`: Contains raw exam data (PDFs, DOCX, JSON, MD).
-- `notebooks/`: Jupyter notebooks for evaluation and analysis.
-- `src/protipa_exams_dataset/`: Main source code for data loading and evaluation logic.
-- `pyproject.toml`: Project configuration and dependencies.
-- `.env`: Environment variables (API keys, host URLs).
-
-## Getting Started
-
-1. Install dependencies:
-   ```bash
-   uv sync
-   ```
-2. Configure `.env`:
-   ```bash
-   LITELLM_HOST=your_host_url
-   LITELLM_ILSP_EVAL_API_KEY=your_api_key
-   ```
-3. Run evaluation notebooks in `notebooks/`.
-
-## Development / Editable Mode
-
-To ensure that the package is installed in **editable mode** (so that changes to the files in `src/` are reflected immediately), use:
-
+#### 2. Data Validation
+Before pushing to the Hub, verify that all multimodal assets (images) referenced in the JSON files exist on disk:
 ```bash
-uv pip install -e .
+python scripts/check_images.py
 ```
 
-When the project is installed in editable mode, you can combine it with **IPython autoreload** in your notebooks to develop source code and run experiments simultaneously:
+#### 3. Pushing to Hugging Face Hub
+Synchronizes the local dataset with the Hugging Face repository. 
 
-```python
-%load_ext autoreload
-%autoreload 2
+*   **Text only**: `uv run scripts/manage.py push --extended`
+*   **Multimodal (Includes Images)**: Embeds the actual pixel data into the Parquet files.
+    ```bash
+    uv run scripts/manage.py push --extended --with-images
+    ```
 
-from protipa_exams_dataset import load_protipa_dataset
-# Now any changes to data_loader.py will be automatically reloaded!
-```
-
-## Usage
-
-You can use the utility functions in your notebooks by importing them from their respective modules:
-
-```python
-from protipa_exams_dataset.data_loader import load_protipa_dataset, filter_dataset, apply_matching_processing, clean_dataset_paths
-
-dataset = load_protipa_dataset()
-df = dataset.to_pandas()
-
-# Process matching exercises to create distractors and shuffle
-df_final = apply_matching_processing(df)
-
-# Clean paths to keep only filenames
-df_final = clean_dataset_paths(df_final)
-```
+---

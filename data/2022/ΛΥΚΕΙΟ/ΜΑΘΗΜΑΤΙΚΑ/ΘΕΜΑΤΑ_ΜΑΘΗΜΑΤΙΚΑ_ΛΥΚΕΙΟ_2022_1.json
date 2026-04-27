@@ -1,0 +1,375 @@
+[
+  {
+    "id": "26",
+    "question": "Ο αριθμός $(0,01)^{-2}$ είναι ίσος με",
+    "input": "",
+    "choices": [
+      "A. -0,0001",
+      "B. -0,02",
+      "Γ. 0,0001",
+      "Δ. 10.000"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "27",
+    "question": "Ο αριθμός $(\\sqrt{3+\\sqrt{5}}+\\sqrt{3-\\sqrt{5}})^{2}$ είναι ίσος με",
+    "input": "",
+    "choices": [
+      "A. 6",
+      "B. 10",
+      "Γ. $6-2\\sqrt{5}$",
+      "Δ. 256"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "28",
+    "question": "Ο Γιώργος έχει διπλάσια χρήματα από το Νίκο και ο Νίκος έχει 60 € (ευρώ) παραπάνω από τη Μαρία. Αν η Μαρία έχει το $\\frac{1}{4}$ από τα χρήματα του Γιώργου, τότε όλοι μαζί έχουν:",
+    "input": "",
+    "choices": [
+      "Α. λιγότερα από 340 €",
+      "B. 340 €",
+      "Γ. 420 €",
+      "Δ. περισσότερα από 420 €"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "29",
+    "question": "Σε ένα ορθογώνιο τρίγωνο οι οξείες γωνίες του έχουν μέτρα ω και φ. Αν $\\eta\\mu\\phi=0,4$ τότε το συνω είναι ίσο με",
+    "input": "",
+    "choices": [
+      "A. 0,4",
+      "B. 0,6",
+      "Γ. $\\sqrt{0,84}$",
+      "Δ. $-\\sqrt{0,84}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "30",
+    "question": "Αν ο αριθμός $(1+x)(1-y)$ είναι μικρότερος του αριθμού $1+x-y$, τότε οι αριθμοί χ και y είναι:",
+    "input": "",
+    "choices": [
+      "Α. ομόσημοι",
+      "Β. ετερόσημοι",
+      "Γ. μηδέν",
+      "Δ. αντίθετοι"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "31",
+    "question": "Για την ισότητα $1636=43\\cdot37+45$ είναι αλήθεια ότι:",
+    "input": "",
+    "choices": [
+      "Α. αντιστοιχεί σε Ευκλείδεια Διαίρεση με διαιρετέο 1636 και υπόλοιπο 45.",
+      "Β. αντιστοιχεί σε Ευκλείδεια Διαίρεση με διαιρέτη το 43.",
+      "Γ. αντιστοιχεί σε Ευκλείδεια Διαίρεση με πηλίκο το 43.",
+      "Δ. δεν αντιστοιχεί σε Ευκλείδεια Διαίρεση."
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "32",
+    "question": "Ποια από τις παρακάτω παραστάσεις είναι ίση με την παράσταση $\\Lambda=(\\alpha^{3}\\beta+\\alpha\\beta^{3})(\\frac{1}{\\alpha}+\\frac{1}{\\beta})$;",
+    "input": "",
+    "choices": [
+      "Α. $\\alpha^{2}\\beta+\\alpha\\beta^{2}$",
+      "Β. $\\alpha^{3}+\\beta^{3}$",
+      "Γ. $\\alpha^{2}\\beta+\\alpha^{3}+\\beta^{3}+\\alpha\\beta^{2}$",
+      "Δ. $\\frac{\\alpha^{3}\\beta+\\alpha\\beta^{3}}{\\alpha\\beta}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "33",
+    "question": "Η εταιρεία κινητής τηλεφωνίας ΒΗΤΑ χρεώνει 15 λεπτά του ευρώ για κάθε λεπτό ομιλίας. Ο Χρήστος που είναι πελάτης της εταιρείας ΒΗΤΑ έχει ειδική έκπτωση 0,02 € (ευρώ) για κάθε λεπτό που μιλάει στο τηλέφωνο. Ποια από τις παρακάτω ισότητες ανταποκρίνεται στο ποσό y σε ευρώ που πληρώνει ο Χρήστος για x λεπτά ομιλίας;",
+    "input": "",
+    "choices": [
+      "A. $y=15x+2$",
+      "B. $y=0,15x-0,02$",
+      "Γ. $y=0,13x$",
+      "Δ. $y=15x-2$."
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "34",
+    "question": "Αν $\\alpha=(3\\sqrt{5}+2\\sqrt{5}+\\sqrt{5})^{2}.$ τότε:",
+    "input": "",
+    "choices": [
+      "Α. $\\alpha=70$",
+      "Β. $\\alpha=30$",
+      "Γ. $\\alpha=180$",
+      "Δ. $\\alpha=36\\sqrt{5}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "35",
+    "question": "Δίνονται οι εξισώσεις $2019x=2018+\\frac{2021}{2020}\\cdot\\frac{2019}{2022}$ και $[(\\frac{1}{2}+x)-\\frac{3x}{4}]+1=(\\frac{1}{2}+x)-\\frac{3x}{4}$. Αριθμός που να επαληθεύει και τις δύο εξισώσεις:",
+    "input": "",
+    "choices": [
+      "Α. είναι το 0.",
+      "Β. είναι το $\\frac{1}{2}$",
+      "Γ. είναι μεγαλύτερος από $\\frac{1}{2}$",
+      "Δ. δεν υπάρχει."
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "36",
+    "question": "Η εξίσωση $x^{2}+2x+2+\\frac{2}{x}+\\frac{1}{x^{2}}=0$",
+    "input": "",
+    "choices": [
+      "Α. είναι αδύνατη",
+      "Β. έχει ακριβώς μια λύση",
+      "Γ. έχει δυο λύσεις",
+      "Δ. έχει περισσότερες από δύο λύσεις"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "37",
+    "question": "Στο σχήμα τα τετράγωνα του πλέγματος έχουν πλευρά μήκους 2 cm. Η περίμετρος του τριγώνου ΑΒΓ είναι ίση με:",
+    "input": "",
+    "choices": [
+      "A. $4(\\sqrt{5}+1)$ cm",
+      "B. 10 cm",
+      "Γ. 8 cm",
+      "Δ. $4\\sqrt{3}$ cm"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2022_1/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2022_1_ΘΕΜΑ_37_ΕΙΚΟΝΑ_1.png",
+        "description": "The image displays an isosceles triangle labeled $AB/Gamma$ drawn on a square grid.\nGrid: The background consists of a regular grid of squares.\nTriangle Vertices:\nVertex $A$ is at the top center.\nVertex $B$ is at the bottom left.\nVertex $/Gamma$ is at the bottom right.\nDimensions based on Grid Units:\nThe base $B/Gamma$ spans 4 horizontal grid units.\nThe height of the triangle (vertical distance from base $B/Gamma$ to vertex $A$) spans 4 vertical grid units.\nThe vertex $A$ is horizontally centered between $B$ and $/Gamma$ (2 units from $B$, 2 units from $/Gamma$).",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "38",
+    "question": "Οι κορυφές του τετραγώνου ΕΖΗΘ είναι μέσα των πλευρών του τετραγώνου ΑΒΓΔ. Τότε είναι λάθος ότι:",
+    "input": "",
+    "choices": [
+      "Α. Το εμβαδόν του ΑΒΓΔ είναι διπλάσιο από του ΕΖΗΘ",
+      "Β. Η περίμετρος του ΑΒΓΔ είναι διπλάσια από του ΕΖΗΘ",
+      "Γ. Οι διαγώνιοι του ΕΖΗΘ είναι ίσες με τις πλευρές του ΑΒΓΔ",
+      "Δ. Οι μεσοκάθετοι των πλευρών του ΕΖΗΘ διχοτομούν τις γωνίες του ΑΒΓΔ."
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2022_1/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2022_1_ΘΕΜΑ_38_ΕΙΚΟΝΑ_2.png",
+        "description": "The image displays a geometric diagram showing two squares.\nLarge Square: The outer shape is a large square labeled $A B /Gamma /Delta$ ($ABCD$).\nInner Square: Inside the large square, there is a second, smaller square labeled $E Z H /Delta$ (shaded in light grey).\nRelationship: The vertices of the inner square ($E, Z, H, /Delta$) are positioned exactly at the midpoints of the sides of the outer square. Specifically:\n$E$ is the midpoint of $AB$.\n$Z$ is the midpoint of $B/Gamma$.\n$H$ is the midpoint of $/Gamma/Delta$.\n$/Delta$ is the midpoint of $/Delta A$.\nThis arrangement means the inner square is rotated by 45 degrees relative to the outer square.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "39",
+    "question": "Αν οι ακτίνες δύο κύκλων είναι ίσες με $3\\alpha^{2}-1$ και $2\\sqrt{3}\\alpha,$ τότε η ακτίνα του κύκλου με εμβαδόν ίσο με το άθροισμα των εμβαδών των δύο προηγούμενων κύκλων είναι:",
+    "input": "",
+    "choices": [
+      "Α. $3\\alpha^{2}+1$",
+      "Β. $(3\\alpha^{2}+2\\sqrt{3}\\alpha-1): 2$",
+      "Γ. $3\\alpha^{2}$",
+      "Δ. $9\\alpha^{2}+1$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "40",
+    "question": "Ο αριθμός $\\alpha=(2022+\\frac{1}{1011})^{2}-(2022-\\frac{1}{1011})^{2}$ είναι ίσος με",
+    "input": "",
+    "choices": [
+      "A. 0",
+      "B. 8",
+      "Γ. $\\frac{2}{(1011)^{2}}$",
+      "Δ. 4"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "41",
+    "question": "Το κλάσμα $\\frac{3}{7}$ ανταποκρίνεται σε δεκαδικό περιοδικό αριθμό. Ποιο είναι το εικοστό δεκαδικό του ψηφίο;",
+    "input": "",
+    "choices": [
+      "A. 7",
+      "B. 4",
+      "Γ. 2",
+      "Δ. 8"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "42",
+    "question": "Αν $\\alpha+\\beta=1000$ τότε η τιμή της παράστασης $(2\\alpha+\\beta+2022)^{2}+2(2\\alpha+\\beta+2022)(\\alpha+2\\beta-22)+(\\alpha+2\\beta-22)^{2}$ είναι ίση με:",
+    "input": "",
+    "choices": [
+      "A. 5.000",
+      "Β. 5.022",
+      "Γ. 25.220.484",
+      "Δ. $2,5\\cdot10^{7}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "43",
+    "question": "Ποια από τις παρακάτω ευθείες σχηματίζει με τους άξονες το τρίγωνο με το μεγαλύτερο εμβαδόν;",
+    "input": "",
+    "choices": [
+      "A. $y=-0,2x+1$",
+      "B. $y=-0,5x+1$",
+      "Г. $y=x+1$",
+      "Δ. $y=2x+1$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "44",
+    "question": "Έχουμε σχεδιάσει δυο ημικύκλια με διαμέτρους ΑΜ και ΜB, όπου Α, Μ, Β είναι στην ίδια ευθεία. Αν AB = 8cm και $AM=x$ cm τότε τα μήκη των ημικυκλίων έχουν άθροισμα:",
+    "input": "",
+    "choices": [
+      "Α. 8π cm",
+      "Β. 4π cm",
+      "Γ. 4π+πx cm",
+      "Δ. $4\\pi-\\pi x$ cm"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2022_1/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2022_1_ΘΕΜΑ_44_ΕΙΚΟΝΑ_3.png",
+        "description": "The image displays a geometric diagram with two semicircles joined end-to-end along a straight horizontal line.\nLine Segment: The base is a straight line segment with endpoints $A$ (left) and $B$ (right). An intermediate point $M$ lies on this segment between $A$ and $B$.\nSemicircles:\nA smaller semicircle is drawn above the segment $AM$, with $AM$ as its diameter.\nA larger semicircle is drawn above the segment $MB$, with $MB$ as its diameter.\nThe two semicircles touch at point $M$.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "45",
+    "question": "Το παρακάτω ραβδόγραμμα απεικονίζει σε ποσοστά % τις απαντήσεις των μαθητών και των μαθητριών της A' τάξης ενός Λυκείου σε μια έρευνα με το ερώτημα «πόσα χρήματα, σε ευρώ ξοδέψατε την τελευταία εβδομάδα;» Ποια από τις προτάσεις που ακολουθούν είναι αληθής;",
+    "input": "",
+    "choices": [
+      "Α. Περισσότερα από τα μισά παιδιά απάντησαν ότι ξόδεψαν τουλάχιστον 4 ευρώ την τελευταία εβδομάδα.",
+      "Β. Λιγότερα από τα μισά παιδιά απάντησαν ότι ξόδεψαν το πολύ 3 ευρώ, την τελευταία εβδομάδα.",
+      "Γ. Τα παιδιά που απάντησαν στην έρευνα ξόδεψαν κατά μέσο όρο 3,15 ευρώ την τελευταία εβδομάδα.",
+      "Δ. Ακριβώς 100 παιδιά απάντησαν στην έρευνα."
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2022_1/ΕΙΚΟΝΑ_4/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2022_1_ΘΕΜΑ_45_ΕΙΚΟΝΑ_4.png",
+        "description": "The image displays a vertical bar chart (histogram) illustrating survey results.\nY-axis (Vertical): Represents a numerical scale ranging from 0 to 45, marked in increments of 5. It shows percentages.\nX-axis (Horizontal): Lists five categories labeled 1, 2, 3, 4, 5.\nData Bars:\nCategory 1: The bar reaches the height of 5.\nCategory 2: The bar reaches the height of 20.\nCategory 3: The bar reaches the height of 40 (the tallest bar).\nCategory 4: The bar reaches the height of 25.\nCategory 5: The bar reaches the height of 10.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "46",
+    "question": "Πόσες λύσεις έχει η εξίσωση $6x^{2}-10x+1=x^{3}+1$;",
+    "input": "",
+    "choices": [
+      "Α. καμία",
+      "Β. μία",
+      "Γ. δύο",
+      "Δ. τρεις"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "47",
+    "question": "Αν το τόξο ΑΒ είναι ημικύκλιο, η γωνία Γ είναι ορθή και $A\\Gamma=B\\Gamma=x,$ τότε το μονώνυμο που εκφράζει το εμβαδόν του σχήματος είναι",
+    "input": "",
+    "choices": [
+      "Α. $(0,25\\cdot\\pi+0,5)x^{2}$",
+      "Β. $(0,5\\cdot\\pi+0,5)x^{2}$",
+      "Γ. $(0,5\\cdot\\pi+1)x^{2}$",
+      "Δ. $(\\pi+0,5)x^{2}$"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2022_1/ΕΙΚΟΝΑ_5/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2022_1_ΘΕΜΑ_47_ΕΙΚΟΝΑ_5.png",
+        "description": "The image displays a geometric diagram.\nShapes: The figure combines a semicircle and a triangle.\nSemicircle: The arc $AB$ forms a semicircle on top.\nTriangle: Below the semicircle's diameter is a triangle $AB/Gamma$ (or $ABG$).\nVertices:\nPoints $A$ and $B$ are the endpoints of the diameter of the semicircle.\nPoint $/Gamma$ (Gamma) is the third vertex of the triangle, located below the diameter.\nAngle: The angle at vertex $/Gamma$ ($/angle A/Gamma B$) is marked with a square symbol, indicating it is a right angle ($90^/circ$).\nSide Lengths:\nThe side $A/Gamma$ is labeled with length $x$.\nThe side $B/Gamma$ is labeled with length $x$.\nThis indicates that triangle $AB/Gamma$ is an isosceles right-angled triangle.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "48",
+    "question": "Στο διπλανό σχήμα οι γωνίες $A\\hat{B}\\Gamma$ και $A\\hat{E}\\Delta$ των τριγώνων ΑΒΓ και ΑΔΕ αντίστοιχα είναι ίσες. Επίσης $A\\Gamma=5,$ $\\Gamma E=15$, $AB=6$ και $B\\Delta=x$. Τότε:",
+    "input": "",
+    "choices": [
+      "A. $x=\\frac{32}{3}$",
+      "B. $x=\\frac{20}{3}$",
+      "Γ. $x=12$",
+      "Δ. $x=18$"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2022_1/ΕΙΚΟΝΑ_6/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2022_1_ΘΕΜΑ_48_ΕΙΚΟΝΑ_6.png",
+        "description": "The image displays a geometric diagram with two triangles, $AB/Gamma$ and $A/Delta E$.\nTriangle $AB/Gamma$:\nVertices: $A, B, /Gamma$\nAngle at vertex $B$ is labeled $/varphi$.\nSide $AB$ has length $6$.\nSide $A/Gamma$ has length $5$.\nTriangle $A/Delta E$:\nVertices: $A, /Delta, E$\nAngle at vertex $E$ is labeled $/varphi$, indicating it is equal to angle $B$.\nSide $A/Delta$ is the sum of $AB$ and $B/Delta$. The segment $B/Delta$ is labeled $x$.\nSide $AE$ is the sum of $A/Gamma$ and $/Gamma E$. The segment $/Gamma E$ is labeled $15$.\nGeometric Relationship: The two triangles share vertex $A$ as a common angle.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "49",
+    "question": "Στο διπλανό σχήμα το άθροισμα των γωνιών $\\alpha+\\beta+\\Gamma+\\Delta$ είναι ίσο με:",
+    "input": "",
+    "choices": [
+      "A. $90^{\\circ}$",
+      "B. $180^{\\circ}$",
+      "Γ. $270^{\\circ}$",
+      "Δ. $360^{\\circ}$"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2022_1/ΕΙΚΟΝΑ_7/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2022_1_ΘΕΜΑ_49_ΕΙΚΟΝΑ_7.png",
+        "description": "The image displays a geometric diagram with two overlapping right-angled triangles forming a \"butterfly\" or \"hourglass\" shape in the middle.\nTriangle 1 (Left): A right-angled triangle pointing to the right.\nThe top angle is labeled $\\alpha$.\nThe bottom-right angle is labeled $/Gamma$.\nThe bottom-left angle is a right angle ($90^/circ$).\nTriangle 2 (Right): A right-angled triangle pointing to the left.\nThe top angle is labeled $\beta$.\nThe bottom-left angle is labeled $/Delta$.\nThe bottom-right angle is a right angle ($90^/circ$).\nOverlap: The hypotenuses of the two triangles intersect, creating a smaller central triangle at the bottom with base angles $/Gamma$ and $/Delta$.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  },
+  {
+    "id": "50",
+    "question": "Από το σημείο Ζ της πλευράς ΑΒ ορθογωνίου παραλληλογράμμου ΑΒΓΔ σχεδιάζουμε τόξο ΖΓ, με κέντρο το Β, όπως στο σχήμα. Αν $ZB=4$ και $\\Delta Z=5,$ για το εμβαδόν Ε του μέρους του ορθογωνίου ΑΒΓΔ που δεν είναι χρωματισμένο ισχύει ότι:",
+    "input": "",
+    "choices": [
+      "A. $E \\gt 19$",
+      "B. $18 \\lt E \\lt 19$",
+      "Γ. $10 \\lt E \\lt 11$",
+      "Δ. $E \\lt 10$"
+    ],
+    "images": [
+      {
+        "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2022_1/ΕΙΚΟΝΑ_8/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2022_1_ΘΕΜΑ_50_ΕΙΚΟΝΑ_8.png",
+        "description": "The image displays a geometric diagram with the following components:\nRectangle: A rectangle labeled $AB/Gamma/Delta$ forms the outer boundary.\nInternal Division:\nUnshaded Triangle: A right-angled triangle $A/Delta Z$ is located on the left side. It is white (unshaded).\nShaded Region: The rest of the rectangle is shaded grey. This shaded area consists of a shape bounded by the segments $Z/Delta$, $/Delta/Gamma$, $/Gamma B$, and a curved line $BZ$.\nCurve: The curve connecting point $Z$ to point $/Gamma$ is described in the text as an arc (\"τόξο $Z/Gamma$\") of a circle centered at $B$.\nVertices: The corners of the rectangle are $A$ (bottom-left), $B$ (bottom-right), $/Gamma$ (top-right), and $/Delta$ (top-left). A point $Z$ lies on the bottom side $AB$.",
+        "transcription": []
+      }
+    ],
+    "mark": []
+  }
+]

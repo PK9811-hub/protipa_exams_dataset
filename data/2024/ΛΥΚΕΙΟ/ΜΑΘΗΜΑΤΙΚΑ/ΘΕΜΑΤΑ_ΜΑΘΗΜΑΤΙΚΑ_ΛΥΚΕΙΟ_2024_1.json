@@ -1,0 +1,381 @@
+[
+  {
+    "id": "26",
+    "question": "Ποιος από τους παρακάτω αριθμούς είναι ίσος με 0,000057;",
+    "input": "",
+    "choices": [
+      "Α. $57\\cdot10^{6}$",
+      "B. $57\\cdot10^{4}$",
+      "Γ. $57\\cdot10^{-6}$",
+      "Δ. $57\\cdot10^{-4}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "27",
+    "question": "Αν $3^{2024}+3^{223}-\\kappa\\cdot3^{2022}=0$ ποιος είναι ο αριθμός κ;",
+    "input": "",
+    "choices": [
+      "А. $\\kappa=2$",
+      "В. $\\kappa=6$",
+      "Г. $\\kappa=10$",
+      "Δ. $\\kappa=12$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "28",
+    "question": "Η παράσταση $(x+\\frac{1}{x})^{2}-(x-\\frac{1}{x})^{2}$ απλοποιείται στην:",
+    "input": "",
+    "choices": [
+      "A. $2x^{2}+2\\cdot(\\frac{1}{x})^{2}$",
+      "B. $2x^{2}+2\\cdot(\\frac{1}{x})^{2}+4$",
+      "Г. $2x^{2}+2\\cdot(\\frac{1}{x})^{2}-4$",
+      "Δ. 4"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "29",
+    "question": "Αν $(\\alpha-\\beta)^{2}-2\\alpha+2\\beta+1=0$, τότε ποιο από τα παρακάτω ισχύει για τους αριθμούς α, β;",
+    "input": "",
+    "choices": [
+      "Α. $\\alpha>\\beta$",
+      "Β. $\\alpha=\\beta$",
+      "Γ. $\\alpha<\\beta$",
+      "Δ. δεν επαρκούν τα δεδομένα για να συγκρίνουμε τα α και β."
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "30",
+    "question": "Ποιο από τα παρακάτω ισχύει για τους αριθμούς $\\alpha=2-\\sqrt{3}$ και $\\beta=2+\\sqrt{3}$ :",
+    "input": "",
+    "choices": [
+      "Α. είναι αντίστροφοι",
+      "Β. είναι αντίθετοι",
+      "Γ. είναι ετερόσημοι",
+      "Δ. είναι ρητοί"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "31",
+    "question": "Από τους μαθητές ενός σχολείου το 80% μαθαίνει αγγλικά, το 30% γαλλικά και το 20% και τις δύο γλώσσες. Ποιο είναι το ποσοστό των μαθητών που δεν μαθαίνει καμία από τις δύο γλώσσες;",
+    "input": "",
+    "choices": [
+      "A. 50%",
+      "B. 20%",
+      "Γ. 15%",
+      "Δ. 10%"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "32",
+    "question": "Ποιο είναι το πλήθος των ακεραίων αριθμών που βρίσκονται ανάμεσα στους αριθμούς –1000 και 2000;",
+    "input": "",
+    "choices": [
+      "Α. 3000",
+      "Β. 3999",
+      "Γ. 2999",
+      "Δ. 3001"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "33",
+    "question": "Στο διπλανό διάγραμμα φαίνεται η στάθμη του νερού (σε δεκάδες μέτρα) ενός φράγματος για χρονικό διάστημα 12 μηνών, με αρχή την 1η Ιανουαρίου όπου η στάθμη του νερού ήταν 4 μέτρα και τέλος την 31η Δεκεμβρίου. Με βάση το διάγραμμα ποιο από τα παρακάτω είναι σωστό;",
+    "input": "",
+    "choices": [
+      "Α. Για πέντε συνεχόμενους μήνες η στάθμη του νερού έπεφτε.",
+      "Β. Το φράγμα γέμισε πιο γρήγορα το δίμηνο Ιανουάριος – Φεβρουάριος από το δίμηνο Σεπτέμβριος – Οκτώβριος.",
+      "Γ. Στη μέση της χρονιάς η στάθμη του νερού ήταν λιγότερο από 30 μέτρα.",
+      "Δ. Για ένα μήνα η στάθμη του νερού στο φράγμα παρέμεινε σταθερή."
+    ],
+    "images": [
+       {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2024_1/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2024_1_ΘΕΜΑ_33_ΕΙΚΟΝΑ_1.png",
+          "description": "The image displays a line graph plotted on a grid.\nY-axis: Represents the water level in tens of meters (as per the problem text). The scale is marked with integers from 0 to 6.\nX-axis: Represents time in months. The scale is marked with integers from 0 to 12.\nData Points & Trend:\nStarts at $(0, 4)$, indicating the initial level is 40 meters.\nIncreases steadily to reach a peak of 6 (60 meters) around month 3.\nRemains constant at level 6 from month 3 to month 4.\nDecreases sharply to a minimum level below 1 (around 0.6 or 6 meters) at month 8.\nIncreases again steadily to end back at level 4 (40 meters) at month 12.",
+          "transcription": []
+        }
+    ],
+    "mark": []
+  },
+  {
+    "id": "34",
+    "question": "Στο διπλανό διάγραμμα τα σημεία Β και Λ βρίσκονται πάνω στην υπερβολή $y=\\frac{\\sqrt{15}}{x}.$ Από τα σημεία αυτά, φέρουμε παράλληλες προς τους άξονες και σχηματίζουμε τα ορθογώνια ΟΑΒΓ και ΟΚΛΜ με εμβαδά $E_{1}$, $E_{2}$ αντίστοιχα τα οποία και συγκρίνουμε. Τι ισχύει για τα εμβαδά;",
+    "input": "",
+    "choices": [
+      "A. $E_{1}=E_{2}$",
+      "B. $E_{1} \\lt E_{2}$",
+      "Γ. $E_{1} > E_{2}$",   
+      "Δ. Δεν επαρκούν τα δεδομένα για να τα συγκρίνουμε"
+    ],
+    "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2024_1/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2024_1_ΘΕΜΑ_34_ΕΙΚΟΝΑ_2.png",
+          "description": "The image displays a graph of a function on a Cartesian coordinate system.\nFunction: A curve representing a hyperbola is plotted in the first quadrant.\nPoints: Two points $B$ and $\\Lambda$ are marked on the curve.\nRectangles:\nFrom point $B$, perpendicular lines are drawn to the axes, forming a rectangle labeled $OAB\\Gamma$. (Vertices: Origin $O$, $A$ on x-axis, $B$ on curve, $\\Gamma$ on y-axis).\nFrom point $\\Lambda$, perpendicular lines are drawn to the axes, forming a rectangle labeled $OK\\Lambda M$. (Vertices: Origin $O$, $K$ on x-axis, $\\Lambda$ on curve, $M$ on y-axis).\nCoordinates:\nPoint $\\Gamma$ is at $y=1$.\nPoint $M$ is between $y=2$ and $y=3$.\nPoint $K$ is between $x=1$ and $x=2$.\nPoint $A$ is between $x=4$ and $x=5$.",
+          "transcription": []
+        }
+    ],
+    "mark": []
+  },
+  {
+    "id": "35",
+    "question": "Στη διαδρομή Αθήνα – Κοζάνη ταξιδέψαμε με αυτοκίνητο για μιάμιση ώρα με ταχύτητα $12km/h,$ για δυο ώρες με ταχύτητα $1km/h$ και για μισή ώρα με ταχύτητα $14km/h.$ Στην επιστροφή Κοζάνη – Αθήνα ταξιδέψαμε την ίδια διαδρομή πάλι σε 4 ώρες αλλά με σταθερή ταχύτητα. Ποια είναι αυτή;",
+    "input": "",
+    "choices": [
+      "A. $112,5km/h$",
+      "B. $115km/h$",
+      "Γ. $120km/h$",
+      "Δ. $125km/h$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "36",
+    "question": "Αγοράσαμε στη λαϊκή αγορά μήλα και αχλάδια που μαζί ζυγίζουν 5 κιλά. Τα μήλα κοστίζουν 1,5€ το κιλό και τα αχλάδια κοστίζουν 1€ το κιλό. Αν τα μήλα ζυγίζουν $x$ κιλά και πληρώνουμε συνολικά $y$ ευρώ για τα μήλα και τα αχλάδια, ποια είναι η συνάρτηση του κόστους $y$ ως προς το βάρος $x$ των μήλων που αγοράσαμε;",
+    "input": "",
+    "choices": [
+      "A. $y=1,5x$",
+      "B. $y=5-x$",
+      "Г. $y=5-0,5x$",
+      "Δ. $y=5+0,5x$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "37",
+    "question": "Η ευθεία $y=13x+7$ τέμνει τον άξονα $x^{\\prime}x$ στο σημείο με τετμημένη κ και τον άξονα $y^{\\prime}y$ στο σημείο με τεταγμένη μ. Ποιο από τα παρακάτω ισχύει για τους αριθμούς κ και μ;",
+    "input": "",
+    "choices": [
+      "Α. $0<\\kappa<\\mu$",
+      "Β. $\\kappa<0<\\mu$",
+      "Γ. $\\mu<0<\\kappa$",
+      "Δ. $\\kappa<\\mu<0$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "38",
+    "question": "Στο διπλανό σχήμα το ΑΒΓΔ είναι τετράγωνο πλευράς 3 και επιπλέον ισχύει $\\Delta E=BZ=1.$ Τότε το τμήμα ΕΖ είναι ίσο με",
+    "input": "",
+    "choices": [
+      "A. 10",
+      "B. $\\sqrt{10}$",
+      "Γ. $\\sqrt{5}$",
+      "Δ. $2\\sqrt{5}$"
+    ],
+    "images": [
+       {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2024_1/ΕΙΚΟΝΑ_3/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2024_1_ΘΕΜΑ_38_ΕΙΚΟΝΑ_3.png",
+          "description": "The image displays a geometric diagram.\nMain Shape: A large square labeled $A B \\Gamma \\Delta$ ($ABCD$).\nExternal Point: A point $Z$ is located outside the square, to the left of side $AB$. It forms a straight line with the bottom side $B\\Gamma$, extending it to the left (segment $Z\\Gamma$).\nInternal Point: A point $E$ is located on the right vertical side $\\Gamma\\Delta$.\nLines:\nA line segment connects $A$ to $Z$.\nA line segment connects $Z$ to $E$.\nA line segment connects $A$ to $E$.\nThis creates a triangle $A Z E$.\nRight Angles:\nA right angle is marked at vertex $B$ ($\\angle AB\\Gamma = 90^\\circ$).\nA right angle is marked at vertex $\\Delta$ ($\\angle A\\Delta\\Gamma = 90^\\circ$).",
+          "transcription": []
+        }
+    ],
+    "mark": []
+  },
+  {
+    "id": "39",
+    "question": "Αν ω και θ είναι οι οξείες γωνίες ενός ορθογωνίου τριγώνου, ποιο από τα παρακάτω είναι πάντα σωστό;",
+    "input": "",
+    "choices": [
+      "Α. $\\epsilon\\varphi\\omega\\cdot\\epsilon\\varphi\\theta=1$",
+      "Β. $\\epsilon\\varphi\\omega=\\epsilon\\varphi\\theta$",
+      "Γ. $\\eta\\mu\\omega+\\sigma\\upsilon\\nu\\theta=$",
+      "Δ. $\\eta\\mu\\omega=\\eta\\mu\\theta$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "40",
+    "question": "Το ΑΒΓΔ είναι τετράγωνο, $AZ=\\Gamma H=4,$ $ZH=2$ και το ΗΖ είναι κάθετο στα ΑΖ, ΓΗ. Ποιο είναι το εμβαδόν του τετραγώνου;",
+    "input": "",
+    "choices": [
+      "A. 32",
+      "B. 34",
+      "Γ. 40",
+      "Δ. 68"
+    ],
+    "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2024_1/ΕΙΚΟΝΑ_4/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2024_1_ΘΕΜΑ_40_ΕΙΚΟΝΑ_4.png",
+          "description": "The image contains a geometric diagram within a square.\nMain Shape: A square labeled $A B \\Gamma \\Delta$ ($ABCD$).\nInternal Zig-Zag Path: A path of three connected line segments spans diagonally from the bottom-left corner ($A$) to the top-right corner ($\\Gamma$).\nSegment $AZ$: Starts at $A$ and ends at an internal point $Z$. Its length is labeled 4.\nSegment $ZH$: Connects point $Z$ to another internal point $H$. Its length is labeled 2. The angle between $AZ$ and $ZH$ is a right angle ($90^\\circ$), marked with a grey square.\nSegment $H\\Gamma$: Connects point $H$ to the corner $\\Gamma$. Its length is labeled 4. The angle between $ZH$ and $H\\Gamma$ is also a right angle ($90^\\circ$), marked with a grey square.",
+          "transcription": []
+        }
+    ],
+    "mark": []
+  },
+  {
+    "id": "41",
+    "question": "Στο διπλανό σχήμα οι ευθείες $\\epsilon_{1}$, $\\epsilon_{2}$ είναι παράλληλες. Τότε για τις γωνίες ω, φ, θ ποιο από τα παρακάτω ισχύει;",
+    "input": "",
+    "choices": [
+      "Α. $\\omega+\\varphi+\\theta=360^{0}$",
+      "Β. $\\omega+\\varphi+\\theta=180^{\\circ}$",
+      "Γ. $\\omega+\\varphi-\\theta=180^{0}$",
+      "Δ. $\\omega-\\varphi+\\theta=180^{\\circ}$"
+    ],
+    "images": [
+       {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2024_1/ΕΙΚΟΝΑ_5/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2024_1_ΘΕΜΑ_41_ΕΙΚΟΝΑ_5.png",
+          "description": "The image displays a geometric diagram showing two horizontal parallel lines labeled $\\varepsilon_1$ (top) and $\\varepsilon_2$ (bottom).\nZig-Zag Line: A zig-zag transversal line connects the two parallel lines. It starts from a point on $\\varepsilon_1$, goes downwards and to the left to form a vertex, and then continues downwards and to the right to meet $\\varepsilon_2$.\nAngles:\n$\\omega$ (omega): An obtuse interior angle formed between the top parallel line $\\varepsilon_1$ and the first segment of the transversal. It is shaded grey.\n$\\varphi$ (phi): The acute interior angle at the vertex of the zig-zag. It is shaded grey.\n$\theta$ (theta): An acute interior angle formed between the bottom parallel line $\\varepsilon_2$ and the second segment of the transversal. It is shaded grey.",
+          "transcription": []
+        }
+    ],
+    "mark": []
+  },
+  {
+    "id": "42",
+    "question": "Στο διπλανό σχήμα το τρίγωνο ΑΒΓ είναι ισοσκελές με $AB=A\\Gamma=9$ cm και η μεσοκάθετος της πλευράς ΑΒ τέμνει την πλευρά ΑΓ στο σημείο Δ. Αν η περίμετρος του τριγώνου ΔΒΓ είναι 20 cm, τι μήκος έχει η πλευρά ΒΓ;",
+    "input": "",
+    "choices": [
+      "A. 10 cm",
+      "B. 11 cm",
+      "Γ. 12 cm",
+      "Δ. 8 cm"
+    ],
+    "images": [
+       {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2024_1/ΕΙΚΟΝΑ_6/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2024_1_ΘΕΜΑ_42_ΕΙΚΟΝΑ_6.png",
+          "description": "The image displays a geometric diagram.\nTriangle: An isosceles triangle $AB\\Gamma$ with $AB = A\\Gamma$.\nPerpendicular Bisector: A straight line intersects the side $AB$ perpendicularly at its midpoint and extends to intersect the side $A\\Gamma$ at point $\\Delta$. A small green square indicates the right angle ($90^\\circ$).\nInternal Segment: A line segment connects vertex $B$ to point $\\Delta$ on the opposite side.\nVertices: The vertices are labeled $A$ (top), $B$ (bottom-left), $\\Gamma$ (bottom-right). The intersection point on side $A\\Gamma$ is labeled $\\Delta$.",
+          "transcription": []
+        }
+    ],
+    "mark": []
+  },
+  {
+    "id": "43",
+    "question": "Στο διπλανό σχήμα η γωνία $A\\Gamma B$ είναι εγγεγραμμένη σε ημικύκλιο με κέντρο το Ο. Αν η γωνία $\\overline{OA\\Gamma}=40^{\\circ}$, τότε πόσες μοίρες είναι η γωνία $\\overline{O\\Gamma B}$;",
+    "input": "",
+    "choices": [
+      "A. $40^{\\circ}$",
+      "B. $45^{\\circ}$",
+      "Γ. $50^{\\circ}$",
+      "Δ. $55^{\\circ}$"
+    ],
+    "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2024_1/ΕΙΚΟΝΑ_7/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2024_1_ΘΕΜΑ_43_ΕΙΚΟΝΑ_7.png",
+          "description": "The image displays a geometric diagram involving a semicircle.\nSemicircle: The arc $A \\Gamma B$ forms a semicircle with diameter $AB$ and center $O$.\nInscribed Angles:\nAn angle is formed at vertex $A$ ($\\angle OA\\Gamma$), marked as $40^\\circ$.\nAn angle is formed at vertex $\\Gamma$ ($\\angle O\\Gamma B$), marked with the symbol $\\omega$ (omega).\nTriangles:\nTriangle $OA\\Gamma$ is formed by the radius $OA$, radius $O\\Gamma$, and chord $A\\Gamma$.\nTriangle $O\\Gamma B$ is formed by the radius $O\\Gamma$, radius $OB$, and chord $\\Gamma B$.\nGeometric Properties: Since $OA$, $OB$, and $O\\Gamma$ are all radii of the same circle, the triangles $OA\\Gamma$ and $O\\Gamma B$ are isosceles.",
+          "transcription": []
+        }
+    ],
+    "mark": []
+  },
+  {
+    "id": "44",
+    "question": "Τρεις ακέραιοι αριθμοί έχουν άθροισμα 197 και είναι ανά δυο διαφορετικοί μεταξύ τους. Ποια είναι η μεγαλύτερη τιμή που μπορεί να πάρει ο μικρότερος από τους τρεις ακέραιους αριθμούς;",
+    "input": "",
+    "choices": [
+      "A. 34",
+      "B. 35",
+      "Γ. 64",
+      "Δ. 65"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "45",
+    "question": "Αν το γινόμενο δυο διαδοχικών θετικών άρτιων αριθμών είναι 224, τότε ποιο είναι το άθροισμά τους;",
+    "input": "",
+    "choices": [
+      "A. 36",
+      "B. 34",
+      "Γ. 32",
+      "Δ. 30"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "46",
+    "question": "Ρίξαμε δυο συνηθισμένα ζάρια και καταγράψαμε με α και β τις ενδείξεις τους. Ποια είναι η πιθανότητα του ενδεχομένου $|\\alpha-\\beta|=2$;",
+    "input": "",
+    "choices": [
+      "A. $\\frac{1}{9}$",
+      "B. $\\frac{2}{9}$",
+      "Γ. $\\frac{1}{3}$",
+      "Δ. $\\frac{2}{3}$"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "47",
+    "question": "Η Μαρία και ο Νίκος έχουν ο καθένας κάποια χρήματα στην τσέπη τους. Αν η Μαρία δώσει 10€ στο Νίκο τότε θα έχει τα ίδια χρήματα με το Νίκο. Αν όμως του δώσει τα μισά της χρήματα τότε ο Νίκος θα έχει διπλάσια από τη Μαρία. Πόσα χρήματα έχουν συνολικά ο Νίκος και η Μαρία;",
+    "input": "",
+    "choices": [
+      "A. 80€",
+      "B. 70€",
+      "Γ. 60€",
+      "Δ. 50€"
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "48",
+    "question": "Αν $(\\alpha-2\\beta)^{2}+(2\\alpha-\\beta)^{2}-5\\beta^{2}=0$ και $\\beta\\ne0$, τότε η μέγιστη τιμή της παράστασης $10-\\frac{\\alpha}{\\beta}$ είναι:",
+    "input": "",
+    "choices": [
+      "A. $\\frac{8}{5}$",
+      "B. 10",
+      "Γ. $\\frac{42}{5}$",
+      "Δ. μικρότερη του 10."
+    ],
+    "images": [],
+    "mark": []
+  },
+  {
+    "id": "49",
+    "question": "Στο διπλανό σχήμα έχουμε σχεδιάσει δυο ορθογώνια τρίγωνα ΑΒΓ, $\\Gamma\\Delta E$ ώστε $AB=2,$ $B\\Gamma=5$, $\\Gamma\\Delta=3$, $\\Delta E=7$, $\\overline{B\\Gamma\\Delta}=\\hat{B}=\\hat{\\Delta}=90^{\\circ}.$ Αν $\\overline{A\\Gamma B}=\\omega$, $\\Delta\\Gamma E=\\varphi$ και $\\Gamma\\hat{E}\\Delta=\\theta$ ποιο από τα παρακάτω είναι ΛΑΘΟΣ;",
+    "input": "",
+    "choices": [
+      "Α. $\\omega+\\varphi=9^{\\circ}$",
+      "Β. $\\epsilon\\varphi\\theta>\\epsilon\\varphi\\omega$",
+      "Γ. $\\epsilon\\varphi\\omega=,4$",
+      "Δ. $AE=13$"
+    ],
+    "images": [
+       {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2024_1/ΕΙΚΟΝΑ_8/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2024_1_ΘΕΜΑ_49_ΕΙΚΟΝΑ_8.png",
+          "description": "The image displays a geometric diagram with two right-angled triangles connected at a common vertex $\\Gamma$.\nTriangle $AB\\Gamma$ (Left):\nA right-angled triangle with the right angle at vertex $B$ (marked with a grey square).\nVertical side $AB$ has length 2.\nHorizontal side $B\\Gamma$ has length 5.\nThe angle at vertex $\\Gamma$ ($\\angle A\\Gamma B$) is labeled $\\omega$.\nTriangle $\\Gamma\\Delta E$ (Right):\nA right-angled triangle with the right angle at vertex $\\Delta$ (marked with a grey square).\nVertical side $\\Gamma\\Delta$ has length 3.\nHorizontal side $\\Delta E$ has length 7.\nThe angle at vertex $\\Gamma$ ($\\angle \\Delta\\Gamma E$) is labeled $\\varphi$.\nThe angle at vertex $E$ ($\\angle \\Delta E\\Gamma$) is labeled $\theta$.\nArrangement: The hypotenuses $A\\Gamma$ and $\\Gamma E$ form a continuous line? No, they meet at $\\Gamma$. The line segments $B\\Gamma$ and $\\Gamma\\Delta$ are perpendicular to each other, forming a right angle at $\\Gamma$ relative to the horizontal and vertical axes (marked with a grey square).",
+          "transcription": []
+        }
+    ],
+    "mark": []
+  },
+  {
+    "id": "50",
+    "question": "Στο διπλανό σχήμα η πλευρά του τετραγώνου ΑΒΓΔ είναι 1 και Ε, Ζ είναι τα μέσα των πλευρών ΒΓ και ΓΔ αντίστοιχα. Το εμβαδόν του γραμμοσκιασμένου τετράπλευρου είναι",
+    "input": "",
+    "choices": [
+      "A. $\\frac{2}{3}$",
+      "B. $\\frac{3}{4}$",
+      "Γ. $\\frac{3}{5}$",
+      "Δ. $\\frac{8}{8}$"
+    ],
+    "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2024_1/ΕΙΚΟΝΑ_9/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2024_1_ΘΕΜΑ_50_ΕΙΚΟΝΑ_9.png",
+          "description": "The image displays a geometric diagram enclosed within a square labeled $A B \\Gamma \\Delta$ ($ABCD$).\nVertices:\n$A$: Top-left corner.\n$B$: Top-right corner.\n$\\Gamma$: Bottom-right corner.\n$\\Delta$: Bottom-left corner.\nMidpoints:\nPoint $E$ is located on the vertical side $B\\Gamma$.\nPoint $Z$ is located on the horizontal side $\\Gamma\\Delta$.\nInternal Intersecting Lines:\nA straight line segment connects vertex $\\Delta$ to point $E$.\nA straight line segment connects vertex $B$ to point $Z$.\nThese two line segments intersect at a specific point inside the square.\nRegions:\nShaded Region: A quadrilateral shape filled with diagonal black stripes. Its vertices are $A$, $B$, the intersection point of the lines $\\Delta E$ and $BZ$, and $\\Delta$.\nUnshaded Region: The remaining area in the bottom-right corner, defined by the polygon with vertices $B$, $E$, $\\Gamma$, $Z$, and the intersection point.",
+          "transcription": []
+        }
+    ],
+    "mark": []
+  }
+]

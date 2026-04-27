@@ -1,0 +1,212 @@
+[
+    {
+      "id": "1",
+      "question": "Αν τo 2% ενός αριθμού είναι 4, τότε ο αριθμός αυτός είναι:",
+      "input": "",
+      "choices": [
+        "Α. 50",
+        "Β. 200",
+        "Γ. 150",
+        "Δ. 100",
+        "Ε. 400"
+      ],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Το σημείο Α (4,1) ανήκει σε ευθεία (ε) με κλίση 3. Ποιο από τα παρακάτω σημεία βρίσκεται στην ευθεία (ε):",
+      "input": "",
+      "choices": [
+        "Α. 6, -7",
+        "Β. 3, -3",
+        "Γ. 5, 4",
+        "Δ. 2, -4",
+        "Ε. -2, 17"
+      ],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Σε ορθογώνιο τρίγωνο ΑΒΓ η υποτείνουσα ΒΓ = 10 cm και η γωνία Β είναι 60ο. Το εμβαδόν του ΑΒΓ είναι:",
+      "input": "",
+      "choices": [
+        "Α. $$\\frac{25\\sqrt{3}}{2}$$",
+        "Β. $$25\\sqrt{3}$$",
+        "Γ. $$\\frac{25}{2}$$",
+        "Δ. 25",
+        "Ε. $$50\\sqrt{3}$$"
+      ],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Δίνεται ο αριθμός α = 84 ⋅ x, όπου x θετικός ακέραιος. Η μικρότερη τιμή του x ώστε ο αριθμός α να είναι τέλειο τετράγωνο, είναι:",
+      "input": "",
+      "choices": [
+        "Α. 84",
+        "Β. 21",
+        "Γ. 42",
+        "Δ. 12",
+        "Ε. Άλλο"
+      ],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Στο παρακάτω σχήμα οι τρείς καμπύλες α, β και γ δημιουργούνται από ημικύκλια. Μεγαλύτερο μήκος έχει:",
+      "input": "",
+      "choices": [
+        "Α. η καμπύλη α",
+        "Β. η καμπύλη β",
+        "Γ. η καμπύλη γ",
+        "Δ. έχουν όλες το ίδιο μήκος",
+        "Ε. η β έχει ίσο μήκος με τη γ και είναι μεγαλύτερες από το μήκος της α"
+      ],
+      "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2017_1/ΕΙΚΟΝΑ_1/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2017_1_ΘΕΜΑ_5_ΕΙΚΟΝΑ_1.png",
+          "description": "The image shows a geometric line segment with endpoints marked by black dots. Connecting these two endpoints are three distinct curved paths labeled $\\alpha$, $\beta$, and $\\gamma$.Each path creates an \"S\" shape and is composed of two semicircles joined together:\nOne semicircle curves upwards (above the line).\nThe other semicircle curves downwards (below the line).\nCurve $\\alpha$: Has a large upper semicircle and a small lower semicircle.\nCurve $\beta$: Has a medium upper semicircle and a medium lower semicircle.\nCurve $\\gamma$: Has a small upper semicircle and a large lower semicircle.",
+          "transcription": []
+        }
+      ],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Επιλέγουμε έναν από τους φυσικούς αριθμούς 1, 2, 3, … , 2019, 2020. Η πιθανότητα να είναι ο αριθμός αυτός πολλαπλάσιο του 13 είναι:",
+      "input": "",
+      "choices": [
+        "Α. $$\\frac{155}{2020}$$",
+        "Β. $$\\frac{156}{2020}$$",
+        "Γ. $$\\frac{1}{13}$$",
+        "Δ. $$\\frac{154}{2020}$$",
+        "Ε. Άλλο"
+      ],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Ποια από τις παρακάτω ευθείες αναπαριστά ανάλογα ποσά.",
+      "input": "",
+      "choices": [
+        "Α. ε1",
+        "Β. ε2",
+        "Γ. ε3",
+        "Δ. ε4",
+        "Ε. ε5"
+      ],
+      "images": [
+        {
+          "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2017_1/ΕΙΚΟΝΑ_2/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2017_1_ΘΕΜΑ_7_ΕΙΚΟΝΑ_2.png",
+          "description": "The image displays a Cartesian coordinate system (with vertical and horizontal axes marked by arrows). Five different straight lines are plotted on this graph, labeled $\\varepsilon_1$ through $\\varepsilon_5$:\nLine $\\varepsilon_1$: A horizontal line parallel to the horizontal axis.\nLine $\\varepsilon_2$: A line with a negative slope (going down) that intersects the vertical axis above the origin.\nLine $\\varepsilon_3$: A line with a positive slope (going up) that intersects the vertical axis above the origin.\nLine $\\varepsilon_4$: A steep line with a positive slope that passes exactly through the origin of the axes (point $0,0$).\nLine $\\varepsilon_5$: A line with a positive slope that intersects the horizontal axis to the right of the origin.",
+          "transcription": []
+        }
+      ],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Το πλήθος των ψηφίων του αριθμού $$A = 2^{2016} \\cdot 5^{2019}$$ είναι:",
+      "input": "",
+      "choices": [
+        "Α. 2018",
+        "Β. 2022",
+        "Γ. 2019",
+        "Δ. 2020",
+        "Ε. Άλλο"
+      ],
+      "images": [],
+      "mark": [
+        "Μονάδες 5"
+      ]
+    },
+    {
+      "id": "9.1",
+      "question": "Ένας υπολογιστής τσέπης έχει 9 ψηφία «1,2,3,4,5,6,7,8,9», δύο παρενθέσεις «(» και «)» και ένα πλήκτρο «=». Επίσης είναι εφοδιασμένος με μια πράξη $\\otimes$ η οποία ορίζεται ως εξής: $\\alpha \\otimes \\beta = 10 - \\frac{\\alpha + \\beta}{\\alpha - \\beta}$.\nΥπολογίστε τα αποτελέσματα των πράξεων:\nα. $2 \\otimes 3$\nβ. $\\alpha \\otimes 1$",
+      "input": "",
+      "choices": [],
+      "images": [],
+      "mark": [
+        "Μονάδες 2"
+      ]
+    },
+    {
+      "id": "9.2",
+      "question": "Ένας υπολογιστής τσέπης έχει 9 ψηφία «1,2,3,4,5,6,7,8,9», δύο παρενθέσεις «(» και «)» και ένα πλήκτρο «=». Επίσης είναι εφοδιασμένος με μια πράξη $\\otimes$ η οποία ορίζεται ως εξής: $\\alpha \\otimes \\beta = 10 - \\frac{\\alpha + \\beta}{\\alpha - \\beta}$.\nH πράξη $5 \\otimes (6 \\otimes 4)$ δίνει αποτέλεσμα MathError. Αιτιολογήστε γιατί συμβαίνει αυτό;",
+      "input": "",
+      "choices": [],
+      "images": [],
+      "mark": [
+        "Μονάδες 2"
+      ]
+    },
+    {
+      "id": "9.3",
+      "question": "Ένας υπολογιστής τσέπης έχει 9 ψηφία «1,2,3,4,5,6,7,8,9», δύο παρενθέσεις «(» και «)» και ένα πλήκτρο «=». Επίσης είναι εφοδιασμένος με μια πράξη $\\otimes$ η οποία ορίζεται ως εξής: $\\alpha \\otimes \\beta = 10 - \\frac{\\alpha + \\beta}{\\alpha - \\beta}$.\nΑν $\\alpha \\neq \\beta$, ισχύει $\\alpha \\otimes \\beta = \\beta \\otimes \\alpha$; Να αιτιολογήσετε την απάντησή σας.",
+      "input": "",
+      "choices": [],
+      "images": [],
+      "mark": [
+        "Μονάδες 2"
+      ]
+    },
+    {
+      "id": "9.4",
+      "question": "Να βρεθεί η τιμή του κλάσματος $\\frac{\\alpha^2 - \\beta^2}{\\alpha^3 - \\beta^3}$",
+      "input": "",
+      "choices": [],
+      "images": [],
+      "mark": [
+        "Μονάδες 4"
+      ]
+    },
+    {
+      "id": "10.1",
+      "question": "Δίνεται ορθογώνιο παραλληλόγραμμο ΑΒΓΔ με εμβαδόν $296cm^2$. Στην πλευρά ΔΓ παίρνουμε σημείο Ζ ώστε το εμβαδόν του τριγώνου ΑΔΖ να είναι $216cm^2$ και στην πλευρά ΒΓ παίρνουμε σημείο Ε ώστε το εμβαδόν του τριγώνου ΑΒΕ να είναι $212cm^2$. Να αποδείξετε ότι: $Z\\Gamma = 2\\Delta Z$",
+      "input": "",
+      "choices": [],
+      "images": [],
+      "mark": [
+        "Μονάδες 3"
+      ]
+    },
+    {
+      "id": "10.2",
+      "question": "Δίνεται ορθογώνιο παραλληλόγραμμο ΑΒΓΔ με εμβαδόν $296cm^2$. Στην πλευρά ΔΓ παίρνουμε σημείο Ζ ώστε το εμβαδόν του τριγώνου ΑΔΖ να είναι $216cm^2$ και στην πλευρά ΒΓ παίρνουμε σημείο Ε ώστε το εμβαδόν του τριγώνου ΑΒΕ να είναι $212cm^2$. Να αποδείξετε ότι: $\\Gamma E = 3 BE$",
+      "input": "",
+      "choices": [],
+      "images": [],
+      "mark": [
+        "Μονάδες 3"
+      ]
+    },
+    {
+      "id": "10.3",
+      "question": "Δίνεται ορθογώνιο παραλληλόγραμμο ΑΒΓΔ με εμβαδόν $296cm^2$. Στην πλευρά ΔΓ παίρνουμε σημείο Ζ ώστε το εμβαδόν του τριγώνου ΑΔΖ να είναι $216cm^2$ και στην πλευρά ΒΓ παίρνουμε σημείο Ε ώστε το εμβαδόν του τριγώνου ΑΒΕ να είναι $212cm^2$. Να αποδείξετε ότι: Να βρεθεί το εμβαδόν του τριγώνου AZE.",
+      "input": "",
+      "choices": [],
+      "images": [],
+      "mark": [
+        "Μονάδες 4"
+      ]
+    }
+]

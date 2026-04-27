@@ -62,7 +62,7 @@
   {
     "id": "25",
     "question": "Μια σκακιέρα έχει άσπρα και μαύρα τετράγωνα χωρίς να υπάρχουν δύο διπλανά με το ίδιο χρώμα. Το «άλογο» κινείται προς οποιαδήποτε κατεύθυνση σχηματίζοντας ένα κεφαλαίο γράμμα «γάμμα», όπως π.χ. αυτά του σχήματος. Αν ένα άλογο κάνει 10 διαδοχικές κινήσεις, το χρώμα του τετραγώνου που θα βρεθεί τελικά",
-    "input": "The image displays two geometric configurations of square tiles arranged in \"L\" shapes, following a checkerboard pattern of alternating colors.\nLeft Configuration: A horizontal L-shape composed of 4 squares.\nIt features a top horizontal row of three squares alternating in color: White, Black, White.\nA single Black square is attached below the first (leftmost) white square.\nRight Configuration: A vertical L-shape composed of 4 squares.\nIt features a left vertical column of three squares alternating in color: White (top), Black (middle), White (bottom).\nA single Black square is attached to the right of the top white square.",
+    "input": "",
     "choices": [
       "Α. είναι οπωσδήποτε άσπρο",
       "Β. είναι οπωσδήποτε μαύρο",
@@ -83,7 +83,7 @@
   {
     "id": "26",
     "question": "Αν η απόσταση ΕΒ είναι διπλάσια από την απόσταση ΑΕ, τότε η απόσταση ΑΕ είναι ίση με:",
-    "input": "The image displays a geometric line segment with three points marked on it.\nLine Segment: A straight horizontal line.\nPoints:\nPoint A: Marked with a black dot on the left.\nPoint E: Marked with a black dot in the middle.\nPoint B: Marked with a black dot on the right.\nRelative Position: Point E is located between A and B. The segment EB appears visibly longer than segment AE.",
+    "input": "",
     "choices": [
       "Α. το μισό της απόσταση ΑΒ",
       "Β. το ένα τρίτο της απόστασης ΑΒ",
@@ -119,7 +119,7 @@
   {
     "id": "28",
     "question": "Στο διάγραμμα φαίνονται οι απαντήσεις των παιδιών ενός Γυμνασίου για το ποιο νησί προτιμούν για τις διακοπές τους, σε ποσοστά επί τοις εκατό. Τι ποσοστό των παιδιών προτιμά νησί του Ιονίου και τι ποσοστό των Δωδεκανήσων;",
-    "input": "The  image displays a vertical bar chart.\nY-axis: Represents a numerical scale from 0 to 40, with horizontal grid lines every 5 units. It likely indicates the percentage of preferences as mentioned in the exercise text.\nX-axis: Lists five Greek islands: Κέρκυρα (Corfu), Ρόδος (Rhodes), Σύρος (Syros), Κρήτη (Crete), and Κεφαλονιά (Kefalonia).\nData Bars:\nΚέρκυρα: The bar height corresponds to 5.\nΡόδος: The bar height corresponds to 35.\nΣύρος: The bar height corresponds to 25.\nΚρήτη: The bar height corresponds to 20.\nΚεφαλονιά: The bar height corresponds to 15.",
+    "input": "",
     "choices": [
       "Α. 15% Ιονίου και 25% Δωδεκανήσων",
       "Β. 20% Ιονίου και 20% Δωδεκανήσων",
@@ -140,10 +140,10 @@
   {
     "id": "29",
     "question": "Σε ένα Γυμνάσιο κάθε παιδί διδάσκεται Γαλλικά ή Γερμανικά. Τα ποσοστά για κάθε γλώσσα και κάθε τάξη, επί του συνόλου των παιδιών του σχολείου δίνονται στον παρακάτω πίνακα. Ωστόσο λείπει το ποσοστό των παιδιών του σχολείου που είναι στην Α τάξη και διδάσκονται Γερμανικά. Τι μέρος των παιδιών της Α τάξης διδάσκεται Γερμανικά;",
-    "input": "The image displays a table with three columns showing the distribution of foreign language classes (French and German) across three school grades.\nColumns:\nClass (Τάξη): Lists the school grades A, B, and Γ.\nFrench (Γαλλικά): Represents the percentage of the total student body in that grade learning French.\nGerman (Γερμανικά): Represents the percentage of the total student body in that grade learning German.\nData Rows:\nRow A: The value for French is \n20%\n. The cell for German is empty.\nRow B: The value for French is \n17.5%\n, and for German is \n12.5%\n.\nRow Γ: The value for French is \n27.5%\n, and for German is \n12.5%\n.",
+    "input": "",
     "choices": [
       "A. 10%",
-      "Β. $\frac{1}{3}$",
+      "Β. $\\frac{1}{3}$",
       "Γ. 75%",
       "Δ. $\\frac{2}{5}$"
     ],
@@ -192,7 +192,7 @@
   {
     "id": "32",
     "question": "Το σχήμα της εικόνας αποτελείται από ίδιους σε μέγεθος κύβους και η πίσω όψη είναι ίδια με αυτή που φαίνεται. Επίσης, το σχήμα είναι ενιαίο στο εσωτερικό του. Από πόσους κύβους αποτελείται το σχήμα;",
-    "input": "The image displays a 3D stepped pyramid structure constructed from identical cubes. The structure has four distinct horizontal layers, each a different color and increasing in size from top to bottom.\nLayer Breakdown (Top to Bottom):\nLevel 1 (Top): A single Cyan cube (Dimensions: $1 \times 1$).\nLevel 2: Green cubes forming a square platform (Dimensions: $3 \times 3$).\nLevel 3: Grey cubes forming a square platform (Dimensions: $5 \times 5$).\nLevel 4 (Bottom): Red/Maroon cubes forming a square platform (Dimensions: $7 \times 7$).",
+    "input": "",
     "choices": [
       "A. 34",
       "B. 31",
@@ -262,7 +262,7 @@
   {
     "id": "36",
     "question": "Το βελάκι του σχήματος βρίσκεται στην κορυφή Α του τετραγώνου ΑΒΓΔ, κοιτώντας προς την κορυφή Β, στην οθόνη ενός υπολογιστή. Το τετράγωνο έχει πλευρές μήκους 10 εκατοστών. Μπορεί κανείς να προγραμματίσει την κίνηση του βέλους με εντολές και να τις εκτελέσει. Πού θα βρεθεί το βελάκι, αν εκτελεστεί το παρακάτω πρόγραμμα: [Κάνε 10 επαναλήψεις της παρακάτω σειράς εντολών που είναι σε αγκύλη και μετά σταμάτησε: [Μπροστά 10 εκατοστά, Δεξιά 90 μοίρες]]",
-    "input": "The image displays a geometric diagram of a square labeled with Greek letters ABΓΔ.\nVertices:\nA: Bottom left corner.\nB: Top left corner.\nΓ (Gamma): Top right corner.\nΔ (Delta): Bottom right corner.\nKey Feature: A black arrow is positioned at vertex A. It points vertically upwards along the edge of the square, directed towards vertex B.",
+    "input": "",
     "choices": [
       "Α. Στη ίδια θέση που βρίσκεται τώρα",
       "Β. Στο Β και θα κοιτάει προς το Γ",
@@ -284,7 +284,7 @@
   {
     "id": "37",
     "question": "Στο παρακάτω σχεδιάγραμμα φαίνεται ένας χάρτης με οριζόντιες και κατακόρυφες γραμμές που σχηματίζουν τετράγωνα. Φαίνεται επίσης η θέση του σχολείου, του σπιτιού, του πάρκου όπως και οι διαστάσεις του πάρκου. Το εμβαδόν του πάρκου στον χάρτη είναι 54 τετραγωνικά εκατοστά. Αν ο χάρτης έχει σχεδιαστεί με κλίμακα 1:12.000, ποιο είναι το πραγματικό μήκος της συντομότερης διαδρομής από το σπίτι στο σχολείο;",
-    "input": "The image displays a 2D map overlaid on a grid of identical squares. There are three specific labeled locations marked on the grid:\nHome (ΣΠΙΤΙ): A blue dot located on a grid intersection in the upper-left area.\nSchool (ΣΧΟΛΕΙΟ): A blue dot located on a grid intersection in the upper-right area.\nPark (ΠΑΡΚΟ): A shaded grey rectangular area in the bottom-right corner.\nDimensions relative to grid: The park rectangle spans 3 grid squares wide and 2 grid squares high.",
+    "input": "",
     "choices": [
       "Α. 1.800 μέτρα",
       "Β. 1.500 μέτρα",
@@ -306,7 +306,7 @@
   {
     "id": "38",
     "question": "Με δυο ορθογώνια τρίγωνα που έχουν κάθετες πλευρές μήκους 10 η κάθε μια μπορούμε να σχηματίζουμε είτε ένα τετράγωνο με πλευρά 10, είτε ένα μεγαλύτερο ορθογώνιο τρίγωνο, όπως φαίνεται στην εικόνα. Ποιο από τα παρακάτω είναι σωστό;",
-    "input": "The image displays two geometric figures side-by-side, both constructed using identical dimensions.\n1. Left Figure (Square):\nA square labeled with vertices K, Λ, M, N.\nThe side lengths are explicitly labeled as 10.\nA dashed diagonal line connects vertex N*\nto vertex Λ, dividing the square into two right-angled triangles.\n2. Right Figure (Triangle):\nA large triangle labeled with vertices Π*\n(top), Σ*\n(bottom left), and P*\n(bottom right).\nA dashed vertical line (altitude) drops from Π*\nto the base ΣP.\nThe altitude is labeled with a length of 10.\nThe base is divided by the altitude into two segments, each labeled with a length of 10. This indicates the total base length is 20.",
+    "input": "",
     "choices": [
       "Α. το τετράγωνο ΚΛΜΝ έχει μεγαλύτερο εμβαδόν από το τρίγωνο ΠΡΣ",
       "Β. το τετράγωνο ΚΛΜΝ έχει μικρότερο εμβαδό από το τρίγωνο ΠΡΣ",
@@ -328,7 +328,7 @@
   {
     "id": "39",
     "question": "Η Άννα και ο Βασίλης ξεκινούν το πρωί από τα σπίτια τους και περπατούν ευθύγραμμα μέχρι τη στάση του λεωφορείου. Στον διπλανό χάρτη φαίνεται το σπίτι της Άννας, Α, το σπίτι του Βασίλη, Β, και η κατεύθυνση που ακολουθούν αλλά δεν φαίνεται η στάση, Σ, όπου συναντιούνται. Αν κάθε τετραγωνάκι στο χάρτη έχει πλευρά που ισούται με 50 μέτρα, πόσα μέτρα πρέπει να περπατήσει η Άννα από το σπίτι της στο Α μέχρι τη στάση στο Σ;",
-    "input": "The image displays a 2D grid map with two specific points labeled A and B, representing starting locations.\nPoint A: Located in the upper right section of the grid. An arrow originates from point A and points horizontally to the left.\nPoint B: Located in the lower central section of the grid. An arrow originates from point B and points diagonally upwards and to the left (northwest direction).\nGrid: The background consists of a standard square grid used for coordinate positioning or measuring distance.",
+    "input": "",
     "choices": [
       "Α. 300μ",
       "Β. 350μ",
@@ -350,13 +350,13 @@
   {
     "id": "40",
     "question": "Αν κάθε τετραγωνάκι έχει εμβαδόν 1, τότε για το εμβαδόν Ε του μαύρου σχήματος ισχύει ότι:",
-    "input": "The image displays a black, symmetrical geometric shape superimposed on a square grid.\nGrid: The background is an $8 \times 8$ grid consisting of 64 small, identical squares.\nShape: The black figure is a \"quatrefoil\" or four-lobed shape, resembling a four-leaf clover or a flower with four petals.\nIt is centered on the grid.\nIt appears to be constructed geometrically, potentially involving semi-circles attached to the sides of a central square (or a similar circular intersection), though the exact construction isn't labeled.\nThe lobes extend towards the four cardinal directions (top, bottom, left, right).",
+    "input": "",
     "choices": [
-      "A. $E<44$",
-      "B. $44<E<52$",
-      "Γ. $52<E<60$",
-      "Δ. $60<E<68$",
-      "Ε. $E>68$"
+      "A. $E \\lt 44$",
+      "B. $44 \\lt E \\lt 52$",
+      "Γ. $52 \\lt E \\lt 60$",
+      "Δ. $60 \\lt E \\lt 68$",
+      "Ε. $E > 68$"
     ],
     "images": [
         {

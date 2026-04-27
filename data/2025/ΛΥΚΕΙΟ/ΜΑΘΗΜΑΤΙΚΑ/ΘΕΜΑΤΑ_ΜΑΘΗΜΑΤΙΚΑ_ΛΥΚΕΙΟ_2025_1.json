@@ -92,7 +92,7 @@
   {
     "id": "27",
     "question": "Σχεδιάζουμε το ημικύκλιο με διάμετρο ΚΛ και σημειώνουμε το σημείο Μ πάνω στο ημικύκλιο, το σημείο Ν έξω από το ημικύκλιο και το σημείο Ρ μέσα στο ημικύκλιο. Σχηματίζουμε τις γωνίες με κορυφές τα Μ, Ν και Ρ, όπως στο διπλανό σχήμα. Αν συγκρίνουμε τις γωνίες, ποιο από τα παρακάτω είναι σωστό;",
-    "input": "The image displays a geometric diagram centered around a semicircle.\nBase: A horizontal line segment labeled with endpoints K (left) and Λ (right), representing the diameter of the semicircle.\nPoints: Three distinct points are plotted relative to the semicircle:\nPoint M: Located exactly on the arc of the semicircle.\nPoint N: Located outside (above) the semicircle.\nPoint P: Located inside the semicircle (between the arc and the diameter).\nAngles: Dashed lines connect the diameter endpoints (K and Λ) to each of the three points (M, N, P), forming three triangles/angles:\nAngle $\\angle K M \\Lambda$ (vertex on the circle).\nAngle $\\angle K N \\Lambda$ (vertex outside the circle).\nAngle $\\angle K P \\Lambda$ (vertex inside the circle).",
+    "input": "",
     "choices": [
       "A. $\\hat{M}<\\hat{N}<\\hat{P}$",
       "B. $\\hat{N}<\\hat{M}<\\hat{P}$",
@@ -113,7 +113,7 @@
   {
     "id": "28",
     "question": "Η Άννα και ο Βασίλης ξεκινούν το πρωί από τα σπίτια τους και περπατούν ευθύγραμμα μέχρι τη στάση του λεωφορείου. Στον διπλανό χάρτη φαίνεται το σπίτι της Άννας, Α, το σπίτι του Βασίλη, Β, και η κατεύθυνση που ακολουθούν αλλά δεν φαίνεται η στάση, Σ, όπου συναντιούνται. Αν κάθε τετραγωνάκι στο χάρτη έχει πλευρά που ισούται με 50 μέτρα, πόσα περίπου μέτρα πρέπει να περπατήσει ο Βασίλης από το σπίτι του στο Β μέχρι τη στάση στο Σ;",
-    "input": "The image displays a 2D square grid map with two labeled points representing starting locations.\nGrid Coordinates (Relative):\nPoint B (Lower Left): Located at a grid intersection. Let's define this as position $(0, 0)$.\nPoint A (Upper Right): Located 4 grid units to the right and 5 grid units up from Point B (Coordinate relative to B: $(4, 5)$).\nVectors/Directions:\nArrow from A: Points horizontally to the Left (West), along the grid line.\nArrow from B: Points diagonally Up and to the Left (North-West). The angle appears to be $45^/circ$, passing through the diagonal corners of the grid squares.",
+    "input": "",
     "choices": [
       "Α. $250\\mu$",
       "Β. $300\\mu$",
@@ -134,7 +134,7 @@
   {
     "id": "29",
     "question": "Στο διάγραμμα φαίνονται τα αποτελέσματα μιας έρευνας ανάμεσα σε ιδιοκτήτες αυτοκινήτων ιδιωτικής χρήσης (Ι.Χ.). Η έρευνα μελέτησε το χρώμα του οχήματος που έχουν, ως προς την ηλικιακή τους ομάδα. Στην έρευνα συμμετείχαν ιδιοκτήτες ενός αυτοκινήτου με χρώμα άσπρο, μαύρο ή κόκκινο και ηλικία από 21 έως 50 ετών, χωρισμένοι σε τρεις ηλικιακές ομάδες, όπως φαίνεται στον οριζόντιο άξονα. Τα αποτελέσματα της έρευνας έδειξαν ότι στο δείγμα, όταν πηγαίνουμε από ομάδα με μικρότερες ηλικίες σε ομάδα με μεγαλύτερες ηλικίες, αυξάνεται το ποσοστό των ιδιοκτητών με άσπρο χρώμα αυτοκινήτου. Ποιο είναι το ποσοστό των ιδιοκτητών άσπρου αυτοκινήτου στην ηλικιακή ομάδα 31-40 του δείγματος της έρευνας;",
-    "input": "The image displays a stacked bar chart (100% stacked column chart) representing data across three categories.\nAxes:\nY-axis: Represents percentages, numbered from0 to 100 in increments of 10.\nX-axis: Lists three age groups:\"21-30\",\"31-40\", and \"41-50\".\nData Series (Patterns):\nEach bar is divided into three sections, distinguished by different fill patterns. From bottom to top:\n1. Bottom Section: Diagonal heavy stripes.\n2. Middle Section: Horizontal dashed lines.\n3. Top Section: Grid / Checkered pattern.\nData Values (Estimated from Grid):\nGroup 21-30:\nBottom (Diagonal): Height reaches 40 (Value:40).\nMiddle (Dashed): Spans from 40 to 60 (Value:20).\nTop (Grid): Spans from 60 to 100 (Value:40).\nGroup 31-40:\nBottom (Diagonal): Height reaches 25 (Value:25).\nMiddle (Dashed): Spans from 25 to 60 (Value:35).\nTop (Grid): Spans from 60 to 100 (Value:40).\nGroup 41-50:\nBottom (Diagonal): Height reaches roughly 15 (Value:~15).\nMiddle (Dashed): Spans from ~15 to 60 (Value:~45).\nTop (Grid): Spans from 60 to 100 (Value:40).",
+    "input": "",
     "choices": [
       "Α. περίπου $25\\%$",
       "Β. περίπου $40\\%$",
@@ -155,7 +155,7 @@
   {
     "id": "30",
     "question": "Οι κορδέλες της εικόνας έχουν σχήμα ορθογωνίου με πλάτος 1. Τοποθετούμε την μια πάνω στην άλλη σε διάφορες θέσεις ώστε να διασταυρώνονται. Δυο τέτοιες θέσεις φαίνονται στη διπλανή εικόνα. Ποια είναι η ελάχιστη τιμή του εμβαδού του σκιασμένου τετράπλευρου που μπορεί να σχηματιστεί από το κοινό μέρος των δυο κορδελών;",
-    "input": "The image displays two side-by-side geometric diagrams, each showing two long rectangular strips (ribbons) intersecting each other.\nLeft Diagram:\nTwo strips intersect at a steep angle (closer to perpendicular).\nThe overlapping region is a dark grey quadrilateral (a rhombus).\nThe letter \nx\n is positioned inside or near the intersection.\nRight Diagram:\nTwo strips intersect at a shallow, acute angle.\nThe overlapping region is a dark grey quadrilateral, which is significantly more elongated/stretched than the one in the left diagram.\nThe letter \nx\n is positioned inside or near the intersection.",
+    "input": "",
     "choices": [
       "A. $x^{2}$",
       "B. 4",
@@ -208,7 +208,7 @@
   {
     "id": "33",
     "question": "Ο Μάριος θέλει να δέσει ένα κουτί με κορδέλα και να σχηματίσει ένα φιόγκο, όπως φαίνεται στην εικόνα. Το κουτί είναι ορθογώνιο παραλληλεπίπεδο με όγκο $18 dm^{3}$ και έχει τετράγωνη βάση με εμβαδόν $9 dm^{2}$. Αν για το φιόγκο χρειάζεται $0,5m$ κορδέλα, ποιο από τα παρακάτω μεγέθη κορδέλας που διαθέτει το κατάστημα συμφέρει τον Μάριο να αγοράσει;",
-    "input": "The image displays a graphic illustration of a wrapped gift box (present).\nVisual Details:\nShape: The box is a rectangular prism (cuboid), shown from a 3/4 perspective revealing the top, front, and right side.\nColor: The box itself is white or light gray.\nDecoration: A wide red ribbon wraps around the box, crossing in the center of the top face and running down the vertical sides.\nTop: A large, looped red bow sits prominently on top where the ribbons intersect.",
+    "input": "",
     "choices": [
       "A. $1 m$",
       "B. $1,5 m$",
@@ -230,7 +230,7 @@
   {
     "id": "34",
     "question": "Το σημείο Κ του σχήματος ανήκει σε κύκλο ακτίνας 5 και οι συντεταγμένες του είναι ακέραιοι αριθμοί. Το σημείο Λ (δεν φαίνεται στο σχήμα) είναι συμμετρικό του Κως προς την ευθεία με τύπο $y=x$ και το σημείο Μ (δεν φαίνεται στο σχήμα) είναι το συμμετρικό του σημείου Λ ως προς την ευθεία με τύπο $y=-x.$ Ποιες είναι οι συντεταγμένες του σημείου Μ;",
-    "input": "The image displays a geometric diagram plotted on a Cartesian coordinate system.\nVisual Elements:\nAxes: A horizontal x-axis and a vertical y-axis intersecting at the origin $(0,0)$.\nCircle: A circle is drawn centered at the origin.\nLines: Two dashed lines extend diagonally through the origin:\nOne is labeled $y = x$ (passing through the 1st and 3rd quadrants).\nThe other is labeled $y = -x$ (passing through the 2nd and 4th quadrants).\nPoint K: A point labeled K is marked on the circumference of the circle, located specifically in the 3rd quadrant (the bottom-left section where both x and y are negative).",
+    "input": "",
     "choices": [
       "Α. (3,4)",
       "Β. (4,3)",
@@ -252,7 +252,7 @@
   {
     "id": "35",
     "question": "Το τρίγωνο ΑΒΓ είναι ισοσκελές με $AB=A\\Gamma$. Δίνονται τα μήκη $B\\Delta=BK=ZH=5$ $BZ=4$ και $HE=2$. Επίσης τα ευθύγραμμα τμήματα ΖΚ, ΗΘ είναι παράλληλα με το ΕΓ και το ΙΔ παράλληλο με το ΑΓ. Το Ι είναι το μέσο της πλευράς ΒΓ. Ποια είναι η περίμετρος του ΑΒΓ;",
-    "input": "The image displays a geometric diagram involving a triangle and several intersecting line segments.\nKey Geometric Elements:\nMain Line (Left Side): A long, slanted straight line containing a series of collinear points. From top to bottom, these points are labeled A, Δ, B, Z, H, and E.\nTriangle: The points A, B, and Γ form the primary triangle ABΓ.\nTransversals (Parallel lines):\nThere is a bottom segment connecting E to Γ.\nAbove that, a segment connects H to Θ.\nAbove that, a segment connects Z to K.\nVisually, segments ZK, HΘ, and EΓ appear parallel to each other.\nInternal Segment: A segment connects point Δ (on the line AB) to point I (on the segment BΓ). This segment ΔI appears parallel to the side AΓ.\nCollinear Points on the Right: Points K, I, and Θ lie on the segment connecting B to Γ.",
+    "input": "",
     "choices": [
       "A. 33,75",
       "B. 30",
@@ -274,7 +274,7 @@
   {
     "id": "36",
     "question": "Στον χάρτη έχουμε αποτυπώσει το οδικό δίκτυο που συνδέει μεταξύ τους τα χωριά Κ, Λ, Μ και Ν. Οι δρόμοι ΚΝ και ΛΜ είναι κάθετοι στο δρόμο ΚΛ. Επίσης $KM=13 km., \\Lambda N=15 km,$ και η διαδρομή ΚΝ είναι κατά 4 km μεγαλύτερη από τη διαδρομή ΛΜ. Ποιο είναι το συνολικό μήκος του οδικού δικτύου;",
-    "input": "The image displays a geometric diagram representing a road network with vertices labeled K, Λ, M, and N.\nGeometric Structure:\nBase: A horizontal line segment connecting points K and Λ.\nVertical Segments:\nA segment connecting Λ to M rises vertically from the right end of the base. It is labeled with the length $x$ km.\nA segment connecting K to N rises vertically from the left end of the base. It is labeled with the length $x+4$ km.\nThese segments appear to be perpendicular to the base line KΛ.\nDiagonals:\nA straight line connects K to M, labeled with a length of 13 km.\nA straight line connects Λ to N, labeled with a length of 15 km.",
+    "input": "",
     "choices": [
       "Α. μικρότερο από $54 km$",
       "B. $54 km$",
@@ -312,7 +312,7 @@
   {
     "id": "38",
     "question": "Τα τρία δοχεία στη διπλανή εικόνα έχουν κυκλική βάση. Κάθε δοχείο παίρνει νερό από μια βρύση με σταθερή παροχή, την οποία κλείνουμε όταν το δοχείο γεμίσει. Σε κάθε δοχείο, καθώς γεμίζει, το ύψος του νερού είναι συνάρτηση του χρόνου. Να βρείτε για κάθε δοχείο ποια από τις παρακάτω γραφικές παραστάσεις περιγράφει το ύψος του νερού καθώς γεμίζει.",
-    "input": "Image 1\nThe image depicts the 2D side-view outlines of three different containers:\n1. Left Container: It has an hourglass shape. Both the base and the opening are wide, while the middle section narrows significantly (concave sides).\n2. Middle Container: It has the shape of an inverted truncated cone (like a bucket). The base is narrow, and the container widens linearly towards the top.\n3. Right Container: It has a rectangular shape (representing a cylinder). The width remains constant from the base to the top (vertical sides). \nImage 2\nThe image displays four coordinate systems. In all of them, the horizontal axis represents \"Time\" (χρόνος) and the vertical axis represents \"Water Height\" (ύψος νερού). All curves start from the origin (O).\n1. Function f: A convex curve. Its slope gradually increases as time passes (the curve becomes steeper).\n2. Function g: A concave curve. Its slope gradually decreases as time passes (the curve becomes flatter).\n3. Function h: An \"S\" shaped (sigmoidal) curve. Initially, the slope increases (convex section), and subsequently, it decreases (concave section), indicating an inflection point.\n4. Function d: A straight line passing through the origin, indicating a constant slope (linear relationship).",
+    "input": "",
     "choices": [
       "Α. δοχείο 1 η d, δοχείο 2 η g, δοχείο 3 η h",
       "Β. δοχείο 1 η h, δοχείο 2 η d, δοχείο 3 η g",
@@ -338,19 +338,19 @@
   },
   {
     "id": "39",
-    "question": "Για να υπολογίσουμε το ύψος $h$ του κτιρίου ΟΜ μετρήσαμε τη γωνία $\\overline{O\\Lambda M}=45^{\/circ}$ και την απόσταση $K\\Lambda=5m.$ Αν μετρήσουμε τη γωνία $O\\overline{KM}=\\omega$ ποιο είναι το ύψος του κτιρίου;",
-    "input": "The image displays a geometric diagram representing a trigonometry problem for calculating height.\nGeometric Elements:\nVertical Segment ($OM$): A vertical line segment on the right, with vertex $M$ at the top and base $O$ at the bottom. It represents the height of the building and is labeled $h$. There is a right-angle symbol ($90^/circ$) at the base $O$.\nHorizontal Line: A line representing the ground extending to the left from base $O$. Two points are marked on it: $K$ and $\\Lambda$.\nThe arrangement from left to right is: $\\Lambda$, $K$, $O$.\nTriangles and Angles:\nA large right-angled triangle $\\Lambda O M$ is formed. The angle at the base $\\Lambda$ (angle of elevation to vertex $M$) is given as $45^/circ$.\nA smaller right-angled triangle $K O M$ is formed. The angle at the base $K$ (angle of elevation to vertex $M$) is labeled $\\omega$.\nGiven Lengths:\nThe distance between points $\\Lambda$ and $K$ is labeled as $5\text{ m}$ ($\\Lambda K = 5$).",
+    "question": "Για να υπολογίσουμε το ύψος $h$ του κτιρίου ΟΜ μετρήσαμε τη γωνία $\\widehat{O\\Lambda M}=45^{\\circ}$ και την απόσταση $K\\Lambda=5m.$ Αν μετρήσουμε τη γωνία $\\widehat{OKM}=\\omega$ ποιο είναι το ύψος του κτιρίου;",
+    "input": "",
     "choices": [
       "A. $h=\\frac{5\\cdot\\epsilon\\varphi\\omega}{\\epsilon\\varphi\\omega-1}$",
       "B. $h=\\frac{5\\cdot\\epsilon\\varphi\\omega}{\\epsilon\\varphi\\omega+1}$",
-      "Γ. $h=5\\cdot(\\epsilon\\varphi45^{\/circ}+\\epsilon\\varphi\\omega)$",
+      "Γ. $h=5\\cdot(\\epsilon\\varphi45^{\\circ}+\\epsilon\\varphi\\omega)$",
       "Δ. $h=\\frac{5(\\epsilon\\varphi\\omega+\\epsilon\\varphi45^{0})}{\\epsilon\\varphi\\omega-\\epsilon\\varphi45^{0}}$",
       "Ε. $h=\\frac{5(\\epsilon\\varphi\\omega-\\epsilon\\varphi45^{0})}{\\epsilon\\varphi\\omega+\\epsilon\\varphi45^{0}}$"
     ],
     "images": [
         {
           "path": "images/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_1/ΕΙΚΟΝΑ_10/ΘΕΜΑΤΑ_ΜΑΘΗΜΑΤΙΚΑ_ΛΥΚΕΙΟ_2025_1_ΘΕΜΑ_39_ΕΙΚΟΝΑ_10.png",
-          "description": "The image displays a geometric diagram representing a trigonometry problem for calculating height.\nGeometric Elements:\nVertical Segment ($OM$): A vertical line segment on the right, with vertex $M$ at the top and base $O$ at the bottom. It represents the height of the building and is labeled $h$. There is a right-angle symbol ($90^/circ$) at the base $O$.\nHorizontal Line: A line representing the ground extending to the left from base $O$. Two points are marked on it: $K$ and $\\Lambda$.\nThe arrangement from left to right is: $\\Lambda$, $K$, $O$.\nTriangles and Angles:\nA large right-angled triangle $\\Lambda O M$ is formed. The angle at the base $\\Lambda$ (angle of elevation to vertex $M$) is given as $45^/circ$.\nA smaller right-angled triangle $K O M$ is formed. The angle at the base $K$ (angle of elevation to vertex $M$) is labeled $\\omega$.\nGiven Lengths:\nThe distance between points $\\Lambda$ and $K$ is labeled as $5\text{ m}$ ($\\Lambda K = 5$).",
+          "description": "The image displays a geometric diagram representing a trigonometry problem for calculating height.\nGeometric Elements:\nVertical Segment ($OM$): A vertical line segment on the right, with vertex $M$ at the top and base $O$ at the bottom. It represents the height of the building and is labeled $h$. There is a right-angle symbol ($90^\\circ$) at the base $O$.\nHorizontal Line: A line representing the ground extending to the left from base $O$. Two points are marked on it: $K$ and $\\Lambda$.\nThe arrangement from left to right is: $\\Lambda$, $K$, $O$.\nTriangles and Angles:\nA large right-angled triangle $\\Lambda O M$ is formed. The angle at the base $\\Lambda$ (angle of elevation to vertex $M$) is given as $45^\\circ$.\nA smaller right-angled triangle $K O M$ is formed. The angle at the base $K$ (angle of elevation to vertex $M$) is labeled $\\omega$.\nGiven Lengths:\nThe distance between points $\\Lambda$ and $K$ is labeled as $5\text{ m}$ ($\\Lambda K = 5$).",
           "transcription": []
         }
     ],
@@ -361,7 +361,7 @@
   {
     "id": "40",
     "question": "Στο διπλανό σχήμα είναι $AB=6$ $A\\Gamma=8$ και $B\\Gamma=10$ και σχηματίζουμε τα σημεία $\\Gamma_{1}$, $\\Gamma_{2}$ $\\Gamma_{3},$ ... σύμφωνα με το σχήμα. Το μήκος του $B\\Gamma_{4},$ το οποίο σχηματίζεται αν συνεχιστεί το σχέδιο, είναι:",
-    "input": "The image displays a geometric diagram featuring a right-angled triangle labeledΑΒΓ.\nVisual Elements:\nTriangle ΑΒΓ: The main triangle has a right angle ($90^/circ$) at vertexA (bottom left). VertexB is at the top, and vertexΓ is at the bottom right.\nGeometric Construction: A sequence of perpendicular line segments is drawn, creating a recursive \"zig-zag\" pattern that progresses towards vertex B:\n1. Segment ΑΓ₁: An altitude is drawn from vertexA perpendicular to the hypotenuseΒΓ, meeting it at pointΓ₁.\n2. Segment Γ₁Γ₂: From pointΓ₁, a line segment is drawn perpendicular to the vertical sideAB, intersecting it at pointΓ₂.\n3. Segment Γ₂Γ₃: From pointΓ₂, a line segment is drawn perpendicular to the hypotenuseΒΓ, intersecting it at pointΓ₃.\nSymbols: Small green squares are used to mark the right angles at verticesA,Γ₁,Γ₂, andΓ₃.",
+    "input": "",
     "choices": [
       "A. 1,296",
       "B. 0,7776",

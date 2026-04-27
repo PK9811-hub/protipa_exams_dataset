@@ -4,75 +4,96 @@ import ast
 import logging
 import os
 import pandas as pd
+import ast
 from datasets import load_dataset, concatenate_datasets
+from dotenv import load_dotenv, find_dotenv
+
+load_dotenv(find_dotenv())
 
 logger = logging.getLogger(__name__)
 
-def filter_dataset(dataset, mode = 'closed'):
+def filter_dataset(dataset, mode='closed'):
     """
-    Filters the dataset based on the mode ('closed' or 'open').
-    
-    Args:
-        dataset: The raw dataset list.
-        mode (str): 'closed' for MC/TF/Matching, 'open' for Open/Fill-in-gaps.
+    Final cleaned version of filter_dataset.
+    Filters based on Subject and Format logic (Open vs Closed).
     """
     filtered = []
     
-    subjects = ['modern greek', 'mathematics', 'physics', 'religious studies']
+    valid_subjects = [
+        'greek_language', 'mathematics', 'physics', 'religious studies',
+        'ΓΛΩΣΣΑ', 'ΜΑΘΗΜΑΤΙΚΑ', 'ΦΥΣΙΚΗ', 'ΘΡΗΣΚΕΥΤΙΚΑ'
+    ]
     
-    # Ορίζουμε τι ψάχνουμε ανάλογα με το mode
-    if mode == 'closed':
-        target_ex_types = ['multiple choice', 'true/false', 'matching']
-        target_q_types = ['closed']
-    elif mode == 'open':
-        target_ex_types = ['fill-in-the-gaps', 'open'] 
-        target_q_types = ['open']
-    else:
-        raise ValueError("Mode must be 'closed' or 'open'")
-
     print(f"🔍 Filtering for mode: {mode.upper()}...")
 
     for item in dataset:
-        subj = str(item.get('subject', '')).lower().strip()
-        q_type_raw = str(item.get('question_type', '')).lower().strip()
-        ex_type_raw = str(item.get('exercise_type', '')).lower().strip()
+        # 1. Ανάκτηση δεδομένων
+        subj = str(item.get('subject', '')).strip()
+        fmt = str(item.get('format', '')).strip()
         
-        choices = item.get('choices', [])
-        if isinstance(choices, str):
+        # 2. Ασφαλής ανάκτηση choices
+        raw_choices = item.get('choices', [])
+        
+        if isinstance(raw_choices, list):
+            choices = raw_choices
+        elif isinstance(raw_choices, str):
             try:
-                choices = ast.literal_eval(choices)
+                choices = ast.literal_eval(raw_choices)
             except:
                 choices = []
+        else:
+            choices = []
+            
         if choices is None: choices = []
-
-        if subj not in subjects:
+        
+        # 3. Έλεγχος Μαθήματος
+        is_valid_subj = any(s.lower() == subj.lower() for s in valid_subjects)
+        if not is_valid_subj:
             continue
 
-        if mode == 'closed':
-            
-            is_valid_type = (q_type_raw == 'closed')
-            has_choices = (len(choices) > 1)
-            
-            if is_valid_type and has_choices:
-                filtered.append(item)
+        # 4. ΛΟΓΙΚΗ ΔΙΑΧΩΡΙΣΜΟΥ
+        has_choices = (len(choices) > 0)
+        should_keep = False
 
+        if mode == 'closed':
+            # Κλειστά formats + Fill-in με επιλογές
+            if fmt in ['multiple_choice', 'true_false', 'matching']:
+                should_keep = True
+            elif fmt == 'fill_in_the_gaps' and has_choices:
+                should_keep = True
+                
         elif mode == 'open':
+            # Ανοιχτά formats + Fill-in χωρίς επιλογές
+            if fmt == 'open_ended':
+                should_keep = True
+            elif fmt == 'fill_in_the_gaps' and not has_choices:
+                should_keep = True
+
+        if should_keep:
+            if fmt == 'true_false':
+                ans_idx = item.get('answer_index')
+                if ans_idx is None or str(ans_idx).lower() == 'nan':
             
-            is_open = (q_type_raw == 'open')
+                    ans_text = str(item.get('answer_text', '') or item.get('answer', '')).lower()
+                    
+                    if 'σωστό' in ans_text or 'true' in ans_text:
+                        item['answer_index'] = 0
+                    elif 'λάθος' in ans_text or 'false' in ans_text:
+                        item['answer_index'] = 1
             
-            is_fill_in = ('fill' in ex_type_raw)
-            
-            if is_open or (is_fill_in and not choices):
-                filtered.append(item)
+            filtered.append(item)
 
     print(f"✅ Found {len(filtered)} items for mode '{mode}'.")
     return filtered
     
 
-def load_protipa_dataset(repo_id="PennyK98/protipa_exams_dataset", split=None):
+def load_protipa_dataset(repo_id=None, split=None):
     """
     Loads and concatenates train and test splits if split is not specified.
     """
+    if repo_id is None:
+        repo_id = os.getenv("HF_REPO_ID")
+    
     logger.info(f"Loading dataset from Hugging Face: {repo_id}")
     dataset_dict = load_dataset(repo_id)
     
@@ -87,24 +108,25 @@ def process_matching_row(row):
     Processes a single matching exercise row to create a list of answer options
     (shuffled versions of the matching) and identifying the correct index.
     """
-    answer_raw = row.get('answer')
+    answer_raw = row.get('answer_text')
     if not answer_raw:
-        return None
+        answer_raw = row.get('answer')
+        if not answer_raw:
+            return None
     
     try:
         # 1. Parse answer if it's a string
         if isinstance(answer_raw, str):
+            if '-' in answer_raw or ':' in answer_raw:
+                correct_list = [s.strip() for s in answer_raw.split(',')]
             # Try to handle common formats like '["A-1", "B-2"]' or "['A-1', 'B-2']"
-            try:
-                correct_list = json.loads(answer_raw.replace("'", '"'))
-            except:
+            else:
                 try:
-                    correct_list = ast.literal_eval(answer_raw)
+                    correct_list = json.loads(answer_raw.replace("'", '"'))
                 except:
-                    # Fallback if it's just a raw CSV string
-                    if '-' in answer_raw or ':' in answer_raw:
-                        correct_list = [s.strip() for s in answer_raw.split(',')]
-                    else:
+                    try:
+                        correct_list = ast.literal_eval(answer_raw)
+                    except:
                         return None
         else:
             correct_list = answer_raw
@@ -144,13 +166,16 @@ def process_matching_row(row):
             max_attempts -= 1
             
         # 4. Create the final list of options (a list of lists)
-        options = [correct_list] + distractors
+        raw_options = [correct_list] + distractors
         
         # 5. Shuffle the list of options
-        random.shuffle(options)
+        random.shuffle(raw_options)
+        
+        options = [", ".join(opt) for opt in raw_options]
         
         # 6. Find the new index of the correct answer
-        correct_index = options.index(correct_list)
+        correct_string = ", ".join(correct_list)
+        correct_index = options.index(correct_string)
         
         return pd.Series({
             'processed_choices': options,
@@ -179,9 +204,12 @@ def apply_matching_processing(df, target_ids=None):
             df.loc[:, col] = None
     
     # Determine which rows to process
-    rows_to_process = df
+    mask = df['format'].astype(str).str.contains('matching', case=False, na=False)
+    
     if target_ids is not None and 'unique_id' in df.columns:
-        rows_to_process = df[df['unique_id'].isin(target_ids)]
+        mask = mask & df[df['unique_id'].isin(target_ids)]
+    
+    rows_to_process = df[mask]
     
     if rows_to_process.empty:
         return df
@@ -197,8 +225,8 @@ def apply_matching_processing(df, target_ids=None):
                 # The index of updates matches the index of df
                 valid_indices = updates.index[valid_mask]
                 
-                df.loc[valid_indices, ['processed_choices', 'new_answer_index']] = updates.loc[valid_indices]
-                df.loc[valid_indices, 'answer'] = updates.loc[valid_indices, 'processed_choices']
+                #df.loc[valid_indices, ['processed_choices', 'new_answer_index']] = updates.loc[valid_indices]
+                df.loc[valid_indices, 'choices'] = updates.loc[valid_indices, 'processed_choices']
                 df.loc[valid_indices, 'answer_index'] = updates.loc[valid_indices, 'new_answer_index']
     except Exception as e:
         logger.error(f"Error in apply_matching_processing: {e}")
@@ -254,9 +282,12 @@ def process_results_bypass(doc, results):
     Οι πραγματικές μετρικές (BLEU/ChrF) θα υπολογιστούν μετά, στα RQ cells.
     """
     completion = results[0]
-    target = doc["answer"]
+    target = doc["answer_text"]
     
     # Επιστρέφουμε 'exact_match' που είναι native και δεν κρασάρει με tuples
+    #return {
+        #"exact_match": (completion, target)
+    #}
     return {
-        "exact_match": (completion, target)
+        "exact_match": 0.0 
     }

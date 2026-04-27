@@ -15,7 +15,7 @@
   {
     "id": "27",
     "question": "Ποιος αριθμός είναι τριπλάσιος του αριθμού που ανταποκρίνεται στο σημείο Α του παρακάτω τμήματος της αριθμογραμμής;",
-    "input": "The image displays a horizontal number line marked with regularly spaced vertical tick marks.\nScale: The integers 1 and 2 are explicitly labeled below the line.\nSubdivisions: The distance between the numbers 1 and 2 is divided into 10 equal intervals (spaces).\nPoint A: The letter A is positioned above a specific tick mark located to the left of the number 1. Specifically, point A is located exactly one interval before the number 1.",
+    "input": "",
     "choices": [
       "A. 3",
       "B. 2,7",
@@ -60,7 +60,7 @@
   {
     "id": "30",
     "question": "Παρατήρησε τις παρακάτω ζυγαριές που ισορροπούν. Πόσο ζυγίζουν τα κρεμμύδια;",
-    "input": "The image illustrates a math problem using two balanced weighing scales.\nLeft Scale: On the left pan, there is a large box containing a mix of items. On the right pan, there is a single large weight. The scale is balanced, indicating the total weight of the box's contents equals the weight.\nRight Scale: This scale compares the two types of items separately. The left pan holds a box with one type of item. The right pan holds a box with the other type of item *plus* a small weight. The scale is balanced, showing a relationship between the weights of the two items.",
+    "input": "",
     "choices": [
       "Α. 14 κιλά",
       "Β. 16 κιλά",
@@ -118,7 +118,7 @@
   {
     "id": "34",
     "question": "Το παρακάτω ραβδόγραμμα δείχνει τον αριθμό των απαντήσεων των παιδιών ενός Δημοτικού Σχολείου σε μια έρευνα που έγινε με θέμα την αγαπημένη ενασχόλησή τους στον ελεύθερο χρόνο τους. Τι ποσοστό των παιδιών απάντησαν ότι η αγαπημένη τους ενασχόληση είναι η μουσική;",
-    "input": "The image is a vertical bar chart titled \"Ενασχόληση στον ελεύθερο χρόνο\" (Free time activities).\nY-axis: Represents the number of children (frequency), with a scale labeled 0, 10, 20, 30, 40.\nX-axis: Lists four different activities.\nData Bars: There are four blue bars showing the popularity of each activity.",
+    "input": "",
     "choices": [
       "Α. 10%",
       "B. 25%",
@@ -150,7 +150,7 @@
   {
     "id": "36",
     "question": "Τα παιδιά της Στ τάξης ζήτησαν από το Διευθυντή του σχολείου τους, για να μην τραυματίζονται, να τοποθετήσει ελαστικό τάπητα στην αυλή κάτω από τον κήπο σχήματος τετραγώνου. Ο Διευθυντής τους ζήτησε να υπολογίσουν πόσο θα κοστίσει. Τους ενημέρωσε ότι η τιμή του τάπητα είναι 10 ευρώ το τ.μ. και τους έδωσε το παρακάτω σχεδιάγραμμα της αυλής. Πόσο θα κοστίσει ο τάπητας;",
-    "input": "The image displays a geometric diagram representing a yard and a garden.\nStructure: There is a large gray shaded area shaped roughly like a rectangle with a rectangular cutout in the top center. Inside this top-center cutout is a white square labeled \"κήπος\" (garden).\nDimensions:\nThe total width at the bottom is 12 μ. (meters).\nThe outer vertical height on both the far left and far right sides is 5 μ.\nThe top horizontal section of the gray area to the left of the garden is 3 μ.\nThe top horizontal section of the gray area to the right of the garden is 3 μ.\nThe vertical depth of the garden (the side adjacent to the gray area) is marked as 3 μ. on both the left and right sides of the garden.",
+    "input": "",
     "choices": [
       "Α. 240 ευρώ",
       "Β. 420 ευρώ",
@@ -286,7 +286,7 @@
   {
     "id": "46",
     "question": "Σε ένα διαγώνισμα Αγγλικών οι υποψήφιοι έγραφαν με μαύρο ή μπλε στυλό. Το παρακάτω κυκλικό διάγραμμα δείχνει τι μέρος των υποψηφίων έγραφε με μπλε και τι μέρος έγραφε με μαύρο στυλό. Ποια από τις παρακάτω προτάσεις είναι σωστή;",
-    "input": "The image displays a pie chart (circular diagram) divided into two sectors representing the color of pens used.\nLight Blue Sector: Covers the majority of the circle (three-quarters) and is labeled \"Μπλε\" (Blue) with the percentage \"75%\".\nBlack Sector: Covers the remaining top-right quadrant (one-quarter) and is labeled \"Μαύρο\" (Black).",
+    "input": "",
     "choices": [
       "Α. Αν με μπλε στυλό έγραφαν 120 υποψήφιοι, τότε με μαύρο έγραφαν 30 υποψήφιοι.",
       "Β. Αν με μπλε στυλό έγραφαν 120 υποψήφιοι, τότε με μαύρο έγραφαν 40 υποψήφιοι.",
@@ -305,7 +305,7 @@
   {
     "id": "47",
     "question": "Στο ορθογώνιο ΑΖΕΔ η πλευρά ΑΔ είναι 19 εκατοστά. Το τετράγωνο ΒΓΕΔ έχει εμβαδόν 49 τετραγωνικά εκατοστά. Πόσο είναι το εμβαδόν του γραμμοσκιασμένου ορθογωνίου ΑΖΓΒ;",
-    "input": "The image depicts a large rectangle labeled $AZ E \\Delta$ that is divided vertically into two smaller geometric shapes.\nLeft Section: A shaded rectangle with diagonal stripes, labeled $AZ \\Gamma B$.\nRight Section: A white (unshaded) square labeled $B \\Gamma E \\Delta$.\nVertices: The bottom-left corner is $A$, top-left is $Z$, top-middle is $\\Gamma$, top-right is $E$, bottom-right is $\\Delta$, and bottom-middle is $B$. The segment $AD$ forms the straight bottom line, and segment $ZE$ forms the straight top line.",
+    "input": "",
     "choices": [
       "Α. 98 τ.εκ.",
       "Β. 121 τ.εκ.",

@@ -106,7 +106,7 @@
   {
     "id": "9",
     "question": "Στο διπλανό σχήμα το ΑΒΓΔ είναι ορθογώνιο και το ΕΒΓΖ είναι τετράγωνο. Αν το ΑΔ είναι 4 εκατοστά και το ΔΓ είναι 6 εκατοστά, τότε το εμβαδόν του τριγώνου ΔΖΕ είναι ίσο με:",
-    "input": "The image depicts a rectangle labeled $A B \\Gamma \\Delta$ ($ABCD$) that is divided into two geometric shapes by a vertical line segment $EZ$.\nRight Section: The text identifies the shape $E B \\Gamma Z$ as a square.\nLeft Section: There is a shaded right-angled triangle labeled $\\Delta Z E$. This triangle is formed by the base segment $\\Delta Z$, the vertical side $EZ$, and the diagonal hypotenuse $\\Delta E$.\nDimensions:\nThe height of the rectangle (side $A\\Delta$) is given as $4$ cm.\nThe total length of the bottom base (side $\\Delta\\Gamma$) is given as $6$ cm.",
+    "input": "",
     "choices": [
       "A. 2 τετραγωνικά εκατοστά",
       "B. 4 τετραγωνικά εκατοστά",
@@ -125,7 +125,7 @@
   {
     "id": "10",
     "question": "Μαθητές κατασκεύασαν το παρακάτω σχήμα με 10 τετράγωνα χαρτόνια ίσου μεγέθους. Το συνολικό εμβαδόν του σχήματος είναι 160 τ.εκ. Πόση είναι η περίμετρός του;",
-    "input": "The image displays a composite geometric figure resembling an arch or an inverted \"U\", constructed from a grid of 10 identical squares.\nStructure:\nTop Section: A horizontal row spanning 4 squares in width.\nVertical Legs: Two columns of squares extend downwards from the ends of the top row.\nThe left leg consists of 4 squares vertically (including the corner one).\nThe right leg consists of 4 squares vertically (including the corner one).\nThis creates a shape that is 4 squares high and 4 squares wide, with a $2 \times 3$ rectangular gap in the bottom center.\nAppearance: The squares have a light beige fill color with reddish-brown borders. The corners of each square are emphasized with small black dots.",
+    "input": "",
     "choices": [
       "A. 60 εκ.",
       "B. 88 εκ.",
@@ -144,7 +144,7 @@
   {
     "id": "11",
     "question": "Αν γνωρίζουμε ότι κάθε τετράγωνο του διπλανού πλέγματος έχει πλευρά 1 εκ., τότε το εμβαδόν του τριγώνου είναι ίσο με:",
-    "input": "The image shows a triangle drawn on a grid background with dashed lines.\nGrid: The background consists of squares formed by vertical and horizontal dashed lines.\nTriangle: A scalene triangle is outlined in solid black lines. Its vertices are positioned at specific intersections of the grid lines.\nVertex 1 (Bottom-Left): Located at a grid intersection.\nVertex 2 (Top): Located 2 grid units to the right and 5 grid units up from the first vertex.\nVertex 3 (Bottom-Right): Located 4 grid units to the right and 1 grid unit up from the first vertex.\nScale: The problem text states that each square on the grid has a side length of $1 \text{ cm}$.",
+    "input": "",
     "choices": [
       "A. 7 τετραγωνικά εκατοστά",
       "B. 8 τετραγωνικά εκατοστά",
@@ -163,7 +163,7 @@
   {
     "id": "12",
     "question": "Ποιο από τα παρακάτω ραβδογράμματα (Α), (Β), (Γ), (Δ) αποτυπώνει το διπλανό κυκλικό διάγραμμα;",
-    "input": "Image 1: Pie Chart\nThe first image displays a circular pie chart divided into three sectors, visually representing different proportions:\nWhite Sector: Covers exactly half of the circle (the entire left side), representing $50\\%$ of the total.\nBlack Sector: Covers one-quarter of the circle (the top-right quadrant), representing $25\\%$ of the total.\nGray Sector: Covers one-quarter of the circle (the bottom-right quadrant), representing $25\\%$ of the total.\nImage 2: Bar Charts\nThe second image displays four distinct vertical bar charts labeled (A), (B), (Γ), and (Δ). Each chart contains three bars colored Gray, Black, and White to correspond with the pie chart sectors.\nChart (A): The White bar is the tallest, the Gray bar is medium height, and the Black bar is the shortest.\nChart (B): All three bars (Gray, Black, and White) are of equal height.\nChart (Γ): The White bar is the tallest, the Black bar is medium height, and the Gray bar is the shortest.\nChart (Δ): The Gray and Black bars are of equal height. The White bar is the tallest, appearing to be approximately double the height of the Gray and Black bars.",
+    "input": "",
     "choices": [
       "A. A",
       "B. B",

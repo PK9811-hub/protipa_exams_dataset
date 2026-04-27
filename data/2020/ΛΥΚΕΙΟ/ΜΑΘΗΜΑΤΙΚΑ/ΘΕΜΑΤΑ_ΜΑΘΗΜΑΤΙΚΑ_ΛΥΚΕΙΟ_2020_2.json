@@ -80,7 +80,7 @@
   {
     "id": "7",
     "question": "Το γράφημα δείχνει την απόσταση που διένυσαν πέντε δρομείς και τον αντίστοιχο χρόνο που έκαναν, τρέχοντας με σταθερή ταχύτητα ο καθένας από αυτούς. Ποια από τις παρακάτω προτάσεις είναι ΣΩΣΤΗ;",
-    "input": "The image displays a scatter plot on a Cartesian coordinate system with a grid background.\nY-axis (Vertical): Labeled \"απόσταση\" (distance). The scale ranges from 0 to 9.\nX-axis (Horizontal): Labeled \"χρόνος\" (time). The scale ranges from 0 to 10.\nData Points: There are five blue points labeled $A, B, \\Gamma, \\Delta$, and $E$, representing the performance of five different runners.",
+    "input": "",
     "choices": [
       "A. Ο δρομέας Γ είχε την μεγαλύτερη ταχύτητα από όλους και ο δρομέας Δ την μικρότερη.",
       "B. Ο δρομέας Β είχε την μεγαλύτερη ταχύτητα από όλους και ο δρομέας Δ την μικρότερη.",
@@ -99,7 +99,7 @@
   {
     "id": "8",
     "question": "Στο διπλανό σχήμα το άθροισμα των γραμμοσκιασμένων γωνιών είναι ίσο με:",
-    "input": "The image displays a geometric figure consisting of two overlapping triangles.\nOrientation:\nOne triangle is positioned roughly vertically, pointing upwards.\nThe second triangle is positioned roughly horizontally, intersecting the first one.\nVertices & Angles: There are six vertices in total (three for each triangle).\nShaded Angles: Five of the interior angles are marked with grey circular arcs, indicating they are the angles of interest.\nIn the \"vertical\" triangle, the top angle and the bottom-right angle are shaded.\nIn the \"horizontal\" triangle, the left angle, the top-left angle, and the bottom-right angle are shaded.\nIntersection: The sides of the triangles cross each other, creating a quadrilateral shape in the center where they overlap.",
+    "input": "",
     "choices": [
       "A. $180^{\\circ}$",
       "B. $270^{\\circ}$",
@@ -131,7 +131,7 @@
   {
     "id": "10",
     "question": "Στο διπλανό σχήμα οι τρεις καμπύλες α, $\\beta,$ και γ δημιουργούνται από ημικύκλια. Ποια από τις ακόλουθες προτάσεις είναι ΣΩΣΤΗ;",
-    "input": "The image shows a geometric line segment with endpoints marked by black dots. Connecting these two endpoints are three distinct curved paths labeled $\\alpha$, $\beta$, and $\\gamma$.\nEach path creates an \"S\" shape and is composed of two semicircles joined together at the horizontal line:\nCurve $\\alpha$: Composed of a large semicircle arching upwards (above the line) followed by a small semicircle curving downwards (below the line).\nCurve $\beta$: Composed of a medium semicircle arching upwards followed by a medium semicircle curving downwards.\nCurve $\\gamma$: Composed of a small semicircle arching upwards followed by a large semicircle curving downwards.",
+    "input": "",
     "choices": [
       "A. Το μήκος της καμπύλης α είναι μεγαλύτερο από το μήκος της καμπύλης β και το μήκος της καμπύλης γ.",
       "B. Το μήκος της καμπύλης β είναι μεγαλύτερο από το μήκος της καμπύλης α και το μήκος της καμπύλης γ.",
@@ -163,7 +163,7 @@
   {
     "id": "12",
     "question": "Ένας μαθητής ξεκίνησε το πρωί από το σπίτι του Μ και αφού ακολούθησε τη διαδρομή που φαίνεται στο διπλανό σχέδιο, έφτασε στο σχολείο Σ. Το μεσημέρι επέστρεψε σπίτι του από άλλο δρόμο προκειμένου να περάσει και από το σπίτι ενός φίλου του που βρισκόταν στο σημείο Φ. Αν η συνολική διαδρομή που έκανε ο μαθητής ήταν 640 m, ποια είναι η κλίμακα του σχεδίου;",
-    "input": "The image displays a geometric path drawn on a grid of squares.\nPoints: Three distinct points are marked with orange dots:\nPoint M: Located at the top-left corner of the main grid area.\nPoint $\\Sigma$: Located at the bottom-right corner of the shape.\nPoint $\\Phi$: Located at the bottom-left corner of the main grid area.\nGrid Structure: The shape is composed of several grid squares.\nThere is a main $3 \times 3$ square block (although the bottom middle square extends downwards and the right middle square extends outwards).\nSpecifically, the outline defines a polygon.\nPath Indicators: Arrows indicate direction along the perimeter.\nRed Arrows: Show a path starting from M, going Right along the top edge, Down the right side, Right again, and Down to reach $\\Sigma$.\nBlack Arrows: Show a return path from $\\Sigma$, going Left, Down into a small rectangular dip, Up, Left to $\\Phi$, and finally Up the left side back to M.\nScale: A label \"1 cm\" marks the length of one side of a grid square near point M.",
+    "input": "",
     "choices": [
       "A. 1:4000",
       "B. 1:640",

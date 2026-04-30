@@ -1,6 +1,7 @@
 Προτείνω να χρησιμοποιήσουμε τον κώδικα φιλτραρίσματος *def filter_dataset()* για να σπάσουμε το dataset τοπικά, και να το ανεβάσουμε στο Hugging Face χωρισμένο σε δύο splits (**test_open** και **test_closed**). Έτσι, το κάθε YAML θα 'τραβάει' απευθείας το δικό του έτοιμο κομμάτι από το Hugging Face, αποφεύγοντας τα τοπικά JSONs και τα extra scripts.
 
 Βήματα:
+
 •	**Βήμα 1**: Τοπικός Διαχωρισμός Δεδομένων: Χρησιμοποιούμε τον υπάρχοντα κώδικα φιλτραρίσματος τοπικά, μόνο εμείς και μόνο μία φορά. Αυτό θα πάρει το μεγάλο μας dataset και θα το σπάσει σε δύο καθαρά υποσύνολα: ένα με τις ερωτήσεις ανοικτού τύπου και ένα με τις ερωτήσεις κλειστού τύπου.
 
 •	**Βήμα 2**: Ανέβασμα στο Hugging Face σε ξεχωριστά "Splits": Αντί να ανεβάσουμε όλο το dataset σε ένα ενιαίο split (π.χ. test), θα το ανεβάσουμε στο ίδιο repository αλλά σε δύο διαφορετικά, έτοιμα splits. Το ένα θα ονομαστεί **test_closed** και το άλλο **test_open**.
@@ -8,14 +9,20 @@
 •	**Βήμα 3**: Απλοποίηση των YAML Αρχείων: Τροποποιούμε τα YAML αρχεία μας ώστε να είναι 100% αυτόνομα. Στο πεδίο dataset_path θα βάλουμε το link του Hugging Face, και στο πεδίο test_split θα γράψουμε απλώς test_closed (για το πρώτο YAML) και test_open (για το δεύτερο).
 
 task: greek_protipa_exams_closed
+
 dataset_path: PennyK98/protipa_exams_dataset
+
 test_split: test_closed   
+
 output_type: multiple_choice
 # ... 
 
 task: greek_protipa_exams_open
+
 dataset_path: PennyK98/protipa_exams_dataset
+
 test_split: test_open 
+
 output_type: generate_until
 # ...
 

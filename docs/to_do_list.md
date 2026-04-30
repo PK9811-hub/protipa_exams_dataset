@@ -18,8 +18,8 @@
 
 | Περιγραφή Ενέργειας (Action Item) | Προτεινόμενη Λύση | Κατάσταση (Status) | Σχόλια / Σημειώσεις |
 | :--- | :--- | :---: | :--- |
-| Τεκμηρίωση Προέλευσης Περιγραφών | Προσθήκη αναλυτικής παραγράφου που εξηγεί σαφώς τη μεθοδολογία παραγωγής των image descriptions/transcriptions (μέσω LLMs). | [ ] To Do | |
-| Αναπλαισίωση Αφηγήματος (Re-framing) | Αλλαγή ορολογίας στο κείμενο: Μετάβαση από "Multimodal LLM Evaluation" σε "Text-only Evaluation with textualized visual context". | [ ] To Do | *Εναλλακτικά: Χρήση πραγματικών VLMs μέσω lmms-eval.* |
+| Τεκμηρίωση Προέλευσης Περιγραφών | Προσθήκη αναλυτικής παραγράφου που εξηγεί σαφώς τη μεθοδολογία παραγωγής των image descriptions/transcriptions (μέσω LLMs). | [x] Done |
+| Αναπλαισίωση Αφηγήματος (Re-framing) | Αλλαγή ορολογίας στο κείμενο: Μετάβαση από "Multimodal LLM Evaluation" σε "Text-only Evaluation with textualized visual context". | [x] Done | *Εναλλακτικά: Χρήση πραγματικών VLMs μέσω lmms-eval.* |
 
 ---
 

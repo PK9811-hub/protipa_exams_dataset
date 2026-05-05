@@ -1,0 +1,7 @@
+group: greek_protipa_exams_aggregate
+task:
+  - greek_protipa_exams_maths_closed
+  - greek_protipa_exams_language_closed
+aggregate_metric_list:
+  - metric: exact_match
+    aggregation: mean

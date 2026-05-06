@@ -70,3 +70,44 @@ def doc_to_target(doc):
     if doc.get("answer_index") is not None:
         return str(doc["answer_index"]).split(',')[0].strip()
     return ""
+
+def doc_to_text_open(doc):
+    """
+    Prompt logic for open-ended and fill-in-the-gap questions.
+    """
+    prompt_parts = []
+    
+    # 1. Instruction
+    instruction = (
+        "Δίνεται η παρακάτω ερώτηση από σχολικές εξετάσεις.\n"
+        "Αν είναι ερώτηση ανάπτυξης, δώσε μια ολοκληρωμένη και τεκμηριωμένη απάντηση.\n"
+        "Αν είναι ερώτηση συμπλήρωσης κενών, γράψε τη σωστή λέξη ή τη σωστή φράση που λείπει."
+    )
+    prompt_parts.append(instruction)
+    
+    # 2. Contextual Inputs 
+    if doc.get("input"): 
+        prompt_parts.append(f"Πλαίσιο/Κείμενο: {doc['input']}")
+    if doc.get("image_description"): 
+        prompt_parts.append(f"Περιγραφή εικόνας: {doc['image_description']}")
+    if doc.get("image_transcription"): 
+        prompt_parts.append(f"Κείμενο εικόνας: {doc['image_transcription']}")
+    
+    # 3. Question
+    prompt_parts.append(f"Ερώτηση: {doc['question']}\n\nΑπάντηση:")
+    
+    return "\n\n".join(prompt_parts)
+
+def doc_to_target_open(doc):
+    """Extracts the expected text answer for open-ended evaluation."""
+    ans = doc.get("answer_text") or doc.get("answer") or ""
+    return [str(ans).strip()]
+
+# ------
+def process_language_closed(dataset): return filter_by_mode_and_subject(dataset, mode='closed', subject='greek_language')
+def process_maths_closed(dataset): return filter_by_mode_and_subject(dataset, mode='closed', subject='mathematics')
+def process_religious_studies_closed(dataset): return filter_by_mode_and_subject(dataset, mode='closed', subject='religious studies')
+
+def process_language_open(dataset): return filter_by_mode_and_subject(dataset, mode='open', subject='greek_language')
+def process_maths_open(dataset): return filter_by_mode_and_subject(dataset, mode='open', subject='mathematics')
+def process_physics_open(dataset): return filter_by_mode_and_subject(dataset, mode='open', subject='physics')

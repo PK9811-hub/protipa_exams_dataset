@@ -1,11 +1,8 @@
-task: greek_protipa_exams_language_closed
+task: greek_protipa_exams_religious_studies_closed
 dataset_path: ilsp/greek-protipa-exams
 output_type: generate_until
 test_split: test
-process_docs: !function utils.filter_by_mode_and_subject
-process_docs_args:
-  subject: "language"
-  mode: "closed"
+process_docs: !function utils.process_religious_studies_closed
 doc_to_text: !function utils.doc_to_text_closed
 doc_to_target: !function utils.doc_to_target
 generation_kwargs:

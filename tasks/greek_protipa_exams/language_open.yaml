@@ -1,0 +1,16 @@
+task: greek_protipa_exams_language_open
+dataset_path: ilsp/greek-protipa-exams
+output_type: generate_until
+test_split: test
+process_docs: !function utils.process_language_open
+doc_to_text: !function utils.doc_to_text_open
+doc_to_target: !function utils.doc_to_target_open
+generation_kwargs:
+  do_sample: false
+  temperature: 0.0
+  max_gen_toks: 512
+  until: ["Ερώτηση:", "---"]
+metric_list:
+  - metric: chrf
+    aggregation: chrf
+    higher_is_better: true

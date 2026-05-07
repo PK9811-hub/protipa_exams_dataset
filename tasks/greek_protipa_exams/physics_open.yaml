@@ -12,5 +12,5 @@ generation_kwargs:
   until: ["Ερώτηση:", "---"]
 metric_list:
   - metric: chrf
-    aggregation: chrf
+    aggregation: mean
     higher_is_better: true

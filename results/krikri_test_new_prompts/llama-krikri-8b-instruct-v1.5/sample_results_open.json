@@ -1,0 +1,352 @@
+{
+  "results": {
+    "greek_protipa_exams_open_aggregate": {
+      "rouge2_max,none": 12.113415134459052,
+      "rouge2_max_stderr,none": 7.3912348450828205,
+      "rouge1_max,none": 47.63208898603904,
+      "rouge1_max_stderr,none": 8.036867116033813,
+      "bertscore_f1_max,none": 0.768143508169386,
+      "bertscore_f1_max_stderr,none": 0.03049343241989664,
+      "rougeL_max,none": 46.70310685794354,
+      "rougeL_max_stderr,none": 8.305802592083966,
+      "bleu_max,none": 7.768182165357056,
+      "bleu_max_stderr,none": 5.219534753611746,
+      "alias": "greek_protipa_exams_open_aggregate"
+    },
+    "greek_protipa_exams_language_open": {
+      "alias": " - greek_protipa_exams_language_open",
+      "bleu_max,none": 3.560725053301951,
+      "bleu_max_stderr,none": 3.5607250533019514,
+      "rouge1_max,none": 88.88888888888887,
+      "rouge1_max_stderr,none": 11.111111111111114,
+      "rouge2_max,none": 16.666666666666668,
+      "rouge2_max_stderr,none": 16.666666666666668,
+      "rougeL_max,none": 88.88888888888887,
+      "rougeL_max_stderr,none": 11.111111111111114,
+      "bertscore_f1_max,none": 0.8843292593955994,
+      "bertscore_f1_max_stderr,none": 0.0594724519544084
+    },
+    "greek_protipa_exams_maths_open": {
+      "alias": " - greek_protipa_exams_maths_open",
+      "bleu_max,none": 16.92767881855747,
+      "bleu_max_stderr,none": 15.20681957523007,
+      "rouge1_max,none": 28.951822513672685,
+      "rouge1_max_stderr,none": 19.834736609781753,
+      "rouge2_max,none": 17.871776934908684,
+      "rouge2_max_stderr,none": 14.513748837076662,
+      "rougeL_max,none": 27.650987240497283,
+      "rougeL_max_stderr,none": 20.445361817681768,
+      "bertscore_f1_max,none": 0.7334424058596293,
+      "bertscore_f1_max_stderr,none": 0.055766587673948154
+    },
+    "greek_protipa_exams_physics_open": {
+      "alias": " - greek_protipa_exams_physics_open",
+      "bleu_max,none": 2.8161426242117464,
+      "bleu_max_stderr,none": 1.1250612866127805,
+      "rouge1_max,none": 25.055555555555557,
+      "rouge1_max_stderr,none": 8.027921951800327,
+      "rouge2_max,none": 1.8018018018018018,
+      "rouge2_max_stderr,none": 1.8018018018018018,
+      "rougeL_max,none": 23.569444444444446,
+      "rougeL_max_stderr,none": 8.911094226223963,
+      "bertscore_f1_max,none": 0.6866588592529297,
+      "bertscore_f1_max_stderr,none": 0.04149409529626679
+    }
+  },
+  "groups": {
+    "greek_protipa_exams_open_aggregate": {
+      "rouge2_max,none": 12.113415134459052,
+      "rouge2_max_stderr,none": 7.3912348450828205,
+      "rouge1_max,none": 47.63208898603904,
+      "rouge1_max_stderr,none": 8.036867116033813,
+      "bertscore_f1_max,none": 0.768143508169386,
+      "bertscore_f1_max_stderr,none": 0.03049343241989664,
+      "rougeL_max,none": 46.70310685794354,
+      "rougeL_max_stderr,none": 8.305802592083966,
+      "bleu_max,none": 7.768182165357056,
+      "bleu_max_stderr,none": 5.219534753611746,
+      "alias": "greek_protipa_exams_open_aggregate"
+    }
+  },
+  "group_subtasks": {
+    "greek_protipa_exams_open_aggregate": [
+      "greek_protipa_exams_language_open",
+      "greek_protipa_exams_maths_open",
+      "greek_protipa_exams_physics_open"
+    ]
+  },
+  "configs": {
+    "greek_protipa_exams_language_open": {
+      "task": "greek_protipa_exams_language_open",
+      "dataset_path": "ilsp/greek-protipa-exams",
+      "test_split": "test",
+      "process_docs": "def process_language_open(dataset): return filter_by_mode_and_subject(dataset, mode='open', subject='greek_language')\n",
+      "doc_to_text": "def doc_to_text_open(doc):\n    \"\"\"\n    Prompt logic for open-ended and fill-in-the-gap questions.\n    \"\"\"\n    prompt_parts = []\n    format_type = doc.get(\"format\")\n    \n    # 1. Instruction Engineering \n    if format_type == \"open_ended\":\n        instruction = (\n    \"Απάντησε στην παρακάτω ερώτηση ανάπτυξης, δίνοντας μια ολοκληρωμένη και τεκμηριωμένη απάντηση.\\n\"\n    \"ΠΡΟΣΟΧΗ: Ξεκίνα την απάντησή σου απευθείας, χωρίς εισαγωγικές φράσεις, χωρίς να επαναλάβεις την ερώτηση και χωρίς χαιρετισμούς.\"\n    )\n        \n    elif format_type == \"fill_in_the_gaps\":\n        instruction = (\n    \"Γράψε ΜΟΝΟ τη σωστή λέξη ή τη σωστή φράση/τύπο που λείπει στην ερώτηση συμπλήρωσης κενών που σου δίνεται.\\n\"\n    \"ΚΡΙΣΙΜΗ ΟΔΗΓΙΑ: Μην δίνεις καμία απολύτως εξήγηση, μην γράφεις ολόκληρες προτάσεις και μην χρησιμοποιείς εισαγωγικά.\\n\"\n    \"Η απάντησή σου πρέπει να περιέχει αποκλειστικά και μόνο τη λέξη ή φράση που συμπληρώνει το κενό.\"\n    )\n    \n    prompt_parts.append(instruction)\n    if doc.get(\"input\"): \n        prompt_parts.append(f\"Πλαίσιο/Κείμενο: {doc['input']}\")\n    if doc.get(\"image_description\"): \n        prompt_parts.append(f\"Περιγραφή εικόνας: {doc['image_description']}\")\n    if doc.get(\"image_transcription\"): \n        prompt_parts.append(f\"Κείμενο εικόνας: {doc['image_transcription']}\")\n    \n    # 2. Question\n    prompt_parts.append(f\"Ερώτηση: {doc['question']}\\n\\nΑπάντηση:\")\n    \n    return \"\\n\\n\".join(prompt_parts)\n",
+      "doc_to_target": "def doc_to_target_open(doc):\n    \"\"\"Extracts the expected text answer for open-ended evaluation.\"\"\"\n    ans = doc.get(\"answer_text\") or doc.get(\"answer\") or \"\"\n    return [str(ans).strip()]\n",
+      "unsafe_code": false,
+      "process_results": "def process_results_gen(doc, results):\n    completion = results[0]\n    \n    gold_answer = doc.get(\"answer_text\") or doc.get(\"answer\") or \"\"\n    true_refs = [gold_answer]\n\n    # BLEU (sacrebleu with international tokenization)\n    bleu_scores = [bleu([[ref]], [completion]) for ref in true_refs]\n    bleu_max = np.nanmax(bleu_scores)\n\n    # ROUGE with custom Greek-safe tokenizer\n    global ROUGE_SCORER\n    if ROUGE_SCORER is None:\n        ROUGE_SCORER = rouge_scorer.RougeScorer(\n            [\"rouge1\", \"rouge2\", \"rougeLsum\"], \n            tokenizer=GreekTokenizer()\n        )\n    \n    rouge_scores = []\n    for ref in true_refs:\n        scores = ROUGE_SCORER.score(ref, completion)\n        rouge_scores.append({\n            \"rouge1\": scores[\"rouge1\"].fmeasure * 100.0,\n            \"rouge2\": scores[\"rouge2\"].fmeasure * 100.0,\n            \"rougeL\": scores[\"rougeLsum\"].fmeasure * 100.0,\n        })\n\n    rouge1_max = np.nanmax([s[\"rouge1\"] for s in rouge_scores])\n    rouge2_max = np.nanmax([s[\"rouge2\"] for s in rouge_scores])\n    rougeL_max = np.nanmax([s[\"rougeL\"] for s in rouge_scores])\n\n    # BERTScore using multilingual BERT to handle semantic similarity in Greek\n    bertscore_f1_max = 0.0\n    if BERTSCORE_AVAILABLE:\n        # P, R, F1 are returned as tensors\n        P, R, F1 = bert_score_fn(\n            [completion],\n            true_refs,\n            lang=\"el\",\n            model_type=\"bert-base-multilingual-cased\",\n            verbose=False,\n        )\n        bertscore_f1_max = F1.max().item()\n\n    return {\n        \"bleu_max\": bleu_max,\n        \"rouge1_max\": rouge1_max,\n        \"rouge2_max\": rouge2_max,\n        \"rougeL_max\": rougeL_max,\n        \"bertscore_f1_max\": bertscore_f1_max,\n    }\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu_max",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "rouge1_max",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "rouge2_max",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "rougeL_max",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "bertscore_f1_max",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "temperature": 0.0,
+        "max_gen_toks": 512,
+        "until": [
+          "Ερώτηση:",
+          "---"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "model": "llama-krikri-8b-instruct-v1.5",
+        "base_url": "http://ec2-3-18-183-221.us-east-2.compute.amazonaws.com:4000/v1/chat/completions",
+        "num_concurrent": 1,
+        "eos_string": "<|end_of_text|>",
+        "max_retries": 10
+      }
+    },
+    "greek_protipa_exams_maths_open": {
+      "task": "greek_protipa_exams_maths_open",
+      "dataset_path": "ilsp/greek-protipa-exams",
+      "test_split": "test",
+      "process_docs": "def process_maths_open(dataset): return filter_by_mode_and_subject(dataset, mode='open', subject='mathematics')\n",
+      "doc_to_text": "def doc_to_text_open(doc):\n    \"\"\"\n    Prompt logic for open-ended and fill-in-the-gap questions.\n    \"\"\"\n    prompt_parts = []\n    format_type = doc.get(\"format\")\n    \n    # 1. Instruction Engineering \n    if format_type == \"open_ended\":\n        instruction = (\n    \"Απάντησε στην παρακάτω ερώτηση ανάπτυξης, δίνοντας μια ολοκληρωμένη και τεκμηριωμένη απάντηση.\\n\"\n    \"ΠΡΟΣΟΧΗ: Ξεκίνα την απάντησή σου απευθείας, χωρίς εισαγωγικές φράσεις, χωρίς να επαναλάβεις την ερώτηση και χωρίς χαιρετισμούς.\"\n    )\n        \n    elif format_type == \"fill_in_the_gaps\":\n        instruction = (\n    \"Γράψε ΜΟΝΟ τη σωστή λέξη ή τη σωστή φράση/τύπο που λείπει στην ερώτηση συμπλήρωσης κενών που σου δίνεται.\\n\"\n    \"ΚΡΙΣΙΜΗ ΟΔΗΓΙΑ: Μην δίνεις καμία απολύτως εξήγηση, μην γράφεις ολόκληρες προτάσεις και μην χρησιμοποιείς εισαγωγικά.\\n\"\n    \"Η απάντησή σου πρέπει να περιέχει αποκλειστικά και μόνο τη λέξη ή φράση που συμπληρώνει το κενό.\"\n    )\n    \n    prompt_parts.append(instruction)\n    if doc.get(\"input\"): \n        prompt_parts.append(f\"Πλαίσιο/Κείμενο: {doc['input']}\")\n    if doc.get(\"image_description\"): \n        prompt_parts.append(f\"Περιγραφή εικόνας: {doc['image_description']}\")\n    if doc.get(\"image_transcription\"): \n        prompt_parts.append(f\"Κείμενο εικόνας: {doc['image_transcription']}\")\n    \n    # 2. Question\n    prompt_parts.append(f\"Ερώτηση: {doc['question']}\\n\\nΑπάντηση:\")\n    \n    return \"\\n\\n\".join(prompt_parts)\n",
+      "doc_to_target": "def doc_to_target_open(doc):\n    \"\"\"Extracts the expected text answer for open-ended evaluation.\"\"\"\n    ans = doc.get(\"answer_text\") or doc.get(\"answer\") or \"\"\n    return [str(ans).strip()]\n",
+      "unsafe_code": false,
+      "process_results": "def process_results_gen(doc, results):\n    completion = results[0]\n    \n    gold_answer = doc.get(\"answer_text\") or doc.get(\"answer\") or \"\"\n    true_refs = [gold_answer]\n\n    # BLEU (sacrebleu with international tokenization)\n    bleu_scores = [bleu([[ref]], [completion]) for ref in true_refs]\n    bleu_max = np.nanmax(bleu_scores)\n\n    # ROUGE with custom Greek-safe tokenizer\n    global ROUGE_SCORER\n    if ROUGE_SCORER is None:\n        ROUGE_SCORER = rouge_scorer.RougeScorer(\n            [\"rouge1\", \"rouge2\", \"rougeLsum\"], \n            tokenizer=GreekTokenizer()\n        )\n    \n    rouge_scores = []\n    for ref in true_refs:\n        scores = ROUGE_SCORER.score(ref, completion)\n        rouge_scores.append({\n            \"rouge1\": scores[\"rouge1\"].fmeasure * 100.0,\n            \"rouge2\": scores[\"rouge2\"].fmeasure * 100.0,\n            \"rougeL\": scores[\"rougeLsum\"].fmeasure * 100.0,\n        })\n\n    rouge1_max = np.nanmax([s[\"rouge1\"] for s in rouge_scores])\n    rouge2_max = np.nanmax([s[\"rouge2\"] for s in rouge_scores])\n    rougeL_max = np.nanmax([s[\"rougeL\"] for s in rouge_scores])\n\n    # BERTScore using multilingual BERT to handle semantic similarity in Greek\n    bertscore_f1_max = 0.0\n    if BERTSCORE_AVAILABLE:\n        # P, R, F1 are returned as tensors\n        P, R, F1 = bert_score_fn(\n            [completion],\n            true_refs,\n            lang=\"el\",\n            model_type=\"bert-base-multilingual-cased\",\n            verbose=False,\n        )\n        bertscore_f1_max = F1.max().item()\n\n    return {\n        \"bleu_max\": bleu_max,\n        \"rouge1_max\": rouge1_max,\n        \"rouge2_max\": rouge2_max,\n        \"rougeL_max\": rougeL_max,\n        \"bertscore_f1_max\": bertscore_f1_max,\n    }\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu_max",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "rouge1_max",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "rouge2_max",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "rougeL_max",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "bertscore_f1_max",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "temperature": 0.0,
+        "max_gen_toks": 512,
+        "until": [
+          "Ερώτηση:",
+          "---"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "model": "llama-krikri-8b-instruct-v1.5",
+        "base_url": "http://ec2-3-18-183-221.us-east-2.compute.amazonaws.com:4000/v1/chat/completions",
+        "num_concurrent": 1,
+        "eos_string": "<|end_of_text|>",
+        "max_retries": 10
+      }
+    },
+    "greek_protipa_exams_physics_open": {
+      "task": "greek_protipa_exams_physics_open",
+      "dataset_path": "ilsp/greek-protipa-exams",
+      "test_split": "test",
+      "process_docs": "def process_physics_open(dataset): return filter_by_mode_and_subject(dataset, mode='open', subject='physics')\n",
+      "doc_to_text": "def doc_to_text_open(doc):\n    \"\"\"\n    Prompt logic for open-ended and fill-in-the-gap questions.\n    \"\"\"\n    prompt_parts = []\n    format_type = doc.get(\"format\")\n    \n    # 1. Instruction Engineering \n    if format_type == \"open_ended\":\n        instruction = (\n    \"Απάντησε στην παρακάτω ερώτηση ανάπτυξης, δίνοντας μια ολοκληρωμένη και τεκμηριωμένη απάντηση.\\n\"\n    \"ΠΡΟΣΟΧΗ: Ξεκίνα την απάντησή σου απευθείας, χωρίς εισαγωγικές φράσεις, χωρίς να επαναλάβεις την ερώτηση και χωρίς χαιρετισμούς.\"\n    )\n        \n    elif format_type == \"fill_in_the_gaps\":\n        instruction = (\n    \"Γράψε ΜΟΝΟ τη σωστή λέξη ή τη σωστή φράση/τύπο που λείπει στην ερώτηση συμπλήρωσης κενών που σου δίνεται.\\n\"\n    \"ΚΡΙΣΙΜΗ ΟΔΗΓΙΑ: Μην δίνεις καμία απολύτως εξήγηση, μην γράφεις ολόκληρες προτάσεις και μην χρησιμοποιείς εισαγωγικά.\\n\"\n    \"Η απάντησή σου πρέπει να περιέχει αποκλειστικά και μόνο τη λέξη ή φράση που συμπληρώνει το κενό.\"\n    )\n    \n    prompt_parts.append(instruction)\n    if doc.get(\"input\"): \n        prompt_parts.append(f\"Πλαίσιο/Κείμενο: {doc['input']}\")\n    if doc.get(\"image_description\"): \n        prompt_parts.append(f\"Περιγραφή εικόνας: {doc['image_description']}\")\n    if doc.get(\"image_transcription\"): \n        prompt_parts.append(f\"Κείμενο εικόνας: {doc['image_transcription']}\")\n    \n    # 2. Question\n    prompt_parts.append(f\"Ερώτηση: {doc['question']}\\n\\nΑπάντηση:\")\n    \n    return \"\\n\\n\".join(prompt_parts)\n",
+      "doc_to_target": "def doc_to_target_open(doc):\n    \"\"\"Extracts the expected text answer for open-ended evaluation.\"\"\"\n    ans = doc.get(\"answer_text\") or doc.get(\"answer\") or \"\"\n    return [str(ans).strip()]\n",
+      "unsafe_code": false,
+      "process_results": "def process_results_gen(doc, results):\n    completion = results[0]\n    \n    gold_answer = doc.get(\"answer_text\") or doc.get(\"answer\") or \"\"\n    true_refs = [gold_answer]\n\n    # BLEU (sacrebleu with international tokenization)\n    bleu_scores = [bleu([[ref]], [completion]) for ref in true_refs]\n    bleu_max = np.nanmax(bleu_scores)\n\n    # ROUGE with custom Greek-safe tokenizer\n    global ROUGE_SCORER\n    if ROUGE_SCORER is None:\n        ROUGE_SCORER = rouge_scorer.RougeScorer(\n            [\"rouge1\", \"rouge2\", \"rougeLsum\"], \n            tokenizer=GreekTokenizer()\n        )\n    \n    rouge_scores = []\n    for ref in true_refs:\n        scores = ROUGE_SCORER.score(ref, completion)\n        rouge_scores.append({\n            \"rouge1\": scores[\"rouge1\"].fmeasure * 100.0,\n            \"rouge2\": scores[\"rouge2\"].fmeasure * 100.0,\n            \"rougeL\": scores[\"rougeLsum\"].fmeasure * 100.0,\n        })\n\n    rouge1_max = np.nanmax([s[\"rouge1\"] for s in rouge_scores])\n    rouge2_max = np.nanmax([s[\"rouge2\"] for s in rouge_scores])\n    rougeL_max = np.nanmax([s[\"rougeL\"] for s in rouge_scores])\n\n    # BERTScore using multilingual BERT to handle semantic similarity in Greek\n    bertscore_f1_max = 0.0\n    if BERTSCORE_AVAILABLE:\n        # P, R, F1 are returned as tensors\n        P, R, F1 = bert_score_fn(\n            [completion],\n            true_refs,\n            lang=\"el\",\n            model_type=\"bert-base-multilingual-cased\",\n            verbose=False,\n        )\n        bertscore_f1_max = F1.max().item()\n\n    return {\n        \"bleu_max\": bleu_max,\n        \"rouge1_max\": rouge1_max,\n        \"rouge2_max\": rouge2_max,\n        \"rougeL_max\": rougeL_max,\n        \"bertscore_f1_max\": bertscore_f1_max,\n    }\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu_max",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "rouge1_max",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "rouge2_max",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "rougeL_max",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "bertscore_f1_max",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "do_sample": false,
+        "temperature": 0.0,
+        "max_gen_toks": 512,
+        "until": [
+          "Ερώτηση:",
+          "---"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "model": "llama-krikri-8b-instruct-v1.5",
+        "base_url": "http://ec2-3-18-183-221.us-east-2.compute.amazonaws.com:4000/v1/chat/completions",
+        "num_concurrent": 1,
+        "eos_string": "<|end_of_text|>",
+        "max_retries": 10
+      }
+    }
+  },
+  "versions": {
+    "greek_protipa_exams_language_open": "Yaml",
+    "greek_protipa_exams_maths_open": "Yaml",
+    "greek_protipa_exams_open_aggregate": null,
+    "greek_protipa_exams_physics_open": "Yaml"
+  },
+  "n-shot": {
+    "greek_protipa_exams_language_open": 0,
+    "greek_protipa_exams_maths_open": 0,
+    "greek_protipa_exams_physics_open": 0
+  },
+  "higher_is_better": {
+    "greek_protipa_exams_language_open": {
+      "bleu_max": true,
+      "rouge1_max": true,
+      "rouge2_max": true,
+      "rougeL_max": true,
+      "bertscore_f1_max": true
+    },
+    "greek_protipa_exams_maths_open": {
+      "bleu_max": true,
+      "rouge1_max": true,
+      "rouge2_max": true,
+      "rougeL_max": true,
+      "bertscore_f1_max": true
+    },
+    "greek_protipa_exams_open_aggregate": {
+      "bleu_max": true,
+      "rouge1_max": true,
+      "rouge2_max": true,
+      "rougeL_max": true,
+      "bertscore_f1_max": true
+    },
+    "greek_protipa_exams_physics_open": {
+      "bleu_max": true,
+      "rouge1_max": true,
+      "rouge2_max": true,
+      "rougeL_max": true,
+      "bertscore_f1_max": true
+    }
+  },
+  "n-samples": {
+    "greek_protipa_exams_language_open": {
+      "original": 110,
+      "effective": 3
+    },
+    "greek_protipa_exams_maths_open": {
+      "original": 159,
+      "effective": 3
+    },
+    "greek_protipa_exams_physics_open": {
+      "original": 9,
+      "effective": 3
+    }
+  },
+  "config": {
+    "model": "openai-chat-completions",
+    "model_args": "model=llama-krikri-8b-instruct-v1.5,base_url=http://ec2-3-18-183-221.us-east-2.compute.amazonaws.com:4000/v1/chat/completions,num_concurrent=1,eos_string=<|end_of_text|>,max_retries=10",
+    "batch_size": 1,
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": 3.0,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "d5cd741",
+  "date": 1780484231.4100528,
+  "pretty_env_info": "PyTorch version: 2.10.0+cpu\nIs debug build: False\nCUDA used to build PyTorch: None\nROCM used to build PyTorch: N/A\n\nOS: Microsoft Windows 11 Home (10.0.26200 64-bit)\nGCC version: Could not collect\nClang version: Could not collect\nCMake version: Could not collect\nLibc version: N/A\n\nPython version: 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)] (64-bit runtime)\nPython platform: Windows-11-10.0.26200-SP0\nIs CUDA available: False\nCUDA runtime version: No CUDA\nCUDA_MODULE_LOADING set to: N/A\nGPU models and configuration: No CUDA\nNvidia driver version: No CUDA\ncuDNN version: No CUDA\nIs XPU available: False\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\nCaching allocator config: N/A\n\nCPU:\nName: 13th Gen Intel(R) Core(TM) i7-1360P\nManufacturer: GenuineIntel\nFamily: 198\nArchitecture: 9\nProcessorType: 3\nDeviceID: CPU0\nCurrentClockSpeed: 2200\nMaxClockSpeed: 2200\nL2CacheSize: 9216\nL2CacheSpeed: None\nRevision: None\n\nVersions of relevant libraries:\n[pip3] numpy==2.4.1\n[pip3] torch==2.10.0\n[conda] Could not collect",
+  "transformers_version": "4.57.6",
+  "lm_eval_version": "0.4.9.2",
+  "upper_git_hash": null,
+  "task_hashes": {
+    "greek_protipa_exams_language_open": "8bece4a3027f3b1cf104e7e15427cf109a5a16f184aa32aff4d974567677b715",
+    "greek_protipa_exams_maths_open": "feb443622b6399c87a14b495b6b3fa8df7164aca478a8933d3522abc4fd53b57",
+    "greek_protipa_exams_physics_open": "5472d502c2e6065bc35a8c73714e3a6671b5c6856f7595b17784bc22edaf62e3"
+  },
+  "model_source": "openai-chat-completions",
+  "model_name": "llama-krikri-8b-instruct-v1.5",
+  "model_name_sanitized": "llama-krikri-8b-instruct-v1.5",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": "",
+  "chat_template_sha": null,
+  "start_time": 607639.9845808,
+  "end_time": 607707.6416875,
+  "total_evaluation_time_seconds": "67.65710670000408"
+}

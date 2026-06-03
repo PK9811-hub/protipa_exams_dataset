@@ -162,16 +162,23 @@ def doc_to_text_open(doc):
     Prompt logic for open-ended and fill-in-the-gap questions.
     """
     prompt_parts = []
+    format_type = doc.get("format")
     
-    # 1. Instruction
-    instruction = (
-        "Δίνεται η παρακάτω ερώτηση από σχολικές εξετάσεις.\n"
-        "Αν είναι ερώτηση ανάπτυξης, δώσε μια ολοκληρωμένη και τεκμηριωμένη απάντηση.\n"
-        "Αν είναι ερώτηση συμπλήρωσης κενών, γράψε τη σωστή λέξη ή τη σωστή φράση που λείπει."
+    # 1. Instruction Engineering 
+    if format_type == "open_ended":
+        instruction = (
+    "Απάντησε στην παρακάτω ερώτηση ανάπτυξης, δίνοντας μια ολοκληρωμένη και τεκμηριωμένη απάντηση.\n"
+    "ΠΡΟΣΟΧΗ: Ξεκίνα την απάντησή σου απευθείας, χωρίς εισαγωγικές φράσεις, χωρίς να επαναλάβεις την ερώτηση και χωρίς χαιρετισμούς."
     )
-    prompt_parts.append(instruction)
+        
+    elif format_type == "fill_in_the_gaps":
+        instruction = (
+    "Γράψε ΜΟΝΟ τη σωστή λέξη ή τη σωστή φράση/τύπο που λείπει στην ερώτηση συμπλήρωσης κενών που σου δίνεται.\n"
+    "ΚΡΙΣΙΜΗ ΟΔΗΓΙΑ: Μην δίνεις καμία απολύτως εξήγηση, μην γράφεις ολόκληρες προτάσεις και μην χρησιμοποιείς εισαγωγικά.\n"
+    "Η απάντησή σου πρέπει να περιέχει αποκλειστικά και μόνο τη λέξη ή φράση που συμπληρώνει το κενό."
+    )
     
-    # 2. Contextual Inputs 
+    prompt_parts.append(instruction)
     if doc.get("input"): 
         prompt_parts.append(f"Πλαίσιο/Κείμενο: {doc['input']}")
     if doc.get("image_description"): 
@@ -179,7 +186,7 @@ def doc_to_text_open(doc):
     if doc.get("image_transcription"): 
         prompt_parts.append(f"Κείμενο εικόνας: {doc['image_transcription']}")
     
-    # 3. Question
+    # 2. Question
     prompt_parts.append(f"Ερώτηση: {doc['question']}\n\nΑπάντηση:")
     
     return "\n\n".join(prompt_parts)

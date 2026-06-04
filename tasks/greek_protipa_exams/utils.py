@@ -21,9 +21,15 @@ ROUGE_SCORER = None
 
 def process_results_gen(doc, results):
     completion = results[0]
+    completion = re.sub(r'[*()\[\]"\']', '', completion).strip()
     
     gold_answer = doc.get("answer_text") or doc.get("answer") or ""
-    true_refs = [gold_answer]
+    gold_answer = str(gold_answer).strip()
+    
+    if "/" in gold_answer:
+        true_refs = [a.strip() for a in gold_answer.split("/")]
+    else:
+        true_refs = [gold_answer]
 
     # BLEU (sacrebleu with international tokenization)
     bleu_scores = [bleu([[ref]], [completion]) for ref in true_refs]
@@ -55,7 +61,7 @@ def process_results_gen(doc, results):
     if BERTSCORE_AVAILABLE:
         # P, R, F1 are returned as tensors
         P, R, F1 = bert_score_fn(
-            [completion],
+            [completion]* len(true_refs),
             true_refs,
             lang="el",
             model_type="bert-base-multilingual-cased",
@@ -174,8 +180,8 @@ def doc_to_text_open(doc):
     elif format_type == "fill_in_the_gaps":
         instruction = (
     "Γράψε ΜΟΝΟ τη σωστή λέξη ή τη σωστή φράση/τύπο που λείπει στην ερώτηση συμπλήρωσης κενών που σου δίνεται.\n"
-    "ΚΡΙΣΙΜΗ ΟΔΗΓΙΑ: Μην δίνεις καμία απολύτως εξήγηση, μην γράφεις ολόκληρες προτάσεις και μην χρησιμοποιείς εισαγωγικά.\n"
-    "Η απάντησή σου πρέπει να περιέχει αποκλειστικά και μόνο τη λέξη ή φράση που συμπληρώνει το κενό."
+    "ΚΡΙΣΙΜΗ ΟΔΗΓΙΑ: Μην δίνεις καμία απολύτως εξήγηση, μην γράφεις ολόκληρες προτάσεις, και μην χρησιμοποιείς εισαγωγικά.\n"
+    "Η απάντησή σου πρέπει να περιέχει αποκλειστικά και ΜΟΝΟ τη λέξη ή φράση που συμπληρώνει το κενό."
     )
     
     prompt_parts.append(instruction)
@@ -194,8 +200,12 @@ def doc_to_text_open(doc):
 def doc_to_target_open(doc):
     """Extracts the expected text answer for open-ended evaluation."""
     ans = doc.get("answer_text") or doc.get("answer") or ""
-    return [str(ans).strip()]
+    ans_str = str(ans).strip()
 
+    if "/" in ans_str:
+        return [a.strip() for a in ans_str.split("/")]
+    
+    return [ans_str]
 # ------
 def process_language_closed(dataset): return filter_by_mode_and_subject(dataset, mode='closed', subject='greek_language')
 def process_maths_closed(dataset): return filter_by_mode_and_subject(dataset, mode='closed', subject='mathematics')

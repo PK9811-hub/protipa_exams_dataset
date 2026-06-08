@@ -1,5 +1,5 @@
 task: greek_protipa_exams_maths_open
-dataset_path: ilsp/greek-protipa-exams
+dataset_path: ilsp/greek-protipa-exams-private
 output_type: generate_until
 test_split: test
 process_docs: !function utils.process_maths_open

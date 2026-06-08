@@ -1,0 +1,5 @@
+Description
+Four separate vertical bar charts labeled A, B, Γ, and Δ. Each chart contains three bars corresponding to K, Λ, and M. Chart A shows K as the shortest, Λ slightly taller, and M the tallest. Chart B shows K as the tallest, Λ shortest, and M same height as K. Chart Γ shows K short, Λ taller, and M tallest. Chart Δ shows K medium, Λ slightly shorter, and M tallest.
+
+Transcription
+K, Λ, M (repeated 4 times for A, B, Γ, Δ)

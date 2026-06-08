@@ -1,0 +1,5 @@
+Description
+A 2x2 square grid formed by intersecting vertical and horizontal lines. The intersections (vertices) are marked with black dots. The bottom-left vertex is labeled 'K' and the top-right vertex is labeled 'Λ'.
+
+Transcription
+Κ, Λ

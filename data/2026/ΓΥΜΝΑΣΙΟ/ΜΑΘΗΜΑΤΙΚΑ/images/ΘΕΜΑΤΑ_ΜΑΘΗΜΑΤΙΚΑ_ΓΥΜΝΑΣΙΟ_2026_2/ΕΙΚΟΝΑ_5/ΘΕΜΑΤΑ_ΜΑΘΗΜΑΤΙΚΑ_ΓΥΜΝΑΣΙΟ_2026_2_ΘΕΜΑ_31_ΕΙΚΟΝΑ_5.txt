@@ -1,0 +1,5 @@
+Description
+A horizontal number line with four marked points. From left to right, the points are labeled K, M, N, and Λ.
+
+Transcription
+K, M, N, Λ

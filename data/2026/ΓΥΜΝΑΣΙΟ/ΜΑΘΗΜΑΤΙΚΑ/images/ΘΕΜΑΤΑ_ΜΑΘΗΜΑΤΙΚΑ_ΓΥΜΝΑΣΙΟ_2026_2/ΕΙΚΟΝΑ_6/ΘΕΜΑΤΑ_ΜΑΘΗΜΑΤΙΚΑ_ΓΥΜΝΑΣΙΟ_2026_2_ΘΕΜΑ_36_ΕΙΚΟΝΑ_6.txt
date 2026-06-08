@@ -1,0 +1,2 @@
+Description
+Two large equilateral triangles next to each other. The left triangle is divided into a grid of 9 smaller equilateral triangles (3 rows). The right triangle has the exact same grid, but several geometric regions formed by the grid boundaries are shaded grey. The shaded area spans across multiple smaller triangles.

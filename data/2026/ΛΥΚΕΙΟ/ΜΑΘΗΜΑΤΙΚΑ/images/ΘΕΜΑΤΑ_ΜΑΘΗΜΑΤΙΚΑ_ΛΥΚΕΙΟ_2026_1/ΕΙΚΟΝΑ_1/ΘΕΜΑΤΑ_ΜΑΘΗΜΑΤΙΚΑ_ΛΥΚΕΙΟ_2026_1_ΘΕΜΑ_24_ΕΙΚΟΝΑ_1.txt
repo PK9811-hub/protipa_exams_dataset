@@ -1,0 +1,5 @@
+Description
+A geometric diagram showing two parallel horizontal lines, labeled ε1 (top) and ε2 (bottom). A transversal line intersects ε1, goes down and to the right, then turns sharply down and to the left to intersect ε2, forming a zigzag shape. The alternate interior angle at the top intersection is labeled α=21°. The alternate interior angle at the bottom intersection is labeled β=41°. The angle at the vertex of the zigzag, between the parallel lines, is labeled γ.
+
+Transcription
+ε1, α=21°, γ, β=41°, ε2

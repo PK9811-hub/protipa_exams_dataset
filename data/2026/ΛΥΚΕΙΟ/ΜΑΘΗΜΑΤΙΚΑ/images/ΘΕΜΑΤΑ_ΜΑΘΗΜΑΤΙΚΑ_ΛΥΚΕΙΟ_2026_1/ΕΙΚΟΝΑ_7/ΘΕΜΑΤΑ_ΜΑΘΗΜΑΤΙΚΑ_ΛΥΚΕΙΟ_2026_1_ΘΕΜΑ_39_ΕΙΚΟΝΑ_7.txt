@@ -1,0 +1,2 @@
+Description
+A right-angled isosceles triangle where one of the legs (vertical) is divided into 4 equal segments. Horizontal line segments are drawn from these division points to the hypotenuse, dividing the triangle into 4 horizontal strips (one small triangle at the top, and three trapezoids below it). The strips alternate in color, starting with a grey small triangle at the top, a white trapezoid, a grey trapezoid, and finally a white trapezoid at the bottom.

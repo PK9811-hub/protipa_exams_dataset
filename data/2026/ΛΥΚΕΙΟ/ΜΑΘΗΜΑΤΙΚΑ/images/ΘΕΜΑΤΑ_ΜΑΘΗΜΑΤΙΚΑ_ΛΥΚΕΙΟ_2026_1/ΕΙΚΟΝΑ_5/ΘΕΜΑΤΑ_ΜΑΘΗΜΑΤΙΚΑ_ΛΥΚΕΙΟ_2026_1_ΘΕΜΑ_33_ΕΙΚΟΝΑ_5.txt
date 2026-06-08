@@ -1,0 +1,5 @@
+Description
+A Cartesian coordinate system showing three lines passing through the origin (O). The red line is labeled y = αx. The blue line is labeled y = βx. The black line is labeled y = x. Point A is on the red line, point A' is on the blue line, and a dashed line segment connects A and A', intersecting the line y = x at a right angle (implicitly by symmetry or reflection). The line y = x bisects the angle between y = αx and y = βx.
+
+Transcription
+y = αx\ny = x\ny = βx\nA\nA'\nO\n1, 2, 3, 4, 5\n-1

@@ -1,0 +1,5 @@
+Description
+A line graph titled 'Επίδοση' (Performance). The y-axis ranges from 0 to 100 in increments of 20. The x-axis shows years from 2020 to 2026. The line plot shows the average performance score starting around 78 in 2020, peaking at approximately 85 in 2021, dropping to about 75 in 2022, reaching a low of around 68 in 2023, and then staying relatively stable around 71-73 for the years 2024 to 2026.
+
+Transcription
+Επίδοση, 100, 80, 60, 40, 20, 0, 2020, 2021, 2022, 2023, 2024, 2025, 2026

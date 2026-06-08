@@ -1,0 +1,5 @@
+Description
+A semicircle with diameter AB. A triangle A B Γ is inscribed in the semicircle, with point Γ located on the arc. The angle at vertex A is labeled 3θ and the angle at vertex B is labeled 2θ.
+
+Transcription
+Γ, A, B, 3θ, 2θ

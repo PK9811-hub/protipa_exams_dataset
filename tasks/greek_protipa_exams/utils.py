@@ -95,8 +95,9 @@ def bleu(refs, preds):
 def filter_by_mode_and_subject(dataset, mode='closed', subject=None):
     """
     Unified filter for evaluation mode and subject.
-    - Closed Mode: MCQ, T/F, Matching, and Fill-in-the-gaps with choices.
-    - Open Mode: Open-ended and Fill-in-the-gaps without choices.
+    - Closed Mode: MCQ, T/F, and Fill-in-the-gaps with choices.
+    - Structured Mode: Matching, and Fill-in-the-gaps without choices.
+    - Open Mode: Open-ended (free text / essays).
     - Subject: Optional filtering by subject string.
     """
     def _filter_logic(x):
@@ -109,11 +110,13 @@ def filter_by_mode_and_subject(dataset, mode='closed', subject=None):
         has_choices = isinstance(choices, list) and len(choices) > 0
         
         if mode == 'closed':
-            return fmt in ["multiple_choice", "true_false", "matching"] or \
+            return fmt in ["multiple_choice", "true_false"] or \
                    (fmt == "fill_in_the_gaps" and has_choices)
-        elif mode == 'open':
-            return fmt == "open_ended" or \
+        elif mode == 'structured':
+            return fmt == "matching" or \
                    (fmt == "fill_in_the_gaps" and not has_choices)
+        elif mode == 'open':
+            return fmt == "open_ended"
         return True
 
     return dataset.filter(_filter_logic)
@@ -139,28 +142,50 @@ def doc_to_text_closed(doc):
     if doc.get("choices"):
         prompt_parts.append("Επιλογές:")
         for i, choice in enumerate(doc["choices"]):
-            prompt_parts.append(f"{i}. {choice}")
+            # Fix choice-stripping bug: if rest of choice is empty, keep the original letter label
+            match = re.match(r'^([Α-Ωα-ωA-Za-z0-9]+)\.\s*(.*)$', str(choice))
+            if match:
+                letter, rest = match.groups()
+                cleaned_choice = rest.strip() if rest.strip() else letter
+            else:
+                cleaned_choice = str(choice).strip()
+            prompt_parts.append(f"{i}. {cleaned_choice}")
             
     # 4. Critical Instructions
     instruction = (
-        "\n### ΟΔΗΓΙΑ ΜΟΡΦΟΠΟΙΗΣΗΣ (CRITICAL)\n"
-        "Πρέπει να παρέχεις ΜΟΝΟ τον αριθμό του δείκτη (index) της σωστής επιλογής (π.χ. 0, 1, 2, 3...).\n"
-        "ΠΡΟΣΟΧΗ: Ο αριθμός '2' που χρησιμοποιείται στα παραδείγματα παρακάτω είναι ΤΥΧΑΙΟΣ και αφορά μόνο τη ΜΟΡΦΗ της απάντησης εδώ.\n"
-        "Η σωστή απάντηση εξαρτάται αποκλειστικά από την ερώτηση και μπορεί να είναι ΟΠΟΙΟΣΔΗΠΟΤΕ αριθμός.\n"
-        "Μην επεξηγείς και μην γράφεις ολόκληρες προτάσεις.\n\n"
-        "Παραδείγματα Μορφής:\n"
-        "❌ ΛΑΘΟΣ: \"Η σωστή επιλογή είναι η 2.\"\n"
-        "❌ ΛΑΘΟΣ: \"(2)\"\n"
-        "✅ ΣΩΣΤΟ: 2 (ή 0 ή 1 ή 3... ανάλογα με τη σωστή επιλογή)\n\n"
+        "\nΑπάντησε ΜΟΝΟ με τον αριθμό της σωστής επιλογής (δηλαδή 0, 1, 2 ή 3).\n"
+        "Μην γράφεις καμία άλλη λέξη, επεξήγηση ή σημεία στίξης.\n"
         "Απάντηση:"
     )
     prompt_parts.append(instruction)
     return "\n".join(prompt_parts)
 
+def doc_to_target_index(doc):
+    """Extracts target index directly from answer_index field."""
+    return str(doc["answer_index"]).split(',')[0].strip()
+
+def doc_to_target_true_false(doc):
+    """Maps true_false text answer back to its choices index."""
+    choices = doc.get("choices")
+    answer_text = doc.get("answer_text") or doc.get("answer")
+    if choices and answer_text:
+        answer_text_clean = str(answer_text).strip().lower()
+        for i, choice in enumerate(choices):
+            choice_str = str(choice).strip().lower()
+            # Remove leading label prefix like 'α.', 'β.', '1.', 'a.'
+            choice_clean = re.sub(r'^[α-ωa-z0-9]+\.\s*', '', choice_str).strip()
+            if answer_text_clean == choice_clean or answer_text_clean in choice_str:
+                return str(i)
+    return ""
+
 def doc_to_target(doc):
     """Extracts the integer index as the target string."""
     if doc.get("answer_index") is not None:
-        return str(doc["answer_index"]).split(',')[0].strip()
+        return doc_to_target_index(doc)
+    
+    if doc.get("format") == "true_false":
+        return doc_to_target_true_false(doc)
+        
     return ""
 
 def doc_to_text_open(doc):
@@ -214,3 +239,126 @@ def process_religious_studies_closed(dataset): return filter_by_mode_and_subject
 def process_language_open(dataset): return filter_by_mode_and_subject(dataset, mode='open', subject='greek_language')
 def process_maths_open(dataset): return filter_by_mode_and_subject(dataset, mode='open', subject='mathematics')
 def process_physics_open(dataset): return filter_by_mode_and_subject(dataset, mode='open', subject='physics')
+
+# --- Structured (Semi-Closed) Mode Helpers & Metrics ---
+
+def process_language_structured(dataset): 
+    return filter_by_mode_and_subject(dataset, mode='structured', subject='greek_language')
+
+def process_maths_structured(dataset): 
+    return filter_by_mode_and_subject(dataset, mode='structured', subject='mathematics')
+
+def doc_to_text_matching(doc):
+    """Formats the prompt specifically for matching format questions."""
+    prompt_parts = []
+    if doc.get("input"): 
+        prompt_parts.append(doc["input"])
+    if doc.get("image_description"): 
+        prompt_parts.append(f"Περιγραφή εικόνας: {doc['image_description']}")
+    if doc.get("image_transcription"): 
+        prompt_parts.append(f"Κείμενο εικόνας: {doc['image_transcription']}")
+    
+    prompt_parts.append(f"Ερώτηση: {doc['question']}")
+    
+    instruction = (
+        "\nΑντιστοίχισε τα στοιχεία της αριστερής στήλης με αυτά της δεξιάς στήλης.\n"
+        "Γράψε την απάντησή σου ΜΟΝΟ στη μορφή: 1-α, 2-β... (ή Α-α, Β-β... ανάλογα με τα στοιχεία των στηλών).\n"
+        "Μην γράφεις καμία άλλη λέξη, επεξήγηση ή πίνακα.\n"
+        "Απάντηση:"
+    )
+    prompt_parts.append(instruction)
+    return "\n".join(prompt_parts)
+
+def doc_to_target_matching(doc):
+    """Extracts expected matching pairings."""
+    ans = doc.get("answer_text") or doc.get("answer") or ""
+    return str(ans).strip()
+
+def doc_to_text_structured(doc):
+    """Dispatches prompt generation for structured mode formats (matching and open fill-in-gaps)."""
+    fmt = doc.get("format")
+    if fmt == "matching":
+        return doc_to_text_matching(doc)
+    
+    # For fill-in-the-gaps (no choices)
+    instruction = (
+        "Γράψε ΜΟΝΟ τη σωστή λέξη ή τη σωστή φράση/τύπο που λείπει στην ερώτηση συμπλήρωσης κενών που σου δίνεται.\n"
+        "ΚΡΙΣΙΜΗ ΟΔΗΓΙΑ: Μην δίνεις καμία απολύτως εξήγηση, μην γράφεις ολόκληρες προτάσεις, και μην χρησιμοποιείς εισαγωγικά.\n"
+        "Η απάντησή σου πρέπει να περιέχει αποκλειστικά και ΜΟΝΟ τη λέξη ή φράση που συμπληρώνει το κενό."
+    )
+    prompt_parts = [instruction]
+    if doc.get("input"): 
+        prompt_parts.append(f"Πλαίσιο/Κείμενο: {doc['input']}")
+    if doc.get("image_description"): 
+        prompt_parts.append(f"Περιγραφή εικόνας: {doc['image_description']}")
+    if doc.get("image_transcription"): 
+        prompt_parts.append(f"Κείμενο εικόνας: {doc['image_transcription']}")
+    
+    prompt_parts.append(f"Ερώτηση: {doc['question']}\n\nΑπάντηση:")
+    return "\n\n".join(prompt_parts)
+
+def doc_to_target_structured(doc):
+    """Extracts expected targets for structured mode formats."""
+    fmt = doc.get("format")
+    if fmt == "matching":
+        return doc_to_target_matching(doc)
+    
+    # For fill-in-the-gaps (no choices)
+    ans = doc.get("answer_text") or doc.get("answer") or ""
+    return str(ans).strip()
+
+def parse_matching_pairs(text):
+    """Parses strings like '1-γ, 2-α' into a normalized set of sorted tuples."""
+    pairs = re.findall(r'([a-zA-Zα-ωΑ-Ω0-9]+)\s*-\s*([a-zA-Zα-ωΑ-Ω0-9]+)', str(text))
+    normalized_pairs = set()
+    for p1, p2 in pairs:
+        sorted_pair = tuple(sorted([p1.strip().lower(), p2.strip().lower()]))
+        normalized_pairs.add(sorted_pair)
+    return normalized_pairs
+
+def matching_accuracy_metric(references, predictions):
+    """Calculates Jaccard overlap of correct pairs (0.0 to 1.0)."""
+    pred_text = predictions[0] if predictions else ""
+    ref_text = references[0] if references else ""
+    
+    pred_pairs = parse_matching_pairs(pred_text)
+    ref_pairs = parse_matching_pairs(ref_text)
+    
+    if not ref_pairs:
+        return 0.0
+    
+    correct_matches = len(pred_pairs.intersection(ref_pairs))
+    return correct_matches / len(ref_pairs)
+
+def clean_greek_text(text):
+    """Normalizes Greek text by lowercasing and stripping accents/tonos."""
+    text = str(text).strip().lower()
+    accents_map = {
+        'ά': 'α', 'έ': 'ε', 'ή': 'η', 'ί': 'ι', 'ό': 'ο', 'ύ': 'υ', 'ώ': 'ω',
+        'ϊ': 'ι', 'ϋ': 'υ', 'ΐ': 'ι', 'ΰ': 'υ'
+    }
+    for acc, plain in accents_map.items():
+        text = text.replace(acc, plain)
+    return text
+
+def structured_short_answer_metric(references, predictions):
+    """Evaluates open fill-in-the-gaps using normalized exact match (0.0 or 1.0)."""
+    pred_clean = clean_greek_text(predictions[0] if predictions else "")
+    ref_clean = clean_greek_text(references[0] if references else "")
+    return 1.0 if pred_clean == ref_clean else 0.0
+
+def process_results_structured(doc, results):
+    """Processes results for structured mode tasks using a unified accuracy metric."""
+    fmt = doc.get("format")
+    pred = results[0] if results else ""
+    target = doc_to_target_structured(doc)
+    
+    if fmt == "matching":
+        score = matching_accuracy_metric([target], [pred])
+    else:
+        score = structured_short_answer_metric([target], [pred])
+        
+    return {
+        "structured_accuracy": score
+    }
+

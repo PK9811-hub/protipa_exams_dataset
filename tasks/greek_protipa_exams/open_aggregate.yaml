@@ -4,13 +4,5 @@ task:
   - greek_protipa_exams_maths_open
   - greek_protipa_exams_physics_open
 aggregate_metric_list:
-  - metric: bleu_max
-    aggregation: mean
-  - metric: rouge1_max
-    aggregation: mean
-  - metric: rouge2_max
-    aggregation: mean
-  - metric: rougeL_max
-    aggregation: mean
   - metric: bertscore_f1_max
     aggregation: mean

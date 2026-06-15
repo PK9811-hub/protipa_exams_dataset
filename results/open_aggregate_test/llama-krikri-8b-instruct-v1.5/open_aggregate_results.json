@@ -1,70 +1,54 @@
 {
   "results": {
     "greek_protipa_exams_open_aggregate": {
-      "rougeL_max,none": 4.634581105169341,
-      "rougeL_max_stderr,none": "N/A",
-      "bertscore_f1_max,none": 0.45952699581782025,
-      "bertscore_f1_max_stderr,none": "N/A",
-      "bleu_max,none": 3.212072635301249,
-      "bleu_max_stderr,none": "N/A",
-      "rouge1_max,none": 6.7736185383244205,
-      "rouge1_max_stderr,none": "N/A",
-      "rouge2_max,none": 2.162162162162162,
-      "rouge2_max_stderr,none": "N/A",
+      "bertscore_f1_max,none": 0.6854386137222331,
+      "bertscore_f1_max_stderr,none": 0.003490810314862738,
       "alias": "greek_protipa_exams_open_aggregate"
     },
     "greek_protipa_exams_language_open": {
       "alias": " - greek_protipa_exams_language_open",
-      "bleu_max,none": 0.0,
-      "bleu_max_stderr,none": "N/A",
-      "rouge1_max,none": 0.0,
-      "rouge1_max_stderr,none": "N/A",
-      "rouge2_max,none": 0.0,
-      "rouge2_max_stderr,none": "N/A",
-      "rougeL_max,none": 0.0,
-      "rougeL_max_stderr,none": "N/A",
-      "bertscore_f1_max,none": 0.0,
-      "bertscore_f1_max_stderr,none": "N/A"
+      "bleu_max,none": 3.6651615272684177,
+      "bleu_max_stderr,none": 0.7410424343501599,
+      "rouge1_max,none": 18.507661118671773,
+      "rouge1_max_stderr,none": 1.3359415241698194,
+      "rouge2_max,none": 7.027045523582102,
+      "rouge2_max_stderr,none": 1.0651348525444242,
+      "rougeL_max,none": 15.755758636676243,
+      "rougeL_max_stderr,none": 1.1707171954110849,
+      "bertscore_f1_max,none": 0.6841278857872134,
+      "bertscore_f1_max_stderr,none": 0.005514232136588363
     },
     "greek_protipa_exams_maths_open": {
       "alias": " - greek_protipa_exams_maths_open",
-      "bleu_max,none": 9.636217905903747,
-      "bleu_max_stderr,none": "N/A",
-      "rouge1_max,none": 20.32085561497326,
-      "rouge1_max_stderr,none": "N/A",
-      "rouge2_max,none": 6.486486486486485,
-      "rouge2_max_stderr,none": "N/A",
-      "rougeL_max,none": 13.903743315508022,
-      "rougeL_max_stderr,none": "N/A",
-      "bertscore_f1_max,none": 0.7293022274971008,
-      "bertscore_f1_max_stderr,none": "N/A"
+      "bleu_max,none": 8.994524916752153,
+      "bleu_max_stderr,none": 0.7765995054579132,
+      "rouge1_max,none": 25.608868764387832,
+      "rouge1_max_stderr,none": 1.0828427376492267,
+      "rouge2_max,none": 10.854613921440002,
+      "rouge2_max_stderr,none": 0.8297778361464734,
+      "rougeL_max,none": 23.185747833701324,
+      "rougeL_max_stderr,none": 1.0061152638707054,
+      "bertscore_f1_max,none": 0.6938742232322693,
+      "bertscore_f1_max_stderr,none": 0.0044042916442324056
     },
     "greek_protipa_exams_physics_open": {
       "alias": " - greek_protipa_exams_physics_open",
-      "bleu_max,none": 0.0,
-      "bleu_max_stderr,none": "N/A",
-      "rouge1_max,none": 0.0,
-      "rouge1_max_stderr,none": "N/A",
-      "rouge2_max,none": 0.0,
-      "rouge2_max_stderr,none": "N/A",
-      "rougeL_max,none": 0.0,
-      "rougeL_max_stderr,none": "N/A",
-      "bertscore_f1_max,none": 0.6492787599563599,
-      "bertscore_f1_max_stderr,none": "N/A"
+      "bleu_max,none": 2.421637842418825,
+      "bleu_max_stderr,none": 1.0356299932746804,
+      "rouge1_max,none": 13.529912710240577,
+      "rouge1_max_stderr,none": 2.0545028741750033,
+      "rouge2_max,none": 7.7429715976758455,
+      "rouge2_max_stderr,none": 3.6107401927171674,
+      "rougeL_max,none": 11.798310978638847,
+      "rougeL_max_stderr,none": 0.32290114257327396,
+      "bertscore_f1_max,none": 0.6783137321472168,
+      "bertscore_f1_max_stderr,none": 0.010947048664093016
     }
   },
   "groups": {
     "greek_protipa_exams_open_aggregate": {
-      "rougeL_max,none": 4.634581105169341,
-      "rougeL_max_stderr,none": "N/A",
-      "bertscore_f1_max,none": 0.45952699581782025,
-      "bertscore_f1_max_stderr,none": "N/A",
-      "bleu_max,none": 3.212072635301249,
-      "bleu_max_stderr,none": "N/A",
-      "rouge1_max,none": 6.7736185383244205,
-      "rouge1_max_stderr,none": "N/A",
-      "rouge2_max,none": 2.162162162162162,
-      "rouge2_max_stderr,none": "N/A",
+      "bertscore_f1_max,none": 0.6854386137222331,
+      "bertscore_f1_max_stderr,none": 0.003490810314862738,
       "alias": "greek_protipa_exams_open_aggregate"
     }
   },
@@ -91,26 +75,6 @@
       "num_fewshot": 0,
       "metric_list": [
         {
-          "metric": "bleu_max",
-          "aggregation": "mean",
-          "higher_is_better": true
-        },
-        {
-          "metric": "rouge1_max",
-          "aggregation": "mean",
-          "higher_is_better": true
-        },
-        {
-          "metric": "rouge2_max",
-          "aggregation": "mean",
-          "higher_is_better": true
-        },
-        {
-          "metric": "rougeL_max",
-          "aggregation": "mean",
-          "higher_is_better": true
-        },
-        {
           "metric": "bertscore_f1_max",
           "aggregation": "mean",
           "higher_is_better": true
@@ -129,9 +93,10 @@
       "repeats": 1,
       "should_decontaminate": false,
       "metadata": {
-        "model": "openrouter/free",
-        "base_url": "https://openrouter.ai/api/v1/chat/completions",
+        "model": "llama-krikri-8b-instruct-v1.5",
+        "base_url": "http://ec2-3-18-183-221.us-east-2.compute.amazonaws.com:4000/v1/chat/completions",
         "num_concurrent": 1,
+        "eos_string": "<|end_of_text|>",
         "max_retries": 10
       }
     },
@@ -150,26 +115,6 @@
       "num_fewshot": 0,
       "metric_list": [
         {
-          "metric": "bleu_max",
-          "aggregation": "mean",
-          "higher_is_better": true
-        },
-        {
-          "metric": "rouge1_max",
-          "aggregation": "mean",
-          "higher_is_better": true
-        },
-        {
-          "metric": "rouge2_max",
-          "aggregation": "mean",
-          "higher_is_better": true
-        },
-        {
-          "metric": "rougeL_max",
-          "aggregation": "mean",
-          "higher_is_better": true
-        },
-        {
           "metric": "bertscore_f1_max",
           "aggregation": "mean",
           "higher_is_better": true
@@ -188,9 +133,10 @@
       "repeats": 1,
       "should_decontaminate": false,
       "metadata": {
-        "model": "openrouter/free",
-        "base_url": "https://openrouter.ai/api/v1/chat/completions",
+        "model": "llama-krikri-8b-instruct-v1.5",
+        "base_url": "http://ec2-3-18-183-221.us-east-2.compute.amazonaws.com:4000/v1/chat/completions",
         "num_concurrent": 1,
+        "eos_string": "<|end_of_text|>",
         "max_retries": 10
       }
     },
@@ -209,26 +155,6 @@
       "num_fewshot": 0,
       "metric_list": [
         {
-          "metric": "bleu_max",
-          "aggregation": "mean",
-          "higher_is_better": true
-        },
-        {
-          "metric": "rouge1_max",
-          "aggregation": "mean",
-          "higher_is_better": true
-        },
-        {
-          "metric": "rouge2_max",
-          "aggregation": "mean",
-          "higher_is_better": true
-        },
-        {
-          "metric": "rougeL_max",
-          "aggregation": "mean",
-          "higher_is_better": true
-        },
-        {
           "metric": "bertscore_f1_max",
           "aggregation": "mean",
           "higher_is_better": true
@@ -247,9 +173,10 @@
       "repeats": 1,
       "should_decontaminate": false,
       "metadata": {
-        "model": "openrouter/free",
-        "base_url": "https://openrouter.ai/api/v1/chat/completions",
+        "model": "llama-krikri-8b-instruct-v1.5",
+        "base_url": "http://ec2-3-18-183-221.us-east-2.compute.amazonaws.com:4000/v1/chat/completions",
         "num_concurrent": 1,
+        "eos_string": "<|end_of_text|>",
         "max_retries": 10
       }
     }
@@ -267,56 +194,40 @@
   },
   "higher_is_better": {
     "greek_protipa_exams_language_open": {
-      "bleu_max": true,
-      "rouge1_max": true,
-      "rouge2_max": true,
-      "rougeL_max": true,
       "bertscore_f1_max": true
     },
     "greek_protipa_exams_maths_open": {
-      "bleu_max": true,
-      "rouge1_max": true,
-      "rouge2_max": true,
-      "rougeL_max": true,
       "bertscore_f1_max": true
     },
     "greek_protipa_exams_open_aggregate": {
-      "bleu_max": true,
-      "rouge1_max": true,
-      "rouge2_max": true,
-      "rougeL_max": true,
       "bertscore_f1_max": true
     },
     "greek_protipa_exams_physics_open": {
-      "bleu_max": true,
-      "rouge1_max": true,
-      "rouge2_max": true,
-      "rougeL_max": true,
       "bertscore_f1_max": true
     }
   },
   "n-samples": {
     "greek_protipa_exams_language_open": {
-      "original": 110,
-      "effective": 1
+      "original": 61,
+      "effective": 61
     },
     "greek_protipa_exams_maths_open": {
       "original": 159,
-      "effective": 1
+      "effective": 150
     },
     "greek_protipa_exams_physics_open": {
-      "original": 9,
-      "effective": 1
+      "original": 2,
+      "effective": 2
     }
   },
   "config": {
     "model": "openai-chat-completions",
-    "model_args": "model=openrouter/free,base_url=https://openrouter.ai/api/v1/chat/completions,num_concurrent=1,max_retries=10",
+    "model_args": "model=llama-krikri-8b-instruct-v1.5,base_url=http://ec2-3-18-183-221.us-east-2.compute.amazonaws.com:4000/v1/chat/completions,num_concurrent=1,eos_string=<|end_of_text|>,max_retries=10",
     "batch_size": 1,
     "batch_sizes": [],
     "device": null,
     "use_cache": null,
-    "limit": 1.0,
+    "limit": 150.0,
     "bootstrap_iters": 100000,
     "gen_kwargs": null,
     "random_seed": 0,
@@ -324,26 +235,26 @@
     "torch_seed": 1234,
     "fewshot_seed": 1234
   },
-  "git_hash": "4b9a2c7",
-  "date": 1781082423.417744,
+  "git_hash": "59fd384",
+  "date": 1781511529.414769,
   "pretty_env_info": "PyTorch version: 2.10.0+cpu\nIs debug build: False\nCUDA used to build PyTorch: None\nROCM used to build PyTorch: N/A\n\nOS: Microsoft Windows 11 Home (10.0.26200 64-bit)\nGCC version: Could not collect\nClang version: Could not collect\nCMake version: Could not collect\nLibc version: N/A\n\nPython version: 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)] (64-bit runtime)\nPython platform: Windows-11-10.0.26200-SP0\nIs CUDA available: False\nCUDA runtime version: No CUDA\nCUDA_MODULE_LOADING set to: N/A\nGPU models and configuration: No CUDA\nNvidia driver version: No CUDA\ncuDNN version: No CUDA\nIs XPU available: False\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\nCaching allocator config: N/A\n\nCPU:\nName: 13th Gen Intel(R) Core(TM) i7-1360P\nManufacturer: GenuineIntel\nFamily: 198\nArchitecture: 9\nProcessorType: 3\nDeviceID: CPU0\nCurrentClockSpeed: 2200\nMaxClockSpeed: 2200\nL2CacheSize: 9216\nL2CacheSpeed: None\nRevision: None\n\nVersions of relevant libraries:\n[pip3] numpy==2.4.1\n[pip3] torch==2.10.0\n[conda] Could not collect",
   "transformers_version": "4.57.6",
   "lm_eval_version": "0.4.9.2",
   "upper_git_hash": null,
   "task_hashes": {
-    "greek_protipa_exams_language_open": "e3ec4d5b609d7579e0e51887061a4b99bd4668b75202cac3ec30d3c9db58c474",
-    "greek_protipa_exams_maths_open": "7aad505c9e214da660572786fbbaf69b36f8268be7e90dbfdf48da636454981c",
-    "greek_protipa_exams_physics_open": "47c6241e5e06c70e3ffa52ede23b615d3ac8fcab5615d79f188ace4d5a3e8794"
+    "greek_protipa_exams_language_open": "682c23b78c1cb91c9d51cd179c0885bdc709b2d2ebfe8ea4e18d3c813ecd9357",
+    "greek_protipa_exams_maths_open": "3920432306bde6e52fbe0ef51472fb0aeddcf5f614d9cc2619629727ada9a743",
+    "greek_protipa_exams_physics_open": "4a75cc7d7e61f6e78514687a5bbc9a106032e6537ceac97e877a68ca1f3f6704"
   },
   "model_source": "openai-chat-completions",
-  "model_name": "openrouter/free",
-  "model_name_sanitized": "openrouter__free",
+  "model_name": "llama-krikri-8b-instruct-v1.5",
+  "model_name_sanitized": "llama-krikri-8b-instruct-v1.5",
   "system_instruction": null,
   "system_instruction_sha": null,
   "fewshot_as_multiturn": false,
   "chat_template": "",
   "chat_template_sha": null,
-  "start_time": 1205840.1681203,
-  "end_time": 1205970.9528781,
-  "total_evaluation_time_seconds": "130.78475780016743"
+  "start_time": 412902.6844409,
+  "end_time": 415694.3768064,
+  "total_evaluation_time_seconds": "2791.6923655000282"
 }

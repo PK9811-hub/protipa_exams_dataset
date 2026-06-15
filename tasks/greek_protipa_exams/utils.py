@@ -347,12 +347,35 @@ def structured_short_answer_metric(references, predictions):
     ref_clean = clean_greek_text(references[0] if references else "")
     return 1.0 if pred_clean == ref_clean else 0.0
 
+#def process_results_structured(doc, results):
+    """Processes results for structured mode tasks using a unified accuracy metric."""
+    fmt = doc.get("format")
+    pred = results[0] if results else ""
+    target = doc_to_target_structured(doc)
+    
+    if fmt == "matching":
+        score = matching_accuracy_metric([target], [pred])
+    else:
+        score = structured_short_answer_metric([target], [pred])
+        
+    return {
+        "structured_accuracy": score
+    }
+
 def process_results_structured(doc, results):
     """Processes results for structured mode tasks using a unified accuracy metric."""
     fmt = doc.get("format")
     pred = results[0] if results else ""
     target = doc_to_target_structured(doc)
     
+    if pred:
+        pred = pred.replace("**", "").replace("_", "")
+        parts = re.split(r'\\n|\n|\r\n|\s{2,}', pred)
+        pred = parts[0]
+        pred = pred.split("(")[0].split("[")[0]
+        pred = re.split(r'(Εξήγηση|Σημείωση|Παρατηρήσεις|Γράψε)', pred)[0]
+        pred = pred.strip()
+
     if fmt == "matching":
         score = matching_accuracy_metric([target], [pred])
     else:

@@ -248,6 +248,9 @@ def process_language_structured(dataset):
 def process_maths_structured(dataset): 
     return filter_by_mode_and_subject(dataset, mode='structured', subject='mathematics')
 
+def process_physics_structured(dataset): 
+    return filter_by_mode_and_subject(dataset, mode='structured', subject='physics')
+
 def doc_to_text_matching(doc):
     """Formats the prompt specifically for matching format questions."""
     prompt_parts = []
@@ -346,21 +349,6 @@ def structured_short_answer_metric(references, predictions):
     pred_clean = clean_greek_text(predictions[0] if predictions else "")
     ref_clean = clean_greek_text(references[0] if references else "")
     return 1.0 if pred_clean == ref_clean else 0.0
-
-#def process_results_structured(doc, results):
-    """Processes results for structured mode tasks using a unified accuracy metric."""
-    fmt = doc.get("format")
-    pred = results[0] if results else ""
-    target = doc_to_target_structured(doc)
-    
-    if fmt == "matching":
-        score = matching_accuracy_metric([target], [pred])
-    else:
-        score = structured_short_answer_metric([target], [pred])
-        
-    return {
-        "structured_accuracy": score
-    }
 
 def process_results_structured(doc, results):
     """Processes results for structured mode tasks using a unified accuracy metric."""

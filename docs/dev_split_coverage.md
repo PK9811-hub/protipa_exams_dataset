@@ -13,7 +13,7 @@ Here is the breakdown of the **20 dev questions** from the `few_shot_dev` datase
 | **`language_structured.yaml`** | `greek_protipa_exams_language_structured` | Structured | Greek Language | **10** |
 
 ## Summary
-* **No dev questions exist** for any of the **Closed** tasks (`language_closed`, `maths_closed`, `religious_studies_closed`) or the **Physics Open** task (`physics_open`).
+* **No dev questions exist** for any of the **Closed** tasks (`language_closed`, `maths_closed`, `religious_studies_closed`) or the **Physics Open** task (`physics_open`). Done [x]
 * The **20 dev questions** are fully distributed among three tasks:
   * **`greek_protipa_exams_language_open`** (5 items)
   * **`greek_protipa_exams_maths_open`** (5 items)

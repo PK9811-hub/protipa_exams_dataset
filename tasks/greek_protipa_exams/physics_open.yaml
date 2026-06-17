@@ -2,6 +2,8 @@ task: greek_protipa_exams_physics_open
 dataset_path: ilsp/greek-protipa-exams
 output_type: generate_until
 test_split: test
+fewshot_split: dev
+num_fewshot: 5
 process_docs: !function utils.process_physics_open
 doc_to_text: !function utils.doc_to_text_open
 doc_to_target: !function utils.doc_to_target_open

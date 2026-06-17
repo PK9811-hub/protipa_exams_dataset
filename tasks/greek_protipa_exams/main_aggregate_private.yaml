@@ -1,0 +1,5 @@
+group: greek_protipa_exams_aggregate_private
+task:
+  - greek_protipa_exams_closed_aggregate_private
+  - greek_protipa_exams_structured_aggregate_private
+  - greek_protipa_exams_open_aggregate_private

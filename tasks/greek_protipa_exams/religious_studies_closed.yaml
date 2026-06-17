@@ -1,5 +1,5 @@
 task: greek_protipa_exams_religious_studies_closed
-dataset_path: ilsp/greek-protipa-exams-private
+dataset_path: ilsp/greek-protipa-exams
 output_type: generate_until
 test_split: test
 process_docs: !function utils.process_religious_studies_closed

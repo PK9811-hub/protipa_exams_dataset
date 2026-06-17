@@ -1,0 +1,3 @@
+include: religious_studies_closed.yaml
+task: greek_protipa_exams_religious_studies_closed_private
+dataset_path: ilsp/greek-protipa-exams-private

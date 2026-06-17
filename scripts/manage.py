@@ -537,7 +537,7 @@ def compare(current_df, reference_file):
         else:
             print(f"✅ Column '{col}' matches perfectly.")
 
-def push_to_hub(df, with_images=False):
+def push_to_hub(df, with_images=False, split="test"):
     """Stage D: Push the processed dataset to Hugging Face."""
     repo_id = os.getenv("HF_REPO_ID")
     token = os.getenv("HF_TOKEN")
@@ -570,6 +570,12 @@ def push_to_hub(df, with_images=False):
     for col in ['year', 'exam_set', 'q_id']:
         if col in df.columns:
             df[col] = df[col].astype(str)
+            
+    if 'choices' in df.columns:
+        df['choices'] = df['choices'].apply(lambda x: [str(i) for i in x] if isinstance(x, list) else [])
+
+    if not (with_images and 'image_paths' in df.columns):
+        df['images'] = [[] for _ in range(len(df))]
         
     dataset = Dataset.from_pandas(df)
     
@@ -580,12 +586,45 @@ def push_to_hub(df, with_images=False):
         print("🖼️ Casting image_paths to Image features...")
         dataset = dataset.cast_column("image_paths", Sequence(Image()))
         dataset = dataset.rename_column("image_paths", "images")
-    elif 'image_paths' in df.columns:
+    elif 'image_paths' in dataset.column_names:
         dataset = dataset.remove_columns(["image_paths"])
 
+    # Ensure exact column order and schema required by existing splits
+    cols_order = [
+        'id', 'subject', 'format', 'reference', 'question', 'input', 'images',
+        'choices', 'answer_text', 'answer_index', 'image_description',
+        'image_transcription', 'points', 'year', 'admission_level', 'exam_set', 'q_id'
+    ]
+    
+    dataset = dataset.select_columns(cols_order)
+    
+    from datasets import Value
+    target_features = Features({
+        'id': Value('large_string'),
+        'subject': Value('large_string'),
+        'format': Value('large_string'),
+        'reference': Value('large_string'),
+        'question': Value('large_string'),
+        'input': Value('large_string'),
+        'images': Sequence(Image(decode=True)),
+        'choices': Sequence(Value('string')),
+        'answer_text': Value('large_string'),
+        'answer_index': Value('int64'),
+        'image_description': Value('large_string'),
+        'image_transcription': Value('large_string'),
+        'points': Value('float64'),
+        'year': Value('large_string'),
+        'admission_level': Value('large_string'),
+        'exam_set': Value('large_string'),
+        'q_id': Value('large_string')
+    })
+    
+    print("📋 Casting dataset to match the hub schema...")
+    dataset = dataset.cast(target_features)
+
     try:
-        dataset.push_to_hub(repo_id, token=token, private=is_private, split="test")
-        print(f"✅ Successfully pushed to Hub (as 'test' split).")
+        dataset.push_to_hub(repo_id, token=token, private=is_private, split=split)
+        print(f"✅ Successfully pushed to Hub (as '{split}' split).")
     except Exception as e:
         print(f"❌ Failed to push to Hub: {e}")
 
@@ -607,6 +646,7 @@ def main():
     push_parser.add_argument("--subset", type=str, help="Subset path")
     push_parser.add_argument("--extended", action="store_true", help="Use structural schema")
     push_parser.add_argument("--with-images", action="store_true", help="Embed actual image data")
+    push_parser.add_argument("--split", type=str, default="test", help="Target split (default: test)")
 
     args = parser.parse_args()
 
@@ -640,7 +680,7 @@ def main():
     elif args.command == "push":
         if args.file:
             df = pd.read_excel(args.file)
-            for col in ['choices', 'image_urls']:
+            for col in ['choices', 'image_urls', 'image_paths']:
                 if col in df.columns:
                     def safe_eval(val):
                         try: 
@@ -652,7 +692,7 @@ def main():
             df = consolidate(subset=args.subset, extended=args.extended)
         
         if not df.empty:
-            push_to_hub(df, with_images=args.with_images)
+            push_to_hub(df, with_images=args.with_images, split=args.split)
     else:
         parser.print_help()
 

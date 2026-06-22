@@ -9,6 +9,7 @@ dependencies = [
     "datasets>=4.4.2",
     "dotenv>=0.9.9",
     "huggingface-hub>=0.36.0",
+    "inspect-ai>=0.3.145",
     "ipykernel>=7.1.0",
     "ipywidgets>=8.1.8",
     "lm-eval[api]>=0.4.11",

@@ -148,3 +148,15 @@ Issues_with_protipa_exam_files.xlsx
 
 # results
 results/*
+
+# inspect.ai logs
+.inspect_log/
+
+# evals
+# src/protipa_exams_dataset/evals/
+
+# agents
+.agents
+
+# inspect logs
+logs/

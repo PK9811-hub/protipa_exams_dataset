@@ -45,7 +45,7 @@ export $(grep -v '^#' .env | xargs)
 
 # 2. Run open-ended questions (limited to 100 samples)
 PYTHONPATH=src uv run inspect eval src/protipa_exams_dataset/evals/tasks.py \
-  --model openai/$MODEL_ID \
+  --model $MODEL_ID \
   --limit 100 \
   -T dataset_path=$HF_REPO_ID \
   -T split=test \
@@ -57,7 +57,7 @@ PYTHONPATH=src uv run inspect eval src/protipa_exams_dataset/evals/tasks.py \
 
 # 3. Run a single sample (e.g., Physics)
 PYTHONPATH=src uv run inspect eval src/protipa_exams_dataset/evals/tasks.py \
-  --model openai/$MODEL_ID \
+  --model $MODEL_ID \
   -T dataset_path=$HF_REPO_ID \
   -T split=test \
   -T input_field=question \
@@ -66,6 +66,19 @@ PYTHONPATH=src uv run inspect eval src/protipa_exams_dataset/evals/tasks.py \
   -T filter_value=phys_gym_2014_1_1 \
   -T grader_model=openai/$MODEL_ID
 
+# 4. Run evaluation (grader model is dynamically routed via environment variables)
+PYTHONPATH=src uv run inspect eval src/protipa_exams_dataset/evals/tasks.py \
+  --model $MODEL_ID \
+  --limit 5 \
+  -T dataset_path=$HF_REPO_ID \
+  -T split=test \
+  -T input_field=question \
+  -T target_field=answer_text \
+  -T filter_field=format \
+  -T filter_value=open_ended \
+  --temperature ${MODEL_TEMPERATURE:-0.3} \
+  --top-p ${MODEL_TOP_P:-0.95} \
+  --top-k ${MODEL_TOP_K:-64}
 ```
 
 ---
@@ -106,3 +119,5 @@ Open **`http://localhost:7575`** in the browser to:
 - [ ] **Culture Benchmark Expansion (SM, PP)**: Same tasks expanded to the culture benchmark.
 - [ ] **Prompt and Rubric Tuning (ALL)**: Fix hardcoded prompts, refine subject rubrics for more granular scoring.
 - [ ] **Concurrency Tuning**: Optimize `--max-connections` and `--max-tasks` in the CLI to maximize throughput on the local vLLM server.
+
+

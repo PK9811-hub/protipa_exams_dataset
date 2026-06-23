@@ -11,7 +11,20 @@ def generic_judge_scorer(instructions: str, model: str | None = None):
     """
     async def score(state, target):
         # 1. Get the grader model instance
-        grader = get_model(model) if model else get_model(role="grader")
+        import os
+        grader_model_id = os.environ.get("GRADER_MODEL_ID")
+        grader_base_url = os.environ.get("GRADER_BASE_URL")
+        grader_api_key = os.environ.get("GRADER_API_KEY")
+
+        if grader_model_id and grader_base_url:
+            # Explicitly route to the grader backend bypassing global OPENAI_BASE_URL
+            grader = get_model(
+                f"openai/{grader_model_id}",
+                base_url=grader_base_url,
+                api_key=grader_api_key
+            )
+        else:
+            grader = get_model(model) if model else get_model(role="grader")
         
         # 2. Extract rubric from sample metadata (fallback to default instructions)
         rubric = state.metadata.get("grading_instructions") or instructions

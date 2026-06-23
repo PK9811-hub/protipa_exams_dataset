@@ -1,4 +1,5 @@
 import json
+import os
 import re
 from inspect_ai.scorer import scorer, Score
 from inspect_ai.model import get_model
@@ -11,35 +12,41 @@ def generic_judge_scorer(instructions: str, model: str | None = None):
     """
     async def score(state, target):
         # 1. Get the grader model instance
-        import os
-        grader_model_id = os.environ.get("GRADER_MODEL_ID")
-        grader_base_url = os.environ.get("GRADER_BASE_URL")
-        grader_api_key = os.environ.get("GRADER_API_KEY")
-
-        if grader_model_id and grader_base_url:
-            # Explicitly route to the grader backend bypassing global OPENAI_BASE_URL
-            grader = get_model(
-                f"openai/{grader_model_id}",
-                base_url=grader_base_url,
-                api_key=grader_api_key
-            )
-        else:
-            grader = get_model(model) if model else get_model(role="grader")
+        #grader = get_model(model) if model else get_model(role="grader")
+        grader = get_model(
+            model if model else get_model(role="grader"),
+            base_url=os.environ.get("GRADER_BASE_URL"),
+            api_key=os.environ.get("GRADER_API_KEY")
+        )
         
         # 2. Extract rubric from sample metadata (fallback to default instructions)
         rubric = state.metadata.get("grading_instructions") or instructions
         
         # 3. Build the grading prompt
+        #prompt = (
+            #"You are assessing a submitted answer on a given task based on a criterion.\n\n"
+            #"[BEGIN DATA]\n"
+            #f"[Task]: {state.input}\n"
+            #f"[Submission]: {state.output.completion}\n"
+            #f"[Criterion]: {target.text}\n"
+            #"[END DATA]\n\n"
+            #f"{rubric}\n\n"
+            #"Format your response as a JSON object with 'grade' and 'explanation' fields:\n"
+            #'{\n  "grade": 1.0 or 0.0,\n  "explanation": "Brief explanation of the grade"\n}'
+        #)
+        # 3. Build the grading prompt (Translated & Granular)
         prompt = (
-            "You are assessing a submitted answer on a given task based on a criterion.\n\n"
+            "Αξιολογείς μια υποβληθείσα απάντηση (Submission) σε μια άσκηση (Task), συγκρίνοντάς τη με ένα κριτήριο/πρότυπη λύση (Criterion).\n\n"
             "[BEGIN DATA]\n"
             f"[Task]: {state.input}\n"
             f"[Submission]: {state.output.completion}\n"
             f"[Criterion]: {target.text}\n"
             "[END DATA]\n\n"
             f"{rubric}\n\n"
-            "Format your response as a JSON object with 'grade' and 'explanation' fields:\n"
-            '{\n  "grade": 1.0 or 0.0,\n  "explanation": "Brief explanation of the grade"\n}'
+            "Η τελική σου απάντηση πρέπει να είναι ΑΥΣΤΗΡΑ ένα JSON object με τα πεδία 'grade' και 'explanation'.\n"
+            "Το πεδίο 'explanation' ΠΡΕΠΕΙ να είναι γραμμένο στα Ελληνικά.\n"
+            "Μορφή JSON:\n"
+            '{\n  "grade": [Βαθμός από 0.0 έως 1.0, π.χ. 0.0, 0.25, 0.5, 0.75, 1.0],\n  "explanation": "Σύντομη αιτιολόγηση του βαθμού στα Ελληνικά"\n}'
         )
         
         # 4. Call the model (normal text generation)
@@ -62,6 +69,7 @@ def generic_judge_scorer(instructions: str, model: str | None = None):
                 explanation = data.get("explanation", completion)
                 return Score(
                     value=grade,
+                    answer=state.output.completion,
                     explanation=explanation,
                     metadata={"raw_completion": completion}
                 )
@@ -70,13 +78,19 @@ def generic_judge_scorer(instructions: str, model: str | None = None):
                 
         # 6. Fallback parser if JSON parsing fails
         # Look for numeric grade (1.0 or 0.0 or 1 or 0)
-        grade_match = re.search(r"\b(1\.0|0\.0|1|0)\b", completion)
+        #grade_match = re.search(r"\b(1\.0|0\.0|1|0)\b", completion)
+        #if grade_match:
+            #val = float(grade_match.group(1))
+            #grade = 1.0 if val in [1.0, 1] else 0.0
+            
+        # Look for granular numeric grade
+        grade_match = re.search(r"\b(1\.0|0\.\d+|1|0)\b", completion)
         if grade_match:
-            val = float(grade_match.group(1))
-            grade = 1.0 if val in [1.0, 1] else 0.0
+            grade = float(grade_match.group(1))
             
         return Score(
             value=grade,
+            answer=state.output.completion,
             explanation=explanation,
             metadata={"raw_completion": completion}
         )

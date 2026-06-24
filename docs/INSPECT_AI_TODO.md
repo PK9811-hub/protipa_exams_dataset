@@ -114,10 +114,10 @@ Open **`http://localhost:7575`** in the browser to:
 * [Inspect AI Tutorial](https://inspect.aisi.org.uk/tutorial.html), this document
 
 ### Key Tasks:
-- [ ] **Framework Evaluation (ALL)**: Familiarize with the framework and assess suitability for open-ended questions.
+- [x] **Framework Evaluation (ALL)**: Familiarize with the framework and assess suitability for open-ended questions.
 - [ ] **Exam benchmarks (PK, EK)**: Execute the code, inspect results on protipa, and expand to panhellenic exams. 
 - [ ] **Culture Benchmark Expansion (SM, PP)**: Same tasks expanded to the culture benchmark.
-- [ ] **Prompt and Rubric Tuning (ALL)**: Fix hardcoded prompts, refine subject rubrics for more granular scoring.
-- [ ] **Concurrency Tuning**: Optimize `--max-connections` and `--max-tasks` in the CLI to maximize throughput on the local vLLM server.
+- [x] **Prompt and Rubric Tuning (ALL)**: Fix hardcoded prompts, refine subject rubrics for more granular scoring.
+- [x] **Concurrency Tuning**: Optimize `--max-connections` and `--max-tasks` in the CLI to maximize throughput on the local vLLM server.
 
 

@@ -1,6 +1,7 @@
 from inspect_ai import Task, task
 from inspect_ai.dataset import Sample, hf_dataset, MemoryDataset
 from inspect_ai.solver import generate, system_message
+from inspect_ai.scorer import mean
 
 import sys
 from pathlib import Path
@@ -258,5 +259,6 @@ def generic_evaluation(
             generate()
         ],
         scorer=generic_judge_scorer(instructions=grading_instructions, model=grader_model),
+        metrics=[mean()],
         model_roles={"grader": grader_model} if grader_model else None
     )

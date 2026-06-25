@@ -6,6 +6,13 @@ from inspect_ai.model import get_model
 from inspect_ai.scorer import scorer, Score, Target
 from bert_score import score as bert_score_fn
 from inspect_ai.scorer import mean
+from transformers import BertTokenizer
+
+if not hasattr(BertTokenizer, "build_inputs_with_special_tokens"):
+    def build_inputs_with_special_tokens(self, token_ids_0, token_ids_1=None):
+        return token_ids_0
+    
+    BertTokenizer.build_inputs_with_special_tokens = build_inputs_with_special_tokens
 
 @scorer(metrics=[mean()])
 def greek_bertscore():

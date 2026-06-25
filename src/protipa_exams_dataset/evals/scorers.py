@@ -3,6 +3,37 @@ import os
 import re
 from inspect_ai.scorer import scorer, Score
 from inspect_ai.model import get_model
+from inspect_ai.scorer import scorer, Score, Target
+from bert_score import score as bert_score_fn
+from inspect_ai.scorer import mean
+
+@scorer(metrics=[mean()])
+def greek_bertscore():
+    """Returns the maximum BERTScore F1 for the completion against the target(s)."""
+    async def evaluate(state, target: Target):
+        completion = state.output.completion
+        gold_answer = target.text.strip()
+        
+        if "/" in gold_answer:
+            true_refs = [a.strip() for a in gold_answer.split("/")]
+        else:
+            true_refs = [gold_answer]
+
+        P, R, F1 = bert_score_fn(
+            [completion] * len(true_refs),
+            true_refs,
+            lang="el",
+            model_type="bert-base-multilingual-cased",
+            verbose=False,
+        )
+        bertscore_f1_max = F1.max().item()
+
+        return Score(
+            value=bertscore_f1_max,
+            explanation=f"BERTScore F1 calculation. Target(s): {true_refs}"
+        )
+    return evaluate
+
 
 @scorer(metrics=[])
 def generic_judge_scorer(instructions: str, model: str | None = None):
@@ -22,18 +53,6 @@ def generic_judge_scorer(instructions: str, model: str | None = None):
         # 2. Extract rubric from sample metadata (fallback to default instructions)
         rubric = state.metadata.get("grading_instructions") or instructions
         
-        # 3. Build the grading prompt
-        #prompt = (
-            #"You are assessing a submitted answer on a given task based on a criterion.\n\n"
-            #"[BEGIN DATA]\n"
-            #f"[Task]: {state.input}\n"
-            #f"[Submission]: {state.output.completion}\n"
-            #f"[Criterion]: {target.text}\n"
-            #"[END DATA]\n\n"
-            #f"{rubric}\n\n"
-            #"Format your response as a JSON object with 'grade' and 'explanation' fields:\n"
-            #'{\n  "grade": 1.0 or 0.0,\n  "explanation": "Brief explanation of the grade"\n}'
-        #)
         # 3. Build the grading prompt (Translated & Granular)
         prompt = (
             "Αξιολογείς μια υποβληθείσα απάντηση (Submission) σε μια άσκηση (Task), συγκρίνοντάς τη με ένα κριτήριο/πρότυπη λύση (Criterion).\n\n"

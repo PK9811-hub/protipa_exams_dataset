@@ -102,13 +102,7 @@ def generic_judge_scorer(instructions: str, model: str | None = None):
             except Exception:
                 pass
                 
-        # 6. Fallback parser if JSON parsing fails
-        # Look for numeric grade (1.0 or 0.0 or 1 or 0)
-        #grade_match = re.search(r"\b(1\.0|0\.0|1|0)\b", completion)
-        #if grade_match:
-            #val = float(grade_match.group(1))
-            #grade = 1.0 if val in [1.0, 1] else 0.0
-            
+        # 6. Fallback parser if JSON parsing fails 
         # Look for granular numeric grade
         grade_match = re.search(r"\b(1\.0|0\.\d+|1|0)\b", completion)
         if grade_match:

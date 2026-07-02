@@ -1,4 +1,4 @@
-# Code to generate the Greek Protipa Exams Dataset
+# GR-Protipa Exams Dataset
 
 GR-ProtipaExams ([Link withheld for double-blind review]) is a dataset derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Πρότυπα και Πειραματικά Σχολεία) in Greece. 
 

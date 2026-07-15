@@ -153,6 +153,11 @@ def generic_evaluation(
                 dataset = dataset.filter(
                     lambda sample, val=f_val: bool(sample.metadata.get("image_description")) == (val.lower() == "true")
                 )
+            elif f_name == "choices":
+                if f_val.lower() == "empty":
+                    dataset = dataset.filter(lambda sample: not sample.metadata.get("choices"))
+                else:
+                    dataset = dataset.filter(lambda sample: bool(sample.metadata.get("choices")))
             else:
                 val_str = str(f_val).strip("[]()'\"")
                 allowed_values = [v.strip().strip("'\"") for v in val_str.split(",")]

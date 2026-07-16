@@ -142,6 +142,87 @@ For open-ended questions where exact text matching is insufficient, we provide c
 - Contains the evaluation configurations (folders), custom evaluation prompts, and `.py` scoring scripts.
 - Implements an **LLM-as-a-judge** paradigm, utilizing a secondary model to assess the logical flow, correctness, and reasoning capabilities of the generated answers rather than superficial lexical overlap.
 
+#### Running Evaluations
+
+<details>
+<summary>Running Inspect AI Evaluations</summary>
+
+Make sure your `.env` file is set up with the correct variables (e.g., API keys and model paths). First, load the environment variables:
+
+```bash
+export $(grep -v '^#' .env | xargs)
+```
+
+The evaluation script is highly flexible. You can evaluate the entire dataset, or filter it down using standard Inspect AI flags (like --limit for quick testing) and custom task parameters (-T).
+
+Filtering Rules & Task Parameters:
+
+* Metadata Filtering: Use -T filter_field and -T filter_value to specify metadata columns and their allowed values.
+
+* AND Logic: Use ; to apply multiple filters simultaneously (e.g., -T filter_field="subject;format").
+
+* OR Logic: Use , to allow multiple values for a single field (e.g., -T filter_value="physics;open_ended,fill_in_the_gaps").
+
+* Strict Open-Ended: Use -T filter_field="choices" and -T filter_value="empty" to exclusively evaluate questions that do not have multiple-choice options. To evaluate only questions WITH options, use a value like "not_empty".
+
+* Image Descriptions: Use -T filter_field="has_image_description" and -T filter_value="true" to only evaluate questions that contain image descriptions.
+
+* Few-Shot Prompting: Use -T num_fewshot=N (where N is the number of examples) to add few-shot examples from the dev split. Set to 0 for Zero-Shot.
+
+Here are some examples of how to run the evaluations:
+
+**Example 1: Strict Open-Ended Evaluation (Zero-Shot)**
+
+```bash
+uv run inspect eval src/protipa_exams_dataset/evals/tasks.py \
+  --model "openai/$MODEL_ID" \
+  --max-connections 10 \
+  -T num_fewshot=0 \
+  -T dataset_path="$HF_REPO_ID" \
+  -T split=test \
+  -T input_field=question \
+  -T target_field=answer_text \
+  -T filter_field="format;subject;choices" \
+  -T filter_value="open_ended,matching,fill_in_the_gaps;physics;empty" \
+  -T grader_model="openai/$GRADER_MODEL_ID" \
+  --batch false
+```
+
+**Example 2: Quick Test with Few-Shot Prompting & Limit**
+
+```bash
+uv run inspect eval src/protipa_exams_dataset/evals/tasks.py \
+  --model "openai/$MODEL_ID" \
+  --limit 5 \
+  --max-connections 10 \
+  -T num_fewshot=3 \
+  -T dataset_path="$HF_REPO_ID" \
+  -T split=test \
+  -T input_field=question \
+  -T target_field=answer_text \
+  -T filter_field="subject" \
+  -T filter_value="greek_language" \
+  -T grader_model="openai/$GRADER_MODEL_ID" \
+  --batch false
+```
+
+**Example 3: Evaluating Questions with Image Descriptions**
+
+```bash
+uv run inspect eval src/protipa_exams_dataset/evals/tasks.py \
+  --model "openai/$MODEL_ID" \
+  --max-connections 10 \
+  -T num_fewshot=0 \
+  -T dataset_path="$HF_REPO_ID" \
+  -T split=test \
+  -T input_field=question \
+  -T target_field=answer_text \
+  -T filter_field="subject;has_image_description" \
+  -T filter_value="mathematics;true" \
+  -T grader_model="openai/$GRADER_MODEL_ID" \
+  --batch false
+```
+</details>
 
 ## Getting Started (Developer)
 

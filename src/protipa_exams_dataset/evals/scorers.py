@@ -1,18 +1,19 @@
 import json
 import os
 import re
-from inspect_ai.scorer import scorer, Score
+from inspect_ai.scorer import scorer, Score, Target, mean
 from inspect_ai.model import get_model
-from inspect_ai.scorer import scorer, Score, Target
-from bert_score import score as bert_score_fn
-from inspect_ai.scorer import mean
+from bert_score import BERTScorer
 from transformers import BertTokenizer
+
+bert_scorer = BERTScorer(lang="el", model_type="bert-base-multilingual-cased")
 
 if not hasattr(BertTokenizer, "build_inputs_with_special_tokens"):
     def build_inputs_with_special_tokens(self, token_ids_0, token_ids_1=None):
         return token_ids_0
     
     BertTokenizer.build_inputs_with_special_tokens = build_inputs_with_special_tokens
+
 
 @scorer(metrics=[mean()])
 def greek_bertscore():
@@ -26,14 +27,20 @@ def greek_bertscore():
         else:
             true_refs = [gold_answer]
 
-        P, R, F1 = bert_score_fn(
-            [completion] * len(true_refs),
-            true_refs,
-            lang="el",
-            model_type="bert-base-multilingual-cased",
-            verbose=False,
-        )
-        bertscore_f1_max = F1.max().item()
+        is_completion_empty = not completion or not str(completion).strip()
+        is_ref_empty = any(not ref or not str(ref).strip() or str(ref).strip().lower() == 'nan' for ref in true_refs)
+
+        if is_completion_empty or is_ref_empty:
+            bertscore_f1_max = 0.0
+        else:
+            try:
+                P, R, F1 = bert_scorer.score(
+                    [completion] * len(true_refs),
+                    true_refs,
+                )
+                bertscore_f1_max = F1.max().item()
+            except Exception:
+                bertscore_f1_max = 0.0
 
         return Score(
             value=bertscore_f1_max,
@@ -50,7 +57,6 @@ def generic_judge_scorer(instructions: str, model: str | None = None):
     """
     async def score(state, target):
         # 1. Get the grader model instance
-        #grader = get_model(model) if model else get_model(role="grader")
         grader = get_model(
             model if model else get_model(role="grader"),
             base_url=os.environ.get("GRADER_BASE_URL"),
@@ -60,12 +66,17 @@ def generic_judge_scorer(instructions: str, model: str | None = None):
         # 2. Extract rubric from sample metadata (fallback to default instructions)
         rubric = state.metadata.get("grading_instructions") or instructions
         
-        # 3. Build the grading prompt (Translated & Granular)
+        # 3. Truncate completion if it is excessively long to prevent token context issues
+        submission = state.output.completion
+        if len(submission) > 20000:
+            submission = submission[:20000] + "\n[TRUNCATED DUE TO EXCESSIVE LENGTH]"
+
+        # 4. Build the grading prompt (Translated & Granular)
         prompt = (
             "Αξιολογείς μια υποβληθείσα απάντηση (Submission) σε μια άσκηση (Task), συγκρίνοντάς τη με ένα κριτήριο/πρότυπη λύση (Criterion).\n\n"
             "[BEGIN DATA]\n"
             f"[Task]: {state.input}\n"
-            f"[Submission]: {state.output.completion}\n"
+            f"[Submission]: {submission}\n"
             f"[Criterion]: {target.text}\n"
             "[END DATA]\n\n"
             f"{rubric}\n\n"
@@ -75,14 +86,21 @@ def generic_judge_scorer(instructions: str, model: str | None = None):
             '{\n  "grade": [Βαθμός από 0.0 έως 1.0, π.χ. 0.0, 0.25, 0.5, 0.75, 1.0],\n  "explanation": "Σύντομη αιτιολόγηση του βαθμού στα Ελληνικά"\n}'
         )
         
-        # 4. Call the model (normal text generation)
-        result = await grader.generate(
-            input=prompt
-        )
-        
-        completion = result.completion.strip()
-        
-        # 5. Extract JSON block programmatically
+        # 5. Call the model with error handling
+        try:
+            result = await grader.generate(
+                input=prompt
+            )
+            completion = result.completion.strip()
+        except Exception as e:
+            return Score(
+                value=0.0,
+                answer=state.output.completion,
+                explanation=f"Grading failed due to API error: {e}",
+                metadata={"error": str(e)}
+            )
+
+        # 6. Extract JSON block programmatically
         grade = 0.0
         explanation = completion
         
@@ -102,8 +120,7 @@ def generic_judge_scorer(instructions: str, model: str | None = None):
             except Exception:
                 pass
                 
-        # 6. Fallback parser if JSON parsing fails 
-        # Look for granular numeric grade
+        # 7. Fallback parser if JSON parsing fails 
         grade_match = re.search(r"\b(1\.0|0\.\d+|1|0)\b", completion)
         if grade_match:
             grade = float(grade_match.group(1))

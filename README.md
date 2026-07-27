@@ -132,13 +132,13 @@ For researchers working locally or using the source repository, the data is avai
 This repository provides ready-to-use configurations for evaluating Large Language Models on the dataset, supporting different task modalities.
 
 ### 1. LM-Eval Harness 
-All tasks callable via the Language Model Evaluation Harness (`lm-eval`) can be found in the `protipa_exams_dataset/tree/dev/tasks/greek_protipa_exams` directory. 
+All tasks callable via the Language Model Evaluation Harness (`lm-eval`) can be found in the [`tasks/greek_protipa_exams`](https://github.com/PK9811-hub/protipa_exams_dataset/tree/dev/tasks/greek_protipa_exams) directory. 
 - Includes configurations to run experiments on **closed-ended**, **open-ended**, and **structured** (single-word/short phrase) questions.
 - Tasks are organized both as broad aggregates (e.g., `closed_aggregate`, `open_aggregate`, `structured_aggregate`) and as fine-grained, subject-specific tasks (e.g., Mathematics, Greek Language).
 
 ### 2. Inspect AI (LLM-as-a-Judge)
 For open-ended questions where exact text matching is insufficient, we provide configurations for the Inspect AI framework.
-- Located in the `protipa_exams_dataset/tree/dev/src/protipa_exams_dataset/evals` directory.
+- Located in the [`protipa_exams_dataset/evals`](https://github.com/PK9811-hub/protipa_exams_dataset/tree/dev/src/protipa_exams_dataset/evals) directory.
 - Contains the evaluation configurations (folders), custom evaluation prompts, and `.py` scoring scripts.
 - Implements an **LLM-as-a-judge** paradigm, utilizing a secondary model to assess the logical flow, correctness, and reasoning capabilities of the generated answers rather than superficial lexical overlap.
 

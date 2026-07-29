@@ -8,8 +8,8 @@ def main():
     print(f"Κατέβασμα του πλήρους dataset από: {private_repo}")
     dataset = load_dataset(private_repo, split="test")
     
-    print("Φιλτράρισμα: Αφαίρεση θεμάτων του 2026...")
-    public_dataset = dataset.filter(lambda x: x['year'] != '2026')
+    print("Φιλτράρισμα: Αφαίρεση θεμάτων του 2019...")
+    public_dataset = dataset.filter(lambda x: x['year'] != '2019')
     
     print(f"Ανέβασμα του φιλτραρισμένου dataset στο: {public_repo}")
     public_dataset.push_to_hub(public_repo, private=False)

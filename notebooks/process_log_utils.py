@@ -2,7 +2,6 @@ import json
 import zipfile_zstd as zipfile
 import pandas as pd
 from pathlib import Path
-from typing import Dict, List, Any
 
 SUBJECT_MAPPING = {
     'ancient_greek': 'Ancient Greek',

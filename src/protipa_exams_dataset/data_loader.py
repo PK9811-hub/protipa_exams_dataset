@@ -27,11 +27,9 @@ def filter_dataset(dataset, mode='closed'):
     print(f"🔍 Filtering for mode: {mode.upper()}...")
 
     for item in dataset:
-        # 1. Ανάκτηση δεδομένων
+        
         subj = str(item.get('subject', '')).strip()
         fmt = str(item.get('format', '')).strip()
-        
-        # 2. Ασφαλής ανάκτηση choices
         raw_choices = item.get('choices', [])
         
         if isinstance(raw_choices, list):
@@ -46,24 +44,20 @@ def filter_dataset(dataset, mode='closed'):
             
         if choices is None: choices = []
         
-        # 3. Έλεγχος Μαθήματος
         is_valid_subj = any(s.lower() == subj.lower() for s in valid_subjects)
         if not is_valid_subj:
             continue
 
-        # 4. ΛΟΓΙΚΗ ΔΙΑΧΩΡΙΣΜΟΥ
         has_choices = (len(choices) > 0)
         should_keep = False
 
         if mode == 'closed':
-            # Κλειστά formats + Fill-in με επιλογές
             if fmt in ['multiple_choice', 'true_false', 'matching']:
                 should_keep = True
             elif fmt == 'fill_in_the_gaps' and has_choices:
                 should_keep = True
                 
         elif mode == 'open':
-            # Ανοιχτά formats + Fill-in χωρίς επιλογές
             if fmt == 'open_ended':
                 should_keep = True
             elif fmt == 'fill_in_the_gaps' and not has_choices:
@@ -257,19 +251,12 @@ def clean_dataset_paths(df):
 
 def process_results_open(doc, results):
     """
-    Προετοιμάζει τα δεδομένα για τις μετρικές BLEU/ChrF στα Open-Ended tasks.
-    Τοποθετεί το Ground Truth μέσα σε λίστα [] (list of lists) γιατί έτσι 
-    απαιτούν οι βιβλιοθήκες 'sacrebleu'/'evaluate' για να μην βγάλουν 0.0.
+    Prepares the data for BLEU/ChrF metrics in Open-Ended tasks. Places the Ground Truth inside a list [] (list of lists) because that's how the 'sacrebleu'/'evaluate' libraries require it to avoid returning 0.0.
     """
-    # Η απάντηση που έδωσε το μοντέλο (String)
-    # Το lm-eval επιστρέφει λίστα, παίρνουμε το πρώτο στοιχείο
     completion = results[0]
     
-    # Η σωστή απάντηση (String) από το dataset
     target = doc["answer"]
     
-    # Επιστρέφουμε ένα λεξικό που αντιστοιχεί κάθε μετρική 
-    # στη μορφή: (prediction, reference)
     return {
         "bleu": (completion, [target]),  
         "chrf": (completion, [target])
@@ -277,17 +264,12 @@ def process_results_open(doc, results):
 
 def process_results_bypass(doc, results):
     """
-    Απλή συνάρτηση που επιστρέφει τα δεδομένα για exact_match.
-    Σκοπός: Να αποφύγουμε το crash του BLEU στο lm-eval.
-    Οι πραγματικές μετρικές (BLEU/ChrF) θα υπολογιστούν μετά, στα RQ cells.
+    Simple function that returns data for exact_match.
+    Purpose: To avoid BLEU crash in lm-eval.
     """
     completion = results[0]
     target = doc["answer_text"]
     
-    # Επιστρέφουμε 'exact_match' που είναι native και δεν κρασάρει με tuples
-    #return {
-        #"exact_match": (completion, target)
-    #}
     return {
         "exact_match": 0.0 
     }

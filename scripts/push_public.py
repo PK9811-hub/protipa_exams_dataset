@@ -5,18 +5,18 @@ def main():
     private_repo = "ilsp/greek-protipa-exams-private"
     public_repo = "ilsp/greek-protipa-exams"
     
-    print(f"Κατέβασμα του πλήρους dataset από: {private_repo}")
+    print(f"Downloading the full dataset from: {private_repo}")
     dataset = load_dataset(private_repo, split="test")
     
-    print("Φιλτράρισμα: Αφαίρεση θεμάτων του 2019...")
+    print("Filtering: Removing 2019 exams...")
     public_dataset = dataset.filter(lambda x: x['year'] != '2019')
     
-    print(f"Ανέβασμα του φιλτραρισμένου dataset στο: {public_repo}")
+    print(f"Pushing the filtered dataset to: {public_repo}")
     public_dataset.push_to_hub(public_repo, private=False)
     
-    print("Ολοκληρώθηκε με επιτυχία!")
+    print("Completed successfully!")
 
 if __name__ == "__main__":
     main()
 
-#Τρέχουμε uv run scripts/push_public.py στο τερματικό
+# Run using: uv run scripts/push_public.py in the terminal

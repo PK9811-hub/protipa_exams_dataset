@@ -4,13 +4,13 @@ import pandas as pd
 def main():
     private_repo = "ilsp/greek-protipa-exams-private"
     
-    print(f"Κατέβασμα του πλήρους dataset από: {private_repo}")
+    print(f"Downloading the full dataset from: {private_repo}")
     dataset = load_dataset(private_repo, split="test")
     
-    print("Φιλτράρισμα: Αφαίρεση θεμάτων του 2019...")
+    print("Filtering: Removing 2019 exams...")
     public_dataset = dataset.filter(lambda x: x['year'] != '2019')
     
-    print("Μετατροπή σε Pandas DataFrame...")
+    print("Converting to Pandas DataFrame...")
     df = public_dataset.to_pandas()
     
     def extract_filename(img_data):
@@ -36,17 +36,17 @@ def main():
 
     col_name = 'images'
     if col_name in df.columns:
-        print(f"Καθαρισμός της στήλης '{col_name}' από τα bytes...")
+        print(f"Cleaning column '{col_name}' from bytes...")
         df[col_name] = df[col_name].apply(extract_filename)
     else:
-        print(f"Προσοχή: Η στήλη '{col_name}' δεν βρέθηκε στο dataset.")
+        print(f"Warning: Column '{col_name}' not found in the dataset.")
     
     output_filename = "protipa_exams_public.xlsx"
-    print(f"Αποθήκευση σε {output_filename}...")
+    print(f"Saving to {output_filename}...")
     
     df.to_excel(output_filename, index=False)
     
-    print("Ολοκληρώθηκε με επιτυχία!")
+    print("Completed successfully!")
 
 if __name__ == "__main__":
     main()

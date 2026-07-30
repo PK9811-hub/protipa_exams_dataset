@@ -11,6 +11,14 @@ Spanning from 2013 to 2025, the dataset includes questions with the following fe
 
 The benchmark can be used for the evaluation of LLMs on complex, multi-subject, multi-format questions in the Greek language. Additionally, it may be useful as a high-quality resource for quantitative educational research.
 
+## 🔍 Note 
+
+For the purposes of the double-blind review process, the direct link to the Hugging Face repository has been temporarily withheld. 
+
+To facilitate the review and allow inspection of the dataset's structure, formatting, and metadata, we have included a version of the dataset directly in this repository: **`protipa_exams_public.xlsx`**. 
+
+*Please note: This public file purposefully excludes the 2019 exam data, which was utilized as a private holdout set to prevent data contamination, as detailed in our manuscript.*
+
 ## Dataset Creation
 
 The source material was extracted from the official portal of the **Governing Body of Model and Experimental Schools** ([https://depps.minedu.gov.gr/](https://depps.minedu.gov.gr/)). It was then converted into the current format via specialized processing pipelines by the authors.
@@ -102,7 +110,7 @@ For researchers working locally or using the source repository, the data is avai
 
 - **JSON Files**: Individual question objects with full provenance metadata.
 - **MD Files**: Markdown versions of the correct answers designed for human review.
-- **Excel Master**: A consolidated file (`protipa_exams_dataset.xlsx`) can be creaed containing the full dataset with AutoFilters and local path pointers.
+- **Excel Export**: A consolidated file (`protipa_exams_public.xlsx`) is provided in this repository, containing the public split of the dataset.
 
 ---
 

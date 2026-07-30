@@ -1,5 +1,0 @@
-Description
-A horizontal line segment showing four marked points. From left to right, the points are labeled A, Γ, Δ, and B.
-
-Transcription
-Α Γ Δ Β

@@ -1,2 +1,0 @@
-Description
-The image shows a large rectangle labeled $ΑΒΓΔ$ ($ABCD$).\nComposition: It is subdivided into four smaller, identical rectangles.\nLayout:\nTop Section: Three of these smaller rectangles are arranged vertically, side-by-side.\nBottom Section: One smaller rectangle is placed horizontally, spanning the entire width of the three vertical rectangles above it.\nVertices: The corners are marked $\Delta$ (top-left), $\Gamma$ (top-right), $B$ (bottom-right), and $A$ (bottom-left).

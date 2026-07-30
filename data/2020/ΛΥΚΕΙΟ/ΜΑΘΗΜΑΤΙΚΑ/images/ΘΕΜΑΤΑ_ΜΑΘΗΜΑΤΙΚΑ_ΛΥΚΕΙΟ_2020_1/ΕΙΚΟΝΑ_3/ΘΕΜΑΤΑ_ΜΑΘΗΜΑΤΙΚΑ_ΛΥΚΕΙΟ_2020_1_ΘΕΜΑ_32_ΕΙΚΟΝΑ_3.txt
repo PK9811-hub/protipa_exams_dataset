@@ -1,2 +1,0 @@
-Description
-The image displays a geometric diagram:\nShapes: A circle containing a square labeled $O A B \Gamma$.\nVertices:\nPoint $O$ corresponds to the center of the circle and is also one vertex of the square.\nPoint $B$ is the vertex of the square opposite to $O$ and lies exactly on the circumference of the circle.\nPoints $A$ and $\Gamma$ are the remaining vertices of the square, positioned inside the circle.\nGeometric Relationship: The diagonal of the square connecting $O$ to $B$ represents the radius of the circle.

@@ -1,5 +1,0 @@
-Description
-A rectangle labeled A, B, Γ, Δ at its vertices starting from bottom-left counterclockwise. A point E lies on the bottom side AB. A line segment connects E to the top-right corner Γ. The obtuse angle A E Γ is indicated with an arc and labeled 137°.
-
-Transcription
-Δ, Γ, A, E, B, 137°

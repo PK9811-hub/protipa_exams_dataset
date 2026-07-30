@@ -1,2 +1,0 @@
-Description
-The image displays a wireframe diagram of a rectangular cuboid (rectangular parallelepiped) labeled with vertices A, B, Γ, Δ, E, Z, H, Θ.\nDimensions:\nThe width (segment $AB$) is marked as 1.\nThe length/depth (segment $B\Gamma$) is marked as 2.\nThe height (segment $\Gamma\Theta$) is marked as 3.\nDiagonal: A solid black line connects opposite corners A (bottom-front-left) and Θ (top-back-right), representing the space diagonal. A question mark "?" is placed next to this diagonal line.

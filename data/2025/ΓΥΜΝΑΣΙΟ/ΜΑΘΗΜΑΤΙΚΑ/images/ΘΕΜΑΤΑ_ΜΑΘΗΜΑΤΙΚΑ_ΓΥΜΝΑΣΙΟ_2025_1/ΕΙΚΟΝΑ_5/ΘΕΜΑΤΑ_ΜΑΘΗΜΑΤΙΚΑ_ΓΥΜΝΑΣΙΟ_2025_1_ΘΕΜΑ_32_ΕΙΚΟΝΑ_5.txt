@@ -1,2 +1,0 @@
-Description
-The image displays a 3D stepped pyramid structure constructed from identical cubes. The structure has four distinct horizontal layers, each a different color and increasing in size from top to bottom.\nLayer Breakdown (Top to Bottom):\nLevel 1 (Top): A single Cyan cube (Dimensions: $1 \times 1$).\nLevel 2: Green cubes forming a square platform (Dimensions: $3 \times 3$).\nLevel 3: Grey cubes forming a square platform (Dimensions: $5 \times 5$).\nLevel 4 (Bottom): Red/Maroon cubes forming a square platform (Dimensions: $7 \times 7$).

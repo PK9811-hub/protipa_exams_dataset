@@ -1,2 +1,0 @@
-Descrition
-The image shows a number line starting at 0 on the left and marking a point labeled $\frac{5}{4}$ on the far right.Between $0$ and $\frac{5}{4}$, the line is divided into equal intervals by tick marks. Several specific points are labeled with Greek letters:\nA\nB\nΓ\nΔ\nE

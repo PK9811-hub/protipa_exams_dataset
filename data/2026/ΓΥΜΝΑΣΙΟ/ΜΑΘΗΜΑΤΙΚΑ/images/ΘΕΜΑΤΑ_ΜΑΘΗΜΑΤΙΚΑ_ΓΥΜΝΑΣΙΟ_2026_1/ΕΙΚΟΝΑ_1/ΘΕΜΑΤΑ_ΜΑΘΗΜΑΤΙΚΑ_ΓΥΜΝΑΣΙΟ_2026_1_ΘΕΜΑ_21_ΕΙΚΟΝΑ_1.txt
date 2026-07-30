@@ -1,2 +1,0 @@
-Description
-Three circular buttons arranged horizontally side-by-side. From left to right, the colors of the buttons are red, green, and blue. Each button is set in a black circular base.

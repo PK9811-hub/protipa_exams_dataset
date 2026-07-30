@@ -1,5 +1,0 @@
-Description
-The image displays two circles of different sizes that intersect at two points, labeled $\text{A}$ and $\text{B}$.\n1. Circles and Centers:\nThe larger circle has its center labeled $\text{K}$.\nThe smaller circle has its center labeled $\Lambda$.\n2. Lines and Diameters:\nA line segment $\text{A}\Gamma$ passes through the center $\text{K}$ of the larger circle, making it a diameter of the larger circle.\nA line segment $\text{A}\Delta$ passes through the center $\Lambda$ of the smaller circle, making it a diameter of the smaller circle.\nThe points $\Gamma$ and $\Delta$ lie on the circumference of their respective circles.\nThe line segment $\Gamma\Delta$ connects the endpoints of the two diameters.\nThe diagram visually represents the setup described in the math problem: two intersecting circles, $\text{A}\Gamma$ as a diameter of the first, and $\text{A}\Delta$ as a diameter of the second. 
-
-Transcription
-Image Content (Labels)\n| Element | Label |\n| :--- | :--- |\n|Centers | $\text{K}, \Lambda$ |\n|Intersection Points | $\text{A}, \text{B}$ |\n|Diameter Endpoints | $\Gamma$ (on circle $\text{K}$), $\Delta$ (on circle $\Lambda$) |

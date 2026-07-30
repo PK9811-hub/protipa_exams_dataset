@@ -1,2 +1,0 @@
-Description
-The image displays a geometric diagram of a parallelogram labeled $A B \Gamma \Delta$.\nVertices: The corners are labeled $A$ (bottom-left), $B$ (bottom-right), $\Gamma$ (top-right), and $\Delta$ (top-left).\nSide Lengths:\nThe side $A\Delta$ is labeled with the algebraic expression $3x + 2$.\nThe side $AB$ is labeled with the algebraic expression $5x + 4$.

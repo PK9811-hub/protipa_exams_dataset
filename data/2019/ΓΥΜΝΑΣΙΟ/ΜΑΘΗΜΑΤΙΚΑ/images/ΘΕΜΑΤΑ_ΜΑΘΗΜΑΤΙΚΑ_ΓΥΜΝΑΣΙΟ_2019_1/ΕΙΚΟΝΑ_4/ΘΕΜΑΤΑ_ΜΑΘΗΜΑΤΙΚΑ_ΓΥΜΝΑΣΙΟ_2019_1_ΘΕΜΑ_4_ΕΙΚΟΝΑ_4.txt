@@ -1,5 +1,0 @@
-Description
-The image is a vertical bar chart visualizing fuel consumption data over three summer months.\nTitle: "ΚΑΤΑΝΑΛΩΣΗ ΚΑΥΣΙΜΟΥ ΣΕ ΛΙΤΡΑ" (Fuel Consumption in Liters).\nY-Axis (Vertical): Represents the volume in liters. The scale starts at 740 and goes up to 940 in increments of 20 (740, 760, 780, etc.).\nX-Axis (Horizontal): Lists three months: ΙΟΥΝΙΟΣ (June), ΙΟΥΛΙΟΣ (July), and ΑΥΓΟΥΣΤΟΣ (August).\nData Bars:\nJune (ΙΟΥΝΙΟΣ): The blue bar reaches the line for 800.\nJuly (ΙΟΥΛΙΟΣ): The blue bar reaches the line for 860.\nAugust (ΑΥΓΟΥΣΤΟΣ): The blue bar reaches the line for 920.
-
-Transcription
-Chart Data Points:\nΙΟΥΝΙΟΣ: 800\nΙΟΥΛΙΟΣ: 860\nΑΥΓΟΥΣΤΟΣ: 920

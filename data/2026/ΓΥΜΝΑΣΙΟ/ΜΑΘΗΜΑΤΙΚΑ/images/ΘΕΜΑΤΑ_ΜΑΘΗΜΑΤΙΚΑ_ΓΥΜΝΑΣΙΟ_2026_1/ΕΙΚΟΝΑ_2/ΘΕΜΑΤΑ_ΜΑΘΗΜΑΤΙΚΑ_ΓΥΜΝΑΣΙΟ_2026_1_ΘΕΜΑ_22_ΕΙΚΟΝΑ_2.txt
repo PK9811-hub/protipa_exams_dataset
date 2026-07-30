@@ -1,5 +1,0 @@
-Description
-Four panels labeled A, B, Γ, and Δ, each showing two blue five-pointed stars separated by a vertical light blue line. In panel A, the stars are identical and translated horizontally, facing the same direction. In panel B, the stars are reflected horizontally across the vertical line, demonstrating bilateral symmetry. In panel Γ, the stars are identical and translated, similar to A. In panel Δ, the right star is rotated differently relative to a reflection or translation.
-
-Transcription
-Α. Β. Γ. Δ.

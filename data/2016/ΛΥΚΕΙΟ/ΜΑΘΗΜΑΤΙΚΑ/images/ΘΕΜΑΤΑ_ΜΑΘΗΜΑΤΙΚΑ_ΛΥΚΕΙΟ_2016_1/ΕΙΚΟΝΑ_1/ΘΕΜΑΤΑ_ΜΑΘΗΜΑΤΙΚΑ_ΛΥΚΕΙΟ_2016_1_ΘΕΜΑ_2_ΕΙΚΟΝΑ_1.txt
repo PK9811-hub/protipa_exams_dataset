@@ -1,2 +1,0 @@
-Description
-The image displays a geometric diagram featuring two triangles, $AB\Gamma$ and $AB\Delta$.\nVertices: Points $A$ and $B$ form a horizontal base segment. Points $\Gamma$ and $\Delta$ lie on a straight line labeled $\epsilon$ located above the segment $AB$.\nStructure:\nTriangle $AB\Gamma$ connects the base $AB$ to point $\Gamma$.\nTriangle $AB\Delta$ connects the same base $AB$ to point $\Delta$.\nRelationship: The text states that line $\epsilon$ is parallel to line segment $AB$.

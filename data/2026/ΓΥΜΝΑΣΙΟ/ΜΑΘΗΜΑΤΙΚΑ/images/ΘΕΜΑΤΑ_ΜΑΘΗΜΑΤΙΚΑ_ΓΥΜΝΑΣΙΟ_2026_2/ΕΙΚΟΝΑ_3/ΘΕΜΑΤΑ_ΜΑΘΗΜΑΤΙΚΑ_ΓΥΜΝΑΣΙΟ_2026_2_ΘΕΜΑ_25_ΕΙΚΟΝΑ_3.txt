@@ -1,5 +1,0 @@
-Description
-A pie chart divided into three sectors labeled K, Λ, and M. Sector K is black and forms a right angle, representing a quarter (25%) of the circle. Sector Λ has diagonal stripes and is slightly larger than a quarter. Sector M is white and is the largest sector, making up slightly less than half of the circle.
-
-Transcription
-K, M, Λ

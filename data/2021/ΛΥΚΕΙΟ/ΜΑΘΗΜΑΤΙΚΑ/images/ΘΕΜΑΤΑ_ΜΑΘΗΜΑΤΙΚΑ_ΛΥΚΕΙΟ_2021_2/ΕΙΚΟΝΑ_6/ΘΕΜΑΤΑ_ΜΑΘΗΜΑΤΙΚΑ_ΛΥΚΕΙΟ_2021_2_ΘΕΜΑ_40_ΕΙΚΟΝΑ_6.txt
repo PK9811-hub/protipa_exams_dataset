@@ -1,2 +1,0 @@
-Description
-The image displays a Venn diagram set inside a rectangular boundary representing a sample space, labeled $\Omega$.\nCircles: There are two overlapping circles labeled $A$ and $B$.\nShading: The area outside the two circles (the region belonging to $\Omega$ but not to $A$ or $B$) is shaded with diagonal stripes. The interiors of circles $A$ and $B$, including their intersection, remain white (unshaded).

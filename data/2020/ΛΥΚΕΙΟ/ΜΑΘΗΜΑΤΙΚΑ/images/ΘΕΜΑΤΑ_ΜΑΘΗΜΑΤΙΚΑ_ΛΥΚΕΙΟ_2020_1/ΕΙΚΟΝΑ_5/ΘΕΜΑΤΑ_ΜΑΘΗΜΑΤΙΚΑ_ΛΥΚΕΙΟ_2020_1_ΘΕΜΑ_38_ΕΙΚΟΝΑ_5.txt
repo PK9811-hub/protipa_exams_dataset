@@ -1,5 +1,0 @@
-Description
-The image illustrates a comparison between two measuring scales (rulers) labeled Unit A and Unit B.\nTop Scale (Unit A): Labeled "Μεζούρα μονάδας Α". It is marked with integers 0, 1, and 2. Each unit interval (e.g., 0 to 1) is subdivided into 4 equal segments by smaller tick marks.\nBottom Scale (Unit B): Labeled "Μεζούρα μονάδας Β". It is marked with integers 0, 1, and 2. The unit size appears larger than Unit A.\nAlignment:\nA vertical double arrow indicates that the 0 mark on both scales is perfectly aligned.\nA second vertical double arrow connects the 2 mark on the Bottom Scale (Unit B) to a specific point on the Top Scale (Unit A). Visually, this point aligns with the 2.5 mark (two tick marks past the number 2) on Scale A.
-
-Transcription
-Diagram Labels:\nΜεζούρα μονάδας Α\nΜεζούρα μονάδας Β

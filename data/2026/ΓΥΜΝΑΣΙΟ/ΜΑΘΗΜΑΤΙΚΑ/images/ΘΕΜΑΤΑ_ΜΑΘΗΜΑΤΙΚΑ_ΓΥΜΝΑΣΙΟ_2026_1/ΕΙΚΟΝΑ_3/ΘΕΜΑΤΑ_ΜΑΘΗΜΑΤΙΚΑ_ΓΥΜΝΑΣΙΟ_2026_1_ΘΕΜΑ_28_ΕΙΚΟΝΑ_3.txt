@@ -1,5 +1,0 @@
-Description
-Three geometric figures constructed using identical small grey equilateral triangles. The first figure (εικόνα 1η) is a rhomboid/parallelogram made of 12 triangles arranged in a grid of 3 triangles by 4 triangles. The second figure (εικόνα 2η) is a very elongated parallelogram made of a single row of 12 triangles alternating pointing up and down. The third figure (εικόνα 3η) is a six-pointed star shape (hexagram) composed of 12 triangles arranged symmetrically around a central hexagon. All figures use exactly 12 triangles each. Black dots mark the vertices of the triangles.
-
-Transcription
-εικόνα 1η\nεικόνα 2η\nεικόνα 3η

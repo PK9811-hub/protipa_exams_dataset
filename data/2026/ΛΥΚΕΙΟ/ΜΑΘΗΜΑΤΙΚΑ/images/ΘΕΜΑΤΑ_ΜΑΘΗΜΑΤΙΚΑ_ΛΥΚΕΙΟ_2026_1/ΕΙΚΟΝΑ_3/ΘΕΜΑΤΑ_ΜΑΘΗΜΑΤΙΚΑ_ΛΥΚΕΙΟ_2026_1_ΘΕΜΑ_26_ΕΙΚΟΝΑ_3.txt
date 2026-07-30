@@ -1,5 +1,0 @@
-Description
-A rectangle labeled A B Γ Δ at its vertices. Inside the rectangle, there is a solid black semicircle whose diameter perfectly aligns with the bottom side AB. The semicircle is tangent to the other three sides of the rectangle (BΓ, ΓΔ, and ΔA). The areas within the rectangle but outside the semicircle are white.
-
-Transcription
-Δ, Γ, A, B

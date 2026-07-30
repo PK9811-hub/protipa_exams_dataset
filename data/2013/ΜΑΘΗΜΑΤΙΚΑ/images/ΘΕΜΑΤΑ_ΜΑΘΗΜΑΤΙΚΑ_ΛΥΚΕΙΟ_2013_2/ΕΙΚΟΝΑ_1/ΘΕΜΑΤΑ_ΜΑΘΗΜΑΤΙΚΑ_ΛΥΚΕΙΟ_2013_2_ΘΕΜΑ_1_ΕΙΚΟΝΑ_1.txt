@@ -1,5 +1,0 @@
-Description
-The pie chart is divided into three sectors, representing the total number of medals won. The number and type of medal are labeled within or near each sector.\n1. Blue/Purple Sector (Top Right): Labeled "6 χρυσά" (6 gold).\n2. Light Blue/Cyan Sector (Top Left): Labeled "6 αργυρά" (6 silver).\n3. Yellow Sector (Bottom): Labeled "4 χάλκινα" (4 bronze).\nThe chart clearly shows the count for each type of medal, allowing for calculations of total medals and proportions.
-
-Transcription
-Image Content (Labels and Values)\n| Sector Color | Label (Greek) | Label (English Translation) | Count |\n| :---: | :---: | :---: | :---: |\n|Blue/Purple | $6$ χρυσά | $6$ gold | $6$ |\n|Light Blue | $6$ αργυρά | $6$ silver | $6$ |\n|Yellow | $4$ χάλκινα | $4$ bronze | $4$ |\n|Total Medals | (Calculated) | (Calculated) | $16$ |

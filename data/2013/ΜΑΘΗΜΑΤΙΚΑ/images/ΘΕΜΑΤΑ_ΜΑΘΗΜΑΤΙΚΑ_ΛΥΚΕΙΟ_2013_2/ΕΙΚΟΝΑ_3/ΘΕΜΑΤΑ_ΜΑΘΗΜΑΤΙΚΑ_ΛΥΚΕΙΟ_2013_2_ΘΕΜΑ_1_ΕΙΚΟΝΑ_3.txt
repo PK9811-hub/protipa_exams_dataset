@@ -1,5 +1,0 @@
-Description
-The image consists of four separate tables, each mapping a set of input values ($x$) to output values ($y$).\n1. Table $(\alpha)$: Represents the points $(0, 1)$, $(2, 3)$, and $(4, 5)$.\n2. Table $(\beta)$: Represents the points $(1, 2)$, $(2, 6)$, and $(4, 20)$.\n3. Table $(\gamma)$: Represents the points $(1, 1)$, $(2, 6)$, and $(4, 8)$.\n4. Table $(\delta)$: Represents the points $(1, 2)$, $(2, 4)$, and $(4, 8)$.
-
-Transcription
-Image Content (The Four Tables)\n| Table $(\alpha)$ | Table $(\beta)$ | Table $(\gamma)$ | Table $(\delta)$ |\n| :---: | :---: | :---: | :---: |\n| $(0, 1)$ | $(1, 2)$ | $(1, 1)$ | $(1, 2)$ |\n| $(2, 3)$ | $(2, 6)$ | $(2, 6)$ | $(2, 4)$ |\n| $(4, 5)$ | $(4, 20)$ | $(4, 8)$ | $(4, 8)$ |

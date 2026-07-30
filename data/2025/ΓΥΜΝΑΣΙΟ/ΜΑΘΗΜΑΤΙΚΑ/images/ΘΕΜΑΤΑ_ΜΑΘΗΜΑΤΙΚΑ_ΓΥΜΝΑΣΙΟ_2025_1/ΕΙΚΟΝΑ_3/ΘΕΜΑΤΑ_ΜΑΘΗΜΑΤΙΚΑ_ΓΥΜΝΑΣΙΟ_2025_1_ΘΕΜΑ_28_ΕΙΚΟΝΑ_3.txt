@@ -1,5 +1,0 @@
-Description
-The  image displays a vertical bar chart.\nY-axis: Represents a numerical scale from 0 to 40, with horizontal grid lines every 5 units. It likely indicates the percentage of preferences as mentioned in the exercise text.\nX-axis: Lists five Greek islands: Κέρκυρα (Corfu), Ρόδος (Rhodes), Σύρος (Syros), Κρήτη (Crete), and Κεφαλονιά (Kefalonia).\nData Bars:\nΚέρκυρα: The bar height corresponds to 5.\nΡόδος: The bar height corresponds to 35.\nΣύρος: The bar height corresponds to 25.\nΚρήτη: The bar height corresponds to 20.\nΚεφαλονιά: The bar height corresponds to 15.
-
-Transcription
-Chart Data:\nΚέρκυρα: 5\nΡόδος: 35\nΣύρος: 25\nΚρήτη: 20\nΚεφαλονιά: 15

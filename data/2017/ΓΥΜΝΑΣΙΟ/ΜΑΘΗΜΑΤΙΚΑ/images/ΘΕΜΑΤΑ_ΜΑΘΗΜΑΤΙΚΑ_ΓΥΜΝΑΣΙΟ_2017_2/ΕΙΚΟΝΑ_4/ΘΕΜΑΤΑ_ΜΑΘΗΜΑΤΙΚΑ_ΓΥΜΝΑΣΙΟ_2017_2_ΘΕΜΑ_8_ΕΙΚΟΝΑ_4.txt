@@ -1,2 +1,0 @@
-Description
-The image shows a rectangle containing three identical circles arranged horizontally in a row. The circles are tangent to one another (touching side-by-side) and fit perfectly within the rectangle, touching its top, bottom, and side edges. Small black dots mark the centers of the circles and the points where the outer circles touch the vertical sides of the frame.

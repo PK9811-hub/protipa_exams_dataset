@@ -1,5 +1,0 @@
-Description
-The image displays a pie chart (circular diagram) divided into two sectors representing the color of pens used.\nLight Blue Sector: Covers the majority of the circle (three-quarters) and is labeled "Μπλε" (Blue) with the percentage "75%".\nBlack Sector: Covers the remaining top-right quadrant (one-quarter) and is labeled "Μαύρο" (Black).
-
-Transcription
-Chart Data:\nΜπλε (Blue): 75%\nΜαύρο (Black)

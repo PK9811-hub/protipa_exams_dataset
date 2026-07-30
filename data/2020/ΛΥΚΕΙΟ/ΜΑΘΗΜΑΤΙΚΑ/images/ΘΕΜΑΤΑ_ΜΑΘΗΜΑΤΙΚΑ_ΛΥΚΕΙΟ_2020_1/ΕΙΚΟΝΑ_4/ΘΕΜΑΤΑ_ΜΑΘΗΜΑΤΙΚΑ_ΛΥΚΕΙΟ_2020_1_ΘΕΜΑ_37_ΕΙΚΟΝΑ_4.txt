@@ -1,5 +1,0 @@
-Description
-The image displays a Cartesian coordinate system with a grid background.\nAxes: There is a horizontal x-axis and a vertical y-axis.\nPoints: Two points are plotted on the grid:\nPoint B: It is labeled with the coordinates $(6, 15)$. Visually, it sits on the intersection of the 2nd vertical grid line and the 3rd horizontal grid line from the origin.\nPoint A: It is labeled simply as "A". Visually, it sits on the intersection of the 5th vertical grid line and the 4th horizontal grid line from the origin.
-
-Transcription
-Graph Labels:\nB(6, 15)\nA\nAxes: x, y

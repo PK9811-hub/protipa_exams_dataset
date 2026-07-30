@@ -1,2 +1,0 @@
-Description
-The image displays a diagram of a path consisting of four line segments, representing movement on a map with cardinal directions.\nSegment $AB$: Horizontal line moving East, length $7$km. There is a right angle marker at point $B$.\nSegment $B\Gamma$: Vertical line moving North, length $9$km.\nSegment $\Gamma\Delta$: Horizontal line moving East, length $8$km. There is a right angle marker at point $\Delta$.\nSegment $\Delta E$: Vertical line moving North, length $11$km.

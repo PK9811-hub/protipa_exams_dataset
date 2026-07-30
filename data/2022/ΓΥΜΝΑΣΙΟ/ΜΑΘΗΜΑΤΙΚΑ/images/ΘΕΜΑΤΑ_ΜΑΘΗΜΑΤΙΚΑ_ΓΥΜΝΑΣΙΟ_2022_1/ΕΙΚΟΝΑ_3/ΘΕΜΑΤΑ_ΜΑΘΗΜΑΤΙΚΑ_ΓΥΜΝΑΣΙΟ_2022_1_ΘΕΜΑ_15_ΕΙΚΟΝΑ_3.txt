@@ -1,2 +1,0 @@
-Description
-The image displays a vertical bar chart.\nY-axis (Vertical): Represents a numerical scale ranging from 0 to 25, with increments of 5. Horizontal grid lines mark these values.\nX-axis (Horizontal): Lists four categories labeled 1, 2, 3, and 4.\nData Values:\nCategory 1: The bar reaches the height of 10.\nCategory 2: The bar reaches the height of 15.\nCategory 3: The bar reaches the height of 20.\nCategory 4: The bar reaches the height of 10.

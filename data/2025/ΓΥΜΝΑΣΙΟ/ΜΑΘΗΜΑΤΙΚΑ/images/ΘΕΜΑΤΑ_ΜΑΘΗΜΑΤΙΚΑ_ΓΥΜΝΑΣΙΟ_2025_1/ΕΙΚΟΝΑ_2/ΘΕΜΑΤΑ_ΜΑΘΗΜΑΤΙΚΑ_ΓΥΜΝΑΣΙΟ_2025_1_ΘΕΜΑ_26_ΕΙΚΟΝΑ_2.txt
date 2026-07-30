@@ -1,2 +1,0 @@
-Description
-The image displays a geometric line segment with three points marked on it.\nLine Segment: A straight horizontal line.\nPoints:\nPoint A: Marked with a black dot on the left.\nPoint E: Marked with a black dot in the middle.\nPoint B: Marked with a black dot on the right.\nRelative Position: Point E is located between A and B. The segment EB appears visibly longer than segment AE.

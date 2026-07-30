@@ -1,5 +1,0 @@
-Description
-A flowchart detailing a computer program's logic. It starts with 'Αρχή' (Start), then 'Διάβασε Ν' (Read N). It initializes variables 'A=1, B=0, K=N'. A decision box asks 'Είναι K > 0;'. If 'ΟΧΙ' (No), it prints 'A+B' ('Γράψε A+B') and ends ('Τέλος'). If 'ΝΑΙ' (Yes), it goes to another decision 'Το υπόλοιπο του K δια τρία είναι 0;'. If 'ΝΑΙ', 'A=A+K', else 'ΟΧΙ', 'B=B+A'. Then another decision 'Το υπόλοιπο του K δια δύο είναι 1;'. If 'ΝΑΙ', 'A=A+1', else 'ΟΧΙ', it bypasses this step. Finally, 'K=K-2', and loops back to the 'Είναι K > 0;' decision box.
-
-Transcription
-Αρχή\nΔιάβασε Ν\nA = 1, B = 0, K = N\nΕίναι K > 0;\nΟΧΙ\nΓράψε A + B\nΤέλος\nΝΑΙ\nΤο υπόλοιπο του K δια τρία είναι 0;\nΝΑΙ\nΟΧΙ\nΘέσε A = A + K\nΘέσε B = B + A\nΤο υπόλοιπο του K δια δύο είναι 1;\nΟΧΙ\nΝΑΙ\nΘέσε K = K - 2\nΘέσε A = A + 1

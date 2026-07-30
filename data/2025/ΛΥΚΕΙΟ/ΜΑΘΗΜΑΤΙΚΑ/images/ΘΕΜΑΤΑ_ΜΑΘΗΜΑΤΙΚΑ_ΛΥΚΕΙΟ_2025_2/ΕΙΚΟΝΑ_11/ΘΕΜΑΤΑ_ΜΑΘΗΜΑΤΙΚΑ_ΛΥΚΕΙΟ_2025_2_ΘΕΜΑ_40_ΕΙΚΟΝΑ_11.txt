@@ -1,5 +1,0 @@
-Description
-The image displays a logic puzzle setup consisting of four rectangular boxes arranged horizontally. Each box is labeled with a Greek letter (A, B, Γ, Δ) and contains a text statement regarding the location of a "gift" (δώρο).
-
-Transcription
-| Box Label | Original Text (Greek) | English Translation |\n| :--- | :--- | :--- |\n| **Κουτί Α** (Box A) | Είμαι άδειο | I am empty |\n| **Κουτί Β** (Box B) | Έχω το δώρο | I have the gift |\n| **Κουτί Γ** (Box C) | Το κουτί Β είναι άδειο | Box B is empty |\n| **Κουτί Δ** (Box D) | Το δώρο είναι στο κουτί Γ | The gift is in box C (Gamma) |

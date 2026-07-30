@@ -1,2 +1,0 @@
-Description
-The image displays a 3D rectangular solid (prism) constructed from four identical cubes. The cubes are arranged in a square formation ($2 \times 2$), creating a shape that is two units high, two units wide, and one unit deep. The visible surfaces (front, top, and left side) show the dividing lines where the individual cubes meet.

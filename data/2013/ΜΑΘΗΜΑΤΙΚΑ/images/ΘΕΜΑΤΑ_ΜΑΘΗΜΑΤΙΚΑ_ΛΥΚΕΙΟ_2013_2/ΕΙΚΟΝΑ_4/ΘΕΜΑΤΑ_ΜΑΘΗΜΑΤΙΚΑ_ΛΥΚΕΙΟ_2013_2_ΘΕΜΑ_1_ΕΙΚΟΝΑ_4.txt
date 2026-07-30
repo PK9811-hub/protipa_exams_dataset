@@ -1,5 +1,0 @@
-Description
-The image shows a triangle shaded gray.\n1. Triangle Type: A square symbol at the bottom right vertex indicates it is aright triangle (one angle is $90^\circ$).\n2. Known Values:\nHeight/Opposite Side: The vertical side adjacent to the right angle is labeled$13 \text{ cm}$.\nAngle: The acute angle at the bottom left vertex is labeled$56^\circ$.\nThe problem requires using trigonometry to find the length of the hypotenuse.
-
-Transcription
-Image Content (Labels and Values)\n| Element | Value/Label |\n| :--- | :--- |\n|Angle | $56^\circ$ |\n|Side Length | $13 \text{ cm}$ (Opposite side to $56^\circ$) |\n|Angle Type | Right angle ($90^\circ$) |\n|Unknown to be Found | Hypotenuse ($\text{H}$) |

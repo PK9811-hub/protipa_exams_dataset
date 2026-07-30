@@ -1,2 +1,0 @@
-Description
-The image displays a vertical bar chart illustrating the modes of transport students use to get to school.\nY-axis (Vertical): Labeled "πλήθος μαθητών" (number of students), with a numerical scale from 0 to 30.\nX-axis (Horizontal): Lists four transport categories:\nΠεζοί (Pedestrians/Walkers)\nΙΧ αυτοκίνητο (Private Car)\nΛεωφορείο (Bus)\nΜετρό (Metro)\nData Bars:\nΠεζοί: The bar represents 15 students.\nΙΧ αυτοκίνητο: The bar represents 18 students.\nΛεωφορείο: The bar represents 25 students.\nΜετρό: The bar represents 22 students.

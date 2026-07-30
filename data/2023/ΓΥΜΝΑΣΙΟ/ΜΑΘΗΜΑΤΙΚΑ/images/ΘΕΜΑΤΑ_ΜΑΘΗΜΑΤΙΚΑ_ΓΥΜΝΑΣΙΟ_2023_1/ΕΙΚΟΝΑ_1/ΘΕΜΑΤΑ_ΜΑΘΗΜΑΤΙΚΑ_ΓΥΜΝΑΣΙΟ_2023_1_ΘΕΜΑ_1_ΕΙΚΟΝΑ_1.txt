@@ -1,5 +1,0 @@
-Description
-The image displays a vertical bar chart titled "Προτιμήσεις μαθητών για 5μερη εκδρομή" (Student preferences for a 5-day trip).\nY-axis (Vertical): Labeled "μαθητές" (students), representing the number of votes. The scale ranges from 0 to 16 in increments of 2.\nX-axis (Horizontal): Labeled "προορισμός" (destination), listing five different locations.\nData Bars: There are five blue vertical bars, each corresponding to a specific destination and showing the number of students who chose it.
-
-Transcription
-Title: Προτιμήσεις μαθητών για 5μερη εκδρομή\nData Points (Destination: Number of Students):\nΚρήτη (Crete): 12\nΚέρκυρα (Corfu): 7\nΡόδο (Rhodes): 8\nΘεσσαλονίκη (Thessaloniki): 15\nΚαλαμάτα (Kalamata): 8

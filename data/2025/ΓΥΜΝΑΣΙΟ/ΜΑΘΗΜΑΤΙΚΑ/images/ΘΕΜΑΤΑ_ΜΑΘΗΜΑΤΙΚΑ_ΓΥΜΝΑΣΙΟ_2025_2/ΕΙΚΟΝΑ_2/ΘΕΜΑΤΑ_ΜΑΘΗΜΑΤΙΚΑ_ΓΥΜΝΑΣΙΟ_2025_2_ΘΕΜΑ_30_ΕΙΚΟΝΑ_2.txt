@@ -1,5 +1,0 @@
-Description
-The image displays a vertical bar chart representing numerical values (likely percentages or quantities) for various food items.\nY-axis: A numerical scale ranging from 0 to 30, with horizontal grid lines marked every 5 units.\nX-axis: Lists eight different food categories in Greek.
-
-Transcription
-Based on the height of the bars, the values for each category are:\n| Food Item (Greek) | Translation | Value |\n| :--- | :--- | :---: |\n| Αυγό κότας | Hen's egg | 15 |\n| Γάλα αγελάδας | Cow's milk | 15 |\n| Ελιές | Olives | 5 |\n| Ντομάτα | Tomato | 5 |\n| Κρέας | Meat | 5 |\n| Ρεβύθια | Chickpeas | 10 |\n| Κατσικίσιο τυρί | Goat cheese | 25 |\n| Φυστίκια | Pistachios | 20 |

@@ -1,5 +1,0 @@
-Description
-A table with a blue background showing the population of Greek regions based on the 2021 census. The table has three columns: 'Περιφέρειες' (Regions), 'Πληθυσμός' (Population), and 'Ποσοστό' (Percentage). It lists 13 regions and Mount Athos, along with the total population for Greece.
-
-Transcription
-Πληθυσμός περιφερειών (απογραφή 2021)\nΠεριφέρειες\tΠληθυσμός\tΠοσοστό\nΑττική\t3.814.064\t36,40%\nΚεντρική Μακεδονία\t1.793.923\t17,10%\nΘεσσαλία\t688.255\t6,60%\nΔυτική Ελλάδα\t648.220\t6,20%\nΚρήτη\t624.408\t6,00%\nΑν. Μακεδονία - Θράκη\t562.201\t5,40%\nΠελοπόννησος\t539.535\t5,10%\nΣτερεά Ελλάδα\t508.254\t4,80%\nΝότιο Αιγαίο\t327.820\t3,10%\nΉπειρος\t319.991\t3,10%\nΔυτική Μακεδονία\t254.595\t2,40%\nΙόνια Νησιά\t204.532\t2,00%\nΒόρειο Αιγαίο\t194.943\t1,90%\n(Άγιο Όρος)\t1.746\t0,00%\nΣύνολο Ελλάδας\t10.482.487\t100,00%

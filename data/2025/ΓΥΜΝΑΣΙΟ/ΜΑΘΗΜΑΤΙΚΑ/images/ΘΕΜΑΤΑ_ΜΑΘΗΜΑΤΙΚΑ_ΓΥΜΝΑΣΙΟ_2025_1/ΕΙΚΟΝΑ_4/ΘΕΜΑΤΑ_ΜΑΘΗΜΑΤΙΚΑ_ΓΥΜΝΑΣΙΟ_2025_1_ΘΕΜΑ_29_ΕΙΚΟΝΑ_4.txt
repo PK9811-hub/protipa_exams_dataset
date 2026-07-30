@@ -1,5 +1,0 @@
-Description
-The image displays a table with three columns showing the distribution of foreign language classes (French and German) across three school grades.\nColumns:\nClass (Τάξη): Lists the school grades A, B, and Γ.\nFrench (Γαλλικά): Represents the percentage of the total student body in that grade learning French.\nGerman (Γερμανικά): Represents the percentage of the total student body in that grade learning German.\nData Rows:\nRow A: The value for French is \n20%\n. The cell for German is empty.\nRow B: The value for French is \n17.5%\n, and for German is \n12.5%\n.\nRow Γ: The value for French is \n27.5%\n, and for German is \n12.5%\n.
-
-Transcription
-| Class | French | German |\\n|:--:|:--:|:--:|\\n| A | 20% |        |\\n| B | 17.5% | 12.5% |\\n| Γ | 27.5% | 12.5% |

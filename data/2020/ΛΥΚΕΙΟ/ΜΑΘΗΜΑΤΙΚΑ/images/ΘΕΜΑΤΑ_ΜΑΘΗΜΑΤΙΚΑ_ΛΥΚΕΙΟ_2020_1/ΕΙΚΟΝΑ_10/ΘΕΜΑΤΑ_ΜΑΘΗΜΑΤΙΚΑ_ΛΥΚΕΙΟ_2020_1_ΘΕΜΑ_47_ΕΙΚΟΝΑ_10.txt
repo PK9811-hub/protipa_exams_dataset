@@ -1,2 +1,0 @@
-Description
-The image displays a Cartesian coordinate system with two parallel lines intersecting the axes.\nLine $(\varepsilon)$:\nEquation: $x + y = 1$\nIntersects the x-axis at point $A$ and the y-axis at point $B$.\nLine $(\eta)$:\nEquation: $x + y = \alpha$\nIntersects the x-axis at point $\Delta$ and the y-axis at point $\Gamma$.\nIt is parallel to line $(\varepsilon)$ and positioned further away from the origin $O$.\nPoints: The origin is marked as $O$. The points on the axes are $A, \Delta$ (on the horizontal axis) and $B, \Gamma$ (on the vertical axis).

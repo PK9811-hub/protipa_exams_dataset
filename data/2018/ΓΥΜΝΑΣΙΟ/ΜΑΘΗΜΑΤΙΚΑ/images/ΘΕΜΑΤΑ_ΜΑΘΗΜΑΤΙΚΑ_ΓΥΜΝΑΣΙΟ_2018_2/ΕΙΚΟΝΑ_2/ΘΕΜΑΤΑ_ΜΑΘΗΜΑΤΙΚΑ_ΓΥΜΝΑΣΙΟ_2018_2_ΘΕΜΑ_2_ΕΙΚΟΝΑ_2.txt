@@ -1,5 +1,0 @@
-Description
-The image displays a vertical bar chart titled "Βαθμοί μαθητών" (Student Grades).\nY-axis: Represents the grade values, marked with grid lines for 14, 15, 16, 17, 18, and 19.\nX-axis: Lists four students labeled $A, B, \Gamma, \Delta$ and a final bar labeled $M.O$ (Mean/Average).\nData Bars: There are visible blue bars for students $A, B, \Gamma$ and the Mean. The bar for student $\Delta$ is missing (indicating the unknown variable to be found).
-
-Transcription
-Values read from the chart:\nStudent $A$: 18\nStudent $B$: 19\nStudent $\Gamma$: 15\nStudent $\Delta$: ? (Unknown)\n$M.O.$ (Average): 17

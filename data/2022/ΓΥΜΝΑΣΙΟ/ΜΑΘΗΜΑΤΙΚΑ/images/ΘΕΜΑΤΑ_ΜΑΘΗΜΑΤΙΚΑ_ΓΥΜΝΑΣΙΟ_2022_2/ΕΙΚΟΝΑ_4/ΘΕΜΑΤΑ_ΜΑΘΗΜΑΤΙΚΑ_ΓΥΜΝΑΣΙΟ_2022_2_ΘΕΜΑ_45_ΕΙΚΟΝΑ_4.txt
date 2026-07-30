@@ -1,2 +1,0 @@
-Description
-The image displays a simple line drawing representing a burrow or tunnel.\nStructure: The burrow is a winding tube with two open ends. It curves back and forth in an 'S' shape.\nEntrances:\nEntrance A: Located at the top left, with an arrow pointing right into the tube. A small drawing of a rabbit is positioned here, facing into the tunnel.\nEntrance B: Located at the bottom right, with an arrow pointing up into the tube. Another small drawing of a rabbit is positioned here, facing into the tunnel.

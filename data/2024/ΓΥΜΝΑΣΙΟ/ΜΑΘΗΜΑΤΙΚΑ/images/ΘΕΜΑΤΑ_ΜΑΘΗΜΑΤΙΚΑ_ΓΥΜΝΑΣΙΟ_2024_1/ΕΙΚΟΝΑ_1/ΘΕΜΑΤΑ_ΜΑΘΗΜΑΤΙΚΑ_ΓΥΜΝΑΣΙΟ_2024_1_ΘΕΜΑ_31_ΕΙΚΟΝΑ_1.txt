@@ -1,2 +1,0 @@
-Description
-The image displays a horizontal number line with four specific points marked by black dots. The points are arranged sequentially from left to right and are labeled as follows:\n0\n$\alpha$ (alpha)\n5\nx

@@ -1,5 +1,0 @@
-Description
-The image shows a pyramid with base $\text{A}\text{B}\Gamma\Delta$ and apex $\text{K}$.\n1. Shape: It represents a right square pyramid, as confirmed by the exercise text.\n2. Dimensions:\nThe base side length ($\text{A}\text{B}$) is labeled$8 \text{ cm}$.\nThe pyramid height ($\text{K}\text{H}$) is labeled$12 \text{ cm}$.\n3. Additional Geometry: The diagram includes a shaded right triangle ($\triangle \text{K}\Lambda\text{H}$) where $\text{H}$ is the center of the base, and $\Lambda$ is a point on a base side. This triangle is typically used to find the slant height ($\text{K}\Lambda$) of the pyramid. 
-
-Transcription
-Image Content (Labels and Values)\n| Element | Label/Value |\n| :--- | :--- |\n|Base Side ($\text{AB}$) | $8 \text{ cm}$ |\n|Height ($\text{K}\text{H}$) | $12 \text{ cm}$ |\n|Apex | $\text{K}$ |\n|Base Vertices | $\text{A}, \text{B}, \Gamma, \Delta$ |\n|Center of Base | $\text{H}$ |

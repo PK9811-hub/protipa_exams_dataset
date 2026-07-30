@@ -1,2 +1,0 @@
-Description
-The image displays a 2D map overlaid on a grid of identical squares. There are three specific labeled locations marked on the grid:\nHome (ΣΠΙΤΙ): A blue dot located on a grid intersection in the upper-left area.\nSchool (ΣΧΟΛΕΙΟ): A blue dot located on a grid intersection in the upper-right area.\nPark (ΠΑΡΚΟ): A shaded grey rectangular area in the bottom-right corner.\nDimensions relative to grid: The park rectangle spans 3 grid squares wide and 2 grid squares high.

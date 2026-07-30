@@ -1,2 +1,0 @@
-Description
-The image illustrates a geometry problem involving a square and two triangles.\nCentral Shape: A square labeled $ΑΒΓΔ$.\nInside: An equilateral triangle $ΕΑΒ$ is constructed on side $AB$, pointing inwards. Vertex $E$ is inside the square.\nOutside: An equilateral triangle $ΖΓΒ$ (connecting points $Z, \Gamma, B$) is constructed on side $B\Gamma$, pointing outwards.\nLabels: The vertices are marked with Greek letters: $A$ (bottom-left), $B$ (bottom-right), $\Gamma$ (top-right), $\Delta$ (top-left), $E$ (center), $Z$ (far right).

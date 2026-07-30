@@ -1,2 +1,0 @@
-Description
-The image displays a symmetric, cross-shaped geometric figure (resembling a "plus" sign).\nComposition: As stated in the problem, the shape is constructed from five identical squares.\nArrangement: Imagine one central square, with four other squares attached to each of its four sides (top, bottom, left, and right).\nPerimeter: The outer boundary of the shape is formed by the exposed sides of the four outer squares.

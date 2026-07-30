@@ -1,2 +1,0 @@
-Description
-The image depicts a geometric problem on a grid background.\nBackground: A rectangular grid consisting of squares. The visible grid has dimensions of 6 squares wide by 5 squares high.\nShape: A triangle labeled $AB\Gamma$ ($ABC$) is drawn on this grid.\nVertex $A$ is located at coordinate $(1, 3)$ (relative to bottom-left grid origin).\nVertex $\Gamma$ is located at coordinate $(4, 4)$.\nVertex $B$ is located at coordinate $(5, 1)$.\nStyle: The vertices are marked with blue dots, and the sides are black straight lines.

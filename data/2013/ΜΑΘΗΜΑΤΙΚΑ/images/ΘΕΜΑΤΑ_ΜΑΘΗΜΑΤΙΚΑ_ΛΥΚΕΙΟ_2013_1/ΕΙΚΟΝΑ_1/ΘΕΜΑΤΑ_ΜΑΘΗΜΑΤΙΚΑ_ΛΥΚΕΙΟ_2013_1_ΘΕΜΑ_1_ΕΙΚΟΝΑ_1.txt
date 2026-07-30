@@ -1,5 +1,0 @@
-Description
-The attached image is a simple graphic illustration of a three-level number pyramid or arithmetic wall, used as a puzzle for a mathematical exercise. It displays a structure made of three rows of rectangular blocks, outlined in black and colored red/orange, resembling a small brick pyramid.\n1. Level 3 (Top): One block is visible, containing a number.\n2. Level 2 (Middle): Two blocks are visible.\n3. Level 1 (Bottom): Three blocks are visible. Three blocks in the pyramid are labeled with yellow numbers/values, while the remaining three blocks are empty, indicating the fields that need to be calculated and filled to complete the puzzle. The numbers provided use a comma ($,$) as the decimal separator, common in many European countries.
-
-Transcription
-Image Content (Numbers in the Blocks)\n| Level | Block Position | Value |\n| :---: | :---: | :---: |\n| Top | Center | $-4,5$ |\n| Bottom | Left | $6,7$ |\n| Bottom | Right | $-7,8$ |

@@ -1,5 +1,0 @@
-Description
-The image shows a triangle with an internal line segment drawn from the bottom-left vertex to the opposite right side.\nTriangle Structure: The geometry is a single large triangle with vertices marked by black dots. The problem text defines it as an equilateral triangle.\nBottom-Left Vertex: A straight line originates here and extends to the opposite side, splitting the vertex angle into two smaller angles labeled $\omega$ (omega) on top and $\varphi$ (phi) on the bottom.\nRight Side Intersection: The internal line meets the right side of the triangle. The angle formed between the internal line and the upper part of the right side is labeled $\theta$ (theta).
-
-Transcription
-Labels in the diagram:\n$\omega$\n$\varphi$\n$\theta$

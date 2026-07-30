@@ -1,5 +1,0 @@
-Description
-The image shows two straight lines, $y'z'$ and $yz$, intersecting at a central point $\text{O}$. The four angles formed by the intersection are expressed algebraically in terms of $x$ and $y$:\n1. Top Angle ($\angle y'Oz$): $3x - 40^\circ$.\n2. Bottom Angle ($\angle z'Oy$): $5x - 9y - 32^\circ$.\n3. Left Angle ($\angle y'Oz'$): $5y + 10^\circ$.\n4. Right Angle ($\angle zOy$): $-3x + 220^\circ$.\nThe diagram represents a classic geometry problem involving vertically opposite and supplementary angles. 
-
-Transcription
-Image Content (Angle Expressions)\n| Angle Position | Vertices | Algebraic Expression |\n| :--- | :--- | :--- |\n|Top | $\angle y'Oz$ | $3x - 40^\circ$ |\n|Bottom | $\angle z'Oy$ | $5x - 9y - 32^\circ$ |\n|Left | $\angle y'Oz'$ | $5y + 10^\circ$ |\n|Right | $\angle zOy$ | $-3x + 220^\circ$ |

@@ -108,9 +108,12 @@ For researchers working locally or using the source repository, the data is avai
 
 ### Repository Contents
 
-- **JSON Files**: Individual question objects with full provenance metadata.
-- **MD Files**: Markdown versions of the correct answers designed for human review.
+- **JSON Files**: *(Currently withheld for the double-blind review process)* Individual question objects with full provenance metadata.
+- **MD Files**: *(Currently withheld for the double-blind review process)* Markdown versions of the correct answers designed for human review.
 - **Excel Export**: A consolidated file (`protipa_exams_public.xlsx`) is provided in this repository, containing the public split of the dataset.
+- **`notebooks/`**: Jupyter notebooks used for exploratory data analysis, pipeline testing, and evaluation setup.
+- **`scripts/`**: Utility scripts for data management, validation, and automated publishing to the Hugging Face Hub.
+- **`src/`**: The core source code module, containing custom data loaders and the evaluation logic (e.g., Inspect AI configurations).
 
 ---
 

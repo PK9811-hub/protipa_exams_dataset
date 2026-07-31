@@ -1,6 +1,6 @@
-# GR-Protipa Exams Dataset
+# Prot-Ex Dataset
 
-GR-ProtipaExams ([Link withheld for double-blind review]) is a dataset derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Πρότυπα και Πειραματικά Σχολεία) in Greece. 
+Prot-Ex ([Link withheld for double-blind review]) is a dataset derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Πρότυπα και Πειραματικά Σχολεία) in Greece. 
 
 Spanning from 2013 to 2025, the dataset includes questions with the following features:
 

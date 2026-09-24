@@ -1,8 +1,8 @@
 # Prot-Ex Dataset
 
-Prot-Ex ([Link withheld for double-blind review]) is a dataset derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Πρότυπα και Πειραματικά Σχολεία) in Greece. 
+Prot-Ex ([ilsp/greek-protipa-exams](https://huggingface.co/datasets/ilsp/greek-protipa-exams)) is a dataset derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Πρότυπα και Πειραματικά Σχολεία) in Greece. 
 
-Spanning from 2013 to 2025, the dataset includes questions with the following features:
+Spanning from 2013 to 2026, the dataset includes questions with the following features:
 
 *   **Subjects**: Greek Language, Mathematics, Physics, and Religious Studies
 *   **Educational Levels**: Questions targeted at both Gymnasium (Γυμνάσιο) and Lyceum (Λύκειο) admission exams.
@@ -13,11 +13,11 @@ The benchmark can be used for the evaluation of LLMs on complex, multi-subject, 
 
 ## 🔍 Note 
 
-For the purposes of the double-blind review process, the direct link to the Hugging Face repository has been temporarily withheld. 
+The complete dataset is officially hosted and maintained on the **Hugging Face Hub**.
 
-To facilitate the review and allow inspection of the dataset's structure, formatting, and metadata, we have included a version of the dataset directly in this repository: **`protipa_exams_public.xlsx`**. 
+To facilitate quick inspection of the dataset's structure, formatting, and metadata directly from this repository, we have also included a consolidated export: **[protipa_exams_public.xlsx](./protipa_exams_public.xlsx)**.
 
-*Please note: This public file purposefully excludes the 2019 exam data, which was utilized as a private holdout set to prevent data contamination, as detailed in our manuscript.*
+Please note: Both the public Hugging Face repository and this Excel file purposefully exclude the **2019** exam data. This specific year is used as a private holdout test set to ensure rigorous, contamination-free model evaluation, as detailed in our preprint.
 
 ## Dataset Creation
 
@@ -98,7 +98,7 @@ else:
 ## Known Data Gaps
 
 - **Missing Year**: The year 2015 is currently missing as source files were unavailable.
-- **Missing Points**: Point values are only available for ~30% of rows (primarily 2013-2019 and 2025).
+- **Missing Points**: Point values are only available for ~30% of rows.
 
 ---
 
@@ -108,7 +108,6 @@ For researchers working locally or using the source repository, the data is avai
 
 ### Repository Contents
 
-- **data/**: *(Currently withheld for the double-blind review process)* Contains the raw structured files (JSON for questions, MD for answers) categorized by subject and year.
 - **Excel Export**: A consolidated file (`protipa_exams_public.xlsx`) is provided in this repository, containing the public split of the dataset.
 - **notebooks/**: Jupyter notebooks used for exploratory data analysis, pipeline testing, and evaluation setup.
 - **scripts/**: Utility scripts for data management, validation, and automated publishing to the Hugging Face Hub.
@@ -130,7 +129,7 @@ For researchers working locally or using the source repository, the data is avai
 ### 2. Known Data Gaps
 
 **Note on Data Gaps**: Due to the nature of public records, some limitations apply:
-- **Missing Points**: Point values are only populated in ~30% of rows (primarily 2013-2019 and 2025).
+- **Missing Points**: Point values are only populated in ~30% of rows.
 - **Missing Year**: The year 2015 is currently missing as source files were publicly unavailable.
 - **Missing Solutions**: Lyceum papers for 2014 (Greek) and 2018 (Greek/Math) lack official solution keys.
 
@@ -242,7 +241,7 @@ uv run inspect eval src/protipa_exams_dataset/evals/tasks.py \
 *   **API Tokens**: Create a `.env` file in the root directory with your Hugging Face credentials:
     ```bash
     HF_TOKEN=your_huggingface_write_token
-    HF_REPO_ID=your_username/greek-protipa-exams  # Your target namespace
+    HF_REPO_ID=ilsp/greek-protipa-exams 
     ```
 
 ### Management Commands

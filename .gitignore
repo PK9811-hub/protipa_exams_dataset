@@ -166,3 +166,4 @@ logs/
 
 #notebooks
 notebooks/test_connection.py
+scripts/fix_hf_viewer.py

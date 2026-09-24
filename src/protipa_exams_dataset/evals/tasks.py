@@ -18,7 +18,7 @@ PROMPTS_CONFIG = load_prompts()
 
 @task
 def generic_evaluation(
-    dataset_path: str = "anonymized_for_review/greek-protipa-exams-private",
+    dataset_path: str = "ilsp/greek-protipa-exams-private",
     dataset_name: str | None = "default",
     split: str = "test",
     fewshot_split: str = "dev",  

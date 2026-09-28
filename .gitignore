@@ -142,8 +142,8 @@ mkdocs/
 /presidio_mkdocs
 ideas
 *.xlsx
-!protipa_exams_public.xlsx
-docs/
+docs/*
+!docs/to_do_list_2.md
 data/
 
 Issues_with_protipa_exam_files.xlsx

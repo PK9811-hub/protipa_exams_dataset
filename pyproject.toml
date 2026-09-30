@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "argilla>=2.8.0",
     "bert-score>=0.3.13",
     "datasets>=4.4.2",
     "dotenv>=0.9.9",
@@ -12,11 +13,13 @@ dependencies = [
     "inspect-ai>=0.3.145",
     "ipykernel>=7.1.0",
     "ipywidgets>=8.1.8",
+    "jupytext>=1.19.5",
     "lm-eval[api]>=0.4.11",
     "openai>=2.15.0",
     "openpyxl>=3.1.5",
     "pandas",
     "pillow>=12.1.0",
+    "python-dotenv>=1.2.1",
     "seaborn>=0.13.2",
     "tabulate>=0.9.0",
     "zipfile-zstd>=0.0.4",

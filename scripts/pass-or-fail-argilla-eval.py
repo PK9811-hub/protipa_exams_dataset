@@ -57,6 +57,8 @@
 
 # %%
 import os
+import json
+import ast
 import base64
 from io import BytesIO
 from pathlib import Path
@@ -235,6 +237,43 @@ def images_to_markdown(images_list):
     return "\n\n".join(md_elements)
 
 
+def parse_dict_field(val):
+    """Parses a string representing a JSON object or Python dict into a dict."""
+    if val is None or pd.isna(val):
+        return {}
+    if isinstance(val, dict):
+        return val
+    if isinstance(val, str):
+        s = val.strip()
+        if s.startswith("{") and s.endswith("}"):
+            try:
+                parsed = json.loads(s)
+                if isinstance(parsed, dict):
+                    return parsed
+            except Exception:
+                try:
+                    parsed = ast.literal_eval(s)
+                    if isinstance(parsed, dict):
+                        return parsed
+                except Exception:
+                    pass
+    return {}
+
+
+def unpack_field(val, preferred_key=None):
+    """Extracts text content from a JSON dict or raw string field."""
+    parsed = parse_dict_field(val)
+    if parsed:
+        if preferred_key and preferred_key in parsed:
+            return str(parsed[preferred_key]).strip()
+        for k in ["answer", "reference", "question", "context", "text", "content"]:
+            if k in parsed:
+                return str(parsed[k]).strip()
+        if len(parsed) == 1:
+            return str(next(iter(parsed.values()))).strip()
+    return str(val).strip() if pd.notna(val) else ""
+
+
 # 1. Load CSV subset
 csv_url = "https://raw.githubusercontent.com/PK9811-hub/protipa_exams_dataset/main/human_evaluation_protipa_subset.csv"
 print(f"Fetching human evaluation CSV from {csv_url}...")
@@ -283,28 +322,35 @@ for _, row in df_subset.iterrows():
     qid = str(row["Question_ID"])
     hf_item = hf_index.get(qid, {})
 
+    # Extract CSV fields, unpacking possible JSON/dict structures
+    input_q_raw = row.get("Input_Question")
+    input_q_dict = parse_dict_field(input_q_raw)
+    csv_question = input_q_dict.get("question", "") if input_q_dict else str(input_q_raw or "").strip()
+    csv_context = input_q_dict.get("context", "") if input_q_dict else ""
+    csv_ans = unpack_field(row.get("Reference_Target"), preferred_key="reference")
+    model_ans = unpack_field(row.get("Model_Answer"), preferred_key="answer")
+
     if hf_item:
         matched_hf_count += 1
         # Extract enriched fields from HF dataset
-        question_text = str(hf_item.get("question") or row.get("Input_Question", ""))
-        context_input = str(hf_item.get("input") or "")
+        question_text = str(hf_item.get("question") or csv_question)
+        context_input = str(hf_item.get("input") or csv_context)
         images_rendered = images_to_markdown(hf_item.get("images", []))
         image_desc = str(hf_item.get("image_description") or hf_item.get("image_transcription") or "")
 
         # Reference answer: use HF answer_text and/or detailed solution from CSV
         hf_ans = str(hf_item.get("answer_text") or "").strip()
-        csv_ans = str(row.get("Reference_Target") or "").strip()
         if hf_ans and csv_ans and hf_ans != csv_ans:
             ref_ans = f"**Answer Key:** {hf_ans}\n\n**Detailed Solution:**\n{csv_ans}"
         else:
             ref_ans = hf_ans or csv_ans
     else:
         # Fallback to CSV fields if ID is not found in HF dataset
-        question_text = str(row.get("Input_Question", ""))
-        context_input = ""
+        question_text = csv_question
+        context_input = csv_context
         images_rendered = ""
         image_desc = ""
-        ref_ans = str(row.get("Reference_Target", ""))
+        ref_ans = csv_ans
 
     metadata = {
         "subject": str(row["Subject"]) if pd.notna(row["Subject"]) else "",
@@ -330,7 +376,7 @@ for _, row in df_subset.iterrows():
             "images": images_rendered,
             "image_description": image_desc,
             "reference_answer": ref_ans,
-            "answer": str(row["Model_Answer"]),
+            "answer": model_ans,
         },
         metadata=metadata,
     )

@@ -1,5 +1,17 @@
 # 📝 To-Do List: Paper Revision (Based on EACL 2027 Reviewer Feedback)
 
+## Top tier TODOs
+- Fix task types in paper (open-ended, closed, structured) - to be added in Appendix []
+- Check inpsect-ai logs in pgx1 []
+- Check Penny's access to pgx1 (/home/shared/acl_2027/inspect-ai/) []
+- Change train/dev split on Pan-Ex HF dataset to test/dev []
+- Change 'test' split in py scripts and notebooks []
+- Edit and enhance results tables with mistral judge scores []
+- Add statistics table (correlation score etc) []
+- Check latex issues in pass-or-fail-science subtask on Argilla []
+
+
+
 ## 1. Ανθρώπινη Αξιολόγηση & Επικύρωση Μετρικών 
 - [ ] **Αντιμετώπιση του Single-Judge Bias:** Να προστεθεί ανάλυση ανθεκτικότητας (robustness) του κριτή (π.χ. χρήση πολλαπλών judges αντί μόνο του Gemma-3-27B) για να αποδειχθεί ότι τα συμπεράσματα δεν βασίζονται σε ένα μεμονωμένο μοντέλο.
 - [ ] **Αιτιολόγηση Επιλογής:** Να προστεθεί σαφής αιτιολόγηση για τον λόγο που επιλέχθηκε συγκεκριμένα το `Gemma-3-27B` ως evaluator.

@@ -1,11 +1,11 @@
 # 📝 To-Do List: Paper Revision (Based on EACL 2027 Reviewer Feedback)
 
 ## Top tier TODOs
-- Fix task types in paper (open-ended, closed, structured) - to be added in Appendix []
+- Fix task types in paper (open-ended, closed, structured) - to be added in Appendix [X]
 - Check inpsect-ai logs in pgx1 []
 - Check Penny's access to pgx1 (/home/shared/acl_2027/inspect-ai/) []
-- Change train/dev split on Pan-Ex HF dataset to test/dev []
-- Change 'test' split in py scripts and notebooks []
+- Change train/dev split on Pan-Ex HF dataset to test/dev [X]
+- Change 'test' split in py scripts and notebooks [X]
 - Edit and enhance results tables with mistral judge scores []
 - Add statistics table (correlation score etc) []
 - Check latex issues in pass-or-fail-science subtask on Argilla []

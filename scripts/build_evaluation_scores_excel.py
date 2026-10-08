@@ -41,6 +41,14 @@ def load_mistral_scores(mistral_dir):
     """
     mistral_scores = {}
     
+    # Το λεξικό που "μεταφράζει" τα ονόματα των φακέλων στα ονόματα του CSV
+    MODEL_NAME_MAP = {
+        "gemma_4_26b": "gemma-4-26b-it-zero-shot",
+        "llama_krikri_8b": "krikri-8b-instruct-zero-shot",
+        "meta_llama_8b": "llama-3.1-8b-instruct-zero-shot",
+        "qwen_3_32b": "qwen3-32b-zero-shot"
+    }
+    
     if not mistral_dir.exists():
         logging.warning(f"Mistral directory not found at: {mistral_dir}")
         return mistral_scores
@@ -51,24 +59,23 @@ def load_mistral_scores(mistral_dir):
         try:
             eval_log = read_eval_log(str(log_file))
             
-            # Εξαγωγή του model_name από το path του αρχείου (π.χ. παίρνει το 'qwen_3_32b')
+            # Εξαγωγή του folder name και "μετάφραση" στο σωστό όνομα του CSV
             parts = log_file.parts
             model_name = "unknown"
             if "inspect-ai" in parts:
                 idx = parts.index("inspect-ai")
                 if idx + 1 < len(parts):
-                    model_name = parts[idx + 1]
+                    folder_name = parts[idx + 1]
+                    # Εδώ γίνεται το μαγικό: αν δεν το βρει στο map, κρατάει το folder_name
+                    model_name = MODEL_NAME_MAP.get(folder_name, folder_name)
 
             for sample in eval_log.samples:
-                # Το question_id είναι το κεντρικό id του sample
+                # Το question_id
                 q_id = str(sample.id).strip()
                 
                 mistral_score = None
                 if sample.scores:
-                    # Ψάχνουμε στα σκορ για να βρούμε συγκεκριμένα αυτό του Mistral
                     for metric_name, score_obj in sample.scores.items():
-                        
-                        # Ανάλογα με την έκδοση του inspect, το score_obj μπορεί να είναι dict ή object
                         if isinstance(score_obj, dict):
                             val = score_obj.get("value")
                             meta = score_obj.get("metadata", {})
@@ -78,7 +85,7 @@ def load_mistral_scores(mistral_dir):
                             
                         judge_model = str(meta.get("model", "")).lower()
                         
-                        # Ελέγχουμε αν το σκορ προέρχεται από τον Mistral ή λέγεται generic_judge_scorer1
+                        # Ελέγχουμε αν είναι το mistral ή το generic_judge_scorer1 (ο mistral)
                         if "mistral" in judge_model or "generic_judge_scorer1" in metric_name:
                             if val is not None:
                                 mistral_score = float(val)

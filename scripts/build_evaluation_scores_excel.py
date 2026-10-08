@@ -8,6 +8,7 @@ import numpy as np
 from scipy import stats
 from dotenv import load_dotenv
 import argilla as rg
+from inspect_ai.log import read_eval_log
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
@@ -35,7 +36,7 @@ CSV_OUT_PATH = Path(os.getenv("EVAL_CSV_OUT_PATH", BASE_DIR / "evaluation_scores
 
 def load_mistral_scores(mistral_dir):
     """
-    Διαβάζει τα Inspect logs από τον φάκελο του Mistral και επιστρέφει ένα dictionary.
+    Διαβάζει τα Inspect logs (.eval) από τον φάκελο του Mistral και επιστρέφει ένα dictionary.
     Επιστρέφει: {(question_id, model_name): mistral_score}
     """
     mistral_scores = {}
@@ -44,37 +45,46 @@ def load_mistral_scores(mistral_dir):
         logging.warning(f"Mistral directory not found at: {mistral_dir}")
         return mistral_scores
 
-    logging.info(f"Scanning for Mistral logs in: {mistral_dir}")
+    logging.info(f"Scanning for Mistral .eval logs in: {mistral_dir}")
     
-    # Λούπα σε όλα τα .json αρχεία
-    for log_file in mistral_dir.rglob("*.json"):
+    for log_file in mistral_dir.rglob("*.eval"):
         try:
-            with open(log_file, "r", encoding="utf-8") as f:
-                data = json.load(f)
+            eval_log = read_eval_log(str(log_file))
+            
+            # Εξαγωγή του model_name από το path του αρχείου (π.χ. παίρνει το 'qwen_3_32b')
+            parts = log_file.parts
+            model_name = "unknown"
+            if "inspect-ai" in parts:
+                idx = parts.index("inspect-ai")
+                if idx + 1 < len(parts):
+                    model_name = parts[idx + 1]
+
+            for sample in eval_log.samples:
+                # Το question_id είναι το κεντρικό id του sample
+                q_id = str(sample.id).strip()
                 
-            # Λούπα σε όλα τα samples του log
-            for sample in data.get("samples", []):
-                metadata = sample.get("metadata", {})
-                
-                # Το Inspect συνήθως αποθηκεύει το question_id και το model στο metadata
-                q_id = str(metadata.get("question_id", "")).strip()
-                model_name = str(metadata.get("model_name", "")).strip()
-                
-                # Παίρνουμε το σκορ από τα scores
-                score_dict = sample.get("scores", {})
-                
-                # Υποθέτουμε ότι το σκορ σώζεται κάτω από ένα κλειδί π.χ. "accuracy" ή "score"
-                # (Αν το Inspect log έχει διαφορετική δομή, θα χρειαστεί μικρή αλλαγή εδώ)
                 mistral_score = None
-                for metric_val in score_dict.values():
-                    if isinstance(metric_val, dict) and "value" in metric_val:
-                        mistral_score = float(metric_val["value"])
-                        break
-                    elif isinstance(metric_val, (int, float)):
-                        mistral_score = float(metric_val)
-                        break
+                if sample.scores:
+                    # Ψάχνουμε στα σκορ για να βρούμε συγκεκριμένα αυτό του Mistral
+                    for metric_name, score_obj in sample.scores.items():
+                        
+                        # Ανάλογα με την έκδοση του inspect, το score_obj μπορεί να είναι dict ή object
+                        if isinstance(score_obj, dict):
+                            val = score_obj.get("value")
+                            meta = score_obj.get("metadata", {})
+                        else:
+                            val = getattr(score_obj, "value", None)
+                            meta = getattr(score_obj, "metadata", {}) or {}
+                            
+                        judge_model = str(meta.get("model", "")).lower()
+                        
+                        # Ελέγχουμε αν το σκορ προέρχεται από τον Mistral ή λέγεται generic_judge_scorer1
+                        if "mistral" in judge_model or "generic_judge_scorer1" in metric_name:
+                            if val is not None:
+                                mistral_score = float(val)
+                            break
                 
-                if q_id and model_name and mistral_score is not None:
+                if q_id and model_name != "unknown" and mistral_score is not None:
                     mistral_scores[(q_id, model_name)] = mistral_score
                     
         except Exception as e:

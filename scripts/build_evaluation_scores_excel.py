@@ -217,6 +217,7 @@ def main():
 
     # 3. Read base CSV 
     df_prot = pd.read_csv(PROT_CSV_PATH)
+    df_prot.rename(columns={"LLM_Judge_Score": "Gemma_Judge_Score"}, inplace=True)
 
     # 4. Enrich df_prot with Argilla and Mistral data
     df_prot["Dataset"] = "Protipa Exams"

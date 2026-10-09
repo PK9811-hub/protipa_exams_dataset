@@ -41,7 +41,6 @@ def load_mistral_scores(mistral_dir):
     """
     mistral_scores = {}
     
-    # Το λεξικό που "μεταφράζει" τα ονόματα των φακέλων στα ονόματα του CSV
     MODEL_NAME_MAP = {
         "gemma_4_26b": "gemma-4-26b-it-zero-shot",
         "llama_krikri_8b": "krikri-8b-instruct-zero-shot",
@@ -59,18 +58,15 @@ def load_mistral_scores(mistral_dir):
         try:
             eval_log = read_eval_log(str(log_file))
             
-            # Εξαγωγή του folder name και "μετάφραση" στο σωστό όνομα του CSV
             parts = log_file.parts
             model_name = "unknown"
             if "inspect-ai" in parts:
                 idx = parts.index("inspect-ai")
                 if idx + 1 < len(parts):
                     folder_name = parts[idx + 1]
-                    # Εδώ γίνεται το μαγικό: αν δεν το βρει στο map, κρατάει το folder_name
                     model_name = MODEL_NAME_MAP.get(folder_name, folder_name)
 
             for sample in eval_log.samples:
-                # Το question_id
                 q_id = str(sample.id).strip()
                 
                 mistral_score = None
@@ -85,7 +81,6 @@ def load_mistral_scores(mistral_dir):
                             
                         judge_model = str(meta.get("model", "")).lower()
                         
-                        # Ελέγχουμε αν είναι το mistral ή το generic_judge_scorer1 (ο mistral)
                         if "mistral" in judge_model or "generic_judge_scorer1" in metric_name:
                             if val is not None:
                                 mistral_score = float(val)
@@ -216,17 +211,17 @@ def main():
 
     client = rg.Argilla(api_url=api_url, api_key=api_key)
 
-    # 1. Fetch Argilla dataset 
+    # Fetch Argilla dataset 
     prot_argilla = extract_argilla_dataset(client, ARGILLA_DATASET_PROT_EX, workspace_name)
     
-    # 2. Fetch Mistral scores from Inspect JSON logs
+    # Fetch Mistral scores from Inspect JSON logs
     mistral_scores = load_mistral_scores(MISTRAL_SCORES_DIR)
 
-    # 3. Read base CSV 
+    # Read base CSV 
     df_prot = pd.read_csv(PROT_CSV_PATH)
     df_prot.rename(columns={"LLM_Judge_Score": "Gemma_Judge_Score"}, inplace=True)
 
-    # 4. Enrich df_prot with Argilla and Mistral data
+    # Enrich df_prot with Argilla and Mistral data
     df_prot["Dataset"] = "Protipa Exams"
     df_prot["Source"] = "Argilla (pass-or-fail-prot_ex)"
     df_prot["Human_Grade"] = None
@@ -237,14 +232,12 @@ def main():
     for idx, row in df_prot.iterrows():
         key = (str(row["Question_ID"]).strip(), str(row["Model"]).strip())
         
-        # Προσθήκη δεδομένων Argilla
         if key in prot_argilla:
             info = prot_argilla[key]
             df_prot.at[idx, "Human_Grade"] = info["Human_Grade"]
             df_prot.at[idx, "Explanation"] = info["Explanation"]
             df_prot.at[idx, "Annotator_ID"] = info["Annotator_ID"]
             
-        # Προσθήκη δεδομένων Mistral
         if key in mistral_scores:
             df_prot.at[idx, "Mistral_Judge_Score"] = mistral_scores[key]
 
@@ -268,19 +261,15 @@ def main():
 
     df_prot_out = df_prot[[c for c in common_cols if c in df_prot.columns]].copy()
 
-    # 5. Compute correlation tables for both judges
-    # Υπολογισμός για Gemma 
     corr_gemma_model = compute_correlation_stats(df_prot_out, group_col="Model", judge_col="Gemma_Judge_Score")
-    # Υπολογισμός για Mistral 
+    
     corr_mistral_model = compute_correlation_stats(df_prot_out, group_col="Model", judge_col="Mistral_Judge_Score")
     
     corr_summary = pd.concat([corr_gemma_model, corr_mistral_model], ignore_index=True)
 
-    # 6. Write to CSV
     df_prot_out.to_csv(CSV_OUT_PATH, index=False, encoding="utf-8-sig")
     logging.info(f"Wrote master CSV: {CSV_OUT_PATH} ({len(df_prot_out)} rows)")
 
-    # 7. Write to Excel Workbook
     def clip_for_excel(df, max_len=32000):
         df_c = df.copy()
         for col in df_c.select_dtypes(include=["object", "str"]).columns:
@@ -293,7 +282,6 @@ def main():
 
     logging.info(f"Wrote Excel Workbook: {EXCEL_OUT_PATH}")
 
-    # Print summary metrics to stdout
     print("\n=== EVALUATION SUMMARY (PROTIPA ONLY) ===")
     print(f"Total Records: {len(df_prot_out)}")
     print(f"Human Evaluated Items: {df_prot_out['Human_Grade'].notna().sum()} / {len(df_prot_out)}")

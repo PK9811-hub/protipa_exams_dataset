@@ -1,6 +1,6 @@
 # Prot-Ex Dataset
 
-Prot-Ex ([anonymized/greek-protipa-exams](https://huggingface.co/datasets/anonymized/greek-protipa-exams)) is a dataset derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Πρότυπα και Πειραματικά Σχολεία) in Greece. 
+Prot-Ex ([ilsp/greek-protipa-exams](https://huggingface.co/datasets/ilsp/greek-protipa-exams)) is a dataset derived from publicly available exam questions and solutions used for student admission to Model and Experimental Schools (Πρότυπα και Πειραματικά Σχολεία) in Greece. 
 
 Spanning from 2013 to 2026, the dataset includes questions with the following features:
 
@@ -238,7 +238,7 @@ uv run inspect eval src/protipa_exams_dataset/evals/tasks.py \
 *   **API Tokens**: Create a `.env` file in the root directory with your Hugging Face credentials:
     ```bash
     HF_TOKEN=your_huggingface_write_token
-    HF_REPO_ID=anonymized/greek-protipa-exams 
+    HF_REPO_ID=ilsp/greek-protipa-exams 
     ```
 
 ### Management Commands

@@ -26,7 +26,7 @@
 #    - **Fields**: `Question ID`, `Context` (reading passages), `Question`, `Images`, `Image description`, `Reference answer`, and `Model answer`.
 #    - **Questions**: `Grade` discrete rating scale (`0.0`, `0.25`, `0.5`, `0.75`, `1.0`) and optional Greek `Explanation`.
 #    - **Metadata**: `Subject` and `Question ID` (visible to annotators); `Model` (`model_name`) is stored as metadata (hidden from annotators); LLM judge and BERT scores are omitted for blind grading.
-# 5. Fetches the human evaluation subset CSV and enriches each record with passages, images, and canonical solutions from the Hugging Face dataset (`anonymized/greek-protipa-exams`).
+# 5. Fetches the human evaluation subset CSV and enriches each record with passages, images, and canonical solutions from the Hugging Face dataset (`ilsp/greek-protipa-exams`).
 # 6. Uploads the enriched records to Argilla.
 #
 # ### Converting to an `.ipynb` Notebook
@@ -48,11 +48,11 @@
 #
 # | Variable | Description | Example / Default |
 # |---|---|---|
-# | `ARGILLA_API_URL` | Base URL of the remote Argilla server | `https://nlp.anonymized.gr/argilla/` |
+# | `ARGILLA_API_URL` | Base URL of the remote Argilla server | `https://nlp.ilsp.gr/argilla/` |
 # | `ARGILLA_API_KEY` | API Key for Argilla owner/admin operations | `nfx_...` |
 # | `ARGILLA_POF_WORKSPACE` | Target Argilla workspace for the project | `pass-or-fail` |
 # | `ARGILLA_DATASET_PROT_EX` | Name of the Argilla evaluation dataset | `pass-or-fail-prot_ex` |
-# | `PROT_EX_DATASET` | Hugging Face repository for Protipa exams | `anonymized/greek-protipa-exams` |
+# | `PROT_EX_DATASET` | Hugging Face repository for Protipa exams | `ilsp/greek-protipa-exams` |
 # | `HF_TOKEN` | Hugging Face API token for dataset access | `hf_...` |
 
 # %%
@@ -88,7 +88,7 @@ argilla_api_url = env.get("ARGILLA_API_URL")
 argilla_api_key = env.get("ARGILLA_API_KEY")
 workspace_name = env.get("ARGILLA_POF_WORKSPACE", "pass-or-fail")
 dataset_name = env.get("ARGILLA_DATASET_PROT_EX", "pass-or-fail-prot_ex")
-prot_ex_hf_repo = env.get("PROT_EX_DATASET", "anonymized/greek-protipa-exams")
+prot_ex_hf_repo = env.get("PROT_EX_DATASET", "ilsp/greek-protipa-exams")
 hf_token = env.get("HF_TOKEN")
 
 if hf_token:

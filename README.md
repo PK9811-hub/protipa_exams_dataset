@@ -15,9 +15,7 @@ The benchmark can be used for the evaluation of LLMs on complex, multi-subject, 
 
 The complete dataset is officially hosted and maintained on the **Hugging Face Hub**.
 
-To facilitate quick inspection of the dataset's structure, formatting, and metadata directly from this repository, we have also included a consolidated export: **[protipa_exams_public.xlsx](./protipa_exams_public.xlsx)**.
-
-Please note: Both the public Hugging Face repository and this Excel file purposefully exclude the **2019** exam data. This specific year is used as a private holdout test set to ensure rigorous, contamination-free model evaluation, as detailed in our preprint.
+Please note: The public Hugging Face repository purposefully excludes the **2019** exam data. This specific year is used as a private holdout test set to ensure rigorous, contamination-free model evaluation, as detailed in our preprint.
 
 ## Dataset Creation
 

@@ -2,7 +2,7 @@ from datasets import load_dataset
 import pandas as pd
 
 def main():
-    private_repo = "ilsp/greek-protipa-exams-private"
+    private_repo = "anonymized/greek-protipa-exams-private"
     
     print(f"Downloading the full dataset from: {private_repo}")
     dataset = load_dataset(private_repo, split="test")

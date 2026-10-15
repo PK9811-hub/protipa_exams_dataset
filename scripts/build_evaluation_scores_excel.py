@@ -34,12 +34,13 @@ MISTRAL_SCORES_DIR = Path(os.getenv("MISTRAL_SCORES_DIR", "/home/shared/acl_2027
 EXCEL_OUT_PATH = Path(os.getenv("EVAL_EXCEL_OUT_PATH", BASE_DIR / "evaluation_scores_master.xlsx")).resolve()
 CSV_OUT_PATH = Path(os.getenv("EVAL_CSV_OUT_PATH", BASE_DIR / "evaluation_scores_master.csv")).resolve()
 
-def load_mistral_scores(mistral_dir):
+def load_judge_logs(mistral_dir):
     """
-    Διαβάζει τα Inspect logs (.eval) από τον φάκελο του Mistral και επιστρέφει ένα dictionary.
-    Επιστρέφει: {(question_id, model_name): mistral_score}
+    Διαβάζει τα Inspect logs (.eval) και επιστρέφει ένα dictionary με scores και explanations
+    και για τους δύο κριτές (Gemma & Mistral).
+    Επιστρέφει: {(question_id, model_name): {"mistral_score": val, "gemma_exp": str, "mistral_exp": str}}
     """
-    mistral_scores = {}
+    judge_data = {}
     
     MODEL_NAME_MAP = {
         "gemma_4_26b": "gemma-4-26b-it-zero-shot",
@@ -50,9 +51,9 @@ def load_mistral_scores(mistral_dir):
     
     if not mistral_dir.exists():
         logging.warning(f"Mistral directory not found at: {mistral_dir}")
-        return mistral_scores
+        return judge_data
 
-    logging.info(f"Scanning for Mistral .eval logs in: {mistral_dir}")
+    logging.info(f"Scanning for .eval logs in: {mistral_dir}")
     
     for log_file in mistral_dir.rglob("*.eval"):
         try:
@@ -70,30 +71,44 @@ def load_mistral_scores(mistral_dir):
                 q_id = str(sample.id).strip()
                 
                 mistral_score = None
+                gemma_exp = None
+                mistral_exp = None
+                
                 if sample.scores:
                     for metric_name, score_obj in sample.scores.items():
                         if isinstance(score_obj, dict):
                             val = score_obj.get("value")
+                            exp = score_obj.get("explanation")
                             meta = score_obj.get("metadata", {})
                         else:
                             val = getattr(score_obj, "value", None)
+                            exp = getattr(score_obj, "explanation", None)
                             meta = getattr(score_obj, "metadata", {}) or {}
                             
                         judge_model = str(meta.get("model", "")).lower()
                         
+                        # Gemma Logic (generic_judge_scorer)
+                        if metric_name == "generic_judge_scorer":
+                            gemma_exp = exp
+                            
+                        # Mistral Logic (generic_judge_scorer1)
                         if "mistral" in judge_model or "generic_judge_scorer1" in metric_name:
                             if val is not None:
                                 mistral_score = float(val)
-                            break
+                            mistral_exp = exp
                 
-                if q_id and model_name != "unknown" and mistral_score is not None:
-                    mistral_scores[(q_id, model_name)] = mistral_score
+                if q_id and model_name != "unknown":
+                    judge_data[(q_id, model_name)] = {
+                        "mistral_score": mistral_score,
+                        "gemma_explanation": gemma_exp,
+                        "mistral_explanation": mistral_exp
+                    }
                     
         except Exception as e:
-            logging.error(f"Error processing Mistral log {log_file.name}: {e}")
+            logging.error(f"Error processing log {log_file.name}: {e}")
             
-    logging.info(f"Loaded {len(mistral_scores)} Mistral scores.")
-    return mistral_scores
+    logging.info(f"Loaded logs for {len(judge_data)} evaluated samples.")
+    return judge_data
 
 def extract_argilla_dataset(client, dataset_name, workspace_name):
     """Extract annotations from an Argilla dataset and resolve multiple responses with seed."""
@@ -139,7 +154,7 @@ def extract_argilla_dataset(client, dataset_name, workspace_name):
 
         records_map[(q_id, model_name)] = {
             "Human_Grade": human_grade,
-            "Explanation": human_explanation,
+            "Human_Explanation": human_explanation,
             "Annotator_ID": user_id,
             "Subject_Argilla": subject,
         }
@@ -214,8 +229,8 @@ def main():
     # Fetch Argilla dataset 
     prot_argilla = extract_argilla_dataset(client, ARGILLA_DATASET_PROT_EX, workspace_name)
     
-    # Fetch Mistral scores from Inspect JSON logs
-    mistral_scores = load_mistral_scores(MISTRAL_SCORES_DIR)
+    # Fetch Mistral scores & Explanations from Inspect JSON logs
+    judge_logs_data = load_judge_logs(MISTRAL_SCORES_DIR)
 
     # Read base CSV 
     df_prot = pd.read_csv(PROT_CSV_PATH)
@@ -225,21 +240,29 @@ def main():
     df_prot["Dataset"] = "Protipa Exams"
     df_prot["Source"] = "Argilla (pass-or-fail-prot_ex)"
     df_prot["Human_Grade"] = None
-    df_prot["Explanation"] = None
+    df_prot["Human_Explanation"] = None
+    df_prot["Gemma_Explanation"] = None
+    df_prot["Mistral_Explanation"] = None
     df_prot["Annotator_ID"] = None
     df_prot["Mistral_Judge_Score"] = None
 
     for idx, row in df_prot.iterrows():
         key = (str(row["Question_ID"]).strip(), str(row["Model"]).strip())
         
+        # Merge Argilla Human Data
         if key in prot_argilla:
             info = prot_argilla[key]
             df_prot.at[idx, "Human_Grade"] = info["Human_Grade"]
-            df_prot.at[idx, "Explanation"] = info["Explanation"]
+            df_prot.at[idx, "Human_Explanation"] = info["Human_Explanation"]
             df_prot.at[idx, "Annotator_ID"] = info["Annotator_ID"]
             
-        if key in mistral_scores:
-            df_prot.at[idx, "Mistral_Judge_Score"] = mistral_scores[key]
+        # Merge Judge Data (Mistral Score & Both Explanations)
+        if key in judge_logs_data:
+            j_data = judge_logs_data[key]
+            if j_data["mistral_score"] is not None:
+                df_prot.at[idx, "Mistral_Judge_Score"] = j_data["mistral_score"]
+            df_prot.at[idx, "Gemma_Explanation"] = j_data["gemma_explanation"]
+            df_prot.at[idx, "Mistral_Explanation"] = j_data["mistral_explanation"]
 
     # Canonical columns order
     common_cols = [
@@ -251,10 +274,12 @@ def main():
         "Reference_Target",
         "Model_Answer",
         "Gemma_Judge_Score", 
+        "Gemma_Explanation",
         "Mistral_Judge_Score", 
-        "BERTScore",
+        "Mistral_Explanation",
         "Human_Grade",
-        "Explanation",
+        "Human_Explanation",
+        "BERTScore",
         "Source",
         "Annotator_ID",
     ]
@@ -262,7 +287,6 @@ def main():
     df_prot_out = df_prot[[c for c in common_cols if c in df_prot.columns]].copy()
 
     corr_gemma_model = compute_correlation_stats(df_prot_out, group_col="Model", judge_col="Gemma_Judge_Score")
-    
     corr_mistral_model = compute_correlation_stats(df_prot_out, group_col="Model", judge_col="Mistral_Judge_Score")
     
     corr_summary = pd.concat([corr_gemma_model, corr_mistral_model], ignore_index=True)

@@ -170,3 +170,5 @@ notebooks/test_connection.py
 scripts/fix_hf_viewer.py
 scripts/evaluation_scores_master.csv
 scripts/human_evaluation_protipa_subset.csv
+
+human_evaluation_protipa_subset.csv

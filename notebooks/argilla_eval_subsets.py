@@ -53,7 +53,6 @@ def images_to_markdown(images_list):
     return "\n\n".join(md_elements)
 
 
-
 def create_or_get_argilla_dataset(client, dataset_name, workspace_name):
     existing = client.datasets(name=dataset_name, workspace=workspace_name)
     if existing:
@@ -78,55 +77,61 @@ def create_or_get_argilla_dataset(client, dataset_name, workspace_name):
         rg.TextField(name="mistral_explanation", title="Mistral Explanation", use_markdown=True),
         rg.TextField(name="bert_score", title="BERTScore")
     ]
-
+    
     questions = [
-        rg.LabelQuestion(
-            name="best_alignment",
-            title="1. Ποιος κριτής προσέγγισε καλύτερα την ανθρώπινη βαθμολογία (human grade) και λογική (human explanation), εάν υπάρχουν;",
-            labels=["Μόνο το Gemma", "Μόνο το Mistral", "Και οι δύο εξίσου", "Κανένας"],
+        rg.RatingQuestion(
+            name="ref_completeness",
+            title="1. [Reference] Πληρότητα Πρότυπης Απάντησης",
+            values=[1, 2, 3, 4, 5],
+            description="1 = Απλή οδηγία/rubric διόρθωσης, 5 = Πλήρης και άρτια λύση",
             required=True
         ),
         rg.LabelQuestion(
-            name="leniency",
-            title="2. Ποιο μοντέλο/κριτής είναι πιο επιεικές στο συγκεκριμένο παράδειγμα;",
-            labels=["Το Gemma είναι πιο επιεικές", "Το Mistral είναι πιο επιεικές", "Ίδια αυστηρότητα/επιείκεια"],
+            name="student_naturalness",
+            title="2. [Μαθητής] Η απάντηση έχει φυσική ροή λόγου (απαντάει σαν πραγματικός μαθητής);",
+            labels=["Ναι", "Όχι"],
+            description="Ναι = Φυσική ροή, Όχι = Ρομποτικό/Μηχανικό ύφος",
+            required=True
+        ),
+        rg.LabelQuestion(
+            name="student_loop",
+            title="3. [Μαθητής] Το μοντέλο-μαθητής πέφτει σε συνεχή λούπα (repetitive/hallucinated);",
+            labels=["Ναι", "Όχι"],
+            required=True
+        ),
+        rg.LabelQuestion(
+            name="best_alignment",
+            title="4. [Κριτές] Ποιος κριτής προσέγγισε καλύτερα την ανθρώπινη λογική (human explanation);",
+            labels=["Μόνο το Gemma", "Μόνο το Mistral", "Και οι δύο εξίσου", "Κανένας", "N/A"],
             required=True
         ),
         rg.RatingQuestion(
             name="gemma_quality",
-            title="3. Ποιότητα εξήγησης Gemma",
+            title="5. [Κριτές] Ποιότητα εξήγησης Gemma",
             values=[1, 2, 3, 4, 5],
             description="1=Λάθος λογική/Παραίσθηση, 5=Άψογη τεκμηρίωση",
             required=True
         ),
         rg.RatingQuestion(
             name="mistral_quality",
-            title="4. Ποιότητα εξήγησης Mistral",
+            title="6. [Κριτές] Ποιότητα εξήγησης Mistral",
             values=[1, 2, 3, 4, 5],
             description="1=Λάθος λογική/Παραίσθηση, 5=Άψογη τεκμηρίωση",
             required=True
         ),
-        rg.LabelQuestion(
-            name="student_loop",
-            title="5. Το μοντέλο-μαθητής πέφτει σε συνεχή λούπα (repetitive/hallucinated) και δε δίνει άρτια απάντηση;",
-            labels=["Ναι", "Όχι"],
-            required=True
-        ),
         rg.TextQuestion(
             name="notes",
-            title="6. Σχόλια (Προαιρετικό)",
+            title="7. Σχόλια (Προαιρετικό)",
             description="Σημειώσεις για την αξιολόγηση",
             required=False
         )
     ]
 
-    guidelines = """**Οδηγίες Ποιοτικού Ελέγχου LLM-as-a-Judge:**
-1. **Διαβάστε την απάντηση:** Ελέγξτε την απάντηση του llm - μαθητή συγκρίνοντάς τη με το Reference.
-2. **Συγκρίνετε:** Δείτε τον βαθμό του ανθρώπου βαθμολογητή έναντι των Gemma και Mistral.
-3. **Ελέγξτε τις Εξηγήσεις:** 
-   * Προσοχή στην "τυφλή επιείκεια".
-   * Προσοχή στην "υπερβολική αυστηρότητα".
-4. **Αξιολογήστε:** Εντοπίστε ποιος κριτής βρήκε τα πραγματικά λάθη χωρίς να εφευρίσκει κανόνες (hallucinations)."""
+    guidelines = """**Οδηγίες Ποιοτικού Ελέγχου LLM-as-a-Judge & Μοντέλου-Μαθητή:**
+1. **[Reference] Πληρότητα:** Ελέγξτε αν το Reference Target είναι μια πλήρης απάντηση (5) ή απλώς οδηγίες διόρθωσης/βήματα (1).
+2. **[Μαθητής] Φυσικότητα & Λούπες:** Διαβάστε την απάντηση του μοντέλου-μαθητή. Απαντάει με φυσική ροή σαν μαθητής (ακόμα και αν κάνει λάθος) ή ρομποτικά; Μήπως "κόλλησε" σε επαναλαμβανόμενη λούπα;
+3. **[Κριτές] Σύγκριση με τον Άνθρωπο:** Δείτε τον βαθμό και την εξήγηση του ανθρώπου έναντι των Gemma και Mistral.
+4. **[Κριτές] Ποιότητα Εξηγήσεων:** Αξιολογήστε την τεκμηρίωση των LLM-κριτών. Προσοχή στην "τυφλή επιείκεια" και την "υπερβολική αυστηρότητα". Τιμωρήστε εξηγήσεις που εφευρίσκουν ανύπαρκτα λάθη (hallucinations)."""
 
     metadata_properties = [
         rg.TermsMetadataProperty(name="model_evaluated_meta", title="Evaluated Model"),
